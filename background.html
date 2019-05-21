@@ -5,153 +5,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="js/accordion.js"></script>
     <script type="text/javascript" src="js/background.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
     <link rel="stylesheet" href="https://use.typekit.net/hgq1zqp.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300|Playfair+Display&display=swap" />
     <link rel="stylesheet" href="css/accordion.css" />
     <link rel="stylesheet" href="css/background.css" />
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-shrink" id="mainNav">
-      <div class="container-fluid">
-        <a class="navbar-brand js-scroll-trigger d-none d-sm-block" href="#page-top">Lighting Research Center</a>
-  	    <a class="navbar-brand js-scroll-trigger d-block d-sm-none" href="#page-top">Lighting Research Center</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars fa-2x"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-      		  <li class="nav-item">
-              <a class="nav-link js-scroll-trigger active" href="#page-top">Background</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="application.html">Application</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Navbar -->
-
-    <!-- Banner -->
-    <div class=" container-fluid banner">
-      <div class="banner-text text-center stroke">
-        <h1>Lighting Patterns for Healthy Buildings</h1>
-        <p class="italic">Advancing the effective use of light for society and the environment.</p>
-      </div>
-    </div>
-    <!-- Banner -->
-
-    <!-- Main Content -->
-    <div class="container-fluid">
-      <div class="row">
-
-        <!-- Accordion -->
-        <div class="col-md-3 col-sm-12 p-0 accordion">
-          <div id="jquery-accordion-menu" class="jquery-accordion-menu">
-				    <div class="jquery-accordion-menu-header text-center p-0 m-0">Information / FAQ</div>
-    				<ul>
-    					<li><a href="#">This Site</a>
-    						<ul class="submenu">
-    							<li><a href="#" id="1">Introduction</a></li>
-    							<li><a href="#" id="2">How Do I Use the Application Portion?</a></li>
-    						</ul>
-    					</li>
-              <li><a href="#">Resources</a>
-    						<ul class="submenu">
-    							<li><a href="#" id="3">UL</a></li>
-    							<li><a href="#" id="4">CS Calculator</a></li>
-                  <li><a href="#" id="5">Links</a></li>
-                  <li><a href="#" id="6">Summary of links</a></li>
-    						</ul>
-    					</li>
-              <li><a href="#">Lighting</a>
-    						<ul class="submenu">
-    							<li><a href="#" id="7">Structure of the eye</a></li>
-    							<li><a href="#" id="8">How does a person see color?</a></li>
-                  <li><a href="#" id="9">Distribution of Rods and Cones in the Retina</a></li>
-                  <li><a href="#" id="10">Opponent-Process Theory</a></li>
-                  <li><a href="#" id="11">SPD</a></li>
-                  <li><a href="#" id="12">White Light and CCT?</a></li>
-                  <li><a href="#" id="13">Colorblindness</a></li>
-                  <li><a href="#" id="14">Broadband vs. Narrowband Source</a></li>
-                  <li><a href="#" id="15">CIE Chromaticity Diagram</a></li>
-                  <li><a href="#" id="16">Horizontal and Vertical Illuminance</a></li>
-                  <li><a href="#" id="17">ipRGCs</a></li>
-                  <li><a href="#" id="18">CS</a></li>
-                  <li><a href="#" id="19">Circadian Lighting</a></li>
-                  <li><a href="#" id="20">How to use the CS Calculator</a></li>
-                  <li><a href="#" id="21">How to Read the CS Schedule Charts</a></li>
-                  <li><a href="#" id="22">How to Pick a CCT System</a></li>
-                  <li><a href="#" id="23">How to pick a target CS Value</a></li>
-                  <li><a href="#" id="24">CRI</a></li>
-                  <li><a href="#" id="25">Glare</a></li>
-                  <li><a href="#" id="26">Light Loss Factor (LLF)</a></li>
-                  <li><a href="#" id="27">Pot-lunch Dip</a></li>
-    						</ul>
-    					</li>
-              <li><a href="#">Office</a>
-    						<ul class="submenu">
-    							<li><a href="#" id="28">General Information</a></li>
-    							<li><a href="#" id="29">How to Improve Alertness</a></li>
-    						</ul>
-    					</li>
-              <li><a href="#">Senior Care</a>
-    						<ul class="submenu">
-    							<li><a href="#" id="30">General Information</a></li>
-    							<li><a href="#" id="31">How Light Can Help the Elder</a></li>
-                  <li><a href="#" id="32">Eye Diseases in the Elder</a>
-                    <ul class="submenu">
-                      <li><a href="#" id="33">Pre-retinal</a></li>
-                      <li><a href="#" id="34">Age-related Eye Diseases</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#" id="35">Alzheimer's</a></li>
-                  <li><a href="#" id="36">How to Reduce Falls</a></li>
-                  <li><a href="#" id="37">Does the Orientation of the Building's Walls Matter?</a></li>
-                  <li><a href="#" id="38">How to Increase Task Visibility</a></li>
-                  <li><a href="#" id="39">Other Design Ideas</a></li>
-    						</ul>
-    					</li>
-              <li><a href="#">Schools</a>
-    						<ul class="submenu">
-    							<li><a href="#" id="40">General Information</a></li>
-    							<li><a href="#" id="41">Lighting For Adolescents</a></li>
-                  <li><a href="#" id="42">Sleep in Adolescents</a></li>
-    						</ul>
-    					</li>
-              <li><a href="#">Healthcare</a>
-                <ul class="submenu">
-                  <li><a href="#" id="43">General Information</a></li>
-                  <li><a href="#" id="44">NICU</a></li>
-                  <li><a href="#" id="45">Night Shift Lighting</a></li>
-                  <li><a href="#" id="46">Lighting and Patient Recovery</a></li>
-                  <li><a href="#" id="47">Patient Orientation</a></li>
-                </ul>
+    <div class="box">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-shrink" id="mainNav">
+        <div class="container-fluid">
+          <a class="navbar-brand js-scroll-trigger d-none d-sm-block" href="#page-top">Lighting Research Center</a>
+    	    <a class="navbar-brand js-scroll-trigger d-block d-sm-none" href="#page-top">Lighting Research Center</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars fa-2x"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+        		  <li class="nav-item">
+                <a class="nav-link js-scroll-trigger active" href="#page-top">Background</a>
               </li>
-              <li><a href="#">Shared Circadian Design</a>
-                <ul class="submenu">
-                  <li><a href="#" id="48">Share Your Circadian Designs With Us!</a></li>
-                  <li><a href="#" id="49">Want Help Creating a Circadian Design? Contact Us!</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="application.html">Application</a>
               </li>
-    				</ul>
-			    </div>
-        </div>
-        <!-- Accordion -->
-
-        <div class="col-md-9 col-sm-12 text-center">
-          <div class="container pt-3" id="content">
+            </ul>
           </div>
         </div>
+      </nav>
+      <!-- Navbar -->
+
+      <!-- Banner -->
+      <div class=" container-fluid banner">
+        <div class="banner-text text-center stroke">
+          <h1>Lighting Patterns for Healthy Buildings</h1>
+          <p class="italic">Advancing the effective use of light for society and the environment.</p>
+        </div>
       </div>
+      <!-- Banner -->
+
+      <!-- Main Content -->
+      <div class="container-fluid">
+        <div class="row content-row">
+
+          <!-- Accordion -->
+          <div class=" col-xl-3 col-lg-4 col-md-5 col-sm-12 p-0 accordion">
+            <div id="jquery-accordion-menu" class="jquery-accordion-menu">
+  				    <div class="jquery-accordion-menu-header text-center p-0 m-0">Information / FAQ</div>
+      				<ul>
+      					<li><a href="#">This Site</a>
+      						<ul class="submenu">
+      							<li><a href="#" id="1">Introduction</a></li>
+      							<li><a href="#" id="2">How Do I Use the Application Portion?</a></li>
+      						</ul>
+      					</li>
+                <li><a href="#">Resources</a>
+      						<ul class="submenu">
+      							<li><a href="#" id="3">UL</a></li>
+      							<li><a href="#" id="4">CS Calculator</a></li>
+                    <li><a href="#" id="5">Links</a></li>
+                    <li><a href="#" id="6">Summary of links</a></li>
+      						</ul>
+      					</li>
+                <li><a href="#">Lighting</a>
+      						<ul class="submenu">
+      							<li><a href="#" id="7">Structure of the eEye</a></li>
+      							<li><a href="#" id="8">How Does a Person See Color?</a></li>
+                    <li><a href="#" id="9">Distribution of Rods and Cones in the Retina</a></li>
+                    <li><a href="#" id="10">Opponent-Process Theory</a></li>
+                    <li><a href="#" id="11">SPD</a></li>
+                    <li><a href="#" id="12">White Light and CCT</a></li>
+                    <li><a href="#" id="13">Colorblindness</a></li>
+                    <li><a href="#" id="14">Broadband vs. Narrowband Source</a></li>
+                    <li><a href="#" id="15">CIE Chromaticity Diagram</a></li>
+                    <li><a href="#" id="16">Horizontal and Vertical Illuminance</a></li>
+                    <li><a href="#" id="17">ipRGCs</a></li>
+                    <li><a href="#" id="18">CS</a></li>
+                    <li><a href="#" id="19">Circadian Lighting</a></li>
+                    <li><a href="#" id="20">How to use the CS Calculator</a></li>
+                    <li><a href="#" id="21">How to Read the CS Schedule Charts</a></li>
+                    <li><a href="#" id="22">How to Pick a CCT System</a></li>
+                    <li><a href="#" id="23">How to pick a target CS Value</a></li>
+                    <li><a href="#" id="24">CRI</a></li>
+                    <li><a href="#" id="25">Glare</a></li>
+                    <li><a href="#" id="26">Light Loss Factor (LLF)</a></li>
+                    <li><a href="#" id="27">Pot-lunch Dip</a></li>
+      						</ul>
+      					</li>
+                <li><a href="#">Office</a>
+      						<ul class="submenu">
+      							<li><a href="#" id="28">General Information</a></li>
+      							<li><a href="#" id="29">How to Improve Alertness</a></li>
+      						</ul>
+      					</li>
+                <li><a href="#">Senior Care</a>
+      						<ul class="submenu">
+      							<li><a href="#" id="30">General Information</a></li>
+      							<li><a href="#" id="31">How Light Can Help the Elder</a></li>
+                    <li><a href="#" id="32">Eye Diseases in the Elder</a>
+                      <ul class="submenu">
+                        <li><a href="#" id="33">Pre-retinal</a></li>
+                        <li><a href="#" id="34">Age-related Eye Diseases</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#" id="35">Alzheimer's</a></li>
+                    <li><a href="#" id="36">How to Reduce Falls</a></li>
+                    <li><a href="#" id="37">Does the Orientation of the Building's Walls Matter?</a></li>
+                    <li><a href="#" id="38">How to Increase Task Visibility</a></li>
+                    <li><a href="#" id="39">Other Design Ideas</a></li>
+      						</ul>
+      					</li>
+                <li><a href="#">Schools</a>
+      						<ul class="submenu">
+      							<li><a href="#" id="40">General Information</a></li>
+      							<li><a href="#" id="41">Lighting For Adolescents</a></li>
+                    <li><a href="#" id="42">Sleep in Adolescents</a></li>
+      						</ul>
+      					</li>
+                <li><a href="#">Healthcare</a>
+                  <ul class="submenu">
+                    <li><a href="#" id="43">General Information</a></li>
+                    <li><a href="#" id="44">NICU</a></li>
+                    <li><a href="#" id="45">Night Shift Lighting</a></li>
+                    <li><a href="#" id="46">Lighting and Patient Recovery</a></li>
+                    <li><a href="#" id="47">Patient Orientation</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Shared Circadian Design</a>
+                  <ul class="submenu">
+                    <li><a href="#" id="48">Share Your Circadian Designs With Us!</a></li>
+                    <li><a href="#" id="49">Want Help Creating a Circadian Design? Contact Us!</a></li>
+                  </ul>
+                </li>
+      				</ul>
+  			    </div>
+          </div>
+          <!-- Accordion -->
+
+          <!-- Main Content -->
+          <div class="col-xl-9 col-lg-8 col-md-7 col-sm-12 text-center content-wrapper">
+            <div class="pt-3 pr-4" id="content">
+              <h1>Introduction</h1><p class="text-justify">All creatures, great and small, are governed by the earth’s 24-hour cycle of light and dark, day and night. Light reaching the back of our eyes is the main stimulus that helps the circadian clock, and thus circadian rhythms, to synchronize with the 24-hour day. Circadian rhythms are every rhythm in our body that repeat at approximately every 24 hours, such as the sleep-wake cycle. In the absence of this daily light-dark pattern, the circadian system will run with a period slightly greater than 24 hours (on average, 24.2 hours) and, therefore, will be desynchronized with the local time on earth. Light of the appropriate quantity, spectrum, duration, and timing can have profound effect on sleep, alertness, performance, and mood. Irregular light-dark patterns or exposure to light at the wrong circadian time may lead to circadian disruption. Short-term circadian disruption leads to poor sleep and poor performance. Circadian disruption over many years, such as that experienced by night shift workers, has been associated with health risks, including diabetes, obesity, cardiovascular disease, and cancer. </p><figure class="float-left"><img src="img/information/1/1.png" width="450px" alt="Research - Education - Application Diagram" /></figure><p class="text-justify">This site aims to connect the dots between research in lighting, the education of lighting research, and the application of the lighting into real-life scenarios by providing design suggestions for specific facility types and groups of people within them. Educating designers, manufacturers, and the general public would lead to better application of circadian lighting within the needs of specific user groups. To learn more about lighting and what it can do, click on the questions in the tabs to the left. Within the text, click on underlined terms to bring up quick definitions.</p><p class="text-justify">To learn more about specific applications, click the ‘Application’ button in the upper right. Navigation between facility, room, and fixture types show examples of how the varying components of lighting (fixture type, distribution, lumen output, tint of white light, intensity, etc.) impact design. Room renders, fixture layout and descriptions, and circadian charts give an idea of how circadian <a href="#" data-toggle="popover" title="Popover title" data-placement="top" data-trigger="hover" data-content="And heres some amazing content. Its very engaging. Right?">lighting</a> designs can be achieved.</p>
+            </div>
+          </div>
+          <!-- Main Content -->
+
+        </div>
+      </div>
+
     </div>
-    <!-- Main Content -->
+
 
   </body>
 </html>
