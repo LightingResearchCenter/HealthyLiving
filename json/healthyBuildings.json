@@ -1,0 +1,344 @@
+{"Facilities":
+  {
+    "Senior Care" :
+    {
+      "Assisted Living Single with Kitchen" :
+      {
+        "2x4 Troffers" :
+        {
+          "0.4" :
+          {
+            "Static" :
+            {
+              "6500 K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000 K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000 K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000 K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700 K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K","5000K -> 4000K -> 3000K -> 2700K"]
+          },
+          "0.3" :
+          {
+            "Static" :
+            {
+              "6500 K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000 K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000 K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000 K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700 K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+          }
+        },
+        "Downlights" :
+        {
+          "0.4" :
+          {
+            "Static" :
+            {
+              "6500K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K","5000K -> 4000K -> 3000K -> 2700K"]
+          },
+          "0.3" :
+          {
+            "Static" :
+            {
+              "6500K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+          }
+        },
+        "Flush Mount" :
+        {
+          "0.4" :
+          {
+            "Static" :
+            {
+              "6500K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K", "5000K -> 4000K -> 3000K -> 2700K"]
+          },
+          "0.3" :
+          {
+            "Static" :
+            {
+              "6500K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+          }
+        },
+        "Flush + Downlights + Undercabinet + Wall Wash" :
+        {
+          "0.4" :
+          {
+            "Static" :
+            {
+              "6500K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K", "5000K -> 4000K -> 3000K -> 2700K"]
+          },
+          "0.3" :
+          {
+            "Static" :
+            {
+              "6500K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+          }
+        }
+      },
+      "Nursing Home Single" :
+      {
+        "2x4 Troffers" :
+        {
+          "0.4" :
+          {
+            "Static" :
+            {
+              "6500 K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000 K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000 K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000 K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700 K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K","5000K -> 4000K -> 3000K -> 2700K"]
+          },
+          "0.3" :
+          {
+            "Static" :
+            {
+              "6500 K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000 K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000 K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000 K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700 K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+          }
+        },
+        "Downlights" :
+        {
+          "0.4" :
+          {
+            "Static" :
+            {
+              "6500K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K","5000K -> 4000K -> 3000K -> 2700K"]
+          },
+          "0.3" :
+          {
+            "Static" :
+            {
+              "6500K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+          }
+        },
+        "Flush Mount" :
+        {
+          "0.4" :
+          {
+            "Static" :
+            {
+              "6500K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K", "5000K -> 4000K -> 3000K -> 2700K"]
+          },
+          "0.3" :
+          {
+            "Static" :
+            {
+              "6500K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+          }
+        },
+        "Flush + Direct/Indirect Cove" :
+        {
+          "0.4" :
+          {
+            "Static" :
+            {
+              "6500K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K", "5000K -> 4000K -> 3000K -> 2700K"]
+          },
+          "0.3" :
+          {
+            "Static" :
+            {
+              "6500K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+          }
+        }
+      },
+      "Common Area" :
+      {
+        "2x4 Troffers" :
+        {
+          "0.4" :
+          {
+            "Static" :
+            {
+              "6500 K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000 K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000 K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000 K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700 K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K","5000K -> 4000K -> 3000K -> 2700K"]
+          },
+          "0.3" :
+          {
+            "Static" :
+            {
+              "6500 K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000 K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000 K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000 K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700 K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+          }
+        },
+        "Downlights" :
+        {
+          "0.4" :
+          {
+            "Static" :
+            {
+              "6500K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K","5000K -> 4000K -> 3000K -> 2700K"]
+          },
+          "0.3" :
+          {
+            "Static" :
+            {
+              "6500K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700K" : ["Morning/Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+          }
+        },
+        "Cove + Floor Lamps" :
+        {
+          "0.4" :
+          {
+            "Static" :
+            {
+              "6500K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K", "5000K -> 4000K -> 3000K -> 2700K"]
+          },
+          "0.3" :
+          {
+            "Static" :
+            {
+              "6500K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"]
+
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+          }
+        },
+        "Downlights + Lamps + Pendants" :
+        {
+          "0.4" :
+          {
+            "Static" :
+            {
+              "6500K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700K" : ["Morning 0.4","Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K", "5000K -> 4000K -> 3000K -> 2700K"]
+          },
+          "0.3" :
+          {
+            "Static" :
+            {
+              "6500K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "5000K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "4000K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "3000K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"],
+              "2700K" : ["Morning 0.3","Afternoon 0.3","Evening 0.2","Night 0.1"]
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+          }
+        }
+      }
+    },
+    "Office" : "nothing here",
+    "School" : "nothing here",
+    "Healthcare" : "nothing here"
+  }
+}
