@@ -36,7 +36,7 @@ function getFixture(data,facility,room,fixture,target,system,cct,time){
   var fixtures = Object.values(data[facility][room]);
   for (var i = 0; i < fixtures.length; i++){
     var _fixture = Object.keys(data[facility][room])[i];
-    var __fixture = _fixture.replace("[^a-zA-Z]", "").replace(/\s/g, '');
+    var __fixture = _fixture.replace("[^a-zA-Z]", "").replace(/\s/g, '').replace(/\+/g, "");
     $('#stuff').append('<button id="'+__fixture+'" value="'+_fixture+'">'+_fixture+'</button>');
     $('#'+__fixture).click(function(){
       fixture = $(this).val();
@@ -78,11 +78,15 @@ function getCCT(data,facility,room,fixture,target,system,cct,time){
   var ccts = Object.values(data[facility][room][fixture][target][system]);
   for (var i = 0; i < ccts.length; i++){
     var _cct = Object.keys(data[facility][room][fixture][target][system])[i];
-    var __cct = inWords(_cct.split("K")[0].replace(/\s/g, '')).replace("[^a-zA-Z]", "");
+    var __cct = inWords(_cct.split("K")[0].replace(/\s/g, '')).replace("[^a-zA-Z]", "").replace(/\s/g, '');
     $('#stuff').append('<button id="'+__cct+'" value="'+_cct+'">'+_cct+'</button>');
     $('#'+__cct).click(function(){
       cct = $(this).val();
       $('#stuff').html('');
+      if (system == "Tunable"){
+        time = "N/A"
+        generateContent(data,facility,room,fixture,target,system,cct,time);
+      }
       getTime(data,facility,room,fixture,target,system,cct,time);
     });
   }
@@ -92,13 +96,38 @@ function getTime(data,facility,room,fixture,target,system,cct,time){
   var times = Object.values(data[facility][room][fixture][target][system][cct]);
   for (var i = 0; i < times.length; i++){
     var _time = Object.keys(data[facility][room][fixture][target][system][cct])[i];
-    var __time = _cct.replace("[^a-zA-Z]", "").replace(/\s/g, '');
+    var __time = _time.replace("[^a-zA-Z]", "").replace(/\//g, '').replace(/\./g,' ').replace(/\s/g, '');
     $('#stuff').append('<button id="'+__time+'" value="'+_time+'">'+_time+'</button>');
     $('#'+__time).click(function(){
       time = $(this).val();
       $('#stuff').html('');
-      getTime(data,facility,room,fixture,target,system,cct,time);
+      generateContent(data,facility,room,fixture,target,system,cct,time,0);
     });
+  }
+}
+
+function generateContent(data,facility,room,fixture,target,system,cct,time,view){
+  if (system == "Tunable"){
+    $('#stuff').append('<img width="400px" src="'+data[facility][room][fixture][target][system][cct].render[view]+'"/>');
+    $('#stuff').append('<img width="400px" src="'+data[facility][room][fixture][target][system][cct].plan[view]+'"/>');
+  }else{
+    var path = data[facility][room][fixture][target][system][cct][time]
+    if (path.render.length > 1){
+      $('#stuff').append('<button id="cycle">Cycle View</button>');
+      $('#cycle').click(function(){
+        console.log(view);
+        console.log(path.render.length-1);
+        if (view == path.render.length-1){
+          view = 0;
+        }else{
+          view +=1;
+        }
+        $('#stuff').html('');
+        generateContent(data,facility,room,fixture,target,system,cct,time,view);
+      });
+    }
+    $('#stuff').append('<img width="400px" src="'+path.render[view]+'"/>');
+    $('#stuff').append('<img width="400px" src="'+path.plan[view]+'"/>');
   }
 }
 
