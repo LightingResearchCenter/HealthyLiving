@@ -79,3 +79,80 @@
     padding: 12px 0;
   }
 }
+
+.title{
+  padding-top: 10vh;
+  font-size: 8vw;
+}
+
+.description{
+  padding-top: 2vh;
+  font-size: 3vw;
+}
+
+.btn-primary{
+  background-color: #00205b !important;
+  border-color: #00205b !important;
+}
+
+.modal-xl{
+  width: 90%;
+  margin: auto;
+}
+
+.hover{
+  cursor: pointer;
+}
+
+.hover:hover{
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.18), 0 1px 2px rgba(0,0,0,0.24); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.18), 0 1px 2px rgba(0,0,0,0.24);  /* Firefox 3.5 - 3.6 */
+  box-shadow: 0 14px 28px rgba(0,0,0,0.18), 0 10px 10px rgba(0,0,0,0.24);
+}
+
+ol li a{
+  color: #00205b;
+}
+
+ol{
+  color: #606060;
+}
+
+ol li a:hover{
+  color: #00205b;
+}
+
+html, body {
+  height: 100%;
+}
+
+#landing{
+  position: relative;
+  height: 100%;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../img/application/landing/landing1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#landing-text{
+  width:100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+}
+
+#landing-title{
+  padding-bottom: 2vh;
+  font-size: 6em;
+}
+
+#landing-description{
+  margin-right: 10vw;
+  margin-left: 10vw;
+  font-size: 1em;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(30, 30, 30, 0.7);
+}
