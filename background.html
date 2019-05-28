@@ -22,6 +22,12 @@
         <div id="navbar">
           <script type="text/javascript">$('#navbar').load('navbar.html');</script>
         </div>
+        <script type="text/javascript">
+          $(document).ready(function(){
+            $('#background-tab').addClass('active');
+            $('#application-tab').attr("href", "application.html");
+          });
+        </script>
       <!-- Navbar -->
 
       <!-- Banner -->
@@ -39,7 +45,7 @@
 
           <!-- Accordion -->
           <div class=" col-xl-3 col-lg-4 col-md-5 col-sm-12 p-0 accordion">
-            <div id="jquery-accordion-menu" class="jquery-accordion-menu">
+            <div id="jquery-accordion-menu" class="jquery-accordion-menu" >
   				    <div class="jquery-accordion-menu-header text-center p-0 m-0">Information / FAQ</div>
       				<ul>
       					<li><a href="#">This Site</a>
