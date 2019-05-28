@@ -13,27 +13,51 @@
     <link rel="stylesheet" href="css/application.css" />
   </head>
   <body>
-    <!-- Navbar -->
-    <div>
-      <nav class="navbar navbar-expand-lg navbar-dark navbar-shrink" id="mainNav">
-        <div class="container-fluid">
-          <a class="navbar-brand js-scroll-trigger d-none d-sm-block" href="#page-top">Lighting Research Center</a>
-    	    <a class="navbar-brand js-scroll-trigger d-block d-sm-none" href="#page-top">Lighting Research Center</a>
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars fa-2x"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav text-uppercase ml-auto">
-        		  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="background.html">Background</a></li>
-              <li class="nav-item"><a class="nav-link js-scroll-trigger active" href="#page-top">Application</a></li>
-            </ul>
+
+    <div id="landing">
+      <!-- Navbar -->
+      <div id="navbar">
+        <script type="text/javascript">$('#navbar').load('navbar.html');</script>
+      </div>
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('#application-tab').addClass('active');
+          $('#background-tab').attr("href", "background.html");
+        });
+      </script>
+
+      <div id="landing-text" class="text-center">
+        <h1 id="landing-title">Designing in a New Light</h1>
+        <p id="landing-description">Welcome to the Healthy Pattern's Application page! Learn the framework for what it takes to develop circadian lighting designs. Circadian lighting schedules differ depending on user types, so naviagte through the facility and room options to explore these variations. Lighting designs are given for ultiple fixture types as well as CCT values. Providing many solutions allows for the decision to be yours to choose which paramteres fit your design best. for more information about lighting and circadian rhythms, refer to the background page.</p>
+        <button id="begin" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#application-modal">Begin</button>
+      </div>
+
+      <!-- Navbar -->
+    </div>
+
+    <!-- What you see when you first open page -->
+
+    <!--Modal -->
+    <div class="modal fade" id="application-modal" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false" aria-labelledby="application-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb m-0" id ="application-modal-breadcrumb">
+              </ol>
+            </nav>
+          </div>
+          <div class="modal-header">
+            <h5 class="modal-title" id="application-modal-label"></h5>
+          </div>
+          <div class="modal-body">
+            <div id="application-modal-deck" class="card-deck"></div>
           </div>
         </div>
-      </nav>
+      </div>
     </div>
-    <!-- Navbar -->
+    <!--Modal -->
 
 
-    <div id="stuff"></div>
   </body>
 </html>
