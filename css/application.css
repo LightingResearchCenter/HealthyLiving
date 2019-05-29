@@ -126,13 +126,6 @@ html, body {
   height: 100%;
 }
 
-#landing{
-  position: relative;
-  height: 100%;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../img/application/landing/landing1.jpg');
-  background-size: cover;
-  background-position: center;
-}
 
 #landing-text{
   width:100%;
@@ -166,4 +159,53 @@ h6{
   width: 100%;
   background: #00205b;
   color: white;
+}
+
+.middle{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.middle h1 {
+  -webkit-text-stroke: 1px #00205b;
+  z-index: 1;
+  width: 100%;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  font-family: "Fjalla One", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 6em;
+  letter-spacing: .5vw;
+  cursor: default;
+}
+
+.middle p{
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  font-weight: 20;
+  font-size: 1.1em;
+  border-radius: 10px;
+  background-color: rgba(30, 30, 30, 0.7);
+}
+
+@media only screen and (max-width: 920px) {
+  .middle h1 {
+    padding-right: 5vw;
+    padding-left: 5vw;
+    font-size: 3.5em;
+    letter-spacing: 1vw;
+  }
+
+  .middle p{
+    font-size: .9em;
+  }
 }

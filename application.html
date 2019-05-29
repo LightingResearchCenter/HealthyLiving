@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vide/0.5.1/jquery.vide.min.js"></script>
     <script type="text/javascript" src="js/application.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="https://use.typekit.net/hgq1zqp.css">
     <link rel="stylesheet" href="css/application.css" />
   </head>
-  <body>
+  <body data-vide-bg="mp4: img/application/landing/landing_video.mp4, poster: img/application/landing/landing1.jpg" data-vide-options="posterType: jpg">
 
-    <div id="landing">
       <!-- Navbar -->
       <div id="navbar">
         <script type="text/javascript">$('#navbar').load('navbar.html');</script>
@@ -27,13 +27,12 @@
       </script>
       <!-- Navbar -->
 
-      <div id="landing-text" class="text-center">
-        <h1 id="landing-title">Designing in a New Light</h1>
-        <p id="landing-description">Welcome to the Healthy Pattern's Application page! Learn the framework for what it takes to develop circadian lighting designs. Circadian lighting schedules differ depending on user types, so naviagte through the facility and room options to explore these variations. Lighting designs are given for ultiple fixture types as well as CCT values. Providing many solutions allows for the decision to be yours to choose which paramteres fit your design best. for more information about lighting and circadian rhythms, refer to the background page.</p>
+      <div class="middle text-center">
+        <h1>Designing in a New Light</h1>
+        <p class="mb-4">Welcome to the Healthy Pattern's Application page! Learn the framework for what it takes to develop circadian lighting designs. Circadian lighting schedules differ depending on user types, so naviagte through the facility and room options to explore these variations. Lighting designs are given for ultiple fixture types as well as CCT values. Providing many solutions allows for the decision to be yours to choose which paramteres fit your design best. for more information about lighting and circadian rhythms, refer to the background page.</p>
         <button id="begin" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#application-modal">Begin</button>
       </div>
 
-    </div>
 
 
     <!--Modal -->

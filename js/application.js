@@ -224,25 +224,28 @@ $(document).ready(function(){
   }});
   // Avoids Firefox throwing a warning when reading JSON
 
-  //Get JSON and assign it to data varibale
+  //Get HealthyBuildings JSON and assign it to data varibale
   var data;
   $.getJSON("json/healthyBuildings.json", function(hb_result){
     $.each(hb_result,function(){
       data = this;
     });
   });
+  //Get HealthyBuildings JSON and assign it to data varibale
 
+  //Get Pictures JSON and assing it to pictures variable
   var pictures;
   $.getJSON("json/pictures.json", function(pic_result){
     $.each(pic_result,function(){
       pictures = this;
     });
   });
+  //Get Pictures JSON and assing it to pictures variable
 
   $('#begin').click(function(){
     $('#introduction').html('');
     main(data,pictures);
   });
-  //Get JSON and assign it to data varibale
+
 
 });
