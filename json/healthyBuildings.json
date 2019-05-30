@@ -4,7 +4,7 @@
     {
       "Assisted Living Single with Kitchen" :
       {
-        "2x4 Troffers" :
+        "2x4 Center Basket Troffer" :
         {
           "0.4" :
           {
@@ -238,7 +238,7 @@
             "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
           }
         },
-        "Downlights" :
+        "Downlight" :
         {
           "0.4" :
           {
@@ -460,7 +460,7 @@
             "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
           }
         },
-        "Flush Mount" :
+        "Flush Mount + Pendant" :
         {
           "0.4" :
           {
@@ -682,7 +682,7 @@
             "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
           }
         },
-        "Flush + Downlights + Undercabinet + Wall Wash" :
+        "Downlight + Flush Mount + Pendant + Wall Valance + TV Valance + Under Cabinet" :
         {
           "0.4" :
           {
@@ -907,7 +907,7 @@
       },
       "Nursing Home Single" :
       {
-        "2x4 Troffers" :
+        "2x4 Center Basket Troffer" :
         {
           "0.4" :
           {
@@ -1141,7 +1141,7 @@
             "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
           }
         },
-        "Downlights" :
+        "Downlight" :
         {
           "0.4" :
           {
@@ -1363,7 +1363,7 @@
             "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
           }
         },
-        "Flush Mount" :
+        "Flush Mount + Pendant" :
         {
           "0.4" :
           {
@@ -1585,7 +1585,7 @@
             "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
           }
         },
-        "Flush + Direct/Indirect Cove" :
+        "Flush Mount + Pendant + Wall Valance" :
         {
           "0.4" :
           {
@@ -1810,7 +1810,7 @@
       },
       "Common Area" :
       {
-        "2x4 Troffers" :
+        "2x4 Center Basket Troffer" :
         {
           "0.4" :
           {
@@ -2044,7 +2044,7 @@
             "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
           }
         },
-        "Downlights" :
+        "Downlight" :
         {
           "0.4" :
           {
@@ -2266,7 +2266,7 @@
             "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
           }
         },
-        "Cove + Floor Lamps" :
+        "Cove + Floor Lamp + Table Lamp" :
         {
           "0.4" :
           {
@@ -2488,7 +2488,7 @@
             "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
           }
         },
-        "Downlights + Lamps + Pendants" :
+        "Downlight + Pendant + Floor Lamp + Table Lamp" :
         {
           "0.4" :
           {
@@ -2716,7 +2716,7 @@
     {
       "New Open Office" :
       {
-        "2x4 Troffers" :
+        "2x4 Troffer" :
         {
           "0.4" :
           {
@@ -2897,7 +2897,7 @@
             "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
           }
         },
-        "Downlights" :
+        "Downlight" :
         {
           "0.4" :
           {
@@ -3078,7 +3078,7 @@
             "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
           }
         },
-        "Direct/Indirect Pendants" :
+        "Direct/Indirect Linear Pendants" :
         {
           "0.4" :
           {
@@ -3259,7 +3259,188 @@
             "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
           }
         },
-        "Blue/Red Add-on" :
+        "Blue Add-on: Desk Luminaire" :
+        {
+          "0.4" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.4" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.4Morn.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.3Aft.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.2Eve.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.1Night.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.4" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.1Night.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.4" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.1Night.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.4" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.1Night.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                }
+              }
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K"]
+          },
+          "0.3" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.3Aft.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.2Eve.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.1Night.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                }
+              },
+              "5000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.1Night.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                }
+              },
+              "4000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.1Night.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                }
+              },
+              "3000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.1Night.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_NewOpen_Add.jpg"]
+                }
+              }
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
+          }
+        },
+        "Blue Add-on: Downlight" :
         {
           "0.4" :
           {
@@ -3624,7 +3805,7 @@
             "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
           }
         },
-        "Downlights" :
+        "Downlight" :
         {
           "0.4" :
           {
@@ -3805,7 +3986,7 @@
             "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
           }
         },
-        "Direct/Indirect Pendants" :
+        "Direct/Indirect Linear Pendants" :
         {
           "0.4" :
           {
@@ -3986,7 +4167,188 @@
             "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
           }
         },
-        "Blue/Red Add-on" :
+        "Blue/Red Add-on: 2x4 Troffer + Desk Luminaire" :
+        {
+          "0.4" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.4" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.4Morn.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.3Aft.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.2Eve.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.1Night.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.4" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.1Night.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.4" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.1Night.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.4" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.1Night.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                }
+              }
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K"]
+          },
+          "0.3" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.3Aft.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.2Eve.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.1Night.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                }
+              },
+              "5000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.1Night.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                }
+              },
+              "4000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.1Night.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                }
+              },
+              "3000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.1Night.jpg"],
+                  "plan" : ["img/application/office/floor plans/Office_TradOpen_Add.jpg"]
+                }
+              }
+            },
+            "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
+          }
+        },
+        "Blue/Red Add-on: Downlight + Wall Wash" :
         {
           "0.4" :
           {
@@ -4170,7 +4532,7 @@
       },
       "Private Office" :
       {
-        "2x4 Troffers" :
+        "2x4 Troffer" :
         {
           "0.4" :
           {
@@ -4350,7 +4712,7 @@
             "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
           }
         },
-        "Direct/Indirect Pendants" :
+        "Direct/Indirect Pendant" :
         {
           "0.4" :
           {
@@ -4531,7 +4893,7 @@
             "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
           }
         },
-        "Downlights + Blue/Red Wall Wash" :
+        "Blue/Red Add-on: Downlight + Wall Wash" :
         {
           "0.4" :
           {
