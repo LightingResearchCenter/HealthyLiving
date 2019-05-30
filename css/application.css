@@ -161,6 +161,12 @@ h6{
   color: white;
 }
 
+.card-text{
+  padding-right: 20px;
+  max-height: 25vh;
+  overflow-y: auto;
+}
+
 .middle{
   width: 100%;
   position: absolute;
@@ -170,7 +176,6 @@ h6{
 }
 
 .middle h1 {
-  -webkit-text-stroke: 1px #00205b;
   z-index: 1;
   width: 100%;
   padding-right: 10vw;
