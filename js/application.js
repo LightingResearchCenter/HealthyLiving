@@ -148,26 +148,9 @@ function getCCT(data,selection,facility,room,fixture,target,system,cct,time){
       cct = $(this).data("value");
       if (system == "Tunable"){
         time = "N/A"
-        generateContent(data,facility,room,fixture,target,system,cct,time);
       }else{
-        getTime(data,selection,facility,room,fixture,target,system,cct,time);
+        time = Object.keys(data[facility][room][fixture][target][system][cct])[0];
       }
-    });
-  }
-}
-
-function getTime(data,selection,facility,room,fixture,target,system,cct,time){
-  var times = Object.values(data[facility][room][fixture][target][system][cct]);
-  generateModalBreadcrumb(data,selection,"time",facility,room,fixture,target,system,cct,time);
-  $('#application-modal-deck').html('');
-  $('#application-modal-label').html('Choose a Time of Day');
-  for (var i = 0; i < times.length; i++){
-    var _time = Object.keys(data[facility][room][fixture][target][system][cct])[i];
-    var __time = _time.replace("[^a-zA-Z]", "").replace(/\//g, '').replace(/\./g,' ').replace(/\s/g, '');
-    console.log(_time);
-    $('#application-modal-deck').append('<div class="card hover"><a id="'+__time+'" data-value="'+_time+'"><img class="card-img-top" src="'+selection["Time"][_time]["img"]+'" alt="Time of Day" /><div class="card-body"><h5 class="card-title">'+_time+'</h5><hr/><p class="card-text">'+selection["Time"][_time]["desc"]+'</p></div></a></div>');
-    $('#'+__time).click(function(){
-      time = $(this).data("value");
       generateContent(data,facility,room,fixture,target,system,cct,time,0);
     });
   }
