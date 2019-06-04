@@ -1,13 +1,6 @@
 function main(data,selection){
   var facility = "", room = "", fixture = "", target = "", system ="", cct = "", time = "";
-  var senior = data["Senior Care"];
   getFacility(data,selection,facility,room,fixture,target,system,cct,time);
-}
-
-function generateImagePath(){
-  var int = Math.floor(Math.random() * (15 - 1) ) + 1;
-  var path = "img/animals/"+int+".jpg";
-  return path;
 }
 
 function generateModalBreadcrumb(data,selection,current,facility,room,fixture,target,system,cct,time){
@@ -161,25 +154,24 @@ function generateContent(data,facility,room,fixture,target,system,cct,time,view)
   $('#landing').html();
   $('body').html('<div id="navbar"><script type="text/javascript">$("#navbar").load("navbar.html");</script></div><script type="text/javascript">$(document).ready(function(){$("#application-tab").addClass("active");$("#background-tab").attr("href", "background.html");});</script>');
   if (system == "Tunable"){
-    $('body').append('<img width="400px" src="'+data[facility][room][fixture][target][system][cct].render[view]+'"/>');
-    $('body').append('<img width="400px" src="'+data[facility][room][fixture][target][system][cct].plan[view]+'"/>');
+    var path = data[facility][room][fixture][target][system][cct];
   }else{
-    var path = data[facility][room][fixture][target][system][cct][time]
-    if (path.render.length > 1){
-      $('body').append('<button id="cycle">Cycle View</button>');
-      $('#cycle').click(function(){
-        if (view == path.render.length-1){
-          view = 0;
-        }else{
-          view +=1;
-        }
-        $('#introduction').html('');
-        generateContent(data,facility,room,fixture,target,system,cct,time,view);
-      });
-    }
-    $('body').append('<img width="400px" src="'+path.render[view]+'"/>');
-    $('body').append('<img width="400px" src="'+path.plan[view]+'"/>');
+    var path = data[facility][room][fixture][target][system][cct][time];
   }
+  if (path.render.length > 1){
+    $('body').append('<button id="cycle">Cycle View</button>');
+    $('#cycle').click(function(){
+      if (view == path.render.length-1){
+        view = 0;
+      }else{
+        view +=1;
+      }
+      $('#introduction').html('');
+      generateContent(data,facility,room,fixture,target,system,cct,time,view);
+    });
+  }
+  $('body').append('<img width="400px" src="'+path.render[view]+'"/>');
+  $('body').append('<img width="400px" src="'+path.plan[view]+'"/>');
 }
 
 // From https://www.npmjs.com/~salmanm
