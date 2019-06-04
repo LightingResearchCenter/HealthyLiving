@@ -1,5 +1,12 @@
 h1 {
   font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+}
+
+p{
+  font-family: arial;
+  /* font-family: 'Source Sans Pro', sans-serif; */
 }
 
 #mainNav {
