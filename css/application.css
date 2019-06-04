@@ -139,6 +139,7 @@ html, body {
 #landing-title{
   padding-bottom: 2vh;
   font-size: 6em;
+  border: 1px solid #00205b;
 }
 
 #landing-description{
@@ -175,6 +176,7 @@ h6{
   transform: translate(-50%, -50%);
 }
 
+
 .middle h1 {
   z-index: 1;
   width: 100%;
@@ -187,6 +189,8 @@ h6{
   font-weight: 600;
   font-size: 6em;
   letter-spacing: .5vw;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #00205b;
 }
 
 .middle p{

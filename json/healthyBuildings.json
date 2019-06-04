@@ -130,12 +130,12 @@
             {
               "6500K -> 5000K -> 4000K -> 3000K" :
               {
-                "render" : ["img/application/senior care/renders/assisted living with kitchen single/troffers/Nursing_Home_Kitchen_Troff_6500K_0.4Morn.jpg"],
+                "render" : ["img/application/senior care/renders/assisted living with kitchen single/troffers/SeniorCare_Kitchen_2x4BasketTroffer_Tunable_0.4_6500K.jpg"],
                 "plan" : ["img/application/senior care/floor plans/SeniorCare_Kitchen_Troff.jpg"]
               },
               "5000K -> 4000K -> 3000K -> 2700K" :
               {
-                "render" : ["img/application/senior care/renders/assisted living with kitchen single/troffers/Nursing_Home_Kitchen_Troff_6500K_0.4Morn.jpg"],
+                "render" : ["img/application/senior care/renders/assisted living with kitchen single/troffers/SeniorCare_Kitchen_2x4BasketTroffer_Tunable_0.4_5000K.jpg"],
                 "plan" : ["img/application/senior care/floor plans/SeniorCare_Kitchen_Troff.jpg"]
               }
             }
@@ -235,7 +235,24 @@
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K":
+              {
+                "render" : ["img/application/senior care/renders/assisted living with kitchen single/troffers/SeniorCare_Kitchen_2x4BasketTroffer_Tunable_0.3_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Kitchen_Troff.jpg"]
+              },
+              "5000K -> 4000K -> 3000K":
+              {
+                "render" : ["img/application/senior care/renders/assisted living with kitchen single/troffers/SeniorCare_Kitchen_2x4BasketTroffer_Tunable_0.3_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Kitchen_Troff.jpg"]
+              },
+              "4000K -> 3000K -> 2700K":
+              {
+                "render" : ["img/application/senior care/renders/assisted living with kitchen single/troffers/SeniorCare_Kitchen_2x4BasketTroffer_Tunable_0.3_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Kitchen_Troff.jpg"]
+              }
+            }
           }
         },
         "Downlight" :
@@ -360,7 +377,19 @@
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K","5000K -> 4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K -> 3000K":
+              {
+                "render" : ["img/application/senior care/renders/assisted living with kitchen single/downlights/SeniorCare_Kitchen_DN_Tunable_0.4_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Kitchen_DN.jpg"]
+              },
+              "5000K -> 4000K -> 3000K -> 2700K" :
+              {
+                "render" : ["img/application/senior care/renders/assisted living with kitchen single/downlights/SeniorCare_Kitchen_DN_Tunable_0.4_5000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Kitchen_DN.jpg"]
+              }
+            }
           },
           "0.3" :
           {
@@ -457,7 +486,24 @@
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K":
+              {
+                "render" : ["img/application/senior care/renders/assisted living with kitchen single/downlights/SeniorCare_Kitchen_DN_Tunable_0.3_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Kitchen_DN.jpg"]
+              },
+              "5000K -> 4000K -> 3000K":
+              {
+                "render" : ["img/application/senior care/renders/assisted living with kitchen single/downlights/SeniorCare_Kitchen_DN_Tunable_0.3_5000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Kitchen_DN.jpg"]
+              },
+              "4000K -> 3000K -> 2700K" :
+              {
+                "render" : ["img/application/senior care/renders/assisted living with kitchen single/downlights/SeniorCare_Kitchen_DN_Tunable_0.3_4000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Kitchen_DN.jpg"]
+              }
+            }
           }
         },
         "Flush Mount + Pendant" :
@@ -582,7 +628,19 @@
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K","5000K -> 4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K -> 3000K" :
+              {
+                "render" : ["img/application/senior care/renders/assisted living with kitchen single/flush mount/SeniorCare_Kitchen_FlushMount_Tunable_0.4_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Kitchen_Flush.jpg"]
+              },
+              "5000K -> 4000K -> 3000K -> 2700K" :
+              {
+                "render" : ["img/application/senior care/renders/assisted living with kitchen single/flush mount/SeniorCare_Kitchen_FlushMount_Tunable_0.4_5000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Kitchen_Flush.jpg"]
+              }
+            }
           },
           "0.3" :
           {
@@ -679,7 +737,24 @@
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K":
+              {
+                "render" : ["img/application/senior care/renders/assisted living with kitchen single/flush mount/SeniorCare_Kitchen_FlushMount_Tunable_0.3_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Kitchen_Flush.jpg"]
+              },
+              "5000K -> 4000K -> 3000K":
+              {
+                "render" : ["img/application/senior care/renders/assisted living with kitchen single/flush mount/SeniorCare_Kitchen_FlushMount_Tunable_0.3_5000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Kitchen_Flush.jpg"]
+              },
+              "4000K -> 3000K -> 2700K":
+              {
+                "render" : ["img/application/senior care/renders/assisted living with kitchen single/flush mount/SeniorCare_Kitchen_FlushMount_Tunable_0.3_4000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Kitchen_Flush.jpg"]
+              }
+            }
           }
         },
         "Downlight + Flush Mount + Pendant + Wall Valance + TV Valance + Under Cabinet" :
@@ -804,7 +879,19 @@
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K","5000K -> 4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K -> 3000K":
+              {
+                "render" : ["img/application/senior care/renders/assisted living with kitchen single/combo/SeniorCare_Kitchen_Combo_Tunable_0.4_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Kitchen_Combo.jpg"]
+              },
+              "5000K -> 4000K -> 3000K -> 2700K":
+              {
+                "render" : ["img/application/senior care/renders/assisted living with kitchen single/combo/SeniorCare_Kitchen_Combo_Tunable_0.4_5000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Kitchen_Combo.jpg"]
+              }
+            }
           },
           "0.3" :
           {
@@ -901,7 +988,24 @@
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K":
+              {
+                "render" : ["img/application/senior care/renders/assisted living with kitchen single/combo/SeniorCare_Kitchen_Combo_Tunable_0.3_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Kitchen_Combo.jpg"]
+              },
+              "5000K -> 4000K -> 3000K" :
+              {
+                "render" : ["img/application/senior care/renders/assisted living with kitchen single/combo/SeniorCare_Kitchen_Combo_Tunable_0.3_5000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Kitchen_Combo.jpg"]
+              },
+              "4000K -> 3000K -> 2700K" :
+              {
+                "render" : ["img/application/senior care/renders/assisted living with kitchen single/combo/SeniorCare_Kitchen_Combo_Tunable_0.3_4000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Kitchen_Combo.jpg"]
+              }
+            }
           }
         }
       },
@@ -917,22 +1021,22 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_6500K_0.4Morn.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_6500K_0.4Morn.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_6500K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_6500K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_6500K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_6500K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_6500K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_6500K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 }
               },
@@ -940,22 +1044,22 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_5000K_0.4Morn.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_5000K_0.4Morn.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_5000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_5000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_5000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_5000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_5000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_5000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 }
               },
@@ -963,22 +1067,22 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_4000K_0.4Morn.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_4000K_0.4Morn.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_4000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_4000K_0.3Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_4000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_4000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_4000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_4000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 }
               },
@@ -986,22 +1090,22 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_3000K_0.4Morn.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_3000K_0.4Morn.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_3000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_3000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_3000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_3000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_3000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_3000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 }
               },
@@ -1009,22 +1113,22 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_2700K_0.4Morn.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_2700K_0.4Morn.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_2700K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_2700K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_2700K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_2700K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_2700K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_2700K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 }
               }
@@ -1033,12 +1137,12 @@
             {
               "6500K -> 5000K -> 4000K -> 3000K" :
               {
-                "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_6500K_0.4Morn.jpg"],
+                "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_Tunable_0.4_6500K.jpg"],
                 "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
               },
               "5000K -> 4000K -> 3000K -> 2700K" :
               {
-                "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_6500K_0.4Morn.jpg"],
+                "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_Tunable_0.4_5000K.jpg"],
                 "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
               }
             }
@@ -1051,17 +1155,17 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_6500K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_6500K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_6500K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_6500K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_6500K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_6500K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 }
               },
@@ -1069,17 +1173,17 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_5000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_5000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_5000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_5000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_5000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_5000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 }
               },
@@ -1087,17 +1191,17 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_4000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_4000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_4000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_4000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_4000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_4000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 }
               },
@@ -1105,17 +1209,17 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_3000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_3000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_3000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_3000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_3000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_3000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 }
               },
@@ -1123,22 +1227,39 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_2700K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_2700K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_2700K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_2700K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/troffers/Nursing_Home_Kitchen_Troff_2700K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_2700K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K":
+              {
+                "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_Tunable_0.3_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
+              },
+              "5000K -> 4000K -> 3000K":
+              {
+                "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_Tunable_0.3_5000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
+              },
+              "4000K -> 3000K -> 2700K":
+              {
+                "render" : ["img/application/senior care/renders/nursing home single/troffer/SeniorCare_Single_2x4BasketTroffer_Tunable_0.3_4000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Troff.jpg"]
+              }
+            }
           }
         },
         "Downlight" :
@@ -1151,22 +1272,22 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_6500K_0.4Morn.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_6500K_0.4Morn.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_6500K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_6500K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_6500K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_6500K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_6500K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_6500K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 }
               },
@@ -1174,22 +1295,22 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_5000K_0.4Morn.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_5000K_0.4Morn.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_5000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_5000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_5000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_5000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_5000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_5000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 }
               },
@@ -1197,22 +1318,22 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_4000K_0.4Morn.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_4000K_0.4Morn.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_4000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_4000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_4000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_4000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_4000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_4000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 }
               },
@@ -1220,22 +1341,22 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_3000K_0.4Morn.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_3000K_0.4Morn.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_3000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_3000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_3000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_3000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_3000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_3000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 }
               },
@@ -1243,27 +1364,39 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_2700K_0.4Morn.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_2700K_0.4Morn.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_2700K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_2700K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_2700K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_2700K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_2700K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_2700K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K","5000K -> 4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K -> 3000K":
+              {
+                "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_Tunable_0.4_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
+              },
+              "5000K -> 4000K -> 3000K -> 2700K":
+              {
+                "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_Tunable_0.4_5000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
+              }
+            }
           },
           "0.3" :
           {
@@ -1273,17 +1406,17 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_6500K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_6500K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_6500K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_6500K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_6500K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_6500K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 }
               },
@@ -1291,17 +1424,17 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_5000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_5000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_5000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_5000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_5000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_5000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 }
               },
@@ -1309,17 +1442,17 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_4000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_4000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_4000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_4000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_4000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_4000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 }
               },
@@ -1327,17 +1460,17 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_3000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_3000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_3000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_3000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_3000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_3000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 }
               },
@@ -1345,22 +1478,39 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_2700K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_2700K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_2700K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_2700K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/downlights/Nursing_Home_Kitchen_DN_2700K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_2700K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K":
+              {
+                "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_Tunable_0.3_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
+              },
+              "5000K -> 4000K -> 3000K":
+              {
+                "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_Tunable_0.3_5000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
+              },
+              "4000K -> 3000K -> 2700K":
+              {
+                "render" : ["img/application/senior care/renders/nursing home single/downlight/SeniorCare_Single_DN_Tunable_0.3_4000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_DN.jpg"]
+              }
+            }
           }
         },
         "Flush Mount + Pendant" :
@@ -1373,22 +1523,22 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_6500K_0.4Morn.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_6500K_0.4Morn.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_6500K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_6500K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_6500K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_6500K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_6500K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_6500K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 }
               },
@@ -1396,22 +1546,22 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_5000K_0.4Morn.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_5000K_0.4Morn.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_5000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_5000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_5000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_5000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_5000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_5000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 }
               },
@@ -1419,22 +1569,22 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_4000K_0.4Morn.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_4000K_0.4Morn.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_4000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_4000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_4000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_4000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_4000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_4000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 }
               },
@@ -1442,22 +1592,22 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_3000K_0.4Morn.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_3000K_0.4Morn.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_3000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_3000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_3000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_3000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_3000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_3000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 }
               },
@@ -1465,27 +1615,39 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_2700K_0.4Morn.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_2700K_0.4Morn.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_2700K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_2700K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_2700K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_2700K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_2700K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_2700K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K","5000K -> 4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K -> 3000K":
+              {
+                "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_Tunable_0.4_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
+              },
+              "5000K -> 4000K -> 3000K -> 2700K":
+              {
+                "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_Tunable_0.4_5000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
+              }
+            }
           },
           "0.3" :
           {
@@ -1495,17 +1657,17 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_6500K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_6500K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_6500K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_6500K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_6500K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_6500K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 }
               },
@@ -1513,17 +1675,17 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_5000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_5000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_5000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_5000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_5000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_5000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 }
               },
@@ -1531,17 +1693,17 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_4000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_4000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_4000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_4000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_4000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_4000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 }
               },
@@ -1549,17 +1711,17 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_3000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_3000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_3000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_3000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_3000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_3000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 }
               },
@@ -1567,22 +1729,39 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_2700K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_2700K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_2700K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_2700K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/Nursing_Home_Kitchen_Flush_2700K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_2700K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K":
+              {
+                "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_Tunable_0.3_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
+              },
+              "5000K -> 4000K -> 3000K":
+              {
+                "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_Tunable_0.3_5000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
+              },
+              "4000K -> 3000K -> 2700K":
+              {
+                "render" : ["img/application/senior care/renders/nursing home single/flush mount/SeniorCare_Single_FlushMount_Tunable_0.3_4000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Flush.jpg"]
+              }
+            }
           }
         },
         "Flush Mount + Pendant + Wall Valance" :
@@ -1595,22 +1774,22 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_6500K_0.4Morn.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_6500K_0.4Morn.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_6500K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_6500K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_6500K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_6500K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_6500K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_6500K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 }
               },
@@ -1618,22 +1797,22 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_5000K_0.4Morn.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_5000K_0.4Morn.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_5000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_5000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_5000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_5000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_5000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_5000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 }
               },
@@ -1641,22 +1820,22 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_4000K_0.4Morn.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_4000K_0.4Morn.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_4000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_4000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_4000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_4000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_4000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_4000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 }
               },
@@ -1664,22 +1843,22 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_3000K_0.4Morn.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_3000K_0.4Morn.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_3000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_3000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_3000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_3000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_3000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_3000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 }
               },
@@ -1687,27 +1866,39 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_2700K_0.4Morn.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_2700K_0.4Morn.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_2700K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_2700K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_2700K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_2700K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_2700K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_2700K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K","5000K -> 4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K -> 3000K":
+              {
+                "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_Tunable_0.4_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
+              },
+              "5000K -> 4000K -> 3000K -> 2700K":
+              {
+                "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_Tunable_0.4_5000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
+              }
+            }
           },
           "0.3" :
           {
@@ -1717,17 +1908,17 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_6500K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_6500K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_6500K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_6500K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_6500K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_6500K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 }
               },
@@ -1735,17 +1926,17 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_5000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_5000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_5000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_5000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_5000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_5000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 }
               },
@@ -1753,17 +1944,17 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_4000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_4000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_4000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_4000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_4000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_4000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 }
               },
@@ -1771,17 +1962,17 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_3000K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_3000K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_3000K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_3000K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_3000K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_3000K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 }
               },
@@ -1789,22 +1980,39 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_2700K_0.3Aft.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_2700K_0.3Aft.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_2700K_0.2Eve.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_2700K_0.2Eve.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/senior care/renders/nursing home single/combo/Nursing_Home_Kitchen_Combo_2700K_0.1Night.jpg"],
+                  "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_2700K_0.1Night.jpg"],
                   "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K":
+              {
+                "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_Tunable_0.3_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
+              },
+              "5000K -> 4000K -> 3000K":
+              {
+                "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_Tunable_0.3_5000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
+              },
+              "4000K -> 3000K -> 2700K":
+              {
+                "render" : ["img/application/senior care/renders/nursing home single/combo/SeniorCare_Single_Combo_Tunable_0.3_4000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Single_Combo.jpg"]
+              }
+            }
           }
         }
       },
