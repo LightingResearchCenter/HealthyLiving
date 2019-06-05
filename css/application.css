@@ -153,7 +153,7 @@ html, body {
 
 img.img{
   max-width: 100%;
-  max-height: 100%;
+  max-height: 90%;
 }
 
 h6{
@@ -182,15 +182,13 @@ h6{
   width: 100%;
   padding-right: 10vw;
   padding-left: 10vw;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   color: #fff;
   text-align: center;
   font-weight: 600;
   font-size: 6em;
-  letter-spacing: .5vw;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #00205b;
+  letter-spacing: .75vw;
 }
 
 .middle p{
