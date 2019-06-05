@@ -26,24 +26,52 @@ function generateModalBreadcrumb(data,selection,current,facility,room,fixture,ta
     $('#application-modal-breadcrumb').html('<li class="breadcrumb-item"><a href="#" id="repick-facility">'+facility+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-room">'+room+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-fixture">'+fixture+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-target">'+target+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-system">'+system+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-cct">'+cct+'</a></li><li class="breadcrumb-item">Time of Day</li>');
   }
   $('#repick-facility').click(function(){
+    if ($('#modalSize').hasClass('modal-lg')){
+      $('#modalSize').removeClass('modal-lg');
+      $('#modalSize').addClass('modal-xl');
+    }
     getFacility(data,selection,'','','','','','','');
   });
   $('#repick-room').click(function(){
+    if ($('#modalSize').hasClass('modal-lg')){
+      $('#modalSize').removeClass('modal-lg');
+      $('#modalSize').addClass('modal-xl');
+    }
     getRoom(data,selection,facility,'','','','','','');
   });
   $('#repick-fixture').click(function(){
+    if ($('#modalSize').hasClass('modal-lg')){
+      $('#modalSize').removeClass('modal-lg');
+      $('#modalSize').addClass('modal-xl');
+    }
     getFixture(data,selection,facility,room,'','','','','');
   });
   $('#repick-target').click(function(){
+    if ($('#modalSize').hasClass('modal-lg')){
+      $('#modalSize').removeClass('modal-lg');
+      $('#modalSize').addClass('modal-xl');
+    }
     getTarget(data,selection,facility,room,fixture,'','','','');
   });
   $('#repick-system').click(function(){
+    if ($('#modalSize').hasClass('modal-lg')){
+      $('#modalSize').removeClass('modal-lg');
+      $('#modalSize').addClass('modal-xl');
+    }
     getSystem(data,selection,facility,room,fixture,target,'','','');
   });
   $('#repick-cct').click(function(){
+    if ($('#modalSize').hasClass('modal-lg')){
+      $('#modalSize').removeClass('modal-lg');
+      $('#modalSize').addClass('modal-xl');
+    }
     getCCT(data,selection,facility,room,fixture,target,system,'','');
   });
   $('#repick-time').click(function(){
+    if ($('#modalSize').hasClass('modal-lg')){
+      $('#modalSize').removeClass('modal-lg');
+      $('#modalSize').addClass('modal-xl');
+    }
     getTime(data,selection,facility,room,fixture,target,system,cct,'');
   });
 }
@@ -117,11 +145,17 @@ function getSystem(data,selection,facility,room,fixture,target,system,cct,time){
   generateModalBreadcrumb(data,selection,"system",facility,room,fixture,target,system,cct,time);
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a System');
+  $('#modalSize').removeClass('modal-xl');
+  $('#modalSize').addClass('modal-lg');
   for (var i = 0; i < systems.length; i++){
     var _system = Object.keys(data[facility][room][fixture][target])[i];
     var __system = _system.replace("[^a-zA-Z]", "").replace(/\s/g, '');
     $('#application-modal-deck').append('<div class="card hover"><a id="'+__system+'" data-value="'+_system+'"><img class="card-img-top" src="'+selection["System"][_system]["img"]+'" alt="CCT System" /><div class="card-body"><h5 class="card-title">'+_system+'</h5><hr/><p class="card-text">'+selection["System"][_system]["desc"]+'</p></div></a></div>');
     $('#'+__system).click(function(){
+      if ($('#modalSize').hasClass('modal-lg')){
+        $('#modalSize').removeClass('modal-lg');
+        $('#modalSize').addClass('modal-xl');
+      }
       system = $(this).data("value");
       getCCT(data,selection,facility,room,fixture,target,system,cct,time);
     });
@@ -133,6 +167,7 @@ function getCCT(data,selection,facility,room,fixture,target,system,cct,time){
   generateModalBreadcrumb(data,selection,"cct",facility,room,fixture,target,system,cct,time);
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a CCT');
+
   for (var i = 0; i < ccts.length; i++){
     var _cct = Object.keys(data[facility][room][fixture][target][system])[i];
     var __cct = inWords(_cct.split("K")[0].replace(/\s/g, '')).replace("[^a-zA-Z]", "").replace(/\s/g, '');
