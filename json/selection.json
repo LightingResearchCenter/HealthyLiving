@@ -14,7 +14,7 @@
       },
       "School":
       {
-        "img" : "",
+        "img" : "img/application/selection/1 Facility/School.jpg",
         "desc" : "Adolescents’ tendency to be “late to bed and late to rise” puts them at odds with structured school schedules. As they approach college age they experience progressively later sleep onset and reduced sleep times. The resulting sleep disorders can lead to poor scholastic performance and behavioral problems. Improved classroom lighting design can foster better scholastic and health outcomes by helping to shift the timing of sleep and promote entrainment to the 24-hour solar day."
       },
       "Healthcare":
@@ -159,12 +159,12 @@
       "desc" : "A CS above 0.3 is shown to have an effect on the circadian system. This effect is desired in the morning and early afternoon hours to synchronize our bodies with the 24-hour solar day. For a robust light/dark schedule, CS must be lowered throughout the day. This means a CS schedule will either start at the target 0.4 or 0.3, and always end in < 0.1. CS values are achieved based on the SPD of a light source, and the illuminance at the eye. Read below for tips of which initial target CS value is best for your design.<br/><br/>See ‘CS’ on the background page for more information.",
       "0.3":
       {
-        "img" : "",
+        "img" : "img/application/selection/4 Target CS/0.3.jpg",
         "desc" : "Targeting a CS of 0.3 is the absolute minimum to have an effect on the circadian system. Target a CS of 0.3 if:<ul><li>The furniture layout is defined and occupant’s seating is known</li><li>Occupants prefer warmer CCTs (Warmer CCTs have a lesser effect on the circadian system, so more illuminance at the eye, compared to cooler CCTs, is needed to reach a higher CS)</li><li>Horizontal illuminance should not exceed 500 lux on the workplane</li><li>Energy consumption is a major concern</li></ul>"
       },
       "0.4":
       {
-        "img" : "",
+        "img" : "img/application/selection/4 Target CS/0.4.jpg",
         "desc" : "Targeting a higher CS of 0.4 will better assure that the minimum of 0.3 CS is achieved where it is needed (e.g. where people are sitting). Target a CS of 0.4 if:<ul><li>The furniture layout is undefined and/or occupants’ seating is dynamic</li><li>Occupants prefer cooler CCTs (Cool CCTs have a greater effect on the circadian system, so less illuminance at the eye, compared to warmer CCTs, is needed to reach a higher CS)</li><li>Occupants have the tendency to not respond to light (e.g. the aging population due to the aging eye), or are more out of sync, or more susceptible to being out of sync (e.g. social jetlag)</li></ul>"
       }
     },
@@ -172,12 +172,12 @@
     {
       "Static":
       {
-        "img" : "img/application/selection/5 CCT System/Static.png",
+        "img" : "img/application/selection/5 CCT System/Static.jpg",
         "desc" : "A static CCT system uses a singular CCT in the design that dims throughout the day to achieve a robust light/dark schedule."
       },
       "Tunable":
       {
-        "img" : "img/application/selection/5 CCT System/Tunable.png",
+        "img" : "img/application/selection/5 CCT System/Tunable.jpg",
         "desc" : "A tunable CCT system uses multiple CCTs throughout the day to achieve a robust schedule. Schedules start with brighter, cooler CCTs in the morning hours and change CCT while dimming throughout the day. This better simulates sunlight throughout the day."
       }
     },
@@ -211,27 +211,27 @@
       },
       "6500K -> 5000K -> 4000K":
       {
-        "img" : "img/application/selection/6 CCT/6500 K- 5000 K- 4000 K.png",
+        "img" : "img/application/selection/6 CCT/0.3- 6500K.jpg",
         "desc" : ""
       },
       "6500K -> 5000K -> 4000K -> 3000K" :
       {
-        "img" : "img/application/selection/6 CCT/6500 K- 5000 K- 4000 K- 3000 K.png",
+        "img" : "img/application/selection/6 CCT/0.4- 6500k.png",
         "desc" : ""
       },
       "5000K -> 4000K -> 3000K":
       {
-        "img" : "img/application/selection/6 CCT/5000 K- 4000 K- 3000 K.png",
+        "img" : "img/application/selection/6 CCT/0.3- 5000k.jpg",
         "desc" : ""
       },
       "5000K -> 4000K -> 3000K -> 2700K":
       {
-        "img" : "img/application/selection/6 CCT/5000 K- 4000 K- 3000 K- 2700 K.png",
+        "img" : "img/application/selection/6 CCT/0.4- 5000K.png",
         "desc" : ""
       },
       "4000K -> 3000K -> 2700K":
       {
-        "img" : "img/application/selection/6 CCT/4000 K- 3000 K- 2700 K.png",
+        "img" : "img/application/selection/6 CCT/0.3- 4000K.jpg",
         "desc" : ""
       }
     },
