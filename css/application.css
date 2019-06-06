@@ -51,10 +51,22 @@
   color:#FFF;
 }
 
-.ToD-img-container {
+.ToD-img-container1 {
   float:left;
   position:relative;
   width:25%;
+}
+
+.ToD-img-container2 {
+  float:left;
+  position:relative;
+  width:33%;
+}
+
+.fixture-container {
+  float: left;
+  position: relative;
+  max-width: 100%;
 }
 
 .title {
@@ -119,7 +131,7 @@ img.img {
   max-height:90%;
 }
 
-h6 {
+h6.final_title {
   width:100%;
   background:#00205b;
   color:#FFF;
@@ -133,6 +145,13 @@ p{
 .modal-title{
   font-size: 1.875rem;
   font-weight: 600;
+}
+
+.modal-title-desc{
+  font-size: 1.1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 0;
 }
 
 .card-title{
@@ -157,23 +176,21 @@ p{
 
 .middle {
   width:100%;
-  padding-top:100px;
-  top:50%;
-  left:50%;
+  padding-top: 10rem
 }
 
 .middle h1 {
-  z-index:-1;
   width:100%;
   padding-right:10vw;
   padding-left:10vw;
-  font-family:Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform:uppercase;
   color:#fff;
   text-align:center;
   font-weight:600;
   font-size:6em;
   letter-spacing:.75vw;
+  line-height: 6rem;
 }
 
 .middle p {

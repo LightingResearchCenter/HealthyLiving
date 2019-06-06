@@ -80,11 +80,11 @@ function getFacility(data,selection,facility,room,fixture,target,system,cct,time
   var facilities = Object.values(data);
   generateModalBreadcrumb(data,selection,"facility",facility,room,fixture,target,system,cct,time);
   $('#application-modal-deck').html('');
-  $('#application-modal-label').html('Choose a Facility');
+  $('#application-modal-label').html('Choose a Facility<p class="modal-title-desc">'+selection["Facility"]["desc"]+'</p>');
   for (var i = 0; i < facilities.length; i++){
     var _facility = Object.keys(data)[i];
     var __facility = _facility.replace("[^a-zA-Z]", "").replace(/\s/g, '');
-    $('#application-modal-deck').append('<div class="card hover"><a id="'+__facility+'" data-value="'+_facility+'" ><img class="card-img-top card-img-top-facility" src="'+selection["Facility"][_facility]["img"]+'" alt="Facility" /><div class="card-body"><h5 class="card-title">'+_facility+'</h5><hr/><p class="card-text">'+selection["Facility"][_facility]["desc"]+'</p></div></a></div>');
+    $('#application-modal-deck').append('<div class="card hover"><a id="'+__facility+'" data-value="'+_facility+'"><img class="card-img-top card-img-top-facility" src="'+selection["Facility"][_facility]["img"]+'" alt="Facility" /><div class="card-body"><h5 class="card-title">'+_facility+'</h5><hr/><p class="card-text">'+selection["Facility"][_facility]["desc"]+'</p></div></a></div>');
     $('#'+__facility).click(function(){
       facility = $(this).data("value");
       getRoom(data,selection,facility,room,fixture,target,system,cct,time);
@@ -96,7 +96,7 @@ function getRoom(data,selection,facility,room,fixture,target,system,cct,time){
   var rooms = Object.values(data[facility]);
   generateModalBreadcrumb(data,selection,"room",facility,room,fixture,target,system,cct,time);
   $('#application-modal-deck').html('');
-  $('#application-modal-label').html('Choose a Room');
+  $('#application-modal-label').html('Choose a Room<p class="modal-title-desc">'+selection["Room"]["desc"]+'</p>');
   for (var i = 0; i < rooms.length; i++){
     var _room = Object.keys(data[facility])[i];
     var __room = _room.replace("[^a-zA-Z]", "").replace(/\s/g, '');
@@ -112,7 +112,7 @@ function getFixture(data,selection,facility,room,fixture,target,system,cct,time)
   var fixtures = Object.values(data[facility][room]);
   generateModalBreadcrumb(data,selection,"fixture",facility,room,fixture,target,system,cct,time);
   $('#application-modal-deck').html('');
-  $('#application-modal-label').html('Choose Fixture(s)');
+  $('#application-modal-label').html('Choose Fixture(s)<p class="modal-title-desc">'+selection["Fixture"]["desc"]+'</p>');
   for (var i = 0; i < fixtures.length; i++){
     var _fixture = Object.keys(data[facility][room])[i];
     var __fixture = _fixture.replace("[^a-zA-Z]", "").replace(/\//g, '').replace(/\s/g, '').replace(/\+/g, "");
@@ -128,7 +128,7 @@ function getTarget(data,selection,facility,room,fixture,target,system,cct,time){
   var targets = Object.values(data[facility][room][fixture]);
   generateModalBreadcrumb(data,selection,"target",facility,room,fixture,target,system,cct,time);
   $('#application-modal-deck').html('');
-  $('#application-modal-label').html('Choose a Target CS');
+  $('#application-modal-label').html('Choose a Target CS<p class="modal-title-desc">'+selection["Target"]["desc"]+'</p>');
   for (var i = 0; i < targets.length; i++){
     var _target = Object.keys(data[facility][room][fixture])[i];
     var __target = inWords(_target.split(".").pop()).replace("[^a-zA-Z]", "").replace(/\s/g, '');
@@ -144,7 +144,7 @@ function getSystem(data,selection,facility,room,fixture,target,system,cct,time){
   var systems = Object.values(data[facility][room][fixture][target]);
   generateModalBreadcrumb(data,selection,"system",facility,room,fixture,target,system,cct,time);
   $('#application-modal-deck').html('');
-  $('#application-modal-label').html('Choose a System');
+  $('#application-modal-label').html('Choose a System<p class="modal-title-desc">'+selection["System"]["desc"]+'</p>');
   $('#modalSize').removeClass('modal-xl');
   $('#modalSize').addClass('modal-lg');
   for (var i = 0; i < systems.length; i++){
@@ -166,7 +166,7 @@ function getCCT(data,selection,facility,room,fixture,target,system,cct,time){
   var ccts = Object.values(data[facility][room][fixture][target][system]);
   generateModalBreadcrumb(data,selection,"cct",facility,room,fixture,target,system,cct,time);
   $('#application-modal-deck').html('');
-  $('#application-modal-label').html('Choose a CCT');
+  $('#application-modal-label').html('Choose a CCT<p class="modal-title-desc">'+selection["CCT"]["desc"]+'</p>');
   if (target=="0.4" && system=="Tunable"){
     $('#modalSize').removeClass('modal-xl');
     $('#modalSize').addClass('modal-lg');
