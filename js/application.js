@@ -84,7 +84,7 @@ function getFacility(data,selection,facility,room,fixture,target,system,cct,time
   for (var i = 0; i < facilities.length; i++){
     var _facility = Object.keys(data)[i];
     var __facility = _facility.replace("[^a-zA-Z]", "").replace(/\s/g, '');
-    $('#application-modal-deck').append('<div class="card hover"><a id="'+__facility+'" data-value="'+_facility+'" ><img class="card-img-top" src="'+selection["Facility"][_facility]["img"]+'" alt="Facility" /><div class="card-body"><h5 class="card-title">'+_facility+'</h5><hr/><p class="card-text">'+selection["Facility"][_facility]["desc"]+'</p></div></a></div>');
+    $('#application-modal-deck').append('<div class="card hover"><a id="'+__facility+'" data-value="'+_facility+'" ><img class="card-img-top card-img-top-facility" src="'+selection["Facility"][_facility]["img"]+'" alt="Facility" /><div class="card-body"><h5 class="card-title">'+_facility+'</h5><hr/><p class="card-text">'+selection["Facility"][_facility]["desc"]+'</p></div></a></div>');
     $('#'+__facility).click(function(){
       facility = $(this).data("value");
       getRoom(data,selection,facility,room,fixture,target,system,cct,time);
@@ -132,7 +132,7 @@ function getTarget(data,selection,facility,room,fixture,target,system,cct,time){
   for (var i = 0; i < targets.length; i++){
     var _target = Object.keys(data[facility][room][fixture])[i];
     var __target = inWords(_target.split(".").pop()).replace("[^a-zA-Z]", "").replace(/\s/g, '');
-    $('#application-modal-deck').append('<div class="card hover"><a id="'+__target+'" data-value="'+_target+'"><img class="card-img-top" src="'+selection["Target"][_target]["img"]+'" alt="Target CS" /><div class="card-body"><h5 class="card-title">'+_target+'</h5><hr/><p class="card-text">'+selection["Target"][_target]["desc"]+'</p></div></a></div>');
+    $('#application-modal-deck').append('<div class="card hover"><a id="'+__target+'" data-value="'+_target+'"><img class="card-img-top" src="'+selection["Target"][_target]["img"]+'" alt="Target CS" /><div class="card-body"><hr/><p class="card-text">'+selection["Target"][_target]["desc"]+'</p></div></a></div>');
     $('#'+__target).click(function(){
       target = $(this).data("value");
       getSystem(data,selection,facility,room,fixture,target,system,cct,time);
@@ -167,12 +167,23 @@ function getCCT(data,selection,facility,room,fixture,target,system,cct,time){
   generateModalBreadcrumb(data,selection,"cct",facility,room,fixture,target,system,cct,time);
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a CCT');
-
+  if (target=="0.4" && system=="Tunable"){
+    $('#modalSize').removeClass('modal-xl');
+    $('#modalSize').addClass('modal-lg');
+  }
   for (var i = 0; i < ccts.length; i++){
     var _cct = Object.keys(data[facility][room][fixture][target][system])[i];
     var __cct = inWords(_cct.split("K")[0].replace(/\s/g, '')).replace("[^a-zA-Z]", "").replace(/\s/g, '');
-    $('#application-modal-deck').append('<div class="card hover"><a id="'+__cct+'" data-value="'+_cct+'"><img class="card-img-top" src="'+selection["CCT"][_cct]["img"]+'" alt="CCT" /><div class="card-body"><h5 class="card-title">'+_cct+'</h5><hr/><p class="card-text">'+selection["CCT"][_cct]["desc"]+'</p></div></a></div>');
+    if (system=='Tunable'){
+      $('#application-modal-deck').append('<div class="card hover"><a id="'+__cct+'" data-value="'+_cct+'"><img class="card-img-top" src="'+selection["CCT"][_cct]["img"]+'" alt="CCT" /><div class="card-body"><hr/><p class="card-text">'+selection["CCT"][_cct]["desc"]+'</p></div></a></div>');
+    }else{
+      $('#application-modal-deck').append('<div class="card hover"><a id="'+__cct+'" data-value="'+_cct+'"><img class="card-img-top" src="'+selection["CCT"][_cct]["img"]+'" alt="CCT" /><div class="card-body"><h5 class="card-title">'+_cct+'</h5><hr/><p class="card-text">'+selection["CCT"][_cct]["desc"]+'</p></div></a></div>');
+    }
     $('#'+__cct).click(function(){
+      if ($('#modalSize').hasClass('modal-lg')){
+        $('#modalSize').removeClass('modal-lg');
+        $('#modalSize').addClass('modal-xl');
+      }
       cct = $(this).data("value");
       if (system == "Tunable"){
         time = "N/A"
