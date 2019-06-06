@@ -2,6 +2,7 @@
   {
     "Facility":
     {
+      "desc": "",
       "Senior Care" :
       {
         "img" : "img/application/selection/1 Facility/Senior Care.jpg",
@@ -25,6 +26,7 @@
     },
     "Room":
     {
+      "desc" : "",
       "Assisted Living Single with Kitchen" :
       {
         "img" : "img/application/selection/2 Room/SeniorCare_AssistedLivingWithKitchen.jpg",
@@ -170,6 +172,7 @@
     },
     "System":
     {
+      "desc": "",
       "Static":
       {
         "img" : "img/application/selection/5 CCT System/Static.jpg",
@@ -233,34 +236,6 @@
       {
         "img" : "img/application/selection/6 CCT/0.3- 4000K.jpg",
         "desc" : ""
-      }
-    },
-    "Time":
-    {
-      "Morning 0.4":
-      {
-        "img" : "img/application/selection/7 Time of Day/Morning.png",
-        "desc" : ""
-      },
-      "Afternoon 0.3":
-      {
-        "img" : "img/application/selection/7 Time of Day/Afternoon.png",
-        "desc" : ""
-      },
-      "Evening 0.2":
-      {
-        "img" : "img/application/selection/7 Time of Day/Evening.png",
-        "desc" : ""
-      },
-      "Night 0.1":
-      {
-        "img" : "img/application/selection/7 Time of Day/Night.png",
-        "desc" : ""
-      },
-      "Morning/Afternoon 0.3":
-      {
-        "img": "img/application/selection/7 Time of Day/Afternoon.png",
-        "desc": ""
       }
     }
   }
