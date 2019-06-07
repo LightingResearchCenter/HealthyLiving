@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Healthy Patterns</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
+    <script src="js/reference.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hgq1zqp.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap4.min.css" />
+    <link rel="stylesheet" href="css/application.css" />
+  </head>
+  <body>
+
+    <!-- Add Modal -->
+    <div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="addModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="addModalLabel">Add Reference</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div id="addModalBody" class="modal-body">
+
+          </div>
+          <div class="modal-footer">
+            <button id="addButton" type="button" data-dismiss="modal" aria-label="Close" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Add Modal -->
+
+
+
+    <div class="container-fluid p-5">
+      <div class="row">
+        <div class="col-md-6 border">
+
+          <table id="DT_in" class="table table-striped">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">#</th>
+                <th class="text-center" scope="col">link</th>
+                <th class="text-sm-right" scope="col">Add/Remove</th>
+              </tr>
+            </thead>
+            <tbody id="TB_in">
+
+            </tbody>
+          </table>
+
+        </div>
+        <div class="col-md-6 border">
+          <p class="w-100 h-100" id="out"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

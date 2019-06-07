@@ -25,58 +25,71 @@
     </script>
     <!-- Navbar -->
 
-    <div class="container-fluid">
+    <div class="container-fluid pt-3 pr-4">
       <div class="row">
-        <div class="col-md-12 pt-2 m-auto">
-          <p><strong>Description:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate sagittis est, sed vestibulum ipsum elementum eget. Sed pulvinar nisl justo, ullamcorper laoreet ante tincidunt eu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec lacinia, nulla quis iaculis posuere, libero risus commodo urna, sed finibus dui risus gravida nibh. Nullam eget ultrices quam. Praesent maximus luctus ex tincidunt ornare. Vestibulum suscipit lorem id purus iaculis, ac congue leo porttitor. </p>
+        <div id="final_description" class="text-center col-md-12">
+          <h6 class="final_title py-1">Description</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate sagittis est, sed vestibulum ipsum elementum eget. Sed pulvinar nisl justo, ullamcorper laoreet ante tincidunt eu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec lacinia, nulla quis iaculis posuere, libero risus commodo urna, sed finibus dui risus gravida nibh. Nullam eget ultrices quam. Praesent maximus luctus ex tincidunt ornare. Vestibulum suscipit lorem id purus iaculis, ac congue leo porttitor. </p>
         </div>
       </div>
       <div class="row mb-4">
-        <div class="col-md-6 text-center">
-          <div class="row h-80">
-            <div class="col h-100">
-              <h6 class="py-1">Image Render</h6>
-              <img class="img rounded m-auto" src="img/application/senior care/renders/assisted living with kitchen single/combo/Nursing_Home_Kitchen_Combo_2700K_0.1Night.jpg"/>
-            </div>
+        <div class="col-md-6 text-center mb-4">
+          <h6 class="final_title py-1">Image Render</h6>
+          <div id="final_render" class="render-container">
+            <img class="img rounded m-auto" src="img/application/senior care/renders/assisted living with kitchen single/combo/Nursing_Home_Kitchen_Combo_2700K_0.1Night.jpg"/>
+            <button class="btn btn-primary img-button">Toggle View</button>
           </div>
-          <div class="row h-20">
-            <div class="col h-100 mt-2">
-              <div class="ToD-img-container">
-                <a class="img-border" href="#"><img class="m-0 p-0" width="100%" src="img/application/final/morning.jpg" /></a>
-              </div>
-              <div class="ToD-img-container">
-                <a class="img-border" href="#"><img class="m-0 p-0" width="100%" src="img/application/final/afternoon.jpg" /></a>
-              </div>
-              <div class="ToD-img-container">
-                <a class="img-border" href="#"><img class="m-0 p-0" width="100%" src="img/application/final/evening.jpg" /></a>
-              </div>
-              <div class="ToD-img-container">
-                <a class="img-border" href="#"><img class="m-0 p-0" width="100%" src="img/application/final/night.jpg" /></a>
-              </div>
+        </div>
+        <div class="col-md-6 text-center mb-4">
+          <h6 class="final_title py-1">Lighting Plan</h6>
+          <div id="final_plan">
+            <img class="img m-auto" src="img/application/senior care/floor plans/SeniorCare_Common_Combo_View2.jpg"/>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-md-6 text-center mb-4">
+          <h6 class="final_title py-1">Adjustments</h6>
+          <div id="final_adjustments">
+            <div class="adjustment-container4">
+              <a class="img-border" href="#"><img class="mb-2 p-0" width="100%" src="img/application/final/1morning.jpg" /></a>
+            </div><!--
+         --><div class="adjustment-container4">
+              <a class="img-border" href="#"><img class="mb-2 p-0" width="100%" src="img/application/final/1afternoon.jpg" /></a>
+            </div><!--
+         --><div class="adjustment-container4">
+              <a class="img-border" href="#"><img class="mb-2 p-0" width="100%" src="img/application/final/1evening.jpg" /></a>
+            </div><!--
+         --><div class="adjustment-container4">
+              <a class="img-border" href="#"><img class="mb-2 p-0" width="100%" src="img/application/final/1night.jpg" /></a>
+            </div><!--
+         --><div class="adjustment-container4">
+              <a class="img-border" href="#"><img class="mb-2 p-0" width="100%" src="img/application/final/1morning.jpg" /></a>
+            </div><!--
+         --><div class="adjustment-container4">
+              <a class="img-border" href="#"><img class="mb-2 p-0" width="100%" src="img/application/final/1afternoon.jpg" /></a>
+            </div><!--
+         --><div class="adjustment-container4">
+              <a class="img-border" href="#"><img class="mb-2 p-0" width="100%" src="img/application/final/1evening.jpg" /></a>
+            </div><!--
+         --><div class="adjustment-container4">
+              <a class="img-border" href="#"><img class="mb-2 p-0" width="100%" src="img/application/final/1night.jpg" /></a>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="row">
-            <div class="col text-center">
-              <h6 class="py-1">Lighting Plan</h6>
-              <img id="render" class="img m-auto" src="img/application/senior care/floor plans/SeniorCare_Common_Combo_View2.jpg"/>
-            </div>
+        <div id="final_fixtures" class="col-md-6 text-center mb-4">
+          <h6 class="final_title py-1">Fixtures</h6>
+          <div class="fixture-container">
+            <img class="m-0 p-0" width="100%" src="img/fixtures.png" />
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12 text-center">
-          <h6 class="py-1">CS Chart</h6>
+        <div class="col-md-12 text-center mb-4">
+          <h6 class="final_title py-1">CS Chart</h6>
           <img class="img m-auto" src="img/CS Chart sizes-0.4 long.jpg"/>
         </div>
       </div>
-      <!-- <div class="row h-25 overflow-auto">
-        <div class="col text-center">
-          <h6 class="py-1">Fixtures</h6>
-          <img class="img m-auto" width="95%"  src="img/fixtures.png"/>
-        </div>
-      </div> -->
     </div>
 
 
