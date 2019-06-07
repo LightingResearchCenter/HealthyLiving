@@ -190,52 +190,52 @@
       "6500 K":
       {
         "img" : "img/application/selection/6 CCT/6500 K.jpg",
-        "desc" : ""
+        "desc" : "Cool white."
       },
       "5000 K":
       {
         "img" : "img/application/selection/6 CCT/5000 K.jpg",
-        "desc" : ""
+        "desc" : "Day white."
       },
       "4000 K":
       {
         "img" : "img/application/selection/6 CCT/4000 K.jpg",
-        "desc" : ""
+        "desc" : "Natural white."
       },
       "3000 K":
       {
         "img" : "img/application/selection/6 CCT/3000 K.jpg",
-        "desc" : ""
+        "desc" : "Warm white."
       },
       "2700 K":
       {
         "img" : "img/application/selection/6 CCT/2700 K.jpg",
-        "desc" : ""
+        "desc" : "Warm white."
       },
       "6500K -> 5000K -> 4000K":
       {
         "img" : "img/application/selection/6 CCT/0.3- 6500K.jpg",
-        "desc" : ""
+        "desc" : "Cool white in the morning to afternoon, day white in the evening, and natural white at night."
       },
       "6500K -> 5000K -> 4000K -> 3000K" :
       {
         "img" : "img/application/selection/6 CCT/0.4- 6500k.png",
-        "desc" : ""
+        "desc" : "Cool white in the morning, day white in the afternoon, natural white in afternoon, and warm white at night."
       },
       "5000K -> 4000K -> 3000K":
       {
         "img" : "img/application/selection/6 CCT/0.3- 5000k.jpg",
-        "desc" : ""
+        "desc" : "Day white in the morning/afternoon, natural white in the evening, and warm white at night."
       },
       "5000K -> 4000K -> 3000K -> 2700K":
       {
         "img" : "img/application/selection/6 CCT/0.4- 5000K.png",
-        "desc" : ""
+        "desc" : "Day white in the morning, natural white in the afternoon, and warm white in the evening and night."
       },
       "4000K -> 3000K -> 2700K":
       {
         "img" : "img/application/selection/6 CCT/0.3- 4000K.jpg",
-        "desc" : ""
+        "desc" : "Natural white in the morning/afternoon, and warm white in the evening and night."
       }
     }
   }
