@@ -1,3 +1,19 @@
+// From https://www.npmjs.com/~salmanm
+function inWords(num){
+  var a = ['','one ','two ','three ','four ', 'five ','six ','seven ','eight ','nine ','ten ','eleven ','twelve ','thirteen ','fourteen ','fifteen ','sixteen ','seventeen ','eighteen ','nineteen '];
+  var b = ['', '', 'twenty','thirty','forty','fifty', 'sixty','seventy','eighty','ninety'];
+
+  if ((num = num.toString()).length > 9) return 'overflow';
+  n = ('000000000' + num).substr(-9).match(/^(\d{2})(\d{2})(\d{2})(\d{1})(\d{2})$/);
+  if (!n) return; var str = '';
+  str += (n[1] != 0) ? (a[Number(n[1])] || b[n[1][0]] + ' ' + a[n[1][1]]) + 'crore ' : '';
+  str += (n[2] != 0) ? (a[Number(n[2])] || b[n[2][0]] + ' ' + a[n[2][1]]) + 'lakh ' : '';
+  str += (n[3] != 0) ? (a[Number(n[3])] || b[n[3][0]] + ' ' + a[n[3][1]]) + 'thousand ' : '';
+  str += (n[4] != 0) ? (a[Number(n[4])] || b[n[4][0]] + ' ' + a[n[4][1]]) + 'hundred ' : '';
+  str += (n[5] != 0) ? ((str != '') ? 'and ' : '') + (a[Number(n[5])] || b[n[5][0]] + ' ' + a[n[5][1]]) + 'only ' : '';
+  return str;
+}
+
 function main(data,selection){
   var facility = "", room = "", fixture = "", target = "", system ="", cct = "", time = "";
   getFacility(data,selection,facility,room,fixture,target,system,cct,time);
@@ -195,45 +211,190 @@ function getCCT(data,selection,facility,room,fixture,target,system,cct,time){
   }
 }
 
+function buildHTML(){
+  var str = '';
+
+  str += '<div class="container-fluid pr-4">';
+  str += '  <div class="row my-4">';
+  str += '    <div class="col-md-12 text-center mb-4">';
+  str += '      <h6 class="final_title py-1">Description</h6>'
+  str += '      <div id="final_description">';
+  str += '      </div>';
+  str += '    </div>';
+  str += '  </div>';
+  str += '  <div class="row my-4">';
+  str += '    <div class="col-md-6 text-center mb-4">';
+  str += '      <h6 class="final_title py-1">Image Render</h6>';
+  str += '      <div id="final_render" class="render-container">';
+  str += '      </div>';
+  str += '    </div>';
+  str += '    <div class="col-md-6 text-center mb-4">';
+  str += '      <h6 class="final_title py-1">Lighting plan</h6>';
+  str += '        <div id="final_plan">';
+  str += '        </div>'
+  str += '    </div>';
+  str += '  </div>';
+  str += '  <div class="row my-4">';
+  str += '    <div class="col-md-6 text-center mb-4">';
+  str += '      <h6 class="final_title py-1">Adjustments</h6>';
+  str += '        <div id="final_adjustments">';
+  str += '        </div>';
+  str += '    </div>';
+  str += '    <div id="final_fixtures" class="col-md-6 text-center mb-4">';
+  str += '      <h6 class="final_title py-1">Fixtures</h6>';
+  str += '    </div>';
+  str += '  </div>';
+  str += '  <div class="row my-4">';
+  str += '    <div id="final_chart" class="col-md-12 text-center mb-4">';
+  str += '      <h6 class="final_title py-1">CS Chart</h6>';
+  str += '    </div>';
+  str += '  </div>';
+  str += '</div>';
+
+  $('body').append(str);
+}
+
+function generateRender(path,data,facility,room,fixture,target,system,cct,time,view){
+  $('#final_render').html('');
+  $('#final_render').append('<img class="img rounded m-auto" src="'+path.render[view]+'"/>');
+  if (path.render.length > 1){
+    $('#final_render').append('<button id="toggle_view" class="btn btn-primary img-button">Toggle View</button>');
+    $('#toggle_view').click(function(){
+     if (view == path.render.length-1){
+        view = 0;
+      }else{
+        view +=1;
+      }
+      generatePlan(path,view);
+      generateRender(path,data,facility,room,fixture,target,system,cct,time,view);
+      generateAdjustments(data,facility,room,fixture,target,system,cct,time,view);
+    });
+  }
+}
+
+function generatePlan(path,view){
+  $('#final_plan').html('');
+  $('#final_plan').append('<img class="img m-auto" src="'+path.plan[view]+'"/>');
+}
+
+function generateAdjustments(data,facility,room,fixture,target,system,cct,time,view){
+  $('#final_adjustments').html('');
+  var cct_count = Object.keys(data[facility][room][fixture][target][system]).length;
+  var cct_str = '';
+  var tod_str = '';
+  var cct_selected = cct_count;
+  for (var i = cct_count-1; i > -1; i--){
+    if (Object.keys(data[facility][room][fixture][target][system])[i] == cct){
+      cct_selected  = i;
+    }
+  }
+  for (var i = cct_count -1; i > -1; i--){
+    cct_str += '<div data-value="'+i+'" class="mb-2 cct-border adjustment-container-cct adjustment-container'+cct_count;
+    if (i == cct_selected){
+      cct_str += ' cct-selected';
+    }
+    cct_str += '">';
+    cct_str += '  <img class="m-0 p-0" width="100%" src="img/application/adjustments/'+cct_count+' '+Object.keys(data[facility][room][fixture][target][system])[i]+'.jpg"/>';
+    cct_str += '</div>';
+  }
+
+  if (system == "Static"){
+    if(target == "0.4"){
+      var tod_count = 4;
+    }else if(target == "0.3"){
+      var tod_count = 3;
+    }
+    var tod_selected = tod_count;
+    for (var i = 0; i < tod_count; i++){
+      if (Object.keys(data[facility][room][fixture][target][system][cct])[i] == time){
+        tod_selected = i;
+      }
+    }
+    for (var i = 0; i < tod_count; i++){
+      tod_str += '<div data-value="'+i+'" class="mb-2 tod-border adjustment-container-tod adjustment-container'+tod_count;
+      if (i == tod_selected){
+        tod_str += ' tod-selected';
+      }
+      tod_str += '">';
+      tod_str += '  <img class="m-0 p-0" width="100%" src="img/application/adjustments/'+tod_count+' '+i+'.jpg"/>';
+      tod_str += '</div>';
+    }
+  }
+  $('#final_adjustments').append(cct_str);
+  $('#final_adjustments').append(tod_str);
+
+  $('.adjustment-container-cct').click(function(){
+    $('#final_adjustments .cct-border').removeClass('cct-selected');
+    if(!$(this).hasClass('cct-selected')){
+      $(this).addClass('cct-selected');
+    }
+
+    cct = Object.keys(data[facility][room][fixture][target][system])[$(this).data("value")];
+    if (system == "Tunable"){
+      var path = data[facility][room][fixture][target][system][cct];
+    }else{
+      var path = data[facility][room][fixture][target][system][cct][time];
+    }
+    generateRender(path,data,facility,room,fixture,target,system,cct,time,view);
+  });
+
+  $('.adjustment-container-tod').click(function(){
+    $('#final_adjustments .tod-border').removeClass('tod-selected');
+    if(!$(this).hasClass('tod-selected')){
+      $(this).addClass('tod-selected');
+    }
+
+    time = Object.keys(data[facility][room][fixture][target][system][cct])[$(this).data("value")];
+    if (system == "Tunable"){
+      var path = data[facility][room][fixture][target][system][cct];
+    }else{
+      var path = data[facility][room][fixture][target][system][cct][time];
+    }
+    generateRender(path,data,facility,room,fixture,target,system,cct,time,view);
+  });
+
+
+}
+
 function generateContent(data,facility,room,fixture,target,system,cct,time,view){
+  //Hide the modal and remove necessary landing page content
   $('#application-modal').modal('hide');
-  $('#landing').html();
-  $('body').html('<div id="navbar"><script type="text/javascript">$("#navbar").load("navbar.html");</script></div><script type="text/javascript">$(document).ready(function(){$("#application-tab").addClass("active");$("#background-tab").attr("href", "background.html");});</script>');
+  $('#landing-content').remove();
+  $('body').removeAttr('data-vide-bg');
+  $('body').removeAttr('data-vide-options');
+  if ($('body').find('div').first().attr('id') != 'navbar'){
+    $('body').find('div').first().remove();
+  }
+  //Hide the modal and remove necessary landing page content
+
+  //Get path of our content in the json file
   if (system == "Tunable"){
     var path = data[facility][room][fixture][target][system][cct];
   }else{
     var path = data[facility][room][fixture][target][system][cct][time];
   }
-  if (path.render.length > 1){
-    $('body').append('<button id="cycle">Cycle View</button>');
-    $('#cycle').click(function(){
-      if (view == path.render.length-1){
-        view = 0;
-      }else{
-        view +=1;
-      }
-      $('#introduction').html('');
-      generateContent(data,facility,room,fixture,target,system,cct,time,view);
-    });
-  }
-  $('body').append('<img width="400px" src="'+path.render[view]+'"/>');
-  $('body').append('<img width="400px" src="'+path.plan[view]+'"/>');
-}
+  //Get path of our content in the json file
 
-// From https://www.npmjs.com/~salmanm
-function inWords(num){
-  var a = ['','one ','two ','three ','four ', 'five ','six ','seven ','eight ','nine ','ten ','eleven ','twelve ','thirteen ','fourteen ','fifteen ','sixteen ','seventeen ','eighteen ','nineteen '];
-  var b = ['', '', 'twenty','thirty','forty','fifty', 'sixty','seventy','eighty','ninety'];
 
-  if ((num = num.toString()).length > 9) return 'overflow';
-  n = ('000000000' + num).substr(-9).match(/^(\d{2})(\d{2})(\d{2})(\d{1})(\d{2})$/);
-  if (!n) return; var str = '';
-  str += (n[1] != 0) ? (a[Number(n[1])] || b[n[1][0]] + ' ' + a[n[1][1]]) + 'crore ' : '';
-  str += (n[2] != 0) ? (a[Number(n[2])] || b[n[2][0]] + ' ' + a[n[2][1]]) + 'lakh ' : '';
-  str += (n[3] != 0) ? (a[Number(n[3])] || b[n[3][0]] + ' ' + a[n[3][1]]) + 'thousand ' : '';
-  str += (n[4] != 0) ? (a[Number(n[4])] || b[n[4][0]] + ' ' + a[n[4][1]]) + 'hundred ' : '';
-  str += (n[5] != 0) ? ((str != '') ? 'and ' : '') + (a[Number(n[5])] || b[n[5][0]] + ' ' + a[n[5][1]]) + 'only ' : '';
-  return str;
+  buildHTML();
+  generateRender(path,data,facility,room,fixture,target,system,cct,time,view);
+  generatePlan(path,view);
+  generateAdjustments(data,facility,room,fixture,target,system,cct,time,view);
+
+  // if (path.render.length > 1){
+  //   $('body').append('<button id="cycle">Cycle View</button>');
+  //   $('#cycle').click(function(){
+  //     if (view == path.render.length-1){
+  //       view = 0;
+  //     }else{
+  //       view +=1;
+  //     }
+  //     generateContent(data,facility,room,fixture,target,system,cct,time,view);
+  //   });
+  // }
+  //
+  // $('body').append('<img width="400px" src="'+path.render[view]+'"/>');
+  // $('body').append('<img width="400px" src="'+path.plan[view]+'"/>');
 }
 
 $(document).ready(function(){
@@ -265,7 +426,6 @@ $(document).ready(function(){
   //Get selection JSON and assign it to selection variable
 
   $('#begin').click(function(){
-    $('#introduction').html('');
     main(data,selection);
   });
 
