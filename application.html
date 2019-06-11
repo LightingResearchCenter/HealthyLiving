@@ -16,7 +16,7 @@
   </head>
   <body data-vide-bg="mp4: img/application/landing/landing2.mp4, poster: img/application/landing/1.jpg" data-vide-options="posterType: jpg">
 
-    <!--Modal -->
+    <!-- Selection Modal -->
     <div class="modal fade" id="application-modal" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false" aria-labelledby="application-modal-label" aria-hidden="true">
       <div id="modalSize" class="modal-dialog modal-xl modal-dialog-centered" role="document">
         <div class="modal-content">
@@ -35,7 +35,186 @@
         </div>
       </div>
     </div>
-    <!--Modal -->
+    <!--Selection Modal -->
+
+    <!-- Description Modal -->
+    <div class="modal fade" id="description_modal" tabindex="-1" role="dialog" aria-labelledby="#description_modal_label" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="description_modal_label">Description</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Read about a general description of the room, furniture, and light fixtures chosen for the current selection.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Description Modal -->
+
+    <!-- Render Modal -->
+    <div class="modal fade" id="render_modal" tabindex="-1" role="dialog" aria-labelledby="#render_modal_label" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="render_modal_label">Image Render</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              The room rendering gives a visual for how a space can change based on the time of day and CCT chosen. Exterior environments are dynamic, and so should your interior spaces.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Render Modal -->
+
+    <!-- RCP Modal -->
+    <div class="modal fade" id="rcp_modal" tabindex="-1" role="dialog" aria-labelledby="#rcp_modal_label" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="rcp_modal_label">Reflected Ceiling Plan</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              The reflected ceiling plan (RCP) indicates where the fixtures are placed for the given design.
+              It also includes a view reference to mark the location and direction in which the render view is taken.
+            </p>
+            <div class="rcp-img-container overflow-auto">
+              <img class="rcp-img" src="img/application/help/RCP- Plan man.png" alt="RCP Render Orientation Indicator" />
+              <p>
+                View reference to mark the location and direction in which the render view is taken.
+              </p>
+            </div>
+            <div class="rcp-img-container overflow-auto">
+              <img class="rcp-img" src="img/application/help/RCP- Fixtures.png" alt="RCP Fixtures Indicator" />
+              <p>
+                Fixture symbols to indicate their location within the space.
+              </p>
+            </div>
+            <div class="rcp-img-container overflow-auto">
+              <img class="rcp-img" src="img/application/help/RCP- Vertical.png" alt="RCP Vertical Illuminance Indicator" />
+              <p>
+                Points where vertical illuminance was measured. Points were placed along the line and the direction of the meter face in the direction of the arrow.
+              </p>
+            </div>
+            <div class="rcp-img-container overflow-auto">
+              <img class="rcp-img" src="img/application/help/RCP- Horizontal.png" alt="RCP Horizontal Illuminance Indicator" />
+              <p>
+                Plane where horizontal illuminance was measured. Points were placed on the plane and the direction of the meter face towards the ceiling.
+              </p>
+            </div>
+            <div class="rcp-img-container overflow-auto">
+              <img class="rcp-img" src="img/application/help/RCP- Scale.png" alt="RCP Scale Indicator" />
+              <p>
+                Scale for reference.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- RCP Modal -->
+
+    <!-- Adjustment Modal -->
+    <div class="modal fade" id="adjustment_modal" tabindex="-1" role="dialog" aria-labelledby="#adjustment_modal_label" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="adjustment_modal_label">Adjustments</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Click between adjustment selections to change the rendering’s time of day and CCT. The vertical and horizontal illuminance targets for specific times of the day as well as the chosen CCT are given in the CS chart below.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Adjustment Modal -->
+
+    <!-- Fixture Modal -->
+    <div class="modal fade" id="fixture_modal" tabindex="-1" role="dialog" aria-labelledby="#fixture_modal_label" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="fixture_modal_label">Fixtures</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              The provided thumbnail indicates the fixture used in the image render. The associated fixture symbol refers to the denotation used on the reflected ceiling plan.
+            </p>
+            <p>
+              Click on the fixture thumbnail to learn more about the characteristics of the fixture used in the design.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fixture Modal -->
+
+    <!-- CS Chart Modal -->
+    <div class="modal fade" id="chart_modal" tabindex="-1" role="dialog" aria-labelledby="#chart_modal_label" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="chart_modal_label">CS Chart</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              The CS chart is given as a reference to understand circadian design, and includes a time schedule of lighting exposure durations unique for varying user groups. The time range associates with a target CS level. The EV values (vertical illuminance) correspond with how many lux at the eye are needed to reach the target CS for that time of day. EH values (horizontal illuminance) are calculated based on the vertical to horizontal illuminance ratio of the fixture(s) used in the design. EV and EH values will vary depending on which CCT is chosen. For example, a 3000 K has less of an impact on the circadian system therefore requiring more light at the eye to reach a target CS of 0.3 when compared to 6500 K. Output percentage of the system is based on a linear dimming relationship of the reducing EV values, assuming the highest target for the day is at 100% output. Initial lumens and wattage per fixture are included and calculated based on how much is needed to reach the highest light levels in the design. Generally, cooler white light sources (6500 K and 5000 K) will require less initial lumen output and wattage since it requires less light getting to the eye than a warmer light source (2700 K and 3000 K). LPD (Lighting Power Density) is given for reference to energy consumption of the design. LPD is calculated based on the highest lumen output for the design, amount of fixtures, CCT multiplier, room area. This chart is meant to be used as a tool when implementing a circadian design. The time of day and associated CS targets are a guideline, and the associated values in the chart give an idea of how certain fixture types perform. All of the components will change due to all lighting fixtures having various characteristics.
+
+              Horizontal illuminance measurements were taken on work planes, 2’ 6” AFF, and vertical illuminance measurements were taken at seated eye height, 4’ AFF.
+            </p>
+            <p>
+              Calculations are based on typical room reflectances of ceiling, walls, and floor being 0.8, 0.5, and 0.2 respectively.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CS Chart Modal -->
+
+
 
       <!-- Navbar -->
       <div id="navbar">
@@ -51,7 +230,7 @@
 
       <div id="landing-content" class="middle text-center">
         <h1><span class="line">&nbsp;Designing in a&nbsp;</span><span class="line">&nbsp;New Light&nbsp;</span></h1>
-        <p class="mb-4">Welcome to the Healthy Pattern's Application page! Learn the framework for what it takes to develop circadian lighting designs. Circadian lighting schedules differ depending on user types, so naviagte through the facility and room options to explore these variations. Lighting designs are given for multiple fixture types as well as CCT values. Providing many solutions allows for the decision to be yours to choose which paramteres fit your design best. for more information about lighting and circadian rhythms, refer to the background page.</p>
+        <p class="mb-4">Welcome to the Healthy Pattern's Application page! Learn the framework for developing circadian lighting designs. Circadian lighting schedules differ depending on user types, so navigate through the facility and room options to explore these variations. Lighting designs are given for multiple fixture types as well as CCT values. Providing multiple solutions allows for the decision to be yours to choose which parameters fit your design best. For more information about lighting and circadian rhythms, refer to the background page.</p>
         <button id="begin" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#application-modal">Begin</button>
       </div>
 
