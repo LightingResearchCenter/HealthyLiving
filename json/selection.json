@@ -158,7 +158,7 @@
     },
     "Target":
     {
-      "desc" : "A CS above 0.3 is shown to have an effect on the circadian system. This effect is desired in the morning and early afternoon hours to synchronize our bodies with the 24-hour solar day. For a robust light/dark schedule, CS must be lowered throughout the day. This means a CS schedule will either start at the target 0.4 or 0.3, and always end in < 0.1. CS values are achieved based on the SPD of a light source, and the illuminance at the eye. Read below for tips of which initial target CS value is best for your design.<br/><br/>See ‘CS’ on the background page for more information.",
+      "desc" : "A CS above 0.3 is shown to have an effect on the circadian system which is desired in the morning and early afternoon hours to synchronize our bodies with the 24-hour solar day. For a robust light/dark schedule, CS must be lowered throughout the day. This means a CS schedule will either start at the target 0.4 or 0.3, and always end in < 0.1. CS values are achieved based on the SPD of a light source, and the illuminance at the eye. Read below for tips of which initial target CS value is best for your design.<br/><br/>See ‘CS’ on the background page for more information.",
       "0.3":
       {
         "img" : "img/application/selection/4 Target CS/0.3.jpg",
@@ -186,31 +186,31 @@
     },
     "CCT":
     {
-      "desc" : "CCT (Correlated Color Temperature) refers to the tint of white light. A white light source can seem cooler (blue tint) or warmer (yellow tint), which is affiliated with its CCT. The CCT can have a large impact on how the overall atmosphere of a space feels to an occupant.<br/><br/>See ‘White light & CCT’’ on the background page for more information.",
+      "desc" : "CCT (Correlated Color Temperature) refers to the tint of white light. A white light source can seem cooler (blue tint) or warmer (yellow tint), which is affiliated with its CCT. Along with varying impact on the circadian system, the CCT can have a large impact on how the overall atmosphere of a space feels to an occupant.<br/><br/>See ‘White light & CCT’’ on the background page for more information.",
       "6500 K":
       {
         "img" : "img/application/selection/6 CCT/6500 K.jpg",
-        "desc" : "Cool white."
+        "desc" : "Cool white"
       },
       "5000 K":
       {
         "img" : "img/application/selection/6 CCT/5000 K.jpg",
-        "desc" : "Day white."
+        "desc" : "Cool white"
       },
       "4000 K":
       {
         "img" : "img/application/selection/6 CCT/4000 K.jpg",
-        "desc" : "Natural white."
+        "desc" : "Neutral white"
       },
       "3000 K":
       {
         "img" : "img/application/selection/6 CCT/3000 K.jpg",
-        "desc" : "Warm white."
+        "desc" : "Warm white"
       },
       "2700 K":
       {
         "img" : "img/application/selection/6 CCT/2700 K.jpg",
-        "desc" : "Warm white."
+        "desc" : "Warm white"
       },
       "6500K -> 5000K -> 4000K":
       {
