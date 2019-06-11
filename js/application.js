@@ -145,8 +145,13 @@ function getTarget(data,selection,facility,room,fixture,target,system,cct,time){
   generateModalBreadcrumb(data,selection,"target",facility,room,fixture,target,system,cct,time);
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a Target CS<p class="modal-title-desc">'+selection["Target"]["desc"]+'</p>');
+  $('#modalSize').removeClass('modal-xl');
+  $('#modalSize').addClass('modal-lg');
   for (var i = 0; i < targets.length; i++){
     var _target = Object.keys(data[facility][room][fixture])[i];
+    if (_target == "desc"){
+      continue;
+    }
     var __target = inWords(_target.split(".").pop()).replace("[^a-zA-Z]", "").replace(/\s/g, '');
     $('#application-modal-deck').append('<div class="card hover"><a id="'+__target+'" data-value="'+_target+'"><img class="card-img-top" src="'+selection["Target"][_target]["img"]+'" alt="Target CS" /><div class="card-body"><hr/><p class="card-text">'+selection["Target"][_target]["desc"]+'</p></div></a></div>');
     $('#'+__target).click(function(){
@@ -216,37 +221,39 @@ function buildHTML(){
 
   str += '<div class="container-fluid pr-4">';
   str += '  <div class="row my-4">';
-  str += '    <div class="col-md-12 text-center mb-4">';
-  str += '      <h6 class="final_title py-1">Description</h6>'
-  str += '      <div id="final_description">';
+  str += '    <div class="col-md-12">';
+  str += '      <h6 class="final_title py-1 text-center">Description<i class="far fa-question-circle float-right mr-2" data-toggle="modal" data-target="#description_modal"></i></h6>'
+  str += '      <div id="final_description" class="mx-3">';
   str += '      </div>';
   str += '    </div>';
   str += '  </div>';
   str += '  <div class="row my-4">';
   str += '    <div class="col-md-6 text-center mb-4">';
-  str += '      <h6 class="final_title py-1">Image Render</h6>';
+  str += '      <h6 class="final_title py-1">Image Render<i class="far fa-question-circle float-right mr-2" data-toggle="modal" data-target="#render_modal"></i></h6>';
   str += '      <div id="final_render" class="render-container">';
+  str += '        <img id="final_render_img" class="img rounded m-auto" src=""/>'
   str += '      </div>';
   str += '    </div>';
   str += '    <div class="col-md-6 text-center mb-4">';
-  str += '      <h6 class="final_title py-1">Lighting plan</h6>';
+  str += '      <h6 class="final_title py-1">Reflected Ceiling Plan<i class="far fa-question-circle float-right mr-2" data-toggle="modal" data-target="#rcp_modal"></i></h6>';
   str += '        <div id="final_plan">';
+  str += '          <img id="final_plan_img" class="img m-auto" src=""/>'
   str += '        </div>'
   str += '    </div>';
   str += '  </div>';
   str += '  <div class="row my-4">';
   str += '    <div class="col-md-6 text-center mb-4">';
-  str += '      <h6 class="final_title py-1">Adjustments</h6>';
+  str += '      <h6 class="final_title py-1">Adjustments<i class="far fa-question-circle float-right mr-2" data-toggle="modal" data-target="#adjustment_modal"></i></h6>';
   str += '        <div id="final_adjustments">';
   str += '        </div>';
   str += '    </div>';
   str += '    <div id="final_fixtures" class="col-md-6 text-center mb-4">';
-  str += '      <h6 class="final_title py-1">Fixtures</h6>';
+  str += '      <h6 class="final_title py-1">Fixtures<i class="far fa-question-circle float-right mr-2" data-toggle="modal" data-target="#fixture_modal"></i></h6>';
   str += '    </div>';
   str += '  </div>';
   str += '  <div class="row my-4">';
   str += '    <div id="final_chart" class="col-md-12 text-center mb-4">';
-  str += '      <h6 class="final_title py-1">CS Chart</h6>';
+  str += '      <h6 class="final_title py-1">CS Chart<i class="far fa-question-circle float-right mr-2" data-toggle="modal" data-target="#chart_modal"></i></h6>';
   str += '    </div>';
   str += '  </div>';
   str += '</div>';
@@ -254,10 +261,14 @@ function buildHTML(){
   $('body').append(str);
 }
 
+function generateDescription(data,facility,room,fixture){
+  $('#final_description').html(data[facility][room][fixture]["desc"]);
+}
+
 function generateRender(path,data,facility,room,fixture,target,system,cct,time,view){
-  $('#final_render').html('');
-  $('#final_render').append('<img class="img rounded m-auto" src="'+path.render[view]+'"/>');
+  $('#final_render_img').attr('src',path.render[view]);
   if (path.render.length > 1){
+    $('#toggle_view').remove();
     $('#final_render').append('<button id="toggle_view" class="btn btn-primary img-button">Toggle View</button>');
     $('#toggle_view').click(function(){
      if (view == path.render.length-1){
@@ -273,8 +284,7 @@ function generateRender(path,data,facility,room,fixture,target,system,cct,time,v
 }
 
 function generatePlan(path,view){
-  $('#final_plan').html('');
-  $('#final_plan').append('<img class="img m-auto" src="'+path.plan[view]+'"/>');
+  $('#final_plan_img').attr('src',path.plan[view]);
 }
 
 function generateAdjustments(data,facility,room,fixture,target,system,cct,time,view){
@@ -288,7 +298,7 @@ function generateAdjustments(data,facility,room,fixture,target,system,cct,time,v
       cct_selected  = i;
     }
   }
-  for (var i = cct_count -1; i > -1; i--){
+  for (var i = 0; i < cct_count; i++){
     cct_str += '<div data-value="'+i+'" class="mb-2 cct-border adjustment-container-cct adjustment-container'+cct_count;
     if (i == cct_selected){
       cct_str += ' cct-selected';
@@ -377,24 +387,10 @@ function generateContent(data,facility,room,fixture,target,system,cct,time,view)
 
 
   buildHTML();
+  generateDescription(data,facility,room,fixture);
   generateRender(path,data,facility,room,fixture,target,system,cct,time,view);
   generatePlan(path,view);
   generateAdjustments(data,facility,room,fixture,target,system,cct,time,view);
-
-  // if (path.render.length > 1){
-  //   $('body').append('<button id="cycle">Cycle View</button>');
-  //   $('#cycle').click(function(){
-  //     if (view == path.render.length-1){
-  //       view = 0;
-  //     }else{
-  //       view +=1;
-  //     }
-  //     generateContent(data,facility,room,fixture,target,system,cct,time,view);
-  //   });
-  // }
-  //
-  // $('body').append('<img width="400px" src="'+path.render[view]+'"/>');
-  // $('body').append('<img width="400px" src="'+path.plan[view]+'"/>');
 }
 
 $(document).ready(function(){
