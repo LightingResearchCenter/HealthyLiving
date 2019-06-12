@@ -2153,12 +2153,12 @@
             {
               "6500K -> 5000K -> 4000K -> 3000K" :
               {
-                "render" : ["img/application/senior care/renders/common room/troffers/view1- seating/SeniorCare_Common_Troff_6500K_0.4Morn.jpg","img/application/senior care/renders/common room/troffers/view2- dining/SeniorCare_Common2_Troff_6500K_0.4Morn.jpg"],
+                "render" : ["img/application/senior care/renders/common room/troffers/view1- seating/SeniorCare_Common_Troff_Tunable_0.4_6500K.jpg","img/application/senior care/renders/common room/troffers/view2- dining/SeniorCare_Common_Troff_Tunable_0.4_6500K.jpg"],
                 "plan" : ["img/application/senior care/floor plans/SeniorCare_Common_Troff.jpg","img/application/senior care/floor plans/SeniorCare_Common_Troff_View2.jpg"]
               },
               "5000K -> 4000K -> 3000K -> 2700K" :
               {
-                "render" : ["img/application/senior care/renders/common room/troffers/view1- seating/SeniorCare_Common_Troff_6500K_0.4Morn.jpg","img/application/senior care/renders/common room/troffers/view2- dining/SeniorCare_Common2_Troff_6500K_0.4Morn.jpg"],
+                "render" : ["img/application/senior care/renders/common room/troffers/view1- seating/SeniorCare_Common_Troff_Tunable_0.4_5000K.jpg","img/application/senior care/renders/common room/troffers/view2- dining/SeniorCare_Common_Troff_Tunable_0.4_5000K.jpg"],
                 "plan" : ["img/application/senior care/floor plans/SeniorCare_Common_Troff.jpg","img/application/senior care/floor plans/SeniorCare_Common_Troff_View2.jpg"]
               }
             }
@@ -2258,7 +2258,24 @@
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K" :
+              {
+                "render" : ["img/application/senior care/renders/common room/troffers/view1- seating/SeniorCare_Common_Troff_Tunable_0.3_6500K.jpg","img/application/senior care/renders/common room/troffers/view2- dining/SeniorCare_Common_Troff_Tunable_0.3_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Common_Troff.jpg","img/application/senior care/floor plans/SeniorCare_Common_Troff_View2.jpg"]
+              },
+              "5000K -> 4000K -> 3000K":
+              {
+                "render" : ["img/application/senior care/renders/common room/troffers/view1- seating/SeniorCare_Common_Troff_Tunable_0.3_5000K.jpg","img/application/senior care/renders/common room/troffers/view2- dining/SeniorCare_Common_Troff_Tunable_0.3_5000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Common_Troff.jpg","img/application/senior care/floor plans/SeniorCare_Common_Troff_View2.jpg"]
+              },
+              "4000K -> 3000K -> 2700K":
+              {
+                "render" : ["img/application/senior care/renders/common room/troffers/view1- seating/SeniorCare_Common_Troff_Tunable_0.3_4000K.jpg","img/application/senior care/renders/common room/troffers/view2- dining/SeniorCare_Common_Troff_Tunable_0.3_4000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Common_Troff.jpg","img/application/senior care/floor plans/SeniorCare_Common_Troff_View2.jpg"]
+              }
+            }
           }
         },
         "Downlight" :
@@ -2384,7 +2401,19 @@
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K","5000K -> 4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K -> 3000K" :
+              {
+                "render" : ["img/application/senior care/renders/common room/downlights/view1- seating/SeniorCare_Common_DN_Tunable_0.4_6500K.jpg","img/application/senior care/renders/common room/downlights/view2- dining/SeniorCare_Common_Troff_Tunable_0.4_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Common_DN.jpg","img/application/senior care/floor plans/SeniorCare_Common_DN_View2.jpg"]
+              },
+              "5000K -> 4000K -> 3000K -> 2700K":
+              {
+                "render" : ["img/application/senior care/renders/common room/downlights/view1- seating/SeniorCare_Common_DN_Tunable_0.4_5000K.jpg","img/application/senior care/renders/common room/downlights/view2- dining/SeniorCare_Common_Troff_Tunable_0.4_5000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Common_DN.jpg","img/application/senior care/floor plans/SeniorCare_Common_DN_View2.jpg"]
+              }
+            }
           },
           "0.3" :
           {
@@ -2481,7 +2510,24 @@
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K":
+              {
+                "render" : ["img/application/senior care/renders/common room/downlights/view1- seating/SeniorCare_Common_DN_Tunable_0.3_6500K.jpg","img/application/senior care/renders/common room/downlights/view2- dining/SeniorCare_Common_Troff_Tunable_0.3_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Common_DN.jpg","img/application/senior care/floor plans/SeniorCare_Common_DN_View2.jpg"]
+              },
+              "5000K -> 4000K -> 3000K":
+              {
+                "render" : ["img/application/senior care/renders/common room/downlights/view1- seating/SeniorCare_Common_DN_Tunable_0.3_5000K.jpg","img/application/senior care/renders/common room/downlights/view2- dining/SeniorCare_Common_Troff_Tunable_0.3_5000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Common_DN.jpg","img/application/senior care/floor plans/SeniorCare_Common_DN_View2.jpg"]
+              },
+              "4000K -> 3000K -> 2700K":
+              {
+                "render" : ["img/application/senior care/renders/common room/downlights/view1- seating/SeniorCare_Common_DN_Tunable_0.3_4000K.jpg","img/application/senior care/renders/common room/downlights/view2- dining/SeniorCare_Common_Troff_Tunable_0.3_4000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Common_DN.jpg","img/application/senior care/floor plans/SeniorCare_Common_DN_View2.jpg"]
+              }
+            }
           }
         },
         "Cove + Floor Lamp + Table Lamp" :
@@ -2607,7 +2653,19 @@
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K","5000K -> 4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K -> 3000K":
+              {
+                "render" : ["img/application/senior care/renders/common room/cove/view1- seating/SeniorCare_Common_Cove_Tunable_0.4_6500K.jpg","img/application/senior care/renders/common room/cove/view2- dining/SeniorCare_Common_Cove_Tunable_0.4_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Common_Cove.jpg","img/application/senior care/floor plans/SeniorCare_Common_Cove_View2.jpg"]
+              },
+              "5000K -> 4000K -> 3000K -> 2700K":
+              {
+                "render" : ["img/application/senior care/renders/common room/cove/view1- seating/SeniorCare_Common_Cove_Tunable_0.4_5000K.jpg","img/application/senior care/renders/common room/cove/view2- dining/SeniorCare_Common_Cove_Tunable_0.4_5000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Common_Cove.jpg","img/application/senior care/floor plans/SeniorCare_Common_Cove_View2.jpg"]
+              }
+            }
           },
           "0.3" :
           {
@@ -2704,7 +2762,24 @@
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K":
+              {
+                "render" : ["img/application/senior care/renders/common room/cove/view1- seating/SeniorCare_Common_Cove_Tunable_0.3_6500K.jpg","img/application/senior care/renders/common room/cove/view2- dining/SeniorCare_Common_Cove_Tunable_0.3_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Common_Cove.jpg","img/application/senior care/floor plans/SeniorCare_Common_Cove_View2.jpg"]
+              },
+              "5000K -> 4000K -> 3000K":
+              {
+                "render" : ["img/application/senior care/renders/common room/cove/view1- seating/SeniorCare_Common_Cove_Tunable_0.3_5000K.jpg","img/application/senior care/renders/common room/cove/view2- dining/SeniorCare_Common_Cove_Tunable_0.3_5000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Common_Cove.jpg","img/application/senior care/floor plans/SeniorCare_Common_Cove_View2.jpg"]
+              },
+              "4000K -> 3000K -> 2700K":
+              {
+                "render" : ["img/application/senior care/renders/common room/cove/view1- seating/SeniorCare_Common_Cove_Tunable_0.3_4000K.jpg","img/application/senior care/renders/common room/cove/view2- dining/SeniorCare_Common_Cove_Tunable_0.3_4000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Common_Cove.jpg","img/application/senior care/floor plans/SeniorCare_Common_Cove_View2.jpg"]
+              }
+            }
           }
         },
         "Downlight + Pendant + Floor Lamp + Table Lamp" :
@@ -2830,7 +2905,19 @@
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K","5000K -> 4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K -> 3000K":
+              {
+                "render" : ["img/application/senior care/renders/common room/combo/view1- seating/SeniorCare_Common_Combo_Tunable_0.4_6500K.jpg","img/application/senior care/renders/common room/combo/view2- dining/SeniorCare_Common_Combo_Tunable_0.4_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Common_Combo.jpg","img/application/senior care/floor plans/SeniorCare_Common_Combo_View2.jpg"]
+              },
+              "5000K -> 4000K -> 3000K -> 2700K":
+              {
+                "render" : ["img/application/senior care/renders/common room/combo/view1- seating/SeniorCare_Common_Combo_Tunable_0.4_5000K.jpg","img/application/senior care/renders/common room/combo/view2- dining/SeniorCare_Common_Combo_Tunable_0.4_5000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Common_Combo.jpg","img/application/senior care/floor plans/SeniorCare_Common_Combo_View2.jpg"]
+              }
+            }
           },
           "0.3" :
           {
@@ -2927,7 +3014,24 @@
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K","5000K -> 4000K -> 3000K","4000K -> 3000K -> 2700K"]
+            "Tunable" :
+            {
+              "6500K -> 5000K -> 4000K":
+              {
+                "render" : ["img/application/senior care/renders/common room/combo/view1- seating/SeniorCare_Common_Combo_Tunable_0.3_6500K.jpg","img/application/senior care/renders/common room/combo/view2- dining/SeniorCare_Common_Combo_Tunable_0.3_6500K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Common_Combo.jpg","img/application/senior care/floor plans/SeniorCare_Common_Combo_View2.jpg"]
+              },
+              "5000K -> 4000K -> 3000K":
+              {
+                "render" : ["img/application/senior care/renders/common room/comboview1- seating/SeniorCare_Common_Combo_Tunable_0.3_5000K.jpg","img/application/senior care/renders/common room/combo/view2- dining/SeniorCare_Common_Combo_Tunable_0.3_5000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Common_Combo.jpg","img/application/senior care/floor plans/SeniorCare_Common_Combo_View2.jpg"]
+              },
+              "4000K -> 3000K -> 2700K":
+              {
+                "render" : ["img/application/senior care/renders/common room/combo/view1- seating/SeniorCare_Common_Combo_Tunable_0.3_4000K.jpg","img/application/senior care/renders/common room/combo/view2- dining/SeniorCare_Common_Combo_Tunable_0.3_4000K.jpg"],
+                "plan" : ["img/application/senior care/floor plans/SeniorCare_Common_Combo.jpg","img/application/senior care/floor plans/SeniorCare_Common_Combo_View2.jpg"]
+              }
+            }
           }
         }
       }
