@@ -211,7 +211,7 @@ function getCCT(data,selection,facility,room,fixture,target,system,cct,time){
       }else{
         time = Object.keys(data[facility][room][fixture][target][system][cct])[0];
       }
-      generateContent(data,facility,room,fixture,target,system,cct,time,0);
+      generateContent(data,selection,facility,room,fixture,target,system,cct,time,0);
     });
   }
 }
@@ -219,7 +219,19 @@ function getCCT(data,selection,facility,room,fixture,target,system,cct,time){
 function buildHTML(){
   var str = '';
 
-  str += '<div class="container-fluid pr-4">';
+  str += '<div id="final_content" class="container-fluid pr-4">';
+  str += '  <div class="row text-center my-4">';
+  str += '    <div class="col-lg-12">';
+  str += '      <ul class="list-group list-group-horizontal">';
+  str += '       <li class="list-group-item bc-item"><div class="bc-header"><h6 class="bc-title">Facility</h6></div><div id="bc_facility" class="bc-body"></div></li>';
+  str += '       <li class="list-group-item bc-item"><div class="bc-header"><h6 class="bc-title">Room</h6></div><div id="bc_room" class="bc-body"></div></li>';
+  str += '       <li class="list-group-item bc-item"><div class="bc-header"><h6 class="bc-title">Fixture</h6></div><div id="bc_fixture" class="bc-body"></div></li>';
+  str += '       <li class="list-group-item bc-item"><div class="bc-header"><h6 class="bc-title">Target</h6></div><div id="bc_target" class="bc-body"></div></li>';
+  str += '       <li class="list-group-item bc-item"><div class="bc-header"><h6 class="bc-title">System</h6></div><div id="bc_system" class="bc-body"></div></li>';
+  str += '       <li class="list-group-item bc-item"><div class="bc-header"><h6 class="bc-title">CCT</h6></div><div id="bc_cct" class="bc-body"></div></li>';
+  str += '      </ul>'
+  str += '    </div>';
+  str += '  </div>'
   str += '  <div class="row my-4">';
   str += '    <div class="col-md-12">';
   str += '      <h6 class="final_title py-1 text-center">Description<i class="far fa-question-circle float-right mr-2" data-toggle="modal" data-target="#description_modal"></i></h6>'
@@ -247,8 +259,10 @@ function buildHTML(){
   str += '        <div id="final_adjustments">';
   str += '        </div>';
   str += '    </div>';
-  str += '    <div id="final_fixtures" class="col-md-6 text-center mb-4">';
-  str += '      <h6 class="final_title py-1">Fixtures<i class="far fa-question-circle float-right mr-2" data-toggle="modal" data-target="#fixture_modal"></i></h6>';
+  str += '    <div class="col-md-6  mb-4">';
+  str += '      <h6 class="text-center final_title py-1">Fixtures<i class="far fa-question-circle float-right mr-2" data-toggle="modal" data-target="#fixture_modal"></i></h6>';
+  str += '      <div id="final_fixtures">';
+  str += '      </div>'
   str += '    </div>';
   str += '  </div>';
   str += '  <div class="row my-4">';
@@ -261,15 +275,48 @@ function buildHTML(){
   $('body').append(str);
 }
 
+function generateFinalBreadcrumb(data,selection,facility,room,fixture,target,system,cct){
+  $('#bc_facility').html('<a href="#" id="repick_facility" data-toggle="modal" data-target="#application-modal"><p class="bc-option">' + facility +'</p></a>');
+  $('#bc_room').html('<a href="#" id="repick_room" data-toggle="modal" data-target="#application-modal"><p class="bc-option">' + room +'</p></a>');
+  $('#bc_fixture').html('<a href="#" id="repick_fixture" data-toggle="modal" data-target="#application-modal"><p class="bc-option">' + fixture +'</p></a>');
+  $('#bc_target').html('<a href="#" id="repick_target" data-toggle="modal" data-target="#application-modal"><p class="bc-option">' + target +'</p></a>');
+  $('#bc_system').html('<a href="#" id="repick_system" data-toggle="modal" data-target="#application-modal"><p class="bc-option">' + system +'</p></a>');
+  $('#bc_cct').html('<a href="#" id="repick_cct" data-toggle="modal" data-target="#application-modal"><p class="bc-option">' + cct +'</p></a>');
+  $('#repick_facility').click(function(){
+    $('#toggle_view').remove();
+    getFacility(data,selection,'','','','','','','');
+  });
+  $('#repick_room').click(function(){
+    $('#toggle_view').remove();
+    getRoom(data,selection,facility,'','','','','','');
+  });
+  $('#repick_fixture').click(function(){
+    $('#toggle_view').remove();
+    getFixture(data,selection,facility,room,'','','','','');
+  });
+  $('#repick_target').click(function(){
+    $('#toggle_view').remove();
+    getTarget(data,selection,facility,room,fixture,'','','','');
+  });
+  $('#repick_system').click(function(){
+    $('#toggle_view').remove();
+    getSystem(data,selection,facility,room,fixture,target,'','','');
+  });
+  $('#repick_cct').click(function(){
+    $('#toggle_view').remove();
+    getCCT(data,selection,facility,room,fixture,target,system,'','');
+  });
+}
+
 function generateDescription(data,facility,room,fixture){
   $('#final_description').html(data[facility][room][fixture]["desc"]);
 }
 
-function generateRender(path,data,facility,room,fixture,target,system,cct,time,view){
+function generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view){
   $('#final_render_img').attr('src',path.render[view]);
   if (path.render.length > 1){
     $('#toggle_view').remove();
-    $('#final_render').append('<button id="toggle_view" class="btn btn-primary img-button">Toggle View</button>');
+    $('#final_render').append('<button id="toggle_view" class="btn btn-primary img-button"><span class="float-left icon-plan-man"></span><span class="vert-cent">Toggle View</span></button>');
     $('#toggle_view').click(function(){
      if (view == path.render.length-1){
         view = 0;
@@ -277,8 +324,8 @@ function generateRender(path,data,facility,room,fixture,target,system,cct,time,v
         view +=1;
       }
       generatePlan(path,view);
-      generateRender(path,data,facility,room,fixture,target,system,cct,time,view);
-      generateAdjustments(data,facility,room,fixture,target,system,cct,time,view);
+      generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view);
+      generateAdjustments(data,selection,facility,room,fixture,target,system,cct,time,view);
     });
   }
 }
@@ -287,7 +334,18 @@ function generatePlan(path,view){
   $('#final_plan_img').attr('src',path.plan[view]);
 }
 
-function generateAdjustments(data,facility,room,fixture,target,system,cct,time,view){
+function generateFixtures(fixture){
+  fixture = fixture.replace(/\s/g,'').split('+');
+  str = '';
+  for (var i = 0; i < fixture.length; i++){
+    str += '<div class="mb-2 pl-1 pr-1 fixture-container">';
+    str += '  <img class="m-0 p-0" src="img/application/fixtures/'+fixture[i]+'.png" width="100%">';
+    str += '</div>';
+  }
+  $('#final_fixtures').html(str);
+}
+
+function generateAdjustments(data,selection,facility,room,fixture,target,system,cct,time,view){
   $('#final_adjustments').html('');
   var cct_count = Object.keys(data[facility][room][fixture][target][system]).length;
   var cct_str = '';
@@ -345,7 +403,8 @@ function generateAdjustments(data,facility,room,fixture,target,system,cct,time,v
     }else{
       var path = data[facility][room][fixture][target][system][cct][time];
     }
-    generateRender(path,data,facility,room,fixture,target,system,cct,time,view);
+    generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view);
+    generateFinalBreadcrumb(data,selection,facility,room,fixture,target,system,cct);
   });
 
   $('.adjustment-container-tod').click(function(){
@@ -360,19 +419,22 @@ function generateAdjustments(data,facility,room,fixture,target,system,cct,time,v
     }else{
       var path = data[facility][room][fixture][target][system][cct][time];
     }
-    generateRender(path,data,facility,room,fixture,target,system,cct,time,view);
+    generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view);
   });
 
 
 }
 
-function generateContent(data,facility,room,fixture,target,system,cct,time,view){
+function generateContent(data,selection,facility,room,fixture,target,system,cct,time,view){
   //Hide the modal and remove necessary landing page content
   $('#application-modal').modal('hide');
+  $('body').removeClass('modal-open');
+  $('.modal-backdrop').remove();
   $('#landing-content').remove();
   $('body').removeAttr('data-vide-bg');
   $('body').removeAttr('data-vide-options');
-  if ($('body').find('div').first().attr('id') != 'navbar'){
+  if ($('body').find('div').first().attr('id') != 'navbar' && $('body').find('div').first().attr('id') != 'application-modal'){
+    console.log($('body').find('div').first());
     $('body').find('div').first().remove();
   }
   //Hide the modal and remove necessary landing page content
@@ -385,12 +447,15 @@ function generateContent(data,facility,room,fixture,target,system,cct,time,view)
   }
   //Get path of our content in the json file
 
-
-  buildHTML();
+  if ($('#final_content').length==0){
+    buildHTML();
+  }
   generateDescription(data,facility,room,fixture);
-  generateRender(path,data,facility,room,fixture,target,system,cct,time,view);
+  generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view);
   generatePlan(path,view);
-  generateAdjustments(data,facility,room,fixture,target,system,cct,time,view);
+  generateAdjustments(data,selection,facility,room,fixture,target,system,cct,time,view);
+  generateFinalBreadcrumb(data,selection,facility,room,fixture,target,system,cct);
+  generateFixtures(fixture);
 }
 
 $(document).ready(function(){

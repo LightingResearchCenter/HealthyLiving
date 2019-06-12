@@ -1,3 +1,35 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?68wbpo');
+  src:  url('../fonts/icomoon.eot?68wbpo#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?68wbpo') format('truetype'),
+    url('../fonts/icomoon.woff?68wbpo') format('woff'),
+    url('../fonts/icomoon.svg?68wbpo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: bold;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-plan-man:before {
+  content: "\e900";
+}
+
+
 #mainNav {
   background-color:#00205b;
 }
@@ -83,6 +115,15 @@
   width: 20%;
 }
 
+.fixture-container{
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 33.33%;
+  border-bottom: .33rem solid transparent;
+}
+
 .render-container{
   position: relative;
 }
@@ -95,17 +136,37 @@
   background-color: #555;
   color: white;
   font-size: 16px;
-  padding: 12px 24px;
+  padding: 12px 12px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  width: 10rem;
 }
 
-.fixture-container {
+a p.bc-option{
+  margin: 0;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.vert-cent{
+  margin: 0;
+  padding-left: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+/* .fixture-container {
   float: left;
   position: relative;
   max-width: 100%;
-}
+} */
 
 .title {
   padding-top:10vh;
@@ -115,6 +176,48 @@
 .description {
   padding-top:2vh;
   font-size:3vw;
+}
+
+.bc-title{
+  font-size: 1.2rem;
+  padding-top: .75rem;
+}
+
+.list-group-item.bc-item{
+  padding: 0;
+  border: none;
+}
+
+.list-group li:first-child div.bc-header{
+  border-top-left-radius: 1rem;
+}
+
+.list-group li:last-child div.bc-header{
+  border-top-right-radius: 1rem;
+}
+
+.bc-header{
+  height: 3rem;
+  color: #fff;
+  background-color: #00205b;
+  border: 1px solid #00205b;
+}
+
+.bc-body{
+  min-height: 3rem;
+  border: 1px solid #00205b;
+}
+
+.bc-item{
+  width: 16.67%
+}
+
+.list-group-horizontal{
+  width: 100%;
+}
+
+.final_bc_item{
+  width: 16.67%;
 }
 
 .modal-content {
@@ -340,13 +443,14 @@ ol li a,ol li a:hover {
 
 @media only screen and (max-width: 920px){
   .middle h1 {
-  padding-right:5vw;
-  padding-left:5vw;
-  font-size:3.5em;
-  letter-spacing:1vw;
-}
-
-.middle p {
-  font-size:.9em;
+    padding-right:5vw;
+    padding-left:5vw;
+    font-size:3.5em;
+    letter-spacing:1vw;
   }
+
+  .middle p {
+    font-size:.9em;
+  }
+
 }
