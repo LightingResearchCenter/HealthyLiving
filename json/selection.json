@@ -190,7 +190,7 @@
       "6500 K":
       {
         "img" : "img/application/selection/6 CCT/6500 K.jpg",
-        "desc" : "Cool white"
+        "desc" : "Cooler white"
       },
       "5000 K":
       {
@@ -210,32 +210,32 @@
       "2700 K":
       {
         "img" : "img/application/selection/6 CCT/2700 K.jpg",
-        "desc" : "Warm white"
+        "desc" : "Warmer white"
       },
       "6500K -> 5000K -> 4000K":
       {
         "img" : "img/application/selection/6 CCT/0.3- 6500K.jpg",
-        "desc" : "Cool white in the morning to afternoon, day white in the evening, and natural white at night."
+        "desc" : "Transition from a cooler white light in the early hours of the day to a neutral white light at night."
       },
       "6500K -> 5000K -> 4000K -> 3000K" :
       {
         "img" : "img/application/selection/6 CCT/0.4- 6500k.png",
-        "desc" : "Cool white in the morning, day white in the afternoon, natural white in afternoon, and warm white at night."
+        "desc" : "Transition from a cooler white light in the early hours of the day to a warm white light at night."
       },
       "5000K -> 4000K -> 3000K":
       {
         "img" : "img/application/selection/6 CCT/0.3- 5000k.jpg",
-        "desc" : "Day white in the morning/afternoon, natural white in the evening, and warm white at night."
+        "desc" : "Transition from a cool white light in the early hours of the day to a warm white light at night."
       },
       "5000K -> 4000K -> 3000K -> 2700K":
       {
         "img" : "img/application/selection/6 CCT/0.4- 5000K.png",
-        "desc" : "Day white in the morning, natural white in the afternoon, and warm white in the evening and night."
+        "desc" : "Transition from a cool white light in the early hours of the day to a warmer white light at night."
       },
       "4000K -> 3000K -> 2700K":
       {
         "img" : "img/application/selection/6 CCT/0.3- 4000K.jpg",
-        "desc" : "Natural white in the morning/afternoon, and warm white in the evening and night."
+        "desc" : "Transition from a neutral white light in the early hours of the day to a warmer white light at night."
       }
     }
   }
