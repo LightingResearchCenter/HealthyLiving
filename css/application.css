@@ -225,6 +225,10 @@ a p.bc-option{
   margin-bottom:20px;
 }
 
+.modal-xl{
+  max-width: 85%;
+}
+
 .btn-primary {
   background-color:#00205b!important;
   border-color:#00205b!important;
@@ -322,6 +326,10 @@ p{
 .card-title{
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+.card-body p, .card-body ul li{
+  font-size: 1.25rem;
 }
 
 .h-80{
