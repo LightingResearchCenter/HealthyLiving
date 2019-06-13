@@ -145,8 +145,7 @@ function getTarget(data,selection,facility,room,fixture,target,system,cct,time){
   generateModalBreadcrumb(data,selection,"target",facility,room,fixture,target,system,cct,time);
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a Target CS<p class="modal-title-desc">'+selection["Target"]["desc"]+'</p>');
-  $('#modalSize').removeClass('modal-xl');
-  $('#modalSize').addClass('modal-lg');
+
   for (var i = 0; i < targets.length; i++){
     var _target = Object.keys(data[facility][room][fixture])[i];
     if (_target == "desc"){
