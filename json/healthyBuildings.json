@@ -5401,6 +5401,51 @@
       }
     },
     "School" : "nothing here",
-    "Healthcare" : "nothing here"
+    "Healthcare" :
+    {
+      "Double" :
+      {
+        "2x4 Troffer + Sconce" : {
+
+        },
+        "Recessed Linear + Sconce + Wall Wash" :
+        {
+
+        }
+      },
+      "NICU" :
+      {
+        "2x4 Troffer + Wall Valance + Desk Luminaire" :
+        {
+
+        },
+        "Recessed Linear + Downlight + Wall Wash + Cove" :
+        {
+
+        }
+      },
+      "Nurses Stattion" :
+      {
+        "Recessed Linear + Desk Luminaire + Under Cabinet" :
+        {
+
+        },
+        "Recessed Linear + Wall Wash" :
+        {
+
+        }
+      },
+      "Single" :
+      {
+        "2x4 Troffer + Sconce" :
+        {
+
+        },
+        "Recessed Linear + Sconce + Wall Wash" :
+        {
+
+        }
+      }
+    }
   }
 }
