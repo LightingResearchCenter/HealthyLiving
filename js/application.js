@@ -246,7 +246,7 @@ function buildHTML(){
   str += '      </div>';
   str += '    </div>';
   str += '    <div class="col-md-6 text-center mb-4">';
-  str += '      <h6 class="final_title py-1">Reflected Ceiling Plan<i class="far fa-question-circle float-right mr-2" data-toggle="modal" data-target="#rcp_modal"></i></h6>';
+  str += '      <h6 class="final_title py-1">Lighting Layout<i class="far fa-question-circle float-right mr-2" data-toggle="modal" data-target="#rcp_modal"></i></h6>';
   str += '        <div id="final_plan">';
   str += '          <img id="final_plan_img" class="img m-auto" src=""/>'
   str += '        </div>'
