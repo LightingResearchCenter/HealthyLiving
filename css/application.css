@@ -190,10 +190,34 @@ a p.bc-option{
   font-size:3vw;
 }
 
-.bc-title{
-  font-size: 1.2rem;
-  padding-top: .75rem;
+.bc-item{
+  border-left: 1px solid #dbdbdb;
 }
+
+.bc-title{
+  font-weight: 600;
+  height: 35%;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.bc-selection{
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  height: 65%;
+  margin: auto;
+  background-color: #f2f5f7;
+}
+
+.bc-selection:hover{
+  cursor: pointer;
+  background-color: #00205b;
+  color: #fff;
+}
+
+
 
 .list-group-item.bc-item{
   padding: 0;
@@ -222,6 +246,38 @@ a p.bc-option{
 
 .bc-item{
   width: 16.67%
+}
+
+.bc-row{
+  text-align: center;
+  height: 5rem;
+}
+
+.bc-row .bc-item:first-child{
+  border-left: none;
+  border-top-left-radius: .25rem;
+  border-bottom-left-radius: .25rem;
+}
+
+.bc-row .bc-item:first-child .bc-title{
+  border-top-left-radius: .25rem;
+}
+
+.bc-row .bc-item:first-child .bc-selection{
+  border-bottom-left-radius: .25rem;
+}
+
+.bc-row .bc-item:last-child{
+  border-top-right-radius: .25rem;
+  border-bottom-right-radius: .25rem;
+}
+
+.bc-row .bc-item:last-child .bc-title{
+  border-top-right-radius: .25rem;
+}
+
+.bc-row .bc-item:last-child .bc-selection{
+  border-bottom-right-radius: .25rem;
 }
 
 .list-group-horizontal{
@@ -264,8 +320,29 @@ html,body {
 }
 
 .body-bg{
-  background-image: url("../img/application/landing/furley_bg.png");
-  background-repeat: repeat;
+  background-color: #f2f5f7;
+  /* background-image: url("../img/application/landing/furley_bg.png");
+  background-repeat: repeat; */
+}
+
+.sidebar-title{
+  background: #fff;
+  font-weight: 600;
+  text-align: center;
+  height: 2rem;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+}
+
+.sidebar-selection{
+  text-align: center;
+  background: #fafafa;
+}
+
+.sidebar-selection:hover{
+  background-color: #00205b;
+  cursor: pointer;
+  color: #f4f4f4;
 }
 
 .card-body-small-padding{
