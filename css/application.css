@@ -268,7 +268,7 @@ html,body {
   background-repeat: repeat;
 }
 
-.card-body{
+.card-body-small-padding{
   padding: .5rem;
 }
 
