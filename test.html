@@ -4,20 +4,20 @@
     <title>Healthy Patterns</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="js/application.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="js/application.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="https://use.typekit.net/hgq1zqp.css">
     <link rel="stylesheet" href="css/application.css" />
   </head>
-  <body>
+  <body class="body-bg">
     <!-- Navbar -->
     <div id="navbar">
-      <script type="text/javascript">$('#navbar').load('navbar.html');</script>
+      <script>$('#navbar').load('navbar.html');</script>
     </div>
-    <script type="text/javascript">
+    <script>
       $(document).ready(function(){
         $('#application-tab').addClass('active');
         $('#background-tab').attr("href", "background.html");
@@ -26,95 +26,92 @@
     <!-- Navbar -->
 
 
-    <!-- Image render modal -->
-    <div class="modal fade" id="image_render_help_modal" tabindex="-1" role="dialog" aria-labelledby="image_render_help_modal_label" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="image_render_help_modal_label">Image Render</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>
-              The room rendering gives a visual for how a space can change based on the time of day and CCT chosen. Exterior environments are dynamic, and so should your interior spaces.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Image render modal -->
-
-
     <div class="container-fluid pt-3 pr-4">
-      <div class="row">
-        <div id="final_description" class="text-center col-md-12">
-          <h6 class="final_title py-1">Description</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate sagittis est, sed vestibulum ipsum elementum eget. Sed pulvinar nisl justo, ullamcorper laoreet ante tincidunt eu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec lacinia, nulla quis iaculis posuere, libero risus commodo urna, sed finibus dui risus gravida nibh. Nullam eget ultrices quam. Praesent maximus luctus ex tincidunt ornare. Vestibulum suscipit lorem id purus iaculis, ac congue leo porttitor. </p>
-        </div>
-      </div>
+
       <div class="row mb-4">
-        <div class="col-md-6 text-center mb-4">
-          <h6 class="final_title py-1">Image Render<i class="far fa-question-circle float-right mr-2" data-toggle="modal" data-target="#image_render_help_modal"></i></h6>
-          <div id="final_render" class="render-container">
-            <img class="img rounded m-auto" src="img/application/senior care/renders/assisted living with kitchen single/combo/Nursing_Home_Kitchen_Combo_2700K_0.1Night.jpg"/>
-            <button class="btn btn-primary img-button">Toggle View</button>
-          </div>
-        </div>
-        <div class="col-md-6 text-center mb-4">
-          <h6 class="final_title py-1">Lighting Plan</h6>
-          <div id="final_plan">
-            <img class="img m-auto" src="img/application/senior care/floor plans/SeniorCare_Common_Combo_View2.jpg"/>
-          </div>
-        </div>
-      </div>
-      <div class="row mb-4">
-        <div class="col-md-6 text-center mb-4">
-          <h6 class="final_title py-1">Adjustments</h6>
-          <div id="final_adjustments">
-            <div class="adjustment-container4">
-              <a class="img-border" href="#"><img class="mb-2 p-0" width="100%" src="img/application/final/1morning.jpg" /></a>
-            </div><!--
-         --><div class="adjustment-container4">
-              <a class="img-border" href="#"><img class="mb-2 p-0" width="100%" src="img/application/final/1afternoon.jpg" /></a>
-            </div><!--
-         --><div class="adjustment-container4">
-              <a class="img-border" href="#"><img class="mb-2 p-0" width="100%" src="img/application/final/1evening.jpg" /></a>
-            </div><!--
-         --><div class="adjustment-container4">
-              <a class="img-border" href="#"><img class="mb-2 p-0" width="100%" src="img/application/final/1night.jpg" /></a>
-            </div><!--
-         --><div class="adjustment-container4">
-              <a class="img-border" href="#"><img class="mb-2 p-0" width="100%" src="img/application/final/1morning.jpg" /></a>
-            </div><!--
-         --><div class="adjustment-container4">
-              <a class="img-border" href="#"><img class="mb-2 p-0" width="100%" src="img/application/final/1afternoon.jpg" /></a>
-            </div><!--
-         --><div class="adjustment-container4">
-              <a class="img-border" href="#"><img class="mb-2 p-0" width="100%" src="img/application/final/1evening.jpg" /></a>
-            </div><!--
-         --><div class="adjustment-container4">
-              <a class="img-border" href="#"><img class="mb-2 p-0" width="100%" src="img/application/final/1night.jpg" /></a>
+        <div class="col">
+          <div class="card drop-shadow">
+            <div class="card-body card-body-small-padding">
+              A common area in a senior care facility is where residents can spend most of their day. This 1550 sf common area is divided into two areas for dining and activities. The dining area has round tables with chairs and the activity area has sofas, side tables, and rectangular tables with chairs for recreational use. From eating meals in the dining area, relaxing on the couch, or sitting at the activity tables, designs should aim to reach desired CS levels in these locations.
             </div>
           </div>
         </div>
-        <div id="final_fixtures" class="col-md-6 text-center mb-4">
-          <h6 class="final_title py-1">Fixtures</h6>
-          <div class="fixture-container">
-            <img class="m-0 p-0" width="100%" src="img/fixtures.png" />
+      </div>
+
+      <div class="row mb-4">
+
+        <div class="col-xl-6 col-lg-12">
+          <div class="card drop-shadow">
+            <img class="card-img-top" src="img/application/facilities/senior%20care/renders/common%20room/combo/view1-%20seating/SeniorCare_Common_Combo_2700K_0.1Night.jpg" alt="Card image cap">
+            <div class="card-body card-body-small-padding">
+              <div class="adjustment-container adjustment-container4">
+                <a class="img-border" href="#"><img class="mb-2 p-0" src="img/application/adjustments/4%200.jpg" alt="Time of Day Adjustment Selector" /></a>
+              </div><!--
+           --><div class="adjustment-container adjustment-container4">
+                <a class="img-border" href="#"><img class="mb-2 p-0" src="img/application/adjustments/4%201.jpg" alt="Time of Day Adjustment Selector" /></a>
+              </div><!--
+           --><div class="adjustment-container adjustment-container4">
+                <a class="img-border" href="#"><img class="mb-2 p-0" src="img/application/adjustments/4%202.jpg" alt="Time of Day Adjustment Selector" /></a>
+              </div><!--
+           --><div class="adjustment-container adjustment-container4">
+                <a class="img-border" href="#"><img class="mb-2 p-0" src="img/application/adjustments/4%203.jpg" alt="Time of Day Adjustment Selector"  /></a>
+              </div><!--
+           --><div class="adjustment-container adjustment-container4">
+                <a class="img-border" href="#"><img class="m-0 p-0" src="img/application/adjustments/4%206500%20K.jpg" alt="CCT Adjustment Selector"  /></a>
+              </div><!--
+           --><div class="adjustment-container adjustment-container4">
+                <a class="img-border" href="#"><img class="m-0 p-0" src="img/application/adjustments/4%205000%20K.jpg" alt="CCT Adjustment Selector" /></a>
+              </div><!--
+           --><div class="adjustment-container adjustment-container4">
+                <a class="img-border" href="#"><img class="m-0 p-0" src="img/application/adjustments/4%204000%20K.jpg" alt="CCT Adjustment Selector"  /></a>
+              </div><!--
+           --><div class="adjustment-container adjustment-container4">
+                <a class="img-border" href="#"><img class="m-0 p-0" src="img/application/adjustments/4%203000%20K.jpg" alt="CCT Adjustment Selector"  /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-6 col-lg-12">
+          <div class="card drop-shadow">
+            <img class="card-img-top p-2" src="img/application/facilities/senior%20care/floor%20plans/SeniorCare_Common_Combo.jpg" alt="Card image cap">
+            <div class="card-body card-body-small-padding">
+              <div class="mb-2 fixture-container">
+                <img class="m-0 px-1" src="img/application/fixtures/RecessedLinear.png" alt="Fixture Img">
+              </div><!--
+           --><div class="mb-2 fixture-container">
+                <img class="m-0 px-1" src="img/application/fixtures/2x4Troffer.png" alt="Fixture Img">
+              </div><!--
+           --><div class="mb-2 fixture-container">
+                <img class="m-0 px-1" src="img/application/fixtures/Cove.png" alt="Fixture Img">
+              </div><!--
+           --><div class="fixture-container">
+                <img class="m-0 px-1" src="img/application/fixtures/DeskLuminaire.png" alt="Fixture Img">
+              </div><!--
+           --><div class="fixture-container">
+                <img class="m-0 px-1" src="img/application/fixtures/DirectIndirectLinearPendant.png" alt="Fixture Img">
+              </div><!--
+           --><div class="fixture-container">
+                <img class="m-0 px-1" src="img/application/fixtures/Downlight.png" alt="Fixture Img">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mb-4">
+        <div class="col">
+          <div class="card">
+            <div class="card-body card-body-small-padding drop-shadow">
+              <div id="final_cs">
+                <img src="CS%20chart%20example.png" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12 text-center mb-4">
-          <h6 class="final_title py-1">CS Chart</h6>
-          <img class="img m-auto" src="img/CS Chart sizes- 0.3 short.jpg"/>
-        </div>
-      </div>
+
     </div>
 
 

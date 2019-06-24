@@ -83,6 +83,7 @@
   color:#FFF;
 }
 
+
 .adjustment-container2 {
   display: inline-block;
   position: relative;
@@ -107,6 +108,10 @@
   width: 25%;
 }
 
+.adjustment-container4 a img{
+  border: 1px solid black;
+}
+
 .adjustment-container5 {
   display: inline-block;
   position: relative;
@@ -115,13 +120,20 @@
   width: 20%;
 }
 
+.adjustment-container img{
+  width: 100%;
+}
+
 .fixture-container{
   display: inline-block;
   position: relative;
   margin: 0;
   padding: 0;
   width: 33.33%;
-  border-bottom: .33rem solid transparent;
+}
+
+.fixture-container img{
+  width: 100%;
 }
 
 .render-container{
@@ -220,6 +232,10 @@ a p.bc-option{
   width: 16.67%;
 }
 
+#final_cs img{
+  width: 100%;
+}
+
 .modal-content {
   margin-top:20px;
   margin-bottom:20px;
@@ -245,6 +261,15 @@ ol {
 html,body {
   height: 100%;
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.body-bg{
+  background-image: url("../img/application/landing/furley_bg.png");
+  background-repeat: repeat;
+}
+
+.card-body-small-padding{
+  padding: .5rem;
 }
 
 #landing-text {
@@ -408,6 +433,12 @@ p{
 }
 
 .hover:hover{
+  -webkit-box-shadow:0 1px 3px rgba(0,0,0,0.18), 0 1px 2px rgba(0,0,0,0.24);
+  -moz-box-shadow:0 1px 3px rgba(0,0,0,0.18), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow:0 14px 28px rgba(0,0,0,0.18), 0 10px 10px rgba(0,0,0,0.24);
+}
+
+.drop-shadow{
   -webkit-box-shadow:0 1px 3px rgba(0,0,0,0.18), 0 1px 2px rgba(0,0,0,0.24);
   -moz-box-shadow:0 1px 3px rgba(0,0,0,0.18), 0 1px 2px rgba(0,0,0,0.24);
   box-shadow:0 14px 28px rgba(0,0,0,0.18), 0 10px 10px rgba(0,0,0,0.24);
