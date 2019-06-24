@@ -218,55 +218,59 @@ function getCCT(data,selection,facility,room,fixture,target,system,cct,time){
 function buildHTML(){
   var str = '';
 
-  str += '<div id="final_content" class="container-fluid pr-4">';
-  str += '  <div class="row text-center my-4">';
-  str += '    <div class="col-lg-12">';
-  str += '      <ul class="list-group list-group-horizontal">';
-  str += '       <li class="list-group-item bc-item"><div class="bc-header"><h6 class="bc-title">Facility</h6></div><div id="bc_facility" class="bc-body"></div></li>';
-  str += '       <li class="list-group-item bc-item"><div class="bc-header"><h6 class="bc-title">Room</h6></div><div id="bc_room" class="bc-body"></div></li>';
-  str += '       <li class="list-group-item bc-item"><div class="bc-header"><h6 class="bc-title">Fixture</h6></div><div id="bc_fixture" class="bc-body"></div></li>';
-  str += '       <li class="list-group-item bc-item"><div class="bc-header"><h6 class="bc-title">Target</h6></div><div id="bc_target" class="bc-body"></div></li>';
-  str += '       <li class="list-group-item bc-item"><div class="bc-header"><h6 class="bc-title">System</h6></div><div id="bc_system" class="bc-body"></div></li>';
-  str += '       <li class="list-group-item bc-item"><div class="bc-header"><h6 class="bc-title">CCT</h6></div><div id="bc_cct" class="bc-body"></div></li>';
-  str += '      </ul>'
-  str += '    </div>';
-  str += '  </div>'
-  str += '  <div class="row my-4">';
-  str += '    <div class="col-md-12">';
-  str += '      <h6 class="final_title py-1 text-center">Description<i class="far fa-question-circle float-right mr-2" data-toggle="modal" data-target="#description_modal"></i></h6>'
-  str += '      <div id="final_description" class="mx-3">';
+  str += '<div id="final_content" class="container-fluid pt-3 pr-4">';
+  str += '  <div class="row">';
+  str += '    <div class="col-xl-2 col-lg-12 pr-0 mb-4">';
+  str += '      <div class="card drop-shadow">';
+  str += '        <ul class="list-group list-group-flush">';
+  str += '          <li class="list-group-item sidebar-title">Facility</li>';
+  str += '          <li id="repick_facility" class="list-group-item sidebar-selection" data-toggle="modal" data-target="#application-modal"></li>';
+  str += '          <li class="list-group-item sidebar-title">Room</li>';
+  str += '          <li id="repick_room" class="list-group-item sidebar-selection" data-toggle="modal" data-target="#application-modal"></li>';
+  str += '          <li class="list-group-item sidebar-title">Fixtures</li>';
+  str += '          <li id="repick_fixture" class="list-group-item sidebar-selection" data-toggle="modal" data-target="#application-modal"></li>';
+  str += '          <li class="list-group-item sidebar-title">Target CS</li>';
+  str += '          <li id="repick_target" class="list-group-item sidebar-selection" data-toggle="modal" data-target="#application-modal"></li>';
+  str += '          <li class="list-group-item sidebar-title">CCT System</li>';
+  str += '          <li id="repick_system" class="list-group-item sidebar-selection" data-toggle="modal" data-target="#application-modal"></li>';
+  str += '          <li class="list-group-item sidebar-title">CCT</li>';
+  str += '          <li id="repick_cct" class="list-group-item sidebar-selection" data-toggle="modal" data-target="#application-modal"></li>';
+  str += '        </ul>';
   str += '      </div>';
   str += '    </div>';
-  str += '  </div>';
-  str += '  <div class="row my-4">';
-  str += '    <div class="col-md-6 text-center mb-4">';
-  str += '      <h6 class="final_title py-1">Image Render<i class="far fa-question-circle float-right mr-2" data-toggle="modal" data-target="#render_modal"></i></h6>';
-  str += '      <div id="final_render" class="render-container">';
-  str += '        <img id="final_render_img" class="img rounded m-auto" src=""/>'
-  str += '      </div>';
-  str += '    </div>';
-  str += '    <div class="col-md-6 text-center mb-4">';
-  str += '      <h6 class="final_title py-1">Lighting Layout<i class="far fa-question-circle float-right mr-2" data-toggle="modal" data-target="#rcp_modal"></i></h6>';
-  str += '        <div id="final_plan">';
-  str += '          <img id="final_plan_img" class="img m-auto" src=""/>'
-  str += '        </div>'
-  str += '    </div>';
-  str += '  </div>';
-  str += '  <div class="row my-4">';
-  str += '    <div class="col-md-6 text-center mb-4">';
-  str += '      <h6 class="final_title py-1">Adjustments<i class="far fa-question-circle float-right mr-2" data-toggle="modal" data-target="#adjustment_modal"></i></h6>';
-  str += '        <div id="final_adjustments">';
+  str += '    <div class="col-xl-10 col-lg-12">';
+  str += '      <div class="row mb-4">';
+  str += '        <div class="col">';
+  str += '          <div class="card drop-shadow">';
+  str += '            <div id="final_description" class="card-body card-body-small-padding">';
+  str += '            </div>';
+  str += '          </div>';
   str += '        </div>';
-  str += '    </div>';
-  str += '    <div class="col-md-6  mb-4">';
-  str += '      <h6 class="text-center final_title py-1">Fixtures<i class="far fa-question-circle float-right mr-2" data-toggle="modal" data-target="#fixture_modal"></i></h6>';
-  str += '      <div id="final_fixtures">';
-  str += '      </div>'
-  str += '    </div>';
-  str += '  </div>';
-  str += '  <div class="row my-4">';
-  str += '    <div id="final_chart" class="col-md-12 text-center mb-4">';
-  str += '      <h6 class="final_title py-1">CS Chart<i class="far fa-question-circle float-right mr-2" data-toggle="modal" data-target="#chart_modal"></i></h6>';
+  str += '      </div>';
+  str += '      <div class="row mb-4">';
+  str += '        <div class="col-xl-6 col-lg-12">';
+  str += '          <div class="card drop-shadow">';
+  str += '            <img id="final_render_img" class="card-img-top" src="" alt="Selection Render" />';
+  str += '            <div id="final_adjustments" class="card-body card-body-small-padding">';
+  str += '            </div>';
+  str += '          </div>';
+  str += '        </div>';
+  str += '        <div class="col-xl-6 col-lg-12">';
+  str += '          <div class="card drop-shadow">';
+  str += '            <img id="final_plan_img" class="card-img-top p-2" src="" alt="Selection Lighting Plan" />';
+  str += '            <div id="final_fixtures" class="card-body card-body-small-padding">';
+  str += '            </div>';
+  str += '          </div>';
+  str += '        </div>';
+  str += '      </div>';
+  str += '      <div class="row mb-4">';
+  str += '        <div class="col">';
+  str += '          <div class="card">';
+  str += '            <div id="final_cs" class="card-body card=body-small-padding drop-shadow">';
+  str += '            </div>';
+  str += '          </div>';
+  str += '        </div>';
+  str += '      </div>';
   str += '    </div>';
   str += '  </div>';
   str += '</div>';
@@ -275,12 +279,12 @@ function buildHTML(){
 }
 
 function generateFinalBreadcrumb(data,selection,facility,room,fixture,target,system,cct){
-  $('#bc_facility').html('<a href="#" id="repick_facility" data-toggle="modal" data-target="#application-modal"><p class="bc-option">' + facility +'</p></a>');
-  $('#bc_room').html('<a href="#" id="repick_room" data-toggle="modal" data-target="#application-modal"><p class="bc-option">' + room +'</p></a>');
-  $('#bc_fixture').html('<a href="#" id="repick_fixture" data-toggle="modal" data-target="#application-modal"><p class="bc-option">' + fixture +'</p></a>');
-  $('#bc_target').html('<a href="#" id="repick_target" data-toggle="modal" data-target="#application-modal"><p class="bc-option">' + target +'</p></a>');
-  $('#bc_system').html('<a href="#" id="repick_system" data-toggle="modal" data-target="#application-modal"><p class="bc-option">' + system +'</p></a>');
-  $('#bc_cct').html('<a href="#" id="repick_cct" data-toggle="modal" data-target="#application-modal"><p class="bc-option">' + cct +'</p></a>');
+  $('#repick_facility').html(facility);
+  $('#repick_room').html(room);
+  $('#repick_fixture').html(fixture);
+  $('#repick_target').html(target);
+  $('#repick_system').html(system);
+  $('#repick_cct').html(cct);
   $('#repick_facility').click(function(){
     $('#toggle_view').remove();
     getFacility(data,selection,'','','','','','','');
@@ -337,8 +341,8 @@ function generateFixtures(fixture){
   fixture = fixture.replace(/\s/g,'').split('+');
   str = '';
   for (var i = 0; i < fixture.length; i++){
-    str += '<div class="mb-2 pl-1 pr-1 fixture-container">';
-    str += '  <img class="m-0 p-0" src="img/application/fixtures/'+fixture[i]+'.png" width="100%">';
+    str += '<div class="mb-2 fixture-container">';
+    str += '  <img class="m-0 px-1" src="img/application/fixtures/'+fixture[i]+'.png" alt="Fixture Image">';
     str += '</div>';
   }
   $('#final_fixtures').html(str);
@@ -356,12 +360,12 @@ function generateAdjustments(data,selection,facility,room,fixture,target,system,
     }
   }
   for (var i = 0; i < cct_count; i++){
-    cct_str += '<div data-value="'+i+'" class="mb-2 cct-border adjustment-container-cct adjustment-container'+cct_count;
+    cct_str += '<div data-value="'+i+'" class="cct-border adjustment-container adjustment-container'+cct_count;
     if (i == cct_selected){
       cct_str += ' cct-selected';
     }
     cct_str += '">';
-    cct_str += '  <img class="m-0 p-0" width="100%" src="img/application/adjustments/'+cct_count+' '+Object.keys(data[facility][room][fixture][target][system])[i]+'.jpg"/>';
+    cct_str += '  <img class="mb-2 p-0" src="img/application/adjustments/'+cct_count+' '+Object.keys(data[facility][room][fixture][target][system])[i]+'.jpg"/>';
     cct_str += '</div>';
   }
 
@@ -378,12 +382,12 @@ function generateAdjustments(data,selection,facility,room,fixture,target,system,
       }
     }
     for (var i = 0; i < tod_count; i++){
-      tod_str += '<div data-value="'+i+'" class="mb-2 tod-border adjustment-container-tod adjustment-container'+tod_count;
+      tod_str += '<div data-value="'+i+'" class="tod-border adjustment-container adjustment-container'+tod_count;
       if (i == tod_selected){
         tod_str += ' tod-selected';
       }
       tod_str += '">';
-      tod_str += '  <img class="m-0 p-0" width="100%" src="img/application/adjustments/'+tod_count+' '+i+'.jpg"/>';
+      tod_str += '  <img class="mb-2 p-0" src="img/application/adjustments/'+tod_count+' '+i+'.jpg"/>';
       tod_str += '</div>';
     }
   }
