@@ -220,29 +220,39 @@ function buildHTML(){
 
   str += '<div id="final_content" class="container-fluid pt-3 pr-4">';
   str += '  <div class="row">';
-  str += '    <div class="col-xl-2 col-lg-12 pr-0 mb-4">';
-  str += '      <div class="card drop-shadow">';
-  str += '        <ul class="list-group list-group-flush">';
-  str += '          <li class="list-group-item sidebar-title">Facility</li>';
-  str += '          <li id="repick_facility" class="list-group-item sidebar-selection" data-toggle="modal" data-target="#application-modal"></li>';
-  str += '          <li class="list-group-item sidebar-title">Room</li>';
-  str += '          <li id="repick_room" class="list-group-item sidebar-selection" data-toggle="modal" data-target="#application-modal"></li>';
-  str += '          <li class="list-group-item sidebar-title">Fixtures</li>';
-  str += '          <li id="repick_fixture" class="list-group-item sidebar-selection" data-toggle="modal" data-target="#application-modal"></li>';
-  str += '          <li class="list-group-item sidebar-title">Target CS</li>';
-  str += '          <li id="repick_target" class="list-group-item sidebar-selection" data-toggle="modal" data-target="#application-modal"></li>';
-  str += '          <li class="list-group-item sidebar-title">CCT System</li>';
-  str += '          <li id="repick_system" class="list-group-item sidebar-selection" data-toggle="modal" data-target="#application-modal"></li>';
-  str += '          <li class="list-group-item sidebar-title">CCT</li>';
-  str += '          <li id="repick_cct" class="list-group-item sidebar-selection" data-toggle="modal" data-target="#application-modal"></li>';
-  str += '        </ul>';
-  str += '      </div>';
-  str += '    </div>';
-  str += '    <div class="col-xl-10 col-lg-12">';
+  str += '    <div class="col-xl-9 col-lg-12">';
   str += '      <div class="row mb-4">';
   str += '        <div class="col">';
   str += '          <div class="card drop-shadow">';
-  str += '            <div id="final_description" class="card-body card-body-small-padding">';
+  str += '            <div class="card-body p-0">';
+  str += '              <div class="container-fluid">';
+  str += '                <div class="row bc-row">';
+  str += '                  <div class="col bc-item px-0">';
+  str += '                    <div class="bc-title">Facility</div>';
+  str += '                    <div id="bc_facility" class="bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
+  str += '                  </div>';
+  str += '                  <div class="col bc-item px-0">';
+  str += '                    <div class="bc-title">Room</div>';
+  str += '                    <div id="bc_room" class="bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
+  str += '                  </div>';
+  str += '                  <div class="col bc-item px-0">';
+  str += '                    <div class="bc-title">Fixtures</div>';
+  str += '                    <div id="bc_fixture" class="bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
+  str += '                  </div>';
+  str += '                  <div class="col bc-item px-0">';
+  str += '                    <div class="bc-title">Target CS</div>';
+  str += '                    <div id="bc_target" class="bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
+  str += '                  </div>';
+  str += '                  <div class="col bc-item px-0">';
+  str += '                    <div class="bc-title">CCT System</div>';
+  str += '                    <div id="bc_system" class="bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
+  str += '                  </div>';
+  str += '                  <div class="col bc-item px-0">';
+  str += '                    <div class="bc-title">CCT</div>';
+  str += '                    <div id="bc_cct" class="bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
+  str += '                  </div>';
+  str += '                </div>';
+  str += '              </div>';
   str += '            </div>';
   str += '          </div>';
   str += '        </div>';
@@ -251,26 +261,26 @@ function buildHTML(){
   str += '        <div class="col-xl-6 col-lg-12">';
   str += '          <div class="card drop-shadow">';
   str += '            <img id="final_render_img" class="card-img-top" src="" alt="Selection Render" />';
-  str += '            <div id="final_adjustments" class="card-body card-body-small-padding">';
-  str += '            </div>';
+  str += '            <div id="final_adjustments" class="card-body card-body-small-padding"></div>';
   str += '          </div>';
   str += '        </div>';
   str += '        <div class="col-xl-6 col-lg-12">';
   str += '          <div class="card drop-shadow">';
   str += '            <img id="final_plan_img" class="card-img-top p-2" src="" alt="Selection Lighting Plan" />';
-  str += '            <div id="final_fixtures" class="card-body card-body-small-padding">';
-  str += '            </div>';
+  str += '            <div id="final_fixtures" class="card-body card-body-small-padding"></div>';
   str += '          </div>';
   str += '        </div>';
   str += '      </div>';
   str += '      <div class="row mb-4">';
   str += '        <div class="col">';
   str += '          <div class="card">';
-  str += '            <div id="final_cs" class="card-body card=body-small-padding drop-shadow">';
-  str += '            </div>';
+  str += '            <div id="final_cs" class="card-body card=body-small-padding drop-shadow"></div>';
   str += '          </div>';
   str += '        </div>';
   str += '      </div>';
+  str += '    </div>';
+  str += '    <div class="col-xl-3 col-lg-12 pr-0 mb-4">';
+  str += '      <div class="card drop-shadow"></div>';
   str += '    </div>';
   str += '  </div>';
   str += '</div>';
@@ -279,33 +289,33 @@ function buildHTML(){
 }
 
 function generateFinalBreadcrumb(data,selection,facility,room,fixture,target,system,cct){
-  $('#repick_facility').html(facility);
-  $('#repick_room').html(room);
-  $('#repick_fixture').html(fixture);
-  $('#repick_target').html(target);
-  $('#repick_system').html(system);
-  $('#repick_cct').html(cct);
-  $('#repick_facility').click(function(){
+  $('#bc_facility').html(facility);
+  $('#bc_room').html(room);
+  $('#bc_fixture').html(fixture);
+  $('#bc_target').html(target);
+  $('#bc_system').html(system);
+  $('#bc_cct').html(cct);
+  $('#bc_facility').click(function(){
     $('#toggle_view').remove();
     getFacility(data,selection,'','','','','','','');
   });
-  $('#repick_room').click(function(){
+  $('#bc_room').click(function(){
     $('#toggle_view').remove();
     getRoom(data,selection,facility,'','','','','','');
   });
-  $('#repick_fixture').click(function(){
+  $('#bc_fixture').click(function(){
     $('#toggle_view').remove();
     getFixture(data,selection,facility,room,'','','','','');
   });
-  $('#repick_target').click(function(){
+  $('#bc_target').click(function(){
     $('#toggle_view').remove();
     getTarget(data,selection,facility,room,fixture,'','','','');
   });
-  $('#repick_system').click(function(){
+  $('#bc_system').click(function(){
     $('#toggle_view').remove();
     getSystem(data,selection,facility,room,fixture,target,'','','');
   });
-  $('#repick_cct').click(function(){
+  $('#bc_cct').click(function(){
     $('#toggle_view').remove();
     getCCT(data,selection,facility,room,fixture,target,system,'','');
   });
@@ -360,12 +370,12 @@ function generateAdjustments(data,selection,facility,room,fixture,target,system,
     }
   }
   for (var i = 0; i < cct_count; i++){
-    cct_str += '<div data-value="'+i+'" class="cct-border adjustment-container adjustment-container'+cct_count;
+    cct_str += '<div data-value="'+i+'" class="mb-2 cct-border adjustment-container adjustment-container-cct adjustment-container'+cct_count;
     if (i == cct_selected){
       cct_str += ' cct-selected';
     }
     cct_str += '">';
-    cct_str += '  <img class="mb-2 p-0" src="img/application/adjustments/'+cct_count+' '+Object.keys(data[facility][room][fixture][target][system])[i]+'.jpg"/>';
+    cct_str += '  <img class="m-0 p-0" src="img/application/adjustments/'+cct_count+' '+Object.keys(data[facility][room][fixture][target][system])[i]+'.jpg"/>';
     cct_str += '</div>';
   }
 
@@ -382,12 +392,12 @@ function generateAdjustments(data,selection,facility,room,fixture,target,system,
       }
     }
     for (var i = 0; i < tod_count; i++){
-      tod_str += '<div data-value="'+i+'" class="tod-border adjustment-container adjustment-container'+tod_count;
+      tod_str += '<div data-value="'+i+'" class="mb-2 tod-border adjustment-container adjustment-container-tod adjustment-container'+tod_count;
       if (i == tod_selected){
         tod_str += ' tod-selected';
       }
       tod_str += '">';
-      tod_str += '  <img class="mb-2 p-0" src="img/application/adjustments/'+tod_count+' '+i+'.jpg"/>';
+      tod_str += '  <img class="m-0 p-0" src="img/application/adjustments/'+tod_count+' '+i+'.jpg"/>';
       tod_str += '</div>';
     }
   }
