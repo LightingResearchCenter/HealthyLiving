@@ -19,6 +19,23 @@ function main(data,selection){
   getFacility(data,selection,facility,room,fixture,target,system,cct,time);
 }
 
+function checkModalSize(values){
+  var size = values.length;
+  for (var i = 0; i < values.length; i++){
+    if (values[i] == 'desc'){
+      size -= 1;
+    }
+  }
+  console.log(size);
+  if (size < 3){
+    $('#modalSize').removeClass('modal-xl');
+    $('#modalSize').addClass('modal-lg');
+  }else{
+    $('#modalSize').removeClass('modal-lg');
+    $('#modalSize').addClass('modal-xl');
+  }
+}
+
 function generateModalBreadcrumb(data,selection,current,facility,room,fixture,target,system,cct,time){
   if (current == "facility"){
     $('#application-modal-breadcrumb').html('<li class="breadcrumb-item">Facility</li>');
@@ -42,58 +59,31 @@ function generateModalBreadcrumb(data,selection,current,facility,room,fixture,ta
     $('#application-modal-breadcrumb').html('<li class="breadcrumb-item"><a href="#" id="repick-facility">'+facility+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-room">'+room+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-fixture">'+fixture+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-target">'+target+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-system">'+system+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-cct">'+cct+'</a></li><li class="breadcrumb-item">Time of Day</li>');
   }
   $('#repick-facility').click(function(){
-    if ($('#modalSize').hasClass('modal-lg')){
-      $('#modalSize').removeClass('modal-lg');
-      $('#modalSize').addClass('modal-xl');
-    }
     getFacility(data,selection,'','','','','','','');
   });
   $('#repick-room').click(function(){
-    if ($('#modalSize').hasClass('modal-lg')){
-      $('#modalSize').removeClass('modal-lg');
-      $('#modalSize').addClass('modal-xl');
-    }
     getRoom(data,selection,facility,'','','','','','');
   });
   $('#repick-fixture').click(function(){
-    if ($('#modalSize').hasClass('modal-lg')){
-      $('#modalSize').removeClass('modal-lg');
-      $('#modalSize').addClass('modal-xl');
-    }
     getFixture(data,selection,facility,room,'','','','','');
   });
   $('#repick-target').click(function(){
-    if ($('#modalSize').hasClass('modal-lg')){
-      $('#modalSize').removeClass('modal-lg');
-      $('#modalSize').addClass('modal-xl');
-    }
     getTarget(data,selection,facility,room,fixture,'','','','');
   });
   $('#repick-system').click(function(){
-    if ($('#modalSize').hasClass('modal-lg')){
-      $('#modalSize').removeClass('modal-lg');
-      $('#modalSize').addClass('modal-xl');
-    }
     getSystem(data,selection,facility,room,fixture,target,'','','');
   });
   $('#repick-cct').click(function(){
-    if ($('#modalSize').hasClass('modal-lg')){
-      $('#modalSize').removeClass('modal-lg');
-      $('#modalSize').addClass('modal-xl');
-    }
     getCCT(data,selection,facility,room,fixture,target,system,'','');
   });
   $('#repick-time').click(function(){
-    if ($('#modalSize').hasClass('modal-lg')){
-      $('#modalSize').removeClass('modal-lg');
-      $('#modalSize').addClass('modal-xl');
-    }
     getTime(data,selection,facility,room,fixture,target,system,cct,'');
   });
 }
 
 function getFacility(data,selection,facility,room,fixture,target,system,cct,time){
   var facilities = Object.values(data);
+  checkModalSize(Object.keys(data));
   generateModalBreadcrumb(data,selection,"facility",facility,room,fixture,target,system,cct,time);
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a Facility<p class="modal-title-desc">'+selection["Facility"]["desc"]+'</p>');
@@ -110,6 +100,7 @@ function getFacility(data,selection,facility,room,fixture,target,system,cct,time
 
 function getRoom(data,selection,facility,room,fixture,target,system,cct,time){
   var rooms = Object.values(data[facility]);
+  checkModalSize(Object.keys(data[facility]));
   generateModalBreadcrumb(data,selection,"room",facility,room,fixture,target,system,cct,time);
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a Room<p class="modal-title-desc">'+selection["Room"]["desc"]+'</p>');
@@ -126,6 +117,7 @@ function getRoom(data,selection,facility,room,fixture,target,system,cct,time){
 
 function getFixture(data,selection,facility,room,fixture,target,system,cct,time){
   var fixtures = Object.values(data[facility][room]);
+  checkModalSize(Object.keys(data[facility][room]));
   generateModalBreadcrumb(data,selection,"fixture",facility,room,fixture,target,system,cct,time);
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose Fixture(s)<p class="modal-title-desc">'+selection["Fixture"]["desc"]+'</p>');
@@ -142,6 +134,7 @@ function getFixture(data,selection,facility,room,fixture,target,system,cct,time)
 
 function getTarget(data,selection,facility,room,fixture,target,system,cct,time){
   var targets = Object.values(data[facility][room][fixture]);
+  checkModalSize(Object.keys(data[facility][room][fixture]));
   generateModalBreadcrumb(data,selection,"target",facility,room,fixture,target,system,cct,time);
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a Target CS<p class="modal-title-desc">'+selection["Target"]["desc"]+'</p>');
@@ -162,20 +155,16 @@ function getTarget(data,selection,facility,room,fixture,target,system,cct,time){
 
 function getSystem(data,selection,facility,room,fixture,target,system,cct,time){
   var systems = Object.values(data[facility][room][fixture][target]);
+  checkModalSize(Object.keys(data[facility][room][fixture][target]));
   generateModalBreadcrumb(data,selection,"system",facility,room,fixture,target,system,cct,time);
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a System<p class="modal-title-desc">'+selection["System"]["desc"]+'</p>');
-  $('#modalSize').removeClass('modal-xl');
-  $('#modalSize').addClass('modal-lg');
+
   for (var i = 0; i < systems.length; i++){
     var _system = Object.keys(data[facility][room][fixture][target])[i];
     var __system = _system.replace("[^a-zA-Z]", "").replace(/\s/g, '');
     $('#application-modal-deck').append('<div class="card hover"><a id="'+__system+'" data-value="'+_system+'"><img class="card-img-top" src="'+selection["System"][_system]["img"]+'" alt="CCT System" /><div class="card-body"><h5 class="card-title">'+_system+'</h5><hr/><p class="card-text">'+selection["System"][_system]["desc"]+'</p></div></a></div>');
     $('#'+__system).click(function(){
-      if ($('#modalSize').hasClass('modal-lg')){
-        $('#modalSize').removeClass('modal-lg');
-        $('#modalSize').addClass('modal-xl');
-      }
       system = $(this).data("value");
       getCCT(data,selection,facility,room,fixture,target,system,cct,time);
     });
@@ -184,13 +173,10 @@ function getSystem(data,selection,facility,room,fixture,target,system,cct,time){
 
 function getCCT(data,selection,facility,room,fixture,target,system,cct,time){
   var ccts = Object.values(data[facility][room][fixture][target][system]);
+  checkModalSize(Object.keys(data[facility][room][fixture][target][system]));
   generateModalBreadcrumb(data,selection,"cct",facility,room,fixture,target,system,cct,time);
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a CCT<p class="modal-title-desc">'+selection["CCT"]["desc"]+'</p>');
-  if (target=="0.4" && system=="Tunable"){
-    $('#modalSize').removeClass('modal-xl');
-    $('#modalSize').addClass('modal-lg');
-  }
   for (var i = 0; i < ccts.length; i++){
     var _cct = Object.keys(data[facility][room][fixture][target][system])[i];
     var __cct = inWords(_cct.split("K")[0].replace(/\s/g, '')).replace("[^a-zA-Z]", "").replace(/\s/g, '');
@@ -200,10 +186,6 @@ function getCCT(data,selection,facility,room,fixture,target,system,cct,time){
       $('#application-modal-deck').append('<div class="card hover"><a id="'+__cct+'" data-value="'+_cct+'"><img class="card-img-top" src="'+selection["CCT"][_cct]["img"]+'" alt="CCT" /><div class="card-body"><h5 class="card-title">'+_cct+'</h5><hr/><p class="card-text">'+selection["CCT"][_cct]["desc"]+'</p></div></a></div>');
     }
     $('#'+__cct).click(function(){
-      if ($('#modalSize').hasClass('modal-lg')){
-        $('#modalSize').removeClass('modal-lg');
-        $('#modalSize').addClass('modal-xl');
-      }
       cct = $(this).data("value");
       if (system == "Tunable"){
         time = "N/A"
@@ -218,31 +200,79 @@ function getCCT(data,selection,facility,room,fixture,target,system,cct,time){
 function buildHTML(){
   var str = '';
 
-  str += '<div id="final_content" class="container-fluid pt-3 pr-4">';
-  str += '  <div class="row">';
-  str += '    <div class="col-xl-2 col-lg-12 pr-0 mb-4">';
-  str += '      <div class="card drop-shadow">';
-  str += '        <ul class="list-group list-group-flush">';
-  str += '          <li class="list-group-item sidebar-title">Facility</li>';
-  str += '          <li id="repick_facility" class="list-group-item sidebar-selection" data-toggle="modal" data-target="#application-modal"></li>';
-  str += '          <li class="list-group-item sidebar-title">Room</li>';
-  str += '          <li id="repick_room" class="list-group-item sidebar-selection" data-toggle="modal" data-target="#application-modal"></li>';
-  str += '          <li class="list-group-item sidebar-title">Fixtures</li>';
-  str += '          <li id="repick_fixture" class="list-group-item sidebar-selection" data-toggle="modal" data-target="#application-modal"></li>';
-  str += '          <li class="list-group-item sidebar-title">Target CS</li>';
-  str += '          <li id="repick_target" class="list-group-item sidebar-selection" data-toggle="modal" data-target="#application-modal"></li>';
-  str += '          <li class="list-group-item sidebar-title">CCT System</li>';
-  str += '          <li id="repick_system" class="list-group-item sidebar-selection" data-toggle="modal" data-target="#application-modal"></li>';
-  str += '          <li class="list-group-item sidebar-title">CCT</li>';
-  str += '          <li id="repick_cct" class="list-group-item sidebar-selection" data-toggle="modal" data-target="#application-modal"></li>';
-  str += '        </ul>';
-  str += '      </div>';
-  str += '    </div>';
-  str += '    <div class="col-xl-10 col-lg-12">';
-  str += '      <div class="row mb-4">';
+  str += '<div id="final_content" class="container-fluid">';
+  str += '  <div class="row pt-3 pr-4">';
+  str += '    <div class="col-xl-9 col-lg-12">';
+  str += '      <div class="row mb-4 bc-large">';
   str += '        <div class="col">';
   str += '          <div class="card drop-shadow">';
-  str += '            <div id="final_description" class="card-body card-body-small-padding">';
+  str += '            <div class="card-body p-0">';
+  str += '              <div class="container-fluid">';
+  str += '                <div class="row bc-row">';
+  str += '                  <div class="col bc-item px-0">';
+  str += '                    <div class="bc-title">Facility</div>';
+  str += '                    <div class="bc-facility bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
+  str += '                  </div>';
+  str += '                  <div class="col bc-item px-0">';
+  str += '                    <div class="bc-title">Room</div>';
+  str += '                    <div class="bc-room bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
+  str += '                  </div>';
+  str += '                  <div class="col bc-item px-0">';
+  str += '                    <div class="bc-title">Fixtures</div>';
+  str += '                    <div class="bc-fixture bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
+  str += '                  </div>';
+  str += '                  <div class="col bc-item px-0">';
+  str += '                    <div class="bc-title">Target CS</div>';
+  str += '                    <div class="bc-target bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
+  str += '                  </div>';
+  str += '                  <div class="col bc-item px-0">';
+  str += '                    <div class="bc-title">CCT System</div>';
+  str += '                    <div class="bc-system bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
+  str += '                  </div>';
+  str += '                  <div class="col bc-item px-0">';
+  str += '                    <div class="bc-title">CCT</div>';
+  str += '                    <div class="bc-cct bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
+  str += '                  </div>';
+  str += '                </div>';
+  str += '              </div>';
+  str += '            </div>';
+  str += '          </div>';
+  str += '        </div>';
+  str += '      </div>';
+  str += '      <div class="row mb-4 bc-small">';
+  str += '        <div class="col px-0">';
+  str += '          <div class="card drop-shadow">';
+  str += '            <div class="card-body p-0">';
+  str += '              <div class="container-fluid">';
+  str += '                <div class="row bc-row">';
+  str += '                  <div class="bc-item col px-0">';
+  str += '                    <div class="bc-title">Facility</div>';
+  str += '                    <div class="bc-facility bc-selection"></div>'
+  str += '                  </div>';
+  str += '                  <div class="bc-item col px-0">';
+  str += '                    <div class="bc-title">Room</div>';
+  str += '                    <div class="bc-room bc-selection"></div>'
+  str += '                  </div>';
+  str += '                  <div class="bc-item col px-0">';
+  str += '                    <div class="bc-title">Fixture</div>';
+  str += '                    <div class="bc-fixture bc-selection"></div>'
+  str += '                  </div>';
+  str += '                </div>';
+  str += '                <div class="row bc-row">';
+  str += '                  <div class="bc-item col px-0">';
+  str += '                    <div class="bc-title">Target CS</div>';
+  str += '                    <div class="bc-target bc-selection"></div>';
+  str += '                  </div>';
+  str += '                  <div class="bc-item col px-0">';
+  str += '                    <div class="bc-title">CCT System</div>';
+  str += '                    <div class="bc-system bc-selection"></div>';
+  str += '                  </div>';
+  str += '                  <div class="bc-item col px-0">';
+  str += '                    <div class="bc-title">CCT</div>';
+  str += '                    <div class="bc-cct bc-selection"></div>';
+  str += '                  </div>';
+  str += '                </div>';
+  str += '              </div>';
   str += '            </div>';
   str += '          </div>';
   str += '        </div>';
@@ -251,26 +281,26 @@ function buildHTML(){
   str += '        <div class="col-xl-6 col-lg-12">';
   str += '          <div class="card drop-shadow">';
   str += '            <img id="final_render_img" class="card-img-top" src="" alt="Selection Render" />';
-  str += '            <div id="final_adjustments" class="card-body card-body-small-padding">';
-  str += '            </div>';
+  str += '            <div id="final_adjustments" class="card-body card-body-small-padding pb-0"></div>';
   str += '          </div>';
   str += '        </div>';
   str += '        <div class="col-xl-6 col-lg-12">';
   str += '          <div class="card drop-shadow">';
   str += '            <img id="final_plan_img" class="card-img-top p-2" src="" alt="Selection Lighting Plan" />';
-  str += '            <div id="final_fixtures" class="card-body card-body-small-padding">';
-  str += '            </div>';
+  str += '            <div id="final_fixtures" class="card-body card-body-small-padding"></div>';
   str += '          </div>';
   str += '        </div>';
   str += '      </div>';
   str += '      <div class="row mb-4">';
   str += '        <div class="col">';
   str += '          <div class="card">';
-  str += '            <div id="final_cs" class="card-body card=body-small-padding drop-shadow">';
-  str += '            </div>';
+  str += '            <div id="final_cs" class="card-body card=body-small-padding drop-shadow"></div>';
   str += '          </div>';
   str += '        </div>';
   str += '      </div>';
+  str += '    </div>';
+  str += '    <div class="col-xl-3 col-lg-12 pr-0 mb-4">';
+  str += '      <div class="card drop-shadow"></div>';
   str += '    </div>';
   str += '  </div>';
   str += '</div>';
@@ -279,33 +309,33 @@ function buildHTML(){
 }
 
 function generateFinalBreadcrumb(data,selection,facility,room,fixture,target,system,cct){
-  $('#repick_facility').html(facility);
-  $('#repick_room').html(room);
-  $('#repick_fixture').html(fixture);
-  $('#repick_target').html(target);
-  $('#repick_system').html(system);
-  $('#repick_cct').html(cct);
-  $('#repick_facility').click(function(){
+  $('.bc-facility').html(facility);
+  $('.bc-room').html(room);
+  $('.bc-fixture').html(fixture);
+  $('.bc-target').html(target);
+  $('.bc-system').html(system);
+  $('.bc-cct').html(cct);
+  $('.bc-facility').click(function(){
     $('#toggle_view').remove();
     getFacility(data,selection,'','','','','','','');
   });
-  $('#repick_room').click(function(){
+  $('.bc-room').click(function(){
     $('#toggle_view').remove();
     getRoom(data,selection,facility,'','','','','','');
   });
-  $('#repick_fixture').click(function(){
+  $('.bc-fixture').click(function(){
     $('#toggle_view').remove();
     getFixture(data,selection,facility,room,'','','','','');
   });
-  $('#repick_target').click(function(){
+  $('.bc-target').click(function(){
     $('#toggle_view').remove();
     getTarget(data,selection,facility,room,fixture,'','','','');
   });
-  $('#repick_system').click(function(){
+  $('.bc-system').click(function(){
     $('#toggle_view').remove();
     getSystem(data,selection,facility,room,fixture,target,'','','');
   });
-  $('#repick_cct').click(function(){
+  $('.bc-cct').click(function(){
     $('#toggle_view').remove();
     getCCT(data,selection,facility,room,fixture,target,system,'','');
   });
@@ -360,12 +390,12 @@ function generateAdjustments(data,selection,facility,room,fixture,target,system,
     }
   }
   for (var i = 0; i < cct_count; i++){
-    cct_str += '<div data-value="'+i+'" class="cct-border adjustment-container adjustment-container'+cct_count;
+    cct_str += '<div data-value="'+i+'" class="mb-2 cct-border adjustment-container adjustment-container-cct adjustment-container'+cct_count;
     if (i == cct_selected){
       cct_str += ' cct-selected';
     }
     cct_str += '">';
-    cct_str += '  <img class="mb-2 p-0" src="img/application/adjustments/'+cct_count+' '+Object.keys(data[facility][room][fixture][target][system])[i]+'.jpg"/>';
+    cct_str += '  <img class="m-0 p-0" src="img/application/adjustments/'+cct_count+' '+Object.keys(data[facility][room][fixture][target][system])[i]+'.jpg"/>';
     cct_str += '</div>';
   }
 
@@ -382,12 +412,12 @@ function generateAdjustments(data,selection,facility,room,fixture,target,system,
       }
     }
     for (var i = 0; i < tod_count; i++){
-      tod_str += '<div data-value="'+i+'" class="tod-border adjustment-container adjustment-container'+tod_count;
+      tod_str += '<div data-value="'+i+'" class="mb-2 tod-border adjustment-container adjustment-container-tod adjustment-container'+tod_count;
       if (i == tod_selected){
         tod_str += ' tod-selected';
       }
       tod_str += '">';
-      tod_str += '  <img class="mb-2 p-0" src="img/application/adjustments/'+tod_count+' '+i+'.jpg"/>';
+      tod_str += '  <img class="m-0 p-0" src="img/application/adjustments/'+tod_count+' '+i+'.jpg"/>';
       tod_str += '</div>';
     }
   }
