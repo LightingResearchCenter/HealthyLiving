@@ -26,7 +26,6 @@ function checkModalSize(values){
       size -= 1;
     }
   }
-  console.log(size);
   if (size < 3){
     $('#modalSize').removeClass('modal-xl');
     $('#modalSize').addClass('modal-lg');
@@ -467,7 +466,6 @@ function generateContent(data,selection,facility,room,fixture,target,system,cct,
   $('body').removeAttr('data-vide-bg');
   $('body').removeAttr('data-vide-options');
   if ($('body').find('div').first().attr('id') != 'navbar' && $('body').find('div').first().attr('id') != 'application-modal'){
-    console.log($('body').find('div').first());
     $('body').find('div').first().remove();
   }
   //Hide the modal and remove necessary landing page content

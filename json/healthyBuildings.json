@@ -508,7 +508,7 @@
             }
           }
         },
-        "Flush Mount + Pendant" :
+        "Flush Mount + Hanging Pendant" :
         {
           "desc" : "A single-occupancy assisted living room is where a resident resides, and could have a personalized lighting design. This 390 sf room includes a kitchen area for personal use.The room also contains a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. From eating meals at the table, or relaxing on the couch or bed, designs should aim to reach desired CS levels in these locations.<br/><br/>The lighting design consists of five flush mount fixtures and one hanging pendant over the table. Spacing of fixtures is displayed on the lighting plan.",
           "0.4" :
@@ -760,7 +760,7 @@
             }
           }
         },
-        "Downlight + Flush Mount + Pendant + Wall Valance + TV Valance + Under Cabinet" :
+        "Downlight + Flush Mount + Hanging Pendant + Wall Valance + TV Valance + Under Cabinet" :
         {
           "desc" : "A single-occupancy assisted living room is where a resident resides, and could have a personalized lighting design. This 390 sf room includes a kitchen area for personal use.The room also contains a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. From eating meals at the table, or relaxing on the couch or bed, designs should aim to reach desired CS levels in these locations.<br/><br/>This combination lighting design consists of six downlights providing general ambient lighting, along with a pendant and under cabinet lighting for supplementary task illumination. A flush mount furnishes a home-like feel to the space, and three valances deliver more light at the eye at the bed, couch, and dining room table to promote circadian entrainment. Spacing of fixtures is displayed on the lighting plan.",
           "0.4" :
@@ -1519,7 +1519,7 @@
             }
           }
         },
-        "Flush Mount + Pendant" :
+        "Flush Mount + Hanging Pendant" :
         {
           "desc" : "A single-occupancy nursing home room is where a resident resides, and could have a personalized lighting design. This 280 sf room includes a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. From eating meals at the table, or relaxing on the couch or bed, designs should aim to reach desired CS levels in these locations.<br/><br/>The lighting design consists of four flush mount fixtures, and one hanging pendant over the dining room table. Spacing of fixtures is displayed on the lighting plan.",
           "0.4" :
@@ -1771,7 +1771,7 @@
             }
           }
         },
-        "Flush Mount + Pendant + Wall Valance" :
+        "Flush Mount + Hanging Pendant + Wall Valance" :
         {
           "desc" : "A single-occupancy nursing home room is where a resident resides, and could have a personalized lighting design. This 280 sf room includes a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. From eating meals at the table, or relaxing on the couch or bed, designs should aim to reach desired CS levels in these locations.<br/><br/>This combination lighting design consists of four flush mount fixtures, and one hanging pendant over the dining room table. An additional layer of light is added with indirect Spacing of fixtures is displayed on the lighting plan.",
           "0.4" :
@@ -2782,7 +2782,7 @@
             }
           }
         },
-        "Downlight + Pendant + Floor Lamp + Table Lamp" :
+        "Downlight + Hanging Pendant + Floor Lamp + Table Lamp" :
         {
           "desc" : "A common area in a senior care facility is where residents can spend most of their day. This 1550 sf common area is divided into two areas for dining and activities. The dining area has round tables with chairs and the activity area has sofas, side tables, and rectangular tables with chairs for recreational use. From eating meals in the dining area, relaxing on the couch, or sitting at the activity tables, designs should aim to reach desired CS levels in these locations. <br/><br/>This combination lighting design consists of fifteen downlights along the ceiling that provide ambient light. Ten hanging pendants above tables, and floor and table lamps near seating areas provide more task lighting.",
           "0.4" :
