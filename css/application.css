@@ -139,16 +139,21 @@
 .img-button{
   white-space: nowrap;
   position: absolute;
-  bottom: 1rem;
-  right: 1rem;
-  background-color: #555;
+  bottom: 50%;
+  right: .25rem;
   color: white;
-  font-size: 16px;
-  padding: 12px 12px;
+  font-size: 1rem;
+  padding: .75rem;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
-  width: 10rem;
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+  direction: rtl;
+  border-radius: .25rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 a p.bc-option{
@@ -199,6 +204,56 @@ a p.bc-option{
   border-bottom: 1px solid #dbdbdb;
 }
 
+.card-footer-tabs{
+ margin-right: -.625rem;
+ margin-top: -.75rem;
+ margin-left: -.625rem;
+ border-top: 0;
+}
+
+.nav-tabs-footer .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #fff;
+  border-color: #fff #dee2e6 #dee2e6 ;
+}
+
+.nav-tabs .nav-item-footer{
+  margin-top: -1px;
+  margin-bottom: auto;
+  font-size: .75rem;
+  padding: .25rem;
+  padding-right: 0;
+  padding-left: 0;
+  min-width: 20%;
+  max-width: 20%;
+}
+
+.nav-tabs .nav-item-footer a{
+  cursor: pointer;
+  border-top: 0;
+}
+
+.card-footer.chart-card-footer{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.nav-tabs-footer{
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.nav-tabs .nav-link-footer{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: .25rem;
+  border-bottom-left-radius: .25rem;
+  padding-right: .25rem;
+  padding-left: .25rem;
+}
+
 .bc-selection{
   padding-top: .75rem;
   padding-bottom: .75rem;
@@ -211,6 +266,12 @@ a p.bc-option{
   cursor: pointer;
   background-color: #00205b;
   color: #fff;
+}
+
+.right-panel-col{
+  padding-left: 0;
+  padding-right: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .right-panel{
@@ -532,6 +593,10 @@ p{
   display: none;
 }
 
+.bc-xsmall{
+  display: none;
+}
+
 .hover:hover{
   -webkit-box-shadow:0 1px 3px rgba(0,0,0,0.18), 0 1px 2px rgba(0,0,0,0.24);
   -moz-box-shadow:0 1px 3px rgba(0,0,0,0.18), 0 1px 2px rgba(0,0,0,0.24);
@@ -581,6 +646,11 @@ ol li a,ol li a:hover {
 }
 
 @media only screen and (max-width: 1200px){
+
+  .right-panel-col{
+    padding-left: 1rem;
+  }
+
   .middle h1 {
     padding-right:5vw;
     padding-left:5vw;
@@ -600,4 +670,21 @@ ol li a,ol li a:hover {
     display: inline;
   }
 
+  .bc-xsmall{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .bc-large{
+    display: none;
+  }
+
+  .bc-small{
+    display: none;
+  }
+
+  .bc-xsmall{
+    display: inline;
+  }
 }

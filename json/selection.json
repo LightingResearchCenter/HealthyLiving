@@ -90,19 +90,19 @@
         "img" : "img/application/selection/3 Fixture/Downlight.jpg",
         "desc" : "Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing. Downlights may have integrated LED sources or contain CFLs or LED replacement lamps."
       },
-      "Flush Mount + Pendant":
+      "Flush Mount + Hanging Pendant":
       {
-        "img" : "img/application/selection/3 Fixture/Flush Mount + Pendant.jpg",
+        "img" : "img/application/selection/3 Fixture/Flush Mount + Hanging Pendant.jpg",
         "desc" : "A modern twist to classic flush mount fixtures adds a more home-like feel to a space while providing more light into the space than original styles."
       },
-      "Downlight + Flush Mount + Pendant + Wall Valance + TV Valance + Under Cabinet":
+      "Downlight + Flush Mount + Hanging Pendant + Wall Valance + TV Valance + Under Cabinet":
       {
-        "img" : "img/application/selection/3 Fixture/Downlight + Flush Mount + Pendant + Wall Valance + TV Valance + Under Cabinet.jpg",
+        "img" : "img/application/selection/3 Fixture/Downlight + Flush Mount + Hanging Pendant + Wall Valance + TV Valance + Under Cabinet.jpg",
         "desc" : "Using a combination design allows for layers of light that play different roles. Downlights create general ambience, flush mounts provide a more home-like feel, wall valances provide more light to the eye to increase CS levels, and undercabinet contributes to task lighting for visual purpose."
       },
-      "Flush Mount + Pendant + Wall Valance":
+      "Flush Mount + Hanging Pendant + Wall Valance":
       {
-        "img" : "img/application/selection/3 Fixture/Flush Mount + Pendant + Wall Valance.jpg",
+        "img" : "img/application/selection/3 Fixture/Flush Mount + Hanging Pendant + Wall Valance.jpg",
         "desc" : "Using a combination design allows for layers of light that play different roles. Flush mount and pendant fixtures create general ambience and a more home-like feel. The addition of a wall valance integrated into a cornice extending around the room provides more light to the eye to increase CS levels."
       },
       "Cove + Floor Lamp + Table Lamp":
@@ -110,9 +110,9 @@
         "img" : "img/application/selection/3 Fixture/Cove + Floor Lamp + Table Lamp.jpg",
         "desc" : "Cove design allows for hidden linear fixtures to be tucked into a lip that extends around the entire room. Light is distributed more evenly across the space since fixtures are arrayed beside one another along the cove border. Integrating a cove requires new construction of a space with the addition of higher ceilings. Floor and table lamps add an additional layer of task lighting."
       },
-      "Downlight + Pendant + Floor Lamp + Table Lamp":
+      "Downlight + Hanging Pendant + Floor Lamp + Table Lamp":
       {
-        "img" : "img/application/selection/3 Fixture/Downlight + Pendant + Floor Lamp + Table Lamp.jpg",
+        "img" : "img/application/selection/3 Fixture/Downlight + Hanging Pendant + Floor Lamp + Table Lamp.jpg",
         "desc" : "Using a combination design allows for layers of light that play different roles. Downlights create general ambience, while pendants, floor lamps, and table lamps provide an additional layer of task lighting and create a home-like feel to the space."
       },
       "2x4 Troffer":
