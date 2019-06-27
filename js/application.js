@@ -200,8 +200,8 @@ function buildHTML(){
   var str = '';
 
   str += '<div id="final_content" class="container-fluid">';
-  str += '  <div class="row pt-3 pr-4">';
-  str += '    <div class="col-xl-9 col-lg-12">';
+  str += '  <div class="row pt-3">';
+  str += '    <div class="col-xl-9 col-lg-12 pr-4">';
   str += '      <div class="row mb-4 bc-large">';
   str += '        <div class="col">';
   str += '          <div class="card drop-shadow">';
@@ -276,30 +276,98 @@ function buildHTML(){
   str += '          </div>';
   str += '        </div>';
   str += '      </div>';
-  str += '      <div class="row mb-4">';
-  str += '        <div class="col-xl-6 col-lg-12">';
+  str += '      <div class="row mb-4 bc-xsmall">';
+  str += '        <div class="col px-0">';
   str += '          <div class="card drop-shadow">';
-  str += '            <img id="final_render_img" class="card-img-top" src="" alt="Selection Render" />';
-  str += '            <div id="final_adjustments" class="card-body card-body-small-padding pb-0"></div>';
-  str += '          </div>';
-  str += '        </div>';
-  str += '        <div class="col-xl-6 col-lg-12">';
-  str += '          <div class="card drop-shadow">';
-  str += '            <img id="final_plan_img" class="card-img-top p-2" src="" alt="Selection Lighting Plan" />';
-  str += '            <div id="final_fixtures" class="card-body card-body-small-padding"></div>';
+  str += '            <div class="card-body p-0">';
+  str += '              <div class="container-fluid">';
+  str += '                <div class="row bc-row">';
+  str += '                  <div class="bc-item col px-0">';
+  str += '                    <div class="bc-title">Facility</div>';
+  str += '                    <div class="bc-facility bc-selection"></div>'
+  str += '                  </div>';
+  str += '                  <div class="bc-item col px-0">';
+  str += '                    <div class="bc-title">Room</div>';
+  str += '                    <div class="bc-room bc-selection"></div>'
+  str += '                  </div>';
+  str += '                </div>';
+  str += '                <div class="row bc-row">';
+  str += '                  <div class="bc-item col px-0">';
+  str += '                    <div class="bc-title">Fixture</div>';
+  str += '                    <div class="bc-fixture bc-selection"></div>'
+  str += '                  </div>';
+  str += '                  <div class="bc-item col px-0">';
+  str += '                    <div class="bc-title">Target CS</div>';
+  str += '                    <div class="bc-target bc-selection"></div>';
+  str += '                  </div>';
+  str += '                </div>';
+  str += '                <div class="row bc-row">';
+  str += '                  <div class="bc-item col px-0">';
+  str += '                    <div class="bc-title">CCT System</div>';
+  str += '                    <div class="bc-system bc-selection"></div>';
+  str += '                  </div>';
+  str += '                  <div class="bc-item col px-0">';
+  str += '                    <div class="bc-title">CCT</div>';
+  str += '                    <div class="bc-cct bc-selection"></div>';
+  str += '                  </div>';
+  str += '                </div>';
+  str += '              </div>';
+  str += '            </div>';
   str += '          </div>';
   str += '        </div>';
   str += '      </div>';
-  str += '      <div class="row mb-4">';
-  str += '        <div class="col">';
+  str += '      <div class="row">';
+  str += '        <div class="col-xl-6 col-lg-12 mb-4">';
+  str += '          <div id class="card drop-shadow">';
+  str += '            <div id="final_render">';
+  str += '              <img id="final_render_img" class="card-img-top" src="" alt="Selection Render" />';
+  str += '            </div>';
+  str += '            <div id="final_adjustments" class="card-body card-body-small-padding pb-0"></div>';
+  str += '          </div>';
+  str += '        </div>';
+  str += '        <div class="col-xl-6 col-lg-12 mb-4">';
+  str += '          <div class="card drop-shadow">';
+  str += '            <img id="final_plan_img" class="card-img-top p-2" src="" alt="Selection Lighting Plan" />';
+  str += '            <div id="final_fixtures" class="card-body card-body-small-padding pb-0"></div>';
+  str += '          </div>';
+  str += '        </div>';
+  str += '      </div>';
+  str += '      <div class="row">';
+  str += '        <div class="col mb-4">';
   str += '          <div class="card">';
   str += '            <div id="final_cs" class="card-body card=body-small-padding drop-shadow"></div>';
   str += '          </div>';
   str += '        </div>';
   str += '      </div>';
   str += '    </div>';
-  str += '    <div class="col-xl-3 col-lg-12 pr-0 mb-4">';
-  str += '      <div class="card drop-shadow"></div>';
+  str += '    <div class="col-xl-3 col-lg-12 right-panel-col">';
+  str += '      <div class="card drop-shadow right-panel">';
+  str += '        <div class="card-body card-body-small-padding">';
+  str += '          <div class="card right-panel-card">';
+  str += '            <a class="right-panel-expandable" data-toggle="collapse" data-target="#roomDescriptionContent" aria-expanded="true" aria-controls="roomDescriptionContent">';
+  str += '             <div class="card-body">';
+  str += '               <h5 class="card-title right-panel-h5 mb-0">Room Description</h5>';
+  str += '                <p id="roomDescriptionContent" class="mt-2 card-text right-panel-p collapse show"></p>'
+  str += '              </div>';
+  str += '            </a>';
+  str += '          </div>';
+  str += '          <div class="card right-panel-card">';
+  str += '            <div class="card-body">';
+  str += '              <h5 class="card-title right-panel-h5 mb-0">Assumptions</h5>';
+  str += '            </div>';
+  str += '          </div>';
+  str += '          <div class="card right-panel-card">';
+  str += '            <div class="card-body">';
+  str += '              <h5 class="card-title right-panel-h5 mb-0">Design Outcomes</h5>';
+  str += '            </div>';
+  str += '          </div>';
+  str += '          <div class="card right-panel-card">';
+  str += '            <div class="card-body">';
+  str += '              <h5 class="card-title right-panel-h5 mb-0">Charts</h5>';
+  str += '            </div>';
+  str += '          </div>';
+  str += '        </div>';
+  str += '      </div>';
   str += '    </div>';
   str += '  </div>';
   str += '</div>';
@@ -308,47 +376,77 @@ function buildHTML(){
 }
 
 function generateFinalBreadcrumb(data,selection,facility,room,fixture,target,system,cct){
-  $('.bc-facility').html(facility);
-  $('.bc-room').html(room);
-  $('.bc-fixture').html(fixture);
-  $('.bc-target').html(target);
-  $('.bc-system').html(system);
-  $('.bc-cct').html(cct);
-  $('.bc-facility').click(function(){
-    $('#toggle_view').remove();
-    getFacility(data,selection,'','','','','','','');
-  });
-  $('.bc-room').click(function(){
-    $('#toggle_view').remove();
-    getRoom(data,selection,facility,'','','','','','');
-  });
-  $('.bc-fixture').click(function(){
-    $('#toggle_view').remove();
-    getFixture(data,selection,facility,room,'','','','','');
-  });
-  $('.bc-target').click(function(){
-    $('#toggle_view').remove();
-    getTarget(data,selection,facility,room,fixture,'','','','');
-  });
-  $('.bc-system').click(function(){
-    $('#toggle_view').remove();
-    getSystem(data,selection,facility,room,fixture,target,'','','');
-  });
-  $('.bc-cct').click(function(){
-    $('#toggle_view').remove();
-    getCCT(data,selection,facility,room,fixture,target,system,'','');
+  $.getJSON("json/alias.json", function(alias_result){
+    var _facility = facility;
+    var _room = room;
+    var _fixture = fixture;
+    var _target = target;
+    var _system = system;
+    var _cct = cct;
+    $.each(alias_result,function(){
+      for (var i = 0; i < Object.keys(this).length; i++){
+        if (Object.keys(this)[i] == facility){
+          _facility = Object.values(this)[i];
+        }
+        if (Object.keys(this)[i] == room){
+          _room = Object.values(this)[i];
+        }
+        if (Object.keys(this)[i] == fixture){
+          _fixture = Object.values(this)[i];
+        }
+        if (Object.keys(this)[i] == target){
+          _target = Object.values(this)[i];
+        }
+        if (Object.keys(this)[i] == system){
+          _system = Object.values(this)[i];
+        }
+        if (Object.keys(this)[i] == cct){
+          _cct = Object.values(this)[i];
+        }
+      }
+    });
+    $('.bc-facility').html(_facility);
+    $('.bc-room').html(_room);
+    $('.bc-fixture').html(_fixture);
+    $('.bc-target').html(_target);
+    $('.bc-system').html(_system);
+    $('.bc-cct').html(_cct);
+    $('.bc-facility').click(function(){
+      $('#toggle_view').remove();
+      getFacility(data,selection,'','','','','','','');
+    });
+    $('.bc-room').click(function(){
+      $('#toggle_view').remove();
+      getRoom(data,selection,facility,'','','','','','');
+    });
+    $('.bc-fixture').click(function(){
+      $('#toggle_view').remove();
+      getFixture(data,selection,facility,room,'','','','','');
+    });
+    $('.bc-target').click(function(){
+      $('#toggle_view').remove();
+      getTarget(data,selection,facility,room,fixture,'','','','');
+    });
+    $('.bc-system').click(function(){
+      $('#toggle_view').remove();
+      getSystem(data,selection,facility,room,fixture,target,'','','');
+    });
+    $('.bc-cct').click(function(){
+      $('#toggle_view').remove();
+      getCCT(data,selection,facility,room,fixture,target,system,'','');
+    });
   });
 }
 
 function generateDescription(data,facility,room,fixture){
-  $('#final_description').html(data[facility][room][fixture]["desc"]);
+  $('#roomDescriptionContent').html(data[facility][room][fixture]["desc"]);
 }
 
 function generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view){
   $('#final_render_img').attr('src',path.render[view]);
   if (path.render.length > 1){
     $('#toggle_view').remove();
-    $('#final_render').append('<button id="toggle_view" class="btn btn-primary img-button"><span class="float-left icon-plan-man"></span><span class="vert-cent">Toggle View</span></button>');
+    $('#final_render').append('<button id="toggle_view" class="btn btn-primary img-button"> Toggle View</button>');
     $('#toggle_view').click(function(){
      if (view == path.render.length-1){
         view = 0;
