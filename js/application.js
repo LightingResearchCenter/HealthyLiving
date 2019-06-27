@@ -327,7 +327,9 @@ function buildHTML(){
   str += '        </div>';
   str += '        <div class="col-xl-6 col-lg-12 mb-4">';
   str += '          <div class="card drop-shadow">';
-  str += '            <img id="final_plan_img" class="card-img-top p-2" src="" alt="Selection Lighting Plan" />';
+  str += '            <div id="final_plan">';
+  str += '              <img id="final_plan_img" class="card-img-top p-2" src="" alt="Selection Lighting Plan" />';
+  str += '            </div>';
   str += '            <div id="final_fixtures" class="card-body card-body-small-padding pb-0"></div>';
   str += '          </div>';
   str += '        </div>';
@@ -443,25 +445,26 @@ function generateDescription(data,facility,room,fixture){
 }
 
 function generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view){
+  console.log(view);
   $('#final_render_img').attr('src',path.render[view]);
+}
+
+function generatePlan(path,data,selection,facility,room,fixture,target,system,cct,time,view){
+  $('#final_plan_img').attr('src',path.plan[view]);
   if (path.render.length > 1){
     $('#toggle_view').remove();
-    $('#final_render').append('<button id="toggle_view" class="btn btn-primary img-button"> Toggle View</button>');
+    $('#final_plan').append('<button id="toggle_view" class="btn btn-primary toggle-view-button"><span class="float-left icon-plan-man"></span><span class="vert-cent">Toggle View</span></button>');
     $('#toggle_view').click(function(){
      if (view == path.render.length-1){
         view = 0;
       }else{
         view +=1;
       }
-      generatePlan(path,view);
+      generatePlan(path,data,selection,facility,room,fixture,target,system,cct,time,view);
       generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view);
       generateAdjustments(data,selection,facility,room,fixture,target,system,cct,time,view);
     });
   }
-}
-
-function generatePlan(path,view){
-  $('#final_plan_img').attr('src',path.plan[view]);
 }
 
 function generateFixtures(fixture){
@@ -581,7 +584,7 @@ function generateContent(data,selection,facility,room,fixture,target,system,cct,
   }
   generateDescription(data,facility,room,fixture);
   generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view);
-  generatePlan(path,view);
+  generatePlan(path,data,selection,facility,room,fixture,target,system,cct,time,view);
   generateAdjustments(data,selection,facility,room,fixture,target,system,cct,time,view);
   generateFinalBreadcrumb(data,selection,facility,room,fixture,target,system,cct);
   generateFixtures(fixture);

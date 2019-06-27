@@ -136,24 +136,19 @@
   position: relative;
 }
 
-.img-button{
+.toggle-view-button{
+  opacity: 0.95;
   white-space: nowrap;
   position: absolute;
-  bottom: 50%;
-  right: .25rem;
+  top: 1rem;
+  left: 1rem;
   color: white;
+  width: 10rem;
+  padding: 12px;
   font-size: 1rem;
-  padding: .75rem;
   border: none;
   cursor: pointer;
-  writing-mode: tb-rl;
-  transform: rotate(-180deg);
-  direction: rtl;
   border-radius: .25rem;
-  padding-right: .5rem;
-  padding-left: .5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 a p.bc-option{
