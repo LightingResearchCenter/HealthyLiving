@@ -26,7 +26,14 @@
 }
 
 .icon-plan-man:before {
+  font-size: 1.75rem;
   content: "\e900";
+}
+
+.icon-plan-man{
+  padding-bottom: .5rem;
+  float: left;
+  transform: rotate(140deg);
 }
 
 
@@ -140,11 +147,13 @@
   opacity: 0.95;
   white-space: nowrap;
   position: absolute;
-  top: 1rem;
-  left: 1rem;
+  top: .75em;
+  right: .75rem;
   color: white;
-  width: 10rem;
-  padding: 12px;
+  width: 7.5rem;
+  padding: 0;
+  padding-left: .2rem;
+  padding-right: .2rem;
   font-size: 1rem;
   border: none;
   cursor: pointer;
@@ -160,9 +169,9 @@ a p.bc-option{
   width: 100%;
 }
 
-.vert-cent{
+.toggle-view-text{
   margin: 0;
-  padding-left: 2rem;
+  padding-left: 1.75rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -209,7 +218,7 @@ a p.bc-option{
 .nav-tabs-footer .nav-item.show .nav-link, .nav-tabs .nav-link.active {
   color: #495057;
   background-color: #fff;
-  border-color: #fff #dee2e6 #dee2e6 ;
+  border-color: #fff #dee2e6 #dee2e6;
 }
 
 .nav-tabs .nav-item-footer{
