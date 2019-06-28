@@ -122,6 +122,7 @@ function getFixture(data,selection,facility,room,fixture,target,system,cct,time)
   $('#application-modal-label').html('Choose Fixture(s)<p class="modal-title-desc">'+selection["Fixture"]["desc"]+'</p>');
   for (var i = 0; i < fixtures.length; i++){
     var _fixture = Object.keys(data[facility][room])[i];
+    console.log(_fixture);
     var __fixture = _fixture.replace("[^a-zA-Z]", "").replace(/\//g, '').replace(/\s/g, '').replace(/\+/g, "");
     $('#application-modal-deck').append('<div class="card hover"><a id="'+__fixture+'" data-value="'+_fixture+'"><img class="card-img-top" src="'+selection["Fixture"][_fixture]["img"]+'" alt="Fixture" /><div class="card-body"><h5 class="card-title">'+_fixture+'</h5><hr/><p class="card-text">'+selection["Fixture"][_fixture]["desc"]+'</p></div></a></div>');
     $('#'+__fixture).click(function(){
@@ -414,27 +415,21 @@ function generateFinalBreadcrumb(data,selection,facility,room,fixture,target,sys
     $('.bc-system').html(_system);
     $('.bc-cct').html(_cct);
     $('.bc-facility').click(function(){
-      $('#toggle_view').remove();
       getFacility(data,selection,'','','','','','','');
     });
     $('.bc-room').click(function(){
-      $('#toggle_view').remove();
       getRoom(data,selection,facility,'','','','','','');
     });
     $('.bc-fixture').click(function(){
-      $('#toggle_view').remove();
       getFixture(data,selection,facility,room,'','','','','');
     });
     $('.bc-target').click(function(){
-      $('#toggle_view').remove();
       getTarget(data,selection,facility,room,fixture,'','','','');
     });
     $('.bc-system').click(function(){
-      $('#toggle_view').remove();
       getSystem(data,selection,facility,room,fixture,target,'','','');
     });
     $('.bc-cct').click(function(){
-      $('#toggle_view').remove();
       getCCT(data,selection,facility,room,fixture,target,system,'','');
     });
   });
@@ -447,24 +442,25 @@ function generateDescription(data,facility,room,fixture){
 function generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view){
   console.log(view);
   $('#final_render_img').attr('src',path.render[view]);
-}
-
-function generatePlan(path,data,selection,facility,room,fixture,target,system,cct,time,view){
-  $('#final_plan_img').attr('src',path.plan[view]);
   if (path.render.length > 1){
     $('#toggle_view').remove();
-    $('#final_plan').append('<button id="toggle_view" class="btn btn-primary toggle-view-button"><span class="float-left icon-plan-man"></span><span class="vert-cent">Toggle View</span></button>');
+    $('#final_render').append('<button id="toggle_view" class="btn btn-primary toggle-view-button"><span class="icon-plan-man"></span><span class="toggle-view-text">Toggle View</span></button>');
     $('#toggle_view').click(function(){
      if (view == path.render.length-1){
         view = 0;
       }else{
         view +=1;
       }
-      generatePlan(path,data,selection,facility,room,fixture,target,system,cct,time,view);
+      generatePlan(path,view);
       generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view);
       generateAdjustments(data,selection,facility,room,fixture,target,system,cct,time,view);
     });
   }
+}
+
+function generatePlan(path,view){
+  $('#final_plan_img').attr('src',path.plan[view]);
+
 }
 
 function generateFixtures(fixture){
@@ -560,6 +556,7 @@ function generateAdjustments(data,selection,facility,room,fixture,target,system,
 
 function generateContent(data,selection,facility,room,fixture,target,system,cct,time,view){
   //Hide the modal and remove necessary landing page content
+  $('#toggle_view').remove();
   $('#application-modal').modal('hide');
   $('body').removeClass('modal-open');
   $('.modal-backdrop').remove();
@@ -584,7 +581,7 @@ function generateContent(data,selection,facility,room,fixture,target,system,cct,
   }
   generateDescription(data,facility,room,fixture);
   generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view);
-  generatePlan(path,data,selection,facility,room,fixture,target,system,cct,time,view);
+  generatePlan(path,view);
   generateAdjustments(data,selection,facility,room,fixture,target,system,cct,time,view);
   generateFinalBreadcrumb(data,selection,facility,room,fixture,target,system,cct);
   generateFixtures(fixture);
