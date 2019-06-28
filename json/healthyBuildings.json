@@ -5403,45 +5403,601 @@
     "School" : "nothing here",
     "Healthcare" :
     {
-      "Double" :
+      "Single Patient Room" :
       {
-        "2x4 Troffer + Sconce" : {
-
-        },
-        "Recessed Linear + Sconce + Wall Wash" :
+        "2x4 Troffer + Wall Sconce" :
         {
+          "0.3" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/troffers/Healthcare_Single_Troff_6500K_0.3Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_Troff.jpg"]
+                },
+                "Afternoon 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/troffers/Healthcare_Single_Troff_6500K_0.2Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_Troff.jpg"]
+                },
+                "Evening/Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/troffers/Healthcare_Single_Troff_6500K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_Troff.jpg"]
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/troffers/Healthcare_Single_Troff_5000K_0.3Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_Troff.jpg"]
+                },
+                "Afternoon 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/troffers/Healthcare_Single_Troff_5000K_0.2Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_Troff.jpg"]
+                },
+                "Evening/Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/troffers/Healthcare_Single_Troff_5000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_Troff.jpg"]
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/troffers/Healthcare_Single_Troff_4000K_0.3Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_Troff.jpg"]
+                },
+                "Afternoon 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/troffers/Healthcare_Single_Troff_4000K_0.2Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_Troff.jpg"]
+                },
+                "Evening/Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/troffers/Healthcare_Single_Troff_4000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_Troff.jpg"]
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/troffers/Healthcare_Single_Troff_3000K_0.3Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_Troff.jpg"]
+                },
+                "Afternoon 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/troffers/Healthcare_Single_Troff_3000K_0.2Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_Troff.jpg"]
+                },
+                "Evening/Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/troffers/Healthcare_Single_Troff_3000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_Troff.jpg"]
+                }
+              }
+            },
+            "Tunable" :
+            {
 
+            }
+          }
+        },
+        "Recessed Linear + Wall Sconce + Wall Wash + Downlight" :
+        {
+          "0.3" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_6500K_0.3Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_RecessedLinear.jpg"]
+                },
+                "Afternoon 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_6500K_0.2Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_RecessedLinear.jpg"]
+                },
+                "Evening/Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_6500K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_RecessedLinear.jpg"]
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_5000K_0.3Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_RecessedLinear.jpg"]
+                },
+                "Afternoon 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_5000K_0.2Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_RecessedLinear.jpg"]
+                },
+                "Evening/Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_5000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_RecessedLinear.jpg"]
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_4000K_0.3Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_RecessedLinear.jpg"]
+                },
+                "Afternoon 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_4000K_0.2Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_RecessedLinear.jpg"]
+                },
+                "Evening/Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_4000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_RecessedLinear.jpg"]
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_3000K_0.3Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_RecessedLinear.jpg"]
+                },
+                "Afternoon 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_3000K_0.2Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_RecessedLinear.jpg"]
+                },
+                "Evening/Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_3000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Single_RecessedLinear.jpg"]
+                }
+              }
+            },
+            "Tunable" :
+            {
+
+            }
+          }
+        }
+      },
+      "Double Patient Room" :
+      {
+        "2x4 Troffer + Wall Sconce" :
+        {
+          "0.3" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/troffers/Healthcare_Double_Troff_6500K_0.3Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_Troff.jpg"]
+                },
+                "Afternoon 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/troffers/Healthcare_Double_Troff_6500K_0.2Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_Troff.jpg"]
+                },
+                "Evening/Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/troffers/Healthcare_Double_Troff_6500K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_Troff.jpg"]
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/troffers/Healthcare_Double_Troff_5000K_0.3Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_Troff.jpg"]
+                },
+                "Afternoon 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/troffers/Healthcare_Double_Troff_5000K_0.2Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_Troff.jpg"]
+                },
+                "Evening/Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/troffers/Healthcare_Double_Troff_5000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_Troff.jpg"]
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/troffers/Healthcare_Double_Troff_4000K_0.3Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_Troff.jpg"]
+                },
+                "Afternoon 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/troffers/Healthcare_Double_Troff_4000K_0.2Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_Troff.jpg"]
+                },
+                "Evening/Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/troffers/Healthcare_Double_Troff_4000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_Troff.jpg"]
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/troffers/Healthcare_Double_Troff_3000K_0.3Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_Troff.jpg"]
+                },
+                "Afternoon 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/troffers/Healthcare_Double_Troff_3000K_0.2Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_Troff.jpg"]
+                },
+                "Evening/Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/troffers/Healthcare_Double_Troff_3000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_Troff.jpg"]
+                }
+              }
+            },
+            "Tunable" :
+            {
+
+            }
+          }
+        },
+        "Recessed Linear + Wall Sconce + Wall Wash + Downlight" :
+        {
+          "0.3" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_6500K_0.3Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_RecessedLinear.jpg"]
+                },
+                "Afternoon 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_6500K_0.2Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_RecessedLinear.jpg"]
+                },
+                "Evening/Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_6500K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_RecessedLinear.jpg"]
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_5000K_0.3Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_RecessedLinear.jpg"]
+                },
+                "Afternoon 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_5000K_0.2Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_RecessedLinear.jpg"]
+                },
+                "Evening/Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_5000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_RecessedLinear.jpg"]
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_4000K_0.3Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_RecessedLinear.jpg"]
+                },
+                "Afternoon 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_4000K_0.2Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_RecessedLinear.jpg"]
+                },
+                "Evening/Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_4000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_RecessedLinear.jpg"]
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_3000K_0.3Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_RecessedLinear.jpg"]
+                },
+                "Afternoon 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_3000K_0.2Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_RecessedLinear.jpg"]
+                },
+                "Evening/Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_3000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_Double_RecessedLinear.jpg"]
+                }
+              }
+            },
+            "Tunable" :
+            {
+
+            }
+          }
         }
       },
       "NICU" :
       {
-        "2x4 Troffer + Wall Valance + Desk Luminaire" :
+        "2x4 Troffer + Blue/Red Desk Luminaire + Wall Valance" :
         {
+          "0.3-0.5" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.4" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_6500K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_6500K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff_View2.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_6500K_0.3Aft.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_6500K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff_View2.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_6500K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_6500K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff_View2.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_6500K_0.1Night.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_6500K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff_View2.jpg"]
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.4" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_5000K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_5000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff_View2.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_5000K_0.3Aft.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_5000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff_View2.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_5000K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_5000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff_View2.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_5000K_0.1Night.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_5000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff_View2.jpg"]
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.4" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_4000K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_4000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff_View2.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_4000K_0.3Aft.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_4000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff_View2.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_4000K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_4000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff_View2.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_4000K_0.1Night.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_4000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff_View2.jpg"]
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.4" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_3000K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_3000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff_View2.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_3000K_0.3Aft.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_3000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff_View2.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_3000K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_3000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff_View2.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_3000K_0.1Night.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_3000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Troff_View2.jpg"]
+                }
+              }
+            },
+            "Tunable" :
+            {
 
+            }
+          }
         },
-        "Recessed Linear + Downlight + Wall Wash + Cove" :
+        "Recessed Linear + Blue/Red Downlight + Wall Wash + Cove" :
         {
+          "0.3-0.5" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.4" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_6500K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_6500K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove_View2.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_6500K_0.3Aft.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_6500K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove_View2.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_6500K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_6500K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove_View2.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_6500K_0.1Night.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_6500K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove_View2.jpg"]
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.4" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_5000K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_5000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove_View2.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_5000K_0.3Aft.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_5000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove_View2.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_5000K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_5000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove_View2.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_5000K_0.1Night.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_5000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove_View2.jpg"]
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.4" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_4000K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_4000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove_View2.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_4000K_0.3Aft.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_4000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove_View2.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_4000K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_4000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove_View2.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_4000K_0.1Night.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_4000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove_View2.jpg"]
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.4" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_3000K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_3000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove_View2.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_3000K_0.3Aft.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_3000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove_View2.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_3000K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_3000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove_View2.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_3000K_0.1Night.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_3000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove_View2.jpg"]
+                }
+              }
+            },
+            "Tunable" :
+            {
 
+            }
+          }
         }
       },
-      "Nurses Stattion" :
+      "Nurses Station" :
       {
-        "Recessed Linear + Desk Luminaire + Under Cabinet" :
+        "Recessed Linear + Blue/Red Desk Luminaire + Under Cabinet" :
         {
+          "0.4 short" :
+          {
+            "Static" :
+            {
+              "6500K" :
+              {
 
+              },
+              "5000K" :
+              {
+
+              },
+              "4000K" :
+              {
+
+              },
+              "3000K" :
+              {
+
+              }
+            },
+            "Tunable" :
+            {
+
+            }
+          },
+          "0.4 long" :
+          {
+
+          }
         },
-        "Recessed Linear + Wall Wash" :
-        {
-
-        }
-      },
-      "Single" :
-      {
-        "2x4 Troffer + Sconce" :
-        {
-
-        },
-        "Recessed Linear + Sconce + Wall Wash" :
+        "Recessed Linear + Blue/Red Wall Wash" :
         {
 
         }

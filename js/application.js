@@ -122,6 +122,7 @@ function getFixture(data,selection,facility,room,fixture,target,system,cct,time)
   $('#application-modal-label').html('Choose Fixture(s)<p class="modal-title-desc">'+selection["Fixture"]["desc"]+'</p>');
   for (var i = 0; i < fixtures.length; i++){
     var _fixture = Object.keys(data[facility][room])[i];
+    console.log(_fixture);
     var __fixture = _fixture.replace("[^a-zA-Z]", "").replace(/\//g, '').replace(/\s/g, '').replace(/\+/g, "");
     $('#application-modal-deck').append('<div class="card hover"><a id="'+__fixture+'" data-value="'+_fixture+'"><img class="card-img-top" src="'+selection["Fixture"][_fixture]["img"]+'" alt="Fixture" /><div class="card-body"><h5 class="card-title">'+_fixture+'</h5><hr/><p class="card-text">'+selection["Fixture"][_fixture]["desc"]+'</p></div></a></div>');
     $('#'+__fixture).click(function(){
@@ -327,7 +328,9 @@ function buildHTML(){
   str += '        </div>';
   str += '        <div class="col-xl-6 col-lg-12 mb-4">';
   str += '          <div class="card drop-shadow">';
-  str += '            <img id="final_plan_img" class="card-img-top p-2" src="" alt="Selection Lighting Plan" />';
+  str += '            <div id="final_plan">';
+  str += '              <img id="final_plan_img" class="card-img-top p-2" src="" alt="Selection Lighting Plan" />';
+  str += '            </div>';
   str += '            <div id="final_fixtures" class="card-body card-body-small-padding pb-0"></div>';
   str += '          </div>';
   str += '        </div>';
@@ -412,27 +415,21 @@ function generateFinalBreadcrumb(data,selection,facility,room,fixture,target,sys
     $('.bc-system').html(_system);
     $('.bc-cct').html(_cct);
     $('.bc-facility').click(function(){
-      $('#toggle_view').remove();
       getFacility(data,selection,'','','','','','','');
     });
     $('.bc-room').click(function(){
-      $('#toggle_view').remove();
       getRoom(data,selection,facility,'','','','','','');
     });
     $('.bc-fixture').click(function(){
-      $('#toggle_view').remove();
       getFixture(data,selection,facility,room,'','','','','');
     });
     $('.bc-target').click(function(){
-      $('#toggle_view').remove();
       getTarget(data,selection,facility,room,fixture,'','','','');
     });
     $('.bc-system').click(function(){
-      $('#toggle_view').remove();
       getSystem(data,selection,facility,room,fixture,target,'','','');
     });
     $('.bc-cct').click(function(){
-      $('#toggle_view').remove();
       getCCT(data,selection,facility,room,fixture,target,system,'','');
     });
   });
@@ -443,10 +440,11 @@ function generateDescription(data,facility,room,fixture){
 }
 
 function generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view){
+  console.log(view);
   $('#final_render_img').attr('src',path.render[view]);
   if (path.render.length > 1){
     $('#toggle_view').remove();
-    $('#final_render').append('<button id="toggle_view" class="btn btn-primary img-button"> Toggle View</button>');
+    $('#final_render').append('<button id="toggle_view" class="btn btn-primary toggle-view-button"><span class="icon-plan-man"></span><span class="toggle-view-text">Toggle View</span></button>');
     $('#toggle_view').click(function(){
      if (view == path.render.length-1){
         view = 0;
@@ -462,6 +460,7 @@ function generateRender(path,data,selection,facility,room,fixture,target,system,
 
 function generatePlan(path,view){
   $('#final_plan_img').attr('src',path.plan[view]);
+
 }
 
 function generateFixtures(fixture){
@@ -557,6 +556,7 @@ function generateAdjustments(data,selection,facility,room,fixture,target,system,
 
 function generateContent(data,selection,facility,room,fixture,target,system,cct,time,view){
   //Hide the modal and remove necessary landing page content
+  $('#toggle_view').remove();
   $('#application-modal').modal('hide');
   $('body').removeClass('modal-open');
   $('.modal-backdrop').remove();

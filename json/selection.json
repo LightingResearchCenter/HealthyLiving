@@ -51,7 +51,7 @@
         "img": "img/application/selection/2 Room/Healthcare_DoublePatientRoom.jpg",
         "desc" : "A design for a double patient room has room for 2 patients and 2 guests. It has 2 adjustable beds, 2 cabinets, and 2 chairs."
       },
-      "Nurse's Station":
+      "Nurses Station":
       {
         "img": "img/application/selection/2 Room/Healthcare_NursesStation.jpg",
         "desc" : "A design for a  nurse's station in an open hospital hallway seats 11 nurses and contains built in desks and office chairs."
@@ -85,49 +85,174 @@
         "img" : "img/application/selection/3 Fixture/2x4 Center basket Troffer.jpg",
         "desc" : "“Center basket” troffers are a newer troffer design that can retrofit into existing 2x4 ceiling grids. The fixture design provides a different beam distribution, and directs light more evenly into the space, compared to typical 2x4 troffers."
       },
-      "Downlight":
+      "2x4 Troffer + Desk Luminaire + Wall Valance" :
       {
-        "img" : "img/application/selection/3 Fixture/Downlight.jpg",
-        "desc" : "Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing. Downlights may have integrated LED sources or contain CFLs or LED replacement lamps."
+          "img" : "img/application/selection/3 Fixture/2x4 Troffer + Desk Luminaire + Wall Valance.jpg",
+          "desc" : ""
       },
-      "Flush Mount + Hanging Pendant":
+      "2x4 Troffer + Blue/Red Desk Luminaire + Wall Valance" :
       {
-        "img" : "img/application/selection/3 Fixture/Flush Mount + Hanging Pendant.jpg",
-        "desc" : "A modern twist to classic flush mount fixtures adds a more home-like feel to a space while providing more light into the space than original styles."
+        "img" : "img/application/selection/3 Fixture/2x4 Troffer + Desk Luminaire + Wall Valance.jpg",
+        "desc" : ""
       },
-      "Downlight + Flush Mount + Hanging Pendant + Wall Valance + TV Valance + Under Cabinet":
+      "2x4 Troffer + Desk Luminaire" :
       {
-        "img" : "img/application/selection/3 Fixture/Downlight + Flush Mount + Hanging Pendant + Wall Valance + TV Valance + Under Cabinet.jpg",
-        "desc" : "Using a combination design allows for layers of light that play different roles. Downlights create general ambience, flush mounts provide a more home-like feel, wall valances provide more light to the eye to increase CS levels, and undercabinet contributes to task lighting for visual purpose."
-      },
-      "Flush Mount + Hanging Pendant + Wall Valance":
-      {
-        "img" : "img/application/selection/3 Fixture/Flush Mount + Hanging Pendant + Wall Valance.jpg",
-        "desc" : "Using a combination design allows for layers of light that play different roles. Flush mount and pendant fixtures create general ambience and a more home-like feel. The addition of a wall valance integrated into a cornice extending around the room provides more light to the eye to increase CS levels."
-      },
-      "Cove + Floor Lamp + Table Lamp":
-      {
-        "img" : "img/application/selection/3 Fixture/Cove + Floor Lamp + Table Lamp.jpg",
-        "desc" : "Cove design allows for hidden linear fixtures to be tucked into a lip that extends around the entire room. Light is distributed more evenly across the space since fixtures are arrayed beside one another along the cove border. Integrating a cove requires new construction of a space with the addition of higher ceilings. Floor and table lamps add an additional layer of task lighting."
-      },
-      "Downlight + Hanging Pendant + Floor Lamp + Table Lamp":
-      {
-        "img" : "img/application/selection/3 Fixture/Downlight + Hanging Pendant + Floor Lamp + Table Lamp.jpg",
-        "desc" : "Using a combination design allows for layers of light that play different roles. Downlights create general ambience, while pendants, floor lamps, and table lamps provide an additional layer of task lighting and create a home-like feel to the space."
-      },
-      "2x4 Troffer":
-      {
-        "img" : "img/application/selection/3 Fixture/2x4 Troffer.jpg",
-        "desc" : "A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications. They are relatively inexpensive and can provide high, uniform illuminance levels throughout a room. Troffers usually house linear fluorescent lamps, but more recently LED troffers are available for replacement of fluorescent troffers.  Also, LED “tubes” are promoted as fluorescent lamp replacements."
+        "img" : "img/application/selection/3 Fixture/2x4 Troffer + Desk Luminaire.jpg",
+        "desc" : ""
       },
       "2x4 Troffer + Wall Sconce":
       {
         "img" : "img/application/selection/3 Fixture/2x4 Troffer + Wall Sconce.jpg",
         "desc" : ""
       },
+      "2x4 Troffer":
+      {
+        "img" : "img/application/selection/3 Fixture/2x4 Troffer.jpg",
+        "desc" : "A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications. They are relatively inexpensive and can provide high, uniform illuminance levels throughout a room. Troffers usually house linear fluorescent lamps, but more recently LED troffers are available for replacement of fluorescent troffers.  Also, LED “tubes” are promoted as fluorescent lamp replacements."
+      },
+      "Cove + Floor Lamp + Table Lamp":
+      {
+        "img" : "img/application/selection/3 Fixture/Cove + Floor Lamp + Table Lamp.jpg",
+        "desc" : "Cove design allows for hidden linear fixtures to be tucked into a lip that extends around the entire room. Light is distributed more evenly across the space since fixtures are arrayed beside one another along the cove border. Integrating a cove requires new construction of a space with the addition of higher ceilings. Floor and table lamps add an additional layer of task lighting."
+      },
+      "Cove" :
+      {
+        "img" : "img/application/selection/3 Fixture/Cove.jpg",
+        "desc" : ""
+      },
+      "Desk Luminaire" :
+      {
+        "img" : "img/application/selection/3 Fixture/Desk Luminaire.jpg",
+        "desc" : ""
+      },
       "Direct/Indirect Linear Pendant":
       {
         "img" : "img/application/selection/3 Fixture/Direct Indirect Linear Pendant.jpg",
+        "desc" : ""
+      },
+      "Downlight + Flush Mount + Hanging Pendant + Wall Valance + Under Cabinet + TV Valance":
+      {
+        "img" : "img/application/selection/3 Fixture/Downlight + Flush Mount + Hanging Pendant + Wall Valance + Under Cabinet + TV Valance.jpg",
+        "desc" : "Using a combination design allows for layers of light that play different roles. Downlights create general ambience, flush mounts provide a more home-like feel, wall valances provide more light to the eye to increase CS levels, and undercabinet contributes to task lighting for visual purpose."
+      },
+      "Downlight + Hanging Pendant + Floor Lamp + Table Lamp":
+      {
+        "img" : "img/application/selection/3 Fixture/Downlight + Hanging Pendant + Floor Lamp + Table Lamp.jpg",
+        "desc" : "Using a combination design allows for layers of light that play different roles. Downlights create general ambience, while pendants, floor lamps, and table lamps provide an additional layer of task lighting and create a home-like feel to the space."
+      },
+      "Downlight + Wall Wash" :
+      {
+        "img" : "img/application/selection/3 Fixture/Downlight + Wall Wash.jpg",
+        "desc" : ""
+      },
+      "Downlight" :
+      {
+        "img" : "img/application/selection/3 Fixture/Downlight.jpg",
+        "desc" : "Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing. Downlights may have integrated LED sources or contain CFLs or LED replacement lamps."
+      },
+      "Floor Lamp" :
+      {
+        "img" : "img/application/selection/3 Fixture/Floor Lamp.jpg",
+        "desc" : ""
+      },
+      "Flush Mount + Hanging Pendant + Wall Valance":
+      {
+        "img" : "img/application/selection/3 Fixture/Flush Mount + Hanging Pendant + Wall Valance.jpg",
+        "desc" : "Using a combination design allows for layers of light that play different roles. Flush mount and pendant fixtures create general ambience and a more home-like feel. The addition of a wall valance integrated into a cornice extending around the room provides more light to the eye to increase CS levels."
+      },
+      "Flush Mount + Hanging Pendant":
+      {
+        "img" : "img/application/selection/3 Fixture/Flush Mount + Hanging Pendant.jpg",
+        "desc" : "A modern twist to classic flush mount fixtures adds a more home-like feel to a space while providing more light into the space than original styles."
+      },
+      "Flush Mount" :
+      {
+        "img" : "img/application/selection/3 Fixture/Flush Mount.jpg",
+        "desc" : ""
+      },
+      "Pendant" :
+      {
+        "img" : "img/application/selection/3 Fixture/Pendant.jpg",
+        "desc" : ""
+      },
+      "Recessed Linear + Desk Luminaire + Under Cabinet" :
+      {
+        "img" : "img/application/selection/3 Fixture/Recessed Linear + Desk Luminaire + Under Cabinet.jpg",
+        "desc" : ""
+      },
+      "Recessed Linear + Blue/Red Desk Luminaire + Under Cabinet" :
+      {
+        "img" : "img/application/selection/3 Fixture/Recessed Linear + Desk Luminaire + Under Cabinet.jpg",
+        "desc" : ""
+      },
+      "Recessed Linear + Desk Luminaire" :
+      {
+        "img" : "img/application/selection/3 Fixture/Recessed Linear + Desk Luminaire.jpg",
+        "desc" : ""
+      },
+      "Recessed Linear + Downlight + Wall Wash + Wall Sconce" :
+      {
+        "img" : "img/application/selection/3 Fixture/Recessed Linear + Downlight + Wall Wash + Wall Sconce.jpg",
+        "desc" : ""
+      },
+      "Recessed Linear + Downlight + Wall Wash + Cove" :
+      {
+        "img" : "img/application/selection/3 Fixture/Recessed Linear + Downlight + Wall Wash + Cove.jpg",
+        "desc" : ""
+      },
+      "Recessed Linear + Blue/Red Downlight + Wall Wash + Cove" :
+      {
+        "img" : "img/application/selection/3 Fixture/Recessed Linear + Downlight + Wall Wash + Cove.jpg",
+        "desc" : ""
+      },
+      "Recessed Linear + Wall Sconce" :
+      {
+        "img" : "img/application/selection/3 Fixture/Recessed Linear + Wall Sconce.jpg",
+        "desc" : ""
+      },
+      "Recessed Linear + Wall Wash" :
+      {
+        "img" : "img/application/selection/3 Fixture/Recessed Linear + Wall Wash.jpg",
+        "desc" : ""
+      },
+      "Recessed Linear + Blue/Red Wall Wash" :
+      {
+        "img" : "img/application/selection/3 Fixture/Recessed Linear + Wall Wash.jpg",
+        "desc" : ""
+      },
+      "Recessed Linear" :
+      {
+        "img" : "img/application/selection/3 Fixture/Recessed Linear.jpg",
+        "desc" : ""
+      },
+      "Table Lamp" :
+      {
+        "img" : "img/application/selection/3 Fixture/Table Lamp.jpg",
+        "desc" : ""
+      },
+      "TV Valance" :
+      {
+        "img" : "img/application/selection/3 Fixture/TV Valance.jpg",
+        "desc" : ""
+      },
+      "Under Cabinet" :
+      {
+        "img" : "img/application/selection/3 Fixture/Under Cabinet.jpg",
+        "desc" : ""
+      },
+      "Wall Sconce" :
+      {
+        "img" : "img/application/selection/3 Fixture/Wall Sconce.jpg",
+        "desc" : ""
+      },
+      "Wall Valance" :
+      {
+        "img" : "img/application/selection/3 Fixture/Wall Valance.jpg",
+        "desc" : ""
+      },
+      "Wall Wash" :
+      {
+        "img" : "img/application/selection/3 Fixture/Wall Wash.jpg",
         "desc" : ""
       },
       "Blue Add-on: Desk Luminaire":
@@ -149,11 +274,6 @@
       {
         "img" : "img/application/selection/3 Fixture/Downlight + Wall Wash.jpg",
         "desc" : ""
-      },
-      "Direct/Indirect Pendant":
-      {
-        "img" : "img/application/selection/3 Fixture/Direct Indirect Pendant.jpg",
-        "desc" : ""
       }
     },
     "Target":
@@ -161,13 +281,28 @@
       "desc" : "A CS above 0.3 is shown to have an effect on the circadian system which is desired in the morning and early afternoon hours to synchronize our bodies with the 24-hour solar day. For a robust light/dark schedule, CS must be lowered throughout the day. This means a CS schedule will either start at the target 0.4 or 0.3, and always end in < 0.1. CS values are achieved based on the SPD of a light source, and the illuminance at the eye. Read below for tips of which initial target CS value is best for your design.<br/><br/>See ‘CS’ on the background page for more information.",
       "0.3":
       {
-        "img" : "img/application/selection/4 Target CS/0.3.jpg",
+        "img" : "img/application/selection/4 Target CS/0.3.png",
         "desc" : "Targeting a CS of 0.3 is the absolute minimum to have an effect on the circadian system. Target a CS of 0.3 if:<ul><li>The furniture layout is defined and occupant’s seating is known</li><li>Occupants prefer warmer CCTs (Warmer CCTs have a lesser effect on the circadian system, so more illuminance at the eye, compared to cooler CCTs, is needed to reach a higher CS)</li><li>Horizontal illuminance should not exceed 500 lux on the workplane</li><li>Energy consumption is a major concern</li></ul>"
       },
       "0.4":
       {
-        "img" : "img/application/selection/4 Target CS/0.4.jpg",
+        "img" : "img/application/selection/4 Target CS/0.4.png",
         "desc" : "Targeting a higher CS of 0.4 will better assure that the minimum of 0.3 CS is achieved where it is needed (e.g. where people are sitting). Target a CS of 0.4 if:<ul><li>The furniture layout is undefined and/or occupants’ seating is dynamic</li><li>Occupants prefer cooler CCTs (Cool CCTs have a greater effect on the circadian system, so less illuminance at the eye, compared to warmer CCTs, is needed to reach a higher CS)</li><li>Occupants have the tendency to not respond to light (e.g. the aging population due to the aging eye), or are more out of sync, or more susceptible to being out of sync (e.g. social jetlag)</li></ul>"
+      },
+      "0.3-0.5" :
+      {
+        "img" : "img/application/selection/4 Target CS/0.3-0.5.png",
+        "desc" : ""
+      },
+      "0.4 short" :
+      {
+        "img" : "img/application/selection/4 Target CS/0.4 short.png",
+        "desc" : ""
+      },
+      "0.4 long" :
+      {
+        "img" : "img/application/selection/4 Target CS/0.4 long.png",
+        "desc" : ""
       }
     },
     "System":
