@@ -200,7 +200,7 @@
         "img" : "img/application/selection/3 Fixture/Recessed Linear + Downlight + Wall Wash + Cove.jpg",
         "desc" : ""
       },
-      "Recessed Linear + Blue/Red Downlight + Wall Wash + Cove" :
+      "Recessed Linear + Blue/Red Downlight + Blue Wall Wash + Cove" :
       {
         "img" : "img/application/selection/3 Fixture/Recessed Linear + Downlight + Wall Wash + Cove.jpg",
         "desc" : ""
@@ -281,27 +281,37 @@
       "desc" : "A CS above 0.3 is shown to have an effect on the circadian system which is desired in the morning and early afternoon hours to synchronize our bodies with the 24-hour solar day. For a robust light/dark schedule, CS must be lowered throughout the day. This means a CS schedule will either start at the target 0.4 or 0.3, and always end in < 0.1. CS values are achieved based on the SPD of a light source, and the illuminance at the eye. Read below for tips of which initial target CS value is best for your design.<br/><br/>See ‘CS’ on the background page for more information.",
       "0.3":
       {
-        "img" : "img/application/selection/4 Target CS/0.3.png",
+        "img" : "img/application/selection/4 Target CS/0.3.jpg",
         "desc" : "Targeting a CS of 0.3 is the absolute minimum to have an effect on the circadian system. Target a CS of 0.3 if:<ul><li>The furniture layout is defined and occupant’s seating is known</li><li>Occupants prefer warmer CCTs (Warmer CCTs have a lesser effect on the circadian system, so more illuminance at the eye, compared to cooler CCTs, is needed to reach a higher CS)</li><li>Horizontal illuminance should not exceed 500 lux on the workplane</li><li>Energy consumption is a major concern</li></ul>"
       },
       "0.4":
       {
-        "img" : "img/application/selection/4 Target CS/0.4.png",
+        "img" : "img/application/selection/4 Target CS/0.4.jpg",
         "desc" : "Targeting a higher CS of 0.4 will better assure that the minimum of 0.3 CS is achieved where it is needed (e.g. where people are sitting). Target a CS of 0.4 if:<ul><li>The furniture layout is undefined and/or occupants’ seating is dynamic</li><li>Occupants prefer cooler CCTs (Cool CCTs have a greater effect on the circadian system, so less illuminance at the eye, compared to warmer CCTs, is needed to reach a higher CS)</li><li>Occupants have the tendency to not respond to light (e.g. the aging population due to the aging eye), or are more out of sync, or more susceptible to being out of sync (e.g. social jetlag)</li></ul>"
       },
-      "0.3-0.5" :
+      "0.5-0.3 short" :
       {
-        "img" : "img/application/selection/4 Target CS/0.3-0.5.png",
+        "img" : "img/application/selection/4 Target CS/0.5-0.3 short.jpg",
+        "desc" : ""
+      },
+      "0.5-0.3 long" :
+      {
+        "img" : "img/application/selection/4 Target CS/0.5-0.3 long.jpg",
+        "desc" : ""
+      },
+      "0.5-0.3 long2" :
+      {
+        "img" : "img/application/selection/4 Target CS/0.5-0.3 long2.jpg",
         "desc" : ""
       },
       "0.4 short" :
       {
-        "img" : "img/application/selection/4 Target CS/0.4 short.png",
+        "img" : "img/application/selection/4 Target CS/0.4 short.jpg",
         "desc" : ""
       },
       "0.4 long" :
       {
-        "img" : "img/application/selection/4 Target CS/0.4 long.png",
+        "img" : "img/application/selection/4 Target CS/0.4 long.jpg",
         "desc" : ""
       }
     },
@@ -337,6 +347,11 @@
         "img" : "img/application/selection/6 CCT/4000 K.jpg",
         "desc" : "Neutral white"
       },
+      "3500 K" :
+      {
+        "img" : "img/application/selection/6 CCT/3000 K.jpg",
+        "desc" : "Neutral white"
+      },
       "3000 K":
       {
         "img" : "img/application/selection/6 CCT/3000 K.jpg",
@@ -347,29 +362,49 @@
         "img" : "img/application/selection/6 CCT/2700 K.jpg",
         "desc" : "Warmer white"
       },
-      "6500K -> 5000K -> 4000K":
+      "0.3 6500 K -> 5000 K -> 4000 K":
       {
-        "img" : "img/application/selection/6 CCT/0.3- 6500K.jpg",
+        "img" : "img/application/selection/6 CCT/0.3 6500K-5000K-4000K.jpg",
         "desc" : "Transition from a cooler white light in the early hours of the day to a neutral white light at night."
       },
-      "6500K -> 5000K -> 4000K -> 3000K" :
+      "0.3 5000 K -> 4000 K -> 3000 K":
       {
-        "img" : "img/application/selection/6 CCT/0.4- 6500k.png",
-        "desc" : "Transition from a cooler white light in the early hours of the day to a warm white light at night."
-      },
-      "5000K -> 4000K -> 3000K":
-      {
-        "img" : "img/application/selection/6 CCT/0.3- 5000k.jpg",
+        "img" : "img/application/selection/6 CCT/0.3 5000K-4000K-3000K.jpg",
         "desc" : "Transition from a cool white light in the early hours of the day to a warm white light at night."
       },
-      "5000K -> 4000K -> 3000K -> 2700K":
+      "0.3 5000 K -> 4000 K":
       {
-        "img" : "img/application/selection/6 CCT/0.4- 5000K.png",
+        "img" : "img/application/selection/6 CCT/0.3 5000K-4000K.jpg",
+        "desc" : "Transition from a neutral white light in the early hours of the day to a warmer white light at night."
+      },
+      "0.3 4000 K -> 3000 K -> 2700 K":
+      {
+        "img" : "img/application/selection/6 CCT/0.3 4000K-3000K-2700K.jpg",
+        "desc" : "Transition from a neutral white light in the early hours of the day to a warmer white light at night."
+      },
+      "0.4 6500 K -> 5000 K -> 4000 K -> 3000 K" :
+      {
+        "img" : "img/application/selection/6 CCT/0.4 6500K-5000K-4000K-3000K.jpg",
+        "desc" : "Transition from a cooler white light in the early hours of the day to a warm white light at night."
+      },
+      "0.4 6500 K -> 5000 K -> 4000 K -> 3500 K" :
+      {
+        "img" : "img/application/selection/6 CCT/0.4 6500K-5000K-4000K-3000K.jpg",
+        "desc" : "Transition from a cooler white light in the early hours of the day to a warm white light at night."
+      },
+      "0.4 5000 K -> 5000 K -> 4000 K -> 4000 K":
+      {
+        "img" : "img/application/selection/6 CCT/0.4 5000K-4000K.jpg",
+        "desc" : "Transition from a neutral white light in the early hours of the day to a warmer white light at night."
+      },
+      "0.4 5000 K -> 4000 K -> 3000 K -> 2700 K":
+      {
+        "img" : "img/application/selection/6 CCT/0.4 5000K-4000K-3000K-2700K.jpg",
         "desc" : "Transition from a cool white light in the early hours of the day to a warmer white light at night."
       },
-      "4000K -> 3000K -> 2700K":
+      "0.4 4000 K -> 4000 K -> 3500 K -> 3500 K":
       {
-        "img" : "img/application/selection/6 CCT/0.3- 4000K.jpg",
+        "img" : "img/application/selection/6 CCT/0.4 4000K-3500K.jpg",
         "desc" : "Transition from a neutral white light in the early hours of the day to a warmer white light at night."
       }
     }
