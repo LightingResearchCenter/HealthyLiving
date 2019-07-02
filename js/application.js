@@ -122,7 +122,6 @@ function getFixture(data,selection,facility,room,fixture,target,system,cct,time)
   $('#application-modal-label').html('Choose Fixture(s)<p class="modal-title-desc">'+selection["Fixture"]["desc"]+'</p>');
   for (var i = 0; i < fixtures.length; i++){
     var _fixture = Object.keys(data[facility][room])[i];
-    console.log(_fixture);
     var __fixture = _fixture.replace("[^a-zA-Z]", "").replace(/\//g, '').replace(/\s/g, '').replace(/\+/g, "");
     $('#application-modal-deck').append('<div class="card hover"><a id="'+__fixture+'" data-value="'+_fixture+'"><img class="card-img-top" src="'+selection["Fixture"][_fixture]["img"]+'" alt="Fixture" /><div class="card-body"><h5 class="card-title">'+_fixture+'</h5><hr/><p class="card-text">'+selection["Fixture"][_fixture]["desc"]+'</p></div></a></div>');
     $('#'+__fixture).click(function(){
@@ -144,7 +143,7 @@ function getTarget(data,selection,facility,room,fixture,target,system,cct,time){
     if (_target == "desc"){
       continue;
     }
-    var __target = inWords(_target.split(".").pop()).replace("[^a-zA-Z]", "").replace(/\s/g, '');
+    var __target = _target.split(".").pop().replace("[^a-zA-Z]", "").replace(/\s/g, '');
     $('#application-modal-deck').append('<div class="card hover"><a id="'+__target+'" data-value="'+_target+'"><img class="card-img-top" src="'+selection["Target"][_target]["img"]+'" alt="Target CS" /><div class="card-body"><hr/><p class="card-text">'+selection["Target"][_target]["desc"]+'</p></div></a></div>');
     $('#'+__target).click(function(){
       target = $(this).data("value");
@@ -178,12 +177,18 @@ function getCCT(data,selection,facility,room,fixture,target,system,cct,time){
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a CCT<p class="modal-title-desc">'+selection["CCT"]["desc"]+'</p>');
   for (var i = 0; i < ccts.length; i++){
-    var _cct = Object.keys(data[facility][room][fixture][target][system])[i];
+    var _cct = (Object.keys(data[facility][room][fixture][target][system])[i]).replace(/R/g,'').replace(/B/g,'').replace(/W/g,'').replace(/\s\s+/g, ' ').trim();
     var __cct = inWords(_cct.split("K")[0].replace(/\s/g, '')).replace("[^a-zA-Z]", "").replace(/\s/g, '');
+    var ___cct = Object.keys(data[facility][room][fixture][target][system])[i];
+    var _target = '0.4';
+    if (target == '0.3'){
+      _target = target;
+    }
+    var tag = _target + ' ' + _cct;
     if (system=='Tunable'){
-      $('#application-modal-deck').append('<div class="card hover"><a id="'+__cct+'" data-value="'+_cct+'"><img class="card-img-top" src="'+selection["CCT"][_cct]["img"]+'" alt="CCT" /><div class="card-body"><hr/><p class="card-text">'+selection["CCT"][_cct]["desc"]+'</p></div></a></div>');
+      $('#application-modal-deck').append('<div class="card hover"><a id="'+__cct+'" data-value="'+___cct+'"><img class="card-img-top" src="'+selection["CCT"][tag]["img"]+'" alt="CCT" /><div class="card-body"><hr/><p class="card-text">'+selection["CCT"][tag]["desc"]+'</p></div></a></div>');
     }else{
-      $('#application-modal-deck').append('<div class="card hover"><a id="'+__cct+'" data-value="'+_cct+'"><img class="card-img-top" src="'+selection["CCT"][_cct]["img"]+'" alt="CCT" /><div class="card-body"><h5 class="card-title">'+_cct+'</h5><hr/><p class="card-text">'+selection["CCT"][_cct]["desc"]+'</p></div></a></div>');
+      $('#application-modal-deck').append('<div class="card hover"><a id="'+__cct+'" data-value="'+___cct+'"><img class="card-img-top" src="'+selection["CCT"][_cct]["img"]+'" alt="CCT" /><div class="card-body"><h5 class="card-title">'+_cct+'</h5><hr/><p class="card-text">'+selection["CCT"][_cct]["desc"]+'</p></div></a></div>');
     }
     $('#'+__cct).click(function(){
       cct = $(this).data("value");
@@ -440,7 +445,6 @@ function generateDescription(data,facility,room,fixture){
 }
 
 function generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view){
-  console.log(view);
   $('#final_render_img').attr('src',path.render[view]);
   if (path.render.length > 1){
     $('#toggle_view').remove();
@@ -464,7 +468,7 @@ function generatePlan(path,view){
 }
 
 function generateFixtures(fixture){
-  fixture = fixture.replace(/\s/g,'').split('+');
+  fixture = fixture.replace(/\s/g,'').replace('Blue/Red','').replace('Blue', '').replace('Red','').split('+');
   str = '';
   for (var i = 0; i < fixture.length; i++){
     str += '<div class="mb-2 fixture-container">';
@@ -476,55 +480,57 @@ function generateFixtures(fixture){
 
 function generateAdjustments(data,selection,facility,room,fixture,target,system,cct,time,view){
   $('#final_adjustments').html('');
+
   var cct_count = Object.keys(data[facility][room][fixture][target][system]).length;
+  var tod_count = Object.keys(data[facility][room][fixture][target][system][cct]).length;
   var cct_str = '';
   var tod_str = '';
-  var cct_selected = cct_count;
-  for (var i = cct_count-1; i > -1; i--){
-    if (Object.keys(data[facility][room][fixture][target][system])[i] == cct){
-      cct_selected  = i;
-    }
-  }
-  for (var i = 0; i < cct_count; i++){
-    cct_str += '<div data-value="'+i+'" class="mb-2 cct-border adjustment-container adjustment-container-cct adjustment-container'+cct_count;
-    if (i == cct_selected){
-      cct_str += ' cct-selected';
-    }
-    cct_str += '">';
-    cct_str += '  <img class="m-0 p-0" src="img/application/adjustments/'+cct_count+' '+Object.keys(data[facility][room][fixture][target][system])[i]+'.jpg"/>';
-    cct_str += '</div>';
-  }
 
   if (system == "Static"){
-    if(target == "0.4"){
-      var tod_count = 4;
-    }else if(target == "0.3"){
-      var tod_count = 3;
-    }
-    var tod_selected = tod_count;
-    for (var i = 0; i < tod_count; i++){
-      if (Object.keys(data[facility][room][fixture][target][system][cct])[i] == time){
-        tod_selected = i;
+    // Get CCT Buttons
+    for (var i = 0; i < cct_count; i++){
+      var _cct = Object.keys(data[facility][room][fixture][target][system])[i];
+      cct_str += '<div data-value="'+i+'" class="mb-2 cct-border adjustment-container adjustment-container-cct adjustment-container'+cct_count;
+      if (_cct == cct){
+        cct_str += ' cct-selected';
       }
+      cct_str += '">';
+      cct_str += '  <img class="m-0 p-0" src="img/application/adjustments/'+cct_count+' '+_cct+'.jpg"/>';
+      cct_str += '</div>';
     }
+
+    // Get ToD Buttons
     for (var i = 0; i < tod_count; i++){
+      var _tod = Object.keys(data[facility][room][fixture][target][system][cct])[i];
       tod_str += '<div data-value="'+i+'" class="mb-2 tod-border adjustment-container adjustment-container-tod adjustment-container'+tod_count;
-      if (i == tod_selected){
+      if (_tod == time){
         tod_str += ' tod-selected';
       }
       tod_str += '">';
-      tod_str += '  <img class="m-0 p-0" src="img/application/adjustments/'+tod_count+' '+i+'.jpg"/>';
+      tod_str += '  <img class="m-0 p-0" src="img/application/adjustments/'+tod_count+' '+_tod.replace(/\s/g, '').replace(/\//g, '-').replace('0.1','').replace('0.2','').replace('0.3','').replace('0.4','')+'.jpg"/>';
       tod_str += '</div>';
     }
+  }else{
+    for (var i = 0; i < cct_count; i++){
+      var _cct = Object.keys(data[facility][room][fixture][target][system])[i];
+      cct_str += '<div data-value="'+i+'" class="mb-2 cct-border adjustment-container adjustment-container-cct adjustment-container'+cct_count;
+      if (_cct == cct){
+        cct_str += ' cct-selected';
+      }
+      cct_str += '">';
+      cct_str += '  <img class="m-0 p-0" src="img/application/adjustments/'+cct_count+' '+_cct.replace(/\s/g, '').replace(/>/g,'')+'.jpg"/>';
+      cct_str += '</div>';
+    }
   }
+
+  // Build the buttons
   $('#final_adjustments').append(cct_str);
   $('#final_adjustments').append(tod_str);
 
+  // Handle When the buttons are clicked
   $('.adjustment-container-cct').click(function(){
     $('#final_adjustments .cct-border').removeClass('cct-selected');
-    if(!$(this).hasClass('cct-selected')){
-      $(this).addClass('cct-selected');
-    }
+    $(this).addClass('cct-selected');
 
     cct = Object.keys(data[facility][room][fixture][target][system])[$(this).data("value")];
     if (system == "Tunable"){
@@ -535,19 +541,12 @@ function generateAdjustments(data,selection,facility,room,fixture,target,system,
     generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view);
     generateFinalBreadcrumb(data,selection,facility,room,fixture,target,system,cct);
   });
-
   $('.adjustment-container-tod').click(function(){
     $('#final_adjustments .tod-border').removeClass('tod-selected');
-    if(!$(this).hasClass('tod-selected')){
-      $(this).addClass('tod-selected');
-    }
+    $(this).addClass('tod-selected');
 
     time = Object.keys(data[facility][room][fixture][target][system][cct])[$(this).data("value")];
-    if (system == "Tunable"){
-      var path = data[facility][room][fixture][target][system][cct];
-    }else{
-      var path = data[facility][room][fixture][target][system][cct][time];
-    }
+    var path = data[facility][room][fixture][target][system][cct][time];
     generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view);
   });
 
@@ -575,6 +574,8 @@ function generateContent(data,selection,facility,room,fixture,target,system,cct,
     var path = data[facility][room][fixture][target][system][cct][time];
   }
   //Get path of our content in the json file
+
+
 
   if ($('#final_content').length==0){
     buildHTML();
