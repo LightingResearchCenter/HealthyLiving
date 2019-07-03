@@ -184,9 +184,8 @@ function getCCT(data,selection,facility,room,fixture,target,system,cct,time){
     if (target == '0.3'){
       _target = target;
     }
-    var tag = _target + ' ' + _cct;
     if (system=='Tunable'){
-      $('#application-modal-deck').append('<div class="card hover"><a id="'+__cct+'" data-value="'+___cct+'"><img class="card-img-top" src="'+selection["CCT"][tag]["img"]+'" alt="CCT" /><div class="card-body"><hr/><p class="card-text">'+selection["CCT"][tag]["desc"]+'</p></div></a></div>');
+      $('#application-modal-deck').append('<div class="card hover"><a id="'+__cct+'" data-value="'+___cct+'"><img class="card-img-top" src="'+selection["CCT"][_cct]["img"]+'" alt="CCT" /><div class="card-body"><hr/><p class="card-text">'+selection["CCT"][_cct]["desc"]+'</p></div></a></div>');
     }else{
       $('#application-modal-deck').append('<div class="card hover"><a id="'+__cct+'" data-value="'+___cct+'"><img class="card-img-top" src="'+selection["CCT"][_cct]["img"]+'" alt="CCT" /><div class="card-body"><h5 class="card-title">'+_cct+'</h5><hr/><p class="card-text">'+selection["CCT"][_cct]["desc"]+'</p></div></a></div>');
     }
@@ -464,7 +463,6 @@ function generateRender(path,data,selection,facility,room,fixture,target,system,
 
 function generatePlan(path,view){
   $('#final_plan_img').attr('src',path.plan[view]);
-
 }
 
 function generateFixtures(fixture){
@@ -511,6 +509,7 @@ function generateAdjustments(data,selection,facility,room,fixture,target,system,
       tod_str += '</div>';
     }
   }else{
+    // Get CCT Buttons
     for (var i = 0; i < cct_count; i++){
       var _cct = Object.keys(data[facility][room][fixture][target][system])[i];
       cct_str += '<div data-value="'+i+'" class="mb-2 cct-border adjustment-container adjustment-container-cct adjustment-container'+cct_count;
@@ -549,8 +548,6 @@ function generateAdjustments(data,selection,facility,room,fixture,target,system,
     var path = data[facility][room][fixture][target][system][cct][time];
     generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view);
   });
-
-
 }
 
 function generateContent(data,selection,facility,room,fixture,target,system,cct,time,view){
