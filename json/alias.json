@@ -1,9 +1,19 @@
 {"Alias" :
   {
+    "Neonatal Intensive Care Unit" : "NICU",
     "Assisted Living Single with Kitchen" : "Single w/ Kitchen",
     "Nursing Home Single" : "Single",
+    "Double Patient Room" : "Double",
+    "Single Patient Room" : "Single",
     "2x4 Center Basket Troffer" : "2x4 Troffer",
     "Flush Mount + Hanging Pendant" : "Flush + Pendant",
-    "Downlight + Flush Mount + Hanging Pendant + Wall Valance + TV Valance + Under Cabinet" : "Combination"
+    "Downlight + Flush Mount + Hanging Pendant + Wall Valance + TV Valance + Under Cabinet" : "Combination",
+    "2x4 Troffer + Blue/Red Desk Luminaire + Wall Valance" : "Blue/Red Combo",
+    "Recessed Linear + Blue/Red Downlight + Blue Wall Wash + Cove" : "Blue/Red Combo",
+    "Recessed Linear + Blue/Red Desk Luminaire + Under Cabinet" : "Blue/Red Combo",
+    "Recessed Linear + Blue/Red Wall Wash" : "Blue/Red Combo",
+    "0.5-0.3 short" : "0.5 | 0.3",
+    "0.5-0.3 long" : "0.5 | 0.3",
+    "0.5-0.3 long2" : "0.5 | 0.3"
   }
 }

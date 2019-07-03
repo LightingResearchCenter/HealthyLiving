@@ -56,7 +56,7 @@
         "img": "img/application/selection/2 Room/Healthcare_NursesStation.jpg",
         "desc" : "A design for a  nurse's station in an open hospital hallway seats 11 nurses and contains built in desks and office chairs."
       },
-      "Newborn Intensive Care Unit":
+      "Neonatal Intensive Care Unit":
       {
         "img": "img/application/selection/2 Room/Healthcare_NICU.jpg",
         "desc" : "A design for a NICU (newborn intensive care unit) is divided into two zones: nurse's station, and the infants in their incubators.The NICU contains incubators and a built in desk for nurses."
@@ -362,47 +362,47 @@
         "img" : "img/application/selection/6 CCT/2700 K.jpg",
         "desc" : "Warmer white"
       },
-      "0.3 6500 K -> 5000 K -> 4000 K":
+      "6500 K -> 5000 K -> 4000 K":
       {
         "img" : "img/application/selection/6 CCT/0.3 6500K-5000K-4000K.jpg",
         "desc" : "Transition from a cooler white light in the early hours of the day to a neutral white light at night."
       },
-      "0.3 5000 K -> 4000 K -> 3000 K":
+      "5000 K -> 4000 K -> 3000 K":
       {
         "img" : "img/application/selection/6 CCT/0.3 5000K-4000K-3000K.jpg",
         "desc" : "Transition from a cool white light in the early hours of the day to a warm white light at night."
       },
-      "0.3 5000 K -> 4000 K":
+      "5000 K -> 4000 K":
       {
         "img" : "img/application/selection/6 CCT/0.3 5000K-4000K.jpg",
         "desc" : "Transition from a neutral white light in the early hours of the day to a warmer white light at night."
       },
-      "0.3 4000 K -> 3000 K -> 2700 K":
+      "4000 K -> 3000 K -> 2700 K":
       {
         "img" : "img/application/selection/6 CCT/0.3 4000K-3000K-2700K.jpg",
         "desc" : "Transition from a neutral white light in the early hours of the day to a warmer white light at night."
       },
-      "0.4 6500 K -> 5000 K -> 4000 K -> 3000 K" :
+      "6500 K -> 5000 K -> 4000 K -> 3000 K" :
       {
         "img" : "img/application/selection/6 CCT/0.4 6500K-5000K-4000K-3000K.jpg",
         "desc" : "Transition from a cooler white light in the early hours of the day to a warm white light at night."
       },
-      "0.4 6500 K -> 5000 K -> 4000 K -> 3500 K" :
+      "6500 K -> 5000 K -> 4000 K -> 3500 K" :
       {
         "img" : "img/application/selection/6 CCT/0.4 6500K-5000K-4000K-3000K.jpg",
         "desc" : "Transition from a cooler white light in the early hours of the day to a warm white light at night."
       },
-      "0.4 5000 K -> 5000 K -> 4000 K -> 4000 K":
+      "5000 K -> 5000 K -> 4000 K -> 4000 K":
       {
         "img" : "img/application/selection/6 CCT/0.4 5000K-4000K.jpg",
         "desc" : "Transition from a neutral white light in the early hours of the day to a warmer white light at night."
       },
-      "0.4 5000 K -> 4000 K -> 3000 K -> 2700 K":
+      "5000 K -> 4000 K -> 3000 K -> 2700 K":
       {
         "img" : "img/application/selection/6 CCT/0.4 5000K-4000K-3000K-2700K.jpg",
         "desc" : "Transition from a cool white light in the early hours of the day to a warmer white light at night."
       },
-      "0.4 4000 K -> 4000 K -> 3500 K -> 3500 K":
+      "4000 K -> 4000 K -> 3500 K -> 3500 K":
       {
         "img" : "img/application/selection/6 CCT/0.4 4000K-3500K.jpg",
         "desc" : "Transition from a neutral white light in the early hours of the day to a warmer white light at night."
