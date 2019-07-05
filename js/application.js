@@ -14,9 +14,18 @@ function inWords(num){
   return str;
 }
 
-function main(data,selection){
-  var facility = "", room = "", fixture = "", target = "", system ="", cct = "", time = "";
-  getFacility(data,selection,facility,room,fixture,target,system,cct,time);
+function main(hb_json,selection_json){
+  var data = {
+    facility : "",
+    room : "",
+    fixture : "",
+    target : "",
+    system : "",
+    cct : "",
+    time : "",
+    view: 0
+  }
+  getFacility(hb_json,selection_json,data);
 }
 
 function checkModalSize(values){
@@ -35,168 +44,168 @@ function checkModalSize(values){
   }
 }
 
-function generateModalBreadcrumb(data,selection,current,facility,room,fixture,target,system,cct,time){
+function generateModalBreadcrumb(hb,selection,data,current){
   if (current == "facility"){
     $('#application-modal-breadcrumb').html('<li class="breadcrumb-item">Facility</li>');
   }
   if (current == "room"){
-    $('#application-modal-breadcrumb').html('<li class="breadcrumb-item"><a href="#" id="repick-facility">'+facility+'</a></li><li class="breadcrumb-item">Room</li>');
+    $('#application-modal-breadcrumb').html('<li class="breadcrumb-item"><a href="#" id="repick-facility">'+data.facility+'</a></li><li class="breadcrumb-item">Room</li>');
   }
   if (current == "fixture"){
-    $('#application-modal-breadcrumb').html('<li class="breadcrumb-item"><a href="#" id="repick-facility">'+facility+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-room">'+room+'</a></li><li class="breadcrumb-item">Fixture</li>');
+    $('#application-modal-breadcrumb').html('<li class="breadcrumb-item"><a href="#" id="repick-facility">'+data.facility+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-room">'+data.room+'</a></li><li class="breadcrumb-item">Fixture</li>');
   }
   if (current == "target"){
-    $('#application-modal-breadcrumb').html('<li class="breadcrumb-item"><a href="#" id="repick-facility">'+facility+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-room">'+room+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-fixture">'+fixture+'</a></li><li class="breadcrumb-item">Target CS</li>');
+    $('#application-modal-breadcrumb').html('<li class="breadcrumb-item"><a href="#" id="repick-facility">'+data.facility+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-room">'+data.room+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-fixture">'+data.fixture+'</a></li><li class="breadcrumb-item">Target CS</li>');
   }
   if (current == "system"){
-    $('#application-modal-breadcrumb').html('<li class="breadcrumb-item"><a href="#" id="repick-facility">'+facility+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-room">'+room+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-fixture">'+fixture+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-target">'+target+'</a></li><li class="breadcrumb-item">CCT System</li>');
+    $('#application-modal-breadcrumb').html('<li class="breadcrumb-item"><a href="#" id="repick-facility">'+data.facility+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-room">'+data.room+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-fixture">'+data.fixture+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-target">'+data.target+'</a></li><li class="breadcrumb-item">CCT System</li>');
   }
   if (current == "cct"){
-    $('#application-modal-breadcrumb').html('<li class="breadcrumb-item"><a href="#" id="repick-facility">'+facility+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-room">'+room+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-fixture">'+fixture+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-target">'+target+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-system">'+system+'</a></li><li class="breadcrumb-item">CCT</li>');
-  }
-  if (current == "time"){
-    $('#application-modal-breadcrumb').html('<li class="breadcrumb-item"><a href="#" id="repick-facility">'+facility+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-room">'+room+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-fixture">'+fixture+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-target">'+target+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-system">'+system+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-cct">'+cct+'</a></li><li class="breadcrumb-item">Time of Day</li>');
+    $('#application-modal-breadcrumb').html('<li class="breadcrumb-item"><a href="#" id="repick-facility">'+data.facility+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-room">'+data.room+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-fixture">'+data.fixture+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-target">'+data.target+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-system">'+data.system+'</a></li><li class="breadcrumb-item">CCT</li>');
   }
   $('#repick-facility').click(function(){
-    getFacility(data,selection,'','','','','','','');
+    data.facility = "", data.room = "", data.fixture = "", data.target = "", data.system = "", data.cct = "", data.time = "";
+    getFacility(hb,selection,data);
   });
   $('#repick-room').click(function(){
-    getRoom(data,selection,facility,'','','','','','');
+    data.room = "", data.fixture = "", data.target = "", data.system = "", data.cct = "", data.time = "";
+    getRoom(hb,selection,data);
   });
   $('#repick-fixture').click(function(){
-    getFixture(data,selection,facility,room,'','','','','');
+    data.fixture = "", data.target = "", data.system = "", data.cct = "", data.time = "";
+    getFixture(hb,selection,data);
   });
   $('#repick-target').click(function(){
-    getTarget(data,selection,facility,room,fixture,'','','','');
+    data.target = "", data.system = "", data.cct = "", data.time = "";
+    getTarget(hb,selection,data);
   });
   $('#repick-system').click(function(){
-    getSystem(data,selection,facility,room,fixture,target,'','','');
+    data.system = "", data.cct = "", data.time = "";
+    getSystem(hb,selection,data);
   });
   $('#repick-cct').click(function(){
-    getCCT(data,selection,facility,room,fixture,target,system,'','');
-  });
-  $('#repick-time').click(function(){
-    getTime(data,selection,facility,room,fixture,target,system,cct,'');
+    data.cct = "", data.time = "";
+    getCCT(hb,selection,data);
   });
 }
 
-function getFacility(data,selection,facility,room,fixture,target,system,cct,time){
-  var facilities = Object.values(data);
-  checkModalSize(Object.keys(data));
-  generateModalBreadcrumb(data,selection,"facility",facility,room,fixture,target,system,cct,time);
+function getFacility(hb,selection,data){
+  var facilities = Object.values(hb);
+  checkModalSize(Object.keys(hb));
+  generateModalBreadcrumb(hb,selection,data,"facility");
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a Facility<p class="modal-title-desc">'+selection["Facility"]["desc"]+'</p>');
   for (var i = 0; i < facilities.length; i++){
-    var _facility = Object.keys(data)[i];
+    var _facility = Object.keys(hb)[i];
     var __facility = _facility.replace("[^a-zA-Z]", "").replace(/\s/g, '');
     $('#application-modal-deck').append('<div class="card hover"><a id="'+__facility+'" data-value="'+_facility+'"><img class="card-img-top card-img-top-facility" src="'+selection["Facility"][_facility]["img"]+'" alt="Facility" /><div class="card-body"><h5 class="card-title">'+_facility+'</h5><hr/><p class="card-text">'+selection["Facility"][_facility]["desc"]+'</p></div></a></div>');
     $('#'+__facility).click(function(){
-      facility = $(this).data("value");
-      getRoom(data,selection,facility,room,fixture,target,system,cct,time);
+      data.facility = $(this).data("value");
+      getRoom(hb,selection,data);
     });
   }
 }
 
-function getRoom(data,selection,facility,room,fixture,target,system,cct,time){
-  var rooms = Object.values(data[facility]);
-  checkModalSize(Object.keys(data[facility]));
-  generateModalBreadcrumb(data,selection,"room",facility,room,fixture,target,system,cct,time);
+function getRoom(hb,selection,data){
+  var rooms = Object.values(hb[data.facility]);
+  checkModalSize(Object.keys(hb[data.facility]));
+  generateModalBreadcrumb(hb,selection,data,"room");
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a Room<p class="modal-title-desc">'+selection["Room"]["desc"]+'</p>');
   for (var i = 0; i < rooms.length; i++){
-    var _room = Object.keys(data[facility])[i];
+    var _room = Object.keys(hb[data.facility])[i];
     var __room = _room.replace("[^a-zA-Z]", "").replace(/\s/g, '');
     $('#application-modal-deck').append('<div class="card hover"><a id="'+__room+'" data-value="'+_room+'"><img class="card-img-top" src="'+selection["Room"][_room]["img"]+'" alt="Room" /><div class="card-body"><h5 class="card-title">'+_room+'</h5><hr/><p class="card-text">'+selection["Room"][_room]["desc"]+'</p></div></a></div>');
     $('#'+__room).click(function(){
-      room = $(this).data("value");
-      getFixture(data,selection,facility,room,fixture,target,system,cct,time);
+      data.room = $(this).data("value");
+      getFixture(hb,selection,data);
     });
   }
 }
 
-function getFixture(data,selection,facility,room,fixture,target,system,cct,time){
-  var fixtures = Object.values(data[facility][room]);
-  checkModalSize(Object.keys(data[facility][room]));
-  generateModalBreadcrumb(data,selection,"fixture",facility,room,fixture,target,system,cct,time);
+function getFixture(hb,selection,data){
+  var fixtures = Object.values(hb[data.facility][data.room]);
+  checkModalSize(Object.keys(hb[data.facility][data.room]));
+  generateModalBreadcrumb(hb,selection,data,"fixture");
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose Fixture(s)<p class="modal-title-desc">'+selection["Fixture"]["desc"]+'</p>');
   for (var i = 0; i < fixtures.length; i++){
-    var _fixture = Object.keys(data[facility][room])[i];
+    var _fixture = Object.keys(hb[data.facility][data.room])[i];
     var __fixture = _fixture.replace("[^a-zA-Z]", "").replace(/\//g, '').replace(/\s/g, '').replace(/\+/g, "");
     $('#application-modal-deck').append('<div class="card hover"><a id="'+__fixture+'" data-value="'+_fixture+'"><img class="card-img-top" src="'+selection["Fixture"][_fixture]["img"]+'" alt="Fixture" /><div class="card-body"><h5 class="card-title">'+_fixture+'</h5><hr/><p class="card-text">'+selection["Fixture"][_fixture]["desc"]+'</p></div></a></div>');
     $('#'+__fixture).click(function(){
-      fixture = $(this).data("value");
-      getTarget(data,selection,facility,room,fixture,target,system,cct,time);
+      data.fixture = $(this).data("value");
+      getTarget(hb,selection,data);
     });
   }
 }
 
-function getTarget(data,selection,facility,room,fixture,target,system,cct,time){
-  var targets = Object.values(data[facility][room][fixture]);
-  checkModalSize(Object.keys(data[facility][room][fixture]));
-  generateModalBreadcrumb(data,selection,"target",facility,room,fixture,target,system,cct,time);
+function getTarget(hb,selection,data){
+  var targets = Object.values(hb[data.facility][data.room][data.fixture]);
+  checkModalSize(Object.keys(hb[data.facility][data.room][data.fixture]));
+  generateModalBreadcrumb(hb,selection,data,"target");
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a Target CS<p class="modal-title-desc">'+selection["Target"]["desc"]+'</p>');
 
   for (var i = 0; i < targets.length; i++){
-    var _target = Object.keys(data[facility][room][fixture])[i];
+    var _target = Object.keys(hb[data.facility][data.room][data.fixture])[i];
     if (_target == "desc"){
       continue;
     }
     var __target = _target.split(".").pop().replace("[^a-zA-Z]", "").replace(/\s/g, '');
     $('#application-modal-deck').append('<div class="card hover"><a id="'+__target+'" data-value="'+_target+'"><img class="card-img-top" src="'+selection["Target"][_target]["img"]+'" alt="Target CS" /><div class="card-body"><hr/><p class="card-text">'+selection["Target"][_target]["desc"]+'</p></div></a></div>');
     $('#'+__target).click(function(){
-      target = $(this).data("value");
-      getSystem(data,selection,facility,room,fixture,target,system,cct,time);
+      data.target = $(this).data("value");
+      getSystem(hb,selection,data);
     });
   }
 }
 
-function getSystem(data,selection,facility,room,fixture,target,system,cct,time){
-  var systems = Object.values(data[facility][room][fixture][target]);
-  checkModalSize(Object.keys(data[facility][room][fixture][target]));
-  generateModalBreadcrumb(data,selection,"system",facility,room,fixture,target,system,cct,time);
+function getSystem(hb,selection,data){
+  var systems = Object.values(hb[data.facility][data.room][data.fixture][data.target]);
+  checkModalSize(Object.keys(hb[data.facility][data.room][data.fixture][data.target]));
+  generateModalBreadcrumb(hb,selection,data,"system");
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a System<p class="modal-title-desc">'+selection["System"]["desc"]+'</p>');
 
   for (var i = 0; i < systems.length; i++){
-    var _system = Object.keys(data[facility][room][fixture][target])[i];
+    var _system = Object.keys(hb[data.facility][data.room][data.fixture][data.target])[i];
     var __system = _system.replace("[^a-zA-Z]", "").replace(/\s/g, '');
     $('#application-modal-deck').append('<div class="card hover"><a id="'+__system+'" data-value="'+_system+'"><img class="card-img-top" src="'+selection["System"][_system]["img"]+'" alt="CCT System" /><div class="card-body"><h5 class="card-title">'+_system+'</h5><hr/><p class="card-text">'+selection["System"][_system]["desc"]+'</p></div></a></div>');
     $('#'+__system).click(function(){
-      system = $(this).data("value");
-      getCCT(data,selection,facility,room,fixture,target,system,cct,time);
+      data.system = $(this).data("value");
+      getCCT(hb,selection,data);
     });
   }
 }
 
-function getCCT(data,selection,facility,room,fixture,target,system,cct,time){
-  var ccts = Object.values(data[facility][room][fixture][target][system]);
-  checkModalSize(Object.keys(data[facility][room][fixture][target][system]));
-  generateModalBreadcrumb(data,selection,"cct",facility,room,fixture,target,system,cct,time);
+function getCCT(hb,selection,data){
+  var ccts = Object.values(hb[data.facility][data.room][data.fixture][data.target][data.system]);
+  checkModalSize(Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system]));
+  generateModalBreadcrumb(hb,selection,data,"cct");
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a CCT<p class="modal-title-desc">'+selection["CCT"]["desc"]+'</p>');
   for (var i = 0; i < ccts.length; i++){
-    var _cct = (Object.keys(data[facility][room][fixture][target][system])[i]).replace(/R/g,'').replace(/B/g,'').replace(/W/g,'').replace(/\s\s+/g, ' ').trim();
+    var _cct = (Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system])[i]).replace(/R/g,'').replace(/B/g,'').replace(/W/g,'').replace(/\s\s+/g, ' ').trim();
     var __cct = inWords(_cct.split("K")[0].replace(/\s/g, '')).replace("[^a-zA-Z]", "").replace(/\s/g, '');
-    var ___cct = Object.keys(data[facility][room][fixture][target][system])[i];
+    var ___cct = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system])[i];
     var _target = '0.4';
-    if (target == '0.3'){
-      _target = target;
+    if (data.target == '0.3'){
+      _target = data.target;
     }
-    if (system=='Tunable'){
+    if (data.system=='Tunable'){
       $('#application-modal-deck').append('<div class="card hover"><a id="'+__cct+'" data-value="'+___cct+'"><img class="card-img-top" src="'+selection["CCT"][_cct]["img"]+'" alt="CCT" /><div class="card-body"><hr/><p class="card-text">'+selection["CCT"][_cct]["desc"]+'</p></div></a></div>');
     }else{
       $('#application-modal-deck').append('<div class="card hover"><a id="'+__cct+'" data-value="'+___cct+'"><img class="card-img-top" src="'+selection["CCT"][_cct]["img"]+'" alt="CCT" /><div class="card-body"><h5 class="card-title">'+_cct+'</h5><hr/><p class="card-text">'+selection["CCT"][_cct]["desc"]+'</p></div></a></div>');
     }
     $('#'+__cct).click(function(){
-      cct = $(this).data("value");
-      if (system == "Tunable"){
-        time = "N/A"
+      data.cct = $(this).data("value");
+      if (data.system == "Tunable"){
+        data.time = "N/A"
       }else{
-        time = Object.keys(data[facility][room][fixture][target][system][cct])[0];
+        data.time = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system][data.cct])[0];
       }
-      generateContent(data,selection,facility,room,fixture,target,system,cct,time,0);
+      generateContent(hb,selection,data);
     });
   }
 }
@@ -382,32 +391,32 @@ function buildHTML(){
   $('body').append(str);
 }
 
-function generateFinalBreadcrumb(data,selection,facility,room,fixture,target,system,cct){
+function generateFinalBreadcrumb(hb,selection,data){
   $.getJSON("json/alias.json", function(alias_result){
-    var _facility = facility;
-    var _room = room;
-    var _fixture = fixture;
-    var _target = target;
-    var _system = system;
-    var _cct = cct;
+    var _facility = data.facility;
+    var _room = data.room;
+    var _fixture = data.fixture;
+    var _target = data.target;
+    var _system = data.system;
+    var _cct = data.cct;
     $.each(alias_result,function(){
       for (var i = 0; i < Object.keys(this).length; i++){
-        if (Object.keys(this)[i] == facility){
+        if (Object.keys(this)[i] == data.facility){
           _facility = Object.values(this)[i];
         }
-        if (Object.keys(this)[i] == room){
+        if (Object.keys(this)[i] == data.room){
           _room = Object.values(this)[i];
         }
-        if (Object.keys(this)[i] == fixture){
+        if (Object.keys(this)[i] == data.fixture){
           _fixture = Object.values(this)[i];
         }
-        if (Object.keys(this)[i] == target){
+        if (Object.keys(this)[i] == data.target){
           _target = Object.values(this)[i];
         }
-        if (Object.keys(this)[i] == system){
+        if (Object.keys(this)[i] == data.system){
           _system = Object.values(this)[i];
         }
-        if (Object.keys(this)[i] == cct){
+        if (Object.keys(this)[i] == data.cct){
           _cct = Object.values(this)[i];
         }
       }
@@ -419,44 +428,104 @@ function generateFinalBreadcrumb(data,selection,facility,room,fixture,target,sys
     $('.bc-system').html(_system);
     $('.bc-cct').html(_cct);
     $('.bc-facility').click(function(){
-      getFacility(data,selection,'','','','','','','');
+      var _data = {
+        facility : "",
+        room : "",
+        fixture : "",
+        target : "",
+        system : "",
+        cct : "",
+        time : "",
+        view: 0
+      }
+      getFacility(hb,selection,_data);
     });
     $('.bc-room').click(function(){
-      getRoom(data,selection,facility,'','','','','','');
+      var _data = {
+        facility : data.facility,
+        room : "",
+        fixture : "",
+        target : "",
+        system : "",
+        cct : "",
+        time : "",
+        view: 0
+      }
+      getRoom(hb,selection,data);
     });
     $('.bc-fixture').click(function(){
-      getFixture(data,selection,facility,room,'','','','','');
+      var _data = {
+        facility : data.facility,
+        room : data.room,
+        fixture : "",
+        target : "",
+        system : "",
+        cct : "",
+        time : "",
+        view: 0
+      }
+      getFixture(hb,selection,data);
     });
     $('.bc-target').click(function(){
-      getTarget(data,selection,facility,room,fixture,'','','','');
+      var _data = {
+        facility : data.facility,
+        room : data.room,
+        fixture : data.facility,
+        target : "",
+        system : "",
+        cct : "",
+        time : "",
+        view: 0
+      }
+      getTarget(hb,selection,data);
     });
     $('.bc-system').click(function(){
-      getSystem(data,selection,facility,room,fixture,target,'','','');
+      var _data = {
+        facility : data.facility,
+        room : data.room,
+        fixture : data.facility,
+        target : data.target,
+        system : "",
+        cct : "",
+        time : "",
+        view: 0
+      }
+      getSystem(hb,selection,data);
     });
     $('.bc-cct').click(function(){
-      getCCT(data,selection,facility,room,fixture,target,system,'','');
+      var _data = {
+        facility : data.facility,
+        room : data.room,
+        fixture : data.facility,
+        target : data.target,
+        system : data.system,
+        cct : "",
+        time : "",
+        view: 0
+      }
+      getCCT(hb,selection,data);
     });
   });
 }
 
-function generateDescription(data,facility,room,fixture){
-  $('#roomDescriptionContent').html(data[facility][room][fixture]["desc"]);
+function generateDescription(hb,data){
+  $('#roomDescriptionContent').html(hb[data.facility][data.room][data.fixture]["desc"]);
 }
 
-function generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view){
-  $('#final_render_img').attr('src',path.render[view]);
+function generateRender(hb,selection,path,data){
+  $('#final_render_img').attr('src',path.render[data.view]);
   if (path.render.length > 1){
     $('#toggle_view').remove();
     $('#final_render').append('<button id="toggle_view" class="btn btn-primary toggle-view-button"><span class="icon-plan-man"></span><span class="toggle-view-text">Toggle View</span></button>');
     $('#toggle_view').click(function(){
-     if (view == path.render.length-1){
-        view = 0;
+     if (data.view == path.render.length-1){
+        data.view = 0;
       }else{
-        view +=1;
+        data.view +=1;
       }
-      generatePlan(path,view);
-      generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view);
-      generateAdjustments(data,selection,facility,room,fixture,target,system,cct,time,view);
+      generatePlan(path,data.view);
+      generateRender(hb,selection,path,data);
+      generateAdjustments(hb,selection,data);
     });
   }
 }
@@ -476,20 +545,20 @@ function generateFixtures(fixture){
   $('#final_fixtures').html(str);
 }
 
-function generateAdjustments(data,selection,facility,room,fixture,target,system,cct,time,view){
+function generateAdjustments(hb,selection,data){
   $('#final_adjustments').html('');
 
-  var cct_count = Object.keys(data[facility][room][fixture][target][system]).length;
-  var tod_count = Object.keys(data[facility][room][fixture][target][system][cct]).length;
+  var cct_count = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system]).length;
+  var tod_count = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system][data.cct]).length;
   var cct_str = '';
   var tod_str = '';
 
-  if (system == "Static"){
+  if (data.system == "Static"){
     // Get CCT Buttons
     for (var i = 0; i < cct_count; i++){
-      var _cct = Object.keys(data[facility][room][fixture][target][system])[i];
+      var _cct = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system])[i];
       cct_str += '<div data-value="'+i+'" class="mb-2 cct-border adjustment-container adjustment-container-cct adjustment-container'+cct_count;
-      if (_cct == cct){
+      if (_cct == data.cct){
         cct_str += ' cct-selected';
       }
       cct_str += '">';
@@ -499,9 +568,9 @@ function generateAdjustments(data,selection,facility,room,fixture,target,system,
 
     // Get ToD Buttons
     for (var i = 0; i < tod_count; i++){
-      var _tod = Object.keys(data[facility][room][fixture][target][system][cct])[i];
+      var _tod = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system][data.cct])[i];
       tod_str += '<div data-value="'+i+'" class="mb-2 tod-border adjustment-container adjustment-container-tod adjustment-container'+tod_count;
-      if (_tod == time){
+      if (_tod == data.time){
         tod_str += ' tod-selected';
       }
       tod_str += '">';
@@ -511,9 +580,9 @@ function generateAdjustments(data,selection,facility,room,fixture,target,system,
   }else{
     // Get CCT Buttons
     for (var i = 0; i < cct_count; i++){
-      var _cct = Object.keys(data[facility][room][fixture][target][system])[i];
+      var _cct = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system])[i];
       cct_str += '<div data-value="'+i+'" class="mb-2 cct-border adjustment-container adjustment-container-cct adjustment-container'+cct_count;
-      if (_cct == cct){
+      if (_cct == data.cct){
         cct_str += ' cct-selected';
       }
       cct_str += '">';
@@ -531,26 +600,26 @@ function generateAdjustments(data,selection,facility,room,fixture,target,system,
     $('#final_adjustments .cct-border').removeClass('cct-selected');
     $(this).addClass('cct-selected');
 
-    cct = Object.keys(data[facility][room][fixture][target][system])[$(this).data("value")];
-    if (system == "Tunable"){
-      var path = data[facility][room][fixture][target][system][cct];
+    data.cct = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system])[$(this).data("value")];
+    if (data.system == "Tunable"){
+      var path = hb[data.facility][data.room][data.fixture][data.target][data.system][data.cct];
     }else{
-      var path = data[facility][room][fixture][target][system][cct][time];
+      var path = hb[data.facility][data.room][data.fixture][data.target][data.system][data.cct][data.time];
     }
-    generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view);
-    generateFinalBreadcrumb(data,selection,facility,room,fixture,target,system,cct);
+    generateRender(hb,selection,path,data);
+    generateFinalBreadcrumb(hb,selection,data);
   });
   $('.adjustment-container-tod').click(function(){
     $('#final_adjustments .tod-border').removeClass('tod-selected');
     $(this).addClass('tod-selected');
 
-    time = Object.keys(data[facility][room][fixture][target][system][cct])[$(this).data("value")];
-    var path = data[facility][room][fixture][target][system][cct][time];
-    generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view);
+    data.time = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system][data.cct])[$(this).data("value")];
+    var path = hb[data.facility][data.room][data.fixture][data.target][data.system][data.cct][data.time];
+    generateRender(hb,selection,path,data);
   });
 }
 
-function generateContent(data,selection,facility,room,fixture,target,system,cct,time,view){
+function generateContent(hb,selection,data){
   //Hide the modal and remove necessary landing page content
   $('#toggle_view').remove();
   $('#application-modal').modal('hide');
@@ -565,10 +634,10 @@ function generateContent(data,selection,facility,room,fixture,target,system,cct,
   //Hide the modal and remove necessary landing page content
 
   //Get path of our content in the json file
-  if (system == "Tunable"){
-    var path = data[facility][room][fixture][target][system][cct];
+  if (data.system == "Tunable"){
+    var path = hb[data.facility][data.room][data.fixture][data.target][data.system][data.cct];
   }else{
-    var path = data[facility][room][fixture][target][system][cct][time];
+    var path = hb[data.facility][data.room][data.fixture][data.target][data.system][data.cct][data.time];
   }
   //Get path of our content in the json file
 
@@ -577,12 +646,12 @@ function generateContent(data,selection,facility,room,fixture,target,system,cct,
   if ($('#final_content').length==0){
     buildHTML();
   }
-  generateDescription(data,facility,room,fixture);
-  generateRender(path,data,selection,facility,room,fixture,target,system,cct,time,view);
-  generatePlan(path,view);
-  generateAdjustments(data,selection,facility,room,fixture,target,system,cct,time,view);
-  generateFinalBreadcrumb(data,selection,facility,room,fixture,target,system,cct);
-  generateFixtures(fixture);
+  generateDescription(hb,data);
+  generateRender(hb,selection,path,data);
+  generatePlan(path,data.view);
+  generateAdjustments(hb,selection,data);
+  generateFinalBreadcrumb(hb,selection,data);
+  generateFixtures(data.fixture);
 }
 
 $(document).ready(function(){
@@ -596,25 +665,25 @@ $(document).ready(function(){
   // Avoids Firefox throwing a warning when reading JSON
 
   //Get HealthyBuildings JSON and assign it to data varibale
-  var data;
+  var hb_json;
   $.getJSON("json/healthyBuildings.json", function(hb_result){
     $.each(hb_result,function(){
-      data = this;
+      hb_json = this;
     });
   });
   //Get HealthyBuildings JSON and assign it to data varibale
 
   //Get selection JSON and assign it to selection variable
-  var selection;
+  var selection_json;
   $.getJSON("json/selection.json", function(selection_result){
     $.each(selection_result,function(){
-      selection = this;
+      selection_json = this;
     });
   });
   //Get selection JSON and assign it to selection variable
 
   $('#begin').click(function(){
-    main(data,selection);
+    main(hb_json,selection_json);
   });
 
 
