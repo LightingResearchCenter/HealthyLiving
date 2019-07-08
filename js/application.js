@@ -46,6 +46,11 @@ function cacheSelectionImages(selection,type){
 function cacheFinalImages(hb,data){
   var images = [];
 
+  // Fixtures
+  var path = "img/application/fixtures"
+  var fixtures = [path + "2x4CenterBasketTroffer.png", path + "2x4Troffer.png", path + "Cove.png", path + "DeskLuminaire.png", path + "DirectIndirectLinearPendant.png", path + "Downlight.png", path + "FloorLamp.png", path + "FlushMount.png", path + "HangingPendant.png", path + "RecessedLinear.png", path + "TableLamp.png", path + "TVValance.png", path + "UnderCabinet.png", path + "WallSconce.png", path + "WallValance.png", path + "WallWash.png"];
+  images.push(fixtures);
+
   // Render and Plan
   var path = hb[data.facility][data.room][data.fixture][data.target][data.system];
   var keys = Object.keys(path);
