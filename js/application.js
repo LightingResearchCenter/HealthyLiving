@@ -731,7 +731,6 @@ $(document).ready(function(){
   $.getJSON("json/selection.json", function(selection_result){
     $.each(selection_result,function(){
       selection_json = this;
-      cacheSelectionImages(selection_json,"all");
       cacheSelectionImages(selection_json,"Facility");
     });
   });
