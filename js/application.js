@@ -40,7 +40,23 @@ function cacheSelectionImages(selection,type){
       images.push(selection[key][_key]["img"]);
     }
   }
-  cacheImages(images)
+  cacheImages(images);
+}
+
+function cacheFinalImages(hb,data){
+  var images = [];
+  var path = hb[data.facility][data.room][data.fixture][data.target][data.system];
+  var keys = Object.keys(path);
+  for (var i = 0; i < keys.length; i++){
+    var key = keys[i];
+    var _keys = Object.keys(path[key]);
+    for (var j = 0; j < _keys.length; j++){
+      var _key = _keys[j];
+      images.push(path[key][_key]["img"]);
+      images.push(path[key][_key]["render"]);
+    }
+  }
+  cacheImages(images);
 }
 
 // From jfriend00 on Stack Overflow https://stackoverflow.com/questions/10240110/how-do-you-cache-an-image-in-javascript
@@ -699,6 +715,7 @@ function generateContent(hb,selection,data){
   if ($('#final_content').length==0){
     buildHTML();
   }
+  cacheFinalImages(hb,data);
   generateDescription(hb,data);
   generateRender(hb,selection,path,data);
   generatePlan(path,data.view);
