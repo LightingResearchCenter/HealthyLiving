@@ -14,6 +14,27 @@ function inWords(num){
   return str;
 }
 
+// From jfriend00 on Stack Overflow https://stackoverflow.com/questions/10240110/how-do-you-cache-an-image-in-javascript
+function cacheImages(images) {
+  if (!cacheImages.list) {
+    cacheImages.list = [];
+  }
+  var list = cacheImages.list;
+  for (var i = 0; i < images.length; i++) {
+    var img = new Image();
+    img.onload = function() {
+      var index = list.indexOf(this);
+      if (index !== -1) {
+        // remove image from the images once it's loaded
+        // for memory consumption reasons
+        list.splice(index, 1);
+      }
+    }
+    list.push(img);
+    img.src = images[i];
+  }
+}
+
 function main(hb_json,selection_json){
   var data = {
     facility : "",
@@ -655,6 +676,23 @@ function generateContent(hb,selection,data){
 }
 
 $(document).ready(function(){
+
+var path = "img/application/selection/1%20Facility/";
+var images = [path+"Healthcare.jpg",path+"Office.jpg",path+"School.jpg",path+"Senior Care.jpg"];
+
+// $.ajax({
+//   url : folder,
+//   success: function (data) {
+//     $(data).find("a").attr("href", function (i, val) {
+//       if(val.match(/\.(jpe?g|png|gif)$/)) {
+//         images.push(folder + val);
+//       }
+//     });
+//   }
+// });
+
+cacheImages(images);
+console.log('here');
 
   // Avoids Firefox throwing a warning when reading JSON
   $.ajaxSetup({beforeSend: function(xhr){
