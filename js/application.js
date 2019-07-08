@@ -14,6 +14,38 @@ function inWords(num){
   return str;
 }
 
+function cacheSelectionImages(selection){
+  var images = [];
+  var keys = Object.keys(selection);
+  for (var i = 0; i < keys.length; i++){
+    var key = keys[i];
+    var _keys = Object.keys(selection[key])
+    for (var j = 0; j < _keys.length; j++){
+      if (_keys[j] == "desc"){
+        continue;
+      }
+      var _key = _keys[j];
+      images.push(selection[key][_key]["img"]);
+    }
+    cacheImages(images)
+  }
+  // var SelectionImages = ["img/application/selection/1%20Facility/Healthcare.jpg","img/application/selection/1%20Facility/Office.jpg","img/application/selection/1%20Facility/School.jpg","img/application/selection/1%20Facility/Senior Care.jpg"];
+  // cacheImages(images);
+  // var images = ["img/application/selection/2%20Room/Healthcare_DoublePatientRoom.jpg","img/application/selection/2%20Room/Healthcare_NICU.jpg","img/application/selection/2%20Room/Healthcare_NursesStation.jpg","img/application/selection/2%20Room/Healthcare_SinglePatientRoom.jpg","img/application/selection/2%20Room/Office_NewOpenOffice.jpg","img/application/selection/2%20Room/Office_Private.jpg","img/application/selection/2%20Room/Office_TraditionalOpenOffice.jpg","img/application/selection/2%20Room/SeniorCare_AssistedLivingWithKitchen.jpg","img/application/selection/2%20Room/SeniorCare_Common.jpg","img/application/selection/2%20Room/SeniorCare_NursingHomeSingle.jpg"];
+  // cacheImages(images);
+  // // TODO: this.
+  // var path = "img/application/selection/3%20Fixture/";
+  // var images = [path+"2x4 Center Basket Troffer"];
+  // cacheImages(images);
+  // // TODO: this
+  // var images = ["img/application/selection/4%20Target CS/0.3.jpg","img/application/selection/4%20Target CS/0.4 long.jpg","img/application/selection/4%20Target CS/0.4 short.jpg","img/application/selection/4%20Target CS/0.4.jpg","img/application/selection/4%20Target CS/0.5-0.3 long.jpg","0.5-0.3 long2.jpg","img/application/selection/4%20Target CS/0.5-0.3 short.jpg"];
+  // cacheImages(images);
+  // var images = ["img/application/selection/5%20CCT System/Static.jpg","img/application/selection/5%20CCT System/Tunable.jpg"];
+  // cacheImages(images);
+  // var images = ["img/application/selection/6%20CCT/0.3 4000K-3000K-2700K.jpg","img/application/selection/6%20CCT/0.3 5000K-4000K-3000K.jpg","img/application/selection/6%20CCT/0.3 5000K-4000K.jpg","img/application/selection/6%20CCT/0.3 6500K-5000K-4000K.jpg","img/application/selection/6%20CCT/0.4 4000K-3500K.jpg","img/application/selection/6%20CCT/0.4 5000K-4000K-3000K-2700K.jpg","img/application/selection/6%20CCT/0.4 5000K-4000K.jpg","img/application/selection/6%20CCT/0.3 6500K-5000K-4000K-3000K.jpg","2700 K.jpg","3000 K.jpg","4000 K.jpg","5000 K.jpg","6500 K.jpg"];
+  // cacheImages(images);
+}
+
 // From jfriend00 on Stack Overflow https://stackoverflow.com/questions/10240110/how-do-you-cache-an-image-in-javascript
 function cacheImages(images) {
   if (!cacheImages.list) {
@@ -677,38 +709,6 @@ function generateContent(hb,selection,data){
 
 $(document).ready(function(){
 
-var path = "img/application/selection/1%20Facility/";
-var images = [path+"Healthcare.jpg",path+"Office.jpg",path+"School.jpg",path+"Senior Care.jpg"];
-cacheImages(images);
-var path = "img/application/selection/2%20Room/";
-var images = [path+"Healthcare_DoublePatientRoom.jpg",path+"Healthcare_NICU.jpg",path+"Healthcare_NursesStation.jpg",path+"Healthcare_SinglePatientRoom.jpg",path+"Office_NewOpenOffice.jpg",path+"Office_Private.jpg",path+"Office_TraditionalOpenOffice.jpg",path+"SeniorCare_AssistedLivingWithKitchen.jpg",path+"SeniorCare_Common.jpg",path+"SeniorCare_NursingHomeSingle.jpg"];
-cacheImages(images);
-// TODO: this.
-var path = "img/application/selection/3%20Fixture/";
-var images = [path+"2x4 Center Basket Troffer"];
-cacheImages(images);
-var path = "img/application/selection/4%20Target CS/";
-var images = [path+"0.3.jpg",path+"0.4 long.jpg",path+"0.4 short.jpg",path+"0.4.jpg",path+"0.5-0.3 long.jpg",path+"0.5-0.3 long2.jpg",path+"0.5-0.3 short.jpg"];
-cacheImages(images);
-var path = "img/application/selection/5%20CCT System/";
-var images = [path+"Static.jpg",path+"Tunable.jpg"];
-cacheImages(images);
-var path = "img/application/selection/6%20CCT/";
-var images = [path+"0.3 4000K-3000K-2700K.jpg",path+"0.3 5000K-4000K-3000K.jpg",path+"0.3 5000K-4000K.jpg",path+"0.3 6500K-5000K-4000K.jpg",path+"0.4 4000K-3500K.jpg",path+"0.4 5000K-4000K-3000K-2700K.jpg",path+"0.4 5000K-4000K.jpg",path+"0.3 6500K-5000K-4000K-3000K.jpg",path+"2700 K.jpg",path+"3000 K.jpg",path+"4000 K.jpg",path+"5000 K.jpg",path+"6500 K.jpg"];
-cacheImages(images);
-// $.ajax({
-//   url : folder,
-//   success: function (data) {
-//     $(data).find("a").attr("href", function (i, val) {
-//       if(val.match(/\.(jpe?g|png|gif)$/)) {
-//         images.push(folder + val);
-//       }
-//     });
-//   }
-// });
-
-cacheImages(images);
-
   // Avoids Firefox throwing a warning when reading JSON
   $.ajaxSetup({beforeSend: function(xhr){
     if (xhr.overrideMimeType){
@@ -736,6 +736,7 @@ cacheImages(images);
   //Get selection JSON and assign it to selection variable
 
   $('#begin').click(function(){
+    cacheSelectionImages(selection_json);
     main(hb_json,selection_json);
   });
 
