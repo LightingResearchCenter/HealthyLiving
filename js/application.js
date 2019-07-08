@@ -14,21 +14,33 @@ function inWords(num){
   return str;
 }
 
-function cacheSelectionImages(selection){
+function cacheSelectionImages(selection,type){
   var images = [];
-  var keys = Object.keys(selection);
-  for (var i = 0; i < keys.length; i++){
-    var key = keys[i];
-    var _keys = Object.keys(selection[key])
-    for (var j = 0; j < _keys.length; j++){
-      if (_keys[j] == "desc"){
+  if (type=="all"){
+    var keys = Object.keys(selection);
+    for (var i = 0; i < keys.length; i++){
+      var key = keys[i];
+      var _keys = Object.keys(selection[key])
+      for (var j = 0; j < _keys.length; j++){
+        if (_keys[j] == "desc"){
+          continue;
+        }
+        var _key = _keys[j];
+        images.push(selection[key][_key]["img"]);
+      }
+    }
+  }else{
+    var key = type;
+    var keys = Object.keys(selection[key])
+    for (var i = 0; i < keys.length; i++){
+      if (keys[i] == "desc"){
         continue;
       }
-      var _key = _keys[j];
+      var _key = keys[i];
       images.push(selection[key][_key]["img"]);
     }
-    cacheImages(images)
   }
+  cacheImages(images)
 }
 
 // From jfriend00 on Stack Overflow https://stackoverflow.com/questions/10240110/how-do-you-cache-an-image-in-javascript
@@ -133,6 +145,7 @@ function getFacility(hb,selection,data){
   generateModalBreadcrumb(hb,selection,data,"facility");
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a Facility<p class="modal-title-desc">'+selection["Facility"]["desc"]+'</p>');
+  cacheSelectionImages(selection,"Room");
   for (var i = 0; i < facilities.length; i++){
     var _facility = Object.keys(hb)[i];
     var __facility = _facility.replace("[^a-zA-Z]", "").replace(/\s/g, '');
@@ -150,6 +163,7 @@ function getRoom(hb,selection,data){
   generateModalBreadcrumb(hb,selection,data,"room");
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a Room<p class="modal-title-desc">'+selection["Room"]["desc"]+'</p>');
+  cacheSelectionImages(selection,"Fixture");
   for (var i = 0; i < rooms.length; i++){
     var _room = Object.keys(hb[data.facility])[i];
     var __room = _room.replace("[^a-zA-Z]", "").replace(/\s/g, '');
@@ -167,6 +181,7 @@ function getFixture(hb,selection,data){
   generateModalBreadcrumb(hb,selection,data,"fixture");
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose Fixture(s)<p class="modal-title-desc">'+selection["Fixture"]["desc"]+'</p>');
+  cacheSelectionImages(selection,"Target");
   for (var i = 0; i < fixtures.length; i++){
     var _fixture = Object.keys(hb[data.facility][data.room])[i];
     var __fixture = _fixture.replace("[^a-zA-Z]", "").replace(/\//g, '').replace(/\s/g, '').replace(/\+/g, "");
@@ -184,7 +199,7 @@ function getTarget(hb,selection,data){
   generateModalBreadcrumb(hb,selection,data,"target");
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a Target CS<p class="modal-title-desc">'+selection["Target"]["desc"]+'</p>');
-
+  cacheSelectionImages(selection,"System");
   for (var i = 0; i < targets.length; i++){
     var _target = Object.keys(hb[data.facility][data.room][data.fixture])[i];
     if (_target == "desc"){
@@ -205,7 +220,7 @@ function getSystem(hb,selection,data){
   generateModalBreadcrumb(hb,selection,data,"system");
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a System<p class="modal-title-desc">'+selection["System"]["desc"]+'</p>');
-
+  cacheSelectionImages(selection,"CCT");
   for (var i = 0; i < systems.length; i++){
     var _system = Object.keys(hb[data.facility][data.room][data.fixture][data.target])[i];
     var __system = _system.replace("[^a-zA-Z]", "").replace(/\s/g, '');
@@ -716,7 +731,8 @@ $(document).ready(function(){
   $.getJSON("json/selection.json", function(selection_result){
     $.each(selection_result,function(){
       selection_json = this;
-      cacheSelectionImages(selection_json);
+      cacheSelectionImages(selection_json,"all");
+      cacheSelectionImages(selection_json,"Facility");
     });
   });
   //Get selection JSON and assign it to selection variable
