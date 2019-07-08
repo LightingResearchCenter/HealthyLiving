@@ -681,7 +681,7 @@ var path = "img/application/selection/1%20Facility/";
 var images = [path+"Healthcare.jpg",path+"Office.jpg",path+"School.jpg",path+"Senior Care.jpg"];
 cacheImages(images);
 var path = "img/application/selection/2%20Room/";
-var images = [path+"Healthcare_DoublePatientRoom.jpg",path+"Healthcare_NICU.jpg"],path+"Healthcare_NursesStation.jpg"],path+"Healthcare_SinglePatientRoom.jpg"],path+"Office_NewOpenOffice.jpg"],path+"Office_Private.jpg"],path+"Office_TraditionalOpenOffice.jpg"],path+"SeniorCare_AssistedLivingWithKitchen.jpg"],path+"SeniorCare_Common.jpg"],path+"SeniorCare_NursingHomeSingle.jpg"];
+var images = [path+"Healthcare_DoublePatientRoom.jpg",path+"Healthcare_NICU.jpg",path+"Healthcare_NursesStation.jpg",path+"Healthcare_SinglePatientRoom.jpg",path+"Office_NewOpenOffice.jpg",path+"Office_Private.jpg",path+"Office_TraditionalOpenOffice.jpg",path+"SeniorCare_AssistedLivingWithKitchen.jpg",path+"SeniorCare_Common.jpg",path+"SeniorCare_NursingHomeSingle.jpg"];
 cacheImages(images);
 // TODO: this.
 var path = "img/application/selection/3%20Fixture/";
@@ -708,7 +708,6 @@ cacheImages(images);
 // });
 
 cacheImages(images);
-console.log('here');
 
   // Avoids Firefox throwing a warning when reading JSON
   $.ajaxSetup({beforeSend: function(xhr){
