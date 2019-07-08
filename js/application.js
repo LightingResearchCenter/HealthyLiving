@@ -29,21 +29,6 @@ function cacheSelectionImages(selection){
     }
     cacheImages(images)
   }
-  // var SelectionImages = ["img/application/selection/1%20Facility/Healthcare.jpg","img/application/selection/1%20Facility/Office.jpg","img/application/selection/1%20Facility/School.jpg","img/application/selection/1%20Facility/Senior Care.jpg"];
-  // cacheImages(images);
-  // var images = ["img/application/selection/2%20Room/Healthcare_DoublePatientRoom.jpg","img/application/selection/2%20Room/Healthcare_NICU.jpg","img/application/selection/2%20Room/Healthcare_NursesStation.jpg","img/application/selection/2%20Room/Healthcare_SinglePatientRoom.jpg","img/application/selection/2%20Room/Office_NewOpenOffice.jpg","img/application/selection/2%20Room/Office_Private.jpg","img/application/selection/2%20Room/Office_TraditionalOpenOffice.jpg","img/application/selection/2%20Room/SeniorCare_AssistedLivingWithKitchen.jpg","img/application/selection/2%20Room/SeniorCare_Common.jpg","img/application/selection/2%20Room/SeniorCare_NursingHomeSingle.jpg"];
-  // cacheImages(images);
-  // // TODO: this.
-  // var path = "img/application/selection/3%20Fixture/";
-  // var images = [path+"2x4 Center Basket Troffer"];
-  // cacheImages(images);
-  // // TODO: this
-  // var images = ["img/application/selection/4%20Target CS/0.3.jpg","img/application/selection/4%20Target CS/0.4 long.jpg","img/application/selection/4%20Target CS/0.4 short.jpg","img/application/selection/4%20Target CS/0.4.jpg","img/application/selection/4%20Target CS/0.5-0.3 long.jpg","0.5-0.3 long2.jpg","img/application/selection/4%20Target CS/0.5-0.3 short.jpg"];
-  // cacheImages(images);
-  // var images = ["img/application/selection/5%20CCT System/Static.jpg","img/application/selection/5%20CCT System/Tunable.jpg"];
-  // cacheImages(images);
-  // var images = ["img/application/selection/6%20CCT/0.3 4000K-3000K-2700K.jpg","img/application/selection/6%20CCT/0.3 5000K-4000K-3000K.jpg","img/application/selection/6%20CCT/0.3 5000K-4000K.jpg","img/application/selection/6%20CCT/0.3 6500K-5000K-4000K.jpg","img/application/selection/6%20CCT/0.4 4000K-3500K.jpg","img/application/selection/6%20CCT/0.4 5000K-4000K-3000K-2700K.jpg","img/application/selection/6%20CCT/0.4 5000K-4000K.jpg","img/application/selection/6%20CCT/0.3 6500K-5000K-4000K-3000K.jpg","2700 K.jpg","3000 K.jpg","4000 K.jpg","5000 K.jpg","6500 K.jpg"];
-  // cacheImages(images);
 }
 
 // From jfriend00 on Stack Overflow https://stackoverflow.com/questions/10240110/how-do-you-cache-an-image-in-javascript
@@ -731,12 +716,12 @@ $(document).ready(function(){
   $.getJSON("json/selection.json", function(selection_result){
     $.each(selection_result,function(){
       selection_json = this;
+      cacheSelectionImages(selection_json);
     });
   });
   //Get selection JSON and assign it to selection variable
 
   $('#begin').click(function(){
-    cacheSelectionImages(selection_json);
     main(hb_json,selection_json);
   });
 
