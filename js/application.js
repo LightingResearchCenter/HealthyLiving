@@ -679,7 +679,23 @@ $(document).ready(function(){
 
 var path = "img/application/selection/1%20Facility/";
 var images = [path+"Healthcare.jpg",path+"Office.jpg",path+"School.jpg",path+"Senior Care.jpg"];
-
+cacheImages(images);
+var path = "img/application/selection/2%20Room/";
+var images = [path+"Healthcare_DoublePatientRoom.jpg",path+"Healthcare_NICU.jpg"],path+"Healthcare_NursesStation.jpg"],path+"Healthcare_SinglePatientRoom.jpg"],path+"Office_NewOpenOffice.jpg"],path+"Office_Private.jpg"],path+"Office_TraditionalOpenOffice.jpg"],path+"SeniorCare_AssistedLivingWithKitchen.jpg"],path+"SeniorCare_Common.jpg"],path+"SeniorCare_NursingHomeSingle.jpg"];
+cacheImages(images);
+// TODO: this.
+var path = "img/application/selection/3%20Fixture/";
+var images = [path+"2x4 Center Basket Troffer"];
+cacheImages(images);
+var path = "img/application/selection/4%20Target CS/";
+var images = [path+"0.3.jpg",path+"0.4 long.jpg",path+"0.4 short.jpg",path+"0.4.jpg",path+"0.5-0.3 long.jpg",path+"0.5-0.3 long2.jpg",path+"0.5-0.3 short.jpg"];
+cacheImages(images);
+var path = "img/application/selection/5%20CCT System/";
+var images = [path+"Static.jpg",path+"Tunable.jpg"];
+cacheImages(images);
+var path = "img/application/selection/6%20CCT/";
+var images = [path+"0.3 4000K-3000K-2700K.jpg",path+"0.3 5000K-4000K-3000K.jpg",path+"0.3 5000K-4000K.jpg",path+"0.3 6500K-5000K-4000K.jpg",path+"0.4 4000K-3500K.jpg",path+"0.4 5000K-4000K-3000K-2700K.jpg",path+"0.4 5000K-4000K.jpg",path+"0.3 6500K-5000K-4000K-3000K.jpg",path+"2700 K.jpg",path+"3000 K.jpg",path+"4000 K.jpg",path+"5000 K.jpg",path+"6500 K.jpg"];
+cacheImages(images);
 // $.ajax({
 //   url : folder,
 //   success: function (data) {
