@@ -45,6 +45,8 @@ function cacheSelectionImages(selection,type){
 
 function cacheFinalImages(hb,data){
   var images = [];
+
+  // Render and Plan
   var path = hb[data.facility][data.room][data.fixture][data.target][data.system];
   var keys = Object.keys(path);
   for (var i = 0; i < keys.length; i++){
@@ -52,7 +54,7 @@ function cacheFinalImages(hb,data){
     var _keys = Object.keys(path[key]);
     for (var j = 0; j < _keys.length; j++){
       var _key = _keys[j];
-      images.push(path[key][_key]["img"]);
+      images.push(path[key][_key]["plan"]);
       images.push(path[key][_key]["render"]);
     }
   }
@@ -254,6 +256,7 @@ function getCCT(hb,selection,data){
   generateModalBreadcrumb(hb,selection,data,"cct");
   $('#application-modal-deck').html('');
   $('#application-modal-label').html('Choose a CCT<p class="modal-title-desc">'+selection["CCT"]["desc"]+'</p>');
+  cacheFinalImages(hb,data);
   for (var i = 0; i < ccts.length; i++){
     var _cct = (Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system])[i]).replace(/R/g,'').replace(/B/g,'').replace(/W/g,'').replace(/\s\s+/g, ' ').trim();
     var __cct = inWords(_cct.split("K")[0].replace(/\s/g, '')).replace("[^a-zA-Z]", "").replace(/\s/g, '');
@@ -715,7 +718,6 @@ function generateContent(hb,selection,data){
   if ($('#final_content').length==0){
     buildHTML();
   }
-  cacheFinalImages(hb,data);
   generateDescription(hb,data);
   generateRender(hb,selection,path,data);
   generatePlan(path,data.view);
@@ -734,14 +736,14 @@ $(document).ready(function(){
   }});
   // Avoids Firefox throwing a warning when reading JSON
 
-  //Get HealthyBuildings JSON and assign it to data varibale
+  //Get HealthyBuildings JSON and assign it to hb varibale
   var hb_json;
   $.getJSON("json/healthyBuildings.json", function(hb_result){
     $.each(hb_result,function(){
       hb_json = this;
     });
   });
-  //Get HealthyBuildings JSON and assign it to data varibale
+  //Get HealthyBuildings JSON and assign it to hb varibale
 
   //Get selection JSON and assign it to selection variable
   var selection_json;
