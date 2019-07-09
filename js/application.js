@@ -47,8 +47,11 @@ function cacheFinalImages(hb,data){
   var images = [];
 
   // Fixtures
-  var path = "img/application/fixtures";
-  var fixtures = [path + "2x4CenterBasketTroffer.png", path + "2x4Troffer.png", path + "Cove.png", path + "DeskLuminaire.png", path + "DirectIndirectLinearPendant.png", path + "Downlight.png", path + "FloorLamp.png", path + "FlushMount.png", path + "HangingPendant.png", path + "RecessedLinear.png", path + "TableLamp.png", path + "TVValance.png", path + "UnderCabinet.png", path + "WallSconce.png", path + "WallValance.png", path + "WallWash.png"];
+  var fixture = data.fixture.replace(/\s/g,'').replace('Blue/Red','').replace('Blue', '').replace('Red','').split('+');
+  var fixtures = [];
+  for (var i = 0; i < fixture.length; i++){
+    fixtures.push('img/application/fixtures/'+fixture[i]+'.png');
+  }
   images.push(fixtures);
 
   //CCT
@@ -64,6 +67,17 @@ function cacheFinalImages(hb,data){
     }
   }
   images.push(ccts);
+
+  // ToD
+  if (data.system == "Static"){
+    var tod_count = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system][data.cct]).length;
+    var tods = [];
+    for (var i = 0; i < tod_count; i++){
+      var _tod = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system][data.cct])[i];
+      tods.push('img/application/adjustments/tod/' + tod_count + ' ' + _tod.replace(/\s/g, '').replace(/\//g, '-').replace('0.1','').replace('0.2','').replace('0.3','').replace('0.4','') + '.jpg');
+    }
+    images.push(tods);
+  }
 
 
   // Render and Plan
