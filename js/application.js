@@ -70,10 +70,10 @@ function cacheFinalImages(hb,data){
 
   // ToD
   if (data.system == "Static"){
-    var tod_count = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system][data.cct]).length;
+    var tod_count = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system])[0].length;
     var tods = [];
     for (var i = 0; i < tod_count; i++){
-      var _tod = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system][data.cct])[i];
+      var _tod = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system])[0][i];
       tods.push('img/application/adjustments/tod/' + tod_count + ' ' + _tod.replace(/\s/g, '').replace(/\//g, '-').replace('0.1','').replace('0.2','').replace('0.3','').replace('0.4','') + '.jpg');
     }
     images.push(tods);
