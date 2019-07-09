@@ -47,9 +47,24 @@ function cacheFinalImages(hb,data){
   var images = [];
 
   // Fixtures
-  var path = "img/application/fixtures"
+  var path = "img/application/fixtures";
   var fixtures = [path + "2x4CenterBasketTroffer.png", path + "2x4Troffer.png", path + "Cove.png", path + "DeskLuminaire.png", path + "DirectIndirectLinearPendant.png", path + "Downlight.png", path + "FloorLamp.png", path + "FlushMount.png", path + "HangingPendant.png", path + "RecessedLinear.png", path + "TableLamp.png", path + "TVValance.png", path + "UnderCabinet.png", path + "WallSconce.png", path + "WallValance.png", path + "WallWash.png"];
   images.push(fixtures);
+
+  //CCT
+  var cct_count = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system]).length;
+  var ccts = [];
+
+  for (var i = 0; i < cct_count; i++){
+    var _cct = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system])[i];
+    if (data.system == "Static"){
+      ccts.push('img/application/adjustments/cct/' + cct_count + ' ' +  _cct + '.jpg');
+    }else{
+      ccts.push('img/application/adjustments/cct/' + cct_count+ ' ' +_cct.replace(/\s/g, '').replace(/>/g,'') + '.jpg');
+    }
+  }
+  images.push(ccts);
+
 
   // Render and Plan
   var path = hb[data.facility][data.room][data.fixture][data.target][data.system];
@@ -639,7 +654,7 @@ function generateAdjustments(hb,selection,data){
         cct_str += ' cct-selected';
       }
       cct_str += '">';
-      cct_str += '  <img class="m-0 p-0" src="img/application/adjustments/'+cct_count+' '+_cct+'.jpg"/>';
+      cct_str += '  <img class="m-0 p-0" src="img/application/adjustments/cct/'+cct_count+' '+_cct+'.jpg"/>';
       cct_str += '</div>';
     }
 
@@ -651,7 +666,7 @@ function generateAdjustments(hb,selection,data){
         tod_str += ' tod-selected';
       }
       tod_str += '">';
-      tod_str += '  <img class="m-0 p-0" src="img/application/adjustments/'+tod_count+' '+_tod.replace(/\s/g, '').replace(/\//g, '-').replace('0.1','').replace('0.2','').replace('0.3','').replace('0.4','')+'.jpg"/>';
+      tod_str += '  <img class="m-0 p-0" src="img/application/adjustments/tod/'+tod_count+' '+_tod.replace(/\s/g, '').replace(/\//g, '-').replace('0.1','').replace('0.2','').replace('0.3','').replace('0.4','')+'.jpg"/>';
       tod_str += '</div>';
     }
   }else{
@@ -663,7 +678,7 @@ function generateAdjustments(hb,selection,data){
         cct_str += ' cct-selected';
       }
       cct_str += '">';
-      cct_str += '  <img class="m-0 p-0" src="img/application/adjustments/'+cct_count+' '+_cct.replace(/\s/g, '').replace(/>/g,'')+'.jpg"/>';
+      cct_str += '  <img class="m-0 p-0" src="img/application/adjustments/cct/'+cct_count+' '+_cct.replace(/\s/g, '').replace(/>/g,'')+'.jpg"/>';
       cct_str += '</div>';
     }
   }
