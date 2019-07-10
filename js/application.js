@@ -196,7 +196,8 @@ function getFacility(hb,selection,data){
   checkModalSize(Object.keys(hb));
   generateModalBreadcrumb(hb,selection,data,"facility");
   $('#application-modal-deck').html('');
-  $('#application-modal-label').html('Choose a Facility<p class="modal-title-desc">'+selection["Facility"]["desc"]+'</p>');
+  $('#application-modal-label').html('Choose a Facility <i class="modal-label-caret fas fa-caret-down"></i> <p class="collapse" id="application-modal-desc">'+selection["Facility"]["desc"]+'</p>');
+  $('#application-modal-desc').html(selection["Facility"]["desc"]);
   cacheSelectionImages(selection,"Room");
   for (var i = 0; i < facilities.length; i++){
     var _facility = Object.keys(hb)[i];
@@ -214,7 +215,7 @@ function getRoom(hb,selection,data){
   checkModalSize(Object.keys(hb[data.facility]));
   generateModalBreadcrumb(hb,selection,data,"room");
   $('#application-modal-deck').html('');
-  $('#application-modal-label').html('Choose a Room<p class="modal-title-desc">'+selection["Room"]["desc"]+'</p>');
+  $('#application-modal-label').html('Choose a Room <i class="modal-label-caret fas fa-caret-down"></i> <p class="collapse" id="application-modal-desc">'+selection["Room"]["desc"]+'</p>');
   cacheSelectionImages(selection,"Fixture");
   for (var i = 0; i < rooms.length; i++){
     var _room = Object.keys(hb[data.facility])[i];
@@ -232,7 +233,7 @@ function getFixture(hb,selection,data){
   checkModalSize(Object.keys(hb[data.facility][data.room]));
   generateModalBreadcrumb(hb,selection,data,"fixture");
   $('#application-modal-deck').html('');
-  $('#application-modal-label').html('Choose Fixture(s)<p class="modal-title-desc">'+selection["Fixture"]["desc"]+'</p>');
+  $('#application-modal-label').html('Choose Fixture(s) <i class="modal-label-caret fas fa-caret-down"></i> <p class="collapse" id="application-modal-desc">'+selection["Fixture"]["desc"]+'</p>');
   cacheSelectionImages(selection,"Target");
   for (var i = 0; i < fixtures.length; i++){
     var _fixture = Object.keys(hb[data.facility][data.room])[i];
@@ -250,7 +251,7 @@ function getTarget(hb,selection,data){
   checkModalSize(Object.keys(hb[data.facility][data.room][data.fixture]));
   generateModalBreadcrumb(hb,selection,data,"target");
   $('#application-modal-deck').html('');
-  $('#application-modal-label').html('Choose a Target CS<p class="modal-title-desc">'+selection["Target"]["desc"]+'</p>');
+  $('#application-modal-label').html('Choose a Target CS <i class="modal-label-caret fas fa-caret-down"></i> <p class="collapse" id="application-modal-desc">'+selection["Target"]["desc"]+'</p>');
   cacheSelectionImages(selection,"System");
   for (var i = 0; i < targets.length; i++){
     var _target = Object.keys(hb[data.facility][data.room][data.fixture])[i];
@@ -271,7 +272,7 @@ function getSystem(hb,selection,data){
   checkModalSize(Object.keys(hb[data.facility][data.room][data.fixture][data.target]));
   generateModalBreadcrumb(hb,selection,data,"system");
   $('#application-modal-deck').html('');
-  $('#application-modal-label').html('Choose a System<p class="modal-title-desc">'+selection["System"]["desc"]+'</p>');
+  $('#application-modal-label').html('Choose a System <i class="modal-label-caret fas fa-caret-down"></i> <p class="collapse" id="application-modal-desc">'+selection["System"]["desc"]+'</p>');
   cacheSelectionImages(selection,"CCT");
   for (var i = 0; i < systems.length; i++){
     var _system = Object.keys(hb[data.facility][data.room][data.fixture][data.target])[i];
@@ -289,7 +290,7 @@ function getCCT(hb,selection,data){
   checkModalSize(Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system]));
   generateModalBreadcrumb(hb,selection,data,"cct");
   $('#application-modal-deck').html('');
-  $('#application-modal-label').html('Choose a CCT<p class="modal-title-desc">'+selection["CCT"]["desc"]+'</p>');
+  $('#application-modal-label').html('Choose a CCT <i class="modal-label-caret fas fa-caret-down"></i> <p class="collapse" id="application-modal-desc">'+selection["CCT"]["desc"]+'</p>');
   cacheFinalImages(hb,data);
   for (var i = 0; i < ccts.length; i++){
     var _cct = (Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system])[i]).replace(/R/g,'').replace(/B/g,'').replace(/W/g,'').replace(/\s\s+/g, ' ').trim();

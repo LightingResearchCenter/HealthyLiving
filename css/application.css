@@ -139,6 +139,15 @@
   width: 100%;
 }
 
+.modal-label-caret{
+  position: relative;
+  top: 2px;
+}
+
+#application-modal-label:hover{
+  cursor: pointer;
+}
+
 .render-container{
   position: relative;
 }
@@ -502,7 +511,7 @@ p{
   font-weight: 600;
 }
 
-.modal-title-desc{
+#application-modal-desc{
   font-size: 1.1rem;
   margin-left: 2rem;
   margin-right: 2rem;
