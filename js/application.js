@@ -367,29 +367,29 @@ function buildHTML(){
   str += '                <div class="row bc-row">';
   str += '                  <div class="bc-item col px-0">';
   str += '                    <div class="bc-title">Facility</div>';
-  str += '                    <div class="bc-facility bc-selection"></div>'
+  str += '                    <div class="bc-facility bc-selection" data-toggle="modal" data-target="#application-modal"></div>'
   str += '                  </div>';
   str += '                  <div class="bc-item col px-0">';
   str += '                    <div class="bc-title">Room</div>';
-  str += '                    <div class="bc-room bc-selection"></div>'
+  str += '                    <div class="bc-room bc-selection" data-toggle="modal" data-target="#application-modal"></div>'
   str += '                  </div>';
   str += '                  <div class="bc-item col px-0">';
   str += '                    <div class="bc-title">Fixture</div>';
-  str += '                    <div class="bc-fixture bc-selection"></div>'
+  str += '                    <div class="bc-fixture bc-selection" data-toggle="modal" data-target="#application-modal"></div>'
   str += '                  </div>';
   str += '                </div>';
   str += '                <div class="row bc-row">';
   str += '                  <div class="bc-item col px-0">';
   str += '                    <div class="bc-title">Target CS</div>';
-  str += '                    <div class="bc-target bc-selection"></div>';
+  str += '                    <div class="bc-target bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
   str += '                  </div>';
   str += '                  <div class="bc-item col px-0">';
   str += '                    <div class="bc-title">CCT System</div>';
-  str += '                    <div class="bc-system bc-selection"></div>';
+  str += '                    <div class="bc-system bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
   str += '                  </div>';
   str += '                  <div class="bc-item col px-0">';
   str += '                    <div class="bc-title">CCT</div>';
-  str += '                    <div class="bc-cct bc-selection"></div>';
+  str += '                    <div class="bc-cct bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
   str += '                  </div>';
   str += '                </div>';
   str += '              </div>';
@@ -405,31 +405,31 @@ function buildHTML(){
   str += '                <div class="row bc-row">';
   str += '                  <div class="bc-item col px-0">';
   str += '                    <div class="bc-title">Facility</div>';
-  str += '                    <div class="bc-facility bc-selection"></div>'
+  str += '                    <div class="bc-facility bc-selection" data-toggle="modal" data-target="#application-modal"></div>'
   str += '                  </div>';
   str += '                  <div class="bc-item col px-0">';
   str += '                    <div class="bc-title">Room</div>';
-  str += '                    <div class="bc-room bc-selection"></div>'
+  str += '                    <div class="bc-room bc-selection" data-toggle="modal" data-target="#application-modal"></div>'
   str += '                  </div>';
   str += '                </div>';
   str += '                <div class="row bc-row">';
   str += '                  <div class="bc-item col px-0">';
   str += '                    <div class="bc-title">Fixture</div>';
-  str += '                    <div class="bc-fixture bc-selection"></div>'
+  str += '                    <div class="bc-fixture bc-selection" data-toggle="modal" data-target="#application-modal"></div>'
   str += '                  </div>';
   str += '                  <div class="bc-item col px-0">';
   str += '                    <div class="bc-title">Target CS</div>';
-  str += '                    <div class="bc-target bc-selection"></div>';
+  str += '                    <div class="bc-target bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
   str += '                  </div>';
   str += '                </div>';
   str += '                <div class="row bc-row">';
   str += '                  <div class="bc-item col px-0">';
   str += '                    <div class="bc-title">CCT System</div>';
-  str += '                    <div class="bc-system bc-selection"></div>';
+  str += '                    <div class="bc-system bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
   str += '                  </div>';
   str += '                  <div class="bc-item col px-0">';
   str += '                    <div class="bc-title">CCT</div>';
-  str += '                    <div class="bc-cct bc-selection"></div>';
+  str += '                    <div class="bc-cct bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
   str += '                  </div>';
   str += '                </div>';
   str += '              </div>';
