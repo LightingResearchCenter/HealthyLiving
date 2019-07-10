@@ -132,10 +132,20 @@
   margin: 0;
   padding: 0;
   width: 33.33%;
+  border-bottom: .33rem solid transparent;
 }
 
 .fixture-container img{
   width: 100%;
+}
+
+.modal-label-caret{
+  position: relative;
+  top: 2px;
+}
+
+#application-modal-label:hover{
+  cursor: pointer;
 }
 
 .render-container{
@@ -501,7 +511,7 @@ p{
   font-weight: 600;
 }
 
-.modal-title-desc{
+#application-modal-desc{
   font-size: 1.1rem;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -573,7 +583,7 @@ p{
   margin-top: 15px;
 }
 
-.cct-border, .tod-border {
+.cct-border, .tod-border{
   border-bottom: .33rem solid transparent;
 }
 

@@ -374,7 +374,7 @@
       },
       "5000 K -> 4000 K -> 3500 K" :
       {
-        "img" : "",
+        "img" : "img/application/selection/6 CCT/0.3 5000K-4000K-3500K.jpg",
         "desc" : ""
       },
       "5000 K -> 4000 K":
@@ -389,7 +389,7 @@
       },
       "4000 K -> 4000 K -> 3500 K":
       {
-        "img" : "",
+        "img" : "img/application/selection/6 CCT/0.3 4000K-4000K-3500K.jpg",
         "desc" : ""
       },
       "6500 K -> 5000 K -> 4000 K -> 3000 K" :
@@ -404,7 +404,7 @@
       },
       "5000 K -> 5000 K -> 4000 K -> 4000 K":
       {
-        "img" : "img/application/selection/6 CCT/0.4 5000K-4000K.jpg",
+        "img" : "img/application/selection/6 CCT/0.4 5000K-5000K-4000K-4000K.jpg",
         "desc" : "Transition from a neutral white light in the early hours of the day to a warmer white light at night."
       },
       "5000 K -> 4000 K -> 3000 K -> 2700 K":
@@ -414,7 +414,7 @@
       },
       "4000 K -> 4000 K -> 3500 K -> 3500 K":
       {
-        "img" : "img/application/selection/6 CCT/0.4 4000K-3500K.jpg",
+        "img" : "img/application/selection/6 CCT/0.4 4000K-4000K-3500K-3500K.jpg",
         "desc" : "Transition from a neutral white light in the early hours of the day to a warmer white light at night."
       }
     }
