@@ -509,22 +509,22 @@ function generateFinalBreadcrumb(hb,selection,data){
     var _cct = data.cct;
     $.each(alias_result,function(){
       for (var i = 0; i < Object.keys(this).length; i++){
-        if (Object.keys(this)[i] == data.facility){
+        if (Object.keys(this)[i] == _facility){
           _facility = Object.values(this)[i];
         }
-        if (Object.keys(this)[i] == data.room){
+        if (Object.keys(this)[i] == _room){
           _room = Object.values(this)[i];
         }
-        if (Object.keys(this)[i] == data.fixture){
+        if (Object.keys(this)[i] == _fixture){
           _fixture = Object.values(this)[i];
         }
-        if (Object.keys(this)[i] == data.target){
+        if (Object.keys(this)[i] == _target){
           _target = Object.values(this)[i];
         }
-        if (Object.keys(this)[i] == data.system){
+        if (Object.keys(this)[i] == _system){
           _system = Object.values(this)[i];
         }
-        if (Object.keys(this)[i] == data.cct){
+        if (Object.keys(this)[i] == _cct){
           _cct = Object.values(this)[i];
         }
       }
@@ -534,7 +534,11 @@ function generateFinalBreadcrumb(hb,selection,data){
     $('.bc-fixture').html(_fixture);
     $('.bc-target').html(_target);
     $('.bc-system').html(_system);
-    $('.bc-cct').html(_cct);
+    if (_system == "Tunable"){
+      $('.bc-cct').html("Dynamic");
+    }else{
+      $('.bc-cct').html(_cct);
+    }
     $('.bc-facility').click(function(){
       var _data = {
         facility : "",
