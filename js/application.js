@@ -660,19 +660,19 @@ function generateAdjustments(hb,selection,data){
   var cct_str = '';
   var tod_str = '';
 
-  if (data.system == "Static"){
-    // Get CCT Buttons
-    for (var i = 0; i < cct_count; i++){
-      var _cct = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system])[i];
-      cct_str += '<div data-value="'+i+'" class="mb-2 cct-border adjustment-container adjustment-container-cct adjustment-container'+cct_count;
-      if (_cct == data.cct){
-        cct_str += ' cct-selected';
-      }
-      cct_str += '">';
-      cct_str += '  <img class="m-0 p-0" src="img/application/adjustments/cct/'+cct_count+' '+_cct+'.jpg"/>';
-      cct_str += '</div>';
+  // Get CCT buttons
+  for (var i = 0; i < cct_count; i++){
+    var _cct = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system])[i];
+    cct_str += '<div data-value="'+i+'" class="mb-2 cct-border adjustment-container adjustment-container-cct adjustment-container'+cct_count;
+    if (_cct == data.cct){
+      cct_str += ' cct-selected';
     }
+    cct_str += '">';
+    cct_str += '  <img class="m-0 p-0" src="img/application/adjustments/cct/'+cct_count+' '+_cct.replace(/\s/g, '').replace(/>/g,'')+'.jpg"/>';
+    cct_str += '</div>';
+  }
 
+  if (data.system == "Static"){
     // Get ToD Buttons
     for (var i = 0; i < tod_count; i++){
       var _tod = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system][data.cct])[i];
@@ -683,18 +683,6 @@ function generateAdjustments(hb,selection,data){
       tod_str += '">';
       tod_str += '  <img class="m-0 p-0" src="img/application/adjustments/tod/'+tod_count+' '+_tod.replace(/\s/g, '').replace(/\//g, '-').replace('0.1','').replace('0.2','').replace('0.3','').replace('0.4','')+'.jpg"/>';
       tod_str += '</div>';
-    }
-  }else{
-    // Get CCT Buttons
-    for (var i = 0; i < cct_count; i++){
-      var _cct = Object.keys(hb[data.facility][data.room][data.fixture][data.target][data.system])[i];
-      cct_str += '<div data-value="'+i+'" class="mb-2 cct-border adjustment-container adjustment-container-cct adjustment-container'+cct_count;
-      if (_cct == data.cct){
-        cct_str += ' cct-selected';
-      }
-      cct_str += '">';
-      cct_str += '  <img class="m-0 p-0" src="img/application/adjustments/cct/'+cct_count+' '+_cct.replace(/\s/g, '').replace(/>/g,'')+'.jpg"/>';
-      cct_str += '</div>';
     }
   }
 
