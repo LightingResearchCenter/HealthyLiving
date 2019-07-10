@@ -132,6 +132,7 @@
   margin: 0;
   padding: 0;
   width: 33.33%;
+  border-bottom: .33rem solid transparent;
 }
 
 .fixture-container img{
@@ -573,7 +574,7 @@ p{
   margin-top: 15px;
 }
 
-.cct-border, .tod-border {
+.cct-border, .tod-border{
   border-bottom: .33rem solid transparent;
 }
 
