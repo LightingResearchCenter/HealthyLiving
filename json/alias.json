@@ -2,6 +2,9 @@
   {
     "Neonatal Intensive Care Unit" : "NICU",
     "Assisted Living Single with Kitchen" : "Single w/ Kitchen",
+    "Traditional Open Office" : "Traditional",
+    "New Open Office" : "New",
+    "Private Office" : "Private",
     "Nursing Home Single" : "Single",
     "Double Patient Room" : "Double",
     "Single Patient Room" : "Single",
@@ -12,6 +15,7 @@
     "2x4 Troffer + Wall Sconce" : "Troffer + Sconce",
     "Cove + Floor Lamp + Table Lamp" : "Combination",
     "Direct/Indirect Linear Pendant" : "D/I Pendant",
+    "Downlight + Blue/Red Wall Wash" : "Blue/Red Combo",
     "Downlight + Flush Mount + Hanging Pendant + Wall Valance + Under Cabinet + TV Valance" : "Combination",
     "Downlight + Hanging Pendant + Floor Lamp + Table Lamp" : "Combination",
     "Downlight + Wall Wash" : "DL + WW",
