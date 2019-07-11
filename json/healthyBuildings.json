@@ -3038,917 +3038,9 @@
     },
     "Office" :
     {
-      "New Open Office" :
-      {
-        "2x4 Troffer" :
-        {
-          "0.4" :
-          {
-            "Static" :
-            {
-              "6500 K" :
-              {
-                "Morning 0.4" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_6500K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                },
-                "Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_6500K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_6500K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_6500K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                }
-              },
-              "5000 K" :
-              {
-                "Morning 0.4" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_5000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                },
-                "Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_5000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_5000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_5000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                }
-              },
-              "4000 K" :
-              {
-                "Morning 0.4" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_4000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                },
-                "Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_4000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_4000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_4000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                }
-              },
-              "3000 K" :
-              {
-                "Morning 0.4" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_3000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                },
-                "Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_3000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_3000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_3000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                }
-              }
-            },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K"]
-          },
-          "0.3" :
-          {
-            "Static" :
-            {
-              "6500 K" :
-              {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_6500K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_6500K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_6500K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                }
-              },
-              "5000 K" :
-              {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_5000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_5000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_5000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                }
-              },
-              "4000 K" :
-              {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_4000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_4000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_4000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                }
-              },
-              "3000 K" :
-              {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_3000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_3000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_3000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
-                }
-              }
-            },
-            "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
-          }
-        },
-        "Downlight" :
-        {
-          "0.4" :
-          {
-            "Static" :
-            {
-              "6500 K" :
-              {
-                "Morning 0.4" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_6500K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                },
-                "Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_6500K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_6500K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_6500K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                }
-              },
-              "5000 K" :
-              {
-                "Morning 0.4" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_5000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                },
-                "Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_5000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_5000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_5000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                }
-              },
-              "4000 K" :
-              {
-                "Morning 0.4" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_4000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                },
-                "Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_4000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_4000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_4000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                }
-              },
-              "3000 K" :
-              {
-                "Morning 0.4" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_3000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                },
-                "Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_3000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_3000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_3000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                }
-              }
-            },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K"]
-          },
-          "0.3" :
-          {
-            "Static" :
-            {
-              "6500 K" :
-              {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_6500K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_6500K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_6500K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                }
-              },
-              "5000 K" :
-              {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_5000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_5000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_5000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                }
-              },
-              "4000 K" :
-              {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_4000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_4000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_4000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                }
-              },
-              "3000 K" :
-              {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_3000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_3000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_3000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
-                }
-              }
-            },
-            "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
-          }
-        },
-        "Direct/Indirect Linear Pendants" :
-        {
-          "0.4" :
-          {
-            "Static" :
-            {
-              "6500 K" :
-              {
-                "Morning 0.4" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_6500K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                },
-                "Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_6500K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_6500K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_6500K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                }
-              },
-              "5000 K" :
-              {
-                "Morning 0.4" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_5000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                },
-                "Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_5000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_5000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_5000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                }
-              },
-              "4000 K" :
-              {
-                "Morning 0.4" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_4000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                },
-                "Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_4000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_4000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_4000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                }
-              },
-              "3000 K" :
-              {
-                "Morning 0.4" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_3000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                },
-                "Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_3000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_3000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_3000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                }
-              }
-            },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K"]
-          },
-          "0.3" :
-          {
-            "Static" :
-            {
-              "6500 K" :
-              {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_6500K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_6500K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_6500K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                }
-              },
-              "5000 K" :
-              {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_5000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_5000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_5000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                }
-              },
-              "4000 K" :
-              {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_4000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_4000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_4000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                }
-              },
-              "3000 K" :
-              {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_3000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_3000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/di pendants/Office_New_DI_3000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
-                }
-              }
-            },
-            "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
-          }
-        },
-        "Blue Add-on: Desk Luminaire" :
-        {
-          "0.4" :
-          {
-            "Static" :
-            {
-              "6500 K" :
-              {
-                "Morning 0.4" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                }
-              },
-              "5000 K" :
-              {
-                "Morning 0.4" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                }
-              },
-              "4000 K" :
-              {
-                "Morning 0.4" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                }
-              },
-              "3000 K" :
-              {
-                "Morning 0.4" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                }
-              }
-            },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K"]
-          },
-          "0.3" :
-          {
-            "Static" :
-            {
-              "6500 K" :
-              {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                }
-              },
-              "5000 K" :
-              {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                }
-              },
-              "4000 K" :
-              {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                }
-              },
-              "3000 K" :
-              {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                }
-              }
-            },
-            "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
-          }
-        },
-        "Blue Add-on: Downlight" :
-        {
-          "0.4" :
-          {
-            "Static" :
-            {
-              "6500 K" :
-              {
-                "Morning 0.4" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                }
-              },
-              "5000 K" :
-              {
-                "Morning 0.4" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                }
-              },
-              "4000 K" :
-              {
-                "Morning 0.4" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                }
-              },
-              "3000 K" :
-              {
-                "Morning 0.4" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                }
-              }
-            },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K"]
-          },
-          "0.3" :
-          {
-            "Static" :
-            {
-              "6500 K" :
-              {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_6500K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                }
-              },
-              "5000 K" :
-              {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_5000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                }
-              },
-              "4000 K" :
-              {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_4000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                }
-              },
-              "3000 K" :
-              {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Evening 0.2" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                },
-                "Night 0.1" :
-                {
-                  "render" : ["img/application/facilities/office/renders/new open office/bluered addon/Office_New_Add_3000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Add.jpg"]
-                }
-              }
-            },
-            "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
-          }
-        }
-      },
       "Traditional Open Office" :
       {
-        "2x4 Troffers" :
+        "2x4 Troffer" :
         {
           "0.4" :
           {
@@ -4047,7 +3139,19 @@
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K"]
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/traditional open office/troffers/Office_Trad_Troff_Tunable_0.4_1.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Troff.jpg"]
+              },
+              "5000 K -> 5000 K -> 4000 K -> 4000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/traditional open office/troffers/Office_Trad_Troff_Tunable_0.4_2.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Troff.jpg"]
+              }
+            }
           },
           "0.3" :
           {
@@ -4126,7 +3230,24 @@
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/traditional open office/troffers/Office_Trad_Troff_Tunable_0.3_1.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Troff.jpg"]
+              },
+              "5000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/traditional open office/troffers/Office_Trad_Troff_Tunable_0.3_2.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Troff.jpg"]
+              },
+              "4000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/traditional open office/troffers/Office_Trad_Troff_Tunable_0.3_3.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Troff.jpg"]
+              }
+            }
           }
         },
         "Downlight" :
@@ -4228,7 +3349,19 @@
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K"]
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/traditional open office/downlights/Office_Trad_DN_Tunable_0.4_1.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_DN.jpg"]
+              },
+              "5000 K -> 5000 K -> 4000 K -> 4000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/traditional open office/downlights/Office_Trad_DN_Tunable_0.4_2.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_DN.jpg"]
+              }
+            }
           },
           "0.3" :
           {
@@ -4307,10 +3440,27 @@
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/traditional open office/downlights/Office_Trad_DN_Tunable_0.3_1.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_DN.jpg"]
+              },
+              "5000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/traditional open office/downlights/Office_Trad_DN_Tunable_0.3_2.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_DN.jpg"]
+              },
+              "4000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/traditional open office/downlights/Office_Trad_DN_Tunable_0.3_3.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_DN.jpg"]
+              }
+            }
           }
         },
-        "Direct/Indirect Linear Pendants" :
+        "Direct/Indirect Linear Pendant" :
         {
           "0.4" :
           {
@@ -4409,7 +3559,19 @@
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K"]
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/traditional open office/di pendants/Office_Trad_DI_Tunable_0.4_1.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_DI.jpg"]
+              },
+              "5000 K -> 5000 K -> 4000 K -> 4000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/traditional open office/di pendants/Office_Trad_DI_Tunable_0.4_2.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_DI.jpg"]
+              }
+            }
           },
           "0.3" :
           {
@@ -4488,10 +3650,30 @@
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/traditional open office/di pendants/Office_Trad_DI_Tunable_0.3_1.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_DI.jpg"]
+              },
+              "5000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/traditional open office/di pendants/Office_Trad_DI_Tunable_0.3_2.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_DI.jpg"]
+              },
+              "4000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/traditional open office/di pendants/Office_Trad_DI_Tunable_0.3_3.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_DI.jpg"]
+              }
+            }
           }
-        },
-        "Blue/Red Add-on: 2x4 Troffer + Desk Luminaire" :
+        }
+      },
+      "New Open Office" :
+      {
+        "2x4 Troffer" :
         {
           "0.4" :
           {
@@ -4501,96 +3683,108 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_6500K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_6500K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_6500K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_6500K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 }
               },
               "5000 K" :
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_5000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_5000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_5000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_5000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 }
               },
               "4000 K" :
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_4000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_4000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_4000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_4000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 }
               },
               "3000 K" :
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_3000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_3000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_3000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_3000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K"]
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_Tunable_0.4_1.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
+              },
+              "5000 K -> 5000 K -> 4000 K -> 4000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_Tunable_0.4_2.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
+              }
+            }
           },
           "0.3" :
           {
@@ -4600,79 +3794,96 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_6500K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_6500K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_6500K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 }
               },
               "5000 K" :
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_5000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_5000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_5000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 }
               },
               "4000 K" :
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_4000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_4000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_4000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 }
               },
               "3000 K" :
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_3000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_3000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_3000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_Tunable_0.3_1.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
+              },
+              "5000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_Tunable_0.3_2.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
+              },
+              "4000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/new open office/troffers/Office_New_Troff_Tunable_0.3_3.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_Troff.jpg"]
+              }
+            }
           }
         },
-        "Blue/Red Add-on: Downlight + Wall Wash" :
+        "Downlight" :
         {
           "0.4" :
           {
@@ -4682,96 +3893,108 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_6500K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_6500K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_6500K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_6500K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 }
               },
               "5000 K" :
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_5000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_5000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_5000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_5000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 }
               },
               "4000 K" :
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_4000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_4000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_4000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_4000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 }
               },
               "3000 K" :
               {
                 "Morning 0.4" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.4Morn.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_3000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_3000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_3000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_3000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K"]
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_Tunable_0.4_1.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
+              },
+              "5000 K -> 5000 K -> 4000 K -> 4000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_Tunable_0.4_2.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
+              }
+            }
           },
           "0.3" :
           {
@@ -4781,76 +4004,303 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_6500K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_6500K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_6500K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_6500K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 }
               },
               "5000 K" :
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_5000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_5000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_5000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_5000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 }
               },
               "4000 K" :
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_4000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_4000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_4000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_4000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 }
               },
               "3000 K" :
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.3Aft.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_3000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.2Eve.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_3000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/office/renders/traditional open office/bluered addon/Office_Trad_Add_3000K_0.1Night.jpg"],
-                  "plan" : ["img/application/facilities/office/floor plans/Office_TradOpen_Add.jpg"]
+                  "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_3000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_Tunable_0.3_1.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
+              },
+              "5000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_Tunable_0.3_2.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
+              },
+              "4000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/new open office/downlights/Office_New_DN_Tunable_0.3_3.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DN.jpg"]
+              }
+            }
+          }
+        },
+        "Direct/Indirect Linear Pendant" :
+        {
+          "0.4" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.4" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_6500K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_6500K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_6500K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_6500K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.4" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_5000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_5000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_5000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_5000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.4" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_4000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_4000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_4000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_4000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.4" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_3000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_3000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_3000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_3000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_Tunable_0.4_1.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+              },
+              "5000 K -> 5000 K -> 4000 K -> 4000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_Tunable_0.4_2.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+              }
+            }
+          },
+          "0.3" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_6500K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_6500K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_6500K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                }
+              },
+              "5000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_5000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_5000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_5000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                }
+              },
+              "4000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_4000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_4000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_4000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                }
+              },
+              "3000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_3000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                },
+                "Evening 0.2" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_3000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                },
+                "Night 0.1" :
+                {
+                  "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_3000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_Tunable_0.3_1.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+              },
+              "5000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_Tunable_0.3_2.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+              },
+              "4000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/new open office/pendant/Office_New_DI_Tunable_0.3_3.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_NewOpen_DI.jpg"]
+              }
+            }
           }
         }
       },
@@ -4866,95 +4316,108 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_6500K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_6500K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_6500K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_6500K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 }
               },
               "5000 K" :
               {
                 "Morning 0.4" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_5000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_5000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_5000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_5000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 }
               },
               "4000 K" :
               {
                 "Morning 0.4" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_4000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_4000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_4000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_4000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 }
               },
               "3000 K" :
               {
                 "Morning 0.4" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_3000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_3000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_3000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_3000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K"]
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_Tunable_0.4_1.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
+              },
+              "5000 K -> 5000 K -> 4000 K -> 4000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_Tunable_0.4_2.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
+              }
+            }
           },
           "0.3" :
           {
@@ -4964,79 +4427,96 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_6500K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_6500K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_6500K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 }
               },
               "5000 K" :
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_5000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_5000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_5000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 }
               },
               "4000 K" :
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_4000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_4000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_4000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 }
               },
               "3000 K" :
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_3000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_3000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_3000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_Tunable_0.3_1.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
+              },
+              "5000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_Tunable_0.3_2.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
+              },
+              "4000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/private office/troffer/Office_Private_Troff_Tunable_0.3_3.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_Private_Troff.jpg"]
+              }
+            }
           }
         },
-        "Direct/Indirect Pendant" :
+        "Direct/Indirect Linear Pendant" :
         {
           "0.4" :
           {
@@ -5046,96 +4526,108 @@
               {
                 "Morning 0.4" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_6500K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_6500K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_6500K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_6500K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 }
               },
               "5000 K" :
               {
                 "Morning 0.4" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_5000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_5000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_5000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_5000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 }
               },
               "4000 K" :
               {
                 "Morning 0.4" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_4000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_4000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_4000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_4000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 }
               },
               "3000 K" :
               {
                 "Morning 0.4" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_3000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 },
                 "Afternoon 0.3" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_3000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_3000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_3000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K"]
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_Tunable_0.4_1.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
+              },
+              "5000 K -> 5000 K -> 4000 K -> 4000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_Tunable_0.4_2.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
+              }
+            }
           },
           "0.3" :
           {
@@ -5145,79 +4637,96 @@
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_6500K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_6500K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_6500K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 }
               },
               "5000 K" :
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_5000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_5000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_5000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 }
               },
               "4000 K" :
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_4000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_4000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_4000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 }
               },
               "3000 K" :
               {
                 "Morning/Afternoon 0.3" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_3000K_0.3Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 },
                 "Evening 0.2" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_3000K_0.2Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 },
                 "Night 0.1" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_3000K_0.1Night.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_Tunable_0.3_1.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
+              },
+              "5000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_Tunable_0.3_2.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
+              },
+              "4000 K -> 4000 K -> 3000 K" :
+              {
+                "render" : ["img/application/facilities/office/renders/private office/pendant/Office_Private_DI_Tunable_0.3_3.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_Private_DI.jpg"]
+              }
+            }
           }
         },
-        "Blue/Red Add-on: Downlight + Wall Wash" :
+        "Downlight + Blue/Red Wall Wash" :
         {
           "0.4" :
           {
@@ -5225,177 +4734,100 @@
             {
               "6500 K" :
               {
-                "Morning 0.4" :
+                "Morning 0.4 B" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/dnww/Office_Private_DNWW_6500K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DNWW.jpg"]
                 },
-                "Afternoon 0.3" :
+                "Afternoon/Evening 0.2 R" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/dnww/Office_Private_DNWW_6500K_0.2Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DNWW.jpg"]
                 },
-                "Evening 0.2" :
+                "Night 0.1 R" :
                 {
-                  "render" : [],
-                  "plan" : []
-                },
-                "Night 0.1" :
-                {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/dnww/Office_Private_DNWW_6500K_0.1Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DNWW.jpg"]
                 }
               },
               "5000 K" :
               {
-                "Morning 0.4" :
+                "Morning 0.4 B" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/dnww/Office_Private_DNWW_5000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DNWW.jpg"]
                 },
-                "Afternoon 0.3" :
+                "Afternoon/Evening 0.2 R" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/dnww/Office_Private_DNWW_5000K_0.2Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DNWW.jpg"]
                 },
-                "Evening 0.2" :
+                "Night 0.1 R" :
                 {
-                  "render" : [],
-                  "plan" : []
-                },
-                "Night 0.1" :
-                {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/dnww/Office_Private_DNWW_5000K_0.1Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DNWW.jpg"]
                 }
               },
               "4000 K" :
               {
-                "Morning 0.4" :
+                "Morning 0.4 B" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/dnww/Office_Private_DNWW_4000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DNWW.jpg"]
                 },
-                "Afternoon 0.3" :
+                "Afternoon/Evening 0.2 R" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/dnww/Office_Private_DNWW_4000K_0.2Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DNWW.jpg"]
                 },
-                "Evening 0.2" :
+                "Night 0.1 R" :
                 {
-                  "render" : [],
-                  "plan" : []
-                },
-                "Night 0.1" :
-                {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/dnww/Office_Private_DNWW_4000K_0.1Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DNWW.jpg"]
                 }
               },
               "3000 K" :
               {
-                "Morning 0.4" :
+                "Morning 0.4 B" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/dnww/Office_Private_DNWW_3000K_0.4Morn.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DNWW.jpg"]
                 },
-                "Afternoon 0.3" :
+                "Afternoon/Evening 0.2 R" :
                 {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/dnww/Office_Private_DNWW_3000K_0.2Aft.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DNWW.jpg"]
                 },
-                "Evening 0.2" :
+                "Night 0.1 R" :
                 {
-                  "render" : [],
-                  "plan" : []
-                },
-                "Night 0.1" :
-                {
-                  "render" : [],
-                  "plan" : []
+                  "render" : ["img/application/facilities/office/renders/private office/dnww/Office_Private_DNWW_3000K_0.1Eve.jpg"],
+                  "plan" : ["img/application/facilities/office/floor plans/Office_Private_DNWW.jpg"]
                 }
               }
             },
-            "Tunable" : ["6500K -> 5000K -> 4000K -> 3000K"]
-          },
-          "0.3" :
-          {
-            "Static" :
+            "Tunable" :
             {
-              "6500 K" :
+              "6500 K B -> 5000 K R -> 4000 K R" :
               {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : [],
-                  "plan" : []
-                },
-                "Evening 0.2" :
-                {
-                  "render" : [],
-                  "plan" : []
-                },
-                "Night 0.1" :
-                {
-                  "render" : [],
-                  "plan" : []
-                }
+                "render" : ["img/application/facilities/office/renders/private office/dnww/Office_Private_DNWW_Tunable_0.4_1.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_Private_DNWW.jpg"]
               },
-              "5000 K" :
+              "5000 K B -> 4000 K R -> 4000 K R" :
               {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : [],
-                  "plan" : []
-                },
-                "Evening 0.2" :
-                {
-                  "render" : [],
-                  "plan" : []
-                },
-                "Night 0.1" :
-                {
-                  "render" : [],
-                  "plan" : []
-                }
+                "render" : ["img/application/facilities/office/renders/private office/dnww/Office_Private_DNWW_Tunable_0.4_2.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_Private_DNWW.jpg"]
               },
-              "4000 K" :
+              "5000 K B -> 4000 K R -> 3000 K R" :
               {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : [],
-                  "plan" : []
-                },
-                "Evening 0.2" :
-                {
-                  "render" : [],
-                  "plan" : []
-                },
-                "Night 0.1" :
-                {
-                  "render" : [],
-                  "plan" : []
-                }
+                "render" : ["img/application/facilities/office/renders/private office/dnww/Office_Private_DNWW_Tunable_0.4_3.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_Private_DNWW.jpg"]
               },
-              "3000 K" :
+              "4000 K B -> 4000 K R -> 3000 K R" :
               {
-                "Morning/Afternoon 0.3" :
-                {
-                  "render" : [],
-                  "plan" : []
-                },
-                "Evening 0.2" :
-                {
-                  "render" : [],
-                  "plan" : []
-                },
-                "Night 0.1" :
-                {
-                  "render" : [],
-                  "plan" : []
-                }
+                "render" : ["img/application/facilities/office/renders/private office/dnww/Office_Private_DNWW_Tunable_0.4_4.jpg"],
+                "plan" : ["img/application/facilities/office/floor plans/Office_Private_DNWW.jpg"]
               }
-            },
-            "Tunable" : ["6500K -> 5000K -> 4000K", "5000K -> 4000K -> 3000K"]
+            }
           }
         }
       }
