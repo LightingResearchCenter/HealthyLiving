@@ -301,7 +301,6 @@ function getCCT(hb,selection,data){
       _target = data.target;
     }
     if (data.system=='Tunable'){
-      console.log(selection["CCT"]);
       $('#application-modal-deck').append('<div class="card hover"><a id="'+__cct+'" data-value="'+___cct+'"><img class="card-img-top" src="'+selection["CCT"][_cct]["img"]+'" alt="CCT" /><div class="card-body"><hr/><p class="card-text">'+selection["CCT"][_cct]["desc"]+'</p></div></a></div>');
     }else{
       $('#application-modal-deck').append('<div class="card hover"><a id="'+__cct+'" data-value="'+___cct+'"><img class="card-img-top" src="'+selection["CCT"][_cct]["img"]+'" alt="CCT" /><div class="card-body"><h5 class="card-title">'+_cct+'</h5><hr/><p class="card-text">'+selection["CCT"][_cct]["desc"]+'</p></div></a></div>');
@@ -647,7 +646,7 @@ function generatePlan(path,view){
 }
 
 function generateFixtures(fixture){
-  fixture = fixture.replace(/\s/g,'').replace('Blue/Red','').replace('Blue', '').replace('Red','').split('+');
+  fixture = fixture.replace(/\s/g,'').replace('Blue/Red','').replace('Blue', '').replace('Red','').replace('/','').split('+');
   str = '';
   for (var i = 0; i < fixture.length; i++){
     str += '<div class="mb-2 fixture-container">';

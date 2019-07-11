@@ -303,8 +303,13 @@ a p.bc-option{
   font-size: 1.1rem !important;
 }
 
+.right-panel-h5-fixture{
+  padding-left: 1.25rem;
+}
+
 .right-panel-p{
   font-size: 1rem !important;
+  font-weight: 300 !important;
 }
 
 .right-panel-expandable:hover div{
