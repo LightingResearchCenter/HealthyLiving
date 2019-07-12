@@ -246,7 +246,7 @@ a p.bc-option{
   border-top: 0;
 }
 
-.card-footer.chart-card-footer{
+.card-footer.chart-card-footer, .card-footer.fixtures-card-footer{
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: .5rem;
@@ -281,6 +281,35 @@ a p.bc-option{
   color: #fff;
 }
 
+.fixture-heading{
+  background-color: #303030;
+  border-top-right-radius: .25rem;
+  border-top-left-radius: .25rem;
+}
+
+.fixture-heading h5{
+  color: #fff;
+}
+
+.fixture-icon{
+  height: 3rem;
+  position: relative;
+  top: 0%;
+}
+
+.fixture-header{
+  max-height: 3rem;
+}
+
+.fixture-title{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.max-height{
+  max-height: 100%;
+}
+
 .right-panel-col{
   padding-left: 0;
   padding-right: 1.5rem;
@@ -299,8 +328,13 @@ a p.bc-option{
   margin-bottom: auto;
 }
 
+.right-panel-content{
+  padding-bottom: 1.25rem;
+}
+
 .right-panel-h5{
   font-size: 1.1rem !important;
+  padding-bottom: 1.25rem;
 }
 
 .right-panel-h5-fixture{
@@ -312,9 +346,20 @@ a p.bc-option{
   font-weight: 300 !important;
 }
 
+.right-panel-hr{
+  margin-top: 0;
+}
+
 .right-panel-expandable:hover div{
   cursor: pointer;
-  border-radius: .25rem;
+}
+
+.text-middle{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
 }
 
 .list-group-item.bc-item{
