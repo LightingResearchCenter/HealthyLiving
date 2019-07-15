@@ -467,25 +467,71 @@ function buildHTML(){
   str += '      <div class="card drop-shadow right-panel">';
   str += '        <div class="card-body card-body-small-padding">';
   str += '          <div class="card right-panel-card">';
-  str += '            <a class="right-panel-expandable" data-toggle="collapse" data-target="#roomDescriptionContent" aria-expanded="true" aria-controls="roomDescriptionContent">';
-  str += '             <div class="card-body">';
-  str += '               <h5 class="card-title right-panel-h5 mb-0">Room Description</h5>';
-  str += '                <p id="roomDescriptionContent" class="mt-2 card-text right-panel-p collapse show"></p>'
+  str += '            <a class="right-panel-expandable" data-toggle="collapse" data-target="#roomDescriptionContentContainer" aria-expanded="true" aria-controls="roomDescriptionContentContainer">';
+  str += '              <div class="card-body pb-0">';
+  str += '                <h5 class="card-title right-panel-h5 mb-0">Room Description</h5>';
+  str += '                <div id="roomDescriptionContentContainer" class="right-panel-content collapse show">';
+  str += '                <hr class="right-panel-hr"/>';
+  str += '                <p id="roomDescriptionContent" class="card-text right-panel-p"></p>'
+  str += '                </div>';
   str += '              </div>';
   str += '            </a>';
   str += '          </div>';
   str += '          <div class="card right-panel-card">';
-  str += '            <div class="card-body">';
+  str += '            <div class="card-body pb-0">';
   str += '              <h5 class="card-title right-panel-h5 mb-0">Assumptions</h5>';
   str += '            </div>';
   str += '          </div>';
   str += '          <div class="card right-panel-card">';
-  str += '            <div class="card-body">';
-  str += '              <h5 class="card-title right-panel-h5 mb-0">Design Outcomes</h5>';
+  str += '            <div class="card-body pb-0">';
+  str += '              <h5 class="card-title right-panel-h5 mb-0">Lighting Solutions</h5>';
   str += '            </div>';
   str += '          </div>';
   str += '          <div class="card right-panel-card">';
-  str += '            <div class="card-body">';
+  str += '            <a class="right-panel-expandable" data-toggle="collapse" data-target=".fixturesContentContainer" aria-expanded="false" aria-expanded="false" aria-controls="fixtureContentContainer">';
+  str += '              <div class="card-body pb-0">';
+  str += '                <h5 class="card-title right-panel-h5 mb-0">Fixtures</h5>';
+  str += '                <div class="fixturesContentContainer right-panel-content collapse">';
+  str += '                 <hr class="right-panel-hr"/>';
+  str += '                 <div class="container-fluid px-0">';
+  str += '                   <div class="row mb-3">';
+  str += '                     <div class="col fixture-header">';
+  str += '                        <h5 id="fixture_name" class="text-center mb-0 fixture-title"></h5>';
+  str += '                      </div>';
+  str += '                    </div>';
+  str += '                    <div class="row mb-2">';
+  str += '                      <div class="col-md-6 pr-1">';
+  str += '                        <img id="fixture_fixture" class="w-100" src=""/>'
+  str += '                      </div>';
+  str += '                      <div class="col-md-6 pl-1">';
+  str += '                       <img id="fixture_candela" class="w-100" src=""/>'
+  str += '                      </div>';
+  str += '                    </div>';
+  str += '                    <div class="row mb-2">';
+  str += '                      <div class="col px-0">';
+  str += '                        <ul class="pl-3 my-4">';
+  str += '                          <li class="card-text right-panel-p"><b>Amount: </b><span id="fixture_amount"></span></li>';
+  str += '                          <li class="card-text right-panel-p"><b>Mounting Type: </b><span id="fixture_type"></span></li>';
+  str += '                          <li class="card-text right-panel-p"><b>Mounting Height: </b><span id="fixture_height"></span></li>';
+  str += '                          <li class="card-text right-panel-p"><b>Orientation: </b><span id="fixture_orientation"></span></li>';
+  str += '                          <li class="card-text right-panel-p"><b>Dimensions: </b><span id="fixture_dimensions"></span></li>';
+  str += '                          <li class="card-text right-panel-p"><b>Initial Lumens: </b><span id="fixture_lumens"></span></li>';
+  str += '                          <li class="card-text right-panel-p"><b>Initial Wattage: </b><span id="fixture_wattage"></span></li>';
+  str += '                        </ul>';
+  str += '                       <p class="pl-3 card-text right-panel-p"><b>Description: </b><span id="fixture_description"></span></p>';
+  str += '                      </div>';
+  str += '                    </div>';
+  str += '                  </div>';
+  str += '                </div>';
+  str += '              </div>';
+  str += '            </a>';
+  str += '            <div class="card-footer fixtures-card-footer fixturesContentContainer collapse">';
+  str += '              <ul id="fixture_footer" class="nav nav-tabs nav-tabs-footer card-footer-tabs">';
+  str += '              </ul>';
+  str += '            </div>';
+  str += '          </div>';
+  str += '          <div class="card right-panel-card">';
+  str += '            <div class="card-body pb-0">';
   str += '              <h5 class="card-title right-panel-h5 mb-0">Charts</h5>';
   str += '            </div>';
   str += '          </div>';
@@ -623,6 +669,42 @@ function generateDescription(hb,data){
   $('#roomDescriptionContent').html(hb[data.facility][data.room][data.fixture]["desc"]);
 }
 
+function generateFixtures(data){
+  $.getJSON("json/fixtures.json", function(fixtures_result){
+    $.each(fixtures_result,function(){
+      var fixtures = this;
+      var count = Object.values(fixtures[data.facility][data.room][data.fixture])[0].length;
+      var str = '';
+      for (var i = 0; i < count; i++){
+        str += '<li class="nav-item nav-item-footer"><a ';
+        if (i==0){
+          str += 'id="fixture_change_first" ';
+        }
+        str += 'data-value="'+i+'" class="nav-link nav-link-footer text-center fixture-change">'+(i+1)+'</a></li>';
+      }
+      $('#fixture_footer').html(str);
+      $('.fixture-change').click(function(){
+        $('.fixture-change').removeClass('active');
+        $(this).addClass('active');
+        var index = $(this).data('value');
+        var path = fixtures[data.facility][data.room][data.fixture];
+        $('#fixture_name').html(path.name[index]);
+        $('#fixture_fixture').attr('src','img/application/selection/3 Fixture/'+path.fixture[index]+'.jpg');
+        $('#fixture_candela').attr('src','img/application/selection/3 Fixture/candela/'+path.candela[index]+'.jpg');
+        $('#fixture_amount').html(path.amount[index]);
+        $('#fixture_type').html(path.type[index]);
+        $('#fixture_height').html(path.height[index]);
+        $('#fixture_orientation').html(path.orientation[index]);
+        $('#fixture_dimensions').html(path.dimensions[index]);
+        $('#fixture_lumens').html(path.lumens[index]);
+        $('#fixture_wattage').html(path.wattage[index]);
+        $('#fixture_description').html(path.description[index]);
+      });
+      $('#fixture_change_first').trigger('click');
+    });
+  });
+}
+
 function generateRender(hb,selection,path,data){
   $('#final_render_img').attr('src',path.render[data.view]);
   if (path.render.length > 1){
@@ -645,7 +727,7 @@ function generatePlan(path,view){
   $('#final_plan_img').attr('src',path.plan[view]);
 }
 
-function generateFixtures(fixture){
+function generateFixtureIcons(fixture){
   fixture = fixture.replace(/\s/g,'').replace('Blue/Red','').replace('Blue', '').replace('Red','').replace('/','').split('+');
   str = '';
   for (var i = 0; i < fixture.length; i++){
@@ -745,12 +827,13 @@ function generateContent(hb,selection,data){
   if ($('#final_content').length==0){
     buildHTML();
   }
-  generateDescription(hb,data);
   generateRender(hb,selection,path,data);
   generatePlan(path,data.view);
   generateAdjustments(hb,selection,data);
+  generateFixtureIcons(data.fixture);
   generateFinalBreadcrumb(hb,selection,data);
-  generateFixtures(data.fixture);
+  generateDescription(hb,data);
+  generateFixtures(data);
 }
 
 $(document).ready(function(){
