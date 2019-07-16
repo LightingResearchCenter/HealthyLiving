@@ -478,9 +478,32 @@ function buildHTML(){
   str += '            </a>';
   str += '          </div>';
   str += '          <div class="card right-panel-card">';
-  str += '            <div class="card-body pb-0">';
-  str += '              <h5 class="card-title right-panel-h5 mb-0">Assumptions</h5>';
-  str += '            </div>';
+  str += '            <a class="right-panel-expandable" data-toggle="collapse" data-target="#assumptionsContentContainer" aria-expanded="false" aria-controls="assumptionsContentContainer">';
+  str += '              <div class="card-body pb-0">';
+  str += '                <h5 class="card-title right-panel-h5 mb-0">Assumptions</h5>';
+  str += '                <div id="assumptionsContentContainer" class="right-panel-content collapse"><hr class="right-panel-hr"/>';
+  str += '                  <ul class="assumptions-outer-ul pl-2">';
+  str += '                    <li class="assumptions-outer-li">- Room reflectances';
+  str += '                      <p class="right-panel-p mb-0">A room’s finishing material and color can change perception of space as well as reflect or absorb light to affect how much gets to the eye. Reflectances are based on a percentage of how much light is reflected off a surface.</p>';
+  str += '                      <ul class="assumptions-inner-ul">';
+  str += '                        <li class="assumptions-inner-li">- Ceiling: 80% (0.8)</li>';
+  str += '                        <li class="assumptions-inner-li">- Walls: 50% (0.5)</li>';
+  str += '                        <li class="assumptions-inner-li">- Floor: 20% (0.2)</li>';
+  str += '                      </ul>';
+  str += '                    </li>';
+  str += '                    <li class="assumptions-outer-li">- Height of illuminance calculation points';
+  str += '                      <ul class="assumptions-inner-ul">';
+  str += '                        <li class="assumptions-inner-li">- Horizontal illuminance (EH) points: 2’-6” AFF</li>';
+  str += '                        <li class="assumptions-inner-li">- Vertical illuminance (EV) points: 4’-0” AFF</li>';
+  str += '                      </ul>';
+  str += '                    </li>';
+  str += '                    <li class="assumptions-outer-li">- Linear dimming system</li>';
+  str += '                    <li class="assumptions-outer-li">- Maintained light levels- no light loss factors accounted for</li>';
+  str += '                    <li class="assumptions-outer-li">- Linear relationship between fixture lumen output and wattage</li>';
+  str += '                  </ul>';
+  str += '                </div>'
+  str += '              </div>';
+  str += '            </a>'
   str += '          </div>';
   str += '          <div class="card right-panel-card">';
   str += '            <div class="card-body pb-0">';
@@ -515,8 +538,8 @@ function buildHTML(){
   str += '                          <li class="card-text right-panel-p"><b>Mounting Height: </b><span id="fixture_height"></span></li>';
   str += '                          <li class="card-text right-panel-p"><b>Orientation: </b><span id="fixture_orientation"></span></li>';
   str += '                          <li class="card-text right-panel-p"><b>Dimensions: </b><span id="fixture_dimensions"></span></li>';
-  str += '                          <li class="card-text right-panel-p"><b>Initial Lumens: </b><span id="fixture_lumens"></span></li>';
-  str += '                          <li class="card-text right-panel-p"><b>Initial Wattage: </b><span id="fixture_wattage"></span></li>';
+  str += '                          <li class="card-text right-panel-p"><b>Initial Lumens per Source: </b><span id="fixture_lumens"></span></li>';
+  str += '                          <li class="card-text right-panel-p"><b>Initial Wattage per Source: </b><span id="fixture_wattage"></span></li>';
   str += '                        </ul>';
   str += '                       <p class="pl-3 card-text right-panel-p"><b>Description: </b><span id="fixture_description"></span></p>';
   str += '                      </div>';
