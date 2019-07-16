@@ -1771,7 +1771,7 @@
             }
           }
         },
-        "Flush Mount + Hanging Pendant + Wall Valance" :
+        "Flush Mount + Hanging Pendant + Perimeter Valance" :
         {
           "desc" : "A single-occupancy nursing home room is where a resident resides, and could have a personalized lighting design. This 280 sf room includes a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. From eating meals at the table, or relaxing on the couch or bed, designs should aim to reach desired CS levels in these locations.<br/><br/>This combination lighting design consists of four flush mount fixtures, and one hanging pendant over the dining room table. An additional layer of light is added with indirect Spacing of fixtures is displayed on the lighting plan.",
           "0.4" :
@@ -5238,7 +5238,7 @@
       },
       "Neonatal Intensive Care Unit" :
       {
-        "2x4 Troffer + Blue/Red Desk Luminaire + Wall Valance" :
+        "2x4 Troffer + Blue/Red Desk Luminaire + Perimeter Valance" :
         {
           "0.5-0.3 short" :
           {
