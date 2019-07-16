@@ -354,6 +354,34 @@ a p.bc-option{
   cursor: pointer;
 }
 
+.assumptions-outer-ul{
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.assumptions-inner-ul{
+  list-style-type: none;
+}
+
+.assumptions-outer-li{
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 1rem;
+}
+
+.assumptions-outer-li:last-child{
+  margin-bottom: 0;
+}
+
+.assumptions-inner-li{
+  font-size: 1rem !important;
+  font-weight: 300 !important;
+}
+
+.assumptions-inner-li{
+
+}
+
 .text-middle{
   position: relative;
   top: 50%;
