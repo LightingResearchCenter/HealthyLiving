@@ -2,7 +2,7 @@
   {
     "Facility":
     {
-      "desc": "",
+      "desc": "Facilities are comprised of varying occupant types, which affect circadian design solutions. Choose a facility below that you are interested in learning more about.",
       "Senior Care" :
       {
         "img" : "img/application/selection/1 Facility/Senior Care.jpg",
@@ -26,7 +26,7 @@
     },
     "Room":
     {
-      "desc" : "",
+      "desc" : "Rooms within a facility can present different uses for occupants. With varying dimensions, furniture layouts, and time occupied, rooms can be diverse in scheduling. Choose a room to discover more about how you can learn about circadian design.",
       "Assisted Living Single with Kitchen" :
       {
         "img" : "img/application/selection/2 Room/SeniorCare_AssistedLivingWithKitchen.jpg",
@@ -79,7 +79,7 @@
     },
     "Fixture":
     {
-      "desc": "Choose a fixture below to see how it is used in a circadian design. All fixtures have specific qualities that affect how light is distributed into a space. Even if a similar fixture type to the options below, characteristics may be different, resulting in varying performance. Calculations must always be done to assure fixture type, beam distribution, and SPD combine to achieve the desired CS effect.",
+      "desc": "Choose a fixture below to see how it is used in a circadian design. All fixtures have specific qualities that affect how light is distributed into a space. Even if a similar fixture type to the options below is used, characteristics may be different, resulting in varying performance. Calculations must always be done to assure fixture type, beam distribution, and SPD combine to achieve the desired CS effect.",
       "2x4 Center Basket Troffer":
       {
         "img" : "img/application/selection/3 Fixture/2x4 Center basket Troffer.jpg",
@@ -263,7 +263,7 @@
     },
     "Target":
     {
-      "desc" : "A CS above 0.3 is shown to have an effect on the circadian system which is desired in the morning and early afternoon hours to synchronize our bodies with the 24-hour solar day. For a robust light/dark schedule, CS must be lowered throughout the day. This means a CS schedule will either start at the target 0.4 or 0.3, and always end in < 0.1. CS values are achieved based on the SPD of a light source, and the illuminance at the eye. Read below for tips of which initial target CS value is best for your design.<br/><br/>See ‘CS’ on the background page for more information.",
+      "desc" : "A CS above 0.3 is shown to have an effect on the circadian system which is desired in the morning and early afternoon hours to synchronize the body with the 24-hour solar day. For a robust light/dark schedule, CS must be lowered throughout the day. This means a CS schedule will either start at the target 0.4 or 0.3, and always end in < 0.1. CS values are achieved based on the SPD of a light source, and the illuminance at the eye. Read below for tips of which initial target CS value is best for your design. See ‘CS’ on the background page for more information.",
       "0.3":
       {
         "img" : "img/application/selection/4 Target CS/0.3.jpg",
@@ -302,7 +302,7 @@
     },
     "System":
     {
-      "desc": "",
+      "desc": "A dynamic lighting system involves the dimming of a lighting system throughout the day to achieve target CS values. Another component of dynamic lighting is the CCT (correlated color temperature), using a range of white light from cooler white to warmer white. Color changing by using multiple CCTs throughout the day is characterized as a tunable CCT system, while using a single CCT that dims throughout the day is a static CCT system. Using RGB LED light sources allows for the opportunity to create any CCT, but be sure to use the CS calculator to determine your CCT’s contribution to CS.",
       "Static":
       {
         "img" : "img/application/selection/5 CCT System/Static.jpg",
