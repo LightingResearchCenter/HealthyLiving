@@ -105,16 +105,16 @@
           "wattage" : ["58","19"],
           "description" : ["8","9"]
         },
-        "Flush Mount + Hanging Pendant + Wall Valance" :
+        "Flush Mount + Hanging Pendant + Perimeter Valance" :
         {
-          "name" : ["Flush Mount","Hanging Pendant","Wall Valance"],
-          "fixture" : ["Flush Mount","Hanging Pendant","Wall Valance"],
+          "name" : ["Flush Mount","Hanging Pendant","Perimeter Valance"],
+          "fixture" : ["Flush Mount","Hanging Pendant","Perimeter Valance"],
           "candela" : ["Flush Mount","Hanging Pendant","Perimeter Valance- Healthcare- Senior Care"],
-          "amount" : ["4","1","14"],
+          "amount" : ["4","1","Feature has 14 sources"],
           "type" : ["Ceiling Mounted","Pendant","Wall Mounted"],
           "height" : ["7'-6\" AFF","5'-6\" AFF","8'-0\" AFF"],
           "orientation" : ["Direct/Indirect","Direct/Indirect","Indirect"],
-          "dimensions" : ["2' Diameter","1' Diameter","4' length"],
+          "dimensions" : ["2' Diameter","1' Diameter","Source = 4' length"],
           "lumens" : ["4800","1568","1391"],
           "wattage" : ["58","19","48"],
           "description" : ["8","9","15"]
@@ -384,19 +384,19 @@
       },
       "Neonatal Intensive Care Unit" :
       {
-        "2x4 Troffer + Blue/Red Desk Luminaire + Wall Valance" :
+        "2x4 Troffer + Blue/Red Desk Luminaire + Perimeter Valance" :
         {
-          "name" : ["2x4 Troffers","Desk Luminaire","Wall Valance"],
-          "fixture" : ["2x4 Troffer","Desk Luminaire","Wall Valance"],
+          "name" : ["2x4 Troffers","Desk Luminaire","Perimeter Valance"],
+          "fixture" : ["2x4 Troffer","Desk Luminaire","Perimeter Valance"],
           "candela" : ["2x4 Troffer- Healthcare","Desk Luminaire","Perimeter Valance- Healthcare- Senior Care"],
-          "amount" : ["16","3","66"],
+          "amount" : ["16","3","Farture has 66 sources"],
           "type" : ["Ceiling Recessed","Desk Luminaire","Furniture Mounted"],
           "height" : ["10'-0\" AFF","1'-9\" AFF","7'-5\" AFF"],
-          "orientation" : ["Direct","Horizontal","Direct"],
-          "dimensions" : ["4' Linear","1' Linear","1.5' Linear"],
-          "lumens" : ["3320","402","291"],
-          "wattage" : ["39","7","7"],
-          "description" : ["10","4","13"]
+          "orientation" : ["Direct","Horizontal","33 Direct Sources & 33 Indirect Sources"],
+          "dimensions" : ["2'x4'","1' Linear","Source = 4' Length"],
+          "lumens" : ["6022","402","1391"],
+          "wattage" : ["54","7","48"],
+          "description" : ["2","4","15"]
         },
         "Recessed Linear + Blue/Red Downlight + Blue Wall Wash + Cove" :
         {
