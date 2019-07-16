@@ -419,7 +419,7 @@
         {
           "name" : ["Recessed Linear","Desk Luminaire","Under Cabinet"],
           "fixture" : ["Recessed Linear","Desk Luminaire","Under Cabinet"],
-          "candela" : ["Recessed Linear","Desk Luminaire","Under Caninet- Healthcare"],
+          "candela" : ["Recessed Linear","Desk Luminaire","Under Cabinet- Healthcare"],
           "amount" : ["10","10","33"],
           "type" : ["Ceiling Recessed","Desk Luminaire","Furniture Mounted"],
           "height" : ["10'-0\" AFF","1'-9\" above desk","4'-6\" AFF"],
