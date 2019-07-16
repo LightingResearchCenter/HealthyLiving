@@ -16,21 +16,21 @@
           "dimensions" : ["2'x4'"],
           "lumens" : ["5886"],
           "wattage" : ["43"],
-          "description" : ["A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications. They are relatively inexpensive and can provide high, uniform illuminance levels throughout a room. Troffers usually house linear fluorescent lamps, but more recently LED troffers are available for replacement of fluorescent troffers. The modified troffer shape distributes light more evenly throughout a space, making the horizontal to vertical illuminance ratio closer to 1."]
+          "description" : ["A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications. They are relatively inexpensive and can provide high, uniform illuminance levels throughout a room. Troffers usually house Linear fluorescent lamps, but more recently LED troffers are available for replacement of fluorescent troffers. The modified troffer shape distributes light more evenly throughout a space, making the horizontal to vertical illuminance ratio closer to 1."]
         },
         "Downlight" :
         {
           "name" : ["Downlight"],
           "fixture" : ["Downlight"],
-          "candela" : ["Sownlight- Senior Care"],
+          "candela" : ["Downlight- Senior Care"],
           "amount" : ["35"],
           "type" : ["Ceiling Recessed"],
           "height" : ["9'-0\" AFF"],
           "orientation" : ["Direct"],
-          "dimensions" : ["4.5\" diameter"],
+          "dimensions" : ["4.5\" Diameter"],
           "lumens" : ["4070"],
           "wattage" : ["62"],
-          "description" : ["A linear pendant is a fixture typically used in commercial applications to provide uniform ambient light. They come in 3 types of light distributions: direct, indirect, or direct/indirect. Linear pendants with an indirect component should be suspended at least 18” below the ceiling to allow the indirect light to bounce off of the ceiling. Linear pendants traditionally house fluorescent lamps, but more recently linear pendants with dedicated LED sources have become available."]
+          "description" : ["A Linear pendant is a fixture typically used in commercial applications to provide uniform ambient light. They come in 3 types of light distributions: direct, indirect, or direct/indirect. Linear pendants with an indirect component should be suspended at least 18” below the ceiling to allow the indirect light to bounce off of the ceiling. Linear pendants traditionally house fluorescent lamps, but more recently Linear pendants with dedicated LED sources have become available."]
         },
         "Flush Mount + Hanging Pendant" :
         {
@@ -41,7 +41,7 @@
           "type" : ["Ceiling Mounted","Pendant"],
           "height" : ["7'-6\" AFF","5'-6\" AFF"],
           "orientation" : ["Direct/Indirect","Direct/Indirect"],
-          "dimensions" : ["2' diameter","1' diameter"],
+          "dimensions" : ["2' Diameter","1' Diameter"],
           "lumens" : ["4800","1568"],
           "wattage" : ["37","58"],
           "description" : ["8","9"]
@@ -49,13 +49,13 @@
         "Downlight + Flush Mount + Hanging Pendant + Wall Valance + Under Cabinet + TV Valance" :
         {
           "name" : ["Downlight","Flush Mount","Hanging Pendant","Wall Valance","Under Cabinet","TV Valance"],
-          "fixture" : ["Downlight","Flush Mount","Pendant","Wall Valance","Undercabinet","TV Valance"],
-          "candela" : ["Downlight- Senior Care","Flush Mount","Hnaging Pendant","Wall Valance Linear- Senior Care","Under Cabinet- Senior Care","Wall Valance Linear- Senior Care"],
+          "fixture" : ["Downlight","Flush Mount","Hanging Pendant","Wall Valance","Under Cabinet","TV Valance"],
+          "candela" : ["Downlight- Senior Care","Flush Mount","Hanging Pendant","Wall Valance Linear- Senior Care","Under Cabinet- Senior Care","TV Valance"],
           "amount" : ["6","1","1","Feature has 6 sources","Feature has 3 sources","Feature has 3 sources"],
           "type" : ["Ceiling Recessed","Ceiling Mounted","Pendant","Wall Mounted","Furniture Mounted","Furniture Mounted"],
           "height" : ["8'-0\" AFF","7'-6\" AFF","5'-6\" AFF","3'-8\" AFF","1'-4\" above counter","2'-9\" AFF"],
           "orientation" : ["Direct","Direct/Indirect","Direct/Indirect","3 Direct Sources & 3 Indirect Sources","Direct","Indirect, aimed 15&#176; toward wall"],
-          "dimensions" : ["4.5\" diameter","2' diameter","1' diameter","Source = 1' length","Source = 3' length","Source = 1' length"],
+          "dimensions" : ["4.5\" Diameter","2' Diameter","1' Diameter","Source = 1' length","Source = 3' length","Source = 1' length"],
           "lumens" : ["2678","4800","1568","1000","1314","1000"],
           "wattage" : ["35","58","19","19","19","19"],
           "description" : ["6","8","9","15","13","12"]
@@ -86,7 +86,7 @@
           "type" : ["Ceiling Recessed"],
           "height" : ["8'-0\" AFF"],
           "orientation" : ["Direct"],
-          "dimensions" : ["4.5\" diameter"],
+          "dimensions" : ["4.5\" Diameter"],
           "lumens" : ["2678"],
           "wattage" : ["35"],
           "description" : ["6"]
@@ -100,7 +100,7 @@
           "type" : ["Ceiling Mounted","Pendant"],
           "height" : ["7'-6\" AFF","5'-6\" AFF"],
           "orientation" : ["Direct/Indirect","Direct/Indirect"],
-          "dimensions" : ["2' diameter", "1' diameter"],
+          "dimensions" : ["2' Diameter", "1' Diameter"],
           "lumens" : ["4800","1568"],
           "wattage" : ["58","19"],
           "description" : ["8","9"]
@@ -114,7 +114,7 @@
           "type" : ["Ceiling Mounted","Pendant","Wall Mounted"],
           "height" : ["7'-6\" AFF","5'-6\" AFF","8'-0\" AFF"],
           "orientation" : ["Direct/Indirect","Direct/Indirect","Indirect"],
-          "dimensions" : ["2' diameter","1' diameter","4' length"],
+          "dimensions" : ["2' Diameter","1' Diameter","4' length"],
           "lumens" : ["4800","1568","1391"],
           "wattage" : ["58","19","48"],
           "description" : ["8","9","15"]
@@ -124,59 +124,59 @@
       {
         "2x4 Center Basket Troffer" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["2x4 Center Basket Troffer"],
+          "fixture" : ["2x4 Center Basket Troffer"],
+          "candela" : ["2x4 Center Basket Troffer"],
+          "amount" : ["24"],
+          "type" : ["Ceiling Recessed"],
+          "height" : ["9'-0\" AFF"],
+          "orientation" : ["Direct"],
+          "dimensions" : ["2'x4'"],
+          "lumens" : ["5886"],
+          "wattage" : ["43"],
+          "description" : ["1"]
         },
         "Downlight" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["Downlight"],
+          "fixture" : ["Downlight"],
+          "candela" : ["Downlight- Senior Care"],
+          "amount" : ["35"],
+          "type" : ["Ceiling Recessed"],
+          "height" : ["9'-0\" AFF"],
+          "orientation" : ["Direct"],
+          "dimensions" : ["4.5\" Diameter"],
+          "lumens" : ["4070"],
+          "wattage" : ["62"],
+          "description" : ["6"]
         },
         "Cove + Floor Lamp + Table Lamp" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["Floor Lamp","Table Lamp","Linear Cove Fixtures"],
+          "fixture" : ["Floor Lamp","Table Lamp","Cove"],
+          "candela" : ["A 19 Lamp- Floor and Table Lamp","A 19 Lamp- Floor and Table Lamp","Cove- Senior Care"],
+          "amount" : ["14 lamps with 2 bulbs each","2 lamps with 2 bulbs each","Feature has 200 sources"],
+          "type" : ["Floor Lamp","Table Lamp","Cove Mounted"],
+          "height" : ["5'-3\" AFF","3'-10\" AFF","9'-2\" AFF"],
+          "orientation" : ["Horizontal","Horizontal","Indirect"],
+          "dimensions" : ["A19","A19","Source = 1' length"],
+          "lumens" : ["1179","1179","1000"],
+          "wattage" : ["12","12","19"],
+          "description" : ["7","11","3"]
         },
         "Downlight + Hanging Pendant + Floor Lamp + Table Lamp" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["Downlight","Hanging Pendant","Floor Lamp","Table Lamp"],
+          "fixture" : ["Downlight","Hanging Pendant","Floor Lamp","Table Lamp"],
+          "candela" : ["Downlight- Senior Care","Hanging Pendant","A19 Lamp- Floor and Table Lamp","A19 Lamp- Floor and Table Lamp"],
+          "amount" : ["15","10","2 lamps with 2 bulbs each","2 lamps with 2 bulbs each"],
+          "type" : ["Ceiling Recessed","Pendant","Floor Lamp","Table Lamp"],
+          "height" : ["9'-0\" AFF","5'-6\" AFF","5'-3\" AFF","3'-10\" AFF"],
+          "orientation" : ["Direct","Direct/Indirect","Horizontal","Horizontal"],
+          "dimensions" : ["4.5\" Diameter","1' Diameter","A19","A19"],
+          "lumens" : ["4070","1568","1179","1179"],
+          "wattage" : ["62","19","12","12"],
+          "description" : ["6","9","7","11"]
         }
       }
     },
@@ -186,135 +186,135 @@
       {
         "2x4 Troffer" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["2x4 Troffer"],
+          "fixture" : ["2x4 Troffer"],
+          "candela" : ["2x4 Troffer"],
+          "amount" : ["28"],
+          "type" : ["Ceiling Recessed"],
+          "height" : ["10'-0\" AFF"],
+          "orientation" : ["Direct"],
+          "dimensions" : ["2'x4'"],
+          "lumens" : ["4493"],
+          "wattage" : ["41"],
+          "description" : ["2"]
         },
         "Downlight" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["Downlight"],
+          "fixture" : ["Downlight"],
+          "candela" : ["Downlight- Office- Traditional"],
+          "amount" : ["42"],
+          "type" : ["Ceiling Recessed"],
+          "height" : ["10'-0\" AFF"],
+          "orientation" : ["Direct"],
+          "dimensions" : ["4\" Diameter"],
+          "lumens" : ["1487"],
+          "wattage" : ["24"],
+          "description" : ["6"]
         },
         "Direct/Indirect Linear Pendant" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["Direct/Indirect Linear Pendant"],
+          "fixture" : ["Direct Indirect Linear Pendant"],
+          "candela" : ["DirectIndirect Pendant- Office"],
+          "amount" : ["44"],
+          "type" : ["Pendant"],
+          "height" : ["7'-0\" AFF"],
+          "orientation" : ["Direct/Indirect"],
+          "dimensions" : ["4' Linear"],
+          "lumens" : ["4797"],
+          "wattage" : ["53"],
+          "description" : ["5"]
         }
       },
       "New Open Office" :
       {
         "2x4 Troffer" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["2x4 Troffer"],
+          "fixture" : ["2x4 Troffer"],
+          "candela" : ["2x4 Troffer"],
+          "amount" : ["24"],
+          "type" : ["Ceiling Recessed"],
+          "height" : ["9'-0\" AFF"],
+          "orientation" : ["Direct"],
+          "dimensions" : ["2'x4'"],
+          "lumens" : ["4493"],
+          "wattage" : ["41"],
+          "description" : ["2"]
         },
         "Downlight" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["Downlight"],
+          "fixture" : ["Downlight"],
+          "candela" : ["Downlight- Office- New- Private"],
+          "amount" : ["42"],
+          "type" : ["Ceiling Recessed"],
+          "height" : ["9'-0\" AFF"],
+          "orientation" : ["Direct"],
+          "dimensions" : ["4\"x4\""],
+          "lumens" : ["1669"],
+          "wattage" : ["30"],
+          "description" : ["6"]
         },
         "Direct/Indirect Linear Pendant" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["Direct/Indirect Linear Pendant"],
+          "fixture" : ["Direct Indirect Linear Pendant"],
+          "candela" : ["DirectIndirect Pendant- Office"],
+          "amount" : ["24"],
+          "type" : ["Pendant"],
+          "height" : ["7'-0\" AFF"],
+          "orientation" : ["Direct/Indirect"],
+          "dimensions" : ["4' Linear"],
+          "lumens" : ["4743"],
+          "wattage" : ["28"],
+          "description" : ["5"]
         }
       },
       "Private Office" :
       {
         "2x4 Troffer" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["2x4 Troffer"],
+          "fixture" : ["2x4 Troffer"],
+          "candela" : ["2x4 Troffer- Office"],
+          "amount" : ["4"],
+          "type" : ["Ceiling Recessed"],
+          "height" : ["9'-0\" AFF"],
+          "orientation" : ["Direct"],
+          "dimensions" : ["2'x4'"],
+          "lumens" : ["4493"],
+          "wattage" : ["41"],
+          "description" : ["2"]
         },
         "Direct/Indirect Linear Pendant" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["Direct/Indirect Linear Pendant"],
+          "fixture" : ["Direct Indirect Linear Pendant"],
+          "candela" : ["DirectIndirect Pendant- Office"],
+          "amount" : ["6"],
+          "type" : ["Pendant"],
+          "height" : ["7'-0\" AFF"],
+          "orientation" : ["Direct/Indirect"],
+          "dimensions" : ["4' Linear"],
+          "lumens" : ["6751"],
+          "wattage" : ["80"],
+          "description" : ["5"]
         },
         "Downlight + Blue/Red Wall Wash" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["Downlight","Wall Wash"],
+          "fixture" : ["Downlight","Wall Wash 2"],
+          "candela" : ["Downlight- Office- New- Private","Wall Wash- Office"],
+          "amount" : ["6","8"],
+          "type" : ["Ceiling Recessed","Ceiling Recessed"],
+          "height" : ["9'-0\" AFF","9'-0\" AFF"],
+          "orientation" : ["Direct","Direct"],
+          "dimensions" : ["4\"x4\"","4' Linear"],
+          "lumens" : ["1669","2581"],
+          "wattage" : ["30","15"],
+          "description" : ["6","16"]
         }
       }
     },
@@ -324,124 +324,124 @@
       {
         "2x4 Troffer + Wall Sconce" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["2x4 Troffers","Wall Sconce"],
+          "fixture" : ["2x4 Troffer","Wall Sconce"],
+          "candela" : ["2x4 Troffer- Healthcare","Wall Sconce- Healthcare"],
+          "amount" : ["1","1"],
+          "type" : ["Ceiling Recessed","Wall Mounted"],
+          "height" : ["9'-0\" AFF","5'-0\" AFF"],
+          "orientation" : ["Direct","Direct/Indirect"],
+          "dimensions" : ["2'x4'","4' Linear"],
+          "lumens" : ["4700","1432"],
+          "wattage" : ["72","58"],
+          "description" : ["2","14"]
         },
         "Recessed Linear + Downlight + Wall Wash + Wall Sconce" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["Recessed Linear","Downlight","Wall Sconce","Wall Wash"],
+          "fixture" : ["Recessed Linear","Downlight","Wall Sconce","Wall Wash 2"],
+          "candela" : ["Recessed Linear","Downlight- Healthcare","Wall Sconce- Healthcare","Wall Wash- Healthcare- Single- Double- NICU"],
+          "amount" : ["2","3","1","Feature has 2 sources"],
+          "type" : ["Ceiling Recessed","Ceiling Recessed","Wall Mounted","Ceiling Recessed"],
+          "height" : ["9'-0\" AFF","9'-0\" AFF","5'-0\" AFF","9'-0\" AFF"],
+          "orientation" : ["Direct","Direct","Direct/Indirect","Direct"],
+          "dimensions" : ["4' Linear","4\" Diameter","4' Linear","4' Linear"],
+          "lumens" : ["2372","977","1432","1187"],
+          "wattage" : ["26","23","58","23"],
+          "description" : ["10","6","14","16"]
         }
       },
       "Double Patient Room" :
       {
         "2x4 Troffer + Wall Sconce" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["2x4 Troffers","Wall Sconce"],
+          "fixture" : ["2x4 Troffer","Wall Sconce"],
+          "candela" : ["2x4 Troffer- Healthcare","Wall Sconce- Healthcare"],
+          "amount" : ["1","1"],
+          "type" : ["Ceiling Recessed","Wall Mounted"],
+          "height" : ["9'-0\" AFF","5'-0\" AFF"],
+          "orientation" : ["Direct","Direct/Indirect"],
+          "dimensions" : ["2'x4'","4' Linear"],
+          "lumens" : ["4700","1432"],
+          "wattage" : ["72","58"],
+          "description" : ["2","14"]
         },
         "Recessed Linear + Downlight + Wall Wash + Wall Sconce" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["Recessed Linear","Downlight","Wall Sconce","Wall Wash"],
+          "fixture" : ["Recessed Linear","Downlight","Wall Sconce","Wall Wash 2"],
+          "candela" : ["Recessed Linear","Downlight- Healthcare","Wall Sconce- Healthcare","Wall Wash- Healthcare- Single- Double- NICU"],
+          "amount" : ["2","3","1","Feature has 2 sources"],
+          "type" : ["Ceiling Recessed","Ceiling Recessed","Wall Mounted","Ceiling Recessed"],
+          "height" : ["9'-0\" AFF","9'-0\" AFF","5'-0\" AFF","9'-0\" AFF"],
+          "orientation" : ["Direct","Direct","Direct/Indirect","Direct"],
+          "dimensions" : ["4' Linear","4\" Diameter","4' Linear","4' Linear"],
+          "lumens" : ["2372","977","1432","1187"],
+          "wattage" : ["26","23","58","23"],
+          "description" : ["10","6","14","16"]
         }
       },
       "Neonatal Intensive Care Unit" :
       {
         "2x4 Troffer + Blue/Red Desk Luminaire + Wall Valance" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["2x4 Troffers","Desk Luminaire","Wall Valance"],
+          "fixture" : ["2x4 Troffer","Desk Luminaire","Wall Valance"],
+          "candela" : ["2x4 Troffer- Healthcare","Desk Luminaire","Perimeter Valance- Healthcare- Senior Care"],
+          "amount" : ["16","3","66"],
+          "type" : ["Ceiling Recessed","Desk Luminaire","Furniture Mounted"],
+          "height" : ["10'-0\" AFF","1'-9\" AFF","7'-5\" AFF"],
+          "orientation" : ["Direct","Horizontal","Direct"],
+          "dimensions" : ["4' Linear","1' Linear","1.5' Linear"],
+          "lumens" : ["3320","402","291"],
+          "wattage" : ["39","7","7"],
+          "description" : ["10","4","13"]
         },
         "Recessed Linear + Blue/Red Downlight + Blue Wall Wash + Cove" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["Recessed Linear","Downlight","Wall Wash","Cove Linear"],
+          "fixture" : ["Recessed Linear","Downlight","Wall Wash 2","Cove"],
+          "candela" : ["Recessed Linear","Downlight- Healthcare","Wall Wash- Healthcare- Single- Double- NICU","Cove- Healthcare"],
+          "amount" : ["6","17","32","Feature has 21 sources"],
+          "type" : ["Ceiling Mounted","Ceiling Mounted","Ceiling Mounted","Cove Mounted"],
+          "height" : ["12'-0\" AFF","10'-0\" AFF and 12'-0\" AFF","10'-0\" AFF","10'-0\" AFF"],
+          "orientation" : ["Direct","Direct","Direct","Indirect"],
+          "dimensions" : ["4' Linear","4\" Diameter","4' Linear","4' Linear"],
+          "lumens" : ["2372","977","1187","1566"],
+          "wattage" : ["27","23","23","25"],
+          "description" : ["10","6","16","3"]
         }
       },
       "Nurses Station" :
       {
         "Recessed Linear + Blue/Red Desk Luminaire + Under Cabinet" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["Recessed Linear","Desk Luminaire","Under Cabinet"],
+          "fixture" : ["Recessed Linear","Desk Luminaire","Under Cabinet"],
+          "candela" : ["Recessed Linear","Desk Luminaire","Under Caninet- Healthcare"],
+          "amount" : ["10","10","33"],
+          "type" : ["Ceiling Recessed","Desk Luminaire","Furniture Mounted"],
+          "height" : ["10'-0\" AFF","1'-9\" above desk","4'-6\" AFF"],
+          "orientation" : ["Direct","Horizontal","Direct"],
+          "dimensions" : ["4' Linear","1' Linear","1.5' Linear"],
+          "lumens" : ["3320","402","291"],
+          "wattage" : ["39","7","7"],
+          "description" : ["10","4","13"]
         },
         "Recessed Linear + Blue/Red Wall Wash" :
         {
-          "name" : [""],
-          "fixture" : [""],
-          "candela" : [""],
-          "amount" : [""],
-          "type" : [""],
-          "height" : [""],
-          "orientation" : [""],
-          "dimensions" : [""],
-          "lumens" : [""],
-          "wattage" : [""],
-          "description" : [""]
+          "name" : ["Recessed Linear", "Wall Wash"],
+          "fixture" : ["Recessed Linear","Wall Wash 2"],
+          "candela" : ["Recessed Linear","Wall Wash- Nurses Station"],
+          "amount" : ["10","9"],
+          "type" : ["Celining Recessed","Ceiling Mounted"],
+          "height" : ["10'-0\" AFF","10'-0\" AFF"],
+          "orientation" : ["Direct","Direct"],
+          "dimensions" : ["4' Linear","6' Linear"],
+          "lumens" : ["3320","2669"],
+          "wattage" : ["39","27"],
+          "description" : ["9","16"]
         }
       }
     }
