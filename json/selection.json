@@ -37,24 +37,25 @@
         "img" : "img/application/selection/2 Room/SeniorCare_NursingHomeSingle.jpg",
         "desc" : "A design for a small sized single bedroom in a nursing home facility includes a twin bed, living room area with couch and television, dining area. A French door off the dining area leads to an exterior patio."
       },
-      "Common Area": {
+      "Common Area":
+      {
         "img" : "img/application/selection/2 Room/SeniorCare_Common.jpg",
-        "desc" : "A design for a recreational area in a senior living facility is one large room divided into two separate areas for dining and activity. The dining area has round tables with chairs and the activity area has sofas, side tables, and rectangular tables with chairs for recreational use."
+        "desc" : "A design for a recreational area in a senior living facility is one large room divided into two areas for dining and activity. The dining area includes round tables with chairs and the activity area consists of sofas, side tables, and rectangular tables with chairs for recreational use."
       },
       "Single Patient Room":
       {
         "img": "img/application/selection/2 Room/Healthcare_SinglePatientRoom.jpg",
-        "desc" : "A design for a single patient room has room for one patient and one guest. It has an adjustable bed, a cabinet, and a chair."
+        "desc" : "A design for a single patient room has room for one patient and one guest. It includes an adjustable bed, a cabinet, and a chair."
       },
       "Double Patient Room":
       {
         "img": "img/application/selection/2 Room/Healthcare_DoublePatientRoom.jpg",
-        "desc" : "A design for a double patient room has room for 2 patients and 2 guests. It has 2 adjustable beds, 2 cabinets, and 2 chairs."
+        "desc" : "A design for a double patient room has room for 2 patients and 2 guests. It includes 2 adjustable beds, 2 cabinets, and 2 chairs."
       },
       "Nurses Station":
       {
         "img": "img/application/selection/2 Room/Healthcare_NursesStation.jpg",
-        "desc" : "A design for a  nurse's station in an open hospital hallway seats 11 nurses and contains built in desks and office chairs."
+        "desc" : "A design for a nurse's station in an open hospital hallway seats 11 nurses and contains built in desks and office chairs."
       },
       "Neonatal Intensive Care Unit":
       {
@@ -74,7 +75,7 @@
       "Private Office":
       {
         "img": "img/application/selection/2 Room/Office_Private.jpg",
-        "desc" : "A design for a private office includes an office desk and two guest seats. Lighting designs can be individualized since one user typically occupies the space. "
+        "desc" : "A design for a private office includes an office desk and two guest seats. Lighting designs can be individualized since one user typically occupies the space."
       }
     },
     "Fixture":
