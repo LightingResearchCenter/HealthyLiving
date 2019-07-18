@@ -4,9 +4,9 @@
     {
       "Assisted Living Single with Kitchen" :
       {
+        "desc" : "A single-occupancy assisted living room is where a resident resides, and could have a personalized lighting design. This 390 sf living area with an 8-foot ceiling includes a kitchen area for personal use.The room also contains a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. From eating meals at the table, or relaxing on the couch or bed, designs should aim to reach desired CS levels in these locations.",
         "2x4 Center Basket Troffer" :
         {
-          "desc" : "A single-occupancy assisted living room is where a resident resides, and could have a personalized lighting design. This 390 sf room includes a kitchen area for personal use.The room also contains a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. From eating meals at the table, or relaxing on the couch or bed, designs should aim to reach desired CS levels in these locations.<br/><br/>The lighting design consists of six 2x4 “center basket” troffers that are spaced 8’x8’ on center within the space.",
           "0.4" :
           {
             "Static" :
@@ -258,7 +258,6 @@
         },
         "Downlight" :
         {
-          "desc" : "A single-occupancy assisted living room is where a resident resides, and could have a personalized lighting design. This 390 sf s room includes a kitchen area for personal use.The room also contains a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. From eating meals at the table, or relaxing on the couch or bed, designs should aim to reach desired CS levels in these locations. <br/><br/>The lighting design consists of eight downlights in the space. Spacing of fixtures is displayed on the lighting plan.",
           "0.4" :
           {
             "Static" :
@@ -510,7 +509,6 @@
         },
         "Flush Mount + Hanging Pendant" :
         {
-          "desc" : "A single-occupancy assisted living room is where a resident resides, and could have a personalized lighting design. This 390 sf room includes a kitchen area for personal use.The room also contains a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. From eating meals at the table, or relaxing on the couch or bed, designs should aim to reach desired CS levels in these locations.<br/><br/>The lighting design consists of five flush mount fixtures and one hanging pendant over the table. Spacing of fixtures is displayed on the lighting plan.",
           "0.4" :
           {
             "Static" :
@@ -762,7 +760,6 @@
         },
         "Downlight + Flush Mount + Hanging Pendant + Wall Valance + Under Cabinet + TV Valance" :
         {
-          "desc" : "A single-occupancy assisted living room is where a resident resides, and could have a personalized lighting design. This 390 sf room includes a kitchen area for personal use.The room also contains a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. From eating meals at the table, or relaxing on the couch or bed, designs should aim to reach desired CS levels in these locations.<br/><br/>This combination lighting design consists of six downlights providing general ambient lighting, along with a pendant and under cabinet lighting for supplementary task illumination. A flush mount furnishes a home-like feel to the space, and three valances deliver more light at the eye at the bed, couch, and dining room table to promote circadian entrainment. Spacing of fixtures is displayed on the lighting plan.",
           "0.4" :
           {
             "Static" :
@@ -1015,9 +1012,9 @@
       },
       "Nursing Home Single" :
       {
+        "desc" : "A single-occupancy nursing home room is where a resident resides, and could have a personalized lighting design. This 280 sf living area with an 8-foot ceiling includes a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. From eating meals at the table, or relaxing on the couch or bed, designs should aim to reach desired CS levels in these locations.",
         "2x4 Center Basket Troffer" :
         {
-          "desc" : "A single-occupancy nursing home room is where a resident resides, and could have a personalized lighting design. This 280 sf room includes a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. From eating meals at the table, or relaxing on the couch or bed, designs should aim to reach desired CS levels in these locations.<br/><br/>The lighting design consists of four 2x4 “center basket” troffers. Spacing of fixtures is displayed on the lighting plan.",
           "0.4" :
           {
             "Static" :
@@ -1269,7 +1266,6 @@
         },
         "Downlight" :
         {
-          "desc" : "A single-occupancy nursing home room is where a resident resides, and could have a personalized lighting design. This 280 sf room includes a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. From eating meals at the table, or relaxing on the couch or bed, designs should aim to reach desired CS levels in these locations.<br/><br/>The lighting design consists of six downlights. Spacing of fixtures is displayed on the lighting plan.",
           "0.4" :
           {
             "Static" :
@@ -1521,7 +1517,6 @@
         },
         "Flush Mount + Hanging Pendant" :
         {
-          "desc" : "A single-occupancy nursing home room is where a resident resides, and could have a personalized lighting design. This 280 sf room includes a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. From eating meals at the table, or relaxing on the couch or bed, designs should aim to reach desired CS levels in these locations.<br/><br/>The lighting design consists of four flush mount fixtures, and one hanging pendant over the dining room table. Spacing of fixtures is displayed on the lighting plan.",
           "0.4" :
           {
             "Static" :
@@ -1773,7 +1768,6 @@
         },
         "Flush Mount + Hanging Pendant + Perimeter Valance" :
         {
-          "desc" : "A single-occupancy nursing home room is where a resident resides, and could have a personalized lighting design. This 280 sf room includes a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. From eating meals at the table, or relaxing on the couch or bed, designs should aim to reach desired CS levels in these locations.<br/><br/>This combination lighting design consists of four flush mount fixtures, and one hanging pendant over the dining room table. An additional layer of light is added with indirect Spacing of fixtures is displayed on the lighting plan.",
           "0.4" :
           {
             "Static" :
@@ -2026,9 +2020,9 @@
       },
       "Common Area" :
       {
+        "desc" : "A common area in a senior care facility is where residents can spend most of their day. This 1550 sf common area with a 9-foot ceiling is divided into two areas for dining and activities. The dining area has round tables with chairs and the activity area has sofas, side tables, and rectangular tables with chairs for recreational use. From eating meals in the dining area, relaxing on the couch, or sitting at the activity tables, designs should aim to reach desired CS levels in these locations. Lighting schedules should be similar to those in individual’s rooms.",
         "2x4 Center Basket Troffer" :
         {
-          "desc" : "A common area in a senior care facility is where residents can spend most of their day. This 1550 sf common area is divided into two areas for dining and activities. The dining area has round tables with chairs and the activity area has sofas, side tables, and rectangular tables with chairs for recreational use. From eating meals in the dining area, relaxing on the couch, or sitting at the activity tables, designs should aim to reach desired CS levels in these locations. <br/><br/>The lighting design consists of twenty-four 2x4 “center basket” troffers that are spaced 8’x8’ on center within the space.",
           "0.4" :
           {
             "Static" :
@@ -2280,7 +2274,6 @@
         },
         "Downlight" :
         {
-          "desc" : "A common area in a senior care facility is where residents can spend most of their day. This 1550 sf common area is divided into two areas for dining and activities. The dining area has round tables with chairs and the activity area has sofas, side tables, and rectangular tables with chairs for recreational use. From eating meals in the dining area, relaxing on the couch, or sitting at the activity tables, designs should aim to reach desired CS levels in these locations. <br/><br/>The lighting design consists of thirty-five downlights that are spaced 6’x6’ on center within the space.",
           "0.4" :
           {
             "Static" :
@@ -2532,7 +2525,6 @@
         },
         "Cove + Floor Lamp + Table Lamp" :
         {
-          "desc" : "A common area in a senior care facility is where residents can spend most of their day. This 1550 sf common area is divided into two areas for dining and activities. The dining area has round tables with chairs and the activity area has sofas, side tables, and rectangular tables with chairs for recreational use. From eating meals in the dining area, relaxing on the couch, or sitting at the activity tables, designs should aim to reach desired CS levels in these locations. <br/><br/>The lighting design consists of two-hundred 1-foot linears that are arrayed along the two coves above the dining and recreational areas. Table and floor lamps are placed for additional task lighting as well as provide a more home-like feel in the space.",
           "0.4" :
           {
             "Static" :
@@ -2784,7 +2776,6 @@
         },
         "Downlight + Hanging Pendant + Floor Lamp + Table Lamp" :
         {
-          "desc" : "A common area in a senior care facility is where residents can spend most of their day. This 1550 sf common area is divided into two areas for dining and activities. The dining area has round tables with chairs and the activity area has sofas, side tables, and rectangular tables with chairs for recreational use. From eating meals in the dining area, relaxing on the couch, or sitting at the activity tables, designs should aim to reach desired CS levels in these locations. <br/><br/>This combination lighting design consists of fifteen downlights along the ceiling that provide ambient light. Ten hanging pendants above tables, and floor and table lamps near seating areas provide more task lighting.",
           "0.4" :
           {
             "Static" :
@@ -3040,6 +3031,7 @@
     {
       "Traditional Open Office" :
       {
+        "desc" : "A traditional open office layout consists of 4-foot tall cubicle dividers that separate the view of other desks. This 2640 sf office area with a 9-foot ceiling includes four clusters of four cubicles. Since a typical worker spends 8+ hours at their desk each day, it is essential to provide sufficient lighting for circadian entrainment and alertness.",
         "2x4 Troffer" :
         {
           "0.4" :
@@ -3673,6 +3665,7 @@
       },
       "New Open Office" :
       {
+        "desc" : "A new open-concept office layout provides a modern design for a more collaborative workplace. This 2640 sf office area with a 10-foot ceiling includes six clusters of six desks with short dividers in between the center row of the desks. Since a typical worker spends 8+ hours at their desk each day, it is essential to provide sufficient lighting for circadian entrainment and alertness.",
         "2x4 Troffer" :
         {
           "0.4" :
@@ -4306,6 +4299,7 @@
       },
       "Private Office" :
       {
+        "desc" : "A private office for a single individual can tailor a specific lighting design for its occupant. This 270 sf office area with a 9-foot ceiling includes a personal desk with two seats for visitors. Since a typical worker spends 8+ hours at their desk each day, it is essential to provide sufficient lighting for circadian entrainment and alertness.",
         "2x4 Troffer" :
         {
           "0.4" :
@@ -4836,6 +4830,7 @@
     {
       "Single Patient Room" :
       {
+        "desc" : "A single occupancy room in a hospital is where a patient can spend anywhere from one day to several months. This 290 sf room with a 9-foot ceiling includes a personal bathroom, hospital bed, television, and visitor chair. Since sleep and mood play a large role in recovery, it is advantageous to have proper lighting to encourage circadian entrainment, as well as create a welcoming atmosphere.",
         "2x4 Troffer + Wall Sconce" :
         {
           "0.3" :
@@ -5037,6 +5032,7 @@
       },
       "Double Patient Room" :
       {
+        "desc" : "A double occupancy room in a hospital is where one or two patients can spend anywhere from one day to several months. This 430 sf room with a 9-foot ceiling includes a personal bathroom, two hospital beds, two televisions, and visitor chairs. Since sleep and mood play a large role in recovery, it is advantageous to have proper lighting to encourage circadian entrainment, as well as create a welcoming atmosphere.",
         "2x4 Troffer + Wall Sconce" :
         {
           "0.3" :
@@ -5238,6 +5234,7 @@
       },
       "Neonatal Intensive Care Unit" :
       {
+        "desc" : "A NICU (newborn intensive care unit) in a  hospital is where nurses watch over infants born prematurely. This 1975 sf room with a 10-foot ceiling includes a main desk with incubators around the perimeter of the room. Since nurses and infants have different circadian needs, zones of light should be created to achieve desired CS levels for both user types.",
         "2x4 Troffer + Blue/Red Desk Luminaire + Perimeter Valance" :
         {
           "0.5-0.3 short" :
@@ -5711,6 +5708,7 @@
       },
       "Nurses Station" :
       {
+        "desc" : "A Nurse’s station in a hospital is where nurses spend their time when they’re not in patient rooms. This 1190 sf room with a 10-foot ceiling includes a main desk and workstations located off a hallway. Since nurse’s shifts go around the clock, lighting should accommodate for varying schedules.",
         "Recessed Linear + Blue/Red Desk Luminaire + Under Cabinet" :
         {
           "0.4 short" :
