@@ -470,7 +470,7 @@ function buildHTML(){
   str += '            <a class="right-panel-expandable" data-toggle="collapse" data-target="#roomDescriptionContentContainer" aria-expanded="true" aria-controls="roomDescriptionContentContainer">';
   str += '              <div class="card-body pb-0">';
   str += '                <h5 class="card-title right-panel-h5 mb-0">Room Description</h5>';
-  str += '                <div id="roomDescriptionContentContainer" class="right-panel-content collapse show">';
+  str += '                <div id="roomDescriptionContentContainer" class="right-panel-content-container right-panel-content collapse show">';
   str += '                <hr class="right-panel-hr"/>';
   str += '                <p id="roomDescriptionContent" class="card-text right-panel-p"></p>'
   str += '                </div>';
@@ -478,10 +478,10 @@ function buildHTML(){
   str += '            </a>';
   str += '          </div>';
   str += '          <div class="card right-panel-card">';
-  str += '            <a class="right-panel-expandable" data-toggle="collapse" data-target="#assumptionsContentContainer" aria-expanded="false" aria-controls="assumptionsContentContainer">';
+  str += '            <a class="right-panel-expandable collapsed" data-toggle="collapse" data-target="#assumptionsContentContainer" aria-expanded="false" aria-controls="assumptionsContentContainer">';
   str += '              <div class="card-body pb-0">';
   str += '                <h5 class="card-title right-panel-h5 mb-0">Assumptions</h5>';
-  str += '                <div id="assumptionsContentContainer" class="right-panel-content collapse"><hr class="right-panel-hr"/>';
+  str += '                <div id="assumptionsContentContainer" class="right-panel-content-container right-panel-content collapse"><hr class="right-panel-hr"/>';
   str += '                  <ul class="assumptions-outer-ul pl-2">';
   str += '                    <li class="assumptions-outer-li">- Room reflectances';
   str += '                      <p class="right-panel-p mb-0">A room’s finishing material and color can change perception of space as well as reflect or absorb light to affect how much gets to the eye. Reflectances are based on a percentage of how much light is reflected off a surface.</p>';
@@ -511,10 +511,10 @@ function buildHTML(){
   str += '            </div>';
   str += '          </div>';
   str += '          <div class="card right-panel-card">';
-  str += '            <a class="right-panel-expandable" data-toggle="collapse" data-target=".fixturesContentContainer" aria-expanded="false" aria-expanded="false" aria-controls="fixtureContentContainer">';
-  str += '              <div class="card-body pb-0">';
+  str += '            <a class="right-panel-expandable collapsed" data-toggle="collapse" data-target=".fixturesContentContainer" aria-expanded="false" aria-expanded="false" aria-controls="fixtureContentContainer">';
+  str += '              <div id="fixture_card" class="card-body pb-0">';
   str += '                <h5 class="card-title right-panel-h5 mb-0">Fixtures</h5>';
-  str += '                <div class="fixturesContentContainer right-panel-content collapse">';
+  str += '                <div class="fixturesContentContainer right-panel-content-container right-panel-content collapse">';
   str += '                 <hr class="right-panel-hr"/>';
   str += '                 <div class="container-fluid px-0">';
   str += '                   <div class="row mb-3">';
@@ -548,7 +548,7 @@ function buildHTML(){
   str += '                </div>';
   str += '              </div>';
   str += '            </a>';
-  str += '            <div class="card-footer fixtures-card-footer fixturesContentContainer collapse">';
+  str += '            <div class="card-footer fixtures-card-footer right-panel-content-container fixturesContentContainer collapse">';
   str += '              <ul id="fixture_footer" class="nav nav-tabs nav-tabs-footer card-footer-tabs">';
   str += '              </ul>';
   str += '            </div>';
@@ -699,7 +699,7 @@ function generateFixtures(data){
       var count = Object.values(fixtures[data.facility][data.room][data.fixture])[0].length;
       var str = '';
       for (var i = 0; i < count; i++){
-        str += '<li class="nav-item nav-item-footer"><a ';
+        str += '<li class="nav-item nav-item-footer nav-item-footer-fixtures"><a ';
         if (i==0){
           str += 'id="fixture_change_first" ';
         }
@@ -725,6 +725,25 @@ function generateFixtures(data){
       });
       $('#fixture_change_first').trigger('click');
     });
+  });
+}
+
+function handleRightPanelAccordion(){
+  $('.right-panel-expandable').click(function(){
+    var clicked = $(this);
+    if(clicked.hasClass('collapsed')){
+      $('.right-panel-expandable').each(function(){
+        var other = $(this)
+        if (!other.hasClass('collapsed')){
+          other.find('.right-panel-content-container').each(function(){
+            $(this).collapse('toggle');
+          });
+          if(other.next().hasClass('right-panel-content-container')){
+            other.next().collapse('toggle');
+          }
+        }
+      });
+    }
   });
 }
 
@@ -754,11 +773,23 @@ function generateFixtureIcons(fixture){
   fixture = fixture.replace(/\s/g,'').replace('Blue/Red','').replace('Blue', '').replace('Red','').replace('/','').split('+');
   str = '';
   for (var i = 0; i < fixture.length; i++){
-    str += '<div class="mb-2 fixture-container">';
-    str += '  <img class="m-0 px-1" src="img/application/fixtures/'+fixture[i]+'.png" alt="Fixture Image">';
+    str += '<div data-value="'+i+'" class="mb-2 px-1 fixture-container">';
+    str += '  <img class="m-0 p-0" src="img/application/fixtures/'+fixture[i]+'.png" alt="Fixture Image">';
     str += '</div>';
   }
   $('#final_fixtures').html(str);
+
+  $('.fixture-container').click(function(){
+    var num = $(this).data('value');
+    if(!$('.fixturesContentContainer').hasClass('show')){
+      $('#fixture_card').trigger('click');
+    }
+    $('ul#fixture_footer li a').each(function(){
+      if ($(this).data('value') == num){
+        $(this).trigger('click');
+      }
+    });
+  });
 }
 
 function generateAdjustments(hb,selection,data){
@@ -857,6 +888,7 @@ function generateContent(hb,selection,data){
   generateFinalBreadcrumb(hb,selection,data);
   generateDescription(hb,data);
   generateFixtures(data);
+  handleRightPanelAccordion();
 }
 
 $(document).ready(function(){
