@@ -84,17 +84,17 @@
       "2x4 Center Basket Troffer":
       {
         "img" : "img/application/selection/3 Fixture/2x4 Center basket Troffer.jpg",
-        "desc" : "“Center basket” troffers are a newer troffer design that can retrofit into existing 2x4 ceiling grids. The fixture design provides a different beam distribution, and directs light more evenly into the space, compared to typical 2x4 troffers."
+        "desc" : "Center basket troffers are a newer troffer design that can retrofit into existing 2x4 ceiling grids. The fixture design provides a different beam distribution, and can direct light more evenly into the space, compared to typical 2x4 troffers."
       },
       "2x4 Troffer + Desk Luminaire + Wall Valance" :
       {
           "img" : "img/application/selection/3 Fixture/2x4 Troffer + Desk Luminaire + Wall Valance.jpg",
-          "desc" : ""
+          "desc" : "Traditional 2x4 troffers with retrofit LED bulbs provide ambient light for the space, being an easy solution for a new lighting design. A perimeter wall valance adds a layer of indirect lighting, and an option of turning on a gentle wall wash when nurses are checking on the infants. Desk luminaires provide a solution for circadian entrainment and alertness effects for the nurses while being non-invasive for the infants."
       },
       "2x4 Troffer + Blue/Red Desk Luminaire + Perimeter Valance" :
       {
         "img" : "img/application/selection/3 Fixture/2x4 Troffer + Desk Luminaire + Perimeter Valance.jpg",
-        "desc" : ""
+        "desc" : "Traditional 2x4 troffers with retrofit LED bulbs provide ambient light for the space, being an easy solution for a new lighting design. A perimeter wall valance adds a layer of indirect lighting, and an option of turning on a gentle wall wash when nurses are checking on the infants. Desk luminaires provide a solution for circadian entrainment and alertness effects for the nurses while being non-invasive for the infants."
       },
       "2x4 Troffer + Desk Luminaire" :
       {
@@ -104,17 +104,17 @@
       "2x4 Troffer + Wall Sconce":
       {
         "img" : "img/application/selection/3 Fixture/2x4 Troffer + Wall Sconce.jpg",
-        "desc" : ""
+        "desc" : "Traditional 2x4 troffers with retrofit LED bulbs provide ambient light for the space, being an easy solution for a new lighting design. A wall sconce mounted above a patient’s bed provides additional task and ambient illumination."
       },
       "2x4 Troffer":
       {
         "img" : "img/application/selection/3 Fixture/2x4 Troffer.jpg",
-        "desc" : "A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications. They are relatively inexpensive and can provide high, uniform illuminance levels throughout a room. Troffers usually house linear fluorescent lamps, but more recently LED troffers are available for replacement of fluorescent troffers.  Also, LED “tubes” are promoted as fluorescent lamp replacements."
+        "desc" : "A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications."
       },
       "Cove + Floor Lamp + Table Lamp":
       {
         "img" : "img/application/selection/3 Fixture/Cove + Floor Lamp + Table Lamp.jpg",
-        "desc" : "Cove design allows for hidden linear fixtures to be tucked into a lip that extends around the entire room. Light is distributed more evenly across the space since fixtures are arrayed beside one another along the cove border. Integrating a cove requires new construction of a space with the addition of higher ceilings. Floor and table lamps add an additional layer of task lighting."
+        "desc" : "Cove design allows for hidden linear fixtures to be tucked into a lip that extends around the perimeter of a room. Light is distributed more evenly across the space since fixtures are arrayed beside one another along the cove border. Integrating a cove requires new construction of a space with the addition of higher ceilings. Floor and table lamps add an additional layer of task lighting."
       },
       "Cove" :
       {
@@ -129,12 +129,12 @@
       "Direct/Indirect Linear Pendant":
       {
         "img" : "img/application/selection/3 Fixture/Direct Indirect Linear Pendant.jpg",
-        "desc" : ""
+        "desc" : "Linear pendants hang from the ceiling and can provide light directly (downward) and/or indirectly (upward). This duels as a means to provide more ambient illumination throughout the space using indirect light, as well as task illumination using direct light."
       },
       "Downlight + Blue/Red Wall Wash" :
       {
         "img" : "img/application/selection/3 Fixture/Downlight + Wall Wash.jpg",
-        "desc" : ""
+        "desc" : "Recessed downlights are mounted above the ceiling surface and provide ambient and task illumination. The linear wall washers wash the wall with a saturated blue or red color that can provide circadian entrainment as well as alertness when an occupant receives a desired amount at the eye."
       },
       "Downlight + Flush Mount + Hanging Pendant + Wall Valance + Under Cabinet + TV Valance":
       {
@@ -149,12 +149,12 @@
       "Downlight + Wall Wash" :
       {
         "img" : "img/application/selection/3 Fixture/Downlight + Wall Wash.jpg",
-        "desc" : ""
+        "desc" : "Recessed downlights are mounted above the ceiling surface and provide ambient and task illumination. The linear wall washers wash the wall with a saturated blue or red color that can provide circadian entrainment as well as alertness when an occupant receives a desired amount at the eye."
       },
       "Downlight" :
       {
         "img" : "img/application/selection/3 Fixture/Downlight.jpg",
-        "desc" : "Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing. Downlights may have integrated LED sources or contain CFLs or LED replacement lamps."
+        "desc" : "Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing."
       },
       "Floor Lamp" :
       {
@@ -169,7 +169,7 @@
       "Flush Mount + Hanging Pendant":
       {
         "img" : "img/application/selection/3 Fixture/Flush Mount + Hanging Pendant.jpg",
-        "desc" : "A modern twist to classic flush mount fixtures adds a more home-like feel to a space while providing more light into the space than original styles."
+        "desc" : "A modern twist to a classic flush mount fixtures adds a more home-like feel to a space while providing more light into the space than original styles."
       },
       "Flush Mount" :
       {
@@ -184,12 +184,12 @@
       "Recessed Linear + Desk Luminaire + Under Cabinet" :
       {
         "img" : "img/application/selection/3 Fixture/Recessed Linear + Desk Luminaire + Under Cabinet.jpg",
-        "desc" : ""
+        "desc" : "Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. Desk luminaires personalized for each occupant as well as under cabinet lighting provide additional task and ambient illumination."
       },
       "Recessed Linear + Blue/Red Desk Luminaire + Under Cabinet" :
       {
         "img" : "img/application/selection/3 Fixture/Recessed Linear + Desk Luminaire + Under Cabinet.jpg",
-        "desc" : ""
+        "desc" : "Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. Desk luminaires personalized for each occupant as well as under cabinet lighting provide additional task and ambient illumination."
       },
       "Recessed Linear + Desk Luminaire" :
       {
@@ -204,22 +204,22 @@
       "Recessed Linear + Downlight + Wall Wash + Cove" :
       {
         "img" : "img/application/selection/3 Fixture/Recessed Linear + Downlight + Wall Wash + Cove.jpg",
-        "desc" : ""
+        "desc" : "Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. The cove lighting above the nurse’s desk provides ambient lighting concentrated in that zone to allow for non-invasive light levels for the infants."
       },
       "Recessed Linear + Blue/Red Downlight + Blue Wall Wash + Cove" :
       {
         "img" : "img/application/selection/3 Fixture/Recessed Linear + Downlight + Wall Wash + Cove.jpg",
-        "desc" : ""
+        "desc" : "Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. The cove lighting above the nurse’s desk provides ambient lighting concentrated in that zone to allow for non-invasive light levels for the infants."
       },
       "Recessed Linear + Wall Sconce" :
       {
         "img" : "img/application/selection/3 Fixture/Recessed Linear + Wall Sconce.jpg",
-        "desc" : ""
+        "desc" : "Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. A wall sconce mounted above a patient’s bed provides additional task and ambient illumination."
       },
       "Recessed Linear + Wall Wash" :
       {
         "img" : "img/application/selection/3 Fixture/Recessed Linear + Wall Wash.jpg",
-        "desc" : ""
+        "desc" : "Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. A wall wash grazing the back wall provides more light to the eye for the occupants facing that direction."
       },
       "Recessed Linear + Blue/Red Wall Wash" :
       {
@@ -268,12 +268,12 @@
       "0.3":
       {
         "img" : "img/application/selection/4 Target CS/0.3.jpg",
-        "desc" : "Targeting a CS of 0.3 is the absolute minimum to have an effect on the circadian system. Target a CS of 0.3 if:<ul><li>The furniture layout is defined and occupant’s seating is known</li><li>Occupants prefer warmer CCTs (Warmer CCTs have a lesser effect on the circadian system, so more illuminance at the eye, compared to cooler CCTs, is needed to reach a higher CS)</li><li>Horizontal illuminance should not exceed 500 lux on the workplane</li><li>Energy consumption is a major concern</li></ul>"
+        "desc" : "Targeting a CS of 0.3 is the absolute minimum to have an effect on the circadian system. Target a CS of 0.3 if:<ul><li>Furniture layout: Defined / Static</li><li>CCT preference: Warm white (2700 K-3000 K)</li><li>Horizontal illuminance: <500 lux on the workplane</li><li>Energy consumption is a major concern</li></ul>"
       },
       "0.4":
       {
         "img" : "img/application/selection/4 Target CS/0.4.jpg",
-        "desc" : "Targeting a higher CS of 0.4 will better assure that the minimum of 0.3 CS is achieved where it is needed (e.g. where people are sitting). Target a CS of 0.4 if:<ul><li>The furniture layout is undefined and/or occupants’ seating is dynamic</li><li>Occupants prefer cooler CCTs (Cool CCTs have a greater effect on the circadian system, so less illuminance at the eye, compared to warmer CCTs, is needed to reach a higher CS)</li><li>Occupants have the tendency to not respond to light (e.g. the aging population due to the aging eye), or are more out of sync, or more susceptible to being out of sync (e.g. social jetlag)</li></ul>"
+        "desc" : "Targeting a higher CS of 0.4 will better assure that the minimum of 0.3 CS is achieved where it is needed (e.g. where people are sitting). Target a CS of 0.4 if:<ul><li>Furniture layout: Undefined / dynamic</li><li>CCT preference: Cool white (5000 K-6500 K)</li><li>Population: Occupants that have the tendency to not respond to light (e.g. the aging population due to the aging eye), or are more out of sync, or more susceptible to being out of sync (e.g. social jetlag)</li></ul>"
       },
       "0.5-0.3 short" :
       {
@@ -312,7 +312,7 @@
       "Tunable":
       {
         "img" : "img/application/selection/5 CCT System/Tunable.jpg",
-        "desc" : "A tunable CCT system uses multiple CCTs throughout the day to achieve a robust schedule. Schedules start with brighter, cooler CCTs in the morning hours and change CCT while dimming throughout the day. This better simulates sunlight throughout the day."
+        "desc" : "A tunable CCT system uses multiple CCTs throughout the day to achieve a robust schedule. Schedules start with brighter, cooler CCTs in the morning hours and change CCT while dimming throughout the day, and eventually turning off during sleeping hours. This better simulates sunlight throughout the day."
       }
     },
     "CCT":
@@ -336,7 +336,7 @@
       "3500 K" :
       {
         "img" : "img/application/selection/6 CCT/3000 K.jpg",
-        "desc" : "Neutral white"
+        "desc" : "Warm white"
       },
       "3000 K":
       {
@@ -355,8 +355,8 @@
       },
       "5000 K -> 4000 K -> 4000 K":
       {
-        "img" : "",
-        "desc" : ""
+        "img" : "img/application/selection/6 CCT/0.3 5000K-4000K-4000K.jpg",
+        "desc" : "Transition from a cool white light in the early hours of the day to a neutral white light at night."
       },
       "5000 K -> 4000 K -> 3000 K":
       {
@@ -366,12 +366,12 @@
       "5000 K -> 4000 K -> 3500 K" :
       {
         "img" : "img/application/selection/6 CCT/0.3 5000K-4000K-3500K.jpg",
-        "desc" : ""
+        "desc" : "Transition from a cool white light in the early hours of the day to a warm white light at night."
       },
       "5000 K -> 4000 K":
       {
         "img" : "img/application/selection/6 CCT/0.3 5000K-4000K.jpg",
-        "desc" : "Transition from a neutral white light in the early hours of the day to a warmer white light at night."
+        "desc" : "Transition from a neutral white light in the early hours of the day to a neutral white light at night."
       },
       "4000 K -> 3000 K -> 2700 K":
       {
@@ -381,12 +381,12 @@
       "4000 K -> 4000 K -> 3500 K":
       {
         "img" : "img/application/selection/6 CCT/0.3 4000K-4000K-3500K.jpg",
-        "desc" : ""
+        "desc" : "Transition from a neutral white light in the early hours of the day to a warm white light at night."
       },
       "4000 K -> 4000 K -> 3000 K":
       {
-        "img" : "",
-        "desc" : ""
+        "img" : "img/application/selection/6 CCT/0.3 4000K-4000K-3000K.jpg",
+        "desc" : "Transition from a neutral white light in the early hours of the day to a warm white light at night."
       },
       "6500 K -> 5000 K -> 4000 K -> 3000 K" :
       {
@@ -401,7 +401,7 @@
       "5000 K -> 5000 K -> 4000 K -> 4000 K":
       {
         "img" : "img/application/selection/6 CCT/0.4 5000K-5000K-4000K-4000K.jpg",
-        "desc" : "Transition from a neutral white light in the early hours of the day to a warmer white light at night."
+        "desc" : "Transition from a cool white light in the early hours of the day to a neutral white light at night."
       },
       "5000 K -> 4000 K -> 3000 K -> 2700 K":
       {
@@ -411,7 +411,7 @@
       "4000 K -> 4000 K -> 3500 K -> 3500 K":
       {
         "img" : "img/application/selection/6 CCT/0.4 4000K-4000K-3500K-3500K.jpg",
-        "desc" : "Transition from a neutral white light in the early hours of the day to a warmer white light at night."
+        "desc" : "Transition from a neutral white light in the early hours of the day to a warm white light at night."
       }
     }
   }
