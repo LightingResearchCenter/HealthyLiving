@@ -152,17 +152,17 @@
         },
         "Cove + Floor Lamp + Table Lamp" :
         {
-          "name" : ["Floor Lamp","Table Lamp","Linear Cove Fixtures"],
+          "name" : ["Cove","Floor Lamp","Table Lamp"],
           "fixture" : ["Floor Lamp","Table Lamp","Cove"],
-          "candela" : ["A 19 Lamp- Floor and Table Lamp","A 19 Lamp- Floor and Table Lamp","Cove- Senior Care"],
-          "amount" : ["14 lamps with 2 bulbs each","2 lamps with 2 bulbs each","Feature has 200 sources"],
-          "type" : ["Floor Lamp","Table Lamp","Cove Mounted"],
-          "height" : ["5'-3\" AFF","3'-10\" AFF","9'-2\" AFF"],
-          "orientation" : ["Horizontal","Horizontal","Indirect"],
-          "dimensions" : ["A19","A19","Source = 1' length"],
-          "lumens" : ["1179","1179","1000"],
-          "wattage" : ["12","12","19"],
-          "description" : ["Plug-in fixtures like table and floor lamps are easily connected to power through a standard wall outlet. Without the need for hardwiring, they offer the advantage of being easy to install and move as lighting needs change. Plug-in fixtures come in many sizes and shapes and can be used to provide ambient or task lighting. They can accommodate a wide variety of light sources including CFL, LED, and LED retrofit lamps.","Plug-in fixtures like table and floor lamps are easily connected to power through a standard wall outlet. Without the need for hardwiring, they offer the advantage of being easy to install and move as lighting needs change. Plug-in fixtures come in many sizes and shapes and can be used to provide ambient or task lighting. They can accommodate a wide variety of light sources including CFL, LED, and LED retrofit lamps.","Linear light sources are recessed or mounted horizontally in a cove and consist of a shield that hides linear fluorescent or LED light sources from view. Coves direct light upwards to the upper wall and ceiling to provide indirect, ambient light for a space. Angling the source or using one with an assymetric  beam distribution can help throw the light onto more of the ceiling."]
+          "candela" : ["Cove- Senior Care","A19 Lamp- Floor and Table Lamp","A19 Lamp- Floor and Table Lamp"],
+          "amount" : ["Feature has 200 sources","14 lamps with 2 bulbs each","2 lamps with 2 bulbs each"],
+          "type" : ["Cove Mounted","Floor Lamp","Table Lamp"],
+          "height" : ["9'-2\" AFF","5'-3\" AFF","3'-10\" AFF"],
+          "orientation" : ["Indirect","Horizontal","Horizontal"],
+          "dimensions" : ["Source = 1' length","A19","A19"],
+          "lumens" : ["1000","1179","1179"],
+          "wattage" : ["19","12","12"],
+          "description" : ["Linear light sources are recessed or mounted horizontally in a cove and consist of a shield that hides linear fluorescent or LED light sources from view. Coves direct light upwards to the upper wall and ceiling to provide indirect, ambient light for a space. Angling the source or using one with an assymetric  beam distribution can help throw the light onto more of the ceiling.","Plug-in fixtures like table and floor lamps are easily connected to power through a standard wall outlet. Without the need for hardwiring, they offer the advantage of being easy to install and move as lighting needs change. Plug-in fixtures come in many sizes and shapes and can be used to provide ambient or task lighting. They can accommodate a wide variety of light sources including CFL, LED, and LED retrofit lamps.","Plug-in fixtures like table and floor lamps are easily connected to power through a standard wall outlet. Without the need for hardwiring, they offer the advantage of being easy to install and move as lighting needs change. Plug-in fixtures come in many sizes and shapes and can be used to provide ambient or task lighting. They can accommodate a wide variety of light sources including CFL, LED, and LED retrofit lamps."]
         },
         "Downlight + Hanging Pendant + Floor Lamp + Table Lamp" :
         {
@@ -188,7 +188,7 @@
         {
           "name" : ["2x4 Troffer"],
           "fixture" : ["2x4 Troffer"],
-          "candela" : ["2x4 Troffer"],
+          "candela" : ["2x4 Troffer- Office"],
           "amount" : ["28"],
           "type" : ["Ceiling Recessed"],
           "height" : ["10'-0\" AFF"],
@@ -233,7 +233,7 @@
         {
           "name" : ["2x4 Troffer"],
           "fixture" : ["2x4 Troffer"],
-          "candela" : ["2x4 Troffer"],
+          "candela" : ["2x4 Troffer- Office"],
           "amount" : ["24"],
           "type" : ["Ceiling Recessed"],
           "height" : ["9'-0\" AFF"],
@@ -400,7 +400,7 @@
         },
         "Recessed Linear + Blue/Red Downlight + Blue Wall Wash + Cove" :
         {
-          "name" : ["Recessed Linear","Downlight","Wall Wash","Cove Linear"],
+          "name" : ["Recessed Linear","Downlight","Wall Wash","Cove"],
           "fixture" : ["Recessed Linear","Downlight","Wall Wash","Cove"],
           "candela" : ["Recessed Linear","Downlight- Healthcare","Wall Wash- Healthcare- Single- Double- NICU","Cove- Healthcare"],
           "amount" : ["6","17","32","Feature has 21 sources"],
@@ -433,7 +433,7 @@
         {
           "name" : ["Recessed Linear", "Wall Wash"],
           "fixture" : ["Recessed Linear","Wall Wash"],
-          "candela" : ["Recessed Linear","Wall Wash- Nurses Station"],
+          "candela" : ["Recessed Linear","Wall Wash- Healthcare- Nurses Station"],
           "amount" : ["10","9"],
           "type" : ["Celining Recessed","Ceiling Mounted"],
           "height" : ["10'-0\" AFF","10'-0\" AFF"],
