@@ -534,12 +534,12 @@ function buildHTML(){
   str += '                      <div class="col px-0">';
   str += '                        <ul class="pl-3 my-4">';
   str += '                          <li class="card-text right-panel-p"><b>Amount: </b><span id="fixture_amount"></span></li>';
-  str += '                          <li class="card-text right-panel-p"><b>Mounting Type: </b><span id="fixture_type"></span></li>';
-  str += '                          <li class="card-text right-panel-p"><b>Mounting Height: </b><span id="fixture_height"></span></li>';
+  str += '                          <li class="card-text right-panel-p"><b>Mounting type: </b><span id="fixture_type"></span></li>';
+  str += '                          <li class="card-text right-panel-p"><b>Mounting height: </b><span id="fixture_height"></span></li>';
   str += '                          <li class="card-text right-panel-p"><b>Orientation: </b><span id="fixture_orientation"></span></li>';
   str += '                          <li class="card-text right-panel-p"><b>Dimensions: </b><span id="fixture_dimensions"></span></li>';
-  str += '                          <li class="card-text right-panel-p"><b>Initial Lumens per Source: </b><span id="fixture_lumens"></span></li>';
-  str += '                          <li class="card-text right-panel-p"><b>Initial Wattage per Source: </b><span id="fixture_wattage"></span></li>';
+  str += '                          <li class="card-text right-panel-p"><b>Initial lumens per source: </b><span id="fixture_lumens"></span> lx</li>';
+  str += '                          <li class="card-text right-panel-p"><b>Initial wattage per source: </b><span id="fixture_wattage"></span> W</li>';
   str += '                        </ul>';
   str += '                       <p class="pl-3 card-text right-panel-p"><b>Description: </b><span id="fixture_description"></span></p>';
   str += '                      </div>';
