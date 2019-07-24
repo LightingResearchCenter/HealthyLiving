@@ -246,15 +246,35 @@ hr{
   position: -o-sticky;
   position: sticky;
   top: 0;
-  background-color: #00205b;
   z-index: 1;
+  background-color: rgb(240,240,240);
+  border-bottom: 1px solid #383838;
 }
 
 .sticky-title h1{
-  color: #fff !important;
 }
 
 .figure img{
   display: block;
   float: left;
+}
+
+.our-role-card{
+  border-radius: .25rem
+}
+
+.color-why{
+  background-color: rgba(200,200,200,0.5);
+}
+
+.color-what{
+  background-color: rgba(0,0,255,0.5);
+}
+
+.color-who{
+  background-color: rgba(255,0,0,0.5);
+}
+
+.color-how{
+  background-color: rgba(7,160,7,0.5);
 }

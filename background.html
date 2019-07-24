@@ -4,11 +4,11 @@
     <title>Healthy Patterns</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
-    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="js/accordion.js"></script>
-    <script type="text/javascript" src="js/background.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="js/accordion.js"></script>
+    <script src="js/background.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
     <link rel="stylesheet" href="https://use.typekit.net/hgq1zqp.css" />
@@ -21,9 +21,9 @@
     <div class="box">
       <!-- Navbar -->
         <div id="navbar">
-          <script type="text/javascript">$('#navbar').load('navbar.html');</script>
+          <script>$('#navbar').load('navbar.html');</script>
         </div>
-        <script type="text/javascript">
+        <script>
           $(document).ready(function(){
             $('#background-tab').addClass('active');
             $('#application-tab').attr("href", "application.html");
@@ -53,8 +53,13 @@
               <ul>
                 <li><a href="#">Background</a>
                   <ul class="submenu">
-                    <li><a href="#" id="1">Introduction</a></li>
-                    <li><a href="#" id="2">How Do I Use the Application Portion?</a></li>
+                    <li><a href="#ourRole">Our Role</a></li>
+                    <li><a href="#lightingAndTheCircadianSystem">Lighting and the Circadian System</a></li>
+                    <li><a href="#sleepPressureAndDailyAlertness">Sleep Pressure and Daily Alertness</a></li>
+                    <li><a href="#structureOfTheEye">Structure of the Eye</a></li>
+                    <li><a href="#structureOfTheRetina">Structure of the Retina</a></li>
+                    <li><a href="#rodsAndCones">Rods and Cones</a></li>
+                    <li><a href="#ipGRC">ipRGC</a></li>
                   </ul>
                 </li>
                 <li><a href="#">Circadian Design</a>
@@ -102,35 +107,212 @@
           <!-- Accordion -->
 
           <!-- Main Content -->
-          <div id="content" class="col-xl-9 col-lg-8 col-md-7 col-sm-12 p-0 text-center">
-            <article>
-              <div class="sticky-title">
-                <h1>Our Role</h1>
+          <div id="content" class="col-xl-9 col-lg-8 col-md-7 col-sm-12 p-0">
+            <article id="ourRole">
+              <div class="sticky-title text-center">
+                <h2>Our Role</h2>
               </div>
-              <div class="container-fluid">
+              <div class="container-fluid mt-4 pr-4">
                 <div class="row">
-                  <div class="col-lg-6 col-md-12">
-                    <figure><img src="img/information/1/1.png" width="450px" alt="Research - Education - Application Diagram" /></figure>
+                  <div class="col-lg-6 col-md-12 text-center">
+                    <figure><img src="img/information/1/1.png" width="450" alt="Research - Education - Application Diagram" /></figure>
                   </div>
                   <div class="col-lg-6 col-md-12">
-                    <p class="text-justify">This site aims to connect the dots between research in lighting, the education of lighting research, and the application of the lighting into <span id="here"></span>real-life scenarios by providing design suggestions for specific facility types and groups of people within them. Educating designers, manufacturers, and the general public would lead to better application of circadian lighting within the needs of specific user groups. To learn more about lighting and what it can do, click on the questions in the tabs to the left. Within the text, click on underlined terms to bring up quick definitions.</p>
-                    <p class="text-justify">To learn more about specific applications, click the ‘Application’ button in the upper right. Navigation between facility, room, and fixture types show examples of how the varying components of lighting (fixture type, distribution, lumen output, tint of white light, intensity, etc.) impact design. Room renders, fixture layout and descriptions, and circadian charts give an idea of how circadian <a href="#" data-toggle="popover" title="Popover title" data-placement="top" data-trigger="hover" data-content="And heres some amazing content. Its very engaging. Right?">lighting</a> designs can be achieved.</p>
+                    <div class="our-role-card color-why py-3 px-4 mb-4">
+                      <p class="m-0">
+                        This website was conceived to bridge recent developments in lighting research and education to lighting applications in real-world situations by providing design suggestions for specific places that meet the unique needs of the people who occupy them. We present it as open-access resource for lighting designers and manufacturers, facilities resource management professionals, and anyone else who is interested in exploring lighting solutions for healthier building and their occupants.
+                      </p>
+                    </div>
+                    <div class="our-role-card color-what mb-4">
+                      fadsfds
+                    </div>
+                    <div class="our-role-card color-who mb-4">
+                      hafdsjkfdsb
+                    </div>
+                    <div class="our-role-card color-how mb-4">
+                      fsdfds
+                    </div>
                   </div>
                 </div>
               </div>
             </article>
 
-            <div class="sticky-title">
-              <h1>Our Role 2</h1>
-            </div>
-            <div class="pt-3 pr-4">
+            <article id="lightingAndTheCircadianSystem">
+              <div class="sticky-title text-center">
+                <h2>Lighting and the Circadian System</h2>
+              </div>
+              <div class="container-fluid mt-4 pr-4">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 text-center">
+                    <figure><img src="img/information/1/1.png" width="450" alt="Research - Education - Application Diagram" /></figure>
+                  </div>
+                  <div class="col-lg-6 col-md-12">
+                    <div class="our-role-card color-why py-3 px-4 mb-4">
+                      <p class="m-0">
+                        This website was conceived to bridge recent developments in lighting research and education to lighting applications in real-world situations by providing design suggestions for specific places that meet the unique needs of the people who occupy them. We present it as open-access resource for lighting designers and manufacturers, facilities resource management professionals, and anyone else who is interested in exploring lighting solutions for healthier building and their occupants.
+                      </p>
+                    </div>
+                    <div class="our-role-card color-what mb-4">
+                      fadsfds
+                    </div>
+                    <div class="our-role-card color-who mb-4">
+                      hafdsjkfdsb
+                    </div>
+                    <div class="our-role-card color-how mb-4">
+                      fsdfds
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
 
-              <figure class="float-left"><img src="img/information/1/1.png" width="450px" alt="Research - Education - Application Diagram" /></figure><p class="text-justify">This site aims to connect the dots between research in lighting, the education of lighting research, and the application of the lighting into <span id="here"></span>real-life scenarios by providing design suggestions for specific facility types and groups of people within them. Educating designers, manufacturers, and the general public would lead to better application of circadian lighting within the needs of specific user groups. To learn more about lighting and what it can do, click on the questions in the tabs to the left. Within the text, click on underlined terms to bring up quick definitions.</p><p class="text-justify">To learn more about specific applications, click the ‘Application’ button in the upper right. Navigation between facility, room, and fixture types show examples of how the varying components of lighting (fixture type, distribution, lumen output, tint of white light, intensity, etc.) impact design. Room renders, fixture layout and descriptions, and circadian charts give an idea of how circadian <a href="#" data-toggle="popover" title="Popover title" data-placement="top" data-trigger="hover" data-content="And heres some amazing content. Its very engaging. Right?">lighting</a> designs can be achieved.</p>
-            </div>
+            <article id="sleepPressureAndDailyAlertness">
+              <div class="sticky-title text-center">
+                <h2>Sleep Pressure and Daily Alertness</h2>
+              </div>
+              <div class="container-fluid mt-4 pr-4">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 text-center">
+                    <figure><img src="img/information/1/1.png" width="450" alt="Research - Education - Application Diagram" /></figure>
+                  </div>
+                  <div class="col-lg-6 col-md-12">
+                    <div class="our-role-card color-why py-3 px-4 mb-4">
+                      <p class="m-0">
+                        This website was conceived to bridge recent developments in lighting research and education to lighting applications in real-world situations by providing design suggestions for specific places that meet the unique needs of the people who occupy them. We present it as open-access resource for lighting designers and manufacturers, facilities resource management professionals, and anyone else who is interested in exploring lighting solutions for healthier building and their occupants.
+                      </p>
+                    </div>
+                    <div class="our-role-card color-what mb-4">
+                      fadsfds
+                    </div>
+                    <div class="our-role-card color-who mb-4">
+                      hafdsjkfdsb
+                    </div>
+                    <div class="our-role-card color-how mb-4">
+                      fsdfds
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article id="structureOfTheEye">
+              <div class="sticky-title text-center">
+                <h2>Structure of the Eye</h2>
+              </div>
+              <div class="container-fluid mt-4 pr-4">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 text-center">
+                    <figure><img src="img/information/1/1.png" width="450" alt="Research - Education - Application Diagram" /></figure>
+                  </div>
+                  <div class="col-lg-6 col-md-12">
+                    <div class="our-role-card color-why py-3 px-4 mb-4">
+                      <p class="m-0">
+                        This website was conceived to bridge recent developments in lighting research and education to lighting applications in real-world situations by providing design suggestions for specific places that meet the unique needs of the people who occupy them. We present it as open-access resource for lighting designers and manufacturers, facilities resource management professionals, and anyone else who is interested in exploring lighting solutions for healthier building and their occupants.
+                      </p>
+                    </div>
+                    <div class="our-role-card color-what mb-4">
+                      fadsfds
+                    </div>
+                    <div class="our-role-card color-who mb-4">
+                      hafdsjkfdsb
+                    </div>
+                    <div class="our-role-card color-how mb-4">
+                      fsdfds
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article id="structureOfTheRetina">
+              <div class="sticky-title text-center">
+                <h2>Structure of the Retina</h2>
+              </div>
+              <div class="container-fluid mt-4 pr-4">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 text-center">
+                    <figure><img src="img/information/1/1.png" width="450" alt="Research - Education - Application Diagram" /></figure>
+                  </div>
+                  <div class="col-lg-6 col-md-12">
+                    <div class="our-role-card color-why py-3 px-4 mb-4">
+                      <p class="m-0">
+                        This website was conceived to bridge recent developments in lighting research and education to lighting applications in real-world situations by providing design suggestions for specific places that meet the unique needs of the people who occupy them. We present it as open-access resource for lighting designers and manufacturers, facilities resource management professionals, and anyone else who is interested in exploring lighting solutions for healthier building and their occupants.
+                      </p>
+                    </div>
+                    <div class="our-role-card color-what mb-4">
+                      fadsfds
+                    </div>
+                    <div class="our-role-card color-who mb-4">
+                      hafdsjkfdsb
+                    </div>
+                    <div class="our-role-card color-how mb-4">
+                      fsdfds
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article id="rodsAndCones">
+              <div class="sticky-title text-center">
+                <h2>Rods and Cones</h2>
+              </div>
+              <div class="container-fluid mt-4 pr-4">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 text-center">
+                    <figure><img src="img/information/1/1.png" width="450" alt="Research - Education - Application Diagram" /></figure>
+                  </div>
+                  <div class="col-lg-6 col-md-12">
+                    <div class="our-role-card color-why py-3 px-4 mb-4">
+                      <p class="m-0">
+                        This website was conceived to bridge recent developments in lighting research and education to lighting applications in real-world situations by providing design suggestions for specific places that meet the unique needs of the people who occupy them. We present it as open-access resource for lighting designers and manufacturers, facilities resource management professionals, and anyone else who is interested in exploring lighting solutions for healthier building and their occupants.
+                      </p>
+                    </div>
+                    <div class="our-role-card color-what mb-4">
+                      fadsfds
+                    </div>
+                    <div class="our-role-card color-who mb-4">
+                      hafdsjkfdsb
+                    </div>
+                    <div class="our-role-card color-how mb-4">
+                      fsdfds
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article id="ipGRC">
+              <div class="sticky-title text-center">
+                <h2>ipGRC</h2>
+              </div>
+              <div class="container-fluid mt-4 pr-4">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 text-center">
+                    <figure><img src="img/information/1/1.png" width="450" alt="Research - Education - Application Diagram" /></figure>
+                  </div>
+                  <div class="col-lg-6 col-md-12">
+                    <div class="our-role-card color-why py-3 px-4 mb-4">
+                      <p class="m-0">
+                        This website was conceived to bridge recent developments in lighting research and education to lighting applications in real-world situations by providing design suggestions for specific places that meet the unique needs of the people who occupy them. We present it as open-access resource for lighting designers and manufacturers, facilities resource management professionals, and anyone else who is interested in exploring lighting solutions for healthier building and their occupants.
+                      </p>
+                    </div>
+                    <div class="our-role-card color-what mb-4">
+                      fadsfds
+                    </div>
+                    <div class="our-role-card color-who mb-4">
+                      hafdsjkfdsb
+                    </div>
+                    <div class="our-role-card color-how mb-4">
+                      fsdfds
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
           </div>
-          <!-- Main Content -->
-
         </div>
+        <!-- Main Content -->
       </div>
     </div>
   </body>

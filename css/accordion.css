@@ -76,7 +76,7 @@ body {
     line-height: 50px;
     font-weight: 600;
     color: #f0f0f0;
-    background: #00205b;
+    background: #00205b
 }
 
 .jquery-accordion-menu ul {
@@ -112,11 +112,11 @@ body {
 .jquery-accordion-menu>ul>li.active>a,
 .jquery-accordion-menu>ul>li:hover>a {
     color: #fff;
-    background: #252423
+    background: #1d51af
 }
 
 .jquery-accordion-menu>ul>li>a {
-    border-bottom: solid 0px #3b424d
+    border-bottom: solid 1px #3b424d
 }
 
 .jquery-accordion-menu ul li a i {
@@ -166,7 +166,7 @@ body {
     width: 100%;
     float: left;
     font-size: 11px;
-    background: #252423;
+    background: #1d51af;
     border-top: none;
     position: relative;
     border-left: solid 6px transparent;
@@ -268,7 +268,7 @@ body {
 
 .blue.jquery-accordion-menu>ul>li.active>a,
 .blue.jquery-accordion-menu>ul>li:hover>a {
-    background: #252423
+    background: #3e82da
 }
 
 .blue.jquery-accordion-menu>ul>li>a {
