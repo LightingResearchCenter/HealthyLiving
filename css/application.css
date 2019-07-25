@@ -48,7 +48,7 @@
   width:100%;
   padding-top:none;
   margin-top:0;
-  border:0;
+  border: 1px solid white;
 }
 
 #mainNav .navbar-toggler {
@@ -213,6 +213,19 @@ a p.bc-option{
 
 .bc-item{
   border-left: 1px solid #dbdbdb;
+}
+
+.dropdown-item{
+  color: #ddd !important;
+  font-family: "Oswald", sans-serif;
+  font-size: 90%;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.dropdown-item:hover{
+  color: #fff !important;
+  background-color: #00205b;
 }
 
 .bc-title{

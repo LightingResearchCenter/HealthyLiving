@@ -86,11 +86,6 @@
         "img" : "img/application/selection/3 Fixture/2x4 Center basket Troffer.jpg",
         "desc" : "Center basket troffers are a newer troffer design that can retrofit into existing 2x4 ceiling grids. The fixture design provides a different beam distribution, and can direct light more evenly into the space, compared to typical 2x4 troffers."
       },
-      "2x4 Troffer + Desk Luminaire + Wall Valance" :
-      {
-          "img" : "img/application/selection/3 Fixture/2x4 Troffer + Desk Luminaire + Wall Valance.jpg",
-          "desc" : "Traditional 2x4 troffers with retrofit LED bulbs provide ambient light for the space, being an easy solution for a new lighting design. A perimeter wall valance adds a layer of indirect lighting, and an option of turning on a gentle wall wash when nurses are checking on the infants. Desk luminaires provide a solution for circadian entrainment and alertness effects for the nurses while being non-invasive for the infants."
-      },
       "2x4 Troffer + Blue/Red Desk Luminaire + Perimeter Valance" :
       {
         "img" : "img/application/selection/3 Fixture/2x4 Troffer + Desk Luminaire + Perimeter Valance.jpg",
@@ -184,12 +179,12 @@
       "Recessed Linear + Desk Luminaire + Under Cabinet" :
       {
         "img" : "img/application/selection/3 Fixture/Recessed Linear + Desk Luminaire + Under Cabinet.jpg",
-        "desc" : "Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. Desk luminaires personalized for each occupant as well as under cabinet lighting provide additional task and ambient illumination."
+        "desc" : "Using a combination design allows for layers of light that play different roles.Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. Desk luminaires personalized for each occupant as well as under cabinet lighting provide additional task and ambient illumination."
       },
       "Recessed Linear + Blue/Red Desk Luminaire + Under Cabinet" :
       {
         "img" : "img/application/selection/3 Fixture/Recessed Linear + Desk Luminaire + Under Cabinet.jpg",
-        "desc" : "Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. Desk luminaires personalized for each occupant as well as under cabinet lighting provide additional task and ambient illumination."
+        "desc" : "Using a combination design allows for layers of light that play different roles.Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. Desk luminaires personalized for each occupant as well as under cabinet lighting provide additional task and ambient illumination."
       },
       "Recessed Linear + Desk Luminaire" :
       {
@@ -199,17 +194,17 @@
       "Recessed Linear + Downlight + Wall Wash + Wall Sconce" :
       {
         "img" : "img/application/selection/3 Fixture/Recessed Linear + Downlight + Wall Wash + Wall Sconce.jpg",
-        "desc" : ""
+        "desc" : "Using a combination design allows for layers of light that play different roles. Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. Downlights add more ambient light, as well as provide an option for task light beside the patient bed to be turned on during exams.  A wall wash grazing the wall in front of patients provides more light to the eye."
       },
       "Recessed Linear + Downlight + Wall Wash + Cove" :
       {
         "img" : "img/application/selection/3 Fixture/Recessed Linear + Downlight + Wall Wash + Cove.jpg",
-        "desc" : "Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. The cove lighting above the nurse’s desk provides ambient lighting concentrated in that zone to allow for non-invasive light levels for the infants."
+        "desc" : "Using a combination design allows for layers of light that play different roles.Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. The cove lighting above the nurse’s desk provides ambient lighting concentrated in that zone to allow for non-invasive light levels for the infants."
       },
       "Recessed Linear + Blue/Red Downlight + Blue Wall Wash + Cove" :
       {
         "img" : "img/application/selection/3 Fixture/Recessed Linear + Downlight + Wall Wash + Cove.jpg",
-        "desc" : "Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. The cove lighting above the nurse’s desk provides ambient lighting concentrated in that zone to allow for non-invasive light levels for the infants."
+        "desc" : "Using a combination design allows for layers of light that play different roles.Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. The cove lighting above the nurse’s desk provides ambient lighting concentrated in that zone to allow for non-invasive light levels for the infants."
       },
       "Recessed Linear + Wall Sconce" :
       {
@@ -219,12 +214,12 @@
       "Recessed Linear + Wall Wash" :
       {
         "img" : "img/application/selection/3 Fixture/Recessed Linear + Wall Wash.jpg",
-        "desc" : "Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. A wall wash grazing the back wall provides more light to the eye for the occupants facing that direction."
+        "desc" : "Using a combination design allows for layers of light that play different roles.Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. A wall wash grazing the back wall provides more light to the eye for the occupants facing that direction."
       },
       "Recessed Linear + Blue/Red Wall Wash" :
       {
         "img" : "img/application/selection/3 Fixture/Recessed Linear + Wall Wash.jpg",
-        "desc" : "Traditional 2x4 troffers with retrofit LED bulbs provide ambient light for the space, being an easy solution for a new lighting design. A wall sconce mounted above a patient’s bed provides additional task and ambient illumination."
+        "desc" : "Using a combination design allows for layers of light that play different roles.Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. A wall wash grazing the back wall provides more light to the eye for the occupants facing that direction."
       }
     },
     "Target":
@@ -235,6 +230,11 @@
         "img" : "img/application/selection/4 Target CS/0.3.jpg",
         "desc" : "Targeting a CS of 0.3 is the absolute minimum to have an effect on the circadian system. Target a CS of 0.3 if:<ul><li>Furniture layout: Defined / Static</li><li>CCT preference: Warm white (2700 K-3000 K)</li><li>Horizontal illuminance: <500 lux on the workplane</li><li>Energy consumption is a major concern</li></ul>"
       },
+      "0.3 SD" :
+      {
+        "img" : "img/application/selection/4 Target CS/0.3.jpg",
+        "desc": "With a patient’s bed location being static, lighting can be placed and strategically to reach a CS of 0.3 at the eye. Considerations when designing:<ul><li>Patient orientation: Laying horizontal vs 45 degree tilt<ul><li>Light levels should be achieved with patient oriented in either position.</li></ul></li></ul>"
+      },
       "0.4":
       {
         "img" : "img/application/selection/4 Target CS/0.4.jpg",
@@ -243,27 +243,27 @@
       "0.5-0.3 short" :
       {
         "img" : "img/application/selection/4 Target CS/0.5-0.3 short.jpg",
-        "desc" : ""
+        "desc" : "With multiple user types with differing circadian needs, zones must be created to achieve target CS levels. Duration of circadian stimulus may vary based on:<ul><li>Nurse’s schedule: Day-shift<ul><li>If shift begins in the early morning, and the circadian system of nurses should not be shifted.</li></ul></li></ul>"
       },
       "0.5-0.3 long" :
       {
         "img" : "img/application/selection/4 Target CS/0.5-0.3 long.jpg",
-        "desc" : ""
+        "desc" : "With multiple user types with differing circadian needs, zones must be created to achieve target CS levels. Duration of circadian stimulus may vary based on:<ul><li>Nurse’s schedule: Night-shift<ul><li>If shift begins in the late afternoon, and the circadian system of nurses should be shifted slightly.</li></ul></li></ul>"
       },
       "0.5-0.3 long2" :
       {
         "img" : "img/application/selection/4 Target CS/0.5-0.3 long2.jpg",
-        "desc" : ""
+        "desc" : "With multiple user types with differing circadian needs, zones must be created to achieve target CS levels. Duration of circadian stimulus may vary based on:<ul><li>Nurse’s schedule: Night-shift<ul><li>If shift begins in the early evening, and the circadian system of nurses should be shifted slightly.</li></ul></li></ul>"
       },
       "0.4 short" :
       {
         "img" : "img/application/selection/4 Target CS/0.4 short.jpg",
-        "desc" : ""
+        "desc" : "With nurses having varying shift schedules, it is important to optimize the circadian system’s entrainment to these schedules. The duration of a circadian stimulus >0.3 can impact the biological system and entrain a nurse to the shift he/she works. Choose circadian schedule based on:<ul><li>Nurses Schedule: Day-shift <ul><li>If shift begins in the early morning, and the circadian system of nurses should not be shifted.</li></ul></li></ul>"
       },
       "0.4 long" :
       {
         "img" : "img/application/selection/4 Target CS/0.4 long.jpg",
-        "desc" : ""
+        "desc" : "With nurses having varying shift schedules, it is important to optimize the circadian system’s entrainment to these schedules. The duration of a circadian stimulus >0.3 can impact the biological system and entrain a nurse to the shift he/she works. Choose circadian schedule based on:<ul><li>Nurse’s schedule: Night-shift<ul><li>If shift begins in the late afternoon, and the circadian system of nurses should be shifted slightly.</li></ul></li></ul>"
       }
     },
     "System":

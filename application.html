@@ -221,14 +221,13 @@
 
       <!-- Navbar -->
       <div id="navbar">
-        <script type="text/javascript">$('#navbar').load('navbar.html');</script>
+        <script>
+          $('#navbar').load('navbar.html',function(){
+            $('#application-tab').addClass('active');
+            $('#background-tab').attr("href", "background.html");
+          });
+        </script>
       </div>
-      <script type="text/javascript">
-        $(document).ready(function(){
-          $('#application-tab').addClass('active');
-          $('#background-tab').attr("href", "background.html");
-        });
-      </script>
       <!-- Navbar -->
 
       <div id="landing-content" class="middle text-center">
