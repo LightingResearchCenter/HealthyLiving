@@ -4833,7 +4833,7 @@
         "desc" : "A single occupancy room in a hospital is where a patient can spend anywhere from one day to several months. This 290 sf room with a 9-foot ceiling includes a personal bathroom, hospital bed, television, and visitor chair. Since sleep and mood play a large role in recovery, it is advantageous to have proper lighting to encourage circadian entrainment, as well as create a welcoming atmosphere.",
         "2x4 Troffer + Wall Sconce" :
         {
-          "0.3" :
+          "0.3 SD" :
           {
             "Static" :
             {
@@ -4932,7 +4932,7 @@
         },
         "Recessed Linear + Downlight + Wall Wash + Wall Sconce" :
         {
-          "0.3" :
+          "0.3 SD" :
           {
             "Static" :
             {
@@ -5035,7 +5035,7 @@
         "desc" : "A double occupancy room in a hospital is where one or two patients can spend anywhere from one day to several months. This 430 sf room with a 9-foot ceiling includes a personal bathroom, two hospital beds, two televisions, and visitor chairs. Since sleep and mood play a large role in recovery, it is advantageous to have proper lighting to encourage circadian entrainment, as well as create a welcoming atmosphere.",
         "2x4 Troffer + Wall Sconce" :
         {
-          "0.3" :
+          "0.3 SD" :
           {
             "Static" :
             {
@@ -5134,7 +5134,7 @@
         },
         "Recessed Linear + Downlight + Wall Wash + Wall Sconce" :
         {
-          "0.3" :
+          "0.3 SD" :
           {
             "Static" :
             {
