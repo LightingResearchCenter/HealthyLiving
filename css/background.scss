@@ -14,6 +14,10 @@ html {
   background: rgb(237,237,237);
 }
 
+html,body{
+  height: 100%;
+}
+
 article{
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -108,7 +112,6 @@ article{
 }
 
 .banner{
-  max-width: 100%;
   height: 13rem;
   position: relative;
   background-size: cover;
@@ -147,8 +150,21 @@ article{
   font-style: italic;
 }
 
+.cornell-border{
+  border-right: 2px solid #383838;
+}
+
+.cornell-border h6{
+  color: black;
+  font-weight: 600;
+}
+
 .w-65{
   width: 65%;
+}
+
+.w-15{
+  width: 15%;
 }
 
 .line-height-1{
@@ -233,8 +249,13 @@ article{
 
 
 .accordion{
-  height: auto;
   background-color: #00205b;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0;
 }
 
 @media (max-width: 768px){
@@ -292,6 +313,9 @@ hr{
 
 .jquery-accordion-menu{
   position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
   position: sticky;
   top: 0;
 }
