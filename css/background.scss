@@ -10,7 +10,6 @@ p{
 }
 
 html {
-  scroll-behavior: smooth;
   background: rgb(237,237,237);
 }
 
@@ -163,12 +162,24 @@ article{
   width: 65%;
 }
 
+.w-40{
+  width: 40%;
+}
+
+.w-35{
+  width: 35%;
+}
+
 .w-15{
   width: 15%;
 }
 
 .line-height-1{
   line-height: 1.2rem;
+}
+
+.icon-border{
+  border: 3px solid black;
 }
 
 #ourrole p{
