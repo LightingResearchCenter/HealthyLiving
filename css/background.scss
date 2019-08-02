@@ -182,6 +182,10 @@ article{
   border: 3px solid black;
 }
 
+.section-link.active:last-child{
+  color: green !important;
+}
+
 #ourrole p{
   line-height: 10rem;
 }
@@ -339,7 +343,7 @@ hr{
   position: sticky;
   top: 0;
   z-index: 1;
-  background-color: rgb(237,237,237);
+  background-color: rgb(240,240,240);
   border-bottom: 2px solid #383838;
 }
 
