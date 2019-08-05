@@ -380,32 +380,25 @@ a p.bc-option{
   cursor: pointer;
 }
 
-.assumptions-outer-ul{
-  list-style-type: none;
-  margin-bottom: 0;
+.reflectance-title{
+  font-weight: 600;
 }
 
-.assumptions-inner-ul{
-  list-style-type: none;
+#assumptionsContentContainer{
+  max-height: 500px;
+  overflow-y: auto;
+  padding-right: 1rem;
 }
 
-.assumptions-outer-li{
+.reflectance-grey-box{
   font-size: 1rem !important;
-  font-weight: 600 !important;
-  margin-bottom: 1rem;
-}
-
-.assumptions-outer-li:last-child{
-  margin-bottom: 0;
-}
-
-.assumptions-inner-li{
-  font-size: 1rem !important;
-  font-weight: 300 !important;
-}
-
-.assumptions-inner-li{
-
+  font-weight: 400;
+  background-color: #ccc;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-radius: .5rem;
 }
 
 .text-middle{

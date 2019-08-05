@@ -31,7 +31,6 @@ $(document).ready(function(){
             if (id == 'section-lightingAndTheCircadianSystem'){
               $('#goodAnimation')[0].play();
               $('#badAnimation')[0].play();
-              console.log('play')
             }
           }
         }
