@@ -19,7 +19,7 @@
   </head>
   <body class="h-auto">
     <!-- Navbar -->
-      <div id="navbar">
+      <div id="navbar" class="sticky">
         <script>
           $('#navbar').load('navbar.html',function(){
             $('#background-tab').addClass('active');
@@ -29,7 +29,7 @@
       </div>
     <!-- Navbar -->
 
-    <div class="container-fluid h-auto">
+    <div class="container-fluid h-auto sticky">
 
     <!-- Banner -->
       <div class="row banner">
@@ -43,11 +43,11 @@
     <!-- Banner -->
 
 
-      <div class="row h-auto">
+      <div class="row h-auto sticky">
 
         <!-- Accordion -->
-        <div class="col-xl-3 col-lg-4 col-md-5 col-sm-12 p-0 accordion">
-          <div id="jquery-accordion-menu" class="jquery-accordion-menu">
+        <div class="col-xl-3 col-lg-4 col-md-5 col-sm-12 p-0 accordion sticky">
+          <div id="jquery-accordion-menu" class="jquery-accordion-menu sticky">
             <div class="jquery-accordion-menu-header text-center p-0 m-0">Navigation</div>
             <ul>
               <li><a id="background" href="#">Background</a>
@@ -92,7 +92,7 @@
         <!-- Accordion -->
 
         <!-- Main Content -->
-        <div id="content" class="col-xl-9 col-lg-8 col-md-7 col-sm-12 p-0 my-2">
+        <div id="content" class="col-xl-9 col-lg-8 col-md-7 col-sm-12 p-0 my-2 sticky">
 
 
           <!-- Background -->
