@@ -10,7 +10,7 @@ p{
 }
 
 html {
-  background: rgb(237,237,237);
+  background: rgb(240,240,240);
 }
 
 html,body{
@@ -25,6 +25,16 @@ article{
 
 #mainNav {
   background-color: #00205b;
+}
+
+#navbar{
+  z-index: 10;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0;
 }
 
 #mainNav .dropdown-menu {
@@ -118,6 +128,15 @@ article{
   background-position: 0% 54%;
 }
 
+.sticky{
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0;
+}
+
 .banner-text{
   height: 13rem;
 }
@@ -183,7 +202,7 @@ article{
 }
 
 .section-link.active:last-child{
-  color: green !important;
+  border-left: solid 6px #00205b;
 }
 
 #ourrole p{
@@ -264,13 +283,8 @@ article{
 
 
 .accordion{
-  background-color: #00205b;
-  position: -webkit-sticky;
-  position: -moz-sticky;
-  position: -ms-sticky;
-  position: -o-sticky;
-  position: sticky;
-  top: 0;
+  border-right: 2px solid #383838;
+  background-color: none;
 }
 
 @media (max-width: 768px){
@@ -327,12 +341,7 @@ hr{
 }
 
 .jquery-accordion-menu{
-  position: -webkit-sticky;
-  position: -moz-sticky;
-  position: -ms-sticky;
-  position: -o-sticky;
-  position: sticky;
-  top: 0;
+  top: 58.8px;
 }
 
 .sticky-title{
@@ -341,7 +350,7 @@ hr{
   position: -ms-sticky;
   position: -o-sticky;
   position: sticky;
-  top: 0;
+  top: 58.8px;
   z-index: 1;
   background-color: rgb(240,240,240);
   border-bottom: 2px solid #383838;
