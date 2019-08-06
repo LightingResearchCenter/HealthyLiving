@@ -923,6 +923,4 @@ $(document).ready(function(){
   $('#begin').click(function(){
     main(hb_json,selection_json);
   });
-
-
 });
