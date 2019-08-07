@@ -11,6 +11,7 @@ p{
 
 html {
   background: rgb(240,240,240);
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 html,body{
@@ -28,12 +29,8 @@ article{
 }
 
 #navbar{
+  width: 100%;
   z-index: 10;
-  position: -webkit-sticky;
-  position: -moz-sticky;
-  position: -ms-sticky;
-  position: -o-sticky;
-  position: sticky;
   top: 0;
 }
 
@@ -55,7 +52,7 @@ article{
   color: #FFFFFF;
   border: 0;
   background-color: #00205b;
-  font-family: Oswald;/*'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';*/
+  font-family: "Oswald";
 }
 
 #mainNav .navbar-toggler:hover,
@@ -121,9 +118,8 @@ article{
 }
 
 .banner{
-  height: 13rem;
+  height: 100%;
   position: relative;
-  background-size: cover;
   background-image: url("../img/background/banner.jpg");
   background-position: 0% 54%;
 }
