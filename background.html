@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="h-auto">
+<html lang="en" class="h-100">
   <head>
     <title>Healthy Patterns</title>
     <meta charset="UTF-8">
@@ -17,9 +17,9 @@
     <link rel="stylesheet" href="css/accordion.css" />
     <link rel="stylesheet" href="css/background.scss" />
   </head>
-  <body class="h-auto">
+  <body class="h-100">
     <!-- Navbar -->
-      <div id="navbar" class="sticky">
+      <div id="navbar" class="position-fixed">
         <script>
           $('#navbar').load('navbar.html',function(){
             $('#background-tab').addClass('active');
@@ -29,7 +29,7 @@
       </div>
     <!-- Navbar -->
 
-    <div class="container-fluid h-auto sticky">
+    <div class="container-fluid h-100 sticky">
 
     <!-- Banner -->
       <div class="row banner">
@@ -64,7 +64,7 @@
               </li>
               <li><a id="circadianDesign" href="#">Circadian Design</a>
                 <ul class="submenu">
-                  <li><a class="section-link" href="#section-whatIsCircadianLighting">What is Circadian Lighting?</a></li>
+                  <li><a id='toplink' class="section-link" href="#section-whatIsCircadianLighting">What is Circadian Lighting?</a></li>
                   <li><a class="section-link" href="#section-informationAboutRoom">Information About Room</a></li>
                   <li><a class="section-link" href="#section-lightingSolution">Lighting Solution</a></li>
                   <li><a class="section-link" href="#section-fixtures">Fixtures</a></li>
@@ -123,7 +123,7 @@
             <div class="container-fluid mt-4 article-content">
               <div class="row">
                 <div class="col">
-                  <figure><img src="img/background/background/what is light/1.png" class="float-right p-4 pl-0 m-4 drop-shadow rounded w-50" alt="" /></figure>
+                  <figure><img src="img/background/background/what is light/1.png" class="float-right w-50 drop-shadow rounded p-4 pl-0 m-4 w-50" alt="" /></figure>
                   <p>
                     The visible portion of the electromagnetic spectrum includes wavelength between 380-780 nm that mechanisms in the human eye are sensitive to. The retina in the human eye can absorb these wavelengths, interpret them, and send signals to the brain to perceive. Visual interpretation components allow us to ‘see’ the environment around us, but light can do much more. Acting as a catalyst, light can provide the awareness for the body to know what time of day it is as well as a stimulus for an acute alerting effect.
                   </p>
@@ -273,7 +273,7 @@
                   <p>
                     For colors to be visible, a mechanism that can interpret the wavelengths must be in place. That is where the photoreceptors in the eye come into play. The eye is made up of photoreceptors in the fovea (central vision) and the surrounding retina (peripheral vision). The human eye has an inverted retina, meaning light goes past all the layers to the pigment epithelium layer which is located in the back of the retina. Here, it gets absorbed and sent back through the layers and exits through the optic nerve. Within the retina, color is distinguished by the cone photoreceptors. The eye contains three cone photoreceptors: long-, medium-, and short-wavelength cones. Each have a range of wavelengths they are sensitive to, and have a peak wavelength sensitivity. Long-wavelength cones have a peak sensitivity at 564 nm, medium-wavelength cones at 533 nm, and short-wavelength cones at 437 nm. As seen in the figure below, each photoreceptor has a range of wavelengths that they are sensitive to and will activate a response. The y-axis on the graph associates with how much absorption of light each photoreceptor is capable of at each wavelength.
                   </p>
-                  <figure><img src="img/background/background/structure of the retina/2.png" class="float-right w-25 p-4 m-4 drop-shadow rounded" alt="" /></figure>
+                  <figure><img src="img/background/background/structure of the retina/2.png" class="float-right w-35 p-4 m-4 drop-shadow rounded" alt="" /></figure>
                   <p>
                     Knowing these wavelengths associate to perceived color in the visible spectrum, the combination of signals all the cones receive go through the Bipolar “connector” cell layer that takes combined signals from different photoreceptors throughout the retina. The Ganglion layer then communicates with multiple bipolar layers to determine what electrical signal it wants to send to the brain. An oversimplification, but the takeaway is that the messages sent to the brain go through multiple layers of communication with one another, getting feedback and deciding on what message it will send to the brain. The brain then interprets this signal to determine what colors and image it sees. The figure depicts the connections of the components in the retina and the process light undergoes when traveling through the retina.
                   </p>
@@ -327,7 +327,6 @@
 
 
           <!-- Circadian Design -->
-
 
 
 
