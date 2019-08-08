@@ -641,7 +641,8 @@ p{
 
 .middle {
   width:100%;
-  padding-top: 10rem
+  padding-top: 10rem;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .middle h1 {
@@ -659,10 +660,10 @@ p{
 }
 
 .middle p {
-  width:80%;
+  width:60%;
   color:#fff;
   text-align:center;
-  font-weight:20;
+  font-weight: 200;
   font-size:1.1em;
   border-radius:10px;
   background-color:rgba(30,30,30,0.7);
