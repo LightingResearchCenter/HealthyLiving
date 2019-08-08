@@ -119,8 +119,10 @@ article{
 
 .banner{
   height: 100%;
+  max-height: 100%;
   position: relative;
   background-image: url("../img/background/banner.jpg");
+  background-size: cover;
   background-position: 0% 54%;
 }
 
@@ -141,6 +143,28 @@ article{
   height: 13rem;
 }
 
+.middle {
+  width:100%;
+  padding-top: 10rem
+  top: 50%;
+}
+
+.middle p.box-text {
+  width:60%;
+  color:#fff;
+  text-align:center;
+  font-weight: 200;
+  font-size:1.1em;
+  border-radius:10px;
+  background-color:rgba(30,30,30,0.7);
+  margin:auto;
+  padding:10px;
+}
+
+.btn-primary {
+  background-color:#00205b!important;
+  border-color:#00205b!important;
+}
 
 .banner::after{
   content: '';
@@ -150,20 +174,27 @@ article{
   left: 0;
   right: 0;
   display: block;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.30);
 }
 
 .banner-text{
-  top: 30%;
+  top: 20%;
   z-index: 1;
   position: relative;
   color: white;
-  font-weight: 400;
-  font-style: normal;
+}
+
+.banner-title{
+  font-family: "Oswald", sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: .75vw;
+  font-size: 6rem;
+  width: 65%;
+  margin: auto;
 }
 
 .italic{
-  padding-left: 300px;
+  text-align: center;
   font-size: 20px;
   font-style: italic;
 }
@@ -231,10 +262,6 @@ article{
 }
 
 @media (max-width: 1200px){
-  .banner{
-    height: 16vw;
-    min-height: 120px;
-  }
   h1{
     font-size: 5vw;
   }
@@ -260,10 +287,6 @@ article{
 }
 
 @media (max-width: 500px){
-  .banner{
-    height: 16vw;
-    min-height: 120px;
-  }
   h1{
     font-size: 8vw;
     padding: 0;
