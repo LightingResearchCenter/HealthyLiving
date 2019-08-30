@@ -212,12 +212,28 @@ article{
   width: 65%;
 }
 
+.w-45{
+  width: 45%;
+}
+
 .w-40{
   width: 40%;
 }
 
 .w-35{
   width: 35%;
+}
+
+.w-33{
+  width: 33%;
+}
+
+.w-30{
+  width: 30%
+}
+
+.w-22{
+  width: 22%;
 }
 
 .w-15{
@@ -246,6 +262,31 @@ article{
   font-size: 90%;
   font-weight: 400;
   letter-spacing: 1px;
+}
+
+.article-inner-title{
+  margin-bottom: 1.25rem;
+  text-align: center;
+  color: black;
+  font-size: 1.15rem;
+}
+
+.article-inner-title-not-centered{
+  margin-bottom: 1.25rem;
+  color: black;
+  font-size: 1rem;
+}
+
+.article-inner-inner-title{
+  font-weight: 400;
+  margin-bottom: .35rem;
+  color: black;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.figcaption{
+  font-size: .75rem;
 }
 
 .dropdown-item:hover{
