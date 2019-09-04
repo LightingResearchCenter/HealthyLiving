@@ -632,6 +632,45 @@ p{
   height: 20% !important;
 }
 
+.banner{
+  height: 100%;
+  max-height: 100%;
+  position: relative;
+}
+
+.banner::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.30);
+}
+
+.banner-text{
+  top: 20%;
+  z-index: 1;
+  position: relative;
+  color: white;
+  height: 13rem;
+}
+
+.banner-title{
+  width: 100%;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 6em;
+  letter-spacing: .75vw;
+  line-height: 6rem;
+}
+
 .card-text {
   font-size: 1.1rem;
   padding-right:20px;
@@ -641,8 +680,7 @@ p{
 
 .middle {
   width:100%;
-  padding-top: 10rem;
-  font-family: 'Source Sans Pro', sans-serif;
+  top: 20%;
 }
 
 .middle h1 {
