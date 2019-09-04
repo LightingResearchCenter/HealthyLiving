@@ -110,17 +110,13 @@
             },
             "Tunable" :
             {
-              "6500 K -> 5000 K -> 4000 K":
+              "6500 K -> 5000 K -> 4000 K -> 3000 K":
               {
-                "render" : ["img/application/facilities/senior care/renders/assisted living with kitchen single/troffers/SeniorCare_Kitchen_2x4BasketTroffer_Tunable_0.3_6500K.jpg"]
+                "render" : ["img/application/facilities/senior care/renders/assisted living with kitchen single/troffers/SeniorCare_Kitchen_2x4BasketTroffer_Tunable_0.4_6500K.jpg"]
               },
-              "5000 K -> 4000 K -> 3000 K":
+              "5000 K -> 4000 K -> 3000 K -> 2700 K":
               {
-                "render" : ["img/application/facilities/senior care/renders/assisted living with kitchen single/troffers/SeniorCare_Kitchen_2x4BasketTroffer_Tunable_0.3_6500K.jpg"]
-              },
-              "4000 K -> 3000 K -> 2700 K":
-              {
-                "render" : ["img/application/facilities/senior care/renders/assisted living with kitchen single/troffers/SeniorCare_Kitchen_2x4BasketTroffer_Tunable_0.3_6500K.jpg"]
+                "render" : ["img/application/facilities/senior care/renders/assisted living with kitchen single/troffers/SeniorCare_Kitchen_2x4BasketTroffer_Tunable_0.4_500K.jpg"]
               }
             }
           },
@@ -216,17 +212,14 @@
               "6500 K -> 5000 K -> 4000 K":
               {
                 "render" : ["img/application/facilities/senior care/renders/assisted living with kitchen single/troffers/SeniorCare_Kitchen_2x4BasketTroffer_Tunable_0.3_6500K.jpg"]
-
               },
               "5000 K -> 4000 K -> 3000 K":
               {
-                "render" : ["img/application/facilities/senior care/renders/assisted living with kitchen single/troffers/SeniorCare_Kitchen_2x4BasketTroffer_Tunable_0.3_6500K.jpg"]
-
+                "render" : ["img/application/facilities/senior care/renders/assisted living with kitchen single/troffers/SeniorCare_Kitchen_2x4BasketTroffer_Tunable_0.3_5000K.jpg"]
               },
               "4000 K -> 3000 K -> 2700 K":
               {
-                "render" : ["img/application/facilities/senior care/renders/assisted living with kitchen single/troffers/SeniorCare_Kitchen_2x4BasketTroffer_Tunable_0.3_6500K.jpg"]
-
+                "render" : ["img/application/facilities/senior care/renders/assisted living with kitchen single/troffers/SeniorCare_Kitchen_2x4BasketTroffer_Tunable_0.3_4000K.jpg"]
               }
             }
           }
@@ -432,7 +425,7 @@
               "6500 K -> 5000 K -> 4000 K":
               {
                 "render" : ["img/application/facilities/senior care/renders/assisted living with kitchen single/downlights/SeniorCare_Kitchen_DN_Tunable_0.3_6500K.jpg"]
-                              },
+              },
               "5000 K -> 4000 K -> 3000 K":
               {
                 "render" : ["img/application/facilities/senior care/renders/assisted living with kitchen single/downlights/SeniorCare_Kitchen_DN_Tunable_0.3_5000K.jpg"]
