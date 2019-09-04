@@ -276,6 +276,9 @@ function getSystem(hb,selection,data){
   cacheSelectionImages(selection,"CCT");
   for (var i = 0; i < systems.length; i++){
     var _system = Object.keys(hb[data.facility][data.room][data.fixture][data.target])[i];
+    if (_system == "plan"){
+      continue;
+    }
     var __system = _system.replace("[^a-zA-Z]", "").replace(/\s/g, '');
     $('#application-modal-deck').append('<div class="card hover"><a id="'+__system+'" data-value="'+_system+'"><img class="card-img-top" src="'+selection["System"][_system]["img"]+'" alt="CCT System" /><div class="card-body"><h5 class="card-title">'+_system+'</h5><hr/><p class="card-text">'+selection["System"][_system]["desc"]+'</p></div></a></div>');
     $('#'+__system).click(function(){
@@ -864,21 +867,23 @@ function generateContent(hb,selection,data){
   }
   //Hide the modal and remove necessary landing page content
 
-  //Get path of our content in the json file
+  //Get path of our render in the json file
   if (data.system == "Tunable"){
-    var path = hb[data.facility][data.room][data.fixture][data.target][data.system][data.cct];
+    var render_path = hb[data.facility][data.room][data.fixture][data.target][data.system][data.cct];
   }else{
-    var path = hb[data.facility][data.room][data.fixture][data.target][data.system][data.cct][data.time];
+    var render_path = hb[data.facility][data.room][data.fixture][data.target][data.system][data.cct][data.time];
   }
-  //Get path of our content in the json file
+  //Get path of our render in the json file
+
+  var plan_path = hb[data.facility][data.room][data.fixture][data.target];
 
 
 
   if ($('#final_content').length==0){
     buildHTML();
   }
-  generateRender(hb,selection,path,data);
-  generatePlan(path,data.view);
+  generateRender(hb,selection,render_path,data);
+  generatePlan(plan_path,data.view);
   generateAdjustments(hb,selection,data);
   generateFixtureIcons(data.fixture);
   generateFinalBreadcrumb(hb,selection,data);
