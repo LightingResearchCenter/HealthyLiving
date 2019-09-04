@@ -240,20 +240,15 @@
         "img" : "img/application/selection/4 Target CS/0.4.jpg",
         "desc" : "Targeting a higher CS of 0.4 will better assure that the minimum of 0.3 CS is achieved where it is needed (e.g. where people are sitting). Target a CS of 0.4 if:<ul><li>Furniture layout: Undefined / dynamic</li><li>CCT preference: Cool white (5000 K-6500 K)</li><li>Population: Occupants that have the tendency to not respond to light (e.g. the aging population due to the aging eye), or are more out of sync, or more susceptible to being out of sync (e.g. social jetlag)</li></ul>"
       },
-      "0.5-0.3 short" :
+      "0.4 8-hour" :
       {
-        "img" : "img/application/selection/4 Target CS/0.5-0.3 short.jpg",
-        "desc" : "With multiple user types with differing circadian needs, zones must be created to achieve target CS levels. Duration of circadian stimulus may vary based on:<ul><li>Nurse’s schedule: Day-shift<ul><li>If shift begins in the early morning, and the circadian system of nurses should not be shifted.</li></ul></li></ul>"
+        "img" : "img/application/selection/4 Target CS/0.4 8-hour.jpg",
+        "desc" : "With multiple user types with differing circadian needs, zones must be created to achieve target CS levels. Duration of circadian stimulus may vary based on:<ul><li>Nurse’s schedule: 8-hour shifts<br/>Typically: 7 AM - 3 PM, 3 PM - 11 PM, 11 PM - 7 AM</li><li>Infants 32 weeks and older: Robust light/dark entrainment</li></ul>"
       },
-      "0.5-0.3 long" :
+      "0.4 12-hour" :
       {
-        "img" : "img/application/selection/4 Target CS/0.5-0.3 long.jpg",
-        "desc" : "With multiple user types with differing circadian needs, zones must be created to achieve target CS levels. Duration of circadian stimulus may vary based on:<ul><li>Nurse’s schedule: Night-shift<ul><li>If shift begins in the late afternoon, and the circadian system of nurses should be shifted slightly.</li></ul></li></ul>"
-      },
-      "0.5-0.3 long2" :
-      {
-        "img" : "img/application/selection/4 Target CS/0.5-0.3 long2.jpg",
-        "desc" : "With multiple user types with differing circadian needs, zones must be created to achieve target CS levels. Duration of circadian stimulus may vary based on:<ul><li>Nurse’s schedule: Night-shift<ul><li>If shift begins in the early evening, and the circadian system of nurses should be shifted slightly.</li></ul></li></ul>"
+        "img" : "img/application/selection/4 Target CS/0.4 12-hour.jpg",
+        "desc" : "With multiple user types with differing circadian needs, zones must be created to achieve target CS levels. Duration of circadian stimulus may vary based on:<ul><li>Nurse’s schedule: 12-hour shifts<br/>Typically: 7 AM - 7 PM, 7 PM - 7 AM</li><li>Infants 32 weeks and older: Robust light/dark entrainment</li></ul>"
       },
       "0.4 short" :
       {
