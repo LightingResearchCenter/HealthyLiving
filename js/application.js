@@ -461,7 +461,20 @@ function buildHTML(){
   str += '      <div class="row">';
   str += '        <div class="col mb-4">';
   str += '          <div class="card">';
-  str += '            <div id="final_cs" class="card-body card=body-small-padding drop-shadow"></div>';
+  str += '            <div class="card-body card-body-small-padding pb-0 drop-shadow">';
+  str += '              <div class="container-fluid">';
+  str += '                <div class="row">';
+  str += '                  <div class="col-md-6 pl-0">';
+  str += '                    <div class="right-padding-15">';
+  str += '                      <img id="final_cs_graph" class="w-100 pr-2" src="" />';
+  str += '                    </div>';
+  str += '                  </div>';
+  str += '                  <div class="col-md-6">';
+  str += '                    <img class="w-100" src="" />';
+  str += '                  </div>';
+  str += '                </div>';
+  str += '              </div>';
+  str += '            </div>';
   str += '          </div>';
   str += '        </div>';
   str += '      </div>';
@@ -746,6 +759,11 @@ function handleRightPanelAccordion(){
   });
 }
 
+function generateCSGraph(data,view){
+  console.log('img/application/cs graphs/' +data.facility.replace(/ /g,'')+ '_' +data.target+ '_' +data.cct.replace(/ /g,'')+ '.jpg');
+  $('#final_cs_graph').attr('src','img/application/cs graphs/' +data.facility+ '/' +data.facility.replace(/ /g,'')+ '_' +data.target+ '_' +data.cct.replace(/ /g,'')+ '.jpg');
+}
+
 function generateRender(hb,selection,path,data){
   $('#final_render_img').attr('src',path.render[data.view]);
   if (path.render.length > 1){
@@ -757,7 +775,7 @@ function generateRender(hb,selection,path,data){
       }else{
         data.view +=1;
       }
-      generatePlan(path,data.view);
+      generatePlan(hb[data.facility][data.room][data.fixture][data.target],data.view);
       generateRender(hb,selection,path,data);
       generateAdjustments(hb,selection,data);
     });
@@ -765,6 +783,7 @@ function generateRender(hb,selection,path,data){
 }
 
 function generatePlan(path,view){
+  console.log(path);
   $('#final_plan_img').attr('src',path.plan[view]);
 }
 
@@ -875,17 +894,16 @@ function generateContent(hb,selection,data){
   }
   //Get path of our render in the json file
 
-  var plan_path = hb[data.facility][data.room][data.fixture][data.target];
-
 
 
   if ($('#final_content').length==0){
     buildHTML();
   }
   generateRender(hb,selection,render_path,data);
-  generatePlan(plan_path,data.view);
+  generatePlan(hb[data.facility][data.room][data.fixture][data.target],data.view);
   generateAdjustments(hb,selection,data);
   generateFixtureIcons(data.fixture);
+  generateCSGraph(data,0);
   generateFinalBreadcrumb(hb,selection,data);
   generateDescription(hb,data);
   generateFixtures(data);

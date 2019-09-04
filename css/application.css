@@ -384,6 +384,10 @@ a p.bc-option{
   font-weight: 600;
 }
 
+.padding-right-15{
+  padding-right: 15px;
+}
+
 #assumptionsContentContainer{
   max-height: 500px;
   overflow-y: auto;
