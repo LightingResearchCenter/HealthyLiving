@@ -185,12 +185,17 @@ article{
 }
 
 .banner-title{
-  font-family: "Oswald", sans-serif !important;
+  width: 100%;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 6em;
   letter-spacing: .75vw;
-  font-size: 6rem;
-  width: 65%;
-  margin: auto;
+  line-height: 6rem;
 }
 
 .italic{
