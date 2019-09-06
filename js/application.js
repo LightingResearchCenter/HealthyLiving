@@ -464,8 +464,8 @@ function buildHTML(){
   str += '            <div class="card-body card-body-small-padding pb-0 drop-shadow">';
   str += '              <div class="container-fluid">';
   str += '                <div class="row">';
-  str += '                  <div class="col-md-6 pl-0">';
-  str += '                    <div class="right-padding-15">';
+  str += '                  <div class="col-md-6 pl-0 pr-0">';
+  str += '                    <div class="padding-right-16">';
   str += '                      <img id="final_cs_graph" class="w-100 pr-2" src="" />';
   str += '                    </div>';
   str += '                  </div>';
@@ -760,8 +760,18 @@ function handleRightPanelAccordion(){
 }
 
 function generateCSGraph(data,view){
-  console.log('img/application/cs graphs/' +data.facility.replace(/ /g,'')+ '_' +data.target+ '_' +data.cct.replace(/ /g,'')+ '.jpg');
-  $('#final_cs_graph').attr('src','img/application/cs graphs/' +data.facility+ '/' +data.facility.replace(/ /g,'')+ '_' +data.target+ '_' +data.cct.replace(/ /g,'')+ '.jpg');
+  var facility = data.facility;
+  var room = data.room;
+  var fixture = data.fixture;
+  var target = data.target;
+  var cct = data.cct;
+  var str = 'img/application/cs graphs/' +facility+ '/' +facility.replace(/ /g,'')+ '_' +target+ '_' +cct.replace(/ /g,'')+ '.jpg';
+
+  if (facility == "Office" && room == "Private Office" && fixture == "Downlight + Blue/Red Wall Wash"){
+    str = 'img/application/cs graphs/' +facility+ '/' +facility.replace(/ /g,'')+ '_' +cct.replace(/ /g,'')+ '.jpg';
+  }
+
+  $('#final_cs_graph').attr('src',str);
 }
 
 function generateRender(hb,selection,path,data){
@@ -861,6 +871,7 @@ function generateAdjustments(hb,selection,data){
     }
     generateRender(hb,selection,path,data);
     generateFinalBreadcrumb(hb,selection,data);
+    generateCSGraph(data,0);
   });
   $('.adjustment-container-tod').click(function(){
     $('#final_adjustments .tod-border').removeClass('tod-selected');
