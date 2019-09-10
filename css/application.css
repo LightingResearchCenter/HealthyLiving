@@ -176,6 +176,31 @@
   border-radius: .25rem;
 }
 
+.cs-graph-button{
+  opacity: 0.3;
+  color: white;
+  padding: 0;
+  padding-left: .4rem;
+  padding-right: .4rem;
+  margin: .25rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: .25rem;
+}
+
+.cs-graph-button.active{
+  opacity: 0.95
+}
+
+#cs-graph-buttons{
+  white-space: nowrap;
+  position: absolute;
+  top: .75em;
+  right: 2rem;
+  border: none;
+}
+
 a p.bc-option{
   margin: 0;
   position: absolute;

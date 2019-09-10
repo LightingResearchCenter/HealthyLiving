@@ -125,7 +125,8 @@ function main(hb_json,selection_json){
     system : "",
     cct : "",
     time : "",
-    view: 0
+    view: 0,
+    infants: 0
   }
   getFacility(hb_json,selection_json,data);
 }
@@ -465,8 +466,8 @@ function buildHTML(){
   str += '              <div class="container-fluid">';
   str += '                <div class="row">';
   str += '                  <div class="col-md-6 pl-0 pr-0">';
-  str += '                    <div class="padding-right-16">';
-  str += '                      <img id="final_cs_graph" class="w-100 pr-2" src="" />';
+  str += '                    <div id="final_cs_graph" class="padding-right-16">';
+  str += '                      <img id="final_cs_graph_img" class="w-100 pr-2" src="" />';
   str += '                    </div>';
   str += '                  </div>';
   str += '                  <div class="col-md-6">';
@@ -759,7 +760,7 @@ function handleRightPanelAccordion(){
   });
 }
 
-function generateCSGraph(data,view){
+function generateCSGraph(data){
   var facility = data.facility;
   var room = data.room;
   var fixture = data.fixture;
@@ -771,7 +772,34 @@ function generateCSGraph(data,view){
     str = 'img/application/cs graphs/' +facility+ '/' +facility.replace(/ /g,'')+ '_' +cct.replace(/ /g,'')+ '.jpg';
   }
 
-  $('#final_cs_graph').attr('src',str);
+  if (data.infants == 1){
+    str = 'img/application/cs graphs/' +facility+ '/' +facility.replace(/ /g,'')+ '_infants_' + cct.replace(/ /g,'')+ '.jpg';
+  }
+
+  $('#final_cs_graph_img').attr('src',str);
+
+  if (room == "Neonatal Intensive Care Unit"){
+    $('#cs-graph-buttons').remove();
+    $('#final_cs_graph').append('<div id="cs-graph-buttons"><button id="nurses_button" class="btn btn-primary cs-graph-button">Nurses</button><button id="infants_button" class="btn btn-primary cs-graph-button">Infants</button></div>');
+    if (data.infants == 1){
+      $('#infants_button').addClass('active');
+    }else{
+      $('#nurses_button').addClass('active');
+    }
+    $('#nurses_button').click(function(){
+      $('#infants_button').removeClass('active');
+      $('#nurses_button').addClass('active');
+      data.infants = 0;
+      generateCSGraph(data);
+    });
+    $('#infants_button').click(function(){
+      $('#nurses_button').removeClass('active');
+      $('#infants_button').addClass('active');
+      data.infants = 1;
+      generateCSGraph(data);
+    });
+  }
+
 }
 
 function generateRender(hb,selection,path,data){
@@ -914,7 +942,7 @@ function generateContent(hb,selection,data){
   generatePlan(hb[data.facility][data.room][data.fixture][data.target],data.view);
   generateAdjustments(hb,selection,data);
   generateFixtureIcons(data.fixture);
-  generateCSGraph(data,0);
+  generateCSGraph(data);
   generateFinalBreadcrumb(hb,selection,data);
   generateDescription(hb,data);
   generateFixtures(data);
