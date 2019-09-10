@@ -785,6 +785,7 @@ function generateCSGraph(data){
       $('#infants_button').addClass('active');
     }else{
       $('#nurses_button').addClass('active');
+      
     }
     $('#nurses_button').click(function(){
       $('#infants_button').removeClass('active');
