@@ -766,26 +766,26 @@ function generateCSGraph(data){
   var fixture = data.fixture;
   var target = data.target;
   var cct = data.cct;
-  var str = 'img/application/cs graphs/' +facility+ '/' +facility.replace(/ /g,'')+ '_' +target+ '_' +cct.replace(/ /g,'')+ '.jpg';
+  var str = 'img/application/cs graphs/' +facility+ '/' +facility.replace(/ /g,'')+ '_' +target+ '_' +cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
 
   if (facility == "Office" && room == "Private Office" && fixture == "Downlight + Blue/Red Wall Wash"){
-    str = 'img/application/cs graphs/' +facility+ '/' +facility.replace(/ /g,'')+ '_' +cct.replace(/ /g,'')+ '.jpg';
+    str = 'img/application/cs graphs/' +facility+ '/' +facility.replace(/ /g,'')+ '_' +cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
   }
 
   if (data.infants == 1){
-    str = 'img/application/cs graphs/' +facility+ '/' +facility.replace(/ /g,'')+ '_infants_' + cct.replace(/ /g,'')+ '.jpg';
+    str = 'img/application/cs graphs/' +facility+ '/' +facility.replace(/ /g,'')+ '_infants_' + cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
   }
 
   $('#final_cs_graph_img').attr('src',str);
 
+  $('#cs-graph-buttons').remove();
   if (room == "Neonatal Intensive Care Unit"){
-    $('#cs-graph-buttons').remove();
     $('#final_cs_graph').append('<div id="cs-graph-buttons"><button id="nurses_button" class="btn btn-primary cs-graph-button">Nurses</button><button id="infants_button" class="btn btn-primary cs-graph-button">Infants</button></div>');
     if (data.infants == 1){
       $('#infants_button').addClass('active');
     }else{
       $('#nurses_button').addClass('active');
-      
+
     }
     $('#nurses_button').click(function(){
       $('#infants_button').removeClass('active');
