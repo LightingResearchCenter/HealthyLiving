@@ -477,11 +477,11 @@ function buildHTML(){
   str += '        </div>';
   str += '        <div class="col-lg-6 col-md-12 mb-4">';
   str += '          <div class="card">';
-  str += '            <div class="card-body card-body-small-padding pb-0 drop-shadow">';
+  str += '            <div class="card-body card-body-small-padding drop-shadow">';
   str += '              <div class="container-fluid">';
   str += '                <div class="row">';
-  str += '                  <div class="col-md-6">';
-  str += '                    <img class="w-100" src="" />';
+  str += '                  <div class="col-md-12 p-0">';
+  str += '                    <img id="final_cs_chart_img" class="w-100 p-0" src="" />';
   str += '                  </div>';
   str += '                </div>';
   str += '              </div>';
@@ -770,23 +770,24 @@ function handleRightPanelAccordion(){
   });
 }
 
-function generateCSGraph(data){
+function generateCSContent(data){
   var facility = data.facility;
   var room = data.room;
   var fixture = data.fixture;
   var target = data.target;
   var cct = data.cct;
-  var str = 'img/application/cs graphs/' +facility+ '/' +facility.replace(/ /g,'')+ '_' +target+ '_' +cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
+  var str = facility+ '/' +facility.replace(/ /g,'')+ '_' +target+ '_' +cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
 
   if (facility == "Office" && room == "Private Office" && fixture == "Downlight + Blue/Red Wall Wash"){
-    str = 'img/application/cs graphs/' +facility+ '/' +facility.replace(/ /g,'')+ '_' +cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
+    str = facility+ '/' +facility.replace(/ /g,'')+ '_' +cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
   }
 
   if (data.infants == 1){
-    str = 'img/application/cs graphs/' +facility+ '/' +facility.replace(/ /g,'')+ '_infants_' + cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
+    str = facility+ '/' +facility.replace(/ /g,'')+ '_infants_' + cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
   }
 
-  $('#final_cs_graph_img').attr('src',str);
+  $('#final_cs_graph_img').attr('src','img/application/cs graphs/' + str);
+  $('#final_cs_chart_img').attr('src','img/application/cs charts/' + str);
 
   $('#cs-graph-buttons').remove();
   if (room == "Neonatal Intensive Care Unit"){
@@ -795,19 +796,18 @@ function generateCSGraph(data){
       $('#infants_button').addClass('active');
     }else{
       $('#nurses_button').addClass('active');
-
     }
     $('#nurses_button').click(function(){
       $('#infants_button').removeClass('active');
       $('#nurses_button').addClass('active');
       data.infants = 0;
-      generateCSGraph(data);
+      generateCSContent(data);
     });
     $('#infants_button').click(function(){
       $('#nurses_button').removeClass('active');
       $('#infants_button').addClass('active');
       data.infants = 1;
-      generateCSGraph(data);
+      generateCSContent(data);
     });
   }
 
@@ -910,7 +910,7 @@ function generateAdjustments(hb,selection,data){
     }
     generateRender(hb,selection,path,data);
     generateFinalBreadcrumb(hb,selection,data);
-    generateCSGraph(data,0);
+    generateCSContent(data,0);
   });
   $('.adjustment-container-tod').click(function(){
     $('#final_adjustments .tod-border').removeClass('tod-selected');
@@ -953,7 +953,7 @@ function generateContent(hb,selection,data){
   generatePlan(hb[data.facility][data.room][data.fixture][data.target],data.view);
   generateAdjustments(hb,selection,data);
   generateFixtureIcons(data.fixture);
-  generateCSGraph(data);
+  generateCSContent(data);
   generateFinalBreadcrumb(hb,selection,data);
   generateDescription(hb,data);
   generateFixtures(data);
