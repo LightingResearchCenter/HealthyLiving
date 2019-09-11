@@ -196,8 +196,8 @@
 #cs-graph-buttons{
   white-space: nowrap;
   position: absolute;
-  top: .75em;
-  right: 2rem;
+  top: 0;
+  right: 0;
   border: none;
 }
 
@@ -407,10 +407,6 @@ a p.bc-option{
 
 .reflectance-title{
   font-weight: 600;
-}
-
-.padding-right-16{
-  padding-right: 16px;
 }
 
 #assumptionsContentContainer{
