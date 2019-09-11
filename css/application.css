@@ -196,8 +196,8 @@
 #cs-graph-buttons{
   white-space: nowrap;
   position: absolute;
-  top: .75em;
-  right: 2rem;
+  top: 0;
+  right: 0;
   border: none;
 }
 
