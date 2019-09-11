@@ -529,12 +529,18 @@ function buildHTML(){
   str += '            </a>'
   str += '          </div>';
   str += '          <div class="card right-panel-card">';
-  str += '            <div class="card-body pb-0">';
-  str += '              <h5 class="card-title right-panel-h5 mb-0">Lighting Solutions</h5>';
-  str += '            </div>';
+  str += '            <a class="right-panel-expandable collapsed" data-toggle="collapse" data-target="#lightingSolutionContentContainer" aria-expanded="false" aria-controls="lightingSolutionContentContainer">';
+  str += '              <div class="card-body pb-0">';
+  str += '                <h5 class="card-title right-panel-h5 mb-0">Lighting Solution</h5>';
+  str += '                <div id="lightingSolutionContentContainer" class="right-panel-content-container right-panel-content collapse">';
+  str += '                <hr class="right-panel-hr"/>';
+  str += '                <div id="lightingSolutionContent"></div>'
+  str += '                </div>';
+  str += '              </div>';
+  str += '            </a>';
   str += '          </div>';
   str += '          <div class="card right-panel-card">';
-  str += '            <a class="right-panel-expandable collapsed" data-toggle="collapse" data-target=".fixturesContentContainer" aria-expanded="false" aria-expanded="false" aria-controls="fixtureContentContainer">';
+  str += '            <a class="right-panel-expandable collapsed" data-toggle="collapse" data-target=".fixturesContentContainer" aria-expanded="false" aria-controls="fixtureContentContainer">';
   str += '              <div id="fixture_card" class="card-body pb-0">';
   str += '                <h5 class="card-title right-panel-h5 mb-0">Fixtures</h5>';
   str += '                <div class="fixturesContentContainer right-panel-content-container right-panel-content collapse">';
@@ -715,6 +721,34 @@ function generateDescription(hb,data){
   $('#roomDescriptionContent').html(hb[data.facility][data.room]["desc"]);
 }
 
+function generateLightingSolution(data){
+  $('#lightingSolutionContent').html('');
+  $.getJSON('json/lightingSolutions.json',function(solutions_result){
+    $.each(solutions_result,function(){
+      var solutions = this;
+      var path = solutions[data.facility][data.room][data.fixture][data.target];
+      $('#lightingSolutionContent').append('<p class="right-panel-p">'+path.intro+'</p>');
+      for (var key in path){
+        if (key == "intro"){
+          continue;
+        }else{
+          if (key.replace(/[0-9]/g, '') == 'outer'){
+            for (var i = 0; i < path[key].length; i++){
+              if (i == 0 || i % 2 == 0){
+                $('#lightingSolutionContent').append('<p class="solutions-outer-even">'+path[key][i]+'</p>');
+              }else{
+                $('#lightingSolutionContent').append('<p class="solutions-outer-odd">'+path[key][i]+'</p>');
+              }
+            }
+          }else{
+
+          }
+        }
+      }
+    });
+  });
+}
+
 function generateFixtures(data){
   $.getJSON("json/fixtures.json", function(fixtures_result){
     $.each(fixtures_result,function(){
@@ -832,7 +866,6 @@ function generateRender(hb,selection,path,data){
 }
 
 function generatePlan(path,view){
-  console.log(path);
   $('#final_plan_img').attr('src',path.plan[view]);
 }
 
@@ -956,6 +989,7 @@ function generateContent(hb,selection,data){
   generateCSContent(data);
   generateFinalBreadcrumb(hb,selection,data);
   generateDescription(hb,data);
+  generateLightingSolution(data);
   generateFixtures(data);
   handleRightPanelAccordion();
 }

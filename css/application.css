@@ -397,6 +397,28 @@ a p.bc-option{
   font-weight: 300 !important;
 }
 
+.solutions-outer-even{
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-radius: .25rem;
+  font-size: 1rem !important;
+  font-weight: 300 !important;
+  background-color: #bbb !important;
+}
+
+.solutions-outer-odd{
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-radius: .25rem;
+  font-size: 1rem !important;
+  font-weight: 300 !important;
+  background-color: #eee !important;
+}
+
 .right-panel-hr{
   margin-top: 0;
 }
