@@ -551,26 +551,28 @@ function buildHTML(){
   str += '                        <h5 id="fixture_name" class="text-center mb-0 fixture-title"></h5>';
   str += '                      </div>';
   str += '                    </div>';
-  str += '                    <div class="row mb-2">';
-  str += '                      <div class="col-md-6 pr-1">';
-  str += '                        <img id="fixture_fixture" class="w-100" src=""/>'
+  str += '                    <div class="fixture-scroll">';
+  str += '                      <div class="row mb-2">';
+  str += '                        <div class="col-md-6 pr-1">';
+  str += '                          <img id="fixture_fixture" class="w-100" src=""/>'
+  str += '                        </div>';
+  str += '                        <div class="col-md-6 pl-1">';
+  str += '                          <img id="fixture_candela" class="w-100" src=""/>'
+  str += '                       </div>';
   str += '                      </div>';
-  str += '                      <div class="col-md-6 pl-1">';
-  str += '                       <img id="fixture_candela" class="w-100" src=""/>'
-  str += '                      </div>';
-  str += '                    </div>';
-  str += '                    <div class="row mb-2">';
-  str += '                      <div class="col px-0">';
-  str += '                        <ul class="pl-3 my-4">';
-  str += '                          <li class="card-text right-panel-p"><b>Amount: </b><span id="fixture_amount"></span></li>';
-  str += '                          <li class="card-text right-panel-p"><b>Mounting type: </b><span id="fixture_type"></span></li>';
-  str += '                          <li class="card-text right-panel-p"><b>Mounting height: </b><span id="fixture_height"></span></li>';
-  str += '                          <li class="card-text right-panel-p"><b>Orientation: </b><span id="fixture_orientation"></span></li>';
-  str += '                          <li class="card-text right-panel-p"><b>Dimensions: </b><span id="fixture_dimensions"></span></li>';
-  str += '                          <li class="card-text right-panel-p"><b>Initial lumens per source: </b><span id="fixture_lumens"></span> lx</li>';
-  str += '                          <li class="card-text right-panel-p"><b>Initial wattage per source: </b><span id="fixture_wattage"></span> W</li>';
-  str += '                        </ul>';
-  str += '                       <p class="pl-3 card-text right-panel-p"><b>Description: </b><span id="fixture_description"></span></p>';
+  str += '                     <div class="row mb-2">';
+  str += '                       <div class="col px-0">';
+  str += '                         <ul class="pl-3 my-4 no-bullets">';
+  str += '                            <li class="card-text right-panel-p"><b>Amount: </b><span id="fixture_amount"></span></li>';
+  str += '                            <li class="card-text right-panel-p"><b>Mounting type: </b><span id="fixture_type"></span></li>';
+  str += '                            <li class="card-text right-panel-p"><b>Mounting height: </b><span id="fixture_height"></span></li>';
+  str += '                            <li class="card-text right-panel-p"><b>Orientation: </b><span id="fixture_orientation"></span></li>';
+  str += '                            <li class="card-text right-panel-p"><b>Dimensions: </b><span id="fixture_dimensions"></span></li>';
+  str += '                            <li class="card-text right-panel-p"><b>Initial lumens per source: </b><span id="fixture_lumens"></span> lx</li>';
+  str += '                            <li class="card-text right-panel-p"><b>Initial wattage per source: </b><span id="fixture_wattage"></span> W</li>';
+  str += '                          </ul>';
+  str += '                        <p class="pl-3 card-text right-panel-p"><b>Description: </b><span id="fixture_description"></span></p>';
+  str += '                        </div>';
   str += '                      </div>';
   str += '                    </div>';
   str += '                  </div>';
@@ -727,7 +729,7 @@ function generateLightingSolution(data){
     $.each(solutions_result,function(){
       var solutions = this;
       var path = solutions[data.facility][data.room][data.fixture][data.target];
-      $('#lightingSolutionContent').append('<p class="right-panel-p">'+path.intro+'</p>');
+      $('#lightingSolutionContent').append('<p class="right-panel-p solutions-intro">'+path.intro+'</p>');
       for (var key in path){
         if (key == "intro"){
           continue;
