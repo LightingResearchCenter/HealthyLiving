@@ -284,6 +284,10 @@ a p.bc-option{
   padding-left: 0;
 }
 
+.no-bullets{
+  list-style-type: none;
+}
+
 .nav-item-footer-fixtures{
   min-width: 16.66%;
 }
@@ -405,7 +409,7 @@ a p.bc-option{
   border-radius: .25rem;
   font-size: 1rem !important;
   font-weight: 300 !important;
-  background-color: #bbb !important;
+  background-color: #ddd !important;
 }
 
 .solutions-outer-odd{
@@ -416,7 +420,11 @@ a p.bc-option{
   border-radius: .25rem;
   font-size: 1rem !important;
   font-weight: 300 !important;
-  background-color: #eee !important;
+  background-color: #f0f0f0 !important;
+}
+
+.solutions-intro{
+  font-weight: 400 !important;
 }
 
 .right-panel-hr{
@@ -431,8 +439,20 @@ a p.bc-option{
   font-weight: 600;
 }
 
+.fixture-scroll{
+  max-height: 350px;
+  overflow-y: auto;
+  padding-right: 1rem;
+}
+
+#lightingSolutionContentContainer{
+  max-height: 450px;
+  overflow-y: auto;
+  padding-right: 1rem;
+}
+
 #assumptionsContentContainer{
-  max-height: 500px;
+  max-height: 450px;
   overflow-y: auto;
   padding-right: 1rem;
 }
@@ -716,13 +736,6 @@ p{
   font-size: 6em;
   letter-spacing: .75vw;
   line-height: 6rem;
-}
-
-.card-text {
-  font-size: 1.1rem;
-  padding-right:20px;
-  max-height: 15rem;
-  overflow-y:auto;
 }
 
 .middle {
