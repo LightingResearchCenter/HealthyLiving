@@ -401,9 +401,10 @@ a p.bc-option{
   font-weight: 300 !important;
 }
 
-.solutions-outer-even{
-  padding-right: 1rem;
-  padding-left: 1rem;
+.solutions-inner-odd{
+  margin: 1rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
   border-radius: .25rem;
@@ -412,9 +413,10 @@ a p.bc-option{
   background-color: #ddd !important;
 }
 
-.solutions-outer-odd{
-  padding-right: 1rem;
-  padding-left: 1rem;
+.solutions-inner-even{
+  margin: 1rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
   border-radius: .25rem;
@@ -435,7 +437,7 @@ a p.bc-option{
   cursor: pointer;
 }
 
-.reflectance-title{
+.right-panel-outer-title{
   font-weight: 600;
 }
 
@@ -445,19 +447,19 @@ a p.bc-option{
   padding-right: 1rem;
 }
 
-#lightingSolutionContentContainer{
+#lightingSolutionContent{
   max-height: 450px;
   overflow-y: auto;
   padding-right: 1rem;
 }
 
-#assumptionsContentContainer{
+#assumptionsContent{
   max-height: 450px;
   overflow-y: auto;
   padding-right: 1rem;
 }
 
-.reflectance-grey-box{
+.right-panel-grey-box{
   font-size: 1rem !important;
   font-weight: 400;
   background-color: #ccc;
