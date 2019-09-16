@@ -134,7 +134,7 @@ function main(hb_json,selection_json){
 function checkModalSize(values){
   var size = values.length;
   for (var i = 0; i < values.length; i++){
-    if (values[i] == 'desc'){
+    if (values[i] == 'desc' || values[i] == 'plan'){
       size -= 1;
     }
   }
@@ -559,8 +559,8 @@ function buildHTML(){
   str += '                        </div>';
   str += '                        <div class="col-md-6 pl-1">';
   str += '                          <img id="fixture_candela" class="w-100" src=""/>'
+  str += '                        </div>';
   str += '                       </div>';
-  str += '                      </div>';
   str += '                     <div class="row mb-2">';
   str += '                       <div class="col px-0">';
   str += '                         <ul class="pl-3 my-4 no-bullets">';
@@ -586,8 +586,29 @@ function buildHTML(){
   str += '            </div>';
   str += '          </div>';
   str += '          <div class="card right-panel-card">';
-  str += '            <div class="card-body pb-0">';
-  str += '              <h5 class="card-title right-panel-h5 mb-0">Charts</h5>';
+  str += '            <a class="right-panel-expandable collapsed" data-toggle="collapse" data-target=".chartsContent" aria-expanded="false" aria-controls="chartsContent">';
+  str += '              <div class="card-body pb-0">';
+  str += '                <h5 class="card-title right-panel-h5 mb-0">Charts</h5>';
+  str += '                <div class="chartsContent right-panel-content collapse">';
+  str += '                  <hr class="right-panel-hr" />';
+  str += '                  <img id="chart1" class="mt-2" width="100%" src="img/application/charts/1.jpg" />';
+  str += '                  <img id="chart2" class="mt-2 d-none" width="100%" src="img/application/charts/2.jpg" />';
+  str += '                  <img id="chart3" class="mt-2 d-none" width="100%" src="img/application/charts/3.jpg" />';
+  str += '                </div>';
+  str += '              </div>';
+  str += '            </a>';
+  str += '            <div class="card-footer chart-cart-footer chartsContent collapse">';
+  str += '              <ul class="nav nav-tabs nav-tabs-footer card-footer-tabs">';
+  str += '                <li class="nav-item nav-item-footer nav-item-footer-charts">';
+  str += '                  <a id="showChart1" class="nav-link nav-link-footer text-center active">Lumens</a>';
+  str += '                </li>';
+  str += '                <li class="nav-item nav-item-footer nav-item-footer-charts">';
+  str += '                  <a id="showChart2" class="nav-link nav-link-footer text-center">LPD</a>';
+  str += '                </li>';
+  str += '                <li class="nav-item nav-item-footer nav-item-footer-charts">';
+  str += '                  <a id="showChart3" class="nav-link nav-link-footer text-center">EV</a>';
+  str += '                </li>';
+  str += '              </ul>';
   str += '            </div>';
   str += '          </div>';
   str += '        </div>';
@@ -597,6 +618,34 @@ function buildHTML(){
   str += '</div>';
 
   $('body').append(str);
+
+  $('#showChart1').click(function(){
+    console.log('here');
+    $('#chart1').removeClass('d-none');
+    $('#chart2').addClass('d-none');
+    $('#chart3').addClass('d-none');
+    $('#showChart1').addClass('active');
+    $('#showChart2').removeClass('active');
+    $('#showChart3').removeClass('active');
+  });
+
+  $('#showChart2').click(function(){
+    $('#chart1').addClass('d-none');
+    $('#chart2').removeClass('d-none');
+    $('#chart3').addClass('d-none');
+    $('#showChart1').removeClass('active');
+    $('#showChart2').addClass('active');
+    $('#showChart3').removeClass('active');
+  });
+
+  $('#showChart3').click(function(){
+    $('#chart1').addClass('d-none');
+    $('#chart2').addClass('d-none');
+    $('#chart3').removeClass('d-none');
+    $('#showChart1').removeClass('active');
+    $('#showChart2').removeClass('active');
+    $('#showChart3').addClass('active');
+  });
 }
 
 function generateFinalBreadcrumb(hb,selection,data){
