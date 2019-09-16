@@ -229,6 +229,10 @@ article{
   width: 40%;
 }
 
+.w-38{
+  width: 38%;
+}
+
 .w-35{
   width: 35%;
 }
@@ -278,12 +282,14 @@ article{
   text-align: center;
   color: black;
   font-size: 1.15rem;
+  font-weight: 600;
 }
 
 .article-inner-title-not-centered{
   margin-bottom: 1.25rem;
   color: black;
   font-size: 1rem;
+  font-weight: 600;
 }
 
 .article-inner-inner-title{
@@ -295,7 +301,8 @@ article{
 }
 
 .figcaption{
-  font-size: .75rem;
+  font-size: .85rem;
+  font-weight: 400;
 }
 
 .dropdown-item:hover{
