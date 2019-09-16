@@ -153,7 +153,7 @@
         "Cove + Floor Lamp + Table Lamp" :
         {
           "name" : ["Cove","Floor Lamp","Table Lamp"],
-          "fixture" : ["Floor Lamp","Table Lamp","Cove"],
+          "fixture" : ["Cove","Floor Lamp","Table Lamp"],
           "candela" : ["Cove- Senior Care","A19 Lamp- Floor and Table Lamp","A19 Lamp- Floor and Table Lamp"],
           "amount" : ["Feature has 200 sources","14 lamps with 2 bulbs each","2 lamps with 2 bulbs each"],
           "type" : ["Cove Mounted","Floor Lamp","Table Lamp"],
@@ -369,17 +369,17 @@
         },
         "Recessed Linear + Downlight + Wall Wash + Wall Sconce" :
         {
-          "name" : ["Recessed Linear","Downlight","Wall Sconce","Wall Wash"],
-          "fixture" : ["Recessed Linear","Downlight","Wall Sconce","Wall Wash"],
-          "candela" : ["Recessed Linear","Downlight- Healthcare","Wall Sconce- Healthcare","Wall Wash- Healthcare- Single- Double- NICU"],
-          "amount" : ["2","3","1","Feature has 2 sources"],
-          "type" : ["Ceiling Recessed","Ceiling Recessed","Wall Mounted","Ceiling Recessed"],
-          "height" : ["9'-0\" AFF","9'-0\" AFF","5'-0\" AFF","9'-0\" AFF"],
-          "orientation" : ["Direct","Direct","Direct/Indirect","Direct"],
+          "name" : ["Recessed Linear","Downlight","Wall Wash","Wall Sconce"],
+          "fixture" : ["Recessed Linear","Downlight","Wall Wash","Wall Sconce"],
+          "candela" : ["Recessed Linear","Downlight- Healthcare","Wall Wash- Healthcare- Single- Double- NICU","Wall Sconce- Healthcare"],
+          "amount" : ["2","3","Feature has 2 sources","1"],
+          "type" : ["Ceiling Recessed","Ceiling Recessed","Ceiling Recessed","Wall Mounted"],
+          "height" : ["9'-0\" AFF","9'-0\" AFF","9'-0\" AFF","5'-0\" AFF"],
+          "orientation" : ["Direct","Direct","Direct","Direct/Indirect"],
           "dimensions" : ["4' Linear","4\" Diameter","4' Linear","4' Linear"],
-          "lumens" : ["2372","977","1432","1187"],
-          "wattage" : ["26","23","58","23"],
-          "description" : ["A recessed linear fixture houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid or another hard surface material. Designed to provide uniform illuminance levels throughout a room, they are often specified when a clean, continuous look is preferred. Recessed linear fixtures can house either linear fluorescent lamps or have a dedicated LED source.","Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing. Downlights may have integrated LED sources or contain CFLs or LED replacement lamps.","Wall mounted luminaire lighting is mounted above patient beds and provide both task and ambient illumination. They may have integrated LED sources or contain linear fluorescents.","Linear wall washers are mounted along the perimeter of the room. They provide ambient illumination. They may have integrated LED sources or contain linear fluorescents."]
+          "lumens" : ["2372","977","1187","1432"],
+          "wattage" : ["26","23","23","58"],
+          "description" : ["A recessed linear fixture houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid or another hard surface material. Designed to provide uniform illuminance levels throughout a room, they are often specified when a clean, continuous look is preferred. Recessed linear fixtures can house either linear fluorescent lamps or have a dedicated LED source.","Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing. Downlights may have integrated LED sources or contain CFLs or LED replacement lamps.","Linear wall washers are mounted along the perimeter of the room. They provide ambient illumination. They may have integrated LED sources or contain linear fluorescents.","Wall mounted luminaire lighting is mounted above patient beds and provide both task and ambient illumination. They may have integrated LED sources or contain linear fluorescents."]
         }
       },
       "Neonatal Intensive Care Unit" :
