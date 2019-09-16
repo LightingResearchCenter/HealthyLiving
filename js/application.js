@@ -850,7 +850,6 @@ function generateCSContent(data){
       generateCSContent(data);
     });
   }
-
 }
 
 function generateRender(hb,selection,path,data){
