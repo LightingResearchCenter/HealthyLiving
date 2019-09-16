@@ -134,7 +134,7 @@ function main(hb_json,selection_json){
 function checkModalSize(values){
   var size = values.length;
   for (var i = 0; i < values.length; i++){
-    if (values[i] == 'desc'){
+    if (values[i] == 'desc' || values[i] == 'plan'){
       size -= 1;
     }
   }
@@ -509,21 +509,23 @@ function buildHTML(){
   str += '              <div class="card-body pb-0">';
   str += '                <h5 class="card-title right-panel-h5 mb-0">Assumptions</h5>';
   str += '                <div id="assumptionsContentContainer" class="right-panel-content-container right-panel-content collapse"><hr class="right-panel-hr"/>';
-  str += '                  <h6 class="reflectance-title">Room reflectances:</h6>';
-  str += '                  <p class="right-panel-p mb-2 ml-3">A room’s finishing material and color can change perception of space as well as reflect or absorb light to affect how much gets to the eye. Reflectances are based on a percentage of how much light is reflected off a surface.</p>';
-  str += '                  <p class="reflectance-grey-box">Ceiling: 80% (0.8) <br /> Walls: 50% (0.5) <br /> Floor: 20% (0.2)</p>';
-  str += '                  <h6 class="reflectance-title">Height of illuminance calculation points:</h6>';
-  str += '                  <p class="right-panel-p mb-2 ml-3">When determining how light performs in a space, it is important to know the height at which people’s eyes will receive light (EV) and the height at which tasks are being done (EH).</p>';
-  str += '                  <p class="reflectance-grey-box">Horizontal illuminance (EH): 2’-6” AFF <br /> Vertical illuminance (EV): 4’-0” AFF</p>';
-  str += '                  <h6 class="reflectance-title">Dimming system:</h6>';
-  str += '                  <p class="right-panel-p mb-2 ml-3">Knowing how your dimming system operates is important to determine what percent output your lights should be as brightness levels vary throughout the day.</p>';
-  str += '                  <p class="reflectance-grey-box">Linear dimming system</p>';
-  str += '                  <h6 class="reflectance-title">Light Loss Factors:</h6>';
-  str += '                  <p class="right-panel-p mb-2 ml-3">When determining how light fixtures perform over time, it is important to know the depreciation over time. With light loss factors accounted for, light received from a fixture will decrease over time.</p>';
-  str += '                  <p class="reflectance-grey-box">No light loss factors accounted for</p>';
-  str += '                  <h6 class="reflectance-title">Relationship between lumen output and wattage:</h6>';
-  str += '                  <p class="right-panel-p mb-2 ml-3">Changing the lumen output of a fixture will change how much light is in a space. Lumen output from a fixture is important to know achieve light levels to determine energy usage, wattage must also be known.</p>';
-  str += '                  <p class="reflectance-grey-box">Linear relationship between fixture lumen output and wattage</p>';
+  str += '                  <div id="assumptionsContent">';
+  str += '                    <h6 class="right-panel-outer-title">Room reflectances:</h6>';
+  str += '                    <p class="right-panel-p mb-2 ml-3">A room’s finishing material and color can change perception of space as well as reflect or absorb light to affect how much gets to the eye. Reflectances are based on a percentage of how much light is reflected off a surface.</p>';
+  str += '                    <p class="right-panel-grey-box">Ceiling: 80% (0.8) <br /> Walls: 50% (0.5) <br /> Floor: 20% (0.2)</p><hr/>';
+  str += '                    <h6 class="right-panel-outer-title">Height of illuminance calculation points:</h6>';
+  str += '                    <p class="right-panel-p mb-2 ml-3">When determining how light performs in a space, it is important to know the height at which people’s eyes will receive light (EV) and the height at which tasks are being done (EH).</p>';
+  str += '                    <p class="right-panel-grey-box">Horizontal illuminance (EH): 2’-6” AFF <br /> Vertical illuminance (EV): 4’-0” AFF</p><hr/>';
+  str += '                    <h6 class="right-panel-outer-title">Dimming system:</h6>';
+  str += '                    <p class="right-panel-p mb-2 ml-3">Knowing how your dimming system operates is important to determine what percent output your lights should be as brightness levels vary throughout the day.</p>';
+  str += '                    <p class="right-panel-grey-box">Linear dimming system</p><hr/>';
+  str += '                    <h6 class="right-panel-outer-title">Light Loss Factors:</h6>';
+  str += '                    <p class="right-panel-p mb-2 ml-3">When determining how light fixtures perform over time, it is important to know the depreciation over time. With light loss factors accounted for, light received from a fixture will decrease over time.</p>';
+  str += '                    <p class="right-panel-grey-box">No light loss factors accounted for</p><hr/>';
+  str += '                    <h6 class="right-panel-outer-title">Relationship between lumen output and wattage:</h6>';
+  str += '                    <p class="right-panel-p mb-2 ml-3">Changing the lumen output of a fixture will change how much light is in a space. Lumen output from a fixture is important to know achieve light levels to determine energy usage, wattage must also be known.</p>';
+  str += '                    <p class="right-panel-grey-box">Linear relationship between fixture lumen output and wattage</p>';
+  str += '                  </div>'
   str += '                </div>';
   str += '              </div>';
   str += '            </a>'
@@ -533,7 +535,6 @@ function buildHTML(){
   str += '              <div class="card-body pb-0">';
   str += '                <h5 class="card-title right-panel-h5 mb-0">Lighting Solution</h5>';
   str += '                <div id="lightingSolutionContentContainer" class="right-panel-content-container right-panel-content collapse">';
-  str += '                <hr class="right-panel-hr"/>';
   str += '                <div id="lightingSolutionContent"></div>'
   str += '                </div>';
   str += '              </div>';
@@ -558,8 +559,8 @@ function buildHTML(){
   str += '                        </div>';
   str += '                        <div class="col-md-6 pl-1">';
   str += '                          <img id="fixture_candela" class="w-100" src=""/>'
+  str += '                        </div>';
   str += '                       </div>';
-  str += '                      </div>';
   str += '                     <div class="row mb-2">';
   str += '                       <div class="col px-0">';
   str += '                         <ul class="pl-3 my-4 no-bullets">';
@@ -585,8 +586,29 @@ function buildHTML(){
   str += '            </div>';
   str += '          </div>';
   str += '          <div class="card right-panel-card">';
-  str += '            <div class="card-body pb-0">';
-  str += '              <h5 class="card-title right-panel-h5 mb-0">Charts</h5>';
+  str += '            <a class="right-panel-expandable collapsed" data-toggle="collapse" data-target=".chartsContent" aria-expanded="false" aria-controls="chartsContent">';
+  str += '              <div class="card-body pb-0">';
+  str += '                <h5 class="card-title right-panel-h5 mb-0">Charts</h5>';
+  str += '                <div class="chartsContent right-panel-content collapse">';
+  str += '                  <hr class="right-panel-hr" />';
+  str += '                  <img id="chart1" class="mt-2" width="100%" src="img/application/charts/1.jpg" />';
+  str += '                  <img id="chart2" class="mt-2 d-none" width="100%" src="img/application/charts/2.jpg" />';
+  str += '                  <img id="chart3" class="mt-2 d-none" width="100%" src="img/application/charts/3.jpg" />';
+  str += '                </div>';
+  str += '              </div>';
+  str += '            </a>';
+  str += '            <div class="card-footer chart-cart-footer chartsContent collapse">';
+  str += '              <ul class="nav nav-tabs nav-tabs-footer card-footer-tabs">';
+  str += '                <li class="nav-item nav-item-footer nav-item-footer-charts">';
+  str += '                  <a id="showChart1" class="nav-link nav-link-footer text-center active">Lumens</a>';
+  str += '                </li>';
+  str += '                <li class="nav-item nav-item-footer nav-item-footer-charts">';
+  str += '                  <a id="showChart2" class="nav-link nav-link-footer text-center">LPD</a>';
+  str += '                </li>';
+  str += '                <li class="nav-item nav-item-footer nav-item-footer-charts">';
+  str += '                  <a id="showChart3" class="nav-link nav-link-footer text-center">EV</a>';
+  str += '                </li>';
+  str += '              </ul>';
   str += '            </div>';
   str += '          </div>';
   str += '        </div>';
@@ -596,6 +618,34 @@ function buildHTML(){
   str += '</div>';
 
   $('body').append(str);
+
+  $('#showChart1').click(function(){
+    console.log('here');
+    $('#chart1').removeClass('d-none');
+    $('#chart2').addClass('d-none');
+    $('#chart3').addClass('d-none');
+    $('#showChart1').addClass('active');
+    $('#showChart2').removeClass('active');
+    $('#showChart3').removeClass('active');
+  });
+
+  $('#showChart2').click(function(){
+    $('#chart1').addClass('d-none');
+    $('#chart2').removeClass('d-none');
+    $('#chart3').addClass('d-none');
+    $('#showChart1').removeClass('active');
+    $('#showChart2').addClass('active');
+    $('#showChart3').removeClass('active');
+  });
+
+  $('#showChart3').click(function(){
+    $('#chart1').addClass('d-none');
+    $('#chart2').addClass('d-none');
+    $('#chart3').removeClass('d-none');
+    $('#showChart1').removeClass('active');
+    $('#showChart2').removeClass('active');
+    $('#showChart3').addClass('active');
+  });
 }
 
 function generateFinalBreadcrumb(hb,selection,data){
@@ -729,21 +779,24 @@ function generateLightingSolution(data){
     $.each(solutions_result,function(){
       var solutions = this;
       var path = solutions[data.facility][data.room][data.fixture][data.target];
-      $('#lightingSolutionContent').append('<p class="right-panel-p solutions-intro">'+path.intro+'</p>');
+      console.log(path);
       for (var key in path){
         if (key == "intro"){
-          continue;
+          $('#lightingSolutionContent').append('<p class="right-panel-p mb-2 ml-3">'+path[key]+'</p><hr/>');
         }else{
-          if (key.replace(/[0-9]/g, '') == 'outer'){
-            for (var i = 0; i < path[key].length; i++){
-              if (i == 0 || i % 2 == 0){
-                $('#lightingSolutionContent').append('<p class="solutions-outer-even">'+path[key][i]+'</p>');
-              }else{
-                $('#lightingSolutionContent').append('<p class="solutions-outer-odd">'+path[key][i]+'</p>');
-              }
+          if (key.replace(/[0-9]/g, '') == 'outer' || key.replace(/[0-9]/g, '') == 'outerlast'){
+            $('#lightingSolutionContent').append('<h6 class="right-panel-outer-title">'+path[key][0]+'</h6>');
+            $('#lightingSolutionContent').append('<p class="right-panel-p mb-2 ml-3">'+path[key][1]+'</p>');
+            if (key != Object.keys(path)[Object.keys(path).length-1] && key.replace(/[0-9]/g, '') != 'outerlast') {
+              $('#lightingSolutionContent').append('<hr/>');
             }
           }else{
-
+            var number = key.replace(/\D/g,'');
+            if (number == 0 || number % 2 == 0){
+              $('#lightingSolutionContent').append('<div class="solutions-inner-even"><h6 class="right-panel-outer-title">'+path[key][0]+'</h6><p class="right-panel-p mb-2">'+path[key][1]+'</p></div>');
+            }else{
+              $('#lightingSolutionContent').append('<div class="solutions-inner-odd"><h6 class="right-panel-outer-title">'+path[key][0]+'</h6><p class="right-panel-p mb-2">'+path[key][1]+'</p></div>');
+            }
           }
         }
       }
@@ -846,7 +899,6 @@ function generateCSContent(data){
       generateCSContent(data);
     });
   }
-
 }
 
 function generateRender(hb,selection,path,data){
