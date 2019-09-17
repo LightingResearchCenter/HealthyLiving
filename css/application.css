@@ -36,7 +36,6 @@
   transform: rotate(140deg);
 }
 
-
 #mainNav {
   background-color:#00205b;
 }
@@ -577,6 +576,7 @@ ol {
 html,body {
   height: 100%;
   font-family: 'Source Sans Pro', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .body-bg{
