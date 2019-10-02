@@ -4,13 +4,18 @@ h1 {
   letter-spacing: 0.2rem;
 }
 
-p{
+ul{
+  list-style-type: none;
+}
+
+p, ol, ul, li{
+  font-size: 1.2rem;
   font-family: arial;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 h2{
-  margin-top: .5rem;
+  margin-top: .25rem;
 }
 
 html {
@@ -28,12 +33,9 @@ article{
   margin-bottom: 2.5rem;
 }
 
-p{
-  font-size: 1.2rem;
-}
 
 .h-200-offset{
-  height: calc(200% - 58.8px);
+  height: calc(200% - 67px);
 }
 
 .overflow-scroll{
@@ -41,19 +43,19 @@ p{
 }
 
 .mh-200-offset{
-  max-height: calc(200% - 58.8px);
+  max-height: calc(200% - 67px);
 }
 
 .h-100-offset{
-  height: calc(100% - 58.8px);
+  height: calc(100% - 67px);
 }
 
 .mh-100-offset{
-  max-height: calc(100% - 58.8px);
+  max-height: calc(100% - 67px);
 }
 
 .h-100-plus-offset{
-  max-height: calc(100% + 58.8px);
+  max-height: calc(100% + 67px);
 }
 
 #mainNav {

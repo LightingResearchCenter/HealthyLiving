@@ -49,7 +49,7 @@
     </div>
 
     <div class="container-fluid sticky h-100-offset mh-100-offset overflow-hidden">
-      <div class="row h-100-offset mh-100-offset sticky">
+      <div id="contentRow" class="row h-100-offset mh-100-offset sticky">
 
         <!-- Accordion -->
         <div class="col-xl-3 col-lg-4 col-md-5 col-sm-12 p-0 accordion drop-shadow h-100-plus-offset sticky">
@@ -87,13 +87,13 @@
                       <a class="acnav__link acnav__link--level2 section-link emptyIcon" href="#section-ipGRC">IPGRC</a>
                     </li>
                     <li>
-                      <a class="acnav__link acnav__link--level2 section-link emptyIcon" href="#section-visualVsNonVisual">Visual vs. Non-visual Systems</a>
+                      <a class="acnav__link acnav__link--level2 section-link emptyIcon" href="#section-visualVsNonVisualSystems">Visual vs. Non-visual Systems</a>
                     </li>
                     <li>
-                      <a class="acnav__link acnav__link--level2 section-link emptyIcon" href="#section-circadianLight">Circadian Light</a>
+                      <a class="acnav__link acnav__link--level2 section-link emptyIcon" href="#section-whatIsCircadianLighting">Circadian Light</a>
                     </li>
                     <li>
-                      <a class="acnav__link acnav__link--level2 section-link emptyIcon" href="#section-Summary">Summary</a>
+                      <a class="acnav__link acnav__link--level2 section-link emptyIcon" href="#section-fundamentalsSummary">Summary</a>
                     </li>
                   </ul>
                   <!-- end level 2 -->
@@ -102,40 +102,40 @@
                   <div class="acnav__label manufacturersIcon">Manufacturer's / Designer's Steps</div>
                   <ul class="acnav__list acnav__list--level2">
                     <li>
-                      <a class="acnav__link acnav__link--level2 emptyIcon" href="section-lightingTechnology">Lighting Techniques</a>
+                      <a class="acnav__link acnav__link--level2 emptyIcon section-link" href="#section-componentsOfCircadianDesign">Components of Circadian Design</a>
                     </li>
                     <li class="has-children">
-                      <div class="acnav__label acnav__label--level2 manufacturersInnerIcon">Information About Room</div>
+                      <div class="acnav__label acnav__label--level2 manufacturersInnerIcon"><a class="section-link" href="#section-informationAboutRoom">Information About Room</a></div>
                       <ul class="acnav__list acnav__list--level3">
                         <li>
-                          <a class="acnav__link acnav__link--level3 emptyIcon" href="">Geographic Location</a>
+                          <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-geographicLocation">Geographic Location</a>
                         </li>
                         <li>
-                          <a class="acnav__link acnav__link--level3 emptyIcon" href="">Building Orientation</a>
+                          <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-buildingOrientation">Building Orientation</a>
                         </li>
                         <li>
-                          <a class="acnav__link acnav__link--level3 emptyIcon" href="">Facility and Room Type</a>
+                          <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-facilityAndRoomType">Facility and Room Type</a>
                         </li>
                         <li>
-                          <a class="acnav__link acnav__link--level3 emptyIcon" href="">Occupant Type</a>
+                          <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-occupantType">Occupant Type</a>
                         </li>
                         <li>
-                          <a class="acnav__link acnav__link--level3 emptyIcon" href="">Area of Room</a>
+                          <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-areaOfRoom">Area of Room</a>
                         </li>
                         <li>
-                          <a class="acnav__link acnav__link--level3 emptyIcon" href="">Ceiling Height</a>
+                          <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-ceilingHeight">Ceiling Height</a>
                         </li>
                         <li>
-                          <a class="acnav__link acnav__link--level3 emptyIcon" href="">Room Reflectances</a>
+                          <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-roomReflectances">Room Reflectances</a>
                         </li>
                         <li>
-                          <a class="acnav__link acnav__link--level3 emptyIcon" href="">Furniture Layout</a>
+                          <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-furnitureLayout">Furniture Layout</a>
                         </li>
                         <li>
-                          <a class="acnav__link acnav__link--level3 emptyIcon" href="">Horizontal Illuminance</a>
+                          <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-horizontalIlluminance">Horizontal Illuminance</a>
                         </li>
                         <li>
-                          <a class="acnav__link acnav__link--level3 emptyIcon" href="">Vertical Illuminance</a>
+                          <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-verticalIlluminance">Vertical Illuminance</a>
                         </li>
                       </ul>
                     </li>
@@ -548,7 +548,7 @@
             <div class="container-fluid mt-4 article-content">
               <div class="row">
                 <div class="col">
-                  <figure><img src="img/background/fundamentals/what is light/1.png" class="float-right w-50 drop-shadow rounded p-4 pl-0 m-4 w-50" alt="" /></figure>
+                  <figure><img src="img/background/fundamentals/what is light/1.png" class="float-right w-50 drop-shadow rounded p-4 pl-0 m-4" alt="" /></figure>
                   <p>
                     The visible portion of the electromagnetic spectrum includes wavelength between 380-780 nm that mechanisms in the human eye are sensitive to. The retina in the human eye can absorb these wavelengths, interpret them, and send signals to the brain to perceive. Visual interpretation components allow us to ‘see’ the environment around us, but light can do much more. Acting as a catalyst, light can provide the awareness for the body to know what time of day it is as well as a stimulus for an acute alerting effect. The <a class="segue" href="#section-lightingAndTheCircadianSystem">circadian system</a> is responsible for synchronizing the body around ('circa') the day ('dia').
                   </p>
@@ -564,21 +564,51 @@
             <div class="container-fluid mt-4 pr-4">
               <div class="row">
                 <div class="col">
-                  <figure class="float-right w-50 m-2">
+                  <figure class="float-right w-65 m-2">
                     <img src="img/background/fundamentals/lighting and the circadian system/1.png" class="p-4 m-3 drop-shadow rounded w-100" alt="" />
                     <figcaption class="figcaption text-center">Watch this video to learn more about <a target="_blank" href="https://www.youtube.com/watch?v=noJnpGmWEPk&list=PL_X9RKGy9RIZmgzoJwHZsQmpPW6O1fLu3&index=1">circadian rhythms</a></figcaption>
                   </figure>
                   <p>
                     The 24-hour pattern of light and dark that accompanies Earth’s rotation regulates the physiology or behavior of almost every living thing on the planet. For humans, light reaching the back of our eyes is the main stimulus that synchronizes the biological clock and thus our body’s circadian rhythms to the solar day, telling our bodies to do the right thing at the right time. Sleeping and waking, feeding and fasting, the regulation of body temperature and blood pressure, and the secretion of hormones are just a few examples of circadian rhythms.
                   </p>
+                  <figure><img src="img/background/fundamentals/lighting and the circadian system/2.png" class="float-left w-50 drop-shadow rounded p-4 pl-0 m-4" alt="" /></figure>
                   <p>
-                    The effects of light on the circadian system are not trivial and should always be taken into consideration when designing lighting in a space. Upsetting the daily pattern of circadian light and dark affects performance and wellbeing, as well as, it seems, our basic health. The therapeutic value of circadian light (and dark) has been demonstrated in laboratory and field studies. Light with the appropriate characteristics can reduce symptoms of seasonal affective disorder, increase sleep efficiency of older adults including those with Alzheimer’s disease, improve circadian entrainment of premature infants, and increase alertness and wellbeing of night-shift workers. And it is not just about short-wavelength (blue) light. Recent research shows that long-wavelength (red) light, which does not affect melatonin levels at night, can increase objective and subjective measures of alertness as well as certain types of performance. Light during the day can also affect alertness and certain types of performance. Figueiro and colleagues showed that about 200 lux at the eye of a warm white light (2650 K) and 260 lux of a 640-nm light increased alertness and certain types of performance during the post-lunch dip hours. It has even been suggested that some forms of cancer and cardiovascular disease may be linked to the disruption of the normal circadian light-dark pattern. The impact of light on the general population is less clear. More recent studies suggest that daylight in office buildings can increase sleep in workers, but further investigation about the effect of light on the general population is warranted.
+                    There are a few exogenous (external) cues that aid the body in knowing what time of day it is for the regulation of the sleep/wake cycle. With food intake and exercise being two cues, light through the eye has been shown to be the most effective time-giver for the circadian clock. The circadian system is responsible for regulating all cyclic rhythms within the body, which is why it is known as the master clock. If the master clock isn’t given a robust schedule of cues, it cannot regulate a proper schedule. Without proper cues from light exposure, especially, the circadian system would be left in a state of circadian darkness.
                   </p>
                   <p>
-                    But what light gives, light can take away. Exposure to light at the wrong times, which has become increasingly common since the advent of electrical lighting over a century ago, can desynchronize our circadian rhythms. Exposure to light at night (LAN), for example, is now a fact of life in out 24-hour society, and has been linked with poor sleep and health problems including certain types of cancer, diabetes, heart disease, and obesity.
+                    Light’s effects on the circadian system should be taken into consideration when designing lighting to benefit the well-being of occupants of any interior space. Disturbing the daily or circadian (circa = “about,” dies = “day”) pattern of light and dark can adversely affect our basic health and well-being and negatively influence some measures of performance. The use of architectural lighting to sustain the circadian pattern of light and dark has shown therapeutic value in laboratory and field studies.
                   </p>
                   <p>
-                    Adversely, not getting enough light throughout the day will cause the biological system (naturally cycling on an average of 24.2 hours) to not synchronize with the 24-hour solar day, making it lag behind. Without social commitments demanding us to sleep and wake up at certain times, the circadian system would become completely out of sync with the solar day, functioning on a free-running schedule. The examples below present good and bad lighting scenes. Typical commercial and residential lighting is considered bad lighting for circadian entrainment since it is lacks robust light levels.
+                    Four characteristics of light are crucial for the circadian system’s response to light:
+                    <ul>
+                      <li>
+                        <b>1.&nbsp;</b> The amount or level of light received at the eyes (“bright or dim?”)
+                      </li>
+                      <li>
+                        <b>2.&nbsp;</b> The spectral properties of the light experienced (“warm or cool?”)
+                      </li>
+                      <li>
+                        <b>3.&nbsp;</b> The timing and duration of light exposures (“when, and for how long?”)
+                      </li>
+                      <li>
+                        <b>4.&nbsp;</b> A person’s history of light exposures (“how much over the past 24 hours?”)
+                      </li>
+                    </ul>
+                  </p>
+                  <p>
+                    When appropriately specified according to these four characteristics, light exposures can reduce symptoms of seasonal affective disorder, [1] increase sleep efficiency in older adults (including those with Alzheimer’s disease), [2-4] promote circadian entrainment in premature infants, [5] and increase alertness at all times of day and night. [6-8]
+                  </p>
+                  <p>
+                    The studies cited above used bright polychromatic white light of a high correlated color temperature (CCT) or short-wavelength (460 nm) light. And it is not just about short-wavelength (blue) light. Recent research shows that long-wavelength (red) light, which does not affect melatonin levels at night, can increase objective and subjective measures of alertness as well as certain types of performance. Light during the day can also affect alertness and certain types of performance. Figueiro and colleagues showed that about 200 lux at the eye of a warm white light (2650 K) and 260 lux of a 640-nm light increased alertness and certain types of performance during the post-lunch dip hours. It has even been suggested that some forms of cancer and cardiovascular disease may be linked to the disruption of the normal circadian light-dark pattern. The impact of light on the general population is less clear. More recent studies suggest that daylight in office buildings can increase sleep in workers, but further investigation about the effect of light on the general population is warranted.
+                  </p>
+                  <p>
+                    But what light gives, light can take away. Exposure to light at the wrong times, which has become increasingly common since the advent of electrical lighting over a century ago, can desynchronize our circadian rhythms. Exposure to light at night (LAN), for example, is now a fact of life in our 24-hour society, and has been linked with poor sleep and health problems including certain types of cancer, diabetes, heart disease, and obesity.
+                  </p>
+                  <p>
+                    Adversely, not getting enough light throughout the day will cause the biological system (naturally cycling on an average of 24.2 hours) to not synchronize with the 24-hour solar day, making it lag behind. Without social commitments demanding us to sleep and wake up at certain times, the circadian system would become completely out of sync with the solar day, functioning on a free-running schedule.
+                  </p>
+                  <p>
+                    The examples below present good and bad lighting scenes. Typical commercial and residential lighting is considered bad lighting for circadian entrainment since it is lacks robust light levels.
                   </p>
                 </div>
               </div>
@@ -684,16 +714,6 @@
                   </p>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <p>
-                    Hormones are the signals sent as messages from the brain and into the body. Melatonin and cortisol are inverse hormones released at specific times of the day. Melatonin is released at night as an ‘activity to non-activity’ signal to get the body to wind down and sleep. Cortisol  is the signal in the morning to get the body ready for the change from non-activity to activity, and begins to alert the body to wake up. Both are anticipatory hormones, meaning their signals are sent out in anticipation of sleep or wake time. Just like it is natural for the body to take between 10-20 minutes to fall asleep, the body should know to slowly wake itself up, rather than abruptly waking up in the middle of a sleep cycle.  For example, if a person has a rhythmic sleep/wake pattern and their natural wakeup time is 8 AM, cortisol will begin to be released at 6 AM, slowly waking the body up from its last REM cycle. A sharp peak of cortisol occurs 30-40 minutes after waking up. This is known as Cortisol Awakening Response (CAR) and is important to prepare the body for the upcoming day. If a person is sleep deprived, CAR is reduced, making it even harder for a person to feel awake in the morning and ready to start the day. In the morning, 800 lux of white light at the eye can increase cortisol levels.
-                  </p>
-                  <p>
-                    Melatonin and cortisol secretion from the brain is controlled by the SCN (suprachiasmatic nucleus) which has a direct connection to the optic nerve, and input from the eye. This means that the input from light through the eye plays a large role in how the body’s circadian system communicates to the rest of the body.
-                  </p>
-                </div>
-              </div>
             </div>
           </article>
 
@@ -751,14 +771,14 @@
 
           <article id="section-ipGRC" class="article-fundamentals">
             <div class="sticky-title text-center">
-              <h2>ipGRC</h2>
+              <h2>ipRGC Photoreceptors</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
               <div class="row">
                 <div class="col-md-12">
                   <div class="row">
                     <div class="col">
-                      <figure class="text-center"><img src="img/background/fundamentals/ipgrcs/1.png" class="float-right w-40 m-4 p-2 drop-shadow rounded" alt="" /></figure>
+                      <figure class="text-center"><img src="img/background/fundamentals/iprgc photoreceptors/1.png" class="float-right w-40 m-4 p-2 drop-shadow rounded" alt="" /></figure>
                       <p>
                         In addition to rods and cones, the retina contains a recently discovered third type of photoreceptor whose focus is not visual perception, but is rather concerned with the circadian system. ipRGCs, or intrinsically photosensitive retinal ganglion cells are not located in the photoreceptor layer with the rods and cones. They are located in the layer right before the optic nerve and have a 1:1 connection to the brain, which is different than the L, M, and S cones. That means the signal the ipRGC gets goes directly to the part of the brain that is responsible for circadian entrainment. These photoreceptors also connect back to other layers and receive input from the other photoreceptors.
                       </p>
@@ -767,26 +787,31 @@
                       </p>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col">
-                      <figure class="text-center"><img src="img/background/fundamentals/ipgrcs/2.jpg" class="float-right w-40 m-4 drop-shadow rounded" alt="" /></figure>
-                      <p>
-                        Visual and non-visual parts of the brain receive information from the eye. The LMS cones and rods are responsible for instantaneous responses to light for visual purposes. The visual cortex is located in the back of the brain. The ipRGCs send its input directly to the SCN (suprachiasmatic nucleus) which is the location of the master circadian clock in the forefront of the brain. Though this connection is direct, the circadian (non-visual) system itself is slower to respond to light signals than the visual system. It is important to create lighting designs that accommodate for both visual and non-visual needs occupants.
-                      </p>
-                      <!-- <p>
-                        Knowing this information, we can begin learning about how to do <a class="segue circadianDesign">circadian lighting designs.</a>
-                      </p> -->
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
           </article>
-          <!-- Fundamentals -->
 
+          <article id="section-visualVsNonVisualSystems" class="article-fundamentals">
+            <div class="sticky-title text-center">
+              <h2>Visual vs. Non-visual Systems</h2>
+            </div>
+            <div class="container-fluid mt-4 pr-4">
+              <div class="row">
+                <div class="col">
+                  <figure class="text-center"><img src="img/background/fundamentals/visual vs nonvisual system/1.jpg" class="float-right w-40 m-4 drop-shadow rounded" alt="" /></figure>
+                  <p>
+                    Visual and non-visual parts of the brain receive information from the eye. The LMS cones and rods are responsible for instantaneous responses to light for visual purposes. The visual cortex is located in the back of the brain. The ipRGCs send its input directly to the SCN (suprachiasmatic nucleus) which is the location of the master circadian clock in the forefront of the brain. Though this connection is direct, the circadian (non-visual) system itself is slower to respond to light signals than the visual system. It is important to create lighting designs that accommodate for both visual and non-visual needs occupants.
+                  </p>
+                  <p>
+                    Knowing this information, we can begin learning about how to do <a class="segue" href="#section-whatIsCircadianLighting">circadian lighting designs.</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
 
-          <!-- Manufacturer's / Designer's Steps -->
-          <article id="section-whatIsCircadianLighting" class="article-manufacturers d-none">
+          <article id="section-whatIsCircadianLighting" class="article-fundamentals">
             <div class="sticky-title text-center">
               <h2>What is Circadian Lighting?</h2>
             </div>
@@ -813,31 +838,56 @@
                   <p>
                     The provided template gives a guideline for components necessary for circadian design. Go through the following categories to learn more about each of the factors.
                   </p>
+                  <p>
+                    Are you a <a class="segue">lighting designer or manufacturer</a> interested in learning more about how to approach a circadian lighting design?
+                  </p>
+                  <p>
+                    Are you an <a class="segue">occupant</a> looking to promote circadian entrainment in your working/living environment?
+                  </p>
                 </div>
               </div>
             </div>
           </article>
 
+          <article id="section-fundamentalsSummary" class="article-fundamentals">
+            <div class="sticky-title text-center">
+              <h2>Summary</h2>
+            </div>
+            <div class="container-fluid mt-4 pr-4">
+              <div class="row">
+                <div class="col">
+                  <p>
+                    The circadian system is the master clock of the body. The most effective time-giver for the circadian clock in the brain is light through the eye. The circadian system naturally regulates itself on a 24.2-hour cycle, and bright light during the day, and more effectively blue light, or light containing a higher concentration of shorter wavelengths is important to advance your circadian clock to be in sync with the 24-hour solar day. Light that gets to the eye and contains qualities that stimulate the circadian system we call circadian stimulus (CS). This metric takes into account spectral qualities of a light and how much is needed at the eye to create a response. On a scale from 0.0-0.7, the target CS changes throughout the span of a day, starting with a higher CS during the daytime (between 0.3-0.4), and lower at night (< 0.1). Occupant type, time of day, and duration contribute to what CS should be targeted. The biological clock is responsible for keeping all hormones and bodily functions regulating on a cycle. A major one being melatonin, the sleep hormone. Being an anticipatory hormone, and in nighttime and circadian dark conditions, melatonin will be released 2 hours before your body thinks it’s bedtime. If you are not exposed to a robust light/dark schedule, your body is in constant circadian darkness and can’t regulate hormones at the proper time they’re supposed to be released. Short-term circadian disruption can cause social jet-lag, decreased performance, bad mood/behavior, and decreased alertness throughout the day. Long-term circadian disruption can lead to increased risk of sleep disorders, depression, cardiovascular disease, diabetes, obesity, and even cancer. Whether you want to have a healthier diet, better exercise routine, more energy, better sleep, better mood, or reduced risk of disease, proper circadian entrainment is the origin to which these initiatives can be achieved.
+                  </p>
+                  <p>
+                    Click here to download a <a id="segueToManufacturers" class="segue">PDF summary of circadian fundamentals.</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <!-- Fundamentals -->
+
+
+          <!-- Manufacturer's / Designer's Steps -->
           <article id="section-componentsOfCircadianDesign" class="article-manufacturers d-none">
             <div class="sticky-title text-center">
               <h2>Components of Circadian Design</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
               <div class="row">
-                <div class="col-md-8">
-                  <figure><img src="img/background/circadian design/components of circadian design/1.png" class="float-left w-50 p-4 m-4 drop-shadow rounded" alt="" /></figure>
+                <div class="col">
+                  <figure><img src="img/background/circadian design/components of circadian design/1.png" class="float-left w-35 p-2 m-4 drop-shadow rounded" alt="" /></figure>
                   <p>
                     When deciding on a CS schedule, it is important to consider certain parameters. Determining what maximum CS value to target and for how long is dependent on the occupant and his/her sleep wake cycle. This is based on the person’s chronotype or social/work schedule. Knowing a occupant’s schedule will help determine the time of day a person should be exposed to varying CS levels.
                   </p>
+                  <figure><img src="img/background/circadian design/components of circadian design/2.png" class="float-right p-2 w-40 m-4 drop-shadow rounded" alt="" /></figure>
                   <p>
                     There are a few major lighting components that contribute to determining the CS value. The first one is Spectral Power distribution, or SPD. Since the circadian system is sensitive to shorter wavelengths, and more specifically ones close to 484 nm, the SPD plays an important role in calculating CS. Once the SPD is known, the target vertical illuminance (EV) values can be calculated using the CS calculator to determine what illuminance levels to target at the eye. The intensity distribution of a light source or multiple light sources in the room will determine how the light is distributed into the room and ultimately to the eye and work plane. And finally, the duration of exposure plays an important role in how the circadian system responds to the given light. It is found that it takes at least an hour of exposure to light providing a CS > 0.3 to have an effet on the circadian system.
                   </p>
                   <p>
-                    There are many components to a circadian design. One of the major categories includes information about room, who occupies it, dimensions and reflectances of the room, and furniture location create the first steps. Creating a CS schedule and desired CCTs are pieces to the lighting solution. Figuring out fixture information gets closer to having all the components needed to start determining performance of the solution. Using a lighting design software and photometric files, predictions can be made for how the fixtures perform. In applied designs, we can see the accuracy of real-life application and the output information such as achieved CS levels, LPD, and energy usage.
+                    There are many components to a circadian design. One of the major categories includes information about room, who occupies it, dimensions and reflectances of the room, and furniture location create the first steps. Creating a CS schedule and desired CCTs are pieces to the lighting solution. Figuring out fixture information gets closer to having all the components needed to start determining performance of the solution. Using a lighting design software and photometric files, predictions can be made for how the fixtures perform. In applied designs, we can see the accuracy of real-life application and the output information such as achieved CS levels, LPD, and energy usage. <a class="segue" href="#section-informationAboutRoom">Learn more about these specific components of circadian design below.</a>
                   </p>
-                </div>
-                <div class="col-md-4">
-                  <figure><img src="img/background/circadian design/components of circadian design/2.png" class="float-left p-4 w-100 drop-shadow rounded" alt="" /></figure>
                 </div>
               </div>
               <div class="row">
@@ -856,7 +906,7 @@
               <h2>Information About Room</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
-              <div class="row">
+              <div id="subsection-geographicLocation" class="row">
                 <div class="col-md-3 cornell-border">
                   <h6>Geographic location</h6>
                 </div>
@@ -864,7 +914,7 @@
                   <p>Where is your project located? Are there any codes that need to be followed?</p>
                 </div>
               </div>
-              <div class="row">
+              <div id="subsection-buildingOrientation" class="row">
                 <div class="col-md-3 cornell-border">
                   <h6>Building orientation</h6>
                 </div>
@@ -873,7 +923,7 @@
                   <p>What direction is your building and exposed walls of the room facing? How does daylight interact with the space? Depending on the time of year  and weather, daylight could be taken into consideration. Daylight sensors and a separeate zone to independently control light fixtures by the window could save energy while still promoting circadian entrainment. If there is set furniture locations, note where an occupant is facing. Daylight light levels for an occupant facing away from a window will contribute barely any CS.</p>
                 </div>
               </div>
-              <div class="row">
+              <div id="subsection-facilityAndRoomType" class="row">
                 <div class="col-md-3 cornell-border">
                   <h6>Facility and room type</h6>
                 </div>
@@ -881,7 +931,7 @@
                   <p>What space are you designing for?</p>
                 </div>
               </div>
-              <div class="row">
+              <div id="subsection-occupantType" class="row">
                 <div class="col-md-3 cornell-border">
                   <h6>Occupant type</h6>
                 </div>
@@ -889,7 +939,7 @@
                   <p>Who are the people who will be in this space most? This will help determine what type of circadian lighting schedule would be best to implement.</p>
                 </div>
               </div>
-              <div class="row">
+              <div id="subsection-areaOfRoom" class="row">
                 <div class="col-md-3 cornell-border">
                   <h6>Area of Room</h6>
                 </div>
@@ -897,7 +947,7 @@
                   <p>What are the dimensions of the room? This will help determine how many fixtures will be needed to fill the room with light.</p>
                 </div>
               </div>
-              <div class="row">
+              <div id="subsection-ceilingHeight" class="row">
                 <div class="col-md-3 cornell-border">
                   <h6>Ceiling height</h6>
                 </div>
@@ -905,7 +955,7 @@
                   <p>What is the ceiling height of the room? This will help determine necessary lumen output and beam distribution of light to reach work planes.</p>
                 </div>
               </div>
-              <div class="row">
+              <div id="subsection-roomReflectances" class="row">
                 <div class="col-md-3 cornell-border">
                   <h6>Room reflectances: ceilings, walls, floors</h6>
                 </div>
@@ -913,7 +963,7 @@
                   <p>What are the reflectances of materials and surfaces within the room? Having darker walls will absorb more light, consequently resulting in less light reaching the eye. Therefore, it is important to account for the reflectance of all surfaces. White surfaces are best for bouncing reflected light back into the space to increase light that reaches the eye.</p>
                 </div>
               </div>
-              <div class="row">
+              <div id="subsection-furnitureLayout" class="row">
                 <div class="col-md-3 cornell-border">
                   <h6>Furniture layout: location of occupants</h6>
                 </div>
@@ -931,7 +981,7 @@
                   </div>
                 </div>
               </div>
-              <div class="row">
+              <div id="subsection-horizontalIlluminance" class="row">
                 <div class="col-md-3 cornell-border">
                   <h6>Work plane height-horizontal illuminance</h6>
                 </div>
@@ -947,7 +997,7 @@
                   </p>
                 </div>
               </div>
-              <div class="row">
+              <div id="subsection-verticalIlluminance" class="row">
                 <div class="col-md-3 cornell-border">
                   <h6>Eye level height-vertical illuminance</h6>
                 </div>
