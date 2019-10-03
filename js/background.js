@@ -57,8 +57,9 @@ $(document).ready(function(){
         }else{
           var next_id = $('article').last().attr('id');
         }
-        if ($("#"+next_id).offset().top > window.innerHeight - 67){
-          $('a[href="#'+id+'"]').addClass('active');
+        if ($("#"+next_id).offset().top > window.innerHeight - 62){
+          //TODO: remove active from others
+          //$('a[href="#'+next_id+'"]').addClass('active');
           history.replaceState(undefined, undefined, '#' + id);
 
           if (id == 'section-lightingAndTheCircadianSystem'){
