@@ -47,4 +47,3 @@ $('.acnav__label').click(function () {
 		parent.addClass('is-open');
 	}
 });
-// From https://codepen.io/byrnecode/pen/GxdQdQ

@@ -7,7 +7,7 @@ $(document).ready(function(){
     $('.article-office').removeClass('d-inline-block');
     $('.article-healthcare').removeClass('d-inline-block');
     $('.article-senior').removeClass('d-inline-block');
-    $('.article-removeitional').removeClass('d-inline-block');
+    $('.article-additional').removeClass('d-inline-block');
     $('.article-fundamentals').addClass('d-none');
     $('.article-manufacturers').addClass('d-none');
     $('.article-occupants').addClass('d-none');
@@ -109,11 +109,13 @@ $(document).ready(function(){
     }
   });
 
-  $('#occupantNeeds').on('click',function(){
-    if($('#section-offices.d-inline-block').length == 0){
+  $('#occupants').on('click',function(){
+    if($('#section-personalLightingTechniques.d-inline-block').length == 0){
       hideAllArticles();
+      $('.article-occupants').removeClass('d-none');
+      $('.article-occupants').addClass('d-inline-block');
       var id = $('article').first().attr('id');
-      $('html, body').animate({
+      $('#content').animate({
         scrollTop: $('#'+id).offset().top - 67
       }, 1200, function(){
         window.location.hash = '#'+id - 67;
