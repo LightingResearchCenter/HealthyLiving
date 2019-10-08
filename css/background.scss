@@ -58,6 +58,12 @@ article{
   max-height: calc(100% + 67px);
 }
 
+.ul2col{
+  columns: 2;
+-webkit-columns: 2;
+-moz-columns: 2
+}
+
 #mainNav {
   background-color: #00205b;
 }
@@ -405,6 +411,7 @@ article{
 
 .accordion{
   background-color: #002770;
+  overflow: auto;
 }
 
 .bb{
@@ -491,11 +498,6 @@ hr{
 
 .right-border-large{
   border-right: 2px solid #383838;
-}
-
-.figure img{
-  display: block;
-  float: left;
 }
 
 .our-role-card{
