@@ -6,14 +6,14 @@ $(document).ready(function(){
     $('.article-occupants').removeClass('d-inline-block');
     $('.article-office').removeClass('d-inline-block');
     $('.article-healthcare').removeClass('d-inline-block');
-    $('.article-senior').removeClass('d-inline-block');
+    $('.article-seniorcare').removeClass('d-inline-block');
     $('.article-additional').removeClass('d-inline-block');
     $('.article-fundamentals').addClass('d-none');
     $('.article-manufacturers').addClass('d-none');
     $('.article-occupants').addClass('d-none');
     $('.article-office').addClass('d-none');
     $('.article-healthcare').addClass('d-none');
-    $('.article-senior').addClass('d-none');
+    $('.article-seniorcare').addClass('d-none');
     $('.article-additional').addClass('d-none');
   }
 
@@ -114,6 +114,48 @@ $(document).ready(function(){
       hideAllArticles();
       $('.article-occupants').removeClass('d-none');
       $('.article-occupants').addClass('d-inline-block');
+      var id = $('article').first().attr('id');
+      $('#content').animate({
+        scrollTop: $('#'+id).offset().top - 67
+      }, 1200, function(){
+        window.location.hash = '#'+id - 67;
+      });
+    }
+  });
+
+  $('#office').on('click',function(){
+    if($('#section-officeGeneralInformation.d-inline-block').length == 0){
+      hideAllArticles();
+      $('.article-office').removeClass('d-none');
+      $('.article-office').addClass('d-inline-block');
+      var id = $('article').first().attr('id');
+      $('#content').animate({
+        scrollTop: $('#'+id).offset().top - 67
+      }, 1200, function(){
+        window.location.hash = '#'+id - 67;
+      });
+    }
+  });
+
+  $('#healthcare').on('click',function(){
+    if($('#section-healthcareGeneralInformation.d-inline-block').length == 0){
+      hideAllArticles();
+      $('.article-healthcare').removeClass('d-none');
+      $('.article-healthcare').addClass('d-inline-block');
+      var id = $('article').first().attr('id');
+      $('#content').animate({
+        scrollTop: $('#'+id).offset().top - 67
+      }, 1200, function(){
+        window.location.hash = '#'+id - 67;
+      });
+    }
+  });
+
+  $('#seniorcare').on('click',function(){
+    if($('#section-seniorcareGeneralInformation.d-inline-block').length == 0){
+      hideAllArticles();
+      $('.article-seniorcare').removeClass('d-none');
+      $('.article-seniorcare').addClass('d-inline-block');
       var id = $('article').first().attr('id');
       $('#content').animate({
         scrollTop: $('#'+id).offset().top - 67
