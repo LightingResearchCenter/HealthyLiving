@@ -84,10 +84,20 @@ body {
   margin-left: .15rem;
 }
 
-.seniorIcon::before{
+.healthcareInnerIcon::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f479";
+  margin-right: 1rem;
+}
+
+.seniorcareIcon::before{
   font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f193";
   margin-right: 1.1rem;
   margin-left: .2rem;
+}
+
+.seniorcareInnerIcon::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f4be";
+  margin-right: 1rem;
 }
 
 .additionalIcon::before{
@@ -116,7 +126,9 @@ body {
 .acnav__link:focus, .acnav__link:hover, .acnav__label:focus, .acnav__label:hover {
   color: #e3e3e3;
   // background: #2d6b7e;
-	background: #0054f0;
+	//background: #0054f0;
+  background: #f0f5ff;
+  color: black;
   text-decoration: none;
 }
 
@@ -147,7 +159,9 @@ body {
 }
 .acnav__link--level2:focus, .acnav__link--level2:hover, .acnav__label--level2:focus, .acnav__label--level2:hover {
   // background: #296272;
-	background: #70a2ff;
+	// background: #70a2ff;
+  background: #f0f5ff;
+  color: black;
   text-decoration: none;
 }
 .acnav__link--level3, .acnav__label--level3 {
@@ -158,6 +172,7 @@ body {
 .acnav__link--level3:focus, .acnav__link--level3:hover, .acnav__label--level3:focus, .acnav__label--level3:hover {
   //background: #255867;
 	background: #f0f5ff;
+  color: black;
   text-decoration: none;
   color: black;
 }
