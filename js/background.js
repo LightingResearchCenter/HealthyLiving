@@ -17,24 +17,25 @@ $(document).ready(function(){
     $('.article-additional').addClass('d-none');
   }
 
-  function smoothScroll(id, offset, hash){
+  function smoothScroll(id, offset1, offset2, hash){
     if (hash !== "") {
       $(id).animate({
-        scrollTop: $(hash).position().top + $(id).scrollTop() + offset
+        scrollTop: $(hash).position().top + $(id).scrollTop() + offset1
       }, 1200, function(){
-        window.location.hash = hash + offset;
+        window.location.hash = hash + offset2;
+        history.replaceState(undefined, undefined, hash);
       });
     }
   }
 
   $("a.section-link, a.segue").on('click', function(event) {
     event.preventDefault();
-    smoothScroll('#content', 0, this.hash);
+    smoothScroll('#content', 10, 1, this.hash);
   });
 
   $("a.subsection-link").on('click', function(event) {
     event.preventDefault();
-    smoothScroll('#content', -65, this.hash);
+    smoothScroll('#content', -67, 5, this.hash);
   });
 
   $("#backgroundButton").click(function(){
@@ -49,18 +50,23 @@ $(document).ready(function(){
   // Scroll spy
   $('#content').scroll(function(e){
     var scroll = $('#content').position().top;
-    $('[id^=section]').each(function(_, section) {
+    var ids = [];
+    $('[id^=section],[id^=subsection]').each(function(_, section) {
+      ids.push(this.id);
       var id = this.id;
-      if($("#"+id).position().top < 0) {
+      var check = 0;
+      if (id.startsWith('sub')){
+        check = 75;
+      }
+      if($("#"+id).position().top < check){
         if ($(this).next().length > 0){
           var next_id = ($(this).next()[0]).id;
         }else{
           var next_id = $('article').last().attr('id');
         }
-        if ($("#"+next_id).offset().top > window.innerHeight - 62){
-          //TODO: remove active from others
-          //$('a[href="#'+next_id+'"]').addClass('active');
-          history.replaceState(undefined, undefined, '#' + id);
+        if ($("#"+next_id).offset().top > window.innerHeight - 67){
+          $('.acnav__link').removeClass('active');
+          $('a[href="#'+id+'"]').addClass('active');
 
           if (id == 'section-lightingAndTheCircadianSystem'){
             $('#goodAnimation')[0].play();
