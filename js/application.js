@@ -494,7 +494,7 @@ function buildHTML(){
   str += '      <div class="card drop-shadow right-panel">';
   str += '        <div class="card-body card-body-small-padding">';
   str += '          <div class="card right-panel-card">';
-  str += '            <a class="right-panel-expandable" data-toggle="collapse" data-target="#roomDescriptionContentContainer" aria-expanded="true" aria-controls="roomDescriptionContentContainer">';
+  str += '            <a id="roomDescriptionTab" class="right-panel-expandable" data-toggle="collapse" data-target="#roomDescriptionContentContainer" aria-expanded="true" aria-controls="roomDescriptionContentContainer">';
   str += '              <div class="card-body pb-0">';
   str += '                <h5 class="card-title right-panel-h5 mb-0">Room Description</h5>';
   str += '                <div id="roomDescriptionContentContainer" class="right-panel-content-container right-panel-content collapse show">';
@@ -589,7 +589,7 @@ function buildHTML(){
   str += '            <a class="right-panel-expandable collapsed" data-toggle="collapse" data-target=".chartsContent" aria-expanded="false" aria-controls="chartsContent">';
   str += '              <div class="card-body pb-0">';
   str += '                <h5 class="card-title right-panel-h5 mb-0">Charts</h5>';
-  str += '                <div class="chartsContent right-panel-content collapse">';
+  str += '                <div class="chartsContent right-panel-content right-panel-content-container collapse">';
   str += '                  <hr class="right-panel-hr" />';
   str += '                  <img id="chart1" class="mt-2" width="100%" src="img/application/charts/1.jpg" />';
   str += '                  <img id="chart2" class="mt-2 d-none" width="100%" src="img/application/charts/2.jpg" />';
@@ -597,7 +597,7 @@ function buildHTML(){
   str += '                </div>';
   str += '              </div>';
   str += '            </a>';
-  str += '            <div class="card-footer chart-cart-footer chartsContent collapse">';
+  str += '            <div class="card-footer chart-cart-footer chartsContent right-panel-content-container collapse">';
   str += '              <ul class="nav nav-tabs nav-tabs-footer card-footer-tabs">';
   str += '                <li class="nav-item nav-item-footer nav-item-footer-charts">';
   str += '                  <a id="showChart1" class="nav-link nav-link-footer text-center active">Lumens</a>';
@@ -1046,6 +1046,9 @@ function generateContent(hb,selection,data){
   generateLightingSolution(data);
   generateFixtures(data);
   handleRightPanelAccordion();
+  if ($('#roomDescriptionTab').hasClass('collapsed')){
+    $('#roomDescriptionTab').trigger('click');
+  }
 }
 
 $(document).ready(function(){
