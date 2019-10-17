@@ -64,9 +64,22 @@ $(document).ready(function(){
         }else{
           var next_id = $('article').last().attr('id');
         }
+
         if ($("#"+next_id).offset().top > window.innerHeight - 67){
-          $('.acnav__link').removeClass('active');
-          $('a[href="#'+id+'"]').addClass('active');
+          if($("#content").scrollTop() + $("#content").innerHeight() >= $("#content")[0].scrollHeight) {
+              $('.acnav__link').removeClass('active');
+              if(!$('a[href="#'+id+'"]').hasClass('last')){
+                $('.acnav__link').removeClass('active');
+                if($('a[href="#'+id+'"]').hasClass('acnav__link--level3')){
+                  $('a[href="#'+id+'"]').parent().parent().parent().next().find('a').addClass('active');
+                }else{
+                  $('a[href="#'+id+'"]').parent().next().find('a').addClass('active');
+                }
+              }
+          }else{
+            $('.acnav__link').removeClass('active');
+            $('a[href="#'+id+'"]').addClass('active');
+          }
 
           if (id == 'section-lightingAndTheCircadianSystem'){
             $('#goodAnimation')[0].play();
