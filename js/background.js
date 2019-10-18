@@ -30,7 +30,6 @@ $(document).ready(function(){
 
   $("div.acnav__label, a.segue").on('click', function(event) {
     event.preventDefault();
-    smoothScroll('#content', 10, 1, this.hash);
     smoothScroll('#content', 10, 1, $(this).find('a').attr('href'));
   });
 
