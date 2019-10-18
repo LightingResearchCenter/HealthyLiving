@@ -40,10 +40,13 @@ $('.acnav__label').click(function () {
 	else {
 		if (label.hasClass('acnav__label--level2')){
 			closeOthersLevel2(label);
+			list.slideDown('fast');
+			parent.addClass('is-open');
 		}else{
 			closeOthersLevel1(label);
+			list.slideDown('fast');
+			parent.addClass('is-open');
 		}
-		list.slideDown('fast');
-		parent.addClass('is-open');
+
 	}
 });

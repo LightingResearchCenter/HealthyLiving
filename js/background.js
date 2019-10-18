@@ -65,30 +65,30 @@ $(document).ready(function(){
           var next_id = $("#"+id).parent().parent().next('article').attr('id');
         }
 
-
-
         if ($("#"+next_id).offset().top > window.innerHeight - 67){
 
-          if(id.startsWith('sub') && !$('a[href="#' + $("#"+id).parent().parent().attr('id') + '"]').parent().parent().hasClass('is-open')){
-            console.log($('a[href="#' + $("#"+id).parent().parent().attr('id') + '"]'));
-            var parent = $('a[href="#' + $("#"+id).parent().parent().attr('id') + '"]').parent().parent();
-            var label = parent.children(":first");
-            var list = label.siblings('.acnav__list');
-            closeOthersLevel2(label);
-            list.slideDown('fast');
-        		parent.addClass('is-open');
-          }
+          // if(id.startsWith('sub') && !$('a[href="#' + $("#"+id).parent().parent().attr('id') + '"]').parent().parent().hasClass('is-open')){
+          //   var parent = $('a[href="#' + $("#"+id).parent().parent().attr('id') + '"]').parent().parent();
+          //   var label = parent.children(":first");
+          //   var list = label.siblings('.acnav__list');
+          //   //closeOthersLevel2(label);
+          //   list.slideDown('fast');
+        	// 	parent.addClass('is-open');
+          // }
 
           if($("#content").scrollTop() + $("#content").innerHeight() >= $("#content")[0].scrollHeight) {
             $('.acnav__link').removeClass('active');
             if(!$('a[href="#'+id+'"]').hasClass('last')){
               if($('a[href="#'+id+'"]').hasClass('acnav__link--level3')){
+                console.log('here1');
                 $('a[href="#'+id+'"]').parent().parent().parent().next().find('a').addClass('active');
               }else if($('a[href="#'+id+'"]').hasClass('acnav__link--level2')){
-                $('a[href="#'+id+'"]').parent().parent().children().last().find('a').addClass('active')
+                $('a[href="#'+id+'"]').parent().parent().children('li').last().find('a').addClass('active')
               }else if($('a[href="#'+id+'"]').hasClass('section-link')){
+                console.log('here3');
                 $('a[href="#'+id+'"]').parent().parent().parent().children().last().find('a').addClass('active');
               }else{
+                console.log('here4');
                 $('a[href="#'+id+'"]').parent().next().find('a').addClass('active');
               }
             }
