@@ -28,9 +28,8 @@ $(document).ready(function(){
     }
   }
 
-  $("div.acnav__label, a.segue").on('click', function(event) {
+  $("div.acnav__link--level2, div.acnav__label--level2, a.segue").on('click', function(event) {
     event.preventDefault();
-    smoothScroll('#content', 10, 1, this.hash);
     smoothScroll('#content', 10, 1, $(this).find('a').attr('href'));
   });
 
@@ -70,9 +69,18 @@ $(document).ready(function(){
           if($("#content").scrollTop() + $("#content").innerHeight() >= $("#content")[0].scrollHeight) {
             $('.acnav__link').removeClass('active');
             if(!$('a[href="#'+id+'"]').hasClass('last')){
+<<<<<<< HEAD
               $('.acnav__link').removeClass('active');
               if($('a[href="#'+id+'"]').hasClass('acnav__link--level3')){
                 $('a[href="#'+id+'"]').parent().parent().parent().next().find('a').addClass('active');
+=======
+              if($('a[href="#'+id+'"]').hasClass('acnav__link--level3')){
+                $('a[href="#'+id+'"]').parent().parent().parent().next().find('a').addClass('active');
+              }else if($('a[href="#'+id+'"]').hasClass('acnav__link--level2')){
+                $('a[href="#'+id+'"]').parent().parent().children().last().find('a').addClass('active')
+              }else if($('a[href="#'+id+'"]').hasClass('section-link')){
+                $('a[href="#'+id+'"]').parent().parent().parent().children().last().find('a').addClass('active');
+>>>>>>> 37e6d59f422a7cc2ff2ecb13a4400e70316a62b4
               }else{
                 $('a[href="#'+id+'"]').parent().next().find('a').addClass('active');
               }
