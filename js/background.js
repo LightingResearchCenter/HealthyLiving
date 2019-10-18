@@ -28,7 +28,7 @@ $(document).ready(function(){
     }
   }
 
-  $("div.acnav__label, a.segue").on('click', function(event) {
+  $("div.acnav__link--level2, div.acnav__label--level2, a.segue").on('click', function(event) {
     event.preventDefault();
     smoothScroll('#content', 10, 1, $(this).find('a').attr('href'));
   });
