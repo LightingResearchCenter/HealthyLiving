@@ -28,6 +28,10 @@ function closeOthersLevel2(label){
 	}
 }
 
+function closePreviousLevel2(label){
+
+}
+
 $('.acnav__label').click(function () {
 	var label = $(this);
 	var parent = label.parent('.has-children');
