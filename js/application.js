@@ -1080,6 +1080,14 @@ $(document).ready(function(){
   });
   //Get selection JSON and assign it to selection variable
 
+  $(".help-menu-list-item").click(function(){
+    $(".help-menu-list-item").removeClass('active');
+    $(this).addClass('active');
+    var id = "#help-" + $(this).data('value');
+    $(".help-section").addClass('d-none');
+    $(id).removeClass('d-none');
+  });
+
   $('#begin').click(function(){
     main(hb_json,selection_json);
   });
