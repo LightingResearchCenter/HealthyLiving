@@ -4,10 +4,10 @@
     <title>Healthy Patterns</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vide/0.5.1/jquery.vide.min.js"></script>
-    <script type="text/javascript" src="js/application.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vide/0.5.1/jquery.vide.min.js"></script>
+    <script src="js/application.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -22,12 +22,15 @@
         <div class="modal-content help-menu-content">
           <div class="container-fluid m-0 p-0">
             <div class="row h-100 mh-100">
-              <div class="col-md-3 px-0">
+              <div class="col-md-3">
                 <ul class="help-menu-list">
                   <li data-value="selection" class="help-menu-list-item"><h3 class="help-menu-list-title">Selection Process</h3></li>
-                  <li class="help-menu-list-item"><h3 class="help-menu-list-title">Thing 2</h3></li>
-                  <li class="help-menu-list-item"><h3 class="help-menu-list-title">Thing 3</h3></li>
-                  <li class="help-menu-list-item"><h3 class="help-menu-list-title">Thing 4</h3></li>
+                  <li data-value="breadcrumb" class="help-menu-list-item"><h3 class="help-menu-list-title">Breadcrumb</h3></li>
+                  <li data-value="render" class="help-menu-list-item"><h3 class="help-menu-list-title">Render</h3></li>
+                  <li data-value="plan" class="help-menu-list-item"><h3 class="help-menu-list-title">Plan</h3></li>
+                  <li data-value="csgraph" class="help-menu-list-item"><h3 class="help-menu-list-title">CS Graph</h3></li>
+                  <li data-value="cschart" class="help-menu-list-item"><h3 class="help-menu-list-title">CS Chart</h3></li>
+                  <li data-value="rightpanel" class="help-menu-list-item"><h3 class="help-menu-list-title">Right Panel</h3></li>
                 </ul>
               </div>
               <div class="col-md-9">
@@ -38,7 +41,7 @@
                   </div>
                   <div class="modal-body help-body">
                     <p class="help-menu-p">
-                      The help menu exists in order to help the user learn more about how to most effectively use this website. This specific help menu is targeted at specifically the application portion of the healthy buildings website. If you need help regarding the background portion of the healthy buildings website, or simply want to learn more about the fundamentals of circadian lighting, click <a href="background.html"> here </a> to navigate to the background page, and then click "help" in the top navigation bar again, to access the background page's respective help menu.
+                      The <b>help menu</b> exists in order to help the user learn more about how to <b>most effectively use this website</b>. This specific help menu is targeted at specifically the <b>application</b> portion of the healthy buildings website. If you need help regarding the background portion of the healthy buildings website, or simply want to learn more about the fundamentals of circadian lighting, click <a href="background.html"> here </a> to navigate to the background page, and then click "help" in the top navigation bar again, to access the background page's respective help menu.
                     </p>
                     <!-- <img src="img/help/application/intro/dude.png" class="w-50 help-dude-1 my-4" /> -->
                   </div>
@@ -52,11 +55,19 @@
                     <p class="help-menu-p">
                       When first arriving on the <b>application page</b> you will be met with the Designing In a New Light title, a short description, and the <b>begin</b> button. Clicking the <b>begin</b> button will initiate you into the selection process.
                     </p>
-                    <figure class="text-center"><img src="img/help/application/selection process/1.png"/ class="w-75 my-4 rounded"></figure>
+                    <figure class="w-95 text-center"><img src="img/help/application/selection%20process/1.png" class="w-85 my-4 rounded drop-shadow" alt=""></figure>
                     <p class="help-menu-p">
-                      When first arriving on the <b>application page</b> you will be met with the Designing In a New Light title, a short description, and the <b>begin</b> button. Clicking the <b>begin</b> button will initiate you into the selection process.
+                      Once you begin the <b>selection process</b> you will be tasked with choosing a single selection from the <b>six</b> different categories. In order, the categories are <b>Facility</b> > <b>Room</b> > <b>Fixtures</b> > <b>Target CS</b> > <b>CCT System</b> > <b>CCT</b>. Each selection is represented by a card with an image and a description, going into more detail about that selection and why you may want to select it.  To <b>choose a selection</b> simply click anywhere on the card and you will be automatically brought to the next selection category.
                     </p>
-                    <figure class="text-center"><img src="img/help/application/selection process/1.png"/ class="w-75 my-4 rounded"></figure>
+                    <figure class="text-center"><img src="img/help/application/selection%20process/2.png" class="w-85 my-4 rounded drop-shadow" alt=""></figure>
+                    <p class="help-menu-p">
+                      You may also click the <b>modal title</b> (i.e. "Choose a Room"), to activate a drop down that will give <b>more information</b> on how that specific category can affect the lighting.
+                    </p>
+                    <figure class="text-center"><img src="img/help/application/selection%20process/3.png" class="w-85 my-4 rounded drop-shadow" alt=""></figure>
+                    <p class="help-menu-p">
+                      Once you choose a selection for all six categories you will be presented with a page that looks similiar to the one below. Use the image below as a <b>guide</b> on how to use the help menu for each of the <b>labelled portions</b> on the image.
+                    </p>
+                    <figure class="text-center"><img src="img/help/application/selection%20process/4.png" class="w-85 my-4 rounded drop-shadow" alt=""></figure>
                   </div>
                 </div>
               </div>
@@ -90,185 +101,6 @@
       </div>
     </div>
     <!--Selection Modal -->
-
-    <!-- Description Modal -->
-    <div class="modal fade" id="description_modal" tabindex="-1" role="dialog" aria-labelledby="#description_modal_label" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="description_modal_label">Description</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>
-              Read about a general description of the room, furniture, and light fixtures chosen for the current selection.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Description Modal -->
-
-    <!-- Render Modal -->
-    <div class="modal fade" id="render_modal" tabindex="-1" role="dialog" aria-labelledby="#render_modal_label" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="render_modal_label">Image Render</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>
-              The room rendering gives a visual for how a space can change based on the time of day and CCT chosen. Exterior environments are dynamic, and so should your interior spaces.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Render Modal -->
-
-    <!-- RCP Modal -->
-    <div class="modal fade" id="rcp_modal" tabindex="-1" role="dialog" aria-labelledby="#rcp_modal_label" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="rcp_modal_label">Reflected Ceiling Plan</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>
-              The reflected ceiling plan (RCP) indicates where the fixtures are placed for the given design.
-              It also includes a view reference to mark the location and direction in which the render view is taken.
-            </p>
-            <div class="rcp-img-container overflow-auto">
-              <img class="rcp-img" src="img/application/help/RCP- Plan man.png" alt="RCP Render Orientation Indicator" />
-              <p>
-                View reference to mark the location and direction in which the render view is taken.
-              </p>
-            </div>
-            <div class="rcp-img-container overflow-auto">
-              <img class="rcp-img" src="img/application/help/RCP- Fixtures.png" alt="RCP Fixtures Indicator" />
-              <p>
-                Fixture symbols to indicate their location within the space.
-              </p>
-            </div>
-            <div class="rcp-img-container overflow-auto">
-              <img class="rcp-img" src="img/application/help/RCP- Vertical.png" alt="RCP Vertical Illuminance Indicator" />
-              <p>
-                Points where vertical illuminance was measured. Points were placed along the line and the direction of the meter face in the direction of the arrow.
-              </p>
-            </div>
-            <div class="rcp-img-container overflow-auto">
-              <img class="rcp-img" src="img/application/help/RCP- Horizontal.png" alt="RCP Horizontal Illuminance Indicator" />
-              <p>
-                Plane where horizontal illuminance was measured. Points were placed on the plane and the direction of the meter face towards the ceiling.
-              </p>
-            </div>
-            <div class="rcp-img-container overflow-auto">
-              <img class="rcp-img" src="img/application/help/RCP- Scale.png" alt="RCP Scale Indicator" />
-              <p>
-                Scale for reference.
-              </p>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- RCP Modal -->
-
-    <!-- Adjustment Modal -->
-    <div class="modal fade" id="adjustment_modal" tabindex="-1" role="dialog" aria-labelledby="#adjustment_modal_label" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="adjustment_modal_label">Adjustments</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>
-              Click between adjustment selections to change the rendering’s time of day and CCT. The vertical and horizontal illuminance targets for specific times of the day as well as the chosen CCT are given in the CS chart below.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Adjustment Modal -->
-
-    <!-- Fixture Modal -->
-    <div class="modal fade" id="fixture_modal" tabindex="-1" role="dialog" aria-labelledby="#fixture_modal_label" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="fixture_modal_label">Fixtures</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>
-              The provided thumbnail indicates the fixture used in the image render. The associated fixture symbol refers to the denotation used on the reflected ceiling plan.
-            </p>
-            <p>
-              Click on the fixture thumbnail to learn more about the characteristics of the fixture used in the design.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Fixture Modal -->
-
-    <!-- CS Chart Modal -->
-    <div class="modal fade" id="chart_modal" tabindex="-1" role="dialog" aria-labelledby="#chart_modal_label" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="chart_modal_label">CS Chart</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>
-              The CS chart is given as a reference to understand circadian design, and includes a time schedule of lighting exposure durations unique for varying user groups. The time range associates with a target CS level. The EV values (vertical illuminance) correspond with how many lux at the eye are needed to reach the target CS for that time of day. EH values (horizontal illuminance) are calculated based on the vertical to horizontal illuminance ratio of the fixture(s) used in the design. EV and EH values will vary depending on which CCT is chosen. For example, a 3000 K has less of an impact on the circadian system therefore requiring more light at the eye to reach a target CS of 0.3 when compared to 6500 K. Output percentage of the system is based on a linear dimming relationship of the reducing EV values, assuming the highest target for the day is at 100% output. Initial lumens and wattage per fixture are included and calculated based on how much is needed to reach the highest light levels in the design. Generally, cooler white light sources (6500 K and 5000 K) will require less initial lumen output and wattage since it requires less light getting to the eye than a warmer light source (2700 K and 3000 K). LPD (Lighting Power Density) is given for reference to energy consumption of the design. LPD is calculated based on the highest lumen output for the design, amount of fixtures, CCT multiplier, room area. This chart is meant to be used as a tool when implementing a circadian design. The time of day and associated CS targets are a guideline, and the associated values in the chart give an idea of how certain fixture types perform. All of the components will change due to all lighting fixtures having various characteristics.
-
-              Horizontal illuminance measurements were taken on work planes, 2’ 6” AFF, and vertical illuminance measurements were taken at seated eye height, 4’ AFF.
-            </p>
-            <p>
-              Calculations are based on typical room reflectances of ceiling, walls, and floor being 0.8, 0.5, and 0.2 respectively.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- CS Chart Modal -->
-
-
 
       <!-- Navbar -->
       <div id="navbar">

@@ -1086,6 +1086,7 @@ $(document).ready(function(){
     var id = "#help-" + $(this).data('value');
     $(".help-section").addClass('d-none');
     $(id).removeClass('d-none');
+    $(".help-body").scrollTop();
   });
 
   $('#begin').click(function(){
