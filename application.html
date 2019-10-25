@@ -24,6 +24,7 @@
             <div class="row h-100 mh-100">
               <div class="col-md-3">
                 <ul class="help-menu-list">
+                  <li data-value="intro" class="help-menu-list-item active"><h3 class="help-menu-list-title">Introduction</h3></li>
                   <li data-value="selection" class="help-menu-list-item"><h3 class="help-menu-list-title">Selection Process</h3></li>
                   <li data-value="breadcrumb" class="help-menu-list-item"><h3 class="help-menu-list-title">Breadcrumb</h3></li>
                   <li data-value="render" class="help-menu-list-item"><h3 class="help-menu-list-title">Render</h3></li>
@@ -65,9 +66,53 @@
                     </p>
                     <figure class="text-center"><img src="img/help/application/selection%20process/3.png" class="w-85 my-4 rounded drop-shadow" alt=""></figure>
                     <p class="help-menu-p">
-                      Once you choose a selection for all six categories you will be presented with a page that looks similiar to the one below. Use the image below as a <b>guide</b> on how to use the help menu for each of the <b>labelled portions</b> on the image.
+                      The selection process modal has a <b>breadcrumb trail</b> along the top, similiar to one you will you will see once you have finished the selection process. The <b>breadcrumb trail</b> allows you to see all the <b>selections you've chosen</b> thus far in the selection process. You may also <b>click</b> on of any of the selections you've made to <b>jump back</b> to that point in the selection process. Click <a href="#" id="help-breadcrumb-jump">here</a>, or select the <b>Breadcrumb</b> tab to learn more about the breadcrumb trail.
                     </p>
                     <figure class="text-center"><img src="img/help/application/selection%20process/4.png" class="w-85 my-4 rounded drop-shadow" alt=""></figure>
+                    <p class="help-menu-p">
+                      Once you've chosen a selection for all six categories you will be presented with a page that looks similiar to the one below. Use the image below as a <b>guide</b> on how to use the help menu for each of the <b>labelled portions</b> on the image.
+                    </p>
+                    <figure class="text-center"><img src="img/help/application/selection%20process/5.png" class="w-85 my-4 rounded drop-shadow" alt=""></figure>
+                  </div>
+                </div>
+                <div class="help-section d-none" id="help-breadcrumb">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Breadcrumb</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body help-body">
+                    <p class="help-menu-p">
+                      The <b>breadcrumb</b> or <b>breadcrumb trail</b> is the horizontal bar at the top of the application page, post selection process, that serves to remind you of the choices you made <b>during</b> the selection process, and allows you to <b>change your selections</b> post the initial selection process.
+                    </p>
+                    <figure class="w-95 text-center"><img src="img/help/application/breadcrumb/1.png" class="w-85 my-4 rounded drop-shadow" alt=""></figure>
+                    <p class="help-menu-p">
+                      The <b>breadcrumb trail</b> is divided into <b>six</b> equal sections, one for every selection you made, and are labelled accordingly. To <b>change</b> one of your selections, simply click on that selection (i.e. 'Senior Care'), not the label (i.e. 'Facility'). You will see the selection turn blue when you hover your cursor over that selection.
+                    </p>
+                    <figure class="w-95 text-center"><img src="img/help/application/breadcrumb/2.png" class="w-85 my-4 rounded drop-shadow" alt=""></figure>
+                    <p class="help-menu-p">
+                      Once you click on the selection you wish to change, you will be <b>reentered</b> into the <b>selection process</b> starting at that point. You will still need to complete the <b>entirety</b> of the selection process <b>after</b> that point, as each set of selections following a given selection change based on that selection.
+                    </p>
+                    <figure class="w-95 text-center"><img src="img/help/application/breadcrumb/3.png" class="w-85 my-4 rounded drop-shadow" alt=""></figure>
+                  </div>
+                </div>
+                <div class="help-section d-none" id="help-render">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Render</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body help-body">
+                    <p class="help-menu-p">
+                      The <b>render</b> gives you an idea of how your <b>unique selections</b> of facility, room, fixture types, etc. might look in <b>real 3D space</b>. It's useful to know not only if the space is providing the occupants enough circadian stimulus, but also how the space looks <b>aesthetically</b>; this is what the render aims to achieve. Note that the render is only a single layout designed by an artist here at the LRC, although, <b>many different combinations</b> of furniture, fixture, and occupant layouts are possible to achieve the correct CS. This render is only a <b>single example</b>.
+                    </p>
+                    <figure class="w-95 text-center"><img src="img/help/application/render/1.png" class="w-85 my-4 rounded drop-shadow" alt=""></figure>
+                    <p  class="help-menu-p">
+                      Below the render you will see either one or two rows of buttons depending on which <b>CCT system</b> you chose, <b>static</b> or <b>tunable</b>. <b>Static</b> renders will have two rows of buttons, the <b>top</b> for selecting which specific <b>CCT</b> you wish to select (this is the same as choosing a CCT in the selection process), and the <b>bottom</b> for selecting which <b>time of day</b> you wish to show in the render. There is no <b>time of day</b> category in the selection process as it will only change how the render appears on your screen; the <b>CS chart</b> and <b>CS graph</b> will always provide information for the different times of day, <b>regardless</b> of what you have <b>selected</b>. <b>Tunable</b> renders will show how the lighting changes in the space over the different times of day, thus there is no need for time of day buttons. Consequently there are only CCT buttons. The CCT buttons for the tunable renders are labelled by the individual CCT's at each time of day (i.e. "6500 K -> 5000 K -> 4000 K -> 3000 K indicates the fixtures will have a CCT of 6500 K in the morning, 5000 K in the afternoon, 4000 K in the evening, and 3000 K at night").
+                    </p>
+                    <figure class="w-95 text-center"><img src="img/help/application/render/2.png" class="w-85 my-4 rounded drop-shadow" alt=""></figure>
+                    <p class="help-menu-p">
+                      On some renders you may see a <b>blue button</b> in the top right corner labelled <b>Toggle View</b>. This button indicates that there are <b>multiple different angles</b> of the same space. Clicking this button will toggle between the views on the <b>render</b> as well as the <b>plan</b>. Click <a href="#" id="help-plan-jump">here</a>, or select the <b>Plan</b> tab to learn more about the <b>reflected ceiling plan</b>.
+                    </p>
+                    <figure class="w-95 text-center"><img src="img/help/application/render/3.png" class="w-85 my-4 rounded drop-shadow" alt=""></figure>
                   </div>
                 </div>
               </div>
