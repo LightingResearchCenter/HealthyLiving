@@ -29,8 +29,8 @@
                   <li data-value="breadcrumb" class="help-menu-list-item"><h3 class="help-menu-list-title">Breadcrumb</h3></li>
                   <li data-value="render" class="help-menu-list-item"><h3 class="help-menu-list-title">Render</h3></li>
                   <li data-value="plan" class="help-menu-list-item"><h3 class="help-menu-list-title">Plan</h3></li>
-                  <li data-value="csgraph" class="help-menu-list-item"><h3 class="help-menu-list-title">CS Graph</h3></li>
-                  <li data-value="cschart" class="help-menu-list-item"><h3 class="help-menu-list-title">CS Chart</h3></li>
+                  <li data-value="graph" class="help-menu-list-item"><h3 class="help-menu-list-title">CS Graph</h3></li>
+                  <li data-value="chart" class="help-menu-list-item"><h3 class="help-menu-list-title">CS Chart</h3></li>
                   <li data-value="rightpanel" class="help-menu-list-item"><h3 class="help-menu-list-title">Right Panel</h3></li>
                 </ul>
               </div>
@@ -188,6 +188,68 @@
                       Clicking one of these fixture buttons will open up a dropdown in the right panel menu corresponding to that fixture. This menu will you give you more information about that fixture type, including a larger fixture <b>image</b>, a <b>candela plot</b>, along with many important <b>measurements</b> and a <b>description</b>. To learn more about the fixtures menu in the right panel, or the right panel in general, click <a id="help-rightpanel-jump" href="#">here</a> or select the <b>Right Panel</b> tab.
                     </p>
                     <figure class="w-95 text-center"><img src="img/help/application/plan/9.png" class="w-85 my-4 rounded drop-shadow" alt=""></figure>
+                  </div>
+                </div>
+                <div class="help-section d-none" id="help-graph">
+                  <div class="modal-header">
+                    <h4 class="modal-title">CS Graph</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body help-body">
+                    <p class="help-menu-p">
+                      The <b>CS graph</b> acts as an <b>intermediate stage</b> between the selections you chose and the CS chart. It should help you understand the <b>CS and CCT</b> of each <b>time frame</b> based on the selections you chose. This information should help you to better understand the <b>CS chart</b>.
+                    </p>
+                    <figure class="w-95 text-center"><img src="img/help/application/graph/1.png" class="w-85 my-4 rounded drop-shadow" alt=""></figure>
+                    <p class="help-menu-p">
+                      The <b>CS graph</b> has x and y axes <b>Time of Day</b> and <b>CS</b>, respectively. This will show you the CS that is obtained in the room at each time interval throughout the day.
+                    </p>
+                    <figure class="w-95 text-center"><img src="img/help/application/graph/2.png" class="w-85 my-4 rounded drop-shadow" alt=""></figure>
+                    <p class="help-menu-p">
+                      The color of the graph represents what CCT corresponds to that time of day. <b>Static</b> selections will result in a graph that is entirely the same color whereas <b>tunable</b> selection will result in a gradient of color across the <b>CS graph</b>, symbolizing the changing CCT through the day.
+                    </p>
+                    <figure class="w-95 text-center"><img src="img/help/application/graph/3.png" class="w-85 my-4 rounded drop-shadow" alt=""></figure>
+                  </div>
+                </div>
+                <div class="help-section d-none" id="help-chart">
+                  <div class="modal-header">
+                    <h4 class="modal-title">CS Graph</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body help-body">
+                    <p class="help-menu-p">
+                      Nothing to see here yet :-)
+                    </p>
+                  </div>
+                </div>
+                <div class="help-section d-none" id="help-rightpanel">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Right Panel</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body help-body">
+                    <p class="help-menu-p">
+                      The <b>right panel</b> is a collection of <b>extra information</b>. The extra information is split into the categories: <b>Room Description</b>, <b>Assumptions</b>, <b>Lighting Solution</b>, <b>Fixtures</b>, and <b>Charts</b>. Simply click on any of the titles to learn more about that category.
+                    </p>
+                    <figure class="w-95 text-center"><img src="img/help/application/rightpanel/1.png" class="w-85 my-4 rounded drop-shadow" alt=""></figure>
+                    <p class="help-menu-p">
+                      The <b>Room Description</b> is a short paragraph providing the user with a little extra information about the room they selected. This information may include its size, its purpose, its types of occupants, etc.
+                    </p>
+                    <figure class="w-95 text-center"><img src="img/help/application/rightpanel/2.png" class="w-40 my-4 rounded drop-shadow" alt=""></figure>
+                    <p class="help-menu-p">
+                      The <b>Assumptions</b> tab is independent of any of the user's selections and aims to provide the user with some of the assumptions the LRC took in calculating the CS.
+                    </p>
+                    <figure class="w-95 text-center"><img src="img/help/application/rightpanel/3.png" class="w-40 my-4 rounded drop-shadow" alt=""></figure>
+                    <p class="help-menu-p">
+                      The <b>Lighting Solution</b> is dependent on the facility, room, fixtures, and target CS you choose, and aims to provide the user with a set of distinct criteria we at the LRC considered when designing this specific solution.
+                    </p>
+                    <figure class="w-95 text-center"><img src="img/help/application/rightpanel/4.png" class="w-40 my-4 rounded drop-shadow" alt=""></figure>
+                    <p class="help-menu-p">
+                      The <b>Fixtures</b> tab is of course dependent on the fixtures you chose, and will provide the user with extra information regarding those fixtures. This information includes: an <b>image</b> of the fixture, <b>candela plot</b>, <b>amount</b> in the solution, <b>mounting type</b>, <b>mounting height</b>, <b>orientation</b>, <b>dimensions</b>, <b>initial lumens per source</b>, <b>initial wattage per source</b>, and a short <b>description</b>. At the footer of the <b>Fixtures</b> tab you can select any of the numbered tabs to toggle between the different fixtures,
+                    </p>
+                    <figure class="w-95 text-center"><img src="img/help/application/rightpanel/5.png" class="w-40 my-4 rounded drop-shadow" alt=""></figure>
+                    <p class="help-menu-p">
+                      Chart stuff here :-)
+                    </p>
                   </div>
                 </div>
               </div>
