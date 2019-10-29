@@ -1086,6 +1086,39 @@ $(document).ready(function(){
     var id = "#help-" + $(this).data('value');
     $(".help-section").addClass('d-none');
     $(id).removeClass('d-none');
+    $(".help-body").scrollTop();
+  });
+
+  $("#help-breadcrumb-jump").click(function(){
+    $(".help-menu-list-item").removeClass('active');
+    $($(".help-menu-list-item")[2]).addClass('active');
+    $(".help-section").addClass('d-none');
+    $("#help-breadcrumb").removeClass('d-none');
+    $(".help-body").scrollTop();
+  });
+
+  $("#help-plan-jump").click(function(){
+    $(".help-menu-list-item").removeClass('active');
+    $($(".help-menu-list-item")[4]).addClass('active');
+    $(".help-section").addClass('d-none');
+    $("#help-plan").removeClass('d-none');
+    $(".help-body").scrollTop();
+  });
+
+  $("#help-rightpanel-jump").click(function(){
+    $(".help-menu-list-item").removeClass('active');
+    $($(".help-menu-list-item")[7]).addClass('active');
+    $(".help-section").addClass('d-none');
+    $("#help-rightpanel").removeClass('d-none');
+    $(".help-body").scrollTop();
+  });
+
+  $("#help-render-jump").click(function(){
+    $(".help-menu-list-item").removeClass('active');
+    $($(".help-menu-list-item")[3]).addClass('active');
+    $(".help-section").addClass('d-none');
+    $("#help-render").removeClass('d-none');
+    $(".help-body").scrollTop();
   });
 
   $('#begin').click(function(){
