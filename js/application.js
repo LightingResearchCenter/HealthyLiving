@@ -1105,6 +1105,22 @@ $(document).ready(function(){
     $(".help-body").scrollTop();
   });
 
+  $("#help-rightpanel-jump").click(function(){
+    $(".help-menu-list-item").removeClass('active');
+    $($(".help-menu-list-item")[7]).addClass('active');
+    $(".help-section").addClass('d-none');
+    $("#help-rightpanel").removeClass('d-none');
+    $(".help-body").scrollTop();
+  });
+
+  $("#help-render-jump").click(function(){
+    $(".help-menu-list-item").removeClass('active');
+    $($(".help-menu-list-item")[3]).addClass('active');
+    $(".help-section").addClass('d-none');
+    $("#help-render").removeClass('d-none');
+    $(".help-body").scrollTop();
+  });
+
   $('#begin').click(function(){
     main(hb_json,selection_json);
   });

@@ -872,6 +872,15 @@ p{
   overflow-y: auto;
 }
 
+.p-vertical{
+  padding: 2% 0;
+
+}
+
+.w-12{
+  width: 12%;
+}
+
 .w-85{
   width: 85%;
 }
