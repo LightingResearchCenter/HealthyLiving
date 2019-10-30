@@ -4479,11 +4479,11 @@
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_6500K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_6500K_0.4Morn.jpg"]
                 },
-                "Afternoon 0.3 O" :
+                "Afternoon 0.3 W" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_6500K_0.3Aft.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_6500K_0.3Aft.jpg"]
                                   },
-                "Evening 0.2 O" :
+                "Evening 0.2 W" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_6500K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_6500K_0.2Eve.jpg"]
                                   },
@@ -4498,11 +4498,11 @@
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_5000K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_5000K_0.4Morn.jpg"]
                                   },
-                "Afternoon 0.3 O" :
+                "Afternoon 0.3 W" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_5000K_0.3Aft.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_5000K_0.3Aft.jpg"]
                                   },
-                "Evening 0.2 O" :
+                "Evening 0.2 W" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_5000K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_5000K_0.2Eve.jpg"]
                                   },
@@ -4517,11 +4517,11 @@
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_4000K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_4000K_0.4Morn.jpg"]
                                   },
-                "Afternoon 0.3 O" :
+                "Afternoon 0.3 W" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_4000K_0.3Aft.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_4000K_0.3Aft.jpg"]
                                   },
-                "Evening 0.2 O" :
+                "Evening 0.2 W" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_4000K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_4000K_0.2Eve.jpg"]
                                   },
@@ -4536,11 +4536,11 @@
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_3500K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_3500K_0.4Morn.jpg"]
                                   },
-                "Afternoon 0.3 O" :
+                "Afternoon 0.3 W" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_3500K_0.3Aft.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_3500K_0.3Aft.jpg"]
                                   },
-                "Evening 0.2 O" :
+                "Evening 0.2 W" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_3500K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_3500K_0.2Eve.jpg"]
                                   },
@@ -4577,13 +4577,13 @@
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_6500K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_6500K_0.4Morn.jpg"]
                 },
-                "Afternoon 0.3 B" :
+                "Afternoon 0.3 W" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_6500K_0.3Aft_Blue.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_6500K_0.3Aft_Blue.jpg"]
                                   },
-                "Evening 0.2 R" :
+                "Evening 0.2 W" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_6500K_0.2Eve_Red.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_6500K_0.2Eve_Red.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_6500K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_6500K_0.2Eve.jpg"]
                                   },
                 "Night 0.1 R" :
                 {
@@ -4595,14 +4595,14 @@
                 "Morning 0.4 B" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_5000K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_5000K_0.4Morn.jpg"]
-                                  },
-                "Afternoon 0.3 B" :
+                },
+                "Afternoon 0.3 W" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_5000K_0.3Aft_Blue.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_5000K_0.3Aft_Blue.jpg"]
                                   },
-                "Evening 0.2 R" :
+                "Evening 0.2 W" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_5000K_0.2Eve_Red.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_5000K_0.2Eve_Red.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_5000K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_5000K_0.2Eve.jpg"]
                                   },
                 "Night 0.1 R" :
                 {
@@ -4615,14 +4615,14 @@
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_4000K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_4000K_0.4Morn.jpg"]
                                   },
-                "Afternoon 0.3 B" :
+                "Afternoon 0.3 W" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_4000K_0.3Aft_Blue.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_4000K_0.3Aft_Blue.jpg"]
                                   },
-                "Evening 0.2 R" :
+                "Evening 0.2 W" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_4000K_0.2Eve_Red.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_4000K_0.2Eve_Red.jpg"]
-                                  },
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_4000K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_4000K_0.2Eve.jpg"]
+                },
                 "Night 0.1 R" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_4000K_0.1Night.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_4000K_0.1Night.jpg"]
@@ -4634,13 +4634,13 @@
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_3500K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_3500K_0.4Morn.jpg"]
                                   },
-                "Afternoon 0.3 B" :
+                "Afternoon 0.3 W" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_3500K_0.3Aft_Blue.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_3500K_0.3Aft_Blue.jpg"]
                                   },
-                "Evening 0.2 R" :
+                "Evening 0.2 W" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_3500K_0.2Eve_Red.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_3500K_0.2Eve_Red.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_3500K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_3500K_0.2Eve.jpg"]
                                   },
                 "Night 0.1 R" :
                 {
@@ -4775,14 +4775,14 @@
                 "Morning 0.4 B" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_6500K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_6500K_0.4Morn.jpg"]
-                                  },
-                "Afternoon 0.3 B" :
+                },
+                "Afternoon 0.3 W" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_6500K_0.3Aft_Blue.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_6500K_0.3Aft_Blue.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_6500K_0.3Aft.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_6500K_0.3Aft.jpg"]
                                   },
-                "Evening 0.2 R" :
+                "Evening 0.2 W" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_6500K_0.2Eve_Red.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_6500K_0.2Eve_Red.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_6500K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_6500K_0.2Eve.jpg"]
                                   },
                 "Night 0.1 R" :
                 {
@@ -4795,13 +4795,13 @@
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_5000K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_5000K_0.4Morn.jpg"]
                                   },
-                "Afternoon 0.3 B" :
+                "Afternoon 0.3 W" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_5000K_0.3Aft_Blue.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_5000K_0.3Aft_Blue.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_5000K_0.3Aft.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_5000K_0.3Aft.jpg"]
                                   },
-                "Evening 0.2 R" :
+                "Evening 0.2 W" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_5000K_0.2Eve_Red.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_5000K_0.2Eve_Red.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_5000K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_5000K_0.2Eve.jpg"]
                                   },
                 "Night 0.1 R" :
                 {
@@ -4814,13 +4814,13 @@
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_4000K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_4000K_0.4Morn.jpg"]
                                   },
-                "Afternoon 0.3 B" :
+                "Afternoon 0.3 W" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_4000K_0.3Aft_Blue.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_4000K_0.3Aft_Blue.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_4000K_0.3Aft.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_4000K_0.3Aft.jpg"]
                                   },
-                "Evening 0.2 R" :
+                "Evening 0.2 W" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_4000K_0.2Eve_Red.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_4000K_0.2Eve_Red.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_4000K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_4000K_0.2Eve.jpg"]
                                   },
                 "Night 0.1 R" :
                 {
@@ -4833,13 +4833,13 @@
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_3500K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_3500K_0.4Morn.jpg"]
                                   },
-                "Afternoon 0.3 B" :
+                "Afternoon 0.3 W" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_3500K_0.3Aft_Blue.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_3500K_0.3Aft_Blue.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_3500K_0.3Aft.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_3500K_0.3Aft.jpg"]
                                   },
-                "Evening 0.2 R" :
+                "Evening 0.2 W" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_3500K_0.2Eve_Red.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_3500K_0.2Eve_Red.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_3500K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_3500K_0.2Eve.jpg"]
                                   },
                 "Night 0.1 R" :
                 {
@@ -4881,14 +4881,10 @@
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_6500K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_6500K_0.4Morn.jpg"]
                 },
-                "Afternoon 0.4 W" :
+                "Afternoon/Evening 0.3 W" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_6500K_0.4Aft.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_6500K_0.4Aft.jpg"]
-                                  },
-                "Evening 0.3 O" :
-                {
-                  "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_6500K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_6500K_0.2Eve.jpg"]
-                                  },
+                },
                 "Night 0.1 R" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_6500K_0.1Night.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_6500K_0.1Night.jpg"]
@@ -4900,14 +4896,10 @@
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_5000K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_5000K_0.4Morn.jpg"]
                                   },
-                "Afternoon 0.4 W" :
+                "Afternoon/Evening 0.3 W" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_5000K_0.4Aft.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_5000K_0.4Aft.jpg"]
-                                  },
-                "Evening 0.3 O" :
-                {
-                  "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_5000K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_5000K_0.2Eve.jpg"]
-                                  },
+                },
                 "Night 0.1 R" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_5000K_0.1Night.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_5000K_0.1Night.jpg"]
@@ -4919,14 +4911,10 @@
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_4000K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_4000K_0.4Morn.jpg"]
                                   },
-                "Afternoon 0.4 W" :
+                "Afternoon/Evening 0.3 W" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_4000K_0.4Aft.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_4000K_0.4Aft.jpg"]
-                                  },
-                "Evening 0.3 O" :
-                {
-                  "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_4000K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_4000K_0.2Eve.jpg"]
-                                  },
+                },
                 "Night 0.1 R" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_4000K_0.1Night.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_4000K_0.1Night.jpg"]
@@ -4938,14 +4926,10 @@
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_3500K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_3500K_0.4Morn.jpg"]
                                   },
-                "Afternoon 0.4 W" :
+                "Afternoon/Evening 0.3 W" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_3500K_0.4Aft.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_3500K_0.4Aft.jpg"]
-                                  },
-                "Evening 0.3 O" :
-                {
-                  "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_3500K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_3500K_0.2Eve.jpg"]
-                                  },
+                },
                 "Night 0.1 R" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_3500K_0.1Night.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_3500K_0.1Night.jpg"]
@@ -4975,11 +4959,15 @@
             {
               "6500 K" :
               {
-                "Morning/Afternoon 0.4 B" :
+                "Morning 0.4 B" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_6500K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_6500K_0.4Morn.jpg"]
-                                  },
-                "Evening 0.2 O" :
+                },
+                "Afternoon 0.3 W" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_6500K_0.3Aft.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_6500K_0.3Aft.jpg"]
+                },
+                "Evening 0.2 W" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_6500K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_6500K_0.2Eve.jpg"]
                                   },
@@ -4990,11 +4978,15 @@
               },
               "5000 K" :
               {
-                "Morning/Afternoon 0.4 B" :
+                "Morning 0.4 B" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_5000K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_5000K_0.4Morn.jpg"]
-                                  },
-                "Evening 0.2 O" :
+                },
+                "Afternoon 0.3 W" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_5000K_0.3Aft.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_5000K_0.3Aft.jpg"]
+                },
+                "Evening 0.2 W" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_5000K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_5000K_0.2Eve.jpg"]
                                   },
@@ -5005,33 +4997,41 @@
               },
               "4000 K" :
               {
-                "Morning/Afternoon 0.4 B" :
+                "Morning 0.4 B" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_4000K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_4000K_0.4Morn.jpg"]
-                                  },
-                "Evening 0.2 O" :
+                },
+                "Afternoon 0.3 W" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_4000K_0.3Aft.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_4000K_0.3Aft.jpg"]
+                },
+                "Evening 0.2 W" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_4000K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_4000K_0.2Eve.jpg"]
-                                  },
+                },
                 "Night 0.1 R" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_4000K_0.1Night.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_4000K_0.1Night.jpg"]
-                                  }
+                }
               },
               "3500 K" :
               {
-                "Morning/Afternoon 0.4 B" :
+                "Morning 0.4 B" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_3500K_0.4Morn.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_3500K_0.4Morn.jpg"]
-                                  },
-                "Evening 0.2 O" :
+                },
+                "Afternoon 0.3 W" :
+                {
+                  "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_3500K_0.3Aft.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_3500K_0.3Aft.jpg"]
+                },
+                "Evening 0.2 W" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_3500K_0.2Eve.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_3500K_0.2Eve.jpg"]
                                   },
                 "Night 0.1 R" :
                 {
                   "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_3500K_0.1Night.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_3500K_0.1Night.jpg"]
-                                  }
+                }
               }
             },
             "Tunable" :
