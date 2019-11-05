@@ -203,6 +203,20 @@ $(document).ready(function(){
     }
   });
 
+  $('#additional').on('click',function(){
+    if($('#section-about.d-inline-block').length == 0){
+      hideAllArticles();
+      $('.article-additional').removeClass('d-none');
+      $('.article-additional').addClass('d-inline-block');
+      var id = $('article').first().attr('id');
+      $('#content').animate({
+        scrollTop: $('#'+id).offset().top - 67
+      }, 1200, function(){
+        window.location.hash = '#'+id - 67;
+      });
+    }
+  });
+
   $('[data-toggle="popover"]').popover();
   document.onclick = function(){
     $('[data-toggle="popover"]').popover();
