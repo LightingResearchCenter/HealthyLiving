@@ -4579,7 +4579,7 @@
                 },
                 "Afternoon 0.3 W" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_6500K_0.3Aft_Blue.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_6500K_0.3Aft_Blue.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_6500K_0.3Aft_White.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_6500K_0.3Aft_Blue.jpg"]
                                   },
                 "Evening 0.2 W" :
                 {
@@ -4652,15 +4652,15 @@
             {
               "6500 K B -> 5000 K B -> 4000 K R -> 3500 K R" :
               {
-                "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_Tunable_0.5_2a.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_Tunable_0.5_2a.jpg"]
+                "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_Tunable_0.5_1a.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_Tunable_0.5_1a.jpg"]
                               },
               "5000 K B -> 5000 K B -> 4000 K R -> 4000 K R" :
               {
-                "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_Tunable_0.5_2b.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_Tunable_0.5_2b.jpg"]
+                "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_Tunable_0.5_1b.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_Tunable_0.5_1b.jpg"]
                               },
               "4000 K B -> 4000 K B -> 3500 K R -> 3500 K R" :
               {
-                "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_Tunable_0.5_2c.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_Tunable_0.5_2c.jpg"]
+                "render" : ["img/application/facilities/healthcare/renders/nicu/troffers/view1/Healthcare_NICU_Troff_Tunable_0.5_1c.jpg","img/application/facilities/healthcare/renders/nicu/troffers/view2/Healthcare_NICU2_Troff_Tunable_0.5_1c.jpg"]
                               }
             }
           }
@@ -4851,15 +4851,15 @@
             {
               "6500 K B -> 5000 K B -> 4000 K R -> 3500 K R":
               {
-                "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_Tunable_0.5_2a.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_Tunable_0.5_2a.jpg"]
+                "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_Tunable_0.5_1a.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_Tunable_0.5_1a.jpg"]
                               },
               "5000 K B -> 5000 K B -> 4000 K R -> 4000 K R":
               {
-                "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_Tunable_0.5_2b.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_Tunable_0.5_2b.jpg"]
+                "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_Tunable_0.5_1b.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_Tunable_0.5_1b.jpg"]
                               },
               "4000 K B -> 4000 K B -> 3500 K R -> 3500 K R":
               {
-                "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_Tunable_0.5_2c.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_Tunable_0.5_2c.jpg"]
+                "render" : ["img/application/facilities/healthcare/renders/nicu/cove/view1/Healthcare_NICU_Cove_Tunable_0.5_1c.jpg","img/application/facilities/healthcare/renders/nicu/cove/view2/Healthcare_NICU2_Cove_Tunable_0.5_1c.jpg"]
                               }
             }
           }
@@ -5038,15 +5038,15 @@
             {
               "6500 K B -> 5000 K -> 4000 K R":
               {
-                "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_Tunable_0.4_2a.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_Tunable_0.4_2a.jpg"]
+                "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_Tunable_0.4_1a.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_Tunable_0.4_1a.jpg"]
                               },
               "5000 K B -> 4000 K -> 3500 K R":
               {
-                "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_Tunable_0.4_2b.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_Tunable_0.4_2b.jpg"]
+                "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_Tunable_0.4_1b.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_Tunable_0.4_1b.jpg"]
                               },
               "4000 K B -> 4000 K -> 3500 K R":
               {
-                "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_Tunable_0.4_2c.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_Tunable_0.4_2c.jpg"]
+                "render" : ["img/application/facilities/healthcare/renders/nurses station/desk luminaire/view1/Healthcare_NursesStation_DeskLuminaire_Tunable_0.4_1c.jpg","img/application/facilities/healthcare/renders/nurses station/desk luminaire/view2/Healthcare_NursesStation2_DeskLuminaire_Tunable_0.4_1c.jpg"]
                               }
             }
           }
@@ -5221,15 +5221,15 @@
             {
               "6500 K B -> 5000 K W -> 4000 K R":
               {
-                "render" : ["img/application/facilities/healthcare/renders/nurses station/wall wash/view1/Healthcare_NursesStation_WW_Tunable_0.4_2a.jpg","img/application/facilities/healthcare/renders/nurses station/wall wash/view2/Healthcare_NursesStation2_WW_Tunable_0.4_2a.jpg"]
+                "render" : ["img/application/facilities/healthcare/renders/nurses station/wall wash/view1/Healthcare_NursesStation_WW_Tunable_0.4_1a.jpg","img/application/facilities/healthcare/renders/nurses station/wall wash/view2/Healthcare_NursesStation2_WW_Tunable_0.4_1a.jpg"]
               },
               "5000 K B -> 4000 K W -> 3500 K R":
               {
-                "render" : ["img/application/facilities/healthcare/renders/nurses station/wall wash/view1/Healthcare_NursesStation_WW_Tunable_0.4_2b.jpg","img/application/facilities/healthcare/renders/nurses station/wall wash/view2/Healthcare_NursesStation2_WW_Tunable_0.4_2b.jpg"]
+                "render" : ["img/application/facilities/healthcare/renders/nurses station/wall wash/view1/Healthcare_NursesStation_WW_Tunable_0.4_1b.jpg","img/application/facilities/healthcare/renders/nurses station/wall wash/view2/Healthcare_NursesStation2_WW_Tunable_0.4_1b.jpg"]
               },
               "4000 K B -> 4000 K W -> 3500 K R":
               {
-                "render" : ["img/application/facilities/healthcare/renders/nurses station/wall wash/view1/Healthcare_NursesStation_WW_Tunable_0.4_2c.jpg","img/application/facilities/healthcare/renders/nurses station/wall wash/view2/Healthcare_NursesStation2_WW_Tunable_0.4_2c.jpg"]
+                "render" : ["img/application/facilities/healthcare/renders/nurses station/wall wash/view1/Healthcare_NursesStation_WW_Tunable_0.4_1c.jpg","img/application/facilities/healthcare/renders/nurses station/wall wash/view2/Healthcare_NursesStation2_WW_Tunable_0.4_1c.jpg"]
               }
             }
           }
