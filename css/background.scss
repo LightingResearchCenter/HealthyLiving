@@ -500,6 +500,17 @@ hr{
   border-right: 2px solid #383838;
 }
 
+.question{
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .our-role-card{
   border-radius: .25rem
 }
