@@ -247,6 +247,11 @@ a p.bc-option{
   letter-spacing: 1px;
 }
 
+.content-height{
+  height: calc(100% - 54px);
+  max-height: calc(100% - 54px);
+}
+
 .dropdown-item:hover{
   color: #fff !important;
   background-color: #00205b;
