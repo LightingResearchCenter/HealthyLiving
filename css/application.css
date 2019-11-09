@@ -430,6 +430,29 @@ a p.bc-option{
   background-color: #f0f0f0 !important;
 }
 
+.fixed-footer{
+  position: fixed;
+  left: 0;
+  bottom: .25rem;
+  width: 100%;
+  text-align: center;
+}
+
+.flex-footer{
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  text-align: center;
+  background: #00205b;
+}
+
+.footer-p{
+  font-weight: 200;
+  font-size: 1rem;
+  color: white;
+  margin: 0;
+}
+
 .solutions-intro{
   font-weight: 400 !important;
 }
@@ -557,8 +580,8 @@ a p.bc-option{
 }
 
 .modal-content {
-  margin-top:20px;
-  margin-bottom:20px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .modal-xl{
@@ -612,6 +635,12 @@ html,body {
 
 .card-body-small-padding{
   padding: .5rem;
+}
+
+.selection-card-text{
+  margin-right: 1rem;
+  max-height: 250px;
+  overflow: auto;
 }
 
 #landing-text {
