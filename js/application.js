@@ -203,7 +203,7 @@ function getFacility(hb,selection,data){
   for (var i = 0; i < facilities.length; i++){
     var _facility = Object.keys(hb)[i];
     var __facility = _facility.replace("[^a-zA-Z]", "").replace(/\s/g, '');
-    $('#application-modal-deck').append('<div class="card hover"><a id="'+__facility+'" data-value="'+_facility+'"><img class="card-img-top card-img-top-facility" src="'+selection["Facility"][_facility]["img"]+'" alt="Facility" /><div class="card-body"><h5 class="card-title">'+_facility+'</h5><hr/><p class="card-text">'+selection["Facility"][_facility]["desc"]+'</p></div></a></div>');
+    $('#application-modal-deck').append('<div class="card hover"><a id="'+__facility+'" data-value="'+_facility+'"><img class="card-img-top card-img-top-facility" src="'+selection["Facility"][_facility]["img"]+'" alt="Facility" /><div class="card-body"><h5 class="card-title">'+_facility+'</h5><hr/><p class="card-text selection-card-text">'+selection["Facility"][_facility]["desc"]+'</p></div></a></div>');
     $('#'+__facility).click(function(){
       data.facility = $(this).data("value");
       getRoom(hb,selection,data);
@@ -616,6 +616,9 @@ function buildHTML(){
   str += '    </div>';
   str += '  </div>';
   str += '</div>';
+  str += '<footer class="flex-footer">';
+  str += '<p class="footer-p">© 2019 Lighting Research Center All Right Reserved</p>';
+  str += '</footer>';
 
   $('body').append(str);
 
@@ -1016,6 +1019,7 @@ function generateContent(hb,selection,data){
   $('body').removeClass('modal-open');
   $('.modal-backdrop').remove();
   $('#landing-content').remove();
+  $('.fixed-footer').remove();
   $('body').removeAttr('data-vide-bg');
   $('body').removeAttr('data-vide-options');
   if ($('body').find('div').first().attr('id') != 'navbar' && $('body').find('div').first().attr('id') != 'application-modal'){
