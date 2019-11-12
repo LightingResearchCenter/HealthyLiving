@@ -569,7 +569,7 @@ function buildHTML(){
   str += '                            <li class="card-text right-panel-p"><b>Mounting height: </b><span id="fixture_height"></span></li>';
   str += '                            <li class="card-text right-panel-p"><b>Orientation: </b><span id="fixture_orientation"></span></li>';
   str += '                            <li class="card-text right-panel-p"><b>Dimensions: </b><span id="fixture_dimensions"></span></li>';
-  str += '                            <li class="card-text right-panel-p"><b>Initial lumens per source: </b><span id="fixture_lumens"></span> lm</li>';
+  str += '                            <li class="card-text right-panel-p"><b>Initial lumens per source: </b><span id="fixture_lumens"></span> lumens</li>';
   str += '                            <li class="card-text right-panel-p"><b>Initial wattage per source: </b><span id="fixture_wattage"></span> W</li>';
   str += '                          </ul>';
   str += '                        <p class="pl-3 card-text right-panel-p"><b>Description: </b><span id="fixture_description"></span></p>';
