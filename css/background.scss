@@ -37,10 +37,16 @@ article{
   z-index: 100;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: .25rem;
   width: 100%;
   text-align: center;
+}
+
+.footer-p{
+  font-weight: 200;
+  font-size: 1rem;
   color: white;
+  margin: 0;
 }
 
 .h-200-offset{
