@@ -33,6 +33,15 @@ article{
   margin-bottom: 2.5rem;
 }
 
+.footer{
+  z-index: 100;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
 
 .h-200-offset{
   height: calc(200% - 67px);
