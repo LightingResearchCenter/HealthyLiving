@@ -36,7 +36,6 @@
   transform: rotate(140deg);
 }
 
-
 #mainNav {
   background-color:#00205b;
 }
@@ -248,6 +247,11 @@ a p.bc-option{
   letter-spacing: 1px;
 }
 
+.content-height{
+  height: calc(100% - 54px);
+  max-height: calc(100% - 54px);
+}
+
 .dropdown-item:hover{
   color: #fff !important;
   background-color: #00205b;
@@ -276,7 +280,6 @@ a p.bc-option{
 }
 
 .nav-tabs .nav-item-footer{
-  margin-top: -1px;
   margin-bottom: auto;
   font-size: .75rem;
   padding: .25rem;
@@ -289,10 +292,12 @@ a p.bc-option{
 }
 
 .nav-item-footer-fixtures{
+  margin-top: -1px;
   min-width: 16.66%;
 }
 
 .nav-item-footer-charts{
+  margin-top: -5px;
   min-width: 20%;
 }
 
@@ -401,9 +406,10 @@ a p.bc-option{
   font-weight: 300 !important;
 }
 
-.solutions-outer-even{
-  padding-right: 1rem;
-  padding-left: 1rem;
+.solutions-inner-odd{
+  margin: 1rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
   border-radius: .25rem;
@@ -412,15 +418,39 @@ a p.bc-option{
   background-color: #ddd !important;
 }
 
-.solutions-outer-odd{
-  padding-right: 1rem;
-  padding-left: 1rem;
+.solutions-inner-even{
+  margin: 1rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
   border-radius: .25rem;
   font-size: 1rem !important;
   font-weight: 300 !important;
   background-color: #f0f0f0 !important;
+}
+
+.fixed-footer{
+  position: fixed;
+  left: 0;
+  bottom: .25rem;
+  width: 100%;
+  text-align: center;
+}
+
+.flex-footer{
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  text-align: center;
+  background: #00205b;
+}
+
+.footer-p{
+  font-weight: 200;
+  font-size: 1rem;
+  color: white;
+  margin: 0;
 }
 
 .solutions-intro{
@@ -435,7 +465,7 @@ a p.bc-option{
   cursor: pointer;
 }
 
-.reflectance-title{
+.right-panel-outer-title{
   font-weight: 600;
 }
 
@@ -445,19 +475,19 @@ a p.bc-option{
   padding-right: 1rem;
 }
 
-#lightingSolutionContentContainer{
+#lightingSolutionContent{
   max-height: 450px;
   overflow-y: auto;
   padding-right: 1rem;
 }
 
-#assumptionsContentContainer{
+#assumptionsContent{
   max-height: 450px;
   overflow-y: auto;
   padding-right: 1rem;
 }
 
-.reflectance-grey-box{
+.right-panel-grey-box{
   font-size: 1rem !important;
   font-weight: 400;
   background-color: #ccc;
@@ -550,8 +580,8 @@ a p.bc-option{
 }
 
 .modal-content {
-  margin-top:20px;
-  margin-bottom:20px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .modal-xl{
@@ -574,6 +604,7 @@ ol {
 html,body {
   height: 100%;
   font-family: 'Source Sans Pro', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .body-bg{
@@ -604,6 +635,12 @@ html,body {
 
 .card-body-small-padding{
   padding: .5rem;
+}
+
+.selection-card-text{
+  margin-right: 1rem;
+  max-height: 250px;
+  overflow: auto;
 }
 
 #landing-text {
@@ -804,6 +841,90 @@ p{
 
 .bc-xsmall{
   display: none;
+}
+
+.help-menu-list{
+  height: calc(90vh - 2px);
+  max-height: calc(90vh - 2px);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.help-menu-list-item{
+  height: 12.5%;
+  max-height: 12.5%;
+  width: 100%;
+  padding: 0;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  border-right: 1px solid rgba(0,0,0,.125);
+  background-color: rgb(235,235,235);
+}
+
+.help-menu-list-item:first-child{
+  border-top-left-radius: .3rem;
+}
+
+.help-menu-list-item:last-child{
+  border-bottom: 0px solid rgba(0,0,0,.125);
+  border-bottom-left-radius: .3rem;
+}
+
+.help-menu-list-item:hover{
+  cursor: pointer;
+}
+
+.help-menu-list-item.active{
+  border-right: 1px solid rgb(255,255,255);
+  background-color: rgb(255,255,255);
+}
+
+.help-menu-list-title{
+  text-align: center;
+  padding: 11% 0;
+  margin: 0;
+}
+
+.help-menu-list-title:hover{
+  cursor: pointer;
+}
+
+.help-menu-p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 350;
+  font-size: 1.3rem;
+}
+
+.help-menu-content{
+  height: 90vh;
+  max-height: 90vh;
+}
+
+.help-body{
+  height: calc(90vh - 80px);
+  max-height: calc(90vh - 80px);
+  overflow-y: auto;
+}
+
+.p-vertical{
+  padding: 2% 0;
+
+}
+
+.w-40{
+  width: 40%;
+}
+
+.w-12{
+  width: 12%;
+}
+
+.w-85{
+  width: 85%;
+}
+
+.w-95{
+  width: 95%:
 }
 
 .hover:hover{

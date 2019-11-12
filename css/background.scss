@@ -4,9 +4,18 @@ h1 {
   letter-spacing: 0.2rem;
 }
 
-p{
+ul{
+  list-style-type: none;
+}
+
+p, ol, ul, li{
+  font-size: 1.2rem;
   font-family: arial;
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2{
+  margin-top: .25rem;
 }
 
 html {
@@ -22,6 +31,37 @@ article{
   padding-left: 2.5rem;
   padding-right: 2.5rem;
   margin-bottom: 2.5rem;
+}
+
+
+.h-200-offset{
+  height: calc(200% - 67px);
+}
+
+.overflow-scroll{
+  overflow-y: scroll;
+}
+
+.mh-200-offset{
+  max-height: calc(200% - 67px);
+}
+
+.h-100-offset{
+  height: calc(100% - 67px);
+}
+
+.mh-100-offset{
+  max-height: calc(100% - 67px);
+}
+
+.h-100-plus-offset{
+  max-height: calc(100% + 67px);
+}
+
+.ul2col{
+  columns: 2;
+-webkit-columns: 2;
+-moz-columns: 2
 }
 
 #mainNav {
@@ -157,6 +197,14 @@ article{
   padding:10px;
 }
 
+.cd-accordion-item{
+  background-color: #313439;
+  padding: 15px, 25px, 15px, 45px;
+  color: white;
+  max-width: 100rem;
+  width: 100rem;
+}
+
 .btn-primary {
   background-color:#00205b!important;
   border-color:#00205b!important;
@@ -229,6 +277,10 @@ article{
   width: 40%;
 }
 
+.w-38{
+  width: 38%;
+}
+
 .w-35{
   width: 35%;
 }
@@ -257,10 +309,6 @@ article{
   border: 3px solid black;
 }
 
-.section-link.active:last-child{
-  border-left: solid 6px #00205b;
-}
-
 #ourrole p{
   line-height: 10rem;
 }
@@ -278,12 +326,14 @@ article{
   text-align: center;
   color: black;
   font-size: 1.15rem;
+  font-weight: 600;
 }
 
 .article-inner-title-not-centered{
   margin-bottom: 1.25rem;
   color: black;
   font-size: 1rem;
+  font-weight: 600;
 }
 
 .article-inner-inner-title{
@@ -295,7 +345,9 @@ article{
 }
 
 .figcaption{
-  font-size: .75rem;
+  font-size: .85rem;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .dropdown-item:hover{
@@ -354,10 +406,21 @@ article{
   }
 }
 
+.btn-primary{
+  color: white !important;
+}
 
 .accordion{
-  border-right: 2px solid #383838;
-  background-color: none;
+  background-color: #002770;
+  overflow: auto;
+}
+
+.bb{
+  border-bottom: 3px solid black;
+}
+
+.acnav{
+  overflow-y: auto;
 }
 
 @media (max-width: 768px){
@@ -414,7 +477,11 @@ hr{
 }
 
 .jquery-accordion-menu{
-  top: 58.8px;
+  top: 0;
+}
+
+.bt{
+  border-top: 2px solid black;
 }
 
 .sticky-title{
@@ -423,7 +490,7 @@ hr{
   position: -ms-sticky;
   position: -o-sticky;
   position: sticky;
-  top: 58.8px;
+  top: 0;
   z-index: 1;
   background-color: rgb(240,240,240);
   border-bottom: 2px solid #383838;
@@ -434,9 +501,15 @@ hr{
   border-right: 2px solid #383838;
 }
 
-.figure img{
-  display: block;
-  float: left;
+.question{
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .our-role-card{
