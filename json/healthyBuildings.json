@@ -2151,6 +2151,7 @@
         },
         "Cove + Floor Lamp + Table Lamp" :
         {
+          "desc" : "A common area in a senior care facility is where residents can spend most of their day. This 1550 sf common area with a 12-foot ceiling is divided into two areas for dining and activities. The dining area has round tables with chairs and the activity area has sofas, side tables, and rectangular tables with chairs for recreational use. From eating meals in the dining area, relaxing on the couch, or sitting at the activity tables, designs should aim to reach desired CS levels in these locations. Lighting schedules should be similar to those in individual’s rooms.",
           "0.4" :
           {
             "plan" : ["img/application/facilities/senior care/floor plans/0.4/SeniorCare_Common_Cove.jpg","img/application/facilities/senior care/floor plans/0.4/SeniorCare_Common_Cove_View2.jpg"],
@@ -4667,6 +4668,7 @@
         },
         "Recessed Linear + Blue/Red Downlight + Blue Wall Wash + Cove" :
         {
+          "desc" : "A NICU (newborn intensive care unit) in a  hospital is where nurses watch over infants born prematurely. This 1975 sf room with a 12-foot ceiling includes a main desk with incubators around the perimeter of the room. Since nurses and infants have different circadian needs, zones of light should be created to achieve desired CS levels for both user types.",
           "0.4 8-hour" :
           {
             "plan" : ["img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove.jpg","img/application/facilities/healthcare/floor%20plans/Healthcare_NICU_Cove_View2.jpg"],

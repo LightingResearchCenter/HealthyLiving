@@ -30,7 +30,7 @@
           "dimensions" : ["4.5\" Diameter"],
           "lumens" : ["4070"],
           "wattage" : ["62"],
-          "description" : ["A Linear pendant is a fixture typically used in commercial applications to provide uniform ambient light. They come in 3 types of light distributions: direct, indirect, or direct/indirect. Linear pendants with an indirect component should be suspended at least 18” below the ceiling to allow the indirect light to bounce off of the ceiling. Linear pendants traditionally house fluorescent lamps, but more recently Linear pendants with dedicated LED sources have become available."]
+          "description" : ["Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing. Downlights may have integrated LED sources or contain CFLs or LED replacement lamps."]
         },
         "Flush Mount + Hanging Pendant" :
         {
@@ -39,7 +39,7 @@
           "candela" : ["Flush Mount","Hanging Pendant"],
           "amount" : ["5","A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications. They are relatively inexpensive and can provide high, uniform illuminance levels throughout a room. Troffers usually house linear fluorescent lamps, but more recently LED troffers are available for replacement of fluorescent troffers. The modified troffer shape distributes light more evenly throughout a space, making the horizontal to vertical illuminance ratio closer to 1."],
           "type" : ["Ceiling Mounted","Pendant"],
-          "height" : ["7'-6\" AFF","5'-6\" AFF"],
+          "height" : ["7'-6\" AFF","5'-0\" AFF"],
           "orientation" : ["Direct/Indirect","Direct/Indirect"],
           "dimensions" : ["2' Diameter","1' Diameter"],
           "lumens" : ["4800","1568"],
@@ -53,7 +53,7 @@
           "candela" : ["Downlight- Senior Care","Flush Mount","Hanging Pendant","Wall Valance Linear- Senior Care","Under Cabinet- Senior Care","TV Valance"],
           "amount" : ["6","1","1","Feature has 6 sources","Feature has 3 sources","Feature has 3 sources"],
           "type" : ["Ceiling Recessed","Ceiling Mounted","Pendant","Wall Mounted","Furniture Mounted","Furniture Mounted"],
-          "height" : ["8'-0\" AFF","7'-6\" AFF","5'-6\" AFF","3'-8\" AFF","1'-4\" above counter","2'-9\" AFF"],
+          "height" : ["8'-0\" AFF","7'-6\" AFF","5'-0\" AFF","3'-8\" AFF","1'-4\" above counter","2'-9\" AFF"],
           "orientation" : ["Direct","Direct/Indirect","Direct/Indirect","3 Direct Sources & 3 Indirect Sources","Direct","Indirect, aimed 15&#176; toward wall"],
           "dimensions" : ["4.5\" Diameter","2' Diameter","1' Diameter","Source = 1' length","Source = 3' length","Source = 1' length"],
           "lumens" : ["2678","4800","1568","1000","1314","1000"],
@@ -98,7 +98,7 @@
           "candela" : ["Flush Mount","Hanging Pendant"],
           "amount" : ["4","1"],
           "type" : ["Ceiling Mounted","Pendant"],
-          "height" : ["7'-6\" AFF","5'-6\" AFF"],
+          "height" : ["7'-6\" AFF","5'-0\" AFF"],
           "orientation" : ["Direct/Indirect","Direct/Indirect"],
           "dimensions" : ["2' Diameter", "1' Diameter"],
           "lumens" : ["4800","1568"],
@@ -112,7 +112,7 @@
           "candela" : ["Flush Mount","Hanging Pendant","Perimeter Valance- Healthcare- Senior Care"],
           "amount" : ["4","1","Feature has 14 sources"],
           "type" : ["Ceiling Mounted","Pendant","Wall Mounted"],
-          "height" : ["7'-6\" AFF","5'-6\" AFF","8'-0\" AFF"],
+          "height" : ["7'-6\" AFF","5'-0\" AFF","8'-0\" AFF"],
           "orientation" : ["Direct/Indirect","Direct/Indirect","Indirect"],
           "dimensions" : ["2' Diameter","1' Diameter","Source = 4' length"],
           "lumens" : ["4800","1568","1391"],
@@ -171,7 +171,7 @@
           "candela" : ["Downlight- Senior Care","Hanging Pendant","A19 Lamp- Floor and Table Lamp","A19 Lamp- Floor and Table Lamp"],
           "amount" : ["15","10","2 lamps with 2 bulbs each","2 lamps with 2 bulbs each"],
           "type" : ["Ceiling Recessed","Pendant","Floor Lamp","Table Lamp"],
-          "height" : ["9'-0\" AFF","5'-6\" AFF","5'-3\" AFF","3'-10\" AFF"],
+          "height" : ["9'-0\" AFF","5'-0\" AFF","5'-3\" AFF","3'-10\" AFF"],
           "orientation" : ["Direct","Direct/Indirect","Horizontal","Horizontal"],
           "dimensions" : ["4.5\" Diameter","1' Diameter","A19","A19"],
           "lumens" : ["4070","1568","1179","1179"],
