@@ -1,3 +1,9 @@
+p, ol, ul, li{
+  font-size: 1.2rem;
+  font-family: arial;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 @font-face {
   font-family: 'icomoon';
   src:  url('../fonts/icomoon.eot?68wbpo');
@@ -34,59 +40,6 @@
   padding-bottom: .5rem;
   float: left;
   transform: rotate(140deg);
-}
-
-#mainNav {
-  background-color:#00205b;
-}
-
-#mainNav .dropdown-menu {
-  background-color:#00205b;
-  color:#FFF;
-  text-align:center;
-  width:100%;
-  padding-top:none;
-  margin-top:0;
-  border: 1px solid white;
-}
-
-#mainNav .navbar-toggler {
-  font-size:12px;
-  right:0;
-  text-transform:uppercase;
-  color:#FFF;
-  border:0;
-  background-color:#00205b;
-  font-family:Oswald;
-  padding:13px;
-}
-
-#mainNav .navbar-toggler:hover,#mainNav .navbar-toggler:focus {
-  font-style:bold;
-  outline:none;
-}
-
-#mainNav .navbar-brand {
-  color:#fff;
-  font-family:'Germond Pro';
-}
-
-#mainNav .navbar-brand.active,#mainNav .navbar-brand:active,#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover {
-  color:#FFF;
-  font-style:bold;
-}
-
-#mainNav .navbar-nav .nav-item .nav-link {
-  font-size:90%;
-  font-weight:400;
-  letter-spacing:1px;
-  color:#ddd;
-  font-family:Oswald;
-  padding:.75em 0;
-}
-
-#mainNav .navbar-nav .nav-item .nav-link.active,#mainNav .navbar-nav .nav-item .nav-link:hover {
-  color:#FFF;
 }
 
 .adjustment-container2 {
@@ -248,8 +201,8 @@ a p.bc-option{
 }
 
 .content-height{
-  height: calc(100% - 54px);
-  max-height: calc(100% - 54px);
+  height: calc(100% - 67px);
+  max-height: calc(100% - 67px);
 }
 
 .dropdown-item:hover{
