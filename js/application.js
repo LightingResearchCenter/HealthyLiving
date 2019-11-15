@@ -259,6 +259,9 @@ function getTarget(hb,selection,data){
   cacheSelectionImages(selection,"System");
   for (var i = 0; i < targets.length; i++){
     var _target = Object.keys(hb[data.facility][data.room][data.fixture])[i];
+    if (_target == "desc"){
+      continue;
+    }
     var __target = _target.split(".").pop().replace("[^a-zA-Z]", "").replace(/\s/g, '');
     $('#application-modal-deck').append('<div class="card hover"><a id="'+__target+'" data-value="'+_target+'"><img class="card-img-top" src="'+selection["Target"][_target]["img"]+'" alt="Target CS" /><div class="card-body"><hr/><p class="card-text">'+selection["Target"][_target]["desc"]+'</p></div></a></div>');
     $('#'+__target).click(function(){
@@ -773,7 +776,11 @@ function generateFinalBreadcrumb(hb,selection,data){
 }
 
 function generateDescription(hb,data){
-  $('#roomDescriptionContent').html(hb[data.facility][data.room]["desc"]);
+  if (data.fixture.includes('Cove') || data.fixture.includes('cove')){
+    $('#roomDescriptionContent').html(hb[data.facility][data.room][data.fixture]["desc"]);
+  }else{
+    $('#roomDescriptionContent').html(hb[data.facility][data.room]["desc"]);
+  }
 }
 
 function generateLightingSolution(data){
