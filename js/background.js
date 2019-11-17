@@ -33,6 +33,12 @@ $(document).ready(function(){
     smoothScroll('#content', 10, 1, $(this).find('a').attr('href'));
   });
 
+  $("a.acnav__link--level2").on('click', function(event) {
+    console.log('here');
+    event.preventDefault();
+    smoothScroll('#content', 10, 1, $(this).attr('href'));
+  });
+
   $("a.subsection-link").on('click', function(event) {
     event.preventDefault();
     smoothScroll('#content', -67, 5, this.hash);
