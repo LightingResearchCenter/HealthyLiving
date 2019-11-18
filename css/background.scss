@@ -359,6 +359,28 @@ article{
   .right-border-large{
     border-right: none !important;
   }
+
+  .banner-text{
+    top: calc(0% + 66px);
+  }
+
+  .banner-title{
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 3rem;
+  }
+
+  .banner-title{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+  }
+
+  .middle p.box-text{
+    margin: auto;
+    width: 100%;
+  }
 }
 
 .stroke{
