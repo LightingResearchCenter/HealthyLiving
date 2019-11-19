@@ -110,7 +110,6 @@ article{
 
 .middle {
   width:100%;
-  padding-top: 10rem
   top: 50%;
 }
 
@@ -358,6 +357,25 @@ article{
 @media only screen and (max-width: 992px){
   .right-border-large{
     border-right: none !important;
+  }
+
+  .banner-text{
+    top: calc(0% + 66px);
+  }
+
+  .banner-title{
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 3rem;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+  }
+
+  .middle p.box-text{
+    margin: auto;
+    width: 100%;
   }
 }
 

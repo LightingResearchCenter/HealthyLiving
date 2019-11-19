@@ -328,8 +328,8 @@ function buildHTML(){
   var str = '';
 
   str += '<div id="final_content" class="container-fluid">';
-  str += '  <div class="row pt-3">';
-  str += '    <div class="col-xl-9 col-lg-12 pr-4">';
+  str += '  <div class="row row-p">';
+  str += '    <div class="col-xl-9 col-lg-12 col-p">';
   str += '      <div class="row mb-4 bc-large">';
   str += '        <div class="col">';
   str += '          <div class="card drop-shadow">';
@@ -626,7 +626,6 @@ function buildHTML(){
   $('body').append(str);
 
   $('#showChart1').click(function(){
-    console.log('here');
     $('#chart1').removeClass('d-none');
     $('#chart2').addClass('d-none');
     $('#chart3').addClass('d-none');
@@ -789,7 +788,6 @@ function generateLightingSolution(data){
     $.each(solutions_result,function(){
       var solutions = this;
       var path = solutions[data.facility][data.room][data.fixture][data.target];
-      console.log(path);
       for (var key in path){
         if (key == "intro"){
           $('#lightingSolutionContent').append('<p class="right-panel-p mb-2 ml-3">'+path[key]+'</p><hr/>');
