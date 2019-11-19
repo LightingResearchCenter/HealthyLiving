@@ -715,25 +715,6 @@ p{
 }
 
 .banner-title{
-  width: 100%;
-  padding-right: 10vw;
-  padding-left: 10vw;
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
-  color: #fff;
-  text-align: center;
-  font-weight: 600;
-  font-size: 6em;
-  letter-spacing: .75vw;
-  line-height: 6rem;
-}
-
-.middle {
-  width:100%;
-  top: 20%;
-}
-
-.middle h1 {
   width:100%;
   padding-right:10vw;
   padding-left:10vw;
@@ -745,6 +726,11 @@ p{
   font-size:6em;
   letter-spacing:.75vw;
   line-height: 6rem;
+}
+
+.middle {
+  width:100%;
+  top: 20%;
 }
 
 .middle p {
@@ -928,17 +914,36 @@ ol li a,ol li a:hover {
   }
 }
 
+@media only screen and (max-width: 992px){
+  .banner-text{
+    top: calc(0% + 66px);
+  }
+
+  .middle p.box-text{
+    margin: auto;
+    width: 100%;
+  }
+
+  .middle{
+    position: absolute;
+    top: -30%;
+  }
+
+  .banner-title{
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 3rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+  }
+}
+
 @media only screen and (max-width: 1200px){
 
   .right-panel-col{
     padding-left: 1rem;
-  }
-
-  .middle h1 {
-    padding-right:5vw;
-    padding-left:5vw;
-    font-size:3.5em;
-    letter-spacing:1vw;
   }
 
   .middle p {
