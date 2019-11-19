@@ -34,7 +34,6 @@ $(document).ready(function(){
   });
 
   $("a.acnav__link--level2").on('click', function(event) {
-    console.log('here');
     event.preventDefault();
     smoothScroll('#content', 10, 1, $(this).attr('href'));
   });
