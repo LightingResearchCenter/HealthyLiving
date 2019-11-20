@@ -873,18 +873,18 @@ function generateCSContent(data){
   var fixture = data.fixture;
   var target = data.target;
   var cct = data.cct;
-  var str = facility+ '/' +facility.replace(/ /g,'')+ '_' +target+ '_' +cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
+  var str = facility.replace(/ /g,'_')+ '/' +facility.replace(/ /g,'')+ '_' +target.toString().replace(/ /g,'')+ '_' +cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
 
   if (facility == "Office" && room == "Private Office" && fixture == "Downlight + Blue/Red Wall Wash"){
-    str = facility+ '/' +facility.replace(/ /g,'')+ '_' +cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
+    str = facility.replace(/ /g,'_')+ '/' +facility.replace(/ /g,'')+ '_' +cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
   }
 
   if (data.infants == 1){
-    str = facility+ '/' +facility.replace(/ /g,'')+ '_infants_' + cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
+    str = facility.replace(/ /g,'_')+ '/' +facility.replace(/ /g,'')+ '_infants_' + cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
   }
 
-  $('#final_cs_graph_img').attr('src','img/application/cs graphs/' + str);
-  $('#final_cs_chart_img').attr('src','img/application/cs charts/' + str);
+  $('#final_cs_graph_img').attr('src','img/application/cs_graphs/' + str);
+  $('#final_cs_chart_img').attr('src','img/application/cs_charts/' + str);
 
   $('#cs-graph-buttons').remove();
   if (room == "Neonatal Intensive Care Unit"){

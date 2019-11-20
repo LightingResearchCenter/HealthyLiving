@@ -5,22 +5,22 @@
       "desc": "Facilities are comprised of varying occupant types, which affect circadian design solutions. Choose a facility below that you are interested in learning more about.",
       "Senior Care" :
       {
-        "img" : "img/application/selection/1 Facility/Senior Care.jpg",
+        "img" : "img/application/selection/1_Facility/Senior_Care.jpg",
         "desc" : "Older adults are susceptible to circadian disruption that can affect their sleep quality, alertness, and mood. To help improve their quality of life, it is recommended that seniors in eldercare environments receive defined amounts of light at the correct spectrum to better entrain their circadian systems. The lighting patterns were designed to provide these seniors with appropriate amounts of circadian stimulus at the right time of day, and thereby improve their circadian entrainment and quality of life."
       },
       "Office":
       {
-        "img" : "img/application/selection/1 Facility/Office.jpg",
+        "img" : "img/application/selection/1_Facility/Office.jpg",
         "desc" : "Office lighting has traditionally been designed for visual performance, with relatively little regard to its effects on health and well-being, mood, and alertness. Typically, office workers have limited access to daylight that can lead to problems with sleep and mood and more serious behavioral and health problems over the long term. Lighting design can be used to improve these outcomes by providing office workers with the right amount of circadian stimulus (CS) at the right time."
       },
       "School":
       {
-        "img" : "img/application/selection/1 Facility/School.jpg",
+        "img" : "img/application/selection/1_Facility/School.jpg",
         "desc" : "Adolescents’ tendency to be “late to bed and late to rise” puts them at odds with structured school schedules. As they approach college age they experience progressively later sleep onset and reduced sleep times. The resulting sleep disorders can lead to poor scholastic performance and behavioral problems. Improved classroom lighting design can foster better scholastic and health outcomes by helping to shift the timing of sleep and promote entrainment to the 24-hour solar day."
       },
       "Healthcare":
       {
-        "img" : "img/application/selection/1 Facility/Healthcare.jpg",
+        "img" : "img/application/selection/1_Facility/Healthcare.jpg",
         "desc" : "The hospital functions around the clock and year-round, its patients can range from premature infants to the elderly, and its occupants can include very ill patients or workers and visitors who are in good health. Many healthcare personnel work long hours that can include night shifts and rotating shifts, exposing them to lighting characteristics that are at odds with the timing circadian system. Circadian-effective lighting can improve the health and well-being of patients, visitors, and staff alike."
       }
     },
@@ -29,52 +29,52 @@
       "desc" : "Rooms within a facility can present different uses for occupants. With varying dimensions, furniture layouts, and time occupied, rooms can be diverse in scheduling. Choose a room to discover more about how you can learn about circadian design.",
       "Assisted Living Single with Kitchen" :
       {
-        "img" : "img/application/selection/2 Room/SeniorCare_AssistedLivingWithKitchen.jpg",
+        "img" : "img/application/selection/2_Room/SeniorCare_AssistedLivingWithKitchen.jpg",
         "desc" : "A design for a medium sized single bedroom in an assisted living facility includes a twin bed, living room area with couch and television, dining area, and kitchen area. A French door off the dining area leads to an exterior patio."
       },
       "Nursing Home Single":
       {
-        "img" : "img/application/selection/2 Room/SeniorCare_NursingHomeSingle.jpg",
+        "img" : "img/application/selection/2_Room/SeniorCare_NursingHomeSingle.jpg",
         "desc" : "A design for a small sized single bedroom in a nursing home facility includes a twin bed, living room area with couch and television, dining area. A French door off the dining area leads to an exterior patio."
       },
       "Common Area":
       {
-        "img" : "img/application/selection/2 Room/SeniorCare_Common.jpg",
+        "img" : "img/application/selection/2_Room/SeniorCare_Common.jpg",
         "desc" : "A design for a recreational area in a senior living facility is one large room divided into two areas for dining and activity. The dining area includes round tables with chairs and the activity area consists of sofas, side tables, and rectangular tables with chairs for recreational use."
       },
       "Single Patient Room":
       {
-        "img": "img/application/selection/2 Room/Healthcare_SinglePatientRoom.jpg",
+        "img": "img/application/selection/2_Room/Healthcare_SinglePatientRoom.jpg",
         "desc" : "A design for a single patient room has room for one patient and one guest. It includes an adjustable bed, a cabinet, and a chair."
       },
       "Double Patient Room":
       {
-        "img": "img/application/selection/2 Room/Healthcare_DoublePatientRoom.jpg",
+        "img": "img/application/selection/2_Room/Healthcare_DoublePatientRoom.jpg",
         "desc" : "A design for a double patient room has room for 2 patients and 2 guests. It includes 2 adjustable beds, 2 cabinets, and 2 chairs."
       },
       "Nurses Station":
       {
-        "img": "img/application/selection/2 Room/Healthcare_NursesStation.jpg",
+        "img": "img/application/selection/2_Room/Healthcare_NursesStation.jpg",
         "desc" : "A design for a nurse's station in an open hospital hallway seats 11 nurses and contains built in desks and office chairs."
       },
       "Neonatal Intensive Care Unit":
       {
-        "img": "img/application/selection/2 Room/Healthcare_NICU.jpg",
+        "img": "img/application/selection/2_Room/Healthcare_NICU.jpg",
         "desc" : "A design for a NICU (newborn intensive care unit) is divided into two zones: nurse's station, and the infants in their incubators.The NICU contains incubators and a built in desk for nurses."
       },
       "New Open Office":
       {
-        "img": "img/application/selection/2 Room/Office_NewOpenOffice.jpg",
+        "img": "img/application/selection/2_Room/Office_NewOpenOffice.jpg",
         "desc" : "A design for a new open office layout seats up to 36 people. The open office has new work stations with 1’-6” partitions."
       },
       "Traditional Open Office":
       {
-        "img": "img/application/selection/2 Room/Office_TraditionalOpenOffice.jpg",
+        "img": "img/application/selection/2_Room/Office_TraditionalOpenOffice.jpg",
         "desc" : "A design for a traditional open office seats up to 16 people. The open office has traditional office cubicles with 4’ partition walls."
       },
       "Private Office":
       {
-        "img": "img/application/selection/2 Room/Office_Private.jpg",
+        "img": "img/application/selection/2_Room/Office_Private.jpg",
         "desc" : "A design for a private office includes an office desk and two guest seats. Lighting designs can be individualized since one user typically occupies the space."
       }
     },
@@ -83,142 +83,142 @@
       "desc": "Choose a fixture below to see how it is used in a circadian design. All fixtures have specific qualities that affect how light is distributed into a space. Even if a similar fixture type to the options below is used, characteristics may be different, resulting in varying performance. Calculations must always be done to assure fixture type, beam distribution, and SPD combine to achieve the desired CS effect.",
       "2x4 Center Basket Troffer":
       {
-        "img" : "img/application/selection/3 Fixture/2x4 Center basket Troffer.jpg",
+        "img" : "img/application/selection/3_Fixture/2x4_Center_Basket_Troffer.jpg",
         "desc" : "Center basket troffers are a newer troffer design that can retrofit into existing 2x4 ceiling grids. The fixture design provides a different beam distribution, and can direct light more evenly into the space, compared to typical 2x4 troffers."
       },
       "2x4 Troffer + Blue/Red Desk Luminaire + Perimeter Valance" :
       {
-        "img" : "img/application/selection/3 Fixture/2x4 Troffer + Desk Luminaire + Perimeter Valance.jpg",
+        "img" : "img/application/selection/3_Fixture/2x4_Troffer-Desk_Luminaire-Perimeter_Valance.jpg",
         "desc" : "Traditional 2x4 troffers with retrofit LED bulbs provide ambient light for the space, being an easy solution for a new lighting design. A perimeter wall valance adds a layer of indirect lighting, and an option of turning on a gentle wall wash when nurses are checking on the infants. Desk luminaires provide a solution for circadian entrainment and alertness effects for the nurses while being non-invasive for the infants."
       },
       "2x4 Troffer + Desk Luminaire" :
       {
-        "img" : "img/application/selection/3 Fixture/2x4 Troffer + Desk Luminaire.jpg",
+        "img" : "img/application/selection/3_Fixture/2x4_Troffer-Desk Luminaire.jpg",
         "desc" : ""
       },
       "2x4 Troffer + Wall Sconce":
       {
-        "img" : "img/application/selection/3 Fixture/2x4 Troffer + Wall Sconce.jpg",
+        "img" : "img/application/selection/3_Fixture/2x4_Troffer-Wall_Sconce.jpg",
         "desc" : "Traditional 2x4 troffers with retrofit LED bulbs provide ambient light for the space, being an easy solution for a new lighting design. A wall sconce mounted above a patient’s bed provides additional task and ambient illumination."
       },
       "2x4 Troffer":
       {
-        "img" : "img/application/selection/3 Fixture/2x4 Troffer.jpg",
+        "img" : "img/application/selection/3_Fixture/2x4_Troffer.jpg",
         "desc" : "A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications."
       },
       "Cove + Floor Lamp + Table Lamp":
       {
-        "img" : "img/application/selection/3 Fixture/Cove + Floor Lamp + Table Lamp.jpg",
+        "img" : "img/application/selection/3_Fixture/Cove-Floor_Lamp-Table_Lamp.jpg",
         "desc" : "Cove design allows for hidden linear fixtures to be tucked into a lip that extends around the perimeter of a room. Light is distributed more evenly across the space since fixtures are arrayed beside one another along the cove border. Integrating a cove requires new construction of a space with the addition of higher ceilings. Floor and table lamps add an additional layer of task lighting."
       },
       "Cove" :
       {
-        "img" : "img/application/selection/3 Fixture/Cove.jpg",
+        "img" : "img/application/selection/3_Fixture/Cove.jpg",
         "desc" : ""
       },
       "Desk Luminaire" :
       {
-        "img" : "img/application/selection/3 Fixture/Desk Luminaire.jpg",
+        "img" : "img/application/selection/3_Fixture/Desk_Luminaire.jpg",
         "desc" : ""
       },
       "Direct/Indirect Linear Pendant":
       {
-        "img" : "img/application/selection/3 Fixture/Direct Indirect Linear Pendant.jpg",
+        "img" : "img/application/selection/3_Fixture/Direct_Indirect_Linear_Pendant.jpg",
         "desc" : "Linear pendants hang from the ceiling and can provide light directly (downward) and/or indirectly (upward). This duels as a means to provide more ambient illumination throughout the space using indirect light, as well as task illumination using direct light."
       },
       "Downlight + Blue/Red Wall Wash" :
       {
-        "img" : "img/application/selection/3 Fixture/Downlight + Wall Wash.jpg",
+        "img" : "img/application/selection/3_Fixture/Downlight-Wall_Wash.jpg",
         "desc" : "Recessed downlights are mounted above the ceiling surface and provide ambient and task illumination. The linear wall washers wash the wall with a saturated blue or red color that can provide circadian entrainment as well as alertness when an occupant receives a desired amount at the eye."
       },
       "Downlight + Flush Mount + Hanging Pendant + Wall Valance + Under Cabinet + TV Valance":
       {
-        "img" : "img/application/selection/3 Fixture/Downlight + Flush Mount + Hanging Pendant + Wall Valance + Under Cabinet + TV Valance.jpg",
+        "img" : "img/application/selection/3_Fixture/Downlight-Flush_Mount-Hanging_Pendant-Wall_Valance-Under_Cabinet-TV_Valance.jpg",
         "desc" : "Using a combination design allows for layers of light that play different roles. Downlights create general ambience, flush mounts provide a more home-like feel, wall valances provide more light to the eye to increase CS levels, and undercabinet contributes to task lighting for visual purpose."
       },
       "Downlight + Hanging Pendant + Floor Lamp + Table Lamp":
       {
-        "img" : "img/application/selection/3 Fixture/Downlight + Hanging Pendant + Floor Lamp + Table Lamp.jpg",
+        "img" : "img/application/selection/3_Fixture/Downlight-Hanging_Pendant-Floor_Lamp-Table_Lamp.jpg",
         "desc" : "Using a combination design allows for layers of light that play different roles. Downlights create general ambience, while pendants, floor lamps, and table lamps provide an additional layer of task lighting and create a home-like feel to the space."
       },
       "Downlight + Wall Wash" :
       {
-        "img" : "img/application/selection/3 Fixture/Downlight + Wall Wash.jpg",
+        "img" : "img/application/selection/3_Fixture/Downlight-Wall_Wash.jpg",
         "desc" : "Recessed downlights are mounted above the ceiling surface and provide ambient and task illumination. The linear wall washers wash the wall with a saturated blue or red color that can provide circadian entrainment as well as alertness when an occupant receives a desired amount at the eye."
       },
       "Downlight" :
       {
-        "img" : "img/application/selection/3 Fixture/Downlight.jpg",
+        "img" : "img/application/selection/3_Fixture/Downlight.jpg",
         "desc" : "Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing."
       },
       "Floor Lamp" :
       {
-        "img" : "img/application/selection/3 Fixture/Floor Lamp.jpg",
+        "img" : "img/application/selection/3_Fixture/Floor_Lamp.jpg",
         "desc" : ""
       },
       "Flush Mount + Hanging Pendant + Perimeter Valance":
       {
-        "img" : "img/application/selection/3 Fixture/Flush Mount + Hanging Pendant + Perimeter Valance.jpg",
+        "img" : "img/application/selection/3_Fixture/Flush_Mount-Hanging_Pendant-Perimeter_Valance.jpg",
         "desc" : "Using a combination design allows for layers of light that play different roles. Flush mount and pendant fixtures create general ambience and a more home-like feel. The addition of a wall valance integrated into a cornice extending around the room provides more light to the eye to increase CS levels."
       },
       "Flush Mount + Hanging Pendant":
       {
-        "img" : "img/application/selection/3 Fixture/Flush Mount + Hanging Pendant.jpg",
+        "img" : "img/application/selection/3_Fixture/Flush_Mount-Hanging_Pendant.jpg",
         "desc" : "A modern twist to a classic flush mount fixtures adds a more home-like feel to a space while providing more light into the space than original styles."
       },
       "Flush Mount" :
       {
-        "img" : "img/application/selection/3 Fixture/Flush Mount.jpg",
+        "img" : "img/application/selection/3_Fixture/Flush_Mount.jpg",
         "desc" : ""
       },
       "Hanging Pendant" :
       {
-        "img" : "img/application/selection/3 Fixture/Pendant.jpg",
+        "img" : "img/application/selection/3_Fixture/Pendant.jpg",
         "desc" : ""
       },
       "Recessed Linear + Desk Luminaire + Under Cabinet" :
       {
-        "img" : "img/application/selection/3 Fixture/Recessed Linear + Desk Luminaire + Under Cabinet.jpg",
+        "img" : "img/application/selection/3_Fixture/Recessed_Linear-Desk_Luminaire-Under_Cabinet.jpg",
         "desc" : "Using a combination design allows for layers of light that play different roles.Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. Desk luminaires personalized for each occupant as well as under cabinet lighting provide additional task and ambient illumination."
       },
       "Recessed Linear + Blue/Red Desk Luminaire + Under Cabinet" :
       {
-        "img" : "img/application/selection/3 Fixture/Recessed Linear + Desk Luminaire + Under Cabinet.jpg",
+        "img" : "img/application/selection/3_Fixture/Recessed_Linear-Desk_Luminaire-Under_Cabinet.jpg",
         "desc" : "Using a combination design allows for layers of light that play different roles.Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. Desk luminaires personalized for each occupant as well as under cabinet lighting provide additional task and ambient illumination."
       },
       "Recessed Linear + Desk Luminaire" :
       {
-        "img" : "img/application/selection/3 Fixture/Recessed Linear + Desk Luminaire.jpg",
+        "img" : "img/application/selection/3_Fixture/Recessed_Linear-Desk_Luminaire.jpg",
         "desc" : ""
       },
       "Recessed Linear + Downlight + Wall Wash + Wall Sconce" :
       {
-        "img" : "img/application/selection/3 Fixture/Recessed Linear + Downlight + Wall Wash + Wall Sconce.jpg",
+        "img" : "img/application/selection/3_Fixture/Recessed_Linear-Downlight-Wall_Wash-Wall_Sconce.jpg",
         "desc" : "Using a combination design allows for layers of light that play different roles. Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. Downlights add more ambient light, as well as provide an option for task light beside the patient bed to be turned on during exams.  A wall wash grazing the wall in front of patients provides more light to the eye."
       },
       "Recessed Linear + Downlight + Wall Wash + Cove" :
       {
-        "img" : "img/application/selection/3 Fixture/Recessed Linear + Downlight + Wall Wash + Cove.jpg",
+        "img" : "img/application/selection/3_Fixture/Recessed_Linear-Downlight-Wall_Wash-Cove.jpg",
         "desc" : "Using a combination design allows for layers of light that play different roles.Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. The cove lighting above the nurse’s desk provides ambient lighting concentrated in that zone to allow for non-invasive light levels for the infants."
       },
       "Recessed Linear + Blue/Red Downlight + Blue Wall Wash + Cove" :
       {
-        "img" : "img/application/selection/3 Fixture/Recessed Linear + Downlight + Wall Wash + Cove.jpg",
+        "img" : "img/application/selection/3_Fixture/Recessed_Linear-Downlight-Wall_Wash-Cove.jpg",
         "desc" : "Using a combination design allows for layers of light that play different roles.Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. The cove lighting above the nurse’s desk provides ambient lighting concentrated in that zone to allow for non-invasive light levels for the infants."
       },
       "Recessed Linear + Wall Sconce" :
       {
-        "img" : "img/application/selection/3 Fixture/Recessed Linear + Wall Sconce.jpg",
+        "img" : "img/application/selection/3_Fixture/Recessed_Linear-Wall_Sconce.jpg",
         "desc" : "Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. A wall sconce mounted above a patient’s bed provides additional task and ambient illumination."
       },
       "Recessed Linear + Wall Wash" :
       {
-        "img" : "img/application/selection/3 Fixture/Recessed Linear + Wall Wash.jpg",
+        "img" : "img/application/selection/3_Fixture/Recessed_Linear-Wall_Wash.jpg",
         "desc" : "Using a combination design allows for layers of light that play different roles.Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. A wall wash grazing the back wall provides more light to the eye for the occupants facing that direction."
       },
       "Recessed Linear + Blue/Red Wall Wash" :
       {
-        "img" : "img/application/selection/3 Fixture/Recessed Linear + Wall Wash.jpg",
+        "img" : "img/application/selection/3_Fixture/Recessed_Linear-Wall_Wash.jpg",
         "desc" : "Using a combination design allows for layers of light that play different roles.Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. A wall wash grazing the back wall provides more light to the eye for the occupants facing that direction."
       }
     },
@@ -227,37 +227,37 @@
       "desc" : "A CS above 0.3 is shown to have an effect on the circadian system which is desired in the morning and early afternoon hours to synchronize the body with the 24-hour solar day. For a robust light/dark schedule, CS must be lowered throughout the day. This means a CS schedule will either start at the target 0.4 or 0.3, and always end in < 0.1. CS values are achieved based on the SPD of a light source, and the illuminance at the eye. Read below for tips of which initial target CS value is best for your design. See ‘CS’ on the background page for more information.",
       "0.3":
       {
-        "img" : "img/application/selection/4 Target CS/0.3.jpg",
+        "img" : "img/application/selection/4_Target_CS/0.3.jpg",
         "desc" : "Targeting a CS of 0.3 is the absolute minimum to have an effect on the circadian system. Target a CS of 0.3 if:<ul><li>Furniture layout: Defined / Static</li><li>CCT preference: Warm white (2700 K-3000 K)</li><li>Horizontal illuminance: <500 lux on the workplane</li><li>Energy consumption is a major concern</li></ul>"
       },
       "0.3 SD" :
       {
-        "img" : "img/application/selection/4 Target CS/0.3.jpg",
+        "img" : "img/application/selection/4_Target_CS/0.3.jpg",
         "desc": "With a patient’s bed location being static, lighting can be placed and strategically to reach a CS of 0.3 at the eye. Considerations when designing:<ul><li>Patient orientation: Laying horizontal vs 45 degree tilt<ul><li>Light levels should be achieved with patient oriented in either position.</li></ul></li></ul>"
       },
       "0.4":
       {
-        "img" : "img/application/selection/4 Target CS/0.4.jpg",
+        "img" : "img/application/selection/4_Target_CS/0.4.jpg",
         "desc" : "Targeting a higher CS of 0.4 will better assure that the minimum of 0.3 CS is achieved where it is needed (e.g. where people are sitting). Target a CS of 0.4 if:<ul><li>Furniture layout: Undefined / dynamic</li><li>CCT preference: Cool white (5000 K-6500 K)</li><li>Population: Occupants that have the tendency to not respond to light (e.g. the aging population due to the aging eye), or are more out of sync, or more susceptible to being out of sync (e.g. social jetlag)</li></ul>"
       },
       "0.4 8-hour" :
       {
-        "img" : "img/application/selection/4 Target CS/0.4 8-hour.jpg",
+        "img" : "img/application/selection/4_Target_CS/0.4_8-hour.jpg",
         "desc" : "With multiple user types with differing circadian needs, zones must be created to achieve target CS levels. Duration of circadian stimulus may vary based on:<ul><li>Nurse’s schedule: 8-hour shifts<br/>Typically: 7 AM - 3 PM, 3 PM - 11 PM, 11 PM - 7 AM</li><li>Infants 32 weeks and older: Robust light/dark entrainment</li></ul>"
       },
       "0.4 12-hour" :
       {
-        "img" : "img/application/selection/4 Target CS/0.4 12-hour.jpg",
+        "img" : "img/application/selection/4_Target_CS/0.4_12-hour.jpg",
         "desc" : "With multiple user types with differing circadian needs, zones must be created to achieve target CS levels. Duration of circadian stimulus may vary based on:<ul><li>Nurse’s schedule: 12-hour shifts<br/>Typically: 7 AM - 7 PM, 7 PM - 7 AM</li><li>Infants 32 weeks and older: Robust light/dark entrainment</li></ul>"
       },
       "0.4 short" :
       {
-        "img" : "img/application/selection/4 Target CS/0.4 short.jpg",
+        "img" : "img/application/selection/4_Target_CS/0.4_short.jpg",
         "desc" : "With nurses having varying shift schedules, it is important to optimize the circadian system’s entrainment to these schedules. The duration of a circadian stimulus >0.3 can impact the biological system and entrain a nurse to the shift he/she works. Choose circadian schedule based on:<ul><li>Nurses Schedule: Day-shift <ul><li>If shift begins in the early morning, and the circadian system of nurses should not be shifted.</li></ul></li></ul>"
       },
       "0.4 long" :
       {
-        "img" : "img/application/selection/4 Target CS/0.4 long.jpg",
+        "img" : "img/application/selection/4_Target_CS/0.4_long.jpg",
         "desc" : "With nurses having varying shift schedules, it is important to optimize the circadian system’s entrainment to these schedules. The duration of a circadian stimulus >0.3 can impact the biological system and entrain a nurse to the shift he/she works. Choose circadian schedule based on:<ul><li>Nurse’s schedule: Night-shift<ul><li>If shift begins in the late afternoon, and the circadian system of nurses should be shifted slightly.</li></ul></li></ul>"
       }
     },
@@ -266,12 +266,12 @@
       "desc": "A dynamic lighting system involves the dimming of a lighting system throughout the day to achieve target CS values. Another component of dynamic lighting is the CCT (correlated color temperature), using a range of white light from cooler white to warmer white. Color changing by using multiple CCTs throughout the day is characterized as a tunable CCT system, while using a single CCT that dims throughout the day is a static CCT system. Using RGB LED light sources allows for the opportunity to create any CCT, but be sure to use the CS calculator to determine your CCT’s contribution to CS.",
       "Static":
       {
-        "img" : "img/application/selection/5 CCT System/Static.jpg",
+        "img" : "img/application/selection/5_CCT_System/Static.jpg",
         "desc" : "A static CCT system uses a singular CCT in the design that dims throughout the day to achieve a robust light/dark schedule."
       },
       "Tunable":
       {
-        "img" : "img/application/selection/5 CCT System/Tunable.jpg",
+        "img" : "img/application/selection/5_CCT_System/Tunable.jpg",
         "desc" : "A tunable CCT system uses multiple CCTs throughout the day to achieve a robust schedule. Schedules start with brighter, cooler CCTs in the morning hours and change CCT while dimming throughout the day, and eventually turning off during sleeping hours. This better simulates sunlight throughout the day."
       }
     },
@@ -280,97 +280,97 @@
       "desc" : "CCT (Correlated Color Temperature) refers to the tint of white light. A white light source can seem cooler (blue tint) or warmer (yellow tint), which is affiliated with its CCT. Along with varying impact on the circadian system, the CCT can have a large impact on how the overall atmosphere of a space feels to an occupant.<br/><br/>See ‘White light & CCT’’ on the background page for more information.",
       "6500 K":
       {
-        "img" : "img/application/selection/6 CCT/6500 K.jpg",
+        "img" : "img/application/selection/6_CCT/6500K.jpg",
         "desc" : "Cooler white"
       },
       "5000 K":
       {
-        "img" : "img/application/selection/6 CCT/5000 K.jpg",
+        "img" : "img/application/selection/6_CCT/5000K.jpg",
         "desc" : "Cool white"
       },
       "4000 K":
       {
-        "img" : "img/application/selection/6 CCT/4000 K.jpg",
+        "img" : "img/application/selection/6_CCT/4000K.jpg",
         "desc" : "Neutral white"
       },
       "3500 K" :
       {
-        "img" : "img/application/selection/6 CCT/3000 K.jpg",
+        "img" : "img/application/selection/6_CCT/3000K.jpg",
         "desc" : "Warm white"
       },
       "3000 K":
       {
-        "img" : "img/application/selection/6 CCT/3000 K.jpg",
+        "img" : "img/application/selection/6_CCT/3000K.jpg",
         "desc" : "Warm white"
       },
       "2700 K":
       {
-        "img" : "img/application/selection/6 CCT/2700 K.jpg",
+        "img" : "img/application/selection/6_CCT/2700K.jpg",
         "desc" : "Warmer white"
       },
       "6500 K -> 5000 K -> 4000 K":
       {
-        "img" : "img/application/selection/6 CCT/0.3 6500K-5000K-4000K.jpg",
+        "img" : "img/application/selection/6_CCT/0.3_6500K-5000K-4000K.jpg",
         "desc" : "Transition from a cooler white light in the early hours of the day to a neutral white light at night."
       },
       "5000 K -> 4000 K -> 4000 K":
       {
-        "img" : "img/application/selection/6 CCT/0.3 5000K-4000K-4000K.jpg",
+        "img" : "img/application/selection/6_CCT/0.3_5000K-4000K-4000K.jpg",
         "desc" : "Transition from a cool white light in the early hours of the day to a neutral white light at night."
       },
       "5000 K -> 4000 K -> 3000 K":
       {
-        "img" : "img/application/selection/6 CCT/0.3 5000K-4000K-3000K.jpg",
+        "img" : "img/application/selection/6_CCT/0.3_5000K-4000K-3000K.jpg",
         "desc" : "Transition from a cool white light in the early hours of the day to a warm white light at night."
       },
       "5000 K -> 4000 K -> 3500 K" :
       {
-        "img" : "img/application/selection/6 CCT/0.3 5000K-4000K-3500K.jpg",
+        "img" : "img/application/selection/6_CCT/0.3_5000K-4000K-3500K.jpg",
         "desc" : "Transition from a cool white light in the early hours of the day to a warm white light at night."
       },
       "5000 K -> 4000 K":
       {
-        "img" : "img/application/selection/6 CCT/0.3 5000K-4000K.jpg",
+        "img" : "img/application/selection/6_CCT/0.3_5000K-4000K.jpg",
         "desc" : "Transition from a neutral white light in the early hours of the day to a neutral white light at night."
       },
       "4000 K -> 3000 K -> 2700 K":
       {
-        "img" : "img/application/selection/6 CCT/0.3 4000K-3000K-2700K.jpg",
+        "img" : "img/application/selection/6_CCT/0.3_4000K-3000K-2700K.jpg",
         "desc" : "Transition from a neutral white light in the early hours of the day to a warmer white light at night."
       },
       "4000 K -> 4000 K -> 3500 K":
       {
-        "img" : "img/application/selection/6 CCT/0.3 4000K-4000K-3500K.jpg",
+        "img" : "img/application/selection/6_CCT/0.3_4000K-4000K-3500K.jpg",
         "desc" : "Transition from a neutral white light in the early hours of the day to a warm white light at night."
       },
       "4000 K -> 4000 K -> 3000 K":
       {
-        "img" : "img/application/selection/6 CCT/0.3 4000K-4000K-3000K.jpg",
+        "img" : "img/application/selection/6_CCT/0.3_4000K-4000K-3000K.jpg",
         "desc" : "Transition from a neutral white light in the early hours of the day to a warm white light at night."
       },
       "6500 K -> 5000 K -> 4000 K -> 3000 K" :
       {
-        "img" : "img/application/selection/6 CCT/0.4 6500K-5000K-4000K-3000K.jpg",
+        "img" : "img/application/selection/6_CCT/0.4_6500K-5000K-4000K-3000K.jpg",
         "desc" : "Transition from a cooler white light in the early hours of the day to a warm white light at night."
       },
       "6500 K -> 5000 K -> 4000 K -> 3500 K" :
       {
-        "img" : "img/application/selection/6 CCT/0.4 6500K-5000K-4000K-3000K.jpg",
+        "img" : "img/application/selection/6_CCT/0.4_6500K-5000K-4000K-3000K.jpg",
         "desc" : "Transition from a cooler white light in the early hours of the day to a warm white light at night."
       },
       "5000 K -> 5000 K -> 4000 K -> 4000 K":
       {
-        "img" : "img/application/selection/6 CCT/0.4 5000K-5000K-4000K-4000K.jpg",
+        "img" : "img/application/selection/6_CCT/0.4_5000K-5000K-4000K-4000K.jpg",
         "desc" : "Transition from a cool white light in the early hours of the day to a neutral white light at night."
       },
       "5000 K -> 4000 K -> 3000 K -> 2700 K":
       {
-        "img" : "img/application/selection/6 CCT/0.4 5000K-4000K-3000K-2700K.jpg",
+        "img" : "img/application/selection/6_CCT/0.4_5000K-4000K-3000K-2700K.jpg",
         "desc" : "Transition from a cool white light in the early hours of the day to a warmer white light at night."
       },
       "4000 K -> 4000 K -> 3500 K -> 3500 K":
       {
-        "img" : "img/application/selection/6 CCT/0.4 4000K-4000K-3500K-3500K.jpg",
+        "img" : "img/application/selection/6_CCT/0.4_4000K-4000K-3500K-3500K.jpg",
         "desc" : "Transition from a neutral white light in the early hours of the day to a warm white light at night."
       }
     }
