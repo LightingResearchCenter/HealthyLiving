@@ -832,8 +832,8 @@ function generateFixtures(data){
         var index = $(this).data('value');
         var path = fixtures[data.facility][data.room][data.fixture];
         $('#fixture_name').html(path.name[index]);
-        $('#fixture_fixture').attr('src','img/application/selection/3 Fixture/'+path.fixture[index]+'.jpg');
-        $('#fixture_candela').attr('src','img/application/selection/3 Fixture/candela/'+path.candela[index]+'.jpg');
+        $('#fixture_fixture').attr('src','img/application/selection/3_Fixture/'+path.fixture[index].replace(/ /g,'_')+'.jpg');
+        $('#fixture_candela').attr('src','img/application/selection/3_Fixture/candela/'+path.candela[index]+'.jpg');
         $('#fixture_amount').html(path.amount[index]);
         $('#fixture_type').html(path.type[index]);
         $('#fixture_height').html(path.height[index]);
