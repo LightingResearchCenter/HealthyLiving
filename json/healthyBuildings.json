@@ -4215,60 +4215,60 @@
               {
                 "Morning 0.3" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_6500K_0.3Morn.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed_linear/Healthcare_Single_RecessedLinear_6500K_0.3Morn.jpg"]
                 },
                 "Afternoon 0.2" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_6500K_0.2Aft.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed_linear/Healthcare_Single_RecessedLinear_6500K_0.2Aft.jpg"]
                                   },
                 "Evening/Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_6500K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed_linear/Healthcare_Single_RecessedLinear_6500K_0.1Night.jpg"]
                                   }
               },
               "5000 K" :
               {
                 "Morning 0.3" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_5000K_0.3Morn.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed_linear/Healthcare_Single_RecessedLinear_5000K_0.3Morn.jpg"]
                                   },
                 "Afternoon 0.2" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_5000K_0.2Aft.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed_linear/Healthcare_Single_RecessedLinear_5000K_0.2Aft.jpg"]
                                   },
                 "Evening/Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_5000K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed_linear/Healthcare_Single_RecessedLinear_5000K_0.1Night.jpg"]
                                   }
               },
               "4000 K" :
               {
                 "Morning 0.3" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_4000K_0.3Morn.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed_linear/Healthcare_Single_RecessedLinear_4000K_0.3Morn.jpg"]
                                   },
                 "Afternoon 0.2" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_4000K_0.2Aft.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed_linear/Healthcare_Single_RecessedLinear_4000K_0.2Aft.jpg"]
                                   },
                 "Evening/Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_4000K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed_linear/Healthcare_Single_RecessedLinear_4000K_0.1Night.jpg"]
                                   }
               },
               "3500 K" :
               {
                 "Morning 0.3" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_3500K_0.3Morn.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed_linear/Healthcare_Single_RecessedLinear_3500K_0.3Morn.jpg"]
                                   },
                 "Afternoon 0.2" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_3500K_0.2Aft.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed_linear/Healthcare_Single_RecessedLinear_3500K_0.2Aft.jpg"]
                                   },
                 "Evening/Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/single/recessed%20linear/Healthcare_Single_RecessedLinear_3500K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/single/recessed_linear/Healthcare_Single_RecessedLinear_3500K_0.1Night.jpg"]
                                   }
               }
             },
@@ -4389,60 +4389,60 @@
               {
                 "Morning 0.3" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_6500K_0.3Morn.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed_linear/Healthcare_Double_RecessedLinear_6500K_0.3Morn.jpg"]
                 },
                 "Afternoon 0.2" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_6500K_0.2Aft.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed_linear/Healthcare_Double_RecessedLinear_6500K_0.2Aft.jpg"]
                                   },
                 "Evening/Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_6500K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed_linear/Healthcare_Double_RecessedLinear_6500K_0.1Night.jpg"]
                                   }
               },
               "5000 K" :
               {
                 "Morning 0.3" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_5000K_0.3Morn.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed_linear/Healthcare_Double_RecessedLinear_5000K_0.3Morn.jpg"]
                                   },
                 "Afternoon 0.2" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_5000K_0.2Aft.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed_linear/Healthcare_Double_RecessedLinear_5000K_0.2Aft.jpg"]
                                   },
                 "Evening/Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_5000K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed_linear/Healthcare_Double_RecessedLinear_5000K_0.1Night.jpg"]
                                   }
               },
               "4000 K" :
               {
                 "Morning 0.3" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_4000K_0.3Morn.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed_linear/Healthcare_Double_RecessedLinear_4000K_0.3Morn.jpg"]
                                   },
                 "Afternoon 0.2" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_4000K_0.2Aft.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed_linear/Healthcare_Double_RecessedLinear_4000K_0.2Aft.jpg"]
                                   },
                 "Evening/Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_4000K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed_linear/Healthcare_Double_RecessedLinear_4000K_0.1Night.jpg"]
                                   }
               },
               "3500 K" :
               {
                 "Morning 0.3" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_3500K_0.3Morn.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed_linear/Healthcare_Double_RecessedLinear_3500K_0.3Morn.jpg"]
                                   },
                 "Afternoon 0.2" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_3500K_0.2Aft.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed_linear/Healthcare_Double_RecessedLinear_3500K_0.2Aft.jpg"]
                                   },
                 "Evening/Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_3500K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/healthcare/renders/double/recessed_linear/Healthcare_Double_RecessedLinear_3500K_0.1Night.jpg"]
                                   }
               }
             },
@@ -4450,15 +4450,15 @@
             {
               "6500 K -> 5000 K -> 4000 K" :
               {
-                "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_Tunable_0.3_1a.jpg"]
+                "render" : ["img/application/facilities/healthcare/renders/double/recessed_linear/Healthcare_Double_RecessedLinear_Tunable_0.3_1a.jpg"]
                               },
               "5000 K -> 4000 K -> 3500 K" :
               {
-                "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_Tunable_0.3_1b.jpg"]
+                "render" : ["img/application/facilities/healthcare/renders/double/recessed_linear/Healthcare_Double_RecessedLinear_Tunable_0.3_1b.jpg"]
                               },
               "4000 K -> 4000 K -> 3500 K" :
               {
-                "render" : ["img/application/facilities/healthcare/renders/double/recessed%20linear/Healthcare_Double_RecessedLinear_Tunable_0.3_1c.jpg"]
+                "render" : ["img/application/facilities/healthcare/renders/double/recessed_linear/Healthcare_Double_RecessedLinear_Tunable_0.3_1c.jpg"]
                               }
             }
           }
