@@ -970,7 +970,7 @@ function generateAdjustments(hb,selection,data){
       cct_str += ' cct-selected';
     }
     cct_str += '">';
-    cct_str += '  <img class="m-0 p-0" src="img/application/adjustments/cct/'+cct_count+' '+_cct.replace(/\s/g, '').replace(/>/g,'')+'.jpg"/>';
+    cct_str += '  <img class="m-0 p-0" src="img/application/adjustments/cct/'+cct_count+'_'+_cct.replace(/\s/g, '').replace(/>/g,'')+'.jpg"/>';
     cct_str += '</div>';
   }
 
@@ -983,7 +983,7 @@ function generateAdjustments(hb,selection,data){
         tod_str += ' tod-selected';
       }
       tod_str += '">';
-      tod_str += '  <img class="m-0 p-0" src="img/application/adjustments/tod/'+tod_count+' '+_tod.replace(/\s/g, '').replace(/\//g, '-').replace('0.1','').replace('0.2','').replace('0.3','').replace('0.4','')+'.jpg"/>';
+      tod_str += '  <img class="m-0 p-0" src="img/application/adjustments/tod/'+tod_count+'_'+_tod.replace(/\s/g, '').replace(/\//g, '-').replace('0.1','').replace('0.2','').replace('0.3','').replace('0.4','')+'.jpg"/>';
       tod_str += '</div>';
     }
   }
