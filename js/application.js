@@ -873,7 +873,7 @@ function generateCSContent(data){
   var fixture = data.fixture;
   var target = data.target;
   var cct = data.cct;
-  var str = facility.replace(/ /g,'_')+ '/' +facility.replace(/ /g,'')+ '_' +target.toString().replace(/ /g,'')+ '_' +cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
+  var str = facility.replace(/ /g,'_')+ '/' +facility.replace(/ /g,'')+ '_' +target.toString().replace(/ /g,'_')+ '_' +cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
 
   if (facility == "Office" && room == "Private Office" && fixture == "Downlight + Blue/Red Wall Wash"){
     str = facility.replace(/ /g,'_')+ '/' +facility.replace(/ /g,'')+ '_' +cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
