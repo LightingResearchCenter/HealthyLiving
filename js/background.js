@@ -1,32 +1,41 @@
+function hideAllArticles(){
+  $('.article-fundamentals').removeClass('d-inline-block');
+  $('.article-manufacturers').removeClass('d-inline-block');
+  $('.article-occupants').removeClass('d-inline-block');
+  $('.article-office').removeClass('d-inline-block');
+  $('.article-healthcare').removeClass('d-inline-block');
+  $('.article-seniorcare').removeClass('d-inline-block');
+  $('.article-additional').removeClass('d-inline-block');
+  $('.article-fundamentals').addClass('d-none');
+  $('.article-manufacturers').addClass('d-none');
+  $('.article-occupants').addClass('d-none');
+  $('.article-office').addClass('d-none');
+  $('.article-healthcare').addClass('d-none');
+  $('.article-seniorcare').addClass('d-none');
+  $('.article-additional').addClass('d-none');
+}
+
+function smoothScroll(id, offset1, offset2, hash){
+  if (hash !== "") {
+    $(id).animate({
+      scrollTop: $(hash).position().top + $(id).scrollTop() + offset1
+    }, 1200, function(){
+      window.location.hash = hash + offset2;
+      history.replaceState(undefined, undefined, hash);
+    });
+  }
+}
+
 $(document).ready(function(){
 
-  function hideAllArticles(){
-    $('.article-fundamentals').removeClass('d-inline-block');
-    $('.article-manufacturers').removeClass('d-inline-block');
-    $('.article-occupants').removeClass('d-inline-block');
-    $('.article-office').removeClass('d-inline-block');
-    $('.article-healthcare').removeClass('d-inline-block');
-    $('.article-seniorcare').removeClass('d-inline-block');
-    $('.article-additional').removeClass('d-inline-block');
-    $('.article-fundamentals').addClass('d-none');
-    $('.article-manufacturers').addClass('d-none');
-    $('.article-occupants').addClass('d-none');
-    $('.article-office').addClass('d-none');
-    $('.article-healthcare').addClass('d-none');
-    $('.article-seniorcare').addClass('d-none');
-    $('.article-additional').addClass('d-none');
-  }
-
-  function smoothScroll(id, offset1, offset2, hash){
-    if (hash !== "") {
-      $(id).animate({
-        scrollTop: $(hash).position().top + $(id).scrollTop() + offset1
-      }, 1200, function(){
-        window.location.hash = hash + offset2;
-        history.replaceState(undefined, undefined, hash);
-      });
-    }
-  }
+  $(".help-menu-list-item").click(function(){
+    $(".help-menu-list-item").removeClass('active');
+    $(this).addClass('active');
+    var id = "#help-" + $(this).data('value');
+    $(".help-section").addClass('d-none');
+    $(id).removeClass('d-none');
+    $(".help-body").scrollTop();
+  });
 
   $("div.acnav__link--level2, div.acnav__label--level2, a.segue").on('click', function(event) {
     event.preventDefault();
