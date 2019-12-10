@@ -1,3 +1,6 @@
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
 #mainNav {
   background-color: #00205b;
 }
