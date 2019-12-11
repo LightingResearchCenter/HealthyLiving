@@ -101,14 +101,9 @@
     "Fixture":
     {
       "desc": "Choose a fixture below to see how it is used in a circadian design. All fixtures have specific qualities that affect how light is distributed into a space. Even if a similar fixture type to the options below is used, characteristics may be different, resulting in varying performance. Calculations must always be done to assure fixture type, beam distribution, and SPD combine to achieve the desired CS effect.",
-      "1x4 Recessed Linear + Linear Strip + Wall Wash" :
-      {
-        "img" : "",
-        "desc" : "1x4 recessed linears provide general ambient and task illumination. The linear strips parallel to the row of desks provides saturated blue light for circadian entrainment when the occupant receives desired amount at the eye. A wall wash provides an additional layer to light up the walls and make a space feel even brighter."
-      },
       "2x2 Troffer + Linear Strip" :
       {
-        "img" : "",
+        "img" : "img/application/selection/3_Fixture/2x2_Troffer-Linear_S.jpg",
         "desc" : "2x2 Troffers provide general ambient and task illumination. The linear strips parallel to the row of desks provides saturated blue light for circadian entrainment when the occupant receives desired amount at the eye, as well as promote a calm environment."
       },
       "2x2 Troffer + Linear Strip + Wall Wash" :
@@ -126,11 +121,6 @@
         "img" : "img/application/selection/3_Fixture/2x4_Troffer-Desk_Luminaire-Perimeter_Valance.jpg",
         "desc" : "Traditional 2x4 troffers with retrofit LED bulbs provide ambient light for the space, being an easy solution for a new lighting design. A perimeter wall valance adds a layer of indirect lighting, and an option of turning on a gentle wall wash when nurses are checking on the infants. Desk luminaires provide a solution for circadian entrainment and alertness effects for the nurses while being non-invasive for the infants."
       },
-      "2x4 Troffer + Desk Luminaire" :
-      {
-        "img" : "img/application/selection/3_Fixture/2x4_Troffer-Desk Luminaire.jpg",
-        "desc" : ""
-      },
       "2x4 Troffer + Wall Sconce":
       {
         "img" : "img/application/selection/3_Fixture/2x4_Troffer-Wall_Sconce.jpg",
@@ -141,11 +131,6 @@
         "img" : "img/application/selection/3_Fixture/2x4_Troffer.jpg",
         "desc" : "A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications."
       },
-      "Cove" :
-      {
-        "img" : "img/application/selection/3_Fixture/Cove.jpg",
-        "desc" : ""
-      },
       "Cove + Downlight + Wall Wash" :
       {
         "img" : "",
@@ -155,11 +140,6 @@
       {
         "img" : "img/application/selection/3_Fixture/Cove-Floor_Lamp-Table_Lamp.jpg",
         "desc" : "Cove design allows for hidden linear fixtures to be tucked into a lip that extends around the perimeter of a room. Light is distributed more evenly across the space since fixtures are arrayed beside one another along the cove border. Integrating a cove requires new construction of a space with the addition of higher ceilings. Floor and table lamps add an additional layer of task lighting."
-      },
-      "Desk Luminaire" :
-      {
-        "img" : "img/application/selection/3_Fixture/Desk_Luminaire.jpg",
-        "desc" : ""
       },
       "Direct/Indirect Linear Pendant":
       {
@@ -191,24 +171,14 @@
         "img" : "img/application/selection/3_Fixture/Downlight.jpg",
         "desc" : "Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing."
       },
-      "Floor Lamp" :
-      {
-        "img" : "img/application/selection/3_Fixture/Floor_Lamp.jpg",
-        "desc" : ""
-      },
       "Floor Lamp + Task Lamp" :
       {
-        "img" : "",
+        "img" : "img/application/selection/3_Fixture/Floor_Lamp-Task_Lamp.jpg",
         "desc" : "Some spaces have limited ceiling lighting, which requires the use of plug-in fixtures. Floor lamps and task lamps are among the most common to provide ambient and task illumination."
-      },
-      "Flush Mount" :
-      {
-        "img" : "img/application/selection/3_Fixture/Flush_Mount.jpg",
-        "desc" : ""
       },
       "Flush Mount + Desk Luminaire" :
       {
-        "img" : "",
+        "img" : "img/application/selection/3_Fixture/Flush_Moint-Desk_Luminaire.jpg",
         "desc" : "A modern twist to a classic flush mount fixtures adds a more home-like feel to a space while providing more light into the space than original styles. A desk luminaire will provide more light at the eye for circadian entrainment and alertness. Desk luminaires can be personalized with white light or blue and red at desired times of the day. "
       },
       "Flush Mount + Hanging Pendant + Perimeter Valance":
@@ -221,11 +191,6 @@
         "img" : "img/application/selection/3_Fixture/Flush_Mount-Hanging_Pendant.jpg",
         "desc" : "A modern twist to a classic flush mount fixtures adds a more home-like feel to a space while providing more light into the space than original styles."
       },
-      "Hanging Pendant" :
-      {
-        "img" : "img/application/selection/3_Fixture/Pendant.jpg",
-        "desc" : ""
-      },
       "Recessed Linear + Desk Luminaire + Under Cabinet" :
       {
         "img" : "img/application/selection/3_Fixture/Recessed_Linear-Desk_Luminaire-Under_Cabinet.jpg",
@@ -235,11 +200,6 @@
       {
         "img" : "img/application/selection/3_Fixture/Recessed_Linear-Desk_Luminaire-Under_Cabinet.jpg",
         "desc" : "Using a combination design allows for layers of light that play different roles.Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. Desk luminaires personalized for each occupant as well as under cabinet lighting provide additional task and ambient illumination."
-      },
-      "Recessed Linear + Desk Luminaire" :
-      {
-        "img" : "img/application/selection/3_Fixture/Recessed_Linear-Desk_Luminaire.jpg",
-        "desc" : ""
       },
       "Recessed Linear + Downlight + Wall Wash + Wall Sconce" :
       {
@@ -273,7 +233,7 @@
       },
       "Skylight Panel + 2x2 Troffer" :
       {
-        "img" : "",
+        "img" : "img/application/selection/3_Fixture/2x2_Troffer-Skylight_Panel.jpg",
         "desc" : "2x2 Troffers provide general ambient and task illumination. Skylight panels recessed in the ceiling provide a sense of outdoors within a space. Paneled walls provide general CCTs with a blue sky, giving the ability to mimic sunlight."
       }
     },
