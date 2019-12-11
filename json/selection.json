@@ -16,7 +16,7 @@
       "School":
       {
         "img" : "img/application/selection/1_Facility/School.jpg",
-        "desc" : "Adolescents’ tendency to be “late to bed and late to rise” puts them at odds with structured school schedules. As they approach college age they experience progressively later sleep onset and reduced sleep times. The resulting sleep disorders can lead to poor scholastic performance and behavioral problems. Improved classroom lighting design can foster better scholastic and health outcomes by helping to shift the timing of sleep and promote entrainment to the 24-hour solar day."
+        "desc" : "Adolescents’ tendency to be “late to bed and late to rise” puts them at odds with structured school schedules. As they approach college age they experience progressively later sleeponset and reduced sleep times. The resulting sleep disorders can lead to poor scholastic performance and behavioral problems. Improved classroom lighting design can foster betterscholastic and health outcomes by helping to shift the timing of sleep and promote entrainment to the 24-hour solar day."
       },
       "Healthcare":
       {
@@ -76,11 +76,46 @@
       {
         "img": "img/application/selection/2_Room/Office_Private.jpg",
         "desc" : "A design for a private office includes an office desk and two guest seats. Lighting designs can be individualized since one user typically occupies the space."
+      },
+      "Standard Classroom" :
+      {
+        "img" : "",
+        "desc" : "A design for a medium sized school classroom seats 23 students and 1 teacher."
+      },
+      "Special Education Classroom" :
+      {
+        "img" : "",
+        "desc" : "A design for a special needs classroom seats 12 students and 3 teachers."
+      },
+      "Lecture Hall" :
+      {
+        "img" : "",
+        "desc" : "A design for a lecture hall for college students can seat up to 264 students. Seats are stepped up each row and have built in desks."
+      },
+      "Dorm" :
+      {
+        "img" : "",
+        "desc" : "A design for a college dormitory houses 2 students. The mirrored room contains 2 desks under a bunked bed."
       }
     },
     "Fixture":
     {
       "desc": "Choose a fixture below to see how it is used in a circadian design. All fixtures have specific qualities that affect how light is distributed into a space. Even if a similar fixture type to the options below is used, characteristics may be different, resulting in varying performance. Calculations must always be done to assure fixture type, beam distribution, and SPD combine to achieve the desired CS effect.",
+      "1x4 Recessed Linear + Linear Strip + Wall Wash" :
+      {
+        "img" : "",
+        "desc" : "1x4 recessed linears provide general ambient and task illumination. The linear strips parallel to the row of desks provides saturated blue light for circadian entrainment when the occupant receives desired amount at the eye. A wall wash provides an additional layer to light up the walls and make a space feel even brighter."
+      },
+      "2x2 Troffer + Linear Strip" :
+      {
+        "img" : "",
+        "desc" : "2x2 Troffers provide general ambient and task illumination. The linear strips parallel to the row of desks provides saturated blue light for circadian entrainment when the occupant receives desired amount at the eye, as well as promote a calm environment."
+      },
+      "2x2 Troffer + Linear Strip + Wall Wash" :
+      {
+        "img" : "",
+        "desc" : "2x2 Troffers provide general ambient and task illumination. The linear strips parallel to the row of desks provides saturated blue light for circadian entrainment when the occupant receives desired amount at the eye, as well as promote a calm environment. A wall wash provides an additional layer to light up the walls and make a space feel even brighter."
+      },
       "2x4 Center Basket Troffer":
       {
         "img" : "img/application/selection/3_Fixture/2x4_Center_Basket_Troffer.jpg",
@@ -106,15 +141,20 @@
         "img" : "img/application/selection/3_Fixture/2x4_Troffer.jpg",
         "desc" : "A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications."
       },
-      "Cove + Floor Lamp + Table Lamp":
-      {
-        "img" : "img/application/selection/3_Fixture/Cove-Floor_Lamp-Table_Lamp.jpg",
-        "desc" : "Cove design allows for hidden linear fixtures to be tucked into a lip that extends around the perimeter of a room. Light is distributed more evenly across the space since fixtures are arrayed beside one another along the cove border. Integrating a cove requires new construction of a space with the addition of higher ceilings. Floor and table lamps add an additional layer of task lighting."
-      },
       "Cove" :
       {
         "img" : "img/application/selection/3_Fixture/Cove.jpg",
         "desc" : ""
+      },
+      "Cove + Downlight + Wall Wash" :
+      {
+        "img" : "",
+        "desc" : "Downlights provide general ambient and task illumination. A cove allows for hidden linear fixtures to be tucked into a lip. Light is distributed more evenly across the space since fixtures are arrayed beside one another along the cove border. Integrating a cove requires new construction of a space with the addition of higher ceilings. A wall wash provides an additional layer to light up the walls and make a space feel even brighter. "
+      },
+      "Cove + Floor Lamp + Table Lamp":
+      {
+        "img" : "img/application/selection/3_Fixture/Cove-Floor_Lamp-Table_Lamp.jpg",
+        "desc" : "Cove design allows for hidden linear fixtures to be tucked into a lip that extends around the perimeter of a room. Light is distributed more evenly across the space since fixtures are arrayed beside one another along the cove border. Integrating a cove requires new construction of a space with the addition of higher ceilings. Floor and table lamps add an additional layer of task lighting."
       },
       "Desk Luminaire" :
       {
@@ -156,6 +196,21 @@
         "img" : "img/application/selection/3_Fixture/Floor_Lamp.jpg",
         "desc" : ""
       },
+      "Floor Lamp + Task Lamp" :
+      {
+        "img" : "",
+        "desc" : "Some spaces have limited ceiling lighting, which requires the use of plug-in fixtures. Floor lamps and task lamps are among the most common to provide ambient and task illumination."
+      },
+      "Flush Mount" :
+      {
+        "img" : "img/application/selection/3_Fixture/Flush_Mount.jpg",
+        "desc" : ""
+      },
+      "Flush Mount + Desk Luminaire" :
+      {
+        "img" : "",
+        "desc" : "A modern twist to a classic flush mount fixtures adds a more home-like feel to a space while providing more light into the space than original styles. A desk luminaire will provide more light at the eye for circadian entrainment and alertness. Desk luminaires can be personalized with white light or blue and red at desired times of the day. "
+      },
       "Flush Mount + Hanging Pendant + Perimeter Valance":
       {
         "img" : "img/application/selection/3_Fixture/Flush_Mount-Hanging_Pendant-Perimeter_Valance.jpg",
@@ -165,11 +220,6 @@
       {
         "img" : "img/application/selection/3_Fixture/Flush_Mount-Hanging_Pendant.jpg",
         "desc" : "A modern twist to a classic flush mount fixtures adds a more home-like feel to a space while providing more light into the space than original styles."
-      },
-      "Flush Mount" :
-      {
-        "img" : "img/application/selection/3_Fixture/Flush_Mount.jpg",
-        "desc" : ""
       },
       "Hanging Pendant" :
       {
@@ -220,6 +270,11 @@
       {
         "img" : "img/application/selection/3_Fixture/Recessed_Linear-Wall_Wash.jpg",
         "desc" : "Using a combination design allows for layers of light that play different roles.Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. A wall wash grazing the back wall provides more light to the eye for the occupants facing that direction."
+      },
+      "Skylight Panel + 2x2 Troffer" :
+      {
+        "img" : "",
+        "desc" : "2x2 Troffers provide general ambient and task illumination. Skylight panels recessed in the ceiling provide a sense of outdoors within a space. Paneled walls provide general CCTs with a blue sky, giving the ability to mimic sunlight."
       }
     },
     "Target":
@@ -230,10 +285,25 @@
         "img" : "img/application/selection/4_Target_CS/0.3.jpg",
         "desc" : "Targeting a CS of 0.3 is the absolute minimum to have an effect on the circadian system. Target a CS of 0.3 if:<ul><li>Furniture layout: Defined / Static</li><li>CCT preference: Warm white (2700 K-3000 K)</li><li>Horizontal illuminance: <500 lux on the workplane</li><li>Energy consumption is a major concern</li></ul>"
       },
+      "0.3 Early Bird" :
+      {
+        "img" : "",
+        "desc" : "Some students prefer to get up early to get work done, or early morning classes force some students to get going earlier than desired. Either way, lighting should promote morning alertness and provide circadian entrainment to allow for sleepiness at desired bedtimes. "
+      },
+      "0.3 Night Owl" :
+      {
+        "img" : "",
+        "desc" : "College students are notorious for having late nights and even pulling all-nighters. This causes sleep schedules to shift from typical schedules. Lighting should be used strategically to delay the circadian clock by delaying melatonin release to extend alertness. During the nighttime hours, it is imperative to not disturb the circadian system, with CS levels not exceeding 0.1. Red light could be used to promote late night alerting without disruption of the circadian system."
+      },
       "0.3 SD" :
       {
         "img" : "img/application/selection/4_Target_CS/0.3.jpg",
         "desc": "With a patient’s bed location being static, lighting can be placed and strategically to reach a CS of 0.3 at the eye. Considerations when designing:<ul><li>Patient orientation: Laying horizontal vs 45 degree tilt<ul><li>Light levels should be achieved with patient oriented in either position.</li></ul></li></ul>"
+      },
+      "0.3 SN" :
+      {
+        "img" : "",
+        "desc" : "Students with special needs can be more susceptible to sleep disturbances and can also be more sensitive to bright light levels. Lighting schedules should promote circadian entrainment, and systems should provide controllable light levels for teachers to adjust as needed. "
       },
       "0.4":
       {
@@ -259,6 +329,16 @@
       {
         "img" : "img/application/selection/4_Target_CS/0.4_long.jpg",
         "desc" : "With nurses having varying shift schedules, it is important to optimize the circadian system’s entrainment to these schedules. The duration of a circadian stimulus >0.3 can impact the biological system and entrain a nurse to the shift he/she works. Choose circadian schedule based on:<ul><li>Nurse’s schedule: Night-shift<ul><li>If shift begins in the late afternoon, and the circadian system of nurses should be shifted slightly.</li></ul></li></ul>"
+      },
+      "0.4 Teen" :
+      {
+        "img" : "",
+        "desc" : "Becoming a teenager means a lot of changes occur, including a high chance of having delayed sleep phase disorder. This complication means that teenagers have a tendency to stay up later, shifting their sleep schedule to not synchronize with school hours. Lighting should provide stimulus to better synchronize the circadian system, while limiting light exposure in the evening and nighttime hours."
+      },
+      "0.3 Pre-teen" :
+      {
+        "img" : "",
+        "desc" : "Children of a younger age have pretty regulated sleep schedules, and can have a lot of energy during the day. Lighting should provide a space with a concentrated environment while learning as well as circadian entrainment."
       }
     },
     "System":
