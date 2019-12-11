@@ -5237,6 +5237,1840 @@
           }
         }
       }
+    },
+    "School" :
+    {
+      "Standard Classroom" :
+      {
+        "2x4 Troffer" :
+        {
+          "0.4 Teen" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.4" :
+                {
+
+                },
+                "Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.4" :
+                {
+
+                },
+                "Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.4" :
+                {
+
+                },
+                "Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.4" :
+                {
+
+                },
+                "Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          },
+          "0.3 Pre-teen" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          }
+        },
+        "Downlight" :
+        {
+          "0.4 Teen" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.4" :
+                {
+
+                },
+                "Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.4" :
+                {
+
+                },
+                "Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.4" :
+                {
+
+                },
+                "Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.4" :
+                {
+
+                },
+                "Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          },
+          "0.3 Pre-teen" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          }
+        },
+        "Direct/Indirect Linear Pendant" :
+        {
+          "0.4 Teen" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.4" :
+                {
+
+                },
+                "Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.4" :
+                {
+
+                },
+                "Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.4" :
+                {
+
+                },
+                "Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.4" :
+                {
+
+                },
+                "Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          },
+          "0.3 Pre-teen" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          }
+        },
+        "2x2 Troffer + Linear Strip + Wall Wash" :
+        {
+          "0.4 Teen" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.4" :
+                {
+
+                },
+                "Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.4" :
+                {
+
+                },
+                "Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.4" :
+                {
+
+                },
+                "Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.4" :
+                {
+
+                },
+                "Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          },
+          "0.3 Pre-teen" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          }
+        }
+      },
+      "Special Education Classroom" :
+      {
+        "2x4 Troffer" :
+        {
+          "0.3 SN" : {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          }
+        },
+        "2x2 Troffer + Linear Strip" :
+        {
+          "0.3 SN" : {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          }
+        },
+        "Skylight Panel + 2x2 Troffer" :
+        {
+          "0.3 SN" : {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          }
+        },
+        "Cove + Downlight + Wall Wash" :
+        {
+          "0.3 SN" : {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning 0.3" :
+                {
+
+                },
+                "Afternoon 0.2" :
+                {
+
+                },
+                "Evening 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          }
+        }
+      },
+      "Lecture Hall" :
+      {
+        "2x4 Troffer" :
+        {
+          "0.3" : {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          }
+        },
+        "Downlight" :
+        {
+          "0.3" : {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          }
+        },
+        "Direct/Indirect Linear Pendant" :
+        {
+          "0.3" : {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          }
+        },
+        "Cove + Downlight + Wall Wash" :
+        {
+          "0.3" : {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          }
+        }
+      },
+      "Dorm" :
+      {
+        "Floor Lamp + Task Lamp" :
+        {
+          "0.3 Night Owl" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          },
+          "0.3 Early Bird" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          }
+        },
+        "Flush Mount + Desk Luminaire" :
+        {
+          "0.3 Night Owl" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          },
+          "0.3 Early Bird" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          }
+        },
+        "Downlight + Wall Wash" :
+        {
+          "0.3 Night Owl" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          },
+          "0.3 Early Bird" :
+          {
+            "Static" :
+            {
+              "6500 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "5000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "4000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              },
+              "3000 K" :
+              {
+                "Morning/Afternoon 0.3" :
+                {
+
+                },
+                "Evening 0.2" :
+                {
+
+                },
+                "Night 0.1" :
+                {
+
+                }
+              }
+            },
+            "Tunable" :
+            {
+              "6500 K -> 5000 K -> 4000 K":
+              {
+
+              },
+              "5000 K -> 4000 K -> 3000 K":
+              {
+
+              },
+              "4000 K -> 4000 K -> 3000 K":
+              {
+
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
