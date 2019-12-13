@@ -50,6 +50,14 @@ p, ol, ul, li{
   width: 50%;
 }
 
+.spd-cct-button-container{
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 16.667%
+}
+
 .adjustment-container3 {
   display: inline-block;
   position: relative;
@@ -596,6 +604,14 @@ html,body {
   overflow: auto;
 }
 
+.table-242{
+  background-color: rgb(242,242,242);
+}
+
+.color-6500{
+  background-color: rgb(140,214,240);
+}
+
 #landing-text {
   width:100%;
   position:absolute;
@@ -858,8 +874,16 @@ p{
   width: 12%;
 }
 
+.w-80{
+  width: 80%;
+}
+
 .w-85{
   width: 85%;
+}
+
+.w-90{
+  width: 90%;
 }
 
 .w-95{
