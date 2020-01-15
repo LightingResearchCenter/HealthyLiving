@@ -1,9 +1,5 @@
 <h1 align="center">
   Healthy Living
-  <br/>
-  <a href="https://www.lrc.rpi.edu/healthybuildings"><img src="lrc rpi.png" width="250"/></a>
-  <br>
-
 </h1>
 
 <h4 align="center">Light and Health | <a href="https://www.lrc.rpi.edu/healthybuildings">Healthy Living</a></h4>
@@ -23,3 +19,7 @@ The Healthy Living website is hosted at https://www.lrc.rpi.edu/healthybuildings
 ## Background
 
 ## Application
+
+<h1 align="center">
+  <a href="https://www.lrc.rpi.edu/healthybuildings"><img src="lrc rpi.png" width="250"/></a>
+</h1>
