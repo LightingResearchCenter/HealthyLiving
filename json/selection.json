@@ -79,17 +79,17 @@
       },
       "Standard Classroom" :
       {
-        "img" : "",
+        "img": "img/application/selection/2_Room/School_Classroom.jpg",
         "desc" : "A design for a medium sized school classroom seats 23 students and 1 teacher."
       },
       "Special Education Classroom" :
       {
-        "img" : "",
+        "img": "img/application/selection/2_Room/School_SpecialEducation.jpg",
         "desc" : "A design for a special needs classroom seats 12 students and 3 teachers."
       },
       "Lecture Hall" :
       {
-        "img" : "",
+        "img": "img/application/selection/2_Room/School_LectureHall.jpg",
         "desc" : "A design for a lecture hall for college students can seat up to 264 students. Seats are stepped up each row and have built in desks."
       },
       "Dorm" :
