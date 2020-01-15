@@ -103,7 +103,7 @@
       "desc": "Choose a fixture below to see how it is used in a circadian design. All fixtures have specific qualities that affect how light is distributed into a space. Even if a similar fixture type to the options below is used, characteristics may be different, resulting in varying performance. Calculations must always be done to assure fixture type, beam distribution, and SPD combine to achieve the desired CS effect.",
       "2x2 Troffer + Linear Strip" :
       {
-        "img" : "img/application/selection/3_Fixture/2x2_Troffer-Linear_S.jpg",
+        "img" : "img/application/selection/3_Fixture/2x2_Troffer-Linear_Strip.jpg",
         "desc" : "2x2 Troffers provide general ambient and task illumination. The linear strips parallel to the row of desks provides saturated blue light for circadian entrainment when the occupant receives desired amount at the eye, as well as promote a calm environment."
       },
       "2x2 Troffer + Linear Strip + Wall Wash" :
@@ -133,7 +133,7 @@
       },
       "Cove + Downlight + Wall Wash" :
       {
-        "img" : "",
+        "img" : "img/application/selection/3_Fixture/Cove-Downlight-Wall_Wash.jpg",
         "desc" : "Downlights provide general ambient and task illumination. A cove allows for hidden linear fixtures to be tucked into a lip. Light is distributed more evenly across the space since fixtures are arrayed beside one another along the cove border. Integrating a cove requires new construction of a space with the addition of higher ceilings. A wall wash provides an additional layer to light up the walls and make a space feel even brighter. "
       },
       "Cove + Floor Lamp + Table Lamp":
@@ -178,7 +178,7 @@
       },
       "Flush Mount + Desk Luminaire" :
       {
-        "img" : "img/application/selection/3_Fixture/Flush_Moint-Desk_Luminaire.jpg",
+        "img" : "img/application/selection/3_Fixture/Flush_Mount-Desk_Luminaire.jpg",
         "desc" : "A modern twist to a classic flush mount fixtures adds a more home-like feel to a space while providing more light into the space than original styles. A desk luminaire will provide more light at the eye for circadian entrainment and alertness. Desk luminaires can be personalized with white light or blue and red at desired times of the day. "
       },
       "Flush Mount + Hanging Pendant + Perimeter Valance":
