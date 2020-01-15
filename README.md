@@ -1,7 +1,8 @@
 <h1 align="center">
+  Healthy Living
   <a href="https://www.lrc.rpi.edu/healthybuildings"><img src="lrc rpi.png" width="250"/></a>
   <br>
-  Healthy Living
+
 </h1>
 
 <h4 align="center">Light and Health | <a href="https://www.lrc.rpi.edu/healthybuildings">Healthy Living</a></h4>
