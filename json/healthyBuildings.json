@@ -5242,10 +5242,12 @@
     {
       "Standard Classroom" :
       {
+        "desc": "",
         "2x4 Troffer" :
         {
           "0.4 Teen" :
           {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
@@ -5327,6 +5329,7 @@
           },
           "0.3 Pre-teen" :
           {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
@@ -5411,6 +5414,7 @@
         {
           "0.4 Teen" :
           {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
@@ -5492,6 +5496,7 @@
           },
           "0.3 Pre-teen" :
           {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
@@ -5576,6 +5581,7 @@
         {
           "0.4 Teen" :
           {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
@@ -5657,6 +5663,7 @@
           },
           "0.3 Pre-teen" :
           {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
@@ -5741,6 +5748,7 @@
         {
           "0.4 Teen" :
           {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
@@ -5822,6 +5830,7 @@
           },
           "0.4 Pre-teen" :
           {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
@@ -5905,10 +5914,12 @@
       },
       "Special Education Classroom" :
       {
+        "desc": "",
         "2x4 Troffer" :
         {
           "0.3" :
           {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
@@ -5993,6 +6004,7 @@
         {
           "0.4" :
           {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
@@ -6075,6 +6087,7 @@
         },
         "Skylight Panel + 2x2 Troffer" :
         {
+          "plan" : [""],
           "0.3" :
           {
             "Static" :
@@ -6161,6 +6174,7 @@
         {
           "0.3" :
           {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
@@ -6244,9 +6258,12 @@
       },
       "Lecture Hall" :
       {
+        "desc": "",
         "2x4 Troffer" :
         {
-          "0.3" : {
+          "0.3" :
+          {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
@@ -6329,7 +6346,9 @@
         },
         "Downlight" :
         {
-          "0.3" : {
+          "0.3" :
+          {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
@@ -6412,7 +6431,9 @@
         },
         "Direct/Indirect Linear Pendant" :
         {
-          "0.3" : {
+          "0.3" :
+          {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
@@ -6495,7 +6516,9 @@
         },
         "Cove + Downlight + Wall Wash" :
         {
-          "0.3" : {
+          "0.3" :
+          {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
@@ -6579,10 +6602,12 @@
       },
       "Dorm" :
       {
+        "desc": "",
         "Floor Lamp + Task Lamp" :
         {
           "0.3 Night Owl" :
           {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
@@ -6662,8 +6687,9 @@
               }
             }
           },
-          "0.3 Early Bird" :
+          "0.3 Early Riser" :
           {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
@@ -6748,6 +6774,7 @@
         {
           "0.3 Night Owl" :
           {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
@@ -6827,8 +6854,9 @@
               }
             }
           },
-          "0.3 Early Bird" :
+          "0.3 Early Riser" :
           {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
@@ -6913,6 +6941,7 @@
         {
           "0.3 Night Owl" :
           {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
@@ -6992,8 +7021,9 @@
               }
             }
           },
-          "0.3 Early Bird" :
+          "0.3 Early Riser" :
           {
+            "plan" : [""],
             "Static" :
             {
               "6500 K" :
