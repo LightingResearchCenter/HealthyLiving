@@ -87,11 +87,6 @@ The specific choices of each of these selections that we considered are as follo
 * 3000 K
 * 2700 K
 
-
-
-
-
-
 <h1 align="center">
   <a href="https://www.lrc.rpi.edu/healthybuildings"><img src="lrc rpi.png" width="250"/></a>
 </h1>
