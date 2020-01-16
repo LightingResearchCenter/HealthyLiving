@@ -79,17 +79,17 @@
       },
       "Standard Classroom" :
       {
-        "img" : "",
+        "img": "img/application/selection/2_Room/School_Classroom.jpg",
         "desc" : "A design for a medium sized school classroom seats 23 students and 1 teacher."
       },
       "Special Education Classroom" :
       {
-        "img" : "",
+        "img": "img/application/selection/2_Room/School_SpecialEducation.jpg",
         "desc" : "A design for a special needs classroom seats 12 students and 3 teachers."
       },
       "Lecture Hall" :
       {
-        "img" : "",
+        "img": "img/application/selection/2_Room/School_LectureHall.jpg",
         "desc" : "A design for a lecture hall for college students can seat up to 264 students. Seats are stepped up each row and have built in desks."
       },
       "Dorm" :
@@ -108,7 +108,7 @@
       },
       "2x2 Troffer + Linear Strip + Wall Wash" :
       {
-        "img" : "",
+        "img" : "img/application/selection/3_Fixture/2x2_Troffer-Linear_Strip-Wall_Wash.jpg",
         "desc" : "2x2 Troffers provide general ambient and task illumination. The linear strips parallel to the row of desks provides saturated blue light for circadian entrainment when the occupant receives desired amount at the eye, as well as promote a calm environment. A wall wash provides an additional layer to light up the walls and make a space feel even brighter."
       },
       "2x4 Center Basket Troffer":
@@ -245,14 +245,14 @@
         "img" : "img/application/selection/4_Target_CS/0.3.jpg",
         "desc" : "Targeting a CS of 0.3 is the absolute minimum to have an effect on the circadian system. Target a CS of 0.3 if:<ul><li>Furniture layout: Defined / Static</li><li>CCT preference: Warm white (2700 K-3000 K)</li><li>Horizontal illuminance: <500 lux on the workplane</li><li>Energy consumption is a major concern</li></ul>"
       },
-      "0.3 Early Bird" :
+      "0.3 Early Riser" :
       {
-        "img" : "",
+        "img" : "img/application/selection/4_Target_CS/0.3_Early-Riser.jpg",
         "desc" : "Some students prefer to get up early to get work done, or early morning classes force some students to get going earlier than desired. Either way, lighting should promote morning alertness and provide circadian entrainment to allow for sleepiness at desired bedtimes. "
       },
       "0.3 Night Owl" :
       {
-        "img" : "",
+        "img" : "img/application/selection/4_Target_CS/0.3_Night-Owl.jpg",
         "desc" : "College students are notorious for having late nights and even pulling all-nighters. This causes sleep schedules to shift from typical schedules. Lighting should be used strategically to delay the circadian clock by delaying melatonin release to extend alertness. During the nighttime hours, it is imperative to not disturb the circadian system, with CS levels not exceeding 0.1. Red light could be used to promote late night alerting without disruption of the circadian system."
       },
       "0.3 SD" :
@@ -292,12 +292,12 @@
       },
       "0.4 Teen" :
       {
-        "img" : "",
+        "img" : "img/application/selection/4_Target_CS/0.4_teen.jpg",
         "desc" : "Becoming a teenager means a lot of changes occur, including a high chance of having delayed sleep phase disorder. This complication means that teenagers have a tendency to stay up later, shifting their sleep schedule to not synchronize with school hours. Lighting should provide stimulus to better synchronize the circadian system, while limiting light exposure in the evening and nighttime hours."
       },
       "0.3 Pre-teen" :
       {
-        "img" : "",
+        "img" : "img/application/selection/4_Target_CS/0.4_preteen.jpg",
         "desc" : "Children of a younger age have pretty regulated sleep schedules, and can have a lot of energy during the day. Lighting should provide a space with a concentrated environment while learning as well as circadian entrainment."
       }
     },
