@@ -102,7 +102,7 @@ $(document).ready(function(){
               if($('a[href="#'+id+'"]').hasClass('acnav__link--level3')){
                 $('a[href="#'+id+'"]').parent().parent().parent().next().find('a').addClass('active');
               }else if($('a[href="#'+id+'"]').hasClass('acnav__link--level2')){
-                $('a[href="#'+id+'"]').parent().parent().children('li').last().find('a').addClass('active')
+                $('a[href="#'+id+'"]').parent().parent().children('li').last().find('a').addClass('active');
               }else if($('a[href="#'+id+'"]').hasClass('section-link')){
                 $('a[href="#'+id+'"]').parent().parent().parent().children().last().find('a').addClass('active');
               }else{
