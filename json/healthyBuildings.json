@@ -5907,7 +5907,8 @@
       {
         "2x4 Troffer" :
         {
-          "0.3 SN" : {
+          "0.3" :
+          {
             "Static" :
             {
               "6500 K" :
@@ -5990,7 +5991,8 @@
         },
         "2x2 Troffer + Linear Strip" :
         {
-          "0.3 SN" : {
+          "0.4" :
+          {
             "Static" :
             {
               "6500 K" :
@@ -6073,7 +6075,8 @@
         },
         "Skylight Panel + 2x2 Troffer" :
         {
-          "0.3 SN" : {
+          "0.3" :
+          {
             "Static" :
             {
               "6500 K" :
@@ -6156,7 +6159,8 @@
         },
         "Cove + Downlight + Wall Wash" :
         {
-          "0.3 SN" : {
+          "0.3" :
+          {
             "Static" :
             {
               "6500 K" :
