@@ -19,14 +19,13 @@ The Healthy Living website is hosted at https://www.lrc.rpi.edu/healthybuildings
 ## Background
 
 ## Application
-Likely the best way to familiarize yourself with the Application page is to just <a href="https://www.lrc.rpi.edu/healthybuildings/application.html">play around.</a>
+Likely the best way to familiarize yourself with the application page is to just <a href="https://www.lrc.rpi.edu/healthybuildings/application.html">play around.</a>
 
 The selection process is 6 steps long consisting of: facility, room, fixtures, target CS, CCT system, and CCT.
 <br/>
-<br/>
 The specific choices of each of these selections that we considered are as follows.
 
-##### Facilities
+#### Facilities
 * Senior Care
 * Office
 * Healthcare
