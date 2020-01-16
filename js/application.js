@@ -517,8 +517,8 @@ function buildHTML(){
   str += '                    <p class="right-panel-p mb-2 ml-3">A room’s finishing material and color can change perception of space as well as reflect or absorb light to affect how much gets to the eye. Reflectances are based on a percentage of how much light is reflected off a surface.</p>';
   str += '                    <p class="right-panel-grey-box">Ceiling: 80% (0.8) <br /> Walls: 50% (0.5) <br /> Floor: 20% (0.2)</p><hr/>';
   str += '                    <h6 class="right-panel-outer-title">Height of illuminance calculation points:</h6>';
-  str += '                    <p class="right-panel-p mb-2 ml-3">When determining how light performs in a space, it is important to know the height at which people’s eyes will receive light (EV) and the height at which tasks are being done (EH).</p>';
-  str += '                    <p class="right-panel-grey-box">Horizontal illuminance (EH): 2’-6” AFF <br /> Vertical illuminance (EV): 4’-0” AFF</p><hr/>';
+  str += '                    <p class="right-panel-p mb-2 ml-3">When determining how light performs in a space, it is important to know the height at which people’s eyes will receive light (E<sub>V</sub>) and the height at which tasks are being done (E<sub>H</sub>).</p>';
+  str += '                    <p id="illuminance-info" class="right-panel-grey-box">Horizontal illuminance (E<sub>H</sub>): 2’-6” AFF <br /> Vertical illuminance (E<sub>V</sub>): 4’-0” AFF</p><hr/>';
   str += '                    <h6 class="right-panel-outer-title">Dimming system:</h6>';
   str += '                    <p class="right-panel-p mb-2 ml-3">Knowing how your dimming system operates is important to determine what percent output your lights should be as brightness levels vary throughout the day.</p>';
   str += '                    <p class="right-panel-grey-box">Linear dimming system</p><hr/>';
@@ -609,7 +609,7 @@ function buildHTML(){
   str += '                  <a id="showChart2" class="nav-link nav-link-footer text-center">LPD</a>';
   str += '                </li>';
   str += '                <li class="nav-item nav-item-footer nav-item-footer-charts">';
-  str += '                  <a id="showChart3" class="nav-link nav-link-footer text-center">EV</a>';
+  str += '                  <a id="showChart3" class="nav-link nav-link-footer text-center">E<sub>V</sub></a>';
   str += '                </li>';
   str += '              </ul>';
   str += '            </div>';
@@ -779,6 +779,18 @@ function generateDescription(hb,data){
     $('#roomDescriptionContent').html(hb[data.facility][data.room][data.fixture]["desc"]);
   }else{
     $('#roomDescriptionContent').html(hb[data.facility][data.room]["desc"]);
+  }
+}
+
+function checkAssumptions(data){
+  if(data.room == 'Single Patient Room' || data.room == 'Double Patient Room'){
+    $('#illuminance-info').html('Horizontal illuminance (E<sub>H</sub>): 2’-6” AFF <br /> Vertical illuminance (E<sub>V</sub>) laying facing ceiling: 2’-6” AFF <br/> Vertical illuminance (E<sub>V</sub>) bed angled 45° from vertical: 4’-0” AFF');
+  }
+  else if(data.room == 'Neonatal Intensive Care Unit'){
+    $('#illuminance-info').html('Horizontal illuminance (E<sub>H</sub>): 2’-6” AFF <br /> Vertical illuminance (E<sub>V</sub>) infant laying facing ceiling: 2’-6” AFF <br/> Vertical illuminance (E<sub>V</sub>) nurse sitting: 4’-0” AFF');
+  }
+  else{
+    $('#illuminance-info').html('Horizontal illuminance (E<sub>H</sub>): 2’-6” AFF <br /> Vertical illuminance (E<sub>V</sub>): 4’-0” AFF');
   }
 }
 
@@ -1052,6 +1064,7 @@ function generateContent(hb,selection,data){
   generateCSContent(data);
   generateFinalBreadcrumb(hb,selection,data);
   generateDescription(hb,data);
+  checkAssumptions(data);
   generateLightingSolution(data);
   generateFixtures(data);
   handleRightPanelAccordion();
