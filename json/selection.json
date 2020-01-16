@@ -295,9 +295,14 @@
         "img" : "img/application/selection/4_Target_CS/0.4_teen.jpg",
         "desc" : "Becoming a teenager means a lot of changes occur, including a high chance of having delayed sleep phase disorder. This complication means that teenagers have a tendency to stay up later, shifting their sleep schedule to not synchronize with school hours. Lighting should provide stimulus to better synchronize the circadian system, while limiting light exposure in the evening and nighttime hours."
       },
-      "0.3 Pre-teen" :
+      "0.4 Pre-teen" :
       {
         "img" : "img/application/selection/4_Target_CS/0.4_preteen.jpg",
+        "desc" : "Children of a younger age have pretty regulated sleep schedules, and can have a lot of energy during the day. Lighting should provide a space with a concentrated environment while learning as well as circadian entrainment."
+      },
+      "0.3 Pre-teen" :
+      {
+        "img" : "img/application/selection/4_Target_CS/0.3_preteen.jpg",
         "desc" : "Children of a younger age have pretty regulated sleep schedules, and can have a lot of energy during the day. Lighting should provide a space with a concentrated environment while learning as well as circadian entrainment."
       }
     },
