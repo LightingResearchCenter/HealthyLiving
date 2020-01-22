@@ -552,6 +552,154 @@
           }
         }
       }
+    },
+    "School" :
+    {
+      "Standard Classroom" :
+      {
+        "2x4 Troffer" :
+        {
+          "0.4 Teen" :
+          {
+
+          },
+          "0.3 Pre-teen" :
+          {
+
+          }
+        },
+        "Downlight" :
+        {
+          "0.4 Teen" :
+          {
+
+          },
+          "0.3 Pre-teen" :
+          {
+
+          }
+        },
+        "Direct/Indirect Linear Pendant" :
+        {
+          "0.4 Teen" :
+          {
+
+          },
+          "0.3 Pre-teen" :
+          {
+
+          }
+        },
+        "2x2 Troffer + Linear Strip + Wall Wash" :
+        {
+          "0.4 Teen" :
+          {
+
+          },
+          "0.3 Pre-teen" :
+          {
+
+          }
+        }
+      },
+      "Special Education Classroom" :
+      {
+        "2x4 Troffer" :
+        {
+          "0.3" :
+          {
+
+          }
+        },
+        "2x2 Troffer + Linear Strip" :
+        {
+          "0.4" :
+          {
+
+          }
+        },
+        "Skylight Panel + 2x2 Troffer" :
+        {
+          "0.3" :
+          {
+
+          }
+        },
+        "Cove + Downlight + Wall Wash" :
+        {
+          "0.3" :
+          {
+
+          }
+        }
+      },
+      "Lecture Hall" :
+      {
+        "2x4 Troffer" :
+        {
+          "0.3" :
+          {
+
+          }
+        },
+        "Downlight" :
+        {
+          "0.3" :
+          {
+
+          }
+        },
+        "Direct/Indirect Linear Pendant" :
+        {
+          "0.3" :
+          {
+
+          }
+        },
+        "Cove + Downlight + Wall Wash" :
+        {
+          "0.3" :
+          {
+
+          }
+        }
+      },
+      "Dorm" :
+      {
+        "Floor Lamp + Task Lamp" :
+        {
+          "0.3 Night Owl" :
+          {
+
+          },
+          "0.3 Early Riser" :
+          {
+
+          }
+        },
+        "Flush Mount + Desk Luminaire" :
+        {
+          "0.3 Night Owl" :
+          {
+
+          },
+          "0.3 Early Riser" :
+          {
+
+          }
+        },
+        "Downlight + Wall Wash" :
+        {
+          "0.3 Night Owl" :
+          {
+
+          },
+          "0.3 Early Riser" :
+          {
+
+          }
+        }
+      }
     }
   }
 }
