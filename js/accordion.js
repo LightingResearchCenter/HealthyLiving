@@ -17,9 +17,10 @@ function closeOthersLevel1(label){
 function closeOthersLevel2(label){
 	var labels = $('.acnav__label--level2');
 	for(var i = 0; i < labels.length; i++){
-		if ($(labels[i]) != label && $(label).hasClass('acnav__label--level2')){
+		if ($(labels[i]) != label){
 			var parent = $(labels[i]).parent('.has-children');
 			var list = $(labels[i]).siblings('.acnav__list');
+			console.log($(labels[i]));
 			if(parent.hasClass('is-open')){
 				list.slideUp('fast');
 				parent.removeClass('is-open');
@@ -28,29 +29,17 @@ function closeOthersLevel2(label){
 	}
 }
 
-function closePreviousLevel2(label){
-
-}
-
 $('.acnav__label').click(function () {
 	var label = $(this);
 	var parent = label.parent('.has-children');
 	var list = label.siblings('.acnav__list');
 
-	if (parent.hasClass('is-open')) {
-		list.slideUp('fast');
-		parent.removeClass('is-open');
-	}
-	else {
+	if (!(parent.hasClass('is-open'))) {
 		if (label.hasClass('acnav__label--level2')){
-			closeOthersLevel2(label);
-			list.slideDown('fast');
-			parent.addClass('is-open');
 		}else{
 			closeOthersLevel1(label);
 			list.slideDown('fast');
 			parent.addClass('is-open');
 		}
-
 	}
 });
