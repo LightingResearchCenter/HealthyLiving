@@ -14,21 +14,6 @@ function closeOthersLevel1(label){
 	}
 }
 
-function closeOthersLevel2(label){
-	var labels = $('.acnav__label--level2');
-	for(var i = 0; i < labels.length; i++){
-		if ($(labels[i]) != label){
-			var parent = $(labels[i]).parent('.has-children');
-			var list = $(labels[i]).siblings('.acnav__list');
-			console.log($(labels[i]));
-			if(parent.hasClass('is-open')){
-				list.slideUp('fast');
-				parent.removeClass('is-open');
-			}
-		}
-	}
-}
-
 $('.acnav__label').click(function () {
 	var label = $(this);
 	var parent = label.parent('.has-children');
