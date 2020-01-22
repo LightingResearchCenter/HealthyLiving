@@ -87,7 +87,7 @@ $(document).ready(function(){
 
           if ($("#"+next_id).offset().top > window.innerHeight){
 
-            if(id.startsWith('sub') && !$('a[href="#' + $("#"+id).parent().parent().attr('id') + '"]').parent().parent().hasClass('is-open')){
+            if(!$('a[href="#' + $("#"+id).parent().parent().attr('id') + '"]').parent().parent().hasClass('is-open')){
               var parent = $('a[href="#' + $("#"+id).parent().parent().attr('id') + '"]').parent().parent();
               var label = parent.children(":first");
               var list = label.siblings('.acnav__list');
@@ -97,6 +97,13 @@ $(document).ready(function(){
                 var prev_list = prev_label.siblings('.acnav__list');
                 prev_list.slideUp('fast');
             		prev_parent.removeClass('is-open');
+              }
+              if(parent.next().hasClass('is-open')){
+                var next_parent = parent.next();
+                var next_label = next_parent.children(":first");
+                var next_list = next_label.siblings('.acnav__list');
+                next_list.slideUp('fast');
+                next_parent.removeClass('is-open');
               }
               list.slideDown('fast');
           		parent.addClass('is-open');
