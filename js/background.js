@@ -66,72 +66,73 @@ $(document).ready(function(){
     }, 1200);
   });
 
+
   // Scroll spy
   $('#content').scroll(function(e){
-    var scroll = $('#content').position().top;
-    var ids = [];
-    $('[id^=section],[id^=subsection]').each(function(_, section) {
-      var id = this.id;
-      var check = 0;
-      if (id.startsWith('sub')){
-        check = 75;
-      }
-
-      if($("#"+id).position().top < check){
-        if ($(this).next().length > 0){
-          var next_id = ($(this).next()[0]).id;
-        }else{
-          var next_id = $("#"+id).parent().parent().next('article').attr('id');
+      var scroll = $('#content').position().top;
+      var ids = [];
+      $('[id^=section],[id^=subsection]').each(function(_, section) {
+        var id = this.id;
+        var check = 0;
+        if (id.startsWith('sub')){
+          check = 75;
         }
 
-        if ($("#"+next_id).offset().top > window.innerHeight - 67){
-
-          // if(id.startsWith('sub') && !$('a[href="#' + $("#"+id).parent().parent().attr('id') + '"]').parent().parent().hasClass('is-open')){
-          //   var parent = $('a[href="#' + $("#"+id).parent().parent().attr('id') + '"]').parent().parent();
-          //   var label = parent.children(":first");
-          //   var list = label.siblings('.acnav__list');
-          //   if (parent.prev().hasClass('is-open')){
-          //     var prev_parent = parent.prev();
-          //     var prev_label = prev_parent.children(":first");
-          //     var prev_list = prev_label.siblings('.acnav__list');
-          //     prev_list.slideUp('fast');
-          // 		prev_parent.removeClass('is-open');
-          //   }
-          //   list.slideDown('fast');
-        	// 	parent.addClass('is-open');
-          // }
-
-          if($("#content").scrollTop() + $("#content").innerHeight() >= $("#content")[0].scrollHeight) {
-            $('.acnav__link').removeClass('active');
-            if(!$('a[href="#'+id+'"]').hasClass('last')){
-              if($('a[href="#'+id+'"]').hasClass('acnav__link--level3')){
-                $('a[href="#'+id+'"]').parent().parent().parent().next().find('a').addClass('active');
-              }else if($('a[href="#'+id+'"]').hasClass('acnav__link--level2')){
-                $('a[href="#'+id+'"]').parent().parent().children('li').last().find('a').addClass('active');
-              }else if($('a[href="#'+id+'"]').hasClass('section-link')){
-                $('a[href="#'+id+'"]').parent().parent().parent().children().last().find('a').addClass('active');
-              }else{
-                $('a[href="#'+id+'"]').parent().next().find('a').addClass('active');
-              }
-            }
+        if($("#"+id).position().top < check){
+          if ($(this).next().length > 0){
+            var next_id = ($(this).next()[0]).id;
           }else{
-            $('.acnav__link').removeClass('active');
-            $('a[href="#'+id+'"]').addClass('active');
+            var next_id = $("#"+id).parent().parent().next('article').attr('id');
           }
 
-          if (id == 'section-lightingAndTheCircadianSystem'){
-            $('#goodAnimation')[0].play();
-            $('#badAnimation')[0].play();
-          }else if ($('#section-lightingAndTheCircadianSystem').length != 0){
-            $('#goodAnimation')[0].currentTime = 0;
-            $('#goodAnimation')[0].pause();
-            $('#badAnimation')[0].currentTime = 0;
-            $('#badAnimation')[0].pause();
+          if ($("#"+next_id).offset().top > window.innerHeight){
+
+            if(id.startsWith('sub') && !$('a[href="#' + $("#"+id).parent().parent().attr('id') + '"]').parent().parent().hasClass('is-open')){
+              var parent = $('a[href="#' + $("#"+id).parent().parent().attr('id') + '"]').parent().parent();
+              var label = parent.children(":first");
+              var list = label.siblings('.acnav__list');
+              if (parent.prev().hasClass('is-open')){
+                var prev_parent = parent.prev();
+                var prev_label = prev_parent.children(":first");
+                var prev_list = prev_label.siblings('.acnav__list');
+                prev_list.slideUp('fast');
+            		prev_parent.removeClass('is-open');
+              }
+              list.slideDown('fast');
+          		parent.addClass('is-open');
+            }
+
+            if($("#content").scrollTop() + $("#content").innerHeight() >= $("#content")[0].scrollHeight) {
+              $('.acnav__link').removeClass('active');
+              if(!$('a[href="#'+id+'"]').hasClass('last')){
+                if($('a[href="#'+id+'"]').hasClass('acnav__link--level3')){
+                  $('a[href="#'+id+'"]').parent().parent().parent().next().find('a').addClass('active');
+                }else if($('a[href="#'+id+'"]').hasClass('acnav__link--level2')){
+                  $('a[href="#'+id+'"]').parent().parent().children('li').last().find('a').addClass('active');
+                }else if($('a[href="#'+id+'"]').hasClass('section-link')){
+                  $('a[href="#'+id+'"]').parent().parent().parent().children().last().find('a').addClass('active');
+                }else{
+                  $('a[href="#'+id+'"]').parent().next().find('a').addClass('active');
+                }
+              }
+            }else{
+              $('.acnav__link').removeClass('active');
+              $('a[href="#'+id+'"]').addClass('active');
+            }
+
+            if (id == 'section-lightingAndTheCircadianSystem'){
+              $('#goodAnimation')[0].play();
+              $('#badAnimation')[0].play();
+            }else if ($('#section-lightingAndTheCircadianSystem').length != 0){
+              $('#goodAnimation')[0].currentTime = 0;
+              $('#goodAnimation')[0].pause();
+              $('#badAnimation')[0].currentTime = 0;
+              $('#badAnimation')[0].pause();
+            }
           }
         }
-      }
+      });
     });
-  });
   // Scroll spy
 
   $('#segueToManufacturers').on('click',function(){
