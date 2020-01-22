@@ -444,6 +444,231 @@
           "description" : ["Suspended downlights, also called pendants, direct most of the light downward. They hang from the ceiling by a rod, cord, or chain and can have dedicated LEDs, LED replacement lamps, CFLs, or linear fluorescent lamps.  The lighting distribution patterns vary with the size and shape of the fixture. Opaque or translucent shades usually shield the light source from view. Pendants used for ambient lighting typically have a translucent shade or diffuser. Pendants used for task lighting, such as one over a table, are usually deployed with other fixtures that provide the ambient lighting.","Linear wall washers are mounted along the perimeter of the room. They provide ambient illumination. They may have integrated LED sources or contain linear fluorescents."]
         }
       }
+    },
+    "School" :
+    {
+      "Standard Classroom" :
+      {
+        "2x4 Troffer" :
+        {
+          "name" : [],
+          "fixture" : [],
+          "candela" : [],
+          "amount" : [],
+          "type" : [],
+          "height" : [],
+          "orientation" : [],
+          "dimensions" : [],
+          "lumens" : [],
+          "wattage" : [],
+          "description" : []
+        },
+        "Downlight" :
+        {
+          "name" : [],
+          "fixture" : [],
+          "candela" : [],
+          "amount" : [],
+          "type" : [],
+          "height" : [],
+          "orientation" : [],
+          "dimensions" : [],
+          "lumens" : [],
+          "wattage" : [],
+          "description" : []
+        },
+        "Dirct/Indirect Linear Pendant" :
+        {
+          "name" : [],
+          "fixture" : [],
+          "candela" : [],
+          "amount" : [],
+          "type" : [],
+          "height" : [],
+          "orientation" : [],
+          "dimensions" : [],
+          "lumens" : [],
+          "wattage" : [],
+          "description" : []
+        },
+        "2x2 Troffer + Linear Strip + Wall Wash" :
+        {
+          "name" : [],
+          "fixture" : [],
+          "candela" : [],
+          "amount" : [],
+          "type" : [],
+          "height" : [],
+          "orientation" : [],
+          "dimensions" : [],
+          "lumens" : [],
+          "wattage" : [],
+          "description" : []
+        }
+      },
+      "Special Education Classroom" :
+      {
+        "2x4 Troffer" :
+        {
+          "name" : [],
+          "fixture" : [],
+          "candela" : [],
+          "amount" : [],
+          "type" : [],
+          "height" : [],
+          "orientation" : [],
+          "dimensions" : [],
+          "lumens" : [],
+          "wattage" : [],
+          "description" : []
+        },
+        "2x2 Troffer + Linear Strip" :
+        {
+          "name" : [],
+          "fixture" : [],
+          "candela" : [],
+          "amount" : [],
+          "type" : [],
+          "height" : [],
+          "orientation" : [],
+          "dimensions" : [],
+          "lumens" : [],
+          "wattage" : [],
+          "description" : []
+        },
+        "Skylight Panel + 2x2 Troffer" :
+        {
+          "name" : [],
+          "fixture" : [],
+          "candela" : [],
+          "amount" : [],
+          "type" : [],
+          "height" : [],
+          "orientation" : [],
+          "dimensions" : [],
+          "lumens" : [],
+          "wattage" : [],
+          "description" : []
+        },
+        "Cove + Downlight + Wall Wash" :
+        {
+          "name" : [],
+          "fixture" : [],
+          "candela" : [],
+          "amount" : [],
+          "type" : [],
+          "height" : [],
+          "orientation" : [],
+          "dimensions" : [],
+          "lumens" : [],
+          "wattage" : [],
+          "description" : []
+        }
+      },
+      "Lecture Hall" :
+      {
+        "2x4 Troffer" :
+        {
+          "name" : [],
+          "fixture" : [],
+          "candela" : [],
+          "amount" : [],
+          "type" : [],
+          "height" : [],
+          "orientation" : [],
+          "dimensions" : [],
+          "lumens" : [],
+          "wattage" : [],
+          "description" : []
+        },
+        "Downlight" :
+        {
+          "name" : [],
+          "fixture" : [],
+          "candela" : [],
+          "amount" : [],
+          "type" : [],
+          "height" : [],
+          "orientation" : [],
+          "dimensions" : [],
+          "lumens" : [],
+          "wattage" : [],
+          "description" : []
+        },
+        "Direct/Indirect Linear Pendant" :
+        {
+          "name" : [],
+          "fixture" : [],
+          "candela" : [],
+          "amount" : [],
+          "type" : [],
+          "height" : [],
+          "orientation" : [],
+          "dimensions" : [],
+          "lumens" : [],
+          "wattage" : [],
+          "description" : []
+        },
+        "Cove + Downlight + Wall Wash" :
+        {
+          "name" : [],
+          "fixture" : [],
+          "candela" : [],
+          "amount" : [],
+          "type" : [],
+          "height" : [],
+          "orientation" : [],
+          "dimensions" : [],
+          "lumens" : [],
+          "wattage" : [],
+          "description" : []
+        }
+      },
+      "Dorm" :
+      {
+        "Floor Lamp + Task Lamp" :
+        {
+          "name" : [],
+          "fixture" : [],
+          "candela" : [],
+          "amount" : [],
+          "type" : [],
+          "height" : [],
+          "orientation" : [],
+          "dimensions" : [],
+          "lumens" : [],
+          "wattage" : [],
+          "description" : []
+        },
+        "Flush Mount + Desk Luminaire" :
+        {
+          "name" : [],
+          "fixture" : [],
+          "candela" : [],
+          "amount" : [],
+          "type" : [],
+          "height" : [],
+          "orientation" : [],
+          "dimensions" : [],
+          "lumens" : [],
+          "wattage" : [],
+          "description" : []
+        },
+        "Downlight + Wall Wash" :
+        {
+          "name" : [],
+          "fixture" : [],
+          "candela" : [],
+          "amount" : [],
+          "type" : [],
+          "height" : [],
+          "orientation" : [],
+          "dimensions" : [],
+          "lumens" : [],
+          "wattage" : [],
+          "description" : []
+        }
+      }
     }
   }
 }
