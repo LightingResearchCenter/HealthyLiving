@@ -5247,7 +5247,7 @@
         {
           "0.4 Teen" :
           {
-            "plan" : [""],
+            "plan" : ["img/application/facilities/school/floor_plans/School_Classroom_Troff.jpg"],
             "Static" :
             {
               "6500 K" :
@@ -5329,7 +5329,7 @@
           },
           "0.3 Pre-teen" :
           {
-            "plan" : [""],
+            "plan" : ["img/application/facilities/school/floor_plans/School_Classroom_Troff.jpg"],
             "Static" :
             {
               "6500 K" :
@@ -5414,7 +5414,7 @@
         {
           "0.4 Teen" :
           {
-            "plan" : [""],
+            "plan" : ["img/application/facilities/school/floor_plans/School_Classroom_DN.jpg"],
             "Static" :
             {
               "6500 K" :
@@ -5496,7 +5496,7 @@
           },
           "0.3 Pre-teen" :
           {
-            "plan" : [""],
+            "plan" : ["img/application/facilities/school/floor_plans/School_Classroom_DN.jpg"],
             "Static" :
             {
               "6500 K" :
@@ -5581,7 +5581,7 @@
         {
           "0.4 Teen" :
           {
-            "plan" : [""],
+            "plan" : ["img/application/facilities/school/floor_plans/School_Classroom_DI.jpg"],
             "Static" :
             {
               "6500 K" :
@@ -5663,7 +5663,7 @@
           },
           "0.3 Pre-teen" :
           {
-            "plan" : [""],
+            "plan" : ["img/application/facilities/school/floor_plans/School_Classroom_DI.jpg"],
             "Static" :
             {
               "6500 K" :
@@ -5748,7 +5748,7 @@
         {
           "0.4 Teen" :
           {
-            "plan" : [""],
+            "plan" : ["img/application/facilities/school/floor_plans/School_Classroom_Combo.jpg"],
             "Static" :
             {
               "6500 K" :
@@ -5830,7 +5830,7 @@
           },
           "0.4 Pre-teen" :
           {
-            "plan" : [""],
+            "plan" : ["img/application/facilities/school/floor_plans/School_Classroom_Combo.jpg"],
             "Static" :
             {
               "6500 K" :
@@ -6263,7 +6263,7 @@
         {
           "0.3" :
           {
-            "plan" : [""],
+            "plan" : ["img/application/facilities/school/floor_plans/School_LectureHall_Troff.jpg","img/application/facilities/school/floor_plans/School_LectureHall_Troff_View2.jpg"],
             "Static" :
             {
               "6500 K" :
@@ -6348,7 +6348,7 @@
         {
           "0.3" :
           {
-            "plan" : [""],
+            "plan" : ["img/application/facilities/school/floor_plans/School_LectureHall_DN.jpg","img/application/facilities/school/floor_plans/School_LectureHall_DN_View2.jpg"],
             "Static" :
             {
               "6500 K" :
@@ -6433,7 +6433,7 @@
         {
           "0.3" :
           {
-            "plan" : [""],
+            "plan" : ["img/application/facilities/school/floor_plans/School_LectureHall_DI.jpg","img/application/facilities/school/floor_plans/School_LectureHall_DI_View2.jpg"],
             "Static" :
             {
               "6500 K" :
@@ -6518,7 +6518,7 @@
         {
           "0.3" :
           {
-            "plan" : [""],
+            "plan" : ["img/application/facilities/school/floor_plans/School_LectureHall_Combo.jpg","img/application/facilities/school/floor_plans/School_LectureHall_Combo_View2.jpg"],
             "Static" :
             {
               "6500 K" :
