@@ -501,8 +501,10 @@ function buildHTML(){
   str += '              <div class="card-body pb-0">';
   str += '                <h5 class="card-title right-panel-h5 mb-0">Room Description</h5>';
   str += '                <div id="roomDescriptionContentContainer" class="right-panel-content-container right-panel-content collapse show">';
-  str += '                <hr class="right-panel-hr"/>';
-  str += '                <p id="roomDescriptionContent" class="card-text right-panel-p"></p>'
+  str += '                  <div class="right-panel-padding">';
+  str += '                   <hr class="right-panel-hr"/>';
+  str += '                   <p id="roomDescriptionContent" class="card-text right-panel-p"></p>'
+  str += '                  </div>';
   str += '                </div>';
   str += '              </div>';
   str += '            </a>';
@@ -512,7 +514,7 @@ function buildHTML(){
   str += '              <div class="card-body pb-0">';
   str += '                <h5 class="card-title right-panel-h5 mb-0">Assumptions</h5>';
   str += '                <div id="assumptionsContentContainer" class="right-panel-content-container right-panel-content collapse"><hr class="right-panel-hr"/>';
-  str += '                  <div id="assumptionsContent">';
+  str += '                  <div id="assumptionsContent" class="right-panel-padding">';
   str += '                    <h6 class="right-panel-outer-title">Room reflectances:</h6>';
   str += '                    <p class="right-panel-p mb-2 ml-3">A room’s finishing material and color can change perception of space as well as reflect or absorb light to affect how much gets to the eye. Reflectances are based on a percentage of how much light is reflected off a surface.</p>';
   str += '                    <p class="right-panel-grey-box">Ceiling: 80% (0.8) <br /> Walls: 50% (0.5) <br /> Floor: 20% (0.2)</p><hr/>';
@@ -538,7 +540,7 @@ function buildHTML(){
   str += '              <div class="card-body pb-0">';
   str += '                <h5 class="card-title right-panel-h5 mb-0">Lighting Solution</h5>';
   str += '                <div id="lightingSolutionContentContainer" class="right-panel-content-container right-panel-content collapse">';
-  str += '                <div id="lightingSolutionContent"></div>'
+  str += '                <div id="lightingSolutionContent" class="right-panel-padding"></div>'
   str += '                </div>';
   str += '              </div>';
   str += '            </a>';
@@ -549,22 +551,22 @@ function buildHTML(){
   str += '                <h5 class="card-title right-panel-h5 mb-0">Fixtures</h5>';
   str += '                <div class="fixturesContentContainer right-panel-content-container right-panel-content collapse">';
   str += '                 <hr class="right-panel-hr"/>';
-  str += '                 <div class="container-fluid px-0">';
+  str += '                 <div class="container-fluid px-0 right-panel-padding">';
   str += '                   <div class="row mb-3">';
   str += '                     <div class="col fixture-header">';
-  str += '                        <h5 id="fixture_name" class="text-center mb-0 fixture-title"></h5>';
-  str += '                      </div>';
-  str += '                    </div>';
-  str += '                    <div class="fixture-scroll">';
-  str += '                      <div class="row mb-2">';
-  str += '                        <div class="col-md-6 pr-1">';
-  str += '                          <img id="fixture_fixture" class="w-100" src=""/>'
-  str += '                        </div>';
-  str += '                        <div class="col-md-6 pl-1">';
-  str += '                          <img id="fixture_candela" class="w-100" src=""/>'
-  str += '                        </div>';
-  str += '                       </div>';
+  str += '                       <h5 id="fixture_name" class="text-center mb-0 fixture-title"></h5>';
+  str += '                     </div>';
+  str += '                   </div>';
+  str += '                   <div class="fixture-scroll">';
   str += '                     <div class="row mb-2">';
+  str += '                       <div class="col-md-6 pr-1">';
+  str += '                         <img id="fixture_fixture" class="w-100" src=""/>'
+  str += '                       </div>';
+  str += '                       <div class="col-md-6 pl-1">';
+  str += '                         <img id="fixture_candela" class="w-100" src=""/>'
+  str += '                       </div>';
+  str += '                     </div>';
+  str += '                    <div class="row mb-2">';
   str += '                       <div class="col px-0">';
   str += '                         <ul class="pl-3 my-4 no-bullets">';
   str += '                            <li class="card-text right-panel-p"><b>Amount: </b><span id="fixture_amount"></span></li>';
@@ -594,9 +596,11 @@ function buildHTML(){
   str += '                <h5 class="card-title right-panel-h5 mb-0">Charts</h5>';
   str += '                <div class="chartsContent right-panel-content right-panel-content-container collapse">';
   str += '                  <hr class="right-panel-hr" />';
-  str += '                  <img id="chart1" class="mt-2" width="100%" src="img/application/charts/1.jpg" />';
-  str += '                  <img id="chart2" class="mt-2 d-none" width="100%" src="img/application/charts/2.jpg" />';
-  str += '                  <img id="chart3" class="mt-2 d-none" width="100%" src="img/application/charts/3.jpg" />';
+  str += '                    <div class="right-panel-padding">';
+  str += '                     <img id="chart1" class="mt-2" width="100%" src="img/application/charts/1.jpg" />';
+  str += '                     <img id="chart2" class="mt-2 d-none" width="100%" src="img/application/charts/2.jpg" />';
+  str += '                     <img id="chart3" class="mt-2 d-none" width="100%" src="img/application/charts/3.jpg" />';
+  str += '                    </div>';
   str += '                </div>';
   str += '              </div>';
   str += '            </a>';
