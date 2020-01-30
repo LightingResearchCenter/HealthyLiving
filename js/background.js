@@ -66,7 +66,6 @@ $(document).ready(function(){
     }, 1200);
   });
 
-
   // Scroll spy
   $('#content').scroll(function(e){
       var scroll = $('#content').position().top;
