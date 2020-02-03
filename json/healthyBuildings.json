@@ -6009,13 +6009,13 @@
             {
               "6500 K" :
               {
-                "Morning 0.3 B" :
+                "Morning 0.4 B" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_6500K_0.3Morn.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_6500K_0.4Morn.jpg"]
                 },
-                "Afternoon 0.2 W" :
+                "Afternoon 0.3 W" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_6500K_0.2Aft.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_6500K_0.3Aft.jpg"]
                 },
                 "Evening/Night 0.1 O" :
                 {
@@ -6024,13 +6024,13 @@
               },
               "5000 K" :
               {
-                "Morning 0.3 B" :
+                "Morning 0.4 B" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_5000K_0.3Morn.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_5000K_0.4Morn.jpg"]
                 },
-                "Afternoon 0.2 W" :
+                "Afternoon 0.3 W" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_5000K_0.2Aft.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_5000K_0.3Aft.jpg"]
                 },
                 "Evening/Night 0.1 O" :
                 {
@@ -6039,13 +6039,13 @@
               },
               "4000 K" :
               {
-                "Morning 0.3 B" :
+                "Morning 0.4 B" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_4000K_0.3Morn.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_4000K_0.4Morn.jpg"]
                 },
-                "Afternoon 0.2 W" :
+                "Afternoon 0.3 W" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_4000K_0.2Aft.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_4000K_0.3Aft.jpg"]
                 },
                 "Evening/Night 0.1 O" :
                 {
@@ -6054,13 +6054,13 @@
               },
               "3000 K" :
               {
-                "Morning 0.3 B" :
+                "Morning 0.4 B" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_3000K_0.3Morn.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_3000K_0.4Morn.jpg"]
                 },
-                "Afternoon 0.2 W" :
+                "Afternoon 0.3 W" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_3000K_0.2Aft.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_3000K_0.3Aft.jpg"]
                 },
                 "Evening/Night 0.1 O" :
                 {
@@ -6087,7 +6087,6 @@
         },
         "2x2 Troffer + Skylight Panel" :
         {
-          "plan" : [""],
           "0.3" :
           {
             "Static" :
@@ -6172,20 +6171,20 @@
         },
         "Cove + Downlight + Wall Wash" :
         {
-          "0.3" :
+          "0.4" :
           {
             "plan" : [""],
             "Static" :
             {
               "6500 K" :
               {
-                "Morning 0.3 B" :
+                "Morning 0.4 B" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_6500K_0.3Morn.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_6500K_0.4Morn.jpg"]
                 },
-                "Afternoon 0.2 W" :
+                "Afternoon 0.3 W" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_6500K_0.2Aft.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_6500K_0.3Aft.jpg"]
                 },
                 "Evening/Night 0.1 W" :
                 {
@@ -6194,13 +6193,13 @@
               },
               "5000 K" :
               {
-                "Morning 0.3 B" :
+                "Morning 0.4 B" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_5000K_0.3Morn.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_5000K_0.4Morn.jpg"]
                 },
-                "Afternoon 0.2 W" :
+                "Afternoon 0.3 W" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_5000K_0.2Aft.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_5000K_0.3Aft.jpg"]
                 },
                 "Evening/Night 0.1 W" :
                 {
@@ -6209,13 +6208,13 @@
               },
               "4000 K" :
               {
-                "Morning 0.3 B" :
+                "Morning 0.4 B" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_4000K_0.3Morn.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_4000K_0.4Morn.jpg"]
                 },
-                "Afternoon 0.2 W" :
+                "Afternoon 0.3 W" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_4000K_0.2Aft.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_4000K_0.3Aft.jpg"]
                 },
                 "Evening/Night 0.1 W" :
                 {
@@ -6224,13 +6223,13 @@
               },
               "3000 K" :
               {
-                "Morning 0.3 B" :
+                "Morning 0.4 B" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_3000K_0.3Morn.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_3000K_0.4Morn.jpg"]
                 },
-                "Afternoon 0.2 W" :
+                "Afternoon 0.3 W" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_3000K_0.2Aft.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_3000K_0.3Aft.jpg"]
                 },
                 "Evening/Night 0.1 W" :
                 {
