@@ -1079,11 +1079,6 @@ function generateContent(hb,selection,data){
 
 $(document).ready(function(){
 
-  background-image: url("../img/background/banner.jpg");
-  background-size: cover;
-  background-position: 0% 54%;
-
-
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     $('body').removeAttr('data-vide-bg');
     $('.banner').css({'background-image': 'url("../img/background/banner.jpg")','background-size': 'cover', 'background-position': '0% 54%'})
