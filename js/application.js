@@ -1043,6 +1043,7 @@ function generateContent(hb,selection,data){
   $('.fixed-footer').remove();
   $('body').removeAttr('data-vide-bg');
   $('body').removeAttr('data-vide-options');
+  $('#navbar').removeClass('position-fixed');
   if ($('body').find('div').first().attr('id') != 'navbar' && $('body').find('div').first().attr('id') != 'application-modal'){
     $('body').find('div').first().remove();
   }
