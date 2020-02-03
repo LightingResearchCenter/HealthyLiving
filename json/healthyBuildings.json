@@ -5934,7 +5934,7 @@
                 },
                 "Evening/Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/troffers/School_SpEd_Troff_6500K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/troffers/School_SpEd_Troff_6500K_0.1Eve.jpg"]
                 }
               },
               "5000 K" :
@@ -5949,7 +5949,7 @@
                 },
                 "Evening/Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/troffers/School_SpEd_Troff_5000K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/troffers/School_SpEd_Troff_5000K_0.1Eve.jpg"]
                 }
               },
               "4000 K" :
@@ -5964,7 +5964,7 @@
                 },
                 "Evening/Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/troffers/School_SpEd_Troff_4000K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/troffers/School_SpEd_Troff_4000K_0.1Eve.jpg"]
                 }
               },
               "3000 K" :
@@ -5979,7 +5979,7 @@
                 },
                 "Evening/Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/troffers/School_SpEd_Troff_3000K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/troffers/School_SpEd_Troff_3000K_0.1Eve.jpg"]
                 }
               }
             },
@@ -6019,7 +6019,7 @@
                 },
                 "Evening/Night 0.1 O" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_6500K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_6500K_0.1Eve.jpg"]
                 }
               },
               "5000 K" :
@@ -6034,7 +6034,7 @@
                 },
                 "Evening/Night 0.1 O" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_5000K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_5000K_0.1Eve.jpg"]
                 }
               },
               "4000 K" :
@@ -6049,7 +6049,7 @@
                 },
                 "Evening/Night 0.1 O" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_4000K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_4000K_0.1Eve.jpg"]
                 }
               },
               "3000 K" :
@@ -6064,7 +6064,7 @@
                 },
                 "Evening/Night 0.1 O" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_3000K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_Strip_3000K_0.1Eve.jpg"]
                 }
               }
             },
@@ -6103,7 +6103,7 @@
                 },
                 "Evening/Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/skylight/School_SpEd_Skylight_6500K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/skylight/School_SpEd_Skylight_6500K_0.1Eve.jpg"]
                 }
               },
               "5000 K" :
@@ -6118,7 +6118,7 @@
                 },
                 "Evening/Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/skylight/School_SpEd_Skylight_5000K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/skylight/School_SpEd_Skylight_5000K_0.1Eve.jpg"]
                 }
               },
               "4000 K" :
@@ -6133,7 +6133,7 @@
                 },
                 "Evening/Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/skylight/School_SpEd_Skylight_4000K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/skylight/School_SpEd_Skylight_4000K_0.1Eve.jpg"]
                 }
               },
               "3000 K" :
@@ -6148,7 +6148,7 @@
                 },
                 "Evening/Night 0.1" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/skylight/School_SpEd_Skylight_3000K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/skylight/School_SpEd_Skylight_3000K_0.1Eve.jpg"]
                 }
               }
             },
@@ -6188,7 +6188,7 @@
                 },
                 "Evening/Night 0.1 W" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_6500K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_6500K_0.1Eve.jpg"]
                 }
               },
               "5000 K" :
@@ -6203,7 +6203,7 @@
                 },
                 "Evening/Night 0.1 W" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_5000K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_5000K_0.1Eve.jpg"]
                 }
               },
               "4000 K" :
@@ -6218,7 +6218,7 @@
                 },
                 "Evening/Night 0.1 W" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_4000K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_4000K_0.1Eve.jpg"]
                 }
               },
               "3000 K" :
@@ -6233,7 +6233,7 @@
                 },
                 "Evening/Night 0.1 W" :
                 {
-                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_3000K_0.1Night.jpg"]
+                  "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_Combo_3000K_0.1Eve.jpg"]
                 }
               }
             },
