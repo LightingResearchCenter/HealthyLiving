@@ -6516,16 +6516,20 @@
         },
         "Cove + Downlight + Wall Wash" :
         {
-          "0.3" :
+          "0.4" :
           {
             "plan" : ["img/application/facilities/school/floor_plans/School_LectureHall_Combo.jpg","img/application/facilities/school/floor_plans/School_LectureHall_Combo_View2.jpg"],
             "Static" :
             {
               "6500 K" :
               {
-                "Morning/Afternoon 0.3" :
+                "Morning 0.4" :
                 {
-                  "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_6500K_0.3Morn.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_6500K_0.3Morn.jpg"]
+                  "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_6500K_0.4Morn.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_6500K_0.4Morn.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_6500K_0.3Aft.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_6500K_0.3Aft.jpg"]
                 },
                 "Evening 0.2" :
                 {
@@ -6538,9 +6542,13 @@
               },
               "5000 K" :
               {
-                "Morning/Afternoon 0.3" :
+                "Morning 0.4" :
                 {
-                  "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_5000K_0.3Morn.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_5000K_0.3Morn.jpg"]
+                  "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_5000K_0.4Morn.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_5000K_0.4Morn.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_5000K_0.3Aft.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_5000K_0.3Aft.jpg"]
                 },
                 "Evening 0.2" :
                 {
@@ -6553,9 +6561,13 @@
               },
               "4000 K" :
               {
-                "Morning/Afternoon 0.3" :
+                "Morning 0.4" :
                 {
-                  "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_4000K_0.3Morn.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_4000K_0.3Morn.jpg"]
+                  "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_4000K_0.4Morn.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_4000K_0.4Morn.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_4000K_0.3Aft.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_4000K_0.3Aft.jpg"]
                 },
                 "Evening 0.2" :
                 {
@@ -6568,9 +6580,13 @@
               },
               "3000 K" :
               {
-                "Morning/Afternoon 0.3" :
+                "Morning 0.4" :
                 {
-                  "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_3000K_0.3Morn.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_3000K_0.3Morn.jpg"]
+                  "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_3000K_0.4Morn.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_3000K_0.4Morn.jpg"]
+                },
+                "Afternoon 0.3" :
+                {
+                  "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_3000K_0.3Aft.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_3000K_0.3Aft.jpg"]
                 },
                 "Evening 0.2" :
                 {
