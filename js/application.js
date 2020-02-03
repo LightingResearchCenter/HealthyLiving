@@ -1080,7 +1080,10 @@ function generateContent(hb,selection,data){
 $(document).ready(function(){
 
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    alert('working');
     $('body').removeAttr('data-vide-bg');
+  }else{
+    alert('not working');
   }
 
   // Avoids Firefox throwing a warning when reading JSON
