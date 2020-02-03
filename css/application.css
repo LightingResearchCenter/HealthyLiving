@@ -703,8 +703,10 @@ p{
 .banner{
   height: 100%;
   max-height: 100%;
-  min-height: 100%;
   position: relative;
+  background-image: url("../img/application/landing/1.jpg");
+  background-size: cover;
+  background-position: 0% 54%;
 }
 
 .banner::after{
@@ -727,34 +729,34 @@ p{
 }
 
 .banner-title{
-  width:100%;
-  padding-right:10vw;
-  padding-left:10vw;
+  width: 100%;
+  padding-right: 10vw;
+  padding-left: 10vw;
   font-family: "Oswald", sans-serif;
-  text-transform:uppercase;
-  color:#fff;
-  text-align:center;
-  font-weight:600;
-  font-size:6em;
-  letter-spacing:.75vw;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 6em;
+  letter-spacing: 0.75vw;
   line-height: 6rem;
 }
 
 .middle {
-  width:100%;
+  width: 100%;
   top: 50%;
 }
 
-.middle p {
-  width:60%;
-  color:#fff;
-  text-align:center;
+.middle p.box-text {
+  width: 60%;
+  color: #fff;
+  text-align: center;
   font-weight: 200;
-  font-size:1.1em;
-  border-radius:10px;
-  background-color:rgba(30,30,30,0.7);
-  margin:auto;
-  padding:10px;
+  font-size: 1.1em;
+  border-radius: 10px;
+  background-color: rgba(30, 30, 30, 0.7);
+  margin: auto;
+  padding: 10px;
 }
 
 .line {
@@ -888,7 +890,7 @@ p{
 }
 
 .w-95{
-  width: 95%:
+  width: 95%;
 }
 
 .col-p{
@@ -968,7 +970,7 @@ ol li a,ol li a:hover {
   }
 }
 @media only screen and (max-width: 992px){
-  .middle p.box-text{
+  .middle p.box-text {
     margin: auto;
     width: 100%;
   }

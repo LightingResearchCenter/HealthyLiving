@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/application.css" />
     <link rel="stylesheet" href="css/nav.css" />
   </head>
-  <body data-vide-bg="mp4: img/application/landing/landing2.mp4, poster: img/application/landing/1.png" data-vide-options="posterType: png">
+  <body data-vide-bg="mp4: img/application/landing/landing2.mp4">
 
     <!-- Help Modal -->
     <div class="modal fade" id="helpModal">
@@ -302,7 +302,9 @@
     </div>
     <!-- Navbar -->
 
-    <div id="landing-content" class="container-fluid h-100-plus-offset">
+    <div id="landing-content" class="container-fluid h-100 mh-100 overflow-hidden sticky">
+
+      <!-- Banner -->
       <div class="row banner">
         <div class="col">
           <div class="banner-text text-center">
@@ -313,11 +315,13 @@
               <button id="begin" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#application-modal">Begin</button>
             </div>
           </div>
+          <footer class="fixed-footer">
+            <p class="footer-p">© 2019 Lighting Research Center All Rights Reserved</p>
+          </footer>
         </div>
       </div>
+      <!-- Banner -->
+
     </div>
-    <footer class="fixed-footer">
-      <p class="footer-p">© 2019 Lighting Research Center All Rights Reserved</p>
-    </footer>
   </body>
 </html>
