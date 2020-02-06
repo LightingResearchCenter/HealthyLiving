@@ -693,70 +693,73 @@ p{
 }
 
 .h-80{
-  height: 80% !important;
+  height: 80%;
 }
 
 .h-20{
-  height: 20% !important;
+  height: 20%;
 }
 
 .banner{
+  background-position: 0 54%;
+  background-size: cover;
   height: 100%;
   max-height: 100%;
   position: relative;
-  background-image: url("../img/background/banner.jpg");
-  background-size: cover;
-  background-position: 0% 54%;
 }
 
 .banner::after{
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: block;
+  background-color: rgb(0,0,0);
   background-color: rgba(0, 0, 0, 0.3);
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .banner-text{
-  top: 20%;
-  z-index: 1;
-  position: relative;
   color: white;
   height: 13rem;
+  position: relative;
+  top: 20%;
+  z-index: 1;
 }
 
 .banner-title{
-  width: 100%;
-  padding-right: 10vw;
-  padding-left: 10vw;
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
+  box-sizing: border-box;
   color: #fff;
-  text-align: center;
-  font-weight: 600;
+  font-family: "Oswald", sans-serif;
   font-size: 6em;
+  font-weight: 600;
   letter-spacing: 0.75vw;
   line-height: 6rem;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
 }
 
 .middle {
-  width: 100%;
   top: 50%;
+  width: 100%;
 }
 
 .middle p.box-text {
-  width: 60%;
-  color: #fff;
-  text-align: center;
-  font-weight: 200;
-  font-size: 1.1em;
-  border-radius: 10px;
+  background-color: rgb(30,30,30);
   background-color: rgba(30, 30, 30, 0.7);
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 200;
   margin: auto;
   padding: 10px;
+  text-align: center;
+  width: 60%;
 }
 
 .line {
@@ -764,7 +767,6 @@ p{
 }
 
 .card-deck .card{
-  min-width: auto;
   margin-bottom: 15px;
   margin-top: 15px;
 }
@@ -798,20 +800,23 @@ p{
 
 .help-menu-list{
   height: calc(90vh - 2px);
+  list-style: none;
+  margin: 0;
   max-height: calc(90vh - 2px);
   padding: 0;
-  margin: 0;
-  list-style: none;
 }
 
 .help-menu-list-item{
+  background-color: rgb(235,235,235);
+  border-bottom: 1px solid rgb(0,0,0);
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  border-right: 1px solid rgb(0,0,0);
+  border-right: 1px solid rgba(0,0,0,.125);
+  box-sizing: border-box;
   height: 12.5%;
   max-height: 12.5%;
-  width: 100%;
   padding: 0;
-  border-bottom: 1px solid rgba(0,0,0,.125);
-  border-right: 1px solid rgba(0,0,0,.125);
-  background-color: rgb(235,235,235);
+  width: 100%;
 }
 
 .help-menu-list-item:first-child{
@@ -819,7 +824,8 @@ p{
 }
 
 .help-menu-list-item:last-child{
-  border-bottom: 0px solid rgba(0,0,0,.125);
+  border-bottom: 0 solid rgb(0,0,0);
+  border-bottom: 0 solid rgba(0,0,0,.125);
   border-bottom-left-radius: .3rem;
 }
 
@@ -828,14 +834,14 @@ p{
 }
 
 .help-menu-list-item.active{
-  border-right: 1px solid rgb(255,255,255);
   background-color: rgb(255,255,255);
+  border-right: 1px solid rgb(255,255,255);
 }
 
 .help-menu-list-title{
-  text-align: center;
-  padding: 11% 0;
   margin: 0;
+  padding: 11% 0;
+  text-align: center;
 }
 
 .help-menu-list-title:hover{
@@ -844,8 +850,8 @@ p{
 
 .help-menu-p{
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 350;
   font-size: 1.3rem;
+  font-weight: 300;
 }
 
 .help-menu-content{
@@ -950,11 +956,15 @@ ol li a,ol li a:hover {
 }
 
 @media only screen and (max-width: 768px){
+  .banner{
+    background-image: url("../img/application/banner.jpg");
+  }
+
   .banner-title{
-    padding-right: 1rem;
-    padding-left: 1rem;
     font-size:4em;
     line-height: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .bc-large{
@@ -976,20 +986,20 @@ ol li a,ol li a:hover {
   }
 
   .modal-xl{
-    width: 100%;
-    max-width: 100%;
     margin: auto;
+    max-width: 100%;
+    width: 100%;
   }
 
   .modal-lg{
-    width: 100%;
-    max-width: 100%;
     margin: auto;
+    max-width: 100%;
+    width: 100%;
   }
 
   .right-panel-col{
-    padding-right: 1rem;
     padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .col-p{
