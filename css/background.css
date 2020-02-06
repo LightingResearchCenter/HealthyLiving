@@ -33,6 +33,19 @@ article {
   padding-right: 2.5rem;
 }
 
+.accordion-title{
+  color: #fff;
+  margin: 0;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.accordion-title-a:hover{
+  text-decoration: none;
+  background-color: #0047cc;
+}
+
 .footer {
   bottom: 0.25rem;
   left: 0;
@@ -483,14 +496,24 @@ hr {
 }
 
 @media only screen and (max-width: 768px) {
-    .banner-title{
-      font-size:4em;
-      line-height: 4rem;
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
+  .banner-title{
+    font-size:4em;
+    line-height: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  article{
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 @media only screen and (max-width: 992px) {
+  article{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .right-border-large {
     border-right: none !important;
   }
@@ -498,5 +521,12 @@ hr {
   .middle p.box-text {
     margin: auto;
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  article{
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }

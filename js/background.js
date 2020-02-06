@@ -252,5 +252,12 @@ $(document).ready(function(){
   $('[data-toggle="popover"]').popover();
   document.onclick = function(){
     $('[data-toggle="popover"]').popover();
-  }
+  };
+
+  $(window).resize(function(){
+    if(window.innerWidth > 768 && (!$('#accordionCollapse').is(':visible'))){
+      $('#accordionCollapse').collapse("show");
+    }
+  });
+
 });
