@@ -132,14 +132,12 @@
           <div class="jquery-accordion-menu">
             <nav class="acnav" role="navigation">
               <ul class="acnav__list acnav__list--level1">
-                <a class="d-none d-md-none d-sm-block" data-toggle="collapse" href="#accordionCollapse" role="button" aria-expanded="false" aria-controls="accordionCollapse">
+                <a class="d-block d-md-none accordion-title-a" data-toggle="collapse" href="#accordionCollapse" role="button" aria-expanded="true" aria-controls="accordionCollapse">
                   <li>
-                    <div class="acnav__label">
-                      <h4 class="p-0 m-0 text-center">MENU</h4>
-                    </div>
+                    <h4 class="accordion-title">MENU</h4>
                   </li>
                 </a>
-                <span id="accordionCollapse">
+                <div id="accordionCollapse" class="collapse">
                   <li id="fundamentals" class="has-children">
                     <div class="acnav__label fundamentalsIcon">
                       <a>Fundamentals</a>
@@ -519,7 +517,7 @@
                       </li>
                     </ul>
                   </li>
-                </span>
+                </div>
               </ul>
             </nav>
           </div>
