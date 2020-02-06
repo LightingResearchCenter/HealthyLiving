@@ -254,6 +254,10 @@ $(document).ready(function(){
     $('[data-toggle="popover"]').popover();
   };
 
+  if(window.innerWidth < 768){
+    $('#accordionCollapse').collapse("hide");
+  }
+
   $(window).resize(function(){
     if(window.innerWidth > 768 && (!$('#accordionCollapse').is(':visible'))){
       $('#accordionCollapse').collapse("show");
