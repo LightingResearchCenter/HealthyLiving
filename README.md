@@ -2,7 +2,7 @@
   Healthy Living
 </h1>
 
-<h4 align="center">Light and Health | <a href="https://www.lrc.rpi.edu/secret/healthyliving">Healthy Living</a></h4>
+<h4 align="center">Light and Health | <a href="https://www.lrc.rpi.edu/healthyliving/secret">Healthy Living</a></h4>
 
 
 <blockquote align="center">
@@ -14,7 +14,7 @@
 </p>
 
 ## Getting started
-The Healthy Living website is hosted at https://www.lrc.rpi.edu/secret/healthyliving
+The Healthy Living website is hosted at https://www.lrc.rpi.edu/healthyliving/secret
 
 ## Background
 The background page is a great way for users of all levels of light knowledge to learn something new.
@@ -147,7 +147,7 @@ Below is a list of the specific topics we cover on the background page. These co
 
 
 ## Application
-Likely the best way to familiarize yourself with the application page is to just <a href="https://www.lrc.rpi.edu/secret/healthyliving/application.html">play around.</a>
+Likely the best way to familiarize yourself with the application page is to just <a href="https://www.lrc.rpi.edu/healthyliving/secret/application.html">play around.</a>
 
 The selection process is 6 steps long consisting of: facility, room, fixtures, target CS, CCT system, and CCT. The option to change the time of day also becomes available after the selection process.
 <br/>
@@ -217,5 +217,5 @@ The specific choices of each of these selections that we considered are as follo
 * 2700 K
 
 <h1 align="center">
-  <a href="https://www.lrc.rpi.edu/secret/healthyliving"><img src="lrc_rpi.png" width="250"/></a>
+  <a href="https://www.lrc.rpi.edu/healthyliving/secret"><img src="lrc_rpi.png" width="250"/></a>
 </h1>
