@@ -121,11 +121,26 @@ Below is a list of the specific topics we cover on the background page. These co
   * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-healthcareVisualPerformance">Visual Performance</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-healthcareSummary">Summary</a>
 
-#### <a href="">Senior Care</a>
-*
-*
-*
-*
+#### <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-seniorcareGeneralInformation">Senior Care</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-seniorcareGeneralInformation">General Information</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-seniorcareOccupants">Occupants</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-seniorcareSpecialtyInformation">Specialty Information</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-seniorcareAlzheimersDisease">Alzheimer's Disease</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-seniorcareEyeDiseases">Eye Diseases</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-seniorcareReduceFalls">Reduce Falls</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-seniorcareSummary">Summary</a>
+
+#### <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-about">Additional Information</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-about">About Us</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-ourMission">Our Mission, Role, and Values</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-faq">FAQ</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-downloads">Downloads</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-resources">Resources</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-glossary">Glossary</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-references">References</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-studies">In-field Studies</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-sponsors">Sponsors</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-acknowledgements">Acknowledgements</a>
 
 
 
