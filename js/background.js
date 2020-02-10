@@ -1,32 +1,33 @@
-function hideAllArticles(){
-  $('.article-fundamentals').removeClass('d-inline-block');
-  $('.article-manufacturers').removeClass('d-inline-block');
-  $('.article-occupants').removeClass('d-inline-block');
-  $('.article-office').removeClass('d-inline-block');
-  $('.article-healthcare').removeClass('d-inline-block');
-  $('.article-seniorcare').removeClass('d-inline-block');
-  $('.article-additional').removeClass('d-inline-block');
-  $('.article-fundamentals').addClass('d-none');
-  $('.article-manufacturers').addClass('d-none');
-  $('.article-occupants').addClass('d-none');
-  $('.article-office').addClass('d-none');
-  $('.article-healthcare').addClass('d-none');
-  $('.article-seniorcare').addClass('d-none');
-  $('.article-additional').addClass('d-none');
-}
-
-function smoothScroll(id, offset1, offset2, hash){
-  if (hash !== "") {
-    $(id).animate({
-      scrollTop: $(hash).position().top + $(id).scrollTop() + offset1
-    }, 1200, function(){
+function smoothScroll(id, offset1, offset2, hash, event){
+  console.log(Math.abs($(hash).position().top - $(id).position().top));
+  if (Math.abs($(hash).position().top - $(id).position().top) < 5000){
+    if (hash !== "") {
+      $(id).animate({
+        scrollTop: $(hash).position().top + $(id).scrollTop() + offset1
+      }, 1200, function(){
+        window.location.hash = hash + offset2;
+        history.replaceState(undefined, undefined, hash);
+      });
+    }
+  }else{
+    if (hash !== "") {
+      event.preventDefault();
+      $(id).scrollTop( $(hash).position().top + $(id).scrollTop() + offset1);
       window.location.hash = hash + offset2;
       history.replaceState(undefined, undefined, hash);
-    });
+      $('#content').scrollTop($('#content').scrollTop());
+    }
   }
 }
 
 $(document).ready(function(){
+  if (!$("#fundamentals").hasClass("is-open")){
+    $("#fundamentals div a").trigger("click");
+  }
+
+  // var location = window.location.href.split('#')[1];
+  // if (location != undefined && location != 'section-ourRole'){
+  // }
 
   $(".help-menu-list-item").click(function(){
     $(".help-menu-list-item").removeClass('active');
@@ -38,29 +39,22 @@ $(document).ready(function(){
   });
 
   $('a.segue').on('click',function(event){
-    event.preventDefault();
-    smoothScroll('#content', 10, 1, $(this).attr('href'));
+    smoothScroll('#content', 10, 1, $(this).attr('href'),event);
   });
 
   $("div.acnav__link--level2, div.acnav__label--level2").on('click', function(event) {
-    event.preventDefault();
-    smoothScroll('#content', 10, 1, $(this).find('a').attr('href'));
+    smoothScroll('#content', 10, 1, $(this).find('a').attr('href'),event);
   });
 
   $("a.acnav__link--level2").on('click', function(event) {
-    event.preventDefault();
-    smoothScroll('#content', 10, 1, $(this).attr('href'));
+    smoothScroll('#content', 10, 1, $(this).attr('href'),event);
   });
 
   $("a.subsection-link").on('click', function(event) {
-    event.preventDefault();
-    smoothScroll('#content', -67, 5, this.hash);
+    smoothScroll('#content', -67, 5, this.hash,event);
   });
 
-  $("#backgroundButton").click(function(){
-    if (!$("#fundamentals").hasClass("is-open")){
-      $("#fundamentals div a").trigger("click");
-    }
+  $("#backgroundButton").on('click', function(){
     $('html,body').animate({
       scrollTop: $('#content').offset().top - 67
     }, 1200);
@@ -78,10 +72,11 @@ $(document).ready(function(){
         }
 
         if($("#"+id).position().top < check){
+          var next_id;
           if ($(this).next().length > 0){
-            var next_id = ($(this).next()[0]).id;
+            next_id = ($(this).next()[0]).id;
           }else{
-            var next_id = $("#"+id).parent().parent().next('article').attr('id');
+            next_id = $("#"+id).parent().parent().next('article').attr('id');
           }
 
           if ($("#"+next_id).offset().top > window.innerHeight){
@@ -149,104 +144,6 @@ $(document).ready(function(){
 
   $('#segueToManufacturers').on('click',function(){
     $('#manufacturers').trigger('click');
-  });
-
-  $('#fundamentals').on('click', function(){
-    if($('#section-ourRole.d-inline-block').length == 0){
-      hideAllArticles();
-      $('.article-fundamentals').removeClass('d-none');
-      $('.article-fundamentals').addClass('d-inline-block');
-      var id = $('article').first().attr('id');
-      $('#content').animate({
-        scrollTop: 0
-      }, 1200, function(){
-        window.location.hash = '#'+id;
-      });
-    }
-  });
-
-  $('#manufacturers').on('click',function(){
-    if($('#section-componentsOfCircadianDesign.d-inline-block').length == 0){
-      hideAllArticles();
-      $('.article-manufacturers').removeClass('d-none');
-      $('.article-manufacturers').addClass('d-inline-block');
-      var id = $('article').first().attr('id');
-      $('#content').animate({
-        scrollTop: $('#'+id).offset().top - 67
-      }, 1200, function(){
-        window.location.hash = '#'+id - 67;
-      });
-    }
-  });
-
-  $('#occupants').on('click',function(){
-    if($('#section-personalLightingTechniques.d-inline-block').length == 0){
-      hideAllArticles();
-      $('.article-occupants').removeClass('d-none');
-      $('.article-occupants').addClass('d-inline-block');
-      var id = $('article').first().attr('id');
-      $('#content').animate({
-        scrollTop: $('#'+id).offset().top - 67
-      }, 1200, function(){
-        window.location.hash = '#'+id - 67;
-      });
-    }
-  });
-
-  $('#office').on('click',function(){
-    if($('#section-officeGeneralInformation.d-inline-block').length == 0){
-      hideAllArticles();
-      $('.article-office').removeClass('d-none');
-      $('.article-office').addClass('d-inline-block');
-      var id = $('article').first().attr('id');
-      $('#content').animate({
-        scrollTop: $('#'+id).offset().top - 67
-      }, 1200, function(){
-        window.location.hash = '#'+id - 67;
-      });
-    }
-  });
-
-  $('#healthcare').on('click',function(){
-    if($('#section-healthcareGeneralInformation.d-inline-block').length == 0){
-      hideAllArticles();
-      $('.article-healthcare').removeClass('d-none');
-      $('.article-healthcare').addClass('d-inline-block');
-      var id = $('article').first().attr('id');
-      $('#content').animate({
-        scrollTop: $('#'+id).offset().top - 67
-      }, 1200, function(){
-        window.location.hash = '#'+id - 67;
-      });
-    }
-  });
-
-  $('#seniorcare').on('click',function(){
-    if($('#section-seniorcareGeneralInformation.d-inline-block').length == 0){
-      hideAllArticles();
-      $('.article-seniorcare').removeClass('d-none');
-      $('.article-seniorcare').addClass('d-inline-block');
-      var id = $('article').first().attr('id');
-      $('#content').animate({
-        scrollTop: $('#'+id).offset().top - 67
-      }, 1200, function(){
-        window.location.hash = '#'+id - 67;
-      });
-    }
-  });
-
-  $('#additional').on('click',function(){
-    if($('#section-about.d-inline-block').length == 0){
-      hideAllArticles();
-      $('.article-additional').removeClass('d-none');
-      $('.article-additional').addClass('d-inline-block');
-      var id = $('article').first().attr('id');
-      $('#content').animate({
-        scrollTop: $('#'+id).offset().top - 67
-      }, 1200, function(){
-        window.location.hash = '#'+id - 67;
-      });
-    }
   });
 
   $('[data-toggle="popover"]').popover();

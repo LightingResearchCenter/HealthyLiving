@@ -15,6 +15,7 @@ function closeOthersLevel1(label){
 }
 
 $('.acnav__label').click(function () {
+	console.log($(this));
 	var label = $(this);
 	var parent = label.parent('.has-children');
 	var list = label.siblings('.acnav__list');
