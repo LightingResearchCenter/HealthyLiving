@@ -24,6 +24,7 @@ Likely the best way to familiarize yourself with the application page is to just
 
 The selection process is 6 steps long consisting of: facility, room, fixtures, target CS, CCT system, and CCT. The option to change the time of day also becomes available after the selection process.
 <br/>
+
 The specific choices of each of these selections that we considered are as follows.
 
 #### Facilities
