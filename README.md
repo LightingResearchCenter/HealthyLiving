@@ -86,6 +86,48 @@ Below is a list of the specific topics we cover on the background page. These co
   * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-energyUsage">Energy Usage</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-manufacturersSummary">Summary</a>
 
+#### <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-personalLightingTechniques">Occupant's steps</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-personalLightingTechniques">Personal Light Techniques</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-learnMore">Learn More</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-occupantsCSMetric">CS Metric</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-occupantsHorizontalIlluminance">Horizontal Illuminance</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-occupantsVerticalIlluminance">Vertical Illuminance</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-occupantsCCTSystem">CCT System</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-csCalculator3">CS Calculator</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-personalLightDevices">Personal Light Devices</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-generalInformation">General Information</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-deskLuminaire">Desk Luminaire</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-lightGoggles">Light Goggles</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-lightTray">Light Tray</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-lightTable">Light Table</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-orangeFilterGoggles">Orange Filter Goggles</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-occupantsSummary">Summary</a>
+
+#### <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-officeGeneralInformation">Office</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-officeGeneralInformation">General Information</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-officeOccupants">Occupants</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-officeSpecialtyInformation">Specialty Information</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-officeSummary">Summary</a>
+
+#### <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-healthcareGeneralInformation">Healthcare</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-healthcareGeneralInformation">General Information</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-healthcareGeneralInformation">Occupants</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-healthcareGeneralInformation">Shift Workers</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-healthcarePatients">Patients</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-healthcareInfants">Infants</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-healthcareSpecialtyInformation">Specialty Information</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-healthcareLightingInTheNICU">Lighting in the NICU</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-healthcarePatientOrientation">Patient Orientation</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-healthcareVisualPerformance">Visual Performance</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-healthcareSummary">Summary</a>
+
+#### <a href="">Senior Care</a>
+*
+*
+*
+*
+
+
 
 
 

@@ -1,6 +1,6 @@
 function smoothScroll(id, offset1, offset2, hash, event){
   console.log(Math.abs($(hash).position().top - $(id).position().top));
-  if (Math.abs($(hash).position().top - $(id).position().top) < 10000){
+  if (Math.abs($(hash).position().top - $(id).position().top) < 5000){
     if (hash !== "") {
       $(id).animate({
         scrollTop: $(hash).position().top + $(id).scrollTop() + offset1
@@ -11,10 +11,11 @@ function smoothScroll(id, offset1, offset2, hash, event){
     }
   }else{
     if (hash !== "") {
+      event.preventDefault();
       $(id).scrollTop( $(hash).position().top + $(id).scrollTop() + offset1);
       window.location.hash = hash + offset2;
       history.replaceState(undefined, undefined, hash);
-      $(window).scrollTop($(window).scrollTop()+1);
+      $('#content').scrollTop($('#content').scrollTop());
     }
   }
 }
@@ -23,6 +24,10 @@ $(document).ready(function(){
   if (!$("#fundamentals").hasClass("is-open")){
     $("#fundamentals div a").trigger("click");
   }
+
+  // var location = window.location.href.split('#')[1];
+  // if (location != undefined && location != 'section-ourRole'){
+  // }
 
   $(".help-menu-list-item").click(function(){
     $(".help-menu-list-item").removeClass('active');
@@ -67,10 +72,11 @@ $(document).ready(function(){
         }
 
         if($("#"+id).position().top < check){
+          var next_id;
           if ($(this).next().length > 0){
-            var next_id = ($(this).next()[0]).id;
+            next_id = ($(this).next()[0]).id;
           }else{
-            var next_id = $("#"+id).parent().parent().next('article').attr('id');
+            next_id = $("#"+id).parent().parent().next('article').attr('id');
           }
 
           if ($("#"+next_id).offset().top > window.innerHeight){
