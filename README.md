@@ -23,7 +23,71 @@ The background page is a great way for users of all levels of light knowledge to
 Below is a list of the specific topics we cover on the background page. These concepts do not make up a perfect list of everything light, instead, they are the concepts we believe to most important in understanding how the healthy living application works and also in understand the work the <a href="https://www.lrc.rpi.edu/programs/lightHealth/alliance.asp">light and health alliance</a> does.
 
 #### <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-ourRole">Fundamentals<a/>
-*
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-ourRole">Our Role</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-whatIsLight">What is Light?</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-lightingAndTheCircadianSystem">Lighting and the Circadian System</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-sleepPressureAndDailyAlertness">Sleep Pressure / Daily Alertness</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-structureOfTheEye">Structure of the Eye</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-structureOfTheRetina">Structure of the Retina</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-rodsAndCones">Rods and Cones</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-ipGRC">ipRGC Photoreceptors</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-visualVsNonVisualSystems">Visual vs. Non-visual Systems</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-whatIsCircadianLighting">Circadian Light</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-summary">Summary</a>
+
+#### <a href="">Manufacturer's / Designer's Steps</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-componentsOfCircadianDesign">Components of Circadian Design</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-informationAboutRoom">Information about Room</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-geographicLocation">Geographic Location</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-buildingOrientation">Building Orientation</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-facilityAndRoomType">Facility and Room Type</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-occupantType">Occupant Type</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-areaOfRoom">Area of Room</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-ceilingHeight">Ceiling Height</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-roomReflectances">Room Reflectances</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-furnitureLayout">Furniture Layout</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-horizontalIlluminance">Horizontal Illuminance</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-verticalIlluminance">Vertical Illuminance</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-lightingSolution">Lighting Solution</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-csMetric">CS Metric</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-csSchedule">CS Schedule</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-cctSystem">CCT System</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-desiredCCT">Desired CCT</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-fixtures">Fixtures</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-retrofitOrNewDesign">Retrofit or New Design</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-fixtureTypes">Fixture Types</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-personalLightDevices">Personal Light Devices</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-beamDistribution">Beam Distribution</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-orientationOfFixtures">Orientation of Fixtures</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-mountingHeight">Mounting Height</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-initialLumenOutput">Initial Lumen Output</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-initialWattage">Initial Wattage</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-fixtureSpacing">Fixture Spacing</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-spd">SPD</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-fixtureQuantity">Fixture Quantity</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-lightLossFactors">Light Loss Factor</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-computerDesign">Computer Design</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-lightingDesignSoftware">Lighting Design Software</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-iesFiles">.ies Files</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-csCalculator1">CS Calculator</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-appliedDesign">Applied Design</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-illuminanceMeter">Illuminance Meter</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-spectroradiometer">Spectroradiometer</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-tapeMeasure">Tape Measure</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-installedFixtures">Installed Fixtures</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-controlSystem">Control System</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-daysimeter">Daysimeter</a>
+  * <a href="">CS Calculator</a>
+* <a href="">Results</a>
+  * <a href="">Avg Vertical Illuminance</a>
+  * <a href="">Avg CS at Occupant Locations</a>
+  * <a href="">Avg Horizontal Illuminance</a>
+  * <a href="">Maximum LPD</a>
+  * <a href="">Energy Usage</a>
+* <a href="">Summary</a>
+
+
+
 
 ## Application
 Likely the best way to familiarize yourself with the application page is to just <a href="https://www.lrc.rpi.edu/secret/healthyliving/application.html">play around.</a>

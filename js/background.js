@@ -27,6 +27,9 @@ function smoothScroll(id, offset1, offset2, hash){
 }
 
 $(document).ready(function(){
+  if (!$("#fundamentals").hasClass("is-open")){
+    $("#fundamentals div a").trigger("click");
+  }
 
   $(".help-menu-list-item").click(function(){
     $(".help-menu-list-item").removeClass('active');
@@ -57,10 +60,7 @@ $(document).ready(function(){
     smoothScroll('#content', -67, 5, this.hash);
   });
 
-  $("#backgroundButton").click(function(){
-    if (!$("#fundamentals").hasClass("is-open")){
-      $("#fundamentals div a").trigger("click");
-    }
+  $("#backgroundButton").on('click', function(){
     $('html,body').animate({
       scrollTop: $('#content').offset().top - 67
     }, 1200);
