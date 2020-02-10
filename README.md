@@ -202,5 +202,5 @@ The specific choices of each of these selections that we considered are as follo
 * 2700 K
 
 <h1 align="center">
-  <a href="https://www.lrc.rpi.edu/secret/healthyliving"><img src="lrc rpi.png" width="250"/></a>
+  <a href="https://www.lrc.rpi.edu/secret/healthyliving"><img src="lrc_rpi.png" width="250"/></a>
 </h1>
