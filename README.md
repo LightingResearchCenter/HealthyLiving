@@ -35,7 +35,7 @@ Below is a list of the specific topics we cover on the background page. These co
 * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-whatIsCircadianLighting">Circadian Light</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-summary">Summary</a>
 
-#### <a href="">Manufacturer's / Designer's Steps</a>
+#### <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-componentsOfCircadianDesign">Manufacturer's / Designer's Steps</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-componentsOfCircadianDesign">Components of Circadian Design</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-informationAboutRoom">Information about Room</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-geographicLocation">Geographic Location</a>
@@ -77,14 +77,14 @@ Below is a list of the specific topics we cover on the background page. These co
   * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-installedFixtures">Installed Fixtures</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-controlSystem">Control System</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-daysimeter">Daysimeter</a>
-  * <a href="">CS Calculator</a>
-* <a href="">Results</a>
-  * <a href="">Avg Vertical Illuminance</a>
-  * <a href="">Avg CS at Occupant Locations</a>
-  * <a href="">Avg Horizontal Illuminance</a>
-  * <a href="">Maximum LPD</a>
-  * <a href="">Energy Usage</a>
-* <a href="">Summary</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-csCalculator2">CS Calculator</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-results">Results</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-results">Avg Vertical Illuminance</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-avgCSatOccupantLocation">Avg CS at Occupant Locations</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-avgHorizontalIlluminance">Avg Horizontal Illuminance</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-maximumLPD">Maximum LPD</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/secret/#subsection-energyUsage">Energy Usage</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-manufacturersSummary">Summary</a>
 
 
 
