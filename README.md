@@ -17,10 +17,13 @@
 The Healthy Living website is hosted at https://www.lrc.rpi.edu/secret/healthyliving
 
 ## Background
-The background page is a great way for users of all levels of light knowledge to learn something new. 
+The background page is a great way for users of all levels of light knowledge to learn something new.
 <br/>
 
 Below is a list of the specific topics we cover on the background page. These concepts do not make up a perfect list of everything light, instead, they are the concepts we believe to most important in understanding how the healthy living application works and also in understand the work the <a href="https://www.lrc.rpi.edu/programs/lightHealth/alliance.asp">light and health alliance</a> does.
+
+#### <a href="https://www.lrc.rpi.edu/healthyliving/secret/#section-ourRole">Fundamentals<a/>
+*
 
 ## Application
 Likely the best way to familiarize yourself with the application page is to just <a href="https://www.lrc.rpi.edu/secret/healthyliving/application.html">play around.</a>
