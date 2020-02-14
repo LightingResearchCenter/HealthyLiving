@@ -147,7 +147,7 @@ body {
 .acnav__link, .acnav__label {
   display: block;
   font-size: 1rem;
-  padding: 1em;
+  padding: .5em;
   margin: 0;
   cursor: pointer;
   color: #fcfcfc;
