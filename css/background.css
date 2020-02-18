@@ -496,6 +496,40 @@ hr {
   width: 85%;
 }
 
+.suggestion-form{
+  width: 100%;
+}
+
+#backToTop {
+  display: inline-block;
+  background-color: #7d7d7d;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s,
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#backToTop:hover {
+  cursor: pointer;
+  background-color: #0054f0;
+}
+#backToTop:active {
+  background-color: #0054f0;
+}
+#backToTop.show {
+  opacity: 0.6;
+  visibility: visible;
+}
+
 @media only screen and (max-width: 768px) {
   .banner-title{
     font-size:4em;
@@ -523,8 +557,11 @@ hr {
     margin: auto;
     width: 100%;
   }
+  #backToTop.show {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
-
 @media only screen and (max-width: 1200px){
   article{
     padding-left: 2rem;

@@ -544,11 +544,6 @@ a p.bc-option{
   max-width: 85%;
 }
 
-.btn-primary {
-  background-color:#00205b!important;
-  border-color:#00205b!important;
-}
-
 .hover {
   cursor:pointer;
 }
@@ -923,6 +918,12 @@ ol li a,ol li a:hover {
   color:#00205b;
 }
 
+.btn-primary {
+  background-color: #00205b;
+  border-color: #00205b;
+  color: #fff;
+}
+
 @media only screen and (min-width: 992px){
   #mainNav {
     padding-top:25px;
@@ -954,7 +955,6 @@ ol li a,ol li a:hover {
     padding:12px 0;
   }
 }
-
 @media only screen and (max-width: 768px){
   .banner{
     background-image: url("../img/application/banner.jpg");

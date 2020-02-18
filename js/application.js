@@ -539,7 +539,7 @@ function buildHTML(){
   str += '            <a class="right-panel-expandable collapsed" data-toggle="collapse" data-target="#lightingSolutionContentContainer" aria-expanded="false" aria-controls="lightingSolutionContentContainer">';
   str += '              <div class="card-body pb-0">';
   str += '                <h5 class="card-title right-panel-h5 mb-0">Lighting Solution</h5>';
-  str += '                <div id="lightingSolutionContentContainer" class="right-panel-content-container right-panel-content collapse">';
+  str += '                <div id="lightingSolutionContentContainer" class="right-panel-content-container right-panel-content collapse"><hr class="right-panel-hr"/>';
   str += '                <div id="lightingSolutionContent" class="right-panel-padding"></div>'
   str += '                </div>';
   str += '              </div>';
@@ -1115,6 +1115,8 @@ $(document).ready(function(){
     $(id).removeClass('d-none');
     $(".help-body").scrollTop();
   });
+
+  $('#begin').prop('disabled',false);
 
   $('#begin').click(function(){
     main(hb_json,selection_json);
