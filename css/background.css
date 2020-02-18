@@ -496,6 +496,10 @@ hr {
   width: 85%;
 }
 
+.suggestion-form{
+  width: 100%;
+}
+
 #backToTop {
   display: inline-block;
   background-color: #7d7d7d;
