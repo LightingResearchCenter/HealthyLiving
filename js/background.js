@@ -161,4 +161,22 @@ $(document).ready(function(){
     }
   });
 
+
+  //https://codepen.io/matthewcain/pen/ZepbeR
+  var bTT = $('#backToTop');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      bTT.addClass('show');
+    } else {
+      bTT.removeClass('show');
+    }
+  });
+
+  bTT.on('click', function(e) {
+    e.preventDefault();
+    $('#content').scrollTop(0);
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+
 });
