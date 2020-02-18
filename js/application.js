@@ -1116,6 +1116,8 @@ $(document).ready(function(){
     $(".help-body").scrollTop();
   });
 
+  $('#begin').prop('disabled',false);
+
   $('#begin').click(function(){
     main(hb_json,selection_json);
   });
