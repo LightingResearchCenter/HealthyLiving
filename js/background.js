@@ -173,8 +173,9 @@ $(document).ready(function(){
     }
   });
 
-  bTT.on('click', function(e) {
-    e.preventDefault();
+  bTT.on('click', function(event) {
+    event.preventDefault();
+    accordionToTop();
     $('#content').scrollTop(0);
     $('html, body').animate({scrollTop:0}, '300');
   });
