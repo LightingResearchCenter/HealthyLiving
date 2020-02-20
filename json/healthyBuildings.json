@@ -6531,11 +6531,11 @@
                 {
                   "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_6500K_0.3Aft.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_6500K_0.3Aft.jpg"]
                 },
-                "Evening 0.2 O" :
+                "Evening 0.2 R" :
                 {
                   "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_6500K_0.2Eve.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_6500K_0.2Eve.jpg"]
                 },
-                "Night 0.1 O" :
+                "Night 0.1 R" :
                 {
                   "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_6500K_0.1Night.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_6500K_0.1Night.jpg"]
                 }
@@ -6550,11 +6550,11 @@
                 {
                   "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_5000K_0.3Aft.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_5000K_0.3Aft.jpg"]
                 },
-                "Evening 0.2 O" :
+                "Evening 0.2 R" :
                 {
                   "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_5000K_0.2Eve.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_5000K_0.2Eve.jpg"]
                 },
-                "Night 0.1 O" :
+                "Night 0.1 R" :
                 {
                   "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_5000K_0.1Night.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_5000K_0.1Night.jpg"]
                 }
@@ -6569,11 +6569,11 @@
                 {
                   "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_4000K_0.3Aft.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_4000K_0.3Aft.jpg"]
                 },
-                "Evening 0.2 O" :
+                "Evening 0.2 R" :
                 {
                   "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_4000K_0.2Eve.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_4000K_0.2Eve.jpg"]
                 },
-                "Night 0.1 O" :
+                "Night 0.1 R" :
                 {
                   "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_4000K_0.1Night.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_4000K_0.1Night.jpg"]
                 }
@@ -6588,11 +6588,11 @@
                 {
                   "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_3000K_0.3Aft.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_3000K_0.3Aft.jpg"]
                 },
-                "Evening 0.2 O" :
+                "Evening 0.2 R" :
                 {
                   "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_3000K_0.2Eve.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_3000K_0.2Eve.jpg"]
                 },
-                "Night 0.1 O" :
+                "Night 0.1 R" :
                 {
                   "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_Lecture_Combo_3000K_0.1Night.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_Lecture2_Combo_3000K_0.1Night.jpg"]
                 }
