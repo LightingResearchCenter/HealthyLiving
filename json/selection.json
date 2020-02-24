@@ -393,25 +393,40 @@
         "img" : "img/application/selection/6_CCT/0.3_4000K-4000K-3000K.jpg",
         "desc" : "Transition from a neutral white light in the early hours of the day to a warm white light at night."
       },
+      "6500 K -> 5000 K -> 5000 K -> 4000 K" :
+      {
+        "img" : "img/application/selection/6_CCT/0.4_6500K-5000K-5000K-4000K.jpg",
+        "desc" : "Transition from a cooler white light in the early hours of the day to a neutral white light at night."
+      },
       "6500 K -> 5000 K -> 4000 K -> 3000 K" :
       {
         "img" : "img/application/selection/6_CCT/0.4_6500K-5000K-4000K-3000K.jpg",
-        "desc" : "Transition from a cooler white light in the early hours of the day to a warm white light at night."
+        "desc" : "Transition from a cooler white light in the early hours of the day to a warmer white light at night."
       },
       "6500 K -> 5000 K -> 4000 K -> 3500 K" :
       {
         "img" : "img/application/selection/6_CCT/0.4_6500K-5000K-4000K-3000K.jpg",
         "desc" : "Transition from a cooler white light in the early hours of the day to a warm white light at night."
       },
-      "5000 K -> 5000 K -> 4000 K -> 4000 K":
+      "5000 K -> 5000 K -> 4000 K -> 4000 K" :
       {
         "img" : "img/application/selection/6_CCT/0.4_5000K-5000K-4000K-4000K.jpg",
         "desc" : "Transition from a cool white light in the early hours of the day to a neutral white light at night."
       },
-      "5000 K -> 4000 K -> 3000 K -> 2700 K":
+      "5000 K -> 4000 K -> 4000 K -> 3500 K" :
+      {
+          "img" : "img/application/selection/6_CCT/0.4_5000K-4000K-4000K-3500K.jpg",
+          "desc" : "Transition from a cool white light in the early hours of the day to a warm white light at night."
+      },
+      "5000 K -> 4000 K -> 3000 K -> 2700 K" :
       {
         "img" : "img/application/selection/6_CCT/0.4_5000K-4000K-3000K-2700K.jpg",
         "desc" : "Transition from a cool white light in the early hours of the day to a warmer white light at night."
+      },
+      "4000 K -> 4000 K -> 4000 K -> 3500 K" :
+      {
+        "img" : "img/application/selection/6_CCT/0.4_4000K-4000K-4000K-3500K.jpg",
+        "desc" : "Transition from a neutral white light in the early hours of the day to a warm white light at night."
       },
       "4000 K -> 4000 K -> 3500 K -> 3500 K":
       {
