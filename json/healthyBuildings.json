@@ -4276,15 +4276,15 @@
             {
               "6500 K -> 5000 K -> 4000 K" :
               {
-                "render" : ["img/application/facilities/healthcare/renders/single/recessed linear/Healthcare_Single_RecessedLinear_Tunable_0.3_1a.jpg"]
+                "render" : ["img/application/facilities/healthcare/renders/single/recessed_linear/Healthcare_Single_RecessedLinear_Tunable_0.3_1a.jpg"]
                               },
               "5000 K -> 4000 K -> 3500 K" :
               {
-                "render" : ["img/application/facilities/healthcare/renders/single/recessed linear/Healthcare_Single_RecessedLinear_Tunable_0.3_1b.jpg"]
+                "render" : ["img/application/facilities/healthcare/renders/single/recessed_linear/Healthcare_Single_RecessedLinear_Tunable_0.3_1b.jpg"]
                               },
               "4000 K -> 4000 K -> 3500 K" :
               {
-                "render" : ["img/application/facilities/healthcare/renders/single/recessed linear/Healthcare_Single_RecessedLinear_Tunable_0.3_1c.jpg"]
+                "render" : ["img/application/facilities/healthcare/renders/single/recessed_linear/Healthcare_Single_RecessedLinear_Tunable_0.3_1c.jpg"]
                               }
             }
           }
