@@ -33,6 +33,10 @@ article {
   padding-right: 2.5rem;
 }
 
+a.section-link{
+  text-decoration: none;
+}
+
 .accordion-title{
   color: #fff;
   margin: 0;
@@ -52,7 +56,7 @@ article {
   position: absolute;
   text-align: center;
   width: 100%;
-  z-index: 100;
+  z-index: 1;
 }
 
 .footer-p {
@@ -371,17 +375,10 @@ hr {
   border-top: 2px solid black;
 }
 
-.sticky-title {
+.section-title {
   background-color: #f0f0f0;
   border-bottom: 2px solid #383838;
   padding-top: 0.25rem;
-  position: -webkit-sticky;
-  position: -moz-sticky;
-  position: -ms-sticky;
-  position: -o-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 1;
 }
 
 .right-border-large {
