@@ -14,6 +14,17 @@ function closeOthersLevel1(label){
 	}
 }
 
+function openLevel2(label){
+	var parent, list;
+	parent = label.parent().parent('.has-children');
+	list = label.parent().siblings('.acnav__list');
+
+	if (!(parent.hasClass('is-open'))) {
+		list.slideDown('fast');
+		parent.addClass('is-open');
+	}
+}
+
 function closeOthersLevel2(label){
 	label = label[0];
 	var labels = $('.acnav__label--level2');
@@ -57,6 +68,11 @@ function accordionToTop(){
 	}
 }
 
+function removeAccordionActive(){
+  $('.section-link').removeClass('active');
+	$('.subsection-link').removeClass('active');
+}
+
 $('.acnav__label').click(function () {
 	var label = $(this);
 	var parent,list;
@@ -88,6 +104,49 @@ $('.section-link').on('click',async function(){
   }
 });
 
+$('.subsection-link').on('click', async function(){
+	await removeAccordionActive();
+  $(this).addClass('active');
+});
+
 $('.acnav__link').on('click',function(){
-	closeAllLevel2();
-})
+	if ($(this).hasClass('acnav__link--level3')){
+
+	}else{
+		closeAllLevel2();
+	}
+});
+
+$(document).ready(function(){
+	  $('#content').scroll(function(event){
+	    var scrollPos = $('#content').scrollTop();
+	    var sections = [];
+	    var current, currentID, currentClass, accordionEl, level1Label, level1ID;
+	    $('[id^=section],[id^=subsection]').each(function(_, section) {
+	      if ($(section).position().top < 2 && $(section).position().top > (0 - $(section).outerHeight(true))){
+	        sections.push(section);
+	      }
+	    });
+	    current = $(sections[sections.length-1]);
+	    currentID = current.attr('id');
+			currentClass = current.attr('class');
+			if (currentClass == 'row'){
+				level1ID = current.parent().parent().attr('class').replace('article-', '');
+			}else{
+				level1ID = currentClass.replace('article-', '');
+			}
+			level1Label = $('#' + level1ID).children('.acnav__label');
+			level1Label.trigger('click');
+
+	    accordionEl = $('a[href="#'+currentID+'"]');
+			if (accordionEl.hasClass('acnav__link--level2')){
+				closeAllLevel2();
+			}else if(accordionEl.hasClass('drop')){
+				var label = accordionEl.children('.acnav__label');
+				closeOthersLevel2(label);
+				openLevel2(label);
+			}
+	    removeAccordionActive();
+	    accordionEl.addClass('active');
+	  });
+});

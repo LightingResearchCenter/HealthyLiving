@@ -19,10 +19,6 @@ function smoothScroll(id, offset1, offset2, hash, event){
   }
 }
 
-function removeAccordionActive(){
-  $('.section-link').removeClass('active');
-}
-
 $(document).ready(function(){
   if (!$("#fundamentals").hasClass("is-open")){
     $("#fundamentals div a").trigger("click");
@@ -62,7 +58,7 @@ $(document).ready(function(){
       scrollTop: $('#content').offset().top - 67
     }, 1200);
   });
-
+  
   // Scroll spy
   // $('#content').scroll(function(e){
   //     var scroll = $('#content').position().top;
