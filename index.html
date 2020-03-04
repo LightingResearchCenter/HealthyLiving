@@ -110,7 +110,7 @@
       </div>
 
     <!-- Banner -->
-    <div class="container-fluid h-100 mh-100 overflow-hidden sticky">
+    <div class="container-fluid h-100 mh-100 overflow-hidden">
       <div class="row banner">
         <div class="col">
           <div class="banner-text text-center">
@@ -133,8 +133,8 @@
     <a id="backToTop"><i class="fas fa-angle-up fa-3x"></i></a>
 
     <!-- Everything Below Banner -->
-    <div class="container-fluid sticky h-100-offset mh-100-offset overflow-hidden">
-      <div id="contentRow" class="row h-100-offset mh-100-offset sticky">
+    <div class="container-fluid h-100-offset mh-100-offset overflow-hidden">
+      <div id="contentRow" class="row h-100-offset mh-100-offset">
 
         <!-- Accordion -->
         <div class="col-xl-3 col-lg-4 col-md-5 col-sm-12 p-0 accordion h-100-plus-offset">
@@ -147,7 +147,7 @@
               </a>
               <div id="accordionCollapse" class="collapse show">
                 <ul class="acnav__list acnav__list--level1">
-                    <li id="fundamentals" class="has-children">
+                    <li id="fundamentals" class="acLevel1 has-children">
                       <div class="acnav__label fundamentalsIcon">
                         <a>Fundamentals</a>
                       </div>
@@ -189,14 +189,14 @@
                       </ul>
                       <!-- end level 2 -->
                     </li>
-                    <li id="manufacturers" class="has-children">
+                    <li id="manufacturers" class="acLevel1 has-children">
                       <div class="acnav__label manufacturersIcon">Manufacturer's / Designer's Steps</div>
                       <ul class="acnav__list acnav__list--level2">
                         <li>
                           <a class="acnav__link acnav__link--level2 emptyIcon section-link" href="#section-componentsOfCircadianDesign">Components of Circadian Design</a>
                         </li>
                         <li class="has-children">
-                          <div class="acnav__label acnav__label--level2 manufacturersInnerIcon"><a class="section-link" href="#section-informationAboutRoom">Information about Room</a></div>
+                          <a class="section-link drop" href="#section-informationAboutRoom"><div class="acnav__label acnav__label--level2 manufacturersInnerIcon">Information about Room</div></a>
                           <ul class="acnav__list acnav__list--level3">
                             <li>
                               <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-geographicLocation">Geographic Location</a>
@@ -231,7 +231,7 @@
                           </ul>
                         </li>
                         <li class="has-children">
-                          <div class="acnav__label acnav__label--level2 manufacturersInnerIcon"><a class="section-link" href="#section-lightingSolution">Lighting Solution</a></div>
+                          <a class="section-link drop" href="#section-lightingSolution"><div class="acnav__label acnav__label--level2 manufacturersInnerIcon">Lighting Solution</div></a>
                           <ul class="acnav__list acnav__list--level3">
                             <li>
                               <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-csMetric">CS Metric</a>
@@ -248,7 +248,7 @@
                           </ul>
                         </li>
                         <li class="has-children">
-                          <div class="acnav__label acnav__label--level2 manufacturersInnerIcon"><a class="section-link" href="#section-fixtures">Fixtures</a></div>
+                          <a class="section-link drop" href="#section-fixtures"><div class="acnav__label acnav__label--level2 manufacturersInnerIcon">Fixtures</div></a>
                           <ul class="acnav__list acnav__list--level3">
                             <li>
                               <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-retrofitOrNewDesign">Retrofit or New Design</a>
@@ -289,7 +289,7 @@
                           </ul>
                         </li>
                         <li class="has-children">
-                          <div class="acnav__label acnav__label--level2 manufacturersInnerIcon"><a class="section-link" href="#section-computerDesign">Computer Design</a></div>
+                          <a class="section-link drop" href="#section-computerDesign"><div class="acnav__label acnav__label--level2 manufacturersInnerIcon">Computer Design</div></a>
                           <ul class="acnav__list acnav__list--level3">
                             <li>
                               <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-lightingDesignSoftware">Lighting Design Software</a>
@@ -303,7 +303,7 @@
                           </ul>
                         </li>
                         <li class="has-children">
-                          <div class="acnav__label acnav__label--level2 manufacturersInnerIcon"><a class="section-link" href="#section-appliedDesign">Applied Design</a></div>
+                          <a class="section-link drop" href="#section-appliedDesign"><div class="acnav__label acnav__label--level2 manufacturersInnerIcon">Applied Design</div></a>
                           <ul class="acnav__list acnav__list--level3">
                             <li>
                               <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-illuminanceMeter">Illuminance Meter</a>
@@ -329,7 +329,7 @@
                           </ul>
                         </li>
                         <li class="has-children">
-                          <div class="acnav__label acnav__label--level2 manufacturersInnerIcon"><a class="section-link" href="#section-results">Results</a></div>
+                          <a class="section-link drop" href="#section-results"><div class="acnav__label acnav__label--level2 manufacturersInnerIcon">Results</div></a>
                           <ul class="acnav__list acnav__list--level3">
                             <li>
                               <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-avgVerticalIlluminance">Avg Vertical illuminance</a>
@@ -349,18 +349,18 @@
                           </ul>
                         </li>
                         <li>
-                          <a class="acnav__link acnav__link--level2 emptyIcon" href="#section-manufacturersSummary">Summary</a>
+                          <a class="acnav__link acnav__link--level2 section-link emptyIcon" href="#section-manufacturersSummary">Summary</a>
                         </li>
                       </ul>
                     </li>
-                    <li id="occupants" class="has-children">
+                    <li id="occupants" class="acLevel1 has-children">
                       <div class="acnav__label occupantsIcon">Occupant's Steps</div>
                       <ul class="acnav__list acnav__list--level2">
                         <li>
-                          <a class="acnav__link acnav__link--level2 emptyIcon" href="#section-personalLightingTechniques">Personal Lighting Techniques</a>
+                          <a class="acnav__link acnav__link--level2 section-link emptyIcon" href="#section-personalLightingTechniques">Personal Lighting Techniques</a>
                         </li>
                         <li class="has-children">
-                          <div class="acnav__label acnav__label--level2 occupantsInnerIcon"><a class="section-link" href="#section-learnMore">Learn More</a></div>
+                          <a class="section-link drop" href="#section-learnMore"><div class="acnav__label acnav__label--level2 occupantsInnerIcon">Learn More</div></a>
                           <ul class="acnav__list acnav__list--level3">
                             <li>
                               <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-occupantsCSMetric">CS Metric</a>
@@ -380,7 +380,7 @@
                           </ul>
                         </li>
                         <li class="has-children">
-                          <div class="acnav__label acnav__label--level2 occupantsInnerIcon"><a class="section-link" href="#section-personalLightDevices">Personal Light Devices</a></div>
+                          <a class="section-link drop" href="#section-personalLightDevices"><div class="acnav__label acnav__label--level2 occupantsInnerIcon">Personal Light Devices</div></a>
                           <ul class="acnav__list acnav__list--level3">
                             <li>
                               <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-generalInformation">General Information</a>
@@ -403,11 +403,11 @@
                           </ul>
                         </li>
                         <li>
-                          <a class="acnav__link acnav__link--level2 emptyIcon" href="#section-occupantsSummary">Summary</a>
+                          <a class="acnav__link acnav__link--level2 emptyIcon section-link" href="#section-occupantsSummary">Summary</a>
                         </li>
                       </ul>
                     </li>
-                    <li id="office" class="has-children">
+                    <li id="office" class="acLevel1 has-children">
                       <div class="acnav__label officeIcon">Office</div>
                       <ul class="acnav__list acnav__list--level2">
                         <li>
@@ -424,14 +424,14 @@
                         </li>
                       </ul>
                     </li>
-                    <li id="healthcare" class="has-children">
+                    <li id="healthcare" class="acLevel1 has-children">
                       <div class="acnav__label healthcareIcon">Healthcare</div>
                       <ul class="acnav__list acnav__list--level2">
                         <li>
                           <a class="acnav__link acnav__link--level2 emptyIcon section-link" href="#section-healthcareGeneralInformation">General Information</a>
                         </li>
                         <li class="has-children">
-                          <div class="acnav__label acnav__label--level2 healthcareInnerIcon"><a class="section-link" href="#section-healthcareOccupants">Occupants</a></div>
+                          <a class="section-link drop" href="#section-healthcareOccupants"><div class="acnav__label acnav__label--level2 healthcareInnerIcon">Occupants</div></a>
                           <ul class="acnav__list acnav__list--level3">
                             <li>
                               <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-healthcareShiftWorkers">Shift Workers</a>
@@ -445,7 +445,7 @@
                           </ul>
                         </li>
                         <li class="has-children">
-                          <div class="acnav__label acnav__label--level2 healthcareInnerIcon"><a class="section-link" href="#section-healthcareSpecialtyInformation">Specialty Information</a></div>
+                          <a class="section-link drop" href="#section-healthcareSpecialtyInformation"><div class="acnav__label acnav__label--level2 healthcareInnerIcon">Specialty Information</div></a>
                           <ul class="acnav__list acnav__list--level3">
                             <li>
                               <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-healthcareLightingInTheNICU">Lighting in the NICU</a>
@@ -463,7 +463,7 @@
                         </li>
                       </ul>
                     </li>
-                    <li id="seniorcare" class="has-children">
+                    <li id="seniorcare" class="acLevel1 has-children">
                       <div class="acnav__label seniorcareIcon">Senior Care</div>
                       <ul class="acnav__list acnav__list--level2">
                         <li>
@@ -473,7 +473,7 @@
                           <a class="acnav__link acnav__link--level2 emptyIcon section-link" href="#section-seniorcareOccupants">Occupants</a>
                         </li>
                         <li class="has-children">
-                          <div class="acnav__label acnav__label--level2 seniorcareInnerIcon"><a class="section-link" href="#section-seniorcareSpecialtyInformation">Specialty Information</a></div>
+                          <a class="section-link drop" href="#section-seniorcareSpecialtyInformation"><div class="acnav__label acnav__label--level2 seniorcareInnerIcon">Specialty Information</div></a>
                           <ul class="acnav__list acnav__list--level3">
                             <li>
                               <a class="acnav__link acnav__link--level3 emptyIcon subsection-link" href="#subsection-seniorcareAlzheimersDisease">Alzheimer's Disease</a>
@@ -491,7 +491,7 @@
                         </li>
                       </ul>
                     </li>
-                    <li id="additional" class="has-children">
+                    <li id="additional" class="acLevel1 has-children">
                       <div class="acnav__label additionalIcon">Additonal Information</div>
                       <ul class="acnav__list acnav__list--level2">
                         <li>
@@ -536,12 +536,12 @@
         </div>
 
         <!-- Main Content -->
-        <div id="content" class="col-xl-9 col-lg-8 col-md-7 col-sm-12 p-0 mb-2 h-100-plus-offset overflow-auto sticky">
+        <div id="content" class="col-xl-9 col-lg-8 col-md-7 col-sm-12 p-0 mb-2 h-100-plus-offset overflow-auto">
 
 
           <!-- Fundamentals -->
           <article id="section-ourRole" class="article-fundamentals">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Our Role</h2>
             </div>
             <div class="container-fluid mt-4 pr-4 article-content">
@@ -560,7 +560,7 @@
           </article>
 
           <article id="section-whatIsLight" class="article-fundamentals">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>What is Light</h2>
             </div>
             <div class="container-fluid mt-4 article-content">
@@ -579,7 +579,7 @@
           </article>
 
           <article id="section-lightingAndTheCircadianSystem" class="article-fundamentals">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Lighting and the Circadian System</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -712,7 +712,7 @@
           </article>
 
           <article id="section-sleepPressureAndDailyAlertness" class="article-fundamentals">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Sleep Pressure and Daily Alertness</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -745,7 +745,7 @@
           </article>
 
           <article id="section-structureOfTheEye" class="article-fundamentals">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Structure of the Eye</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -767,7 +767,7 @@
           </article>
 
           <article id="section-structureOfTheRetina" class="article-fundamentals">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Structure of the Retina</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -796,7 +796,7 @@
           </article>
 
           <article id="section-rodsAndCones" class="article-fundamentals">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Rods and Cones</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -831,7 +831,7 @@
           </article>
 
           <article id="section-ipGRC" class="article-fundamentals">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>ipRGC Photoreceptors</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -854,7 +854,7 @@
           </article>
 
           <article id="section-visualVsNonVisualSystems" class="article-fundamentals">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Visual vs. Non-visual Systems</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -873,7 +873,7 @@
           </article>
 
           <article id="section-whatIsCircadianLighting" class="article-fundamentals">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>What is Circadian Lighting?</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -923,7 +923,7 @@
           </article>
 
           <article id="section-fundamentalsSummary" class="article-fundamentals">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Summary</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -944,7 +944,7 @@
 
           <!-- Manufacturer's / Designer's Steps -->
           <article id="section-componentsOfCircadianDesign" class="article-manufacturers ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Components of Circadian Design</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -975,7 +975,7 @@
           </article>
 
           <article id="section-informationAboutRoom" class="article-manufacturers ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Information about Room</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -1087,7 +1087,7 @@
           </article>
 
           <article id="section-lightingSolution" class="article-manufacturers ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Lighting Solution</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -1165,7 +1165,7 @@
           </article>
 
           <article id="section-fixtures" class="article-manufacturers ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Fixtures</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -1313,7 +1313,7 @@
           </article>
 
           <article id="section-computerDesign" class="article-manufacturers ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Computer Design</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -1353,7 +1353,7 @@
           </article>
 
           <article id="section-appliedDesign" class="article-manufacturers ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Applied Design</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -1434,7 +1434,7 @@
           </article>
 
           <article id="section-results" class="article-manufacturers ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Results</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -1492,7 +1492,7 @@
           </article>
 
           <article id="section-manufacturersSummary" class="article-manufacturers ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Summary</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -1510,7 +1510,7 @@
 
           <!-- Occupant's Steps -->
           <article id="section-personalLightingTechniques" class="article-occupants ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Personal Lighting Techniques</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -1539,7 +1539,7 @@
           </article>
 
           <article id="section-learnMore" class="article-occupants ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Learn More</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -1634,7 +1634,7 @@
           </article>
 
           <article id="section-personalLightDevices" class="article-occupants ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Personal Light Devices</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -1918,7 +1918,7 @@
           </article>
 
           <article id="section-occupantsSummary" class="article-occupants ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Summary</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -1935,7 +1935,7 @@
 
           <!-- Office -->
           <article id="section-officeGeneralInformation" class="article-office ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>General Information</h2>
               <small>Watch this video to learn more about <a href="https://www.youtube.com/watch?v=8YNI6Mq9KSo" target="_blank">lighting for office workers</a></small>
             </div>
@@ -1957,7 +1957,7 @@
           </article>
 
           <article id="section-officeOccupants" class="article-office ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Occupants</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -1990,7 +1990,7 @@
           </article>
 
           <article id="section-officeSpecialtyInformation" class="article-office ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Specialty Information</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -2022,7 +2022,7 @@
           </article>
 
           <article id="section-officeSummary" class="article-office ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Summary</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -2039,7 +2039,7 @@
 
           <!-- Healthcare -->
           <article id="section-healthcareGeneralInformation" class="article-healthcare ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>General Information</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -2057,7 +2057,7 @@
           </article>
 
           <article id="section-healthcareOccupants" class="article-healthcare ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Occupants</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -2250,7 +2250,7 @@
           </article>
 
           <article id="section-healthcareSpecialtyInformation" class="article-healthcare ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Specialty Information</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -2354,7 +2354,7 @@
           </article>
 
           <article id="section-healthcareSummary" class="article-healthcare ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Summary</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -2371,7 +2371,7 @@
 
           <!-- Senior Care -->
           <article id="section-seniorcareGeneralInformation" class="article-seniorcare ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>General Information</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -2392,7 +2392,7 @@
           </article>
 
           <article id="section-seniorcareOccupants" class="article-seniorcare ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Occupants</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -2464,7 +2464,7 @@
           </article>
 
           <article id="section-seniorcareSpecialtyInformation" class="article-seniorcare ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Specialty Information</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -2570,7 +2570,7 @@
           </article>
 
           <article id="section-seniorcareSummary" class="article-seniorcare ">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Summary</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -2587,7 +2587,7 @@
 
           <!-- Additional Information -->
           <article id="section-about" class="article-additional">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>About Us</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -2607,7 +2607,7 @@
           </article>
 
           <article id="section-ourMission" class="article-additional">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Our Mission, Role, and Values</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -2622,7 +2622,7 @@
           </article>
 
           <article id="section-faq" class="article-additional">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Frequently Asked Questions</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -2652,7 +2652,7 @@
           </article>
 
           <article id="section-downloads" class="article-additional">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Downloads</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -2772,7 +2772,7 @@
           </article>
 
           <article id="section-resources" class="article-additional">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Resources</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -2787,7 +2787,7 @@
           </article>
 
           <article id="section-glossary" class="article-additional">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Glossary</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -2802,7 +2802,7 @@
           </article>
 
           <article id="section-references" class="article-additional">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>References</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -2817,7 +2817,7 @@
           </article>
 
           <article id="section-studies" class="article-additional">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>In-field Studies</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -2832,7 +2832,7 @@
           </article>
 
           <article id="section-sponsors" class="article-additional">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Sponsors</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -2860,7 +2860,7 @@
           </article>
 
           <article id="section-acknowledgements" class="article-additional">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Acknowledgements</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
@@ -2879,7 +2879,7 @@
           </article>
 
           <article id="section-suggestions" class="article-additional">
-            <div class="sticky-title text-center">
+            <div class="section-title text-center">
               <h2>Suggestions/Report a Bug</h2>
             </div>
             <div class="container-fluid mt-4 pr-4">
