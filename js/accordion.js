@@ -129,6 +129,15 @@ $(document).ready(function(){
 	    });
 	    current = $(sections[sections.length-1]);
 	    currentID = current.attr('id');
+      if (currentID == 'section-lightingAndTheCircadianSystem'){
+        $('#goodAnimation')[0].play();
+        $('#badAnimation')[0].play();
+      }else {
+        $('#goodAnimation')[0].currentTime = 0;
+        $('#goodAnimation')[0].pause();
+        $('#badAnimation')[0].currentTime = 0;
+        $('#badAnimation')[0].pause();
+      }
 			currentClass = current.attr('class');
 			if (currentClass == 'row'){
 				level1ID = current.parent().parent().attr('class').replace('article-', '');
