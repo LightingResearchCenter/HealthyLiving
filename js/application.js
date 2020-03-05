@@ -135,7 +135,8 @@ function main(){
     cct : "",
     time : "",
     view: 0,
-    infants: 0
+    infants: 0,
+    zone: 0
   };
   getFacility();
 }
@@ -289,7 +290,7 @@ function getSystem(){
   cacheSelectionImages("CCT");
   for (var i = 0; i < systems.length; i++){
     var _system = Object.keys(hb[data.facility][data.room][data.fixture][data.target])[i];
-    if (_system == "plan"){
+    if (_system.startsWith("plan")){
       continue;
     }
     var __system = _system.replace("[^a-zA-Z]", "").replace(/\s/g, '');
@@ -942,12 +943,16 @@ function generateCSContent(){
       $('#nurses_button').addClass('active');
       data.infants = 0;
       generateCSContent();
+      data.zone = 1;
+      generatePlan(hb[data.facility][data.room][data.fixture][data.target],data.view,data.zone);
     });
     $('#infants_button').click(function(){
       $('#nurses_button').removeClass('active');
       $('#infants_button').addClass('active');
       data.infants = 1;
       generateCSContent();
+      data.zone = 2;
+      generatePlan(hb[data.facility][data.room][data.fixture][data.target],data.view,data.zone);
     });
   }
 }
@@ -963,15 +968,24 @@ function generateRender(path){
       }else{
         data.view +=1;
       }
-      generatePlan(hb[data.facility][data.room][data.fixture][data.target],data.view);
+      generatePlan(hb[data.facility][data.room][data.fixture][data.target],data.view,data.zone);
       generateRender(path);
       generateAdjustments();
     });
   }
 }
 
-function generatePlan(path,view){
-  $('#final_plan_img').attr('src',path.plan[view]);
+function generatePlan(path,view,zone){
+  if(zone != 0){
+    if(zone == 1){
+      $('#final_plan_img').attr('src',path.plan[view]);
+    }else if (zone == 2){
+      console.log(path.plan2[view]);
+      $('#final_plan_img').attr('src',path.plan2[view]);
+    }
+  }else{
+    $('#final_plan_img').attr('src',path.plan[view]);
+  }
 }
 
 function generateFixtureIcons(fixture){
@@ -1092,7 +1106,7 @@ function generateContent(){
     buildHTML();
   }
   generateRender(render_path);
-  generatePlan(hb[data.facility][data.room][data.fixture][data.target],data.view);
+  generatePlan(hb[data.facility][data.room][data.fixture][data.target],data.view,data.zone);
   generateAdjustments();
   generateFixtureIcons(data.fixture);
   generateCSContent();
