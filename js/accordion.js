@@ -129,7 +129,7 @@ $(document).ready(function(){
 	    });
 	    current = $(sections[sections.length-1]);
 	    currentID = current.attr('id');
-      if (currentID == 'section-lightingAndTheCircadianSystem'){
+      if (currentID == 'section-lightingAndtheCircadianSystem'){
         $('#goodAnimation')[0].play();
         $('#badAnimation')[0].play();
       }else {

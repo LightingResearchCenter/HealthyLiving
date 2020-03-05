@@ -37,6 +37,14 @@ a.section-link{
   text-decoration: none;
 }
 
+a.ref{
+  color: #0056b3 !important;
+}
+
+a.ref:hover{
+  cursor: pointer;
+}
+
 .accordion-title{
   color: #fff;
   margin: 0;
