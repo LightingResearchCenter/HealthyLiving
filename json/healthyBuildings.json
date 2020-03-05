@@ -4471,7 +4471,8 @@
         {
           "0.4 8-hour" :
           {
-            "plan" : ["img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Troff.jpg","img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Troff_View2.jpg"],
+            "plan" : ["img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Troff_Z1.jpg","img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Troff_Z1_View2.jpg"],
+            "plan2" : ["img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Troff_Z2.jpg","img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Troff_Z2_View2.jpg"],
             "Static" :
             {
               "6500 K" :
@@ -4569,7 +4570,8 @@
           },
           "0.4 12-hour" :
           {
-            "plan" : ["img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Troff.jpg","img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Troff_View2.jpg"],
+            "plan" : ["img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Troff_Z1.jpg","img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Troff_Z1_View2.jpg"],
+            "plan2" : ["img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Troff_Z2.jpg","img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Troff_Z2_View2.jpg"],
             "Static" :
             {
               "6500 K" :
@@ -4671,7 +4673,8 @@
           "desc" : "A NICU (newborn intensive care unit) in a  hospital is where nurses watch over infants born prematurely. This 1975 sf room with a 12-foot ceiling includes a main desk with incubators around the perimeter of the room. Since nurses and infants have different circadian needs, zones of light should be created to achieve desired CS levels for both user types.",
           "0.4 8-hour" :
           {
-            "plan" : ["img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Cove.jpg","img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Cove_View2.jpg"],
+            "plan" : ["img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Cove_Z1.jpg","img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Cove_Z1_View2.jpg"],
+            "plan2" : ["img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Cove_Z2.jpg","img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Cove_Z2_View2.jpg"],
             "Static" :
             {
               "6500 K" :
@@ -4769,7 +4772,8 @@
           },
           "0.4 12-hour" :
           {
-            "plan" : ["img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Cove.jpg","img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Cove_View2.jpg"],
+            "plan" : ["img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Cove_Z1.jpg","img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Cove_Z1_View2.jpg"],
+            "plan2" : ["img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Cove_Z2.jpg","img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Cove_Z2_View2.jpg"],
             "Static" :
             {
               "6500 K" :
