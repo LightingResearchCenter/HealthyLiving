@@ -1,5 +1,8 @@
-// Basic accordion functions from https://codepen.io/byrnecode/pen/GxdQdQ
+/*jshint esversion: 8 */
+/*jshint -W030 */
+/*jshint -W083 */
 
+// Basic accordion functions from https://codepen.io/byrnecode/pen/GxdQdQ
 function closeOthersLevel1(label){
 	var labels = $('.acnav__label');
 	for(var i = 0; i < labels.length; i++){
@@ -129,7 +132,7 @@ $(document).ready(function(){
 	    });
 	    current = $(sections[sections.length-1]);
 	    currentID = current.attr('id');
-      if (currentID == 'section-lightingAndTheCircadianSystem'){
+      if (currentID == 'section-lightingAndtheCircadianSystem'){
         $('#goodAnimation')[0].play();
         $('#badAnimation')[0].play();
       }else {

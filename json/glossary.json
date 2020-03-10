@@ -1,0 +1,260 @@
+{"Glossary":
+  {
+    "1" :
+    {
+      "title" : "Ambient lighting",
+      "definition" : "The general lighting within a space and how the light fills a room."
+    },
+    "2" :
+    {
+      "title" : "Biological clock",
+      "definition" : "An organism’s innate timing mechanisms that control physiological and behavioral processes on a daily, seasonal, yearly, or other regular cycle. Composed of specific proteins that interact in cells throughout the body, biological clocks are found in nearly every tissue and organ."
+    },
+    "3" :
+    {
+      "title" : "Blackbody radiator",
+      "definition" : "A theoretical entity that absorbs all electromagnetic radiation incident upon it, neither reflecting nor transmitting that radiation."
+    },
+    "4" :
+    {
+      "title" : "Chronotype",
+      "definition" : "Classification of the tendency of one’s natural sleep-wake cycle to occur early (“early bird” or early riser) or late (“night owl” or late riser) in a typical 24-hour cycle."
+    },
+    "5" :
+    {
+      "title" : "Circadian entrainment",
+      "definition" : "Synchronization of the body’s circadian system to the 24-hour solar day and one’s local time on Earth."
+    },
+    "6" :
+    {
+      "title" : "Circadian light (CL<sub>A</sub>)",
+      "definition" : "Irradiance weighted by the spectral sensitivity of the retinal phototransduction mechanisms stimulating the response of the biological clock, based on nocturnal melatonin suppression."
+    },
+    "7" :
+    {
+      "title" : "Circadian rhythms",
+      "definition" : "Biological rhythms that repeat approximately every 24 hours, a word blending of the Latin terms circa (“about” or “approximately”) and dies (“day”)."
+    },
+    "8" :
+    {
+      "title" : "Circadian system",
+      "definition" : "The body’s endogenous timing system that aligns its physiology and behavior to the 24-hour solar day and local time on Earth. It includes the master biological clock, the peripheral clocks that exist in every organ and in most cells, and feedback-loops that generate oscillations in gene expression."
+    },
+    "9" :
+    {
+      "title" : "Cones",
+      "definition" : "One of the classes of retinal photoreceptors that participate in scotopic and mesopic vision. The three types of cones (short-, medium-, and long-wavelength) have varying spectral sensitivities that permit the discrimination of color."
+    },
+    "10" :
+    {
+      "title" : "Color rendering index (CRI)",
+      "definition" : "A rating index commonly used to represent how well a light source renders the colors of objects that it illuminates. For a CRI value of 100, the maximum value, the colors of objects can be expected to be seen as they would appear under an incandescent or daylight spectrum of the same correlated color temperature (CCT). Sources with CRI values less than 50 are generally regarded as rendering colors poorly, that is, colors may appear unnatural."
+    },
+    "11" :
+    {
+      "title" : "Color tunable system",
+      "definition" : "A RGB (red, green, blue) or RGBW system lighting system that can generate multiple CCTs."
+    },
+    "12" :
+    {
+      "title" : "Correlated color temperature (CCT)",
+      "definition" : "A measure of light source color appearance defined by the proximity of the light source's chromaticity coordinates to the blackbody locus, as a single number rather than the two required to specify a chromaticity."
+    },
+    "13" :
+    {
+      "title" : "Cortisol awakening response (CAR)",
+      "definition" : "The change in cortisol concentration that occurs in the first hour after waking from sleep."
+    },
+    "14" :
+    {
+      "title" : "Circadian stimulus (CS)",
+      "definition" : "A transformation of circadian light (CLA) into a relative scale from approximately 0.1 (≈ 10%), the threshold for circadian system activation, to approximately 0.7 (≈ 70%), response saturation, and is equivalent to nocturnal melatonin suppression in percent after a 1-h exposure to light."
+    },
+    "15" :
+    {
+      "title" : "CS calculator",
+      "definition" : "A web-based CS calculator developed by the LRC to help lighting professionals select light sources and light levels that will increase the potential for circadian-effective light exposure in architectural spaces.<br/>Use the LRC’s <a href='https://www.lrc.rpi.edu/cscalculator/'>CS calculator.</a><br/>Watch this video to learn <a href='https://www.youtube.com/watch?v=YBAtKaMr9SA'>how to use the CS calculator.</a>"
+    },
+    "16" :
+    {
+      "title" : "CS schedule",
+      "definition" : "The timing and duration of CS delivered the occupant(s) of a space."
+    },
+    "17" :
+    {
+      "title" : "Daysimeter",
+      "definition" : "A measurement tool developed by the LRC to estimate the spectrum and amount of light that reaches the eye to predict the CS level of a user. Learn more about the <a href='https://www.lrc.rpi.edu/programs/lightHealth/LightandDaysimeter.asp'>Daysimeter.</a>"
+    },
+    "18" :
+    {
+      "title" : "Dim light melatonin onset (DLMO)",
+      "definition" : "The onset of melatonin secretion, triggered in response to dim light, which typically occurs about 2 hours prior to regular bedtime."
+    },
+    "19" :
+    {
+      "title" : "Direct lighting",
+      "definition" : "Light emitted by a luminaire in the general direction of the work or task plane. The term usually refers to light emitted in a downward direction."
+    },
+    "20" :
+    {
+      "title" : "Dynamic CCT",
+      "definition" : "The spectral properties of a color-tunable lighting system that transitions between two or more CCTs over the course of the day rather than remaining static."
+    },
+    "21" :
+    {
+      "title" : "Dynamic occupant location",
+      "definition" : "Occupant locations, such as in an open office, that can change throughout the day rather than remaining fixed in one place."
+    },
+    "22" :
+    {
+      "title" : "Fixture housing",
+      "definition" : "The material around a lamp’s light source that permits its placement in a space. The fixture housing can provide optics that direct light in a specific direction."
+    },
+    "23" :
+    {
+      "title" : "Homeostatic",
+      "definition" : "Adjective, from homeostasis: “the maintenance of relatively constant conditions in the body… by physiological processes that act to counter any departure from the normal.” (<a href='https://www.oed.com/view/Entry/88025'>Oxford English Dictionary</a>)."
+    },
+    "24" :
+    {
+      "title" : "Horizontal illuminance (E<sub>H</sub>)",
+      "definition" : "The average density of luminous flux incident on a horizontal surface, measured in footcandles (fc) or lux. One fc equals 10.76 lux."
+    },
+    "25" :
+    {
+      "title" : "Human circadian phototransduction",
+      "definition" : "The process whereby the retina and the optic nerve convert non-visual light stimuli into electrical signals and convey them to master biological clock."
+    },
+    "26" :
+    {
+      "title" : "Illuminance",
+      "definition" : "The amount of light (luminous flux) incident on a surface area. Illuminance is measured in fc (lumens/square foot) or lux (lumens/square meter). One fc equals 10.76 lux."
+    },
+    "27" :
+    {
+      "title" : "Indirect lighting",
+      "definition" : "Light arriving at a surface after reflecting from one or more surfaces (usually walls and/or ceilings) that are not part of the luminaire."
+    },
+    "28" :
+    {
+      "title" : "Intensity distribution",
+      "definition" : "The shape and direction in which lumens are cast from a light source, usually represented by a candela plot."
+    },
+    "29" :
+    {
+      "title" : "Intrinsically photosensitive retinal ganglion cells (ipRGCs)",
+      "definition" : "Retinal neurons that play a central role in converting optical radiation on the retina into neural signals that control the timing of the master biological clock. They are maximally sensitive to radiation at 480 nm."
+    },
+    "30" :
+    {
+      "title" : "Lighting power density (LPD)",
+      "definition" : "Lighting power density (LPD) refers to the amount of energy used to light a room. It is measured in watts (from the light source) per square foot (of the room), or W/ft2."
+    },
+    "31" :
+    {
+      "keywords" : [""],
+      "title" : "Luminaires",
+      "definition" : "A complete lighting unit consisting of a lamp or lamps and the parts designed to distribute the light, to position and protect the lamp(s), and to connect the lamp(s) to the power supply. (Also referred to as fixture.)"
+    },
+    "32" :
+    {
+      "title" : "Master biological clock",
+      "definition" : "Located in the brain’s hypothalamus above the optic chiasm, the master biological clock is a cluster of about 20,000 nerve cells called the suprachiasmatic nucleus that receive input from the eyes and transmit timing signals to ensure that all of the body’s biological clocks are running on the same schedule. The master biological clock generates circadian rhythms in rest and activity, core body temperature, neuroendocrine function, autonomic function, memory and psychomotor performance, and a host of other behavioral and physiological processes."
+    },
+    "33" :
+    {
+      "title" : "Melatonin",
+      "definition" : "Known as the “darkness hormone” because it is released at night, is produced by the pineal gland in response to dim light received at the eyes during the early in the evening and prepares the body for sleep. Melatonin concentration in the bloodstream begins to diminish in the latter hours of sleep and remains barely detectable throughout the day."
+    },
+    "34" :
+    {
+      "title" : "Metamer",
+      "definition" : "A light source that appears to be the same color when interpreted by the human eye, but contains a different mixture of wavelengths or SPD."
+    },
+    "35" :
+    {
+      "title" : "Monochromatic",
+      "definition" : "A light source consisting of a single wavelength and that has a highly saturated color."
+    },
+    "36" :
+    {
+      "title" : "Narrow-band light",
+      "definition" : "A Light source with an optical bandwidth that is concentrated and peaks at a specific wavelength."
+    },
+    "37" :
+    {
+      "title" : "Peripheral vision",
+      "definition" : "Vision outside of the center of gaze, which is involved in the detection and location of stimuli and enables a reorientation of visual attention."
+    },
+    "38" :
+    {
+      "title" : "Phase advance",
+      "definition" : "Changing the timing of the endogenous 24-hour rhythm, in response to environmental stimuli, so that it occurs earlier."
+    },
+    "39" :
+    {
+      "title" : "Phase delay",
+      "definition" : "Changing the timing of the endogenous 24-hour rhythm, in response to environmental stimuli, so that it occurs later."
+    },
+    "40" :
+    {
+      "title" : "Photoreceptor",
+      "definition" : "The retinal neurons (i.e., rods and cones) that respond to light."
+    },
+    "41" :
+    {
+      "title" : "Post-lunch dip",
+      "definition" : "The time of the day where the sleep pressure accumulated throughout the day cannot be combatted by the body’s natural alerting signals, typically in the mid-afternoon (1:30–3:30 pm) or 16-18 hours after the previous night’s bedtime."
+    },
+    "42" :
+    {
+      "title" : "Rod",
+      "definition" : "Photoreceptor in the retina that is activated in low light levels. In darker lighting conditions, rods distinguish between light and dark."
+    },
+    "43" :
+    {
+      "title" : "Social jetlag",
+      "definition" : "The discrepancy between one’s sleep timing on work and free days, and between one’s “social clock” and circadian rhythm."
+    },
+    "44" :
+    {
+      "title" : "Spectral power distribution (SPD)",
+      "definition" : "Spectral Power Distribution, or SPD, refers to the distribution of wavelengths present in a white light source. These wavelengths range from 380 nm (violet) to 780 nm (red). The varying combination of these wavelengths make a white light source appear either more cooler-white or warmer-white."
+    },
+    "45" :
+    {
+      "title" : "Suprachiasmatic nucleus (SCN)",
+      "definition" : "See Master biological clock."
+    },
+    "46" :
+    {
+      "title" : "Task lighting",
+      "definition" : "Light directed onto a surface (e.g., table, book) where a task (e.g., eating, reading) is being performed."
+    },
+    "47" :
+    {
+      "title" : "UV radiation",
+      "definition" : "Any radiant energy within the wavelength range between 100 and 400 nm is considered ultraviolet radiation (1 nm = 1 billionth of a meter, or 1 X 10-9 m)."
+    },
+    "48" :
+    {
+      "title" : "Vertical illuminance (EV)",
+      "definition" : "The average density of luminous flux incident on a vertical surface, measured in footcandles (fc) or lux (lux). One fc equals 10.76 lux."
+    },
+    "49" :
+    {
+      "title" : "Visual acuity",
+      "definition" : "The clarity of vision, or how sharp a person can see an image."
+    },
+    "50" :
+    {
+      "title" : "White light",
+      "definition" : "Light source with a very broad optical bandwidth, typically categorized in terms of its position along the blackbody radiator and CCT."
+    },
+    "51" :
+    {
+      "title" : "Zeitgeber",
+      "definition" : "From German, meaning “time-giver.” Zeitgebers are environmental or behavioral cues that synchronize or entrain circadian systems to the solar day. Light is the most effective zeitgeber for the human circadian system."
+    }
+  }
+}
