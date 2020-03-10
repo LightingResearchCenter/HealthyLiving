@@ -1,5 +1,8 @@
-// Basic accordion functions from https://codepen.io/byrnecode/pen/GxdQdQ
+/*jshint esversion: 8 */
+/*jshint -W030 */
+/*jshint -W083 */
 
+// Basic accordion functions from https://codepen.io/byrnecode/pen/GxdQdQ
 function closeOthersLevel1(label){
 	var labels = $('.acnav__label');
 	for(var i = 0; i < labels.length; i++){

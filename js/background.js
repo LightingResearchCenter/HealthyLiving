@@ -1,105 +1,105 @@
 /*jshint esversion: 8 */
 /*jshint -W030 */
 /*jshint -W083 */
-var refJSON;
+var refJSON, glossaryJSON, references = {};
 
-// function smoothScroll(id, offset1, offset2, hash, event){
-//   if (Math.abs($(hash).position().top - $(id).position().top) < 5000){
-//     if (hash !== "") {
-//       $(id).animate({
-//         scrollTop: $(hash).position().top + $(id).scrollTop() + offset1
-//       }, 1200, function(){
-//         window.location.hash = hash + offset2;
-//         history.replaceState(undefined, undefined, hash);
-//       });
-//     }
-//   }else{
-//     if (hash !== "") {
-//       event.preventDefault();
-//       $(id).scrollTop( $(hash).position().top + $(id).scrollTop() + offset1);
-//       window.location.hash = hash + offset2;
-//       history.replaceState(undefined, undefined, hash);
-//       $('#content').scrollTop($('#content').scrollTop());
-//     }
-//   }
-// }
-function assignReferences(){
-  console.log(refJSON);
-  var id, count = 1;
-  $('a.ref').each(function(ref){
-    id = $(this).attr("data-refID");
-    $(this).attr('data-toggle', 'tooltip');
-    $(this).attr('data-html', 'true');
-    $(this).attr('title', refJSON[id]);
-    $(this).html('[' +count+']');
-    count++;
-  });
-}
-async function handleReferences(){
-  await assignReferences();
-  await $('[data-toggle="tooltip"]').tooltip();
-}
-
-$(document).ready(async function(){
+function ajaxWarning(){
   $.ajaxSetup({beforeSend: function(xhr){
     if (xhr.overrideMimeType){
       xhr.overrideMimeType("application/json");
     }
   }});
+}
 
-  await $.ajax({
-    url: "json/references.json",
+function getGlossaryJSON(){
+  $.ajax({
+    url: "json/glossary.json",
     async: false,
     dataType: 'json',
     success: function(result) {
       $.each(result,function(){
-        refJSON = this;
+        glossaryJSON = this;
       });
     }
   });
+}
 
-  handleReferences();
-
-  if (!$("#fundamentals").hasClass("is-open")){
-    $("#fundamentals div a").trigger("click");
+function handleGlossary(){
+  for (var id in glossaryJSON){
+    var str = '';
+    str += '<div class="row mb-4">';
+    str += '  <div class="col-md-3">';
+    str += '    <p class="glossaryTitle ">' +glossaryJSON[id].title+ '</p>';
+    str += '  </div>';
+    str += '  <div class="col-md-9">';
+    str += '    <p class="">'+glossaryJSON[id].definition+'</p>';
+    str += '  </div>';
+    str += '</div>';
+    $('#glossaryContent').append(str);
   }
+}
 
-  $(".help-menu-list-item").click(function(){
-    $(".help-menu-list-item").removeClass('active');
-    $(this).addClass('active');
-    var id = "#help-" + $(this).data('value');
-    $(".help-section").addClass('d-none');
-    $(id).removeClass('d-none');
-    $(".help-body").scrollTop();
+function getRefJSON(){
+    $.ajax({
+      url: "json/references.json",
+      async: false,
+      dataType: 'json',
+      success: function(result) {
+        $.each(result,function(){
+          refJSON = this;
+        });
+      }
+    });
+}
+
+function assignReferences(){
+  var id, count = 1;
+  $('a.ref').each(function(ref){
+    var currCount = count;
+    id = $(this).attr("data-refID");
+    $(this).attr('data-toggle', 'tooltip');
+    $(this).attr('data-html', 'true');
+    $(this).attr('title', refJSON[id]);
+    if (id in references){
+      $(this).html('[' +references[id]+']');
+    }else{
+      $(this).html('[' +count+']');
+      references[id] = count;
+      count++;
+    }
   });
+}
 
-  // $('a.segue').on('click',function(event){
-  //   smoothScroll('#content', 10, 1, $(this).attr('href'),event);
-  // });
+async function handleReferences(){
+  await assignReferences();
+  await $('[data-toggle="tooltip"]').tooltip();
+}
 
+function backgroundButton(){
   $("#backgroundButton").on('click', function(){
     $('html,body').animate({
       scrollTop: $('#content').offset().top - 67
     }, 1200);
   });
+}
 
-  $('#segueToManufacturers').on('click',function(){
-    $('#manufacturers').trigger('click');
-  });
-
-  $('[data-toggle="tooltip"]').tooltip();
-
-  if(window.innerWidth < 768){
-    $('#accordionCollapse').collapse("hide");
-  }
-
-  $(window).resize(function(){
-    if(window.innerWidth > 768 && (!$('#accordionCollapse').is(':visible'))){
-      $('#accordionCollapse').collapse("show");
+function accordion(){
+    if (!$("#fundamentals").hasClass("is-open")){
+      $("#fundamentals div a").trigger("click");
     }
-  });
 
+    if(window.innerWidth < 768){
+      $('#accordionCollapse').collapse("hide");
+    }
 
+    $(window).resize(function(){
+      if(window.innerWidth > 768 && (!$('#accordionCollapse').is(':visible'))){
+        $('#accordionCollapse').collapse("show");
+      }
+    });
+}
+
+function backToTop(){
   //https://codepen.io/matthewcain/pen/ZepbeR
   var bTT = $('#backToTop');
 
@@ -117,5 +117,35 @@ $(document).ready(async function(){
     $('#content').scrollTop(0);
     $('html, body').animate({scrollTop:0}, '300');
   });
+}
 
+function helpMenuItems(){
+  $(".help-menu-list-item").click(function(){
+    $(".help-menu-list-item").removeClass('active');
+    $(this).addClass('active');
+    var id = "#help-" + $(this).data('value');
+    $(".help-section").addClass('d-none');
+    $(id).removeClass('d-none');
+    $(".help-body").scrollTop();
+  });
+}
+
+$(document).ready(async function(){
+  ajaxWarning();
+
+  await getRefJSON();
+
+  handleReferences();
+
+  await getGlossaryJSON();
+
+  handleGlossary();
+
+  backgroundButton();
+
+  accordion();
+
+  backToTop();
+
+  helpMenuItems();
 });

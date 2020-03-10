@@ -45,6 +45,11 @@ a.ref:hover{
   cursor: pointer;
 }
 
+.glossaryTitle{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
 .accordion-title{
   color: #fff;
   margin: 0;
@@ -210,11 +215,6 @@ a.ref:hover{
   font-size: 20px;
   font-style: italic;
   text-align: center;
-}
-
-.cornell-border {
-  border-right: 2px solid #383838;
-  overflow: hidden;
 }
 
 .cornell-border h6 {
@@ -502,7 +502,12 @@ hr {
 }
 
 .suggestion-form{
+  height: 1220px;
   width: 100%;
+}
+
+.subsection-row{
+  padding-top: 1rem;
 }
 
 #backToTop {
@@ -535,23 +540,26 @@ hr {
   visibility: visible;
 }
 
-@media only screen and (max-width: 768px) {
-  .banner-title{
-    font-size:4em;
-    line-height: 4rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
+@media only screen and (max-width: 1200px){
   article{
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 @media only screen and (max-width: 992px) {
   article{
-    padding-left: 0;
-    padding-right: 0;
+    width: 100% !important;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    overflow: hidden;
+  }
+
+  #contentRow{
+    margin: 0;
+  }
+
+  #contentRow-container{
+    padding: 0;
   }
 
   .right-border-large {
@@ -567,9 +575,11 @@ hr {
     visibility: hidden;
   }
 }
-@media only screen and (max-width: 1200px){
-  article{
-    padding-left: 2rem;
-    padding-right: 2rem;
+@media only screen and (max-width: 768px) {
+  .banner-title{
+    font-size:4em;
+    line-height: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
