@@ -38,10 +38,11 @@ a.section-link{
 }
 
 a.ref{
-  color: #0056b3 !important;
+  color: #007bff !important;
 }
 
 a.ref:hover{
+  color: #0056b3 !important;
   cursor: pointer;
 }
 
@@ -204,13 +205,6 @@ a.ref:hover{
   width: 100%;
 }
 
-.segue {
-  cursor: pointer;
-  font-style: italic;
-  font-weight: bold;
-  text-decoration: none;
-}
-
 .italic {
   font-size: 20px;
   font-style: italic;
@@ -357,11 +351,6 @@ a.ref:hover{
 
 #content {
   color: #383838;
-}
-
-#content a[href^="#"] {
-  color: black;
-  text-decoration: underline;
 }
 
 hr {
