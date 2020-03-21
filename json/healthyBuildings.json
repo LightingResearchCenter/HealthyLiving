@@ -5,8 +5,10 @@
       "Assisted Living Single with Kitchen" :
       {
         "desc" : "A single-occupancy assisted living room is where a resident resides, and could have a personalized lighting design. This 390 sf living area with an 8-foot ceiling includes a kitchen area for personal use.The room also contains a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. From eating meals at the table, or relaxing on the couch or bed, designs should aim to reach desired CS levels in these locations.",
+        "cs graph path" : "",
         "2x4 Center Basket Troffer" :
         {
+          "cs chart path" : "",
           "0.4" :
           {
             "plan" :["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Kitchen_Troff.jpg"],
@@ -226,6 +228,7 @@
         },
         "Downlight" :
         {
+          "cs chart path" : "",
           "0.4" :
           {
             "plan" : ["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Kitchen_DN.jpg"],
@@ -439,6 +442,7 @@
         },
         "Flush Mount + Hanging Pendant" :
         {
+          "cs chart path" : "",
           "0.4" :
           {
             "plan" : ["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Kitchen_Flush.jpg"],
@@ -652,6 +656,7 @@
         },
         "Downlight + Flush Mount + Hanging Pendant + Wall Valance + Under Cabinet + TV Valance" :
         {
+          "cs chart path" : "",
           "0.4" :
           {
             "plan" : ["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Kitchen_Combo.jpg"],
@@ -866,9 +871,11 @@
       },
       "Nursing Home Single" :
       {
+        "cs graph path" : "",
         "desc" : "A single-occupancy nursing home room is where a resident resides, and could have a personalized lighting design. This 280 sf living area with an 8-foot ceiling includes a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. From eating meals at the table, or relaxing on the couch or bed, designs should aim to reach desired CS levels in these locations.",
         "2x4 Center Basket Troffer" :
         {
+          "cs chart path" : "",
           "0.4" :
           {
             "plan" : ["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Single_Troff.jpg"],
@@ -1082,6 +1089,7 @@
         },
         "Downlight" :
         {
+          "cs chart path" : "",
           "0.4" :
           {
             "plan" : ["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Single_DN.jpg"],
@@ -1295,6 +1303,7 @@
         },
         "Flush Mount + Hanging Pendant" :
         {
+          "cs chart path" : "",
           "0.4" :
           {
             "plan" : ["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Single_Flush.jpg"],
@@ -1508,6 +1517,7 @@
         },
         "Flush Mount + Hanging Pendant + Perimeter Valance" :
         {
+          "cs chart path" : "",
           "0.4" :
           {
             "plan" : ["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Single_Combo.jpg"],
@@ -1722,9 +1732,11 @@
       },
       "Common Area" :
       {
+        "cs graph path" : "",
         "desc" : "A common area in a senior care facility is where residents can spend most of their day. This 1550 sf common area with a 9-foot ceiling is divided into two areas for dining and activities. The dining area has round tables with chairs and the activity area has sofas, side tables, and rectangular tables with chairs for recreational use. From eating meals in the dining area, relaxing on the couch, or sitting at the activity tables, designs should aim to reach desired CS levels in these locations. Lighting schedules should be similar to those in individual’s rooms.",
         "2x4 Center Basket Troffer" :
         {
+          "cs chart path" : "senior_care/common/troff",
           "0.4" :
           {
             "plan" : ["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Common_Troff.jpg","img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Common_Troff_View2.jpg"],
@@ -1938,6 +1950,7 @@
         },
         "Downlight" :
         {
+          "cs chart path" : "senior_care/common/dn",
           "0.4" :
           {
             "plan" : ["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Common_DN.jpg","img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Common_DN_View2.jpg"],
@@ -2151,7 +2164,7 @@
         },
         "Cove + Floor Lamp + Table Lamp" :
         {
-          "desc" : "A common area in a senior care facility is where residents can spend most of their day. This 1550 sf common area with a 12-foot ceiling is divided into two areas for dining and activities. The dining area has round tables with chairs and the activity area has sofas, side tables, and rectangular tables with chairs for recreational use. From eating meals in the dining area, relaxing on the couch, or sitting at the activity tables, designs should aim to reach desired CS levels in these locations. Lighting schedules should be similar to those in individual’s rooms.",
+          "cs chart path" : "senior_care/common/cove",
           "0.4" :
           {
             "plan" : ["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Common_Cove.jpg","img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Common_Cove_View2.jpg"],
@@ -2365,6 +2378,7 @@
         },
         "Downlight + Hanging Pendant + Floor Lamp + Table Lamp" :
         {
+          "cs chart path" : "senior_care/common/dn",
           "0.4" :
           {
             "plan" : ["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Common_Combo.jpg","img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Common_Combo_View2.jpg"],
@@ -2582,6 +2596,7 @@
     {
       "Traditional Open Office" :
       {
+        "cs graph path" : "",
         "desc" : "A traditional open office layout consists of 4-foot tall cubicle dividers that separate the view of other desks. This 2640 sf office area with a 9-foot ceiling includes four clusters of four cubicles. Since a typical worker spends 8+ hours at their desk each day, it is essential to provide sufficient lighting for circadian entrainment and alertness.",
         "2x4 Troffer" :
         {
@@ -3123,6 +3138,7 @@
       },
       "New Open Office" :
       {
+        "cs graph path" : "",
         "desc" : "A new open-concept office layout provides a modern design for a more collaborative workplace. This 2640 sf office area with a 10-foot ceiling includes six clusters of six desks with short dividers in between the center row of the desks. Since a typical worker spends 8+ hours at their desk each day, it is essential to provide sufficient lighting for circadian entrainment and alertness.",
         "2x4 Troffer" :
         {
@@ -3664,6 +3680,7 @@
       },
       "Private Office" :
       {
+        "cs graph path" : "",
         "desc" : "A private office for a single individual can tailor a specific lighting design for its occupant. This 270 sf office area with a 9-foot ceiling includes a personal desk with two seats for visitors. Since a typical worker spends 8+ hours at their desk each day, it is essential to provide sufficient lighting for circadian entrainment and alertness.",
         "2x4 Troffer" :
         {
@@ -4118,6 +4135,7 @@
     {
       "Single Patient Room" :
       {
+        "cs graph path" : "",
         "desc" : "A single occupancy room in a hospital is where a patient can spend anywhere from one day to several months. This 290 sf room with a 9-foot ceiling includes a personal bathroom, hospital bed, television, and visitor chair. Since sleep and mood play a large role in recovery, it is advantageous to have proper lighting to encourage circadian entrainment, as well as create a welcoming atmosphere.",
         "2x4 Troffer + Wall Sconce" :
         {
@@ -4292,6 +4310,7 @@
       },
       "Double Patient Room" :
       {
+        "cs graph path" : "",
         "desc" : "A double occupancy room in a hospital is where one or two patients can spend anywhere from one day to several months. This 430 sf room with a 9-foot ceiling includes a personal bathroom, two hospital beds, two televisions, and visitor chairs. Since sleep and mood play a large role in recovery, it is advantageous to have proper lighting to encourage circadian entrainment, as well as create a welcoming atmosphere.",
         "2x4 Troffer + Wall Sconce" :
         {
@@ -4466,6 +4485,7 @@
       },
       "Neonatal Intensive Care Unit" :
       {
+        "cs graph path" : "",
         "desc" : "A NICU (newborn intensive care unit) in a  hospital is where nurses watch over infants born prematurely. This 1975 sf room with a 10-foot ceiling includes a main desk with incubators around the perimeter of the room. Since nurses and infants have different circadian needs, zones of light should be created to achieve desired CS levels for both user types.",
         "2x4 Troffer + Blue/Red Desk Luminaire + Perimeter Valance" :
         {
@@ -4873,6 +4893,7 @@
       },
       "Nurses Station" :
       {
+        "cs graph path" : "",
         "desc" : "A Nurse’s station in a hospital is where nurses spend their time when they’re not in patient rooms. This 1190 sf room with a 10-foot ceiling includes a main desk and workstations located off a hallway. Since nurse’s shifts go around the clock, lighting should accommodate for varying schedules.",
         "Recessed Linear + Blue/Red Desk Luminaire + Under Cabinet" :
         {
@@ -5246,6 +5267,7 @@
     {
       "Standard Classroom" :
       {
+        "cs graph path" : "",
         "desc": "",
         "2x4 Troffer" :
         {
@@ -5918,6 +5940,7 @@
       },
       "Special Education Classroom" :
       {
+        "cs graph path" : "",
         "desc": "",
         "2x4 Troffer" :
         {
@@ -6262,6 +6285,7 @@
       },
       "Lecture Hall" :
       {
+        "cs graph path" : "",
         "desc": "",
         "2x4 Troffer" :
         {
@@ -6622,6 +6646,7 @@
       },
       "Dorm" :
       {
+        "cs graph path" : "",
         "desc": "",
         "Floor Lamp + Task Lamp" :
         {

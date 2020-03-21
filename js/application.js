@@ -248,7 +248,7 @@ function getFixture(){
   cacheSelectionImages("Target");
   for (var i = 0; i < fixtures.length; i++){
     var _fixture = Object.keys(hb[data.facility][data.room])[i];
-    if (_fixture == "desc"){
+    if (_fixture == "desc" || _fixture == "cs graph path"){
       continue;
     }
     var __fixture = _fixture.replace("[^a-zA-Z]", "").replace(/\//g, '').replace(/\s/g, '').replace(/\+/g, "");
@@ -269,7 +269,7 @@ function getTarget(){
   cacheSelectionImages("System");
   for (var i = 0; i < targets.length; i++){
     var _target = Object.keys(hb[data.facility][data.room][data.fixture])[i];
-    if (_target == "desc"){
+    if (_target == "cs chart path"){
       continue;
     }
     var __target = _target.split(".").pop().replace("[^a-zA-Z]", "").replace(/\s/g, '');
@@ -318,7 +318,6 @@ function getCCT(){
       _target = data.target;
     }
     if (data.system=='Tunable'){
-      console.log(selection.CCT[_cct]);
       $('#application-modal-deck').append('<div class="card hover"><a id="'+__cct+'" data-value="'+___cct+'"><img class="card-img-top" src="'+selection.CCT[_cct].img+'" alt="CCT" /><div class="card-body"><hr/><p class="card-text">'+selection.CCT[_cct].desc+'</p></div></a></div>');
     }else{
       $('#application-modal-deck').append('<div class="card hover"><a id="'+__cct+'" data-value="'+___cct+'"><img class="card-img-top" src="'+selection.CCT[_cct].img+'" alt="CCT" /><div class="card-body"><h5 class="card-title">'+_cct+'</h5><hr/><p class="card-text">'+selection.CCT[_cct].desc+'</p></div></a></div>');
@@ -912,26 +911,19 @@ function handleRightPanelAccordion(){
 }
 
 function generateCSContent(){
-  var facility = data.facility;
-  var room = data.room;
-  var fixture = data.fixture;
-  var target = data.target;
-  var cct = data.cct;
-  var str = facility.replace(/ /g,'_')+ '/' +facility.replace(/ /g,'')+ '_' +target.toString().replace(/ /g,'_')+ '_' +cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
-
-  if (facility == "Office" && room == "Private Office" && fixture == "Downlight + Blue/Red Wall Wash"){
-    str = facility.replace(/ /g,'_')+ '/' +facility.replace(/ /g,'')+ '_' +cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
-  }
+  console.log('here');
+  var chart_path = hb[data.facility][data.room][data.fixture]["cs chart path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'');
+  var graph_path = hb[data.facility][data.room]["cs graph path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'');
 
   if (data.infants == 1){
-    str = facility.replace(/ /g,'_')+ '/' +facility.replace(/ /g,'')+ '_infants_' + cct.replace(/ /g,'').replace(/\>/g,'')+ '.jpg';
+    chart_path = hb[data.facility][data.room][data.fixture]["cs chart path"]+'/'+'infants_'+data.cct.replace(/ /g,'');
   }
 
-  $('#final_cs_graph_img').attr('src','img/application/cs_graphs/' + str);
-  $('#final_cs_chart_img').attr('src','img/application/cs_charts/' + str);
+  $('#final_cs_graph_img').attr('src','img/application/cs_graphs/' + graph_path + '.jpg');
+  $('#final_cs_chart_img').attr('src','img/application/cs_charts/' + chart_path + '.jpg');
 
   $('#cs-graph-buttons').remove();
-  if (room == "Neonatal Intensive Care Unit"){
+  if (data.room == "Neonatal Intensive Care Unit"){
     $('#final_cs_graph').append('<div id="cs-graph-buttons"><button id="nurses_button" class="btn btn-primary cs-graph-button">Nurses</button><button id="infants_button" class="btn btn-primary cs-graph-button">Infants</button></div>');
     if (data.infants == 1){
       $('#infants_button').addClass('active');
@@ -980,7 +972,6 @@ function generatePlan(path,view,zone){
     if(zone == 1){
       $('#final_plan_img').attr('src',path.plan[view]);
     }else if (zone == 2){
-      console.log(path.plan2[view]);
       $('#final_plan_img').attr('src',path.plan2[view]);
     }
   }else{
