@@ -475,7 +475,7 @@ function buildHTML(){
   str += '      <div class="row">';
   str += '        <div class="col-lg-6 col-md-12 mb-4">';
   str += '          <div class="card">';
-  str += '            <div class="card-body card-body-small-padding pb-0 drop-shadow">';
+  str += '            <div class="card-body card-body-small-padding drop-shadow">';
   str += '              <div class="container-fluid">';
   str += '                <div class="row">';
   str += '                  <div class="col-md-12 pl-0 pr-0">';

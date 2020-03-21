@@ -4,11 +4,11 @@
     {
       "Assisted Living Single with Kitchen" :
       {
+        "cs graph path" : "senior_care",
         "desc" : "A single-occupancy assisted living room is where a resident resides, and could have a personalized lighting design. This 390 sf living area with an 8-foot ceiling includes a kitchen area for personal use.The room also contains a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. From eating meals at the table, or relaxing on the couch or bed, designs should aim to reach desired CS levels in these locations.",
-        "cs graph path" : "",
         "2x4 Center Basket Troffer" :
         {
-          "cs chart path" : "",
+          "cs chart path" : "senior_care/single_w_kitchen/troff",
           "0.4" :
           {
             "plan" :["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Kitchen_Troff.jpg"],
@@ -228,7 +228,7 @@
         },
         "Downlight" :
         {
-          "cs chart path" : "",
+          "cs chart path" : "senior_care/single_w_kitchen/dn",
           "0.4" :
           {
             "plan" : ["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Kitchen_DN.jpg"],
@@ -442,7 +442,7 @@
         },
         "Flush Mount + Hanging Pendant" :
         {
-          "cs chart path" : "",
+          "cs chart path" : "senior_care/single_w_kitchen/hanging_pendant",
           "0.4" :
           {
             "plan" : ["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Kitchen_Flush.jpg"],
@@ -656,7 +656,7 @@
         },
         "Downlight + Flush Mount + Hanging Pendant + Wall Valance + Under Cabinet + TV Valance" :
         {
-          "cs chart path" : "",
+          "cs chart path" : "senior_care/single_w_kitchen/combo",
           "0.4" :
           {
             "plan" : ["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Kitchen_Combo.jpg"],
@@ -871,11 +871,11 @@
       },
       "Nursing Home Single" :
       {
-        "cs graph path" : "",
+        "cs graph path" : "senior_care",
         "desc" : "A single-occupancy nursing home room is where a resident resides, and could have a personalized lighting design. This 280 sf living area with an 8-foot ceiling includes a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. From eating meals at the table, or relaxing on the couch or bed, designs should aim to reach desired CS levels in these locations.",
         "2x4 Center Basket Troffer" :
         {
-          "cs chart path" : "",
+          "cs chart path" : "senior_care/single/troff",
           "0.4" :
           {
             "plan" : ["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Single_Troff.jpg"],
@@ -1089,7 +1089,7 @@
         },
         "Downlight" :
         {
-          "cs chart path" : "",
+          "cs chart path" : "senior_care/single/dn",
           "0.4" :
           {
             "plan" : ["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Single_DN.jpg"],
@@ -1303,7 +1303,7 @@
         },
         "Flush Mount + Hanging Pendant" :
         {
-          "cs chart path" : "",
+          "cs chart path" : "senior_care/single/hanging_pendant",
           "0.4" :
           {
             "plan" : ["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Single_Flush.jpg"],
@@ -1517,7 +1517,7 @@
         },
         "Flush Mount + Hanging Pendant + Perimeter Valance" :
         {
-          "cs chart path" : "",
+          "cs chart path" : "senior_care/single/combo",
           "0.4" :
           {
             "plan" : ["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Single_Combo.jpg"],
@@ -1732,7 +1732,7 @@
       },
       "Common Area" :
       {
-        "cs graph path" : "",
+        "cs graph path" : "senior_care",
         "desc" : "A common area in a senior care facility is where residents can spend most of their day. This 1550 sf common area with a 9-foot ceiling is divided into two areas for dining and activities. The dining area has round tables with chairs and the activity area has sofas, side tables, and rectangular tables with chairs for recreational use. From eating meals in the dining area, relaxing on the couch, or sitting at the activity tables, designs should aim to reach desired CS levels in these locations. Lighting schedules should be similar to those in individual’s rooms.",
         "2x4 Center Basket Troffer" :
         {
@@ -2378,7 +2378,7 @@
         },
         "Downlight + Hanging Pendant + Floor Lamp + Table Lamp" :
         {
-          "cs chart path" : "senior_care/common/dn",
+          "cs chart path" : "senior_care/common/combo",
           "0.4" :
           {
             "plan" : ["img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Common_Combo.jpg","img/application/facilities/senior_care/floor_plans/0.4/SeniorCare_Common_Combo_View2.jpg"],
@@ -2596,10 +2596,11 @@
     {
       "Traditional Open Office" :
       {
-        "cs graph path" : "",
+        "cs graph path" : "office",
         "desc" : "A traditional open office layout consists of 4-foot tall cubicle dividers that separate the view of other desks. This 2640 sf office area with a 9-foot ceiling includes four clusters of four cubicles. Since a typical worker spends 8+ hours at their desk each day, it is essential to provide sufficient lighting for circadian entrainment and alertness.",
         "2x4 Troffer" :
         {
+          "cs chart path" : "office/traditional/troff",
           "0.4" :
           {
             "plan" : ["img/application/facilities/office/floor_plans/0.4/Office_TradOpen_Troff.jpg"],
@@ -2779,6 +2780,7 @@
         },
         "Downlight" :
         {
+          "cs chart path" : "office/traditional/dn",
           "0.4" :
           {
             "plan" : ["img/application/facilities/office/floor_plans/0.4/Office_TradOpen_DN.jpg"],
@@ -2958,6 +2960,7 @@
         },
         "Direct/Indirect Linear Pendant" :
         {
+          "cs chart path" : "office/traditional/pendant",
           "0.4" :
           {
             "plan" : ["img/application/facilities/office/floor_plans/0.4/Office_TradOpen_DI.jpg"],
@@ -3138,10 +3141,11 @@
       },
       "New Open Office" :
       {
-        "cs graph path" : "",
+        "cs graph path" : "office",
         "desc" : "A new open-concept office layout provides a modern design for a more collaborative workplace. This 2640 sf office area with a 10-foot ceiling includes six clusters of six desks with short dividers in between the center row of the desks. Since a typical worker spends 8+ hours at their desk each day, it is essential to provide sufficient lighting for circadian entrainment and alertness.",
         "2x4 Troffer" :
         {
+          "cs chart path" : "office/new/troff",
           "0.4" :
           {
             "plan" : ["img/application/facilities/office/floor_plans/0.4/Office_NewOpen_Troff.jpg"],
@@ -3321,6 +3325,7 @@
         },
         "Downlight" :
         {
+          "cs chart path" : "office/new/dn",
           "0.4" :
           {
             "plan" : ["img/application/facilities/office/floor_plans/0.4/Office_NewOpen_DN.jpg"],
@@ -3500,6 +3505,7 @@
         },
         "Direct/Indirect Linear Pendant" :
         {
+          "cs chart path" : "office/new/pendant",
           "0.4" :
           {
             "plan" : ["img/application/facilities/office/floor_plans/0.4/Office_NewOpen_DI.jpg"],
@@ -3680,10 +3686,11 @@
       },
       "Private Office" :
       {
-        "cs graph path" : "",
+        "cs graph path" : "office",
         "desc" : "A private office for a single individual can tailor a specific lighting design for its occupant. This 270 sf office area with a 9-foot ceiling includes a personal desk with two seats for visitors. Since a typical worker spends 8+ hours at their desk each day, it is essential to provide sufficient lighting for circadian entrainment and alertness.",
         "2x4 Troffer" :
         {
+          "cs chart path" : "office/private/troff",
           "0.4" :
           {
             "plan" : ["img/application/facilities/office/floor_plans/0.4/Office_Private_Troff.jpg"],
@@ -3863,6 +3870,7 @@
         },
         "Direct/Indirect Linear Pendant" :
         {
+          "cs chart path" : "office/private/pendant",
           "0.4" :
           {
             "plan" : ["img/application/facilities/office/floor_plans/0.4/Office_Private_DI.jpg"],
@@ -4042,6 +4050,7 @@
         },
         "Downlight + Blue/Red Wall Wash" :
         {
+          "cs chart path" : "office/private/ww",
           "0.4" :
           {
             "plan" : ["img/application/facilities/office/floor_plans/0.4/Office_Private_DNWW.jpg"],
@@ -4135,10 +4144,11 @@
     {
       "Single Patient Room" :
       {
-        "cs graph path" : "",
+        "cs graph path" : "office",
         "desc" : "A single occupancy room in a hospital is where a patient can spend anywhere from one day to several months. This 290 sf room with a 9-foot ceiling includes a personal bathroom, hospital bed, television, and visitor chair. Since sleep and mood play a large role in recovery, it is advantageous to have proper lighting to encourage circadian entrainment, as well as create a welcoming atmosphere.",
         "2x4 Troffer + Wall Sconce" :
         {
+          "cs chart path" : "healthcare/single/troff",
           "0.3 SD" :
           {
             "plan" : ["img/application/facilities/healthcare/floor_plans/Healthcare_Single_Troff.jpg"],
@@ -4224,6 +4234,7 @@
         },
         "Recessed Linear + Downlight + Wall Wash + Wall Sconce" :
         {
+          "cs chart path" : "healthcare/single/combo",
           "0.3 SD" :
           {
             "plan" : ["img/application/facilities/healthcare/floor_plans/Healthcare_Single_RecessedLinear.jpg"],
@@ -4310,10 +4321,11 @@
       },
       "Double Patient Room" :
       {
-        "cs graph path" : "",
+        "cs graph path" : "office",
         "desc" : "A double occupancy room in a hospital is where one or two patients can spend anywhere from one day to several months. This 430 sf room with a 9-foot ceiling includes a personal bathroom, two hospital beds, two televisions, and visitor chairs. Since sleep and mood play a large role in recovery, it is advantageous to have proper lighting to encourage circadian entrainment, as well as create a welcoming atmosphere.",
         "2x4 Troffer + Wall Sconce" :
         {
+          "cs chart path" : "healthcare/dobule/troff",
           "0.3 SD" :
           {
             "plan" : ["img/application/facilities/healthcare/floor_plans/Healthcare_Double_Troff.jpg"],
@@ -4399,6 +4411,7 @@
         },
         "Recessed Linear + Downlight + Wall Wash + Wall Sconce" :
         {
+          "cs chart path" : "healthcare/dobule/combo",
           "0.3 SD" :
           {
             "plan" : ["img/application/facilities/healthcare/floor_plans/Healthcare_Double_RecessedLinear.jpg"],
@@ -4485,10 +4498,11 @@
       },
       "Neonatal Intensive Care Unit" :
       {
-        "cs graph path" : "",
+        "cs graph path" : "office",
         "desc" : "A NICU (newborn intensive care unit) in a  hospital is where nurses watch over infants born prematurely. This 1975 sf room with a 10-foot ceiling includes a main desk with incubators around the perimeter of the room. Since nurses and infants have different circadian needs, zones of light should be created to achieve desired CS levels for both user types.",
         "2x4 Troffer + Blue/Red Desk Luminaire + Perimeter Valance" :
         {
+          "cs chart path" : "healthcare/dobule/valence",
           "0.4 8-hour" :
           {
             "plan" : ["img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Troff_Z1.jpg","img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Troff_Z1_View2.jpg"],
@@ -4690,6 +4704,7 @@
         },
         "Recessed Linear + Blue/Red Downlight + Blue Wall Wash + Cove" :
         {
+          "cs chart path" : "healthcare/dobule/cove",
           "desc" : "A NICU (newborn intensive care unit) in a  hospital is where nurses watch over infants born prematurely. This 1975 sf room with a 12-foot ceiling includes a main desk with incubators around the perimeter of the room. Since nurses and infants have different circadian needs, zones of light should be created to achieve desired CS levels for both user types.",
           "0.4 8-hour" :
           {
@@ -4893,10 +4908,11 @@
       },
       "Nurses Station" :
       {
-        "cs graph path" : "",
+        "cs graph path" : "office",
         "desc" : "A Nurse’s station in a hospital is where nurses spend their time when they’re not in patient rooms. This 1190 sf room with a 10-foot ceiling includes a main desk and workstations located off a hallway. Since nurse’s shifts go around the clock, lighting should accommodate for varying schedules.",
         "Recessed Linear + Blue/Red Desk Luminaire + Under Cabinet" :
         {
+          "cs chart path" : "healthcare/dobule/under_cabinet",
           "0.4 8-hour" :
           {
             "plan" : ["img/application/facilities/healthcare/floor_plans/Healthcare_Nurses_DeskLuminaire.jpg","img/application/facilities/healthcare/floor_plans/Healthcare_Nurses_DeskLuminaire_View2.jpg"],
@@ -5080,6 +5096,7 @@
         },
         "Recessed Linear + Blue/Red Wall Wash" :
         {
+          "cs chart path" : "healthcare/dobule/ww",
           "0.4 8-hour" :
           {
             "plan" : ["img/application/facilities/healthcare/floor_plans/Healthcare_Nurses_WW.jpg","img/application/facilities/healthcare/floor_plans/Healthcare_Nurses_WW_View2.jpg"],
@@ -5267,10 +5284,11 @@
     {
       "Standard Classroom" :
       {
-        "cs graph path" : "",
+        "cs graph path" : "school/standard",
         "desc": "",
         "2x4 Troffer" :
         {
+          "cs chart path" : "school/standard/troff",
           "0.4 Teen" :
           {
             "plan" : ["img/application/facilities/school/floor_plans/School_Classroom_Troff.jpg"],
@@ -5438,6 +5456,7 @@
         },
         "Downlight" :
         {
+          "cs chart path" : "school/standard/dn",
           "0.4 Teen" :
           {
             "plan" : ["img/application/facilities/school/floor_plans/School_Classroom_DN.jpg"],
@@ -5605,6 +5624,7 @@
         },
         "Direct/Indirect Linear Pendant" :
         {
+          "cs chart path" : "school/standard/pendant",
           "0.4 Teen" :
           {
             "plan" : ["img/application/facilities/school/floor_plans/School_Classroom_DI.jpg"],
@@ -5772,6 +5792,7 @@
         },
         "2x2 Troffer + Linear Strip + Wall Wash" :
         {
+          "cs chart path" : "school/standard/pendant",
           "0.4 Teen" :
           {
             "plan" : ["img/application/facilities/school/floor_plans/School_Classroom_Combo.jpg"],
@@ -5940,10 +5961,11 @@
       },
       "Special Education Classroom" :
       {
-        "cs graph path" : "",
+        "cs graph path" : "school/spec_ed",
         "desc": "",
         "2x4 Troffer" :
         {
+          "cs chart path" : "school/spec_ed/troff",
           "0.3" :
           {
             "plan" : ["img/application/facilities/school/floor_plans/School_SpEd_Troff.jpg"],
@@ -6029,6 +6051,7 @@
         },
         "2x2 Troffer + Linear Strip" :
         {
+          "cs chart path" : "school/spec_ed/linear_strip",
           "0.4" :
           {
             "plan" : ["img/application/facilities/school/floor_plans/School_SpEd_Strip.jpg"],
@@ -6114,6 +6137,7 @@
         },
         "2x2 Troffer + Skylight Panel" :
         {
+          "cs chart path" : "school/spec_ed/skylight",
           "0.3" :
           {
             "plan" : ["img/application/facilities/school/floor_plans/School_SpEd_Skylight.jpg"],
@@ -6199,6 +6223,7 @@
         },
         "Cove + Downlight + Wall Wash" :
         {
+          "cs chart path" : "school/spec_ed/combo",
           "0.4" :
           {
             "plan" : ["img/application/facilities/school/floor_plans/School_SpEd_Combo.jpg"],
@@ -6285,10 +6310,11 @@
       },
       "Lecture Hall" :
       {
-        "cs graph path" : "",
+        "cs graph path" : "school/lecture",
         "desc": "",
         "2x4 Troffer" :
         {
+          "cs chart path" : "school/lecture/troff",
           "0.3" :
           {
             "plan" : ["img/application/facilities/school/floor_plans/School_LectureHall_Troff.jpg","img/application/facilities/school/floor_plans/School_LectureHall_Troff_View2.jpg"],
@@ -6374,6 +6400,7 @@
         },
         "Downlight" :
         {
+          "cs chart path" : "school/lecture/dn",
           "0.3" :
           {
             "plan" : ["img/application/facilities/school/floor_plans/School_LectureHall_DN.jpg","img/application/facilities/school/floor_plans/School_LectureHall_DN_View2.jpg"],
@@ -6459,6 +6486,7 @@
         },
         "Direct/Indirect Linear Pendant" :
         {
+          "cs chart path" : "school/lecture/pendant",
           "0.3" :
           {
             "plan" : ["img/application/facilities/school/floor_plans/School_LectureHall_DI.jpg","img/application/facilities/school/floor_plans/School_LectureHall_DI_View2.jpg"],
@@ -6544,6 +6572,7 @@
         },
         "Cove + Downlight + Wall Wash" :
         {
+          "cs chart path" : "school/spec_ed/ww",
           "0.4" :
           {
             "plan" : ["img/application/facilities/school/floor_plans/School_LectureHall_Combo.jpg","img/application/facilities/school/floor_plans/School_LectureHall_Combo_View2.jpg"],
