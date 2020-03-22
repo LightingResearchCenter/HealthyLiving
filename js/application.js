@@ -725,81 +725,21 @@ function generateFinalBreadcrumb(){
       $('.bc-cct').html(_cct);
     }
     $('.bc-facility').click(function(){
-      var _data = {
-        facility : "",
-        room : "",
-        fixture : "",
-        target : "",
-        system : "",
-        cct : "",
-        time : "",
-        view: 0
-      };
       getFacility();
     });
     $('.bc-room').click(function(){
-      var _data = {
-        facility : data.facility,
-        room : "",
-        fixture : "",
-        target : "",
-        system : "",
-        cct : "",
-        time : "",
-        view: 0
-      };
       getRoom();
     });
     $('.bc-fixture').click(function(){
-      var _data = {
-        facility : data.facility,
-        room : data.room,
-        fixture : "",
-        target : "",
-        system : "",
-        cct : "",
-        time : "",
-        view: 0
-      };
       getFixture();
     });
     $('.bc-target').click(function(){
-      var _data = {
-        facility : data.facility,
-        room : data.room,
-        fixture : data.facility,
-        target : "",
-        system : "",
-        cct : "",
-        time : "",
-        view: 0
-      };
       getTarget();
     });
     $('.bc-system').click(function(){
-      var _data = {
-        facility : data.facility,
-        room : data.room,
-        fixture : data.facility,
-        target : data.target,
-        system : "",
-        cct : "",
-        time : "",
-        view: 0
-      };
       getSystem();
     });
     $('.bc-cct').click(function(){
-      var _data = {
-        facility : data.facility,
-        room : data.room,
-        fixture : data.facility,
-        target : data.target,
-        system : data.system,
-        cct : "",
-        time : "",
-        view: 0
-      };
       getCCT();
     });
   });
@@ -910,8 +850,11 @@ function handleRightPanelAccordion(){
   });
 }
 
-function generateCSContent(){
+function generateCharts(){
   console.log('here');
+}
+
+function generateCSContent(){
   var chart_path = hb[data.facility][data.room][data.fixture]["cs chart path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'');
   var graph_path = hb[data.facility][data.room]["cs graph path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'');
 
@@ -1107,6 +1050,7 @@ function generateContent(){
   generateLightingSolution();
   generateFixtures();
   handleRightPanelAccordion();
+  generateCharts();
   if ($('#roomDescriptionTab').hasClass('collapsed')){
     $('#roomDescriptionTab').trigger('click');
   }
