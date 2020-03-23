@@ -36,6 +36,11 @@ p, ol, ul, li{
   content: "\e900";
 }
 
+.chart_img{
+  width: calc(100% + 1rem);
+  margin-left: -0.5rem;
+}
+
 .icon-plan-man{
   padding-bottom: .5rem;
   float: left;

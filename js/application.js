@@ -849,10 +849,10 @@ function generateCharts(){
     var footer_str = '<li class="nav-item nav-item-footer nav-item-footer-charts">';
     if (i == 0){
       footer_str += '<a id="show_chart_'+chart+'" class="nav-link nav-link-footer text-center active">'+charts[i]+'</a>';
-      $("#chart_images").append('<img id="chart_'+chart+'" class="mt-2" width="100%" src="img/application/charts/'+chart+'/'+chart_path+'.jpg" />');
+      $("#chart_images").append('<img id="chart_'+chart+'" class="mt-2 chart_img"  src="img/application/charts/'+chart+'/'+chart_path+'.jpg" />');
     }else{
       footer_str += '<a id="show_chart_'+chart+'" class="nav-link nav-link-footer text-center">'+charts[i]+'</a>';
-      $("#chart_images").append('<img id="chart_'+chart+'" class="mt-2 d-none" width="100%" src="img/application/charts/'+chart+'/'+chart_path+'.jpg" />');
+      $("#chart_images").append('<img id="chart_'+chart+'" class="mt-2 d-none chart_img"  src="img/application/charts/'+chart+'/'+chart_path+'.jpg" />');
     }
     footer_str += '</li>';
     $("#chart_footer").append(footer_str);
@@ -874,7 +874,7 @@ function generateCharts(){
   }
 
   var ratio_path = 'img/application/charts/ratio/' + data.facility.replace(" ","_").toLowerCase() + '/' + data.room.replace(" ","_").toLowerCase() + '.jpg';
-  $("#chart_images").append('<img id="chart_ratio" class="mt-2 d-none" width="100%" src="'+ratio_path+'" />');
+  $("#chart_images").append('<img id="chart_ratio" class="mt-2 d-none chart_img"  src="'+ratio_path+'" />');
   var ratio_footer_str = '<li class="nav-item nav-item-footer nav-item-footer-charts">';
   ratio_footer_str += '<a id="show_chart_ratio" class="nav-link nav-link-footer text-center">Ratio</a>';
   ratio_footer_str += '</li>';
@@ -893,7 +893,7 @@ function generateCharts(){
   });
 
   var ev_path = 'img/application/charts/ev/' + data.facility.replace(" ", "_").toLowerCase() + '/' + data.target + '.jpg';
-  $("#chart_images").append('<img id="chart_ev" class="mt-2 d-none" width="100%" src="'+ev_path+'" />');
+  $("#chart_images").append('<img id="chart_ev" class="mt-2 d-none chart_img"  src="'+ev_path+'" />');
   var ev_footer_str = '<li class="nav-item nav-item-footer nav-item-footer-charts">';
   ev_footer_str += '<a id="show_chart_ev" class="nav-link nav-link-footer text-center">Ev</a>';
   ev_footer_str += '</li>';
