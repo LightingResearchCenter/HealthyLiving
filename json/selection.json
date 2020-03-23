@@ -290,6 +290,11 @@
         "img" : "img/application/selection/4_Target_CS/0.4_long.jpg",
         "desc" : "With nurses having varying shift schedules, it is important to optimize the circadian system’s entrainment to these schedules. The duration of a circadian stimulus >0.3 can impact the biological system and entrain a nurse to the shift he/she works. Choose circadian schedule based on:<ul><li>Nurse’s schedule: Night-shift<ul><li>If shift begins in the late afternoon, and the circadian system of nurses should be shifted slightly.</li></ul></li></ul>"
       },
+      "0.4 Teen Pre-teen" :
+      {
+        "img" : "",
+        "desc" : ""
+      },
       "0.4 Teen" :
       {
         "img" : "img/application/selection/4_Target_CS/0.4_teen.jpg",

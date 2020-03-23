@@ -5359,15 +5359,15 @@
             {
               "6500 K -> 5000 K -> 4000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/classroom/troffers/School_Classroom_Troff_Tunable_0.4_6500K.jpg"]
               },
               "5000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/classroom/troffers/School_Classroom_Troff_Tunable_0.4_5000K.jpg"]
               },
               "4000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/classroom/troffers/School_Classroom_Troff_Tunable_0.4_4000K.jpg"]
               }
             }
           },
@@ -5441,15 +5441,15 @@
             {
               "6500 K -> 5000 K -> 4000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/classroom/troffers/School_Classroom_Troff_Tunable_0.3_6500K.jpg"]
               },
               "5000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/classroom/troffers/School_Classroom_Troff_Tunable_0.3_5000K.jpg"]
               },
               "4000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/classroom/troffers/School_Classroom_Troff_Tunable_0.3_4000K.jpg"]
               }
             }
           }
@@ -5527,15 +5527,15 @@
             {
               "6500 K -> 5000 K -> 4000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/classroom/downlights/School_Classroom_DN_Tunable_0.4_6500K.jpg"]
               },
               "5000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/classroom/downlights/School_Classroom_DN_Tunable_0.4_5000K.jpg"]
               },
               "4000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/classroom/downlights/School_Classroom_DN_Tunable_0.4_4000K.jpg"]
               }
             }
           },
@@ -5609,15 +5609,15 @@
             {
               "6500 K -> 5000 K -> 4000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/classroom/downlights/School_Classroom_DN_Tunable_0.3_6500K.jpg"]
               },
               "5000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/classroom/downlights/School_Classroom_DN_Tunable_0.3_5000K.jpg"]
               },
               "4000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/classroom/downlights/School_Classroom_DN_Tunable_0.3_4000K.jpg"]
               }
             }
           }
@@ -5695,15 +5695,15 @@
             {
               "6500 K -> 5000 K -> 4000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/classroom/pendant/School_Classroom_Pendant_Tunable_0.4_6500K.jpg"]
               },
               "5000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/classroom/pendant/School_Classroom_Pendant_Tunable_0.4_5000K.jpg"]
               },
               "4000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/classroom/pendant/School_Classroom_Pendant_Tunable_0.4_4000K.jpg"]
               }
             }
           },
@@ -5777,15 +5777,15 @@
             {
               "6500 K -> 5000 K -> 4000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/classroom/pendant/School_Classroom_Pendant_Tunable_0.3_6500K.jpg"]
               },
               "5000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/classroom/pendant/School_Classroom_Pendant_Tunable_0.3_5000K.jpg"]
               },
               "4000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/classroom/pendant/School_Classroom_Pendant_Tunable_0.3_4000K.jpg"]
               }
             }
           }
@@ -5793,7 +5793,7 @@
         "2x2 Troffer + Linear Strip + Wall Wash" :
         {
           "chart path" : "school/standard/pendant",
-          "0.4 Teen" :
+          "0.4 Teen Pre-teen" :
           {
             "plan" : ["img/application/facilities/school/floor_plans/School_Classroom_Combo.jpg"],
             "Static" :
@@ -5863,97 +5863,15 @@
             {
               "6500 K -> 5000 K -> 4000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/classroom/combo/School_Classroom_Combo_Tunable_0.4_6500K.jpg"]
               },
               "5000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/classroom/combo/School_Classroom_Combo_Tunable_0.4_5000K.jpg"]
               },
               "4000 K -> 4000 K -> 3000 K":
               {
-
-              }
-            }
-          },
-          "0.4 Pre-teen" :
-          {
-            "plan" : ["img/application/facilities/school/floor_plans/School_Classroom_Combo.jpg"],
-            "Static" :
-            {
-              "6500 K" :
-              {
-                "Morning 0.4 B" :
-                {
-                  "render" : ["img/application/facilities/school/renders/classroom/combo/School_Classroom_Combo_6500K_0.4Morn.jpg"]
-                },
-                "Afternoon 0.3 W" :
-                {
-                  "render" : ["img/application/facilities/school/renders/classroom/combo/School_Classroom_Combo_6500K_0.3Aft.jpg"]
-                },
-                "Evening/Night 0.1 W" :
-                {
-                  "render" : ["img/application/facilities/school/renders/classroom/combo/School_Classroom_Combo_6500K_0.1Eve.jpg"]
-                }
-              },
-              "5000 K" :
-              {
-                "Morning 0.4 B" :
-                {
-                  "render" : ["img/application/facilities/school/renders/classroom/combo/School_Classroom_Combo_5000K_0.4Morn.jpg"]
-                },
-                "Afternoon 0.3 W" :
-                {
-                  "render" : ["img/application/facilities/school/renders/classroom/combo/School_Classroom_Combo_5000K_0.3Aft.jpg"]
-                },
-                "Evening/Night 0.1 W" :
-                {
-                  "render" : ["img/application/facilities/school/renders/classroom/combo/School_Classroom_Combo_5000K_0.1Eve.jpg"]
-                }
-              },
-              "4000 K" :
-              {
-                "Morning 0.4 B" :
-                {
-                  "render" : ["img/application/facilities/school/renders/classroom/combo/School_Classroom_Combo_4000K_0.4Morn.jpg"]
-                },
-                "Afternoon 0.3 W" :
-                {
-                  "render" : ["img/application/facilities/school/renders/classroom/combo/School_Classroom_Combo_4000K_0.3Aft.jpg"]
-                },
-                "Evening/Night 0.1 W" :
-                {
-                  "render" : ["img/application/facilities/school/renders/classroom/combo/School_Classroom_Combo_4000K_0.1Eve.jpg"]
-                }
-              },
-              "3000 K" :
-              {
-                "Morning 0.4 B" :
-                {
-                  "render" : ["img/application/facilities/school/renders/classroom/combo/School_Classroom_Combo_3000K_0.4Morn.jpg"]
-                },
-                "Afternoon 0.3 W" :
-                {
-                  "render" : ["img/application/facilities/school/renders/classroom/combo/School_Classroom_Combo_3000K_0.3Aft.jpg"]
-                },
-                "Evening/Night 0.1 W" :
-                {
-                  "render" : ["img/application/facilities/school/renders/classroom/combo/School_Classroom_Combo_3000K_0.1Eve.jpg"]
-                }
-              }
-            },
-            "Tunable" :
-            {
-              "6500 K -> 5000 K -> 4000 K":
-              {
-
-              },
-              "5000 K -> 4000 K -> 3000 K":
-              {
-
-              },
-              "4000 K -> 4000 K -> 3000 K":
-              {
-
+                "render" : ["img/application/facilities/school/renders/classroom/combo/School_Classroom_Combo_Tunable_0.4_4000K.jpg"]
               }
             }
           }
@@ -6036,15 +5954,15 @@
             {
               "6500 K -> 5000 K -> 4000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/special_education/troffers/School_SpEd_Troff_Tunable_0.3_6500K.jpg"]
               },
               "5000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/special_education/troffers/School_SpEd_Troff_Tunable_0.3_5000K.jpg"]
               },
               "4000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/special_education/troffers/School_SpEd_Troff_Tunable_0.3_4000K.jpg"]
               }
             }
           }
@@ -6122,15 +6040,15 @@
             {
               "6500 K -> 5000 K -> 4000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_strip_Tunable_0.4_6500K.jpg"]
               },
               "5000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_strip_Tunable_0.4_5000K.jpg"]
               },
               "4000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/special_education/strip/School_SpEd_strip_Tunable_0.4_4000K.jpg"]
               }
             }
           }
@@ -6138,7 +6056,7 @@
         "2x2 Troffer + Skylight Panel" :
         {
           "chart path" : "school/spec_ed/skylight",
-          "0.3" :
+          "0.4" :
           {
             "plan" : ["img/application/facilities/school/floor_plans/School_SpEd_Skylight.jpg"],
             "Static" :
@@ -6208,15 +6126,15 @@
             {
               "6500 K -> 5000 K -> 4000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/special_education/skylight/School_SpEd_skylight_Tunable_0.4_6500K.jpg"]
               },
               "5000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/special_education/skylight/School_SpEd_skylight_Tunable_0.4_5000K.jpg"]
               },
               "4000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/special_education/skylight/School_SpEd_skylight_Tunable_0.4_4000K.jpg"]
               }
             }
           }
@@ -6294,15 +6212,15 @@
             {
               "6500 K -> 5000 K -> 4000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_combo_Tunable_0.4_6500K.jpg"]
               },
               "5000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_combo_Tunable_0.4_5000K.jpg"]
               },
               "4000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/special_education/combo/School_SpEd_combo_Tunable_0.4_4000K.jpg"]
               }
             }
           }
@@ -6385,15 +6303,15 @@
             {
               "6500 K -> 5000 K -> 4000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/lecture_hall/troffer/view1/School_LectureHall_Troff_Tunable_0.3_6500K.jpg","img/application/facilities/school/renders/lecture_hall/troffer/view2/School_LectureHall2_Troff_Tunable_0.3_6500K.jpg"]
               },
               "5000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/lecture_hall/troffer/view1/School_LectureHall_Troff_Tunable_0.3_5000K.jpg","img/application/facilities/school/renders/lecture_hall/troffer/view2/School_LectureHall2_Troff_Tunable_0.3_5000K.jpg"]
               },
               "4000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/lecture_hall/troffer/view1/School_LectureHall_Troff_Tunable_0.3_4000K.jpg","img/application/facilities/school/renders/lecture_hall/troffer/view2/School_LectureHall2_Troff_Tunable_0.3_4000K.jpg"]
               }
             }
           }
@@ -6471,15 +6389,15 @@
             {
               "6500 K -> 5000 K -> 4000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/lecture_hall/downlight/view1/School_LectureHall_DN_Tunable_0.3_6500K.jpg","img/application/facilities/school/renders/lecture_hall/downlight/view2/School_LectureHall2_DN_Tunable_0.3_6500K.jpg"]
               },
               "5000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/lecture_hall/downlight/view1/School_LectureHall_DN_Tunable_0.3_5000K.jpg","img/application/facilities/school/renders/lecture_hall/downlight/view2/School_LectureHall2_DN_Tunable_0.3_5000K.jpg"]
               },
               "4000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/lecture_hall/downlight/view1/School_LectureHall_DN_Tunable_0.3_4000K.jpg","img/application/facilities/school/renders/lecture_hall/downlight/view2/School_LectureHall2_DN_Tunable_0.3_4000K.jpg"]
               }
             }
           }
@@ -6557,15 +6475,15 @@
             {
               "6500 K -> 5000 K -> 4000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/lecture_hall/pendant/view1/School_LectureHall_Pendant_Tunable_0.3_6500K.jpg","img/application/facilities/school/renders/lecture_hall/pendant/view2/School_LectureHall2_Pendant_Tunable_0.3_6500K.jpg"]
               },
               "5000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/lecture_hall/pendant/view1/School_LectureHall_Pendant_Tunable_0.3_5000K.jpg","img/application/facilities/school/renders/lecture_hall/pendant/view2/School_LectureHall2_Pendant_Tunable_0.3_5000K.jpg"]
               },
               "4000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/lecture_hall/pendant/view1/School_LectureHall_Pendant_Tunable_0.3_4000K.jpg","img/application/facilities/school/renders/lecture_hall/pendant/view2/School_LectureHall2_Pendant_Tunable_0.3_4000K.jpg"]
               }
             }
           }
@@ -6659,15 +6577,15 @@
             {
               "6500 K -> 5000 K -> 4000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_LectureHall_combo_Tunable_0.4_6500K.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_LectureHall2_combo_Tunable_0.4_6500K.jpg"]
               },
               "5000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_LectureHall_combo_Tunable_0.4_5000K.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_LectureHall2_combo_Tunable_0.4_5000K.jpg"]
               },
               "4000 K -> 4000 K -> 3000 K":
               {
-
+                "render" : ["img/application/facilities/school/renders/lecture_hall/combo/view1/School_LectureHall_combo_Tunable_0.4_4000K.jpg","img/application/facilities/school/renders/lecture_hall/combo/view2/School_LectureHall2_combo_Tunable_0.4_4000K.jpg"]
               }
             }
           }
