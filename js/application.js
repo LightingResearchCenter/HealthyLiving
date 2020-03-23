@@ -269,7 +269,7 @@ function getTarget(){
   cacheSelectionImages("System");
   for (var i = 0; i < targets.length; i++){
     var _target = Object.keys(hb[data.facility][data.room][data.fixture])[i];
-    if (_target == "cs chart path"){
+    if (_target == "chart path"){
       continue;
     }
     var __target = _target.split(".").pop().replace("[^a-zA-Z]", "").replace(/\s/g, '');
@@ -606,25 +606,13 @@ function buildHTML(){
   str += '                <h5 class="card-title right-panel-h5 mb-0">Charts</h5>';
   str += '                <div class="chartsContent right-panel-content right-panel-content-container collapse">';
   str += '                  <hr class="right-panel-hr" />';
-  str += '                    <div class="right-panel-padding">';
-  str += '                     <img id="chart1" class="mt-2" width="100%" src="img/application/charts/1.jpg" />';
-  str += '                     <img id="chart2" class="mt-2 d-none" width="100%" src="img/application/charts/2.jpg" />';
-  str += '                     <img id="chart3" class="mt-2 d-none" width="100%" src="img/application/charts/3.jpg" />';
+  str += '                    <div id="chart_images" class="right-panel-padding">';
   str += '                    </div>';
   str += '                </div>';
   str += '              </div>';
   str += '            </a>';
   str += '            <div class="card-footer chart-cart-footer chartsContent right-panel-content-container collapse">';
-  str += '              <ul class="nav nav-tabs nav-tabs-footer card-footer-tabs">';
-  str += '                <li class="nav-item nav-item-footer nav-item-footer-charts">';
-  str += '                  <a id="showChart1" class="nav-link nav-link-footer text-center active">Lumens</a>';
-  str += '                </li>';
-  str += '                <li class="nav-item nav-item-footer nav-item-footer-charts">';
-  str += '                  <a id="showChart2" class="nav-link nav-link-footer text-center">LPD</a>';
-  str += '                </li>';
-  str += '                <li class="nav-item nav-item-footer nav-item-footer-charts">';
-  str += '                  <a id="showChart3" class="nav-link nav-link-footer text-center">E<sub>V</sub></a>';
-  str += '                </li>';
+  str += '              <ul id="chart_footer" class="nav nav-tabs nav-tabs-footer card-footer-tabs">';
   str += '              </ul>';
   str += '            </div>';
   str += '          </div>';
@@ -851,15 +839,86 @@ function handleRightPanelAccordion(){
 }
 
 function generateCharts(){
-  console.log('here');
+  $('#chart_images').html("");
+  $('#chart_footer').html("");
+  var charts = ["Energy","Lpd"];
+
+  var chart_path = hb[data.facility][data.room][data.fixture]["chart path"]+'/'+data.target;
+  for (var i in charts){
+    var chart = charts[i].toLowerCase();
+    var footer_str = '<li class="nav-item nav-item-footer nav-item-footer-charts">';
+    if (i == 0){
+      footer_str += '<a id="show_chart_'+chart+'" class="nav-link nav-link-footer text-center active">'+charts[i]+'</a>';
+      $("#chart_images").append('<img id="chart_'+chart+'" class="mt-2" width="100%" src="img/application/charts/'+chart+'/'+chart_path+'.jpg" />');
+    }else{
+      footer_str += '<a id="show_chart_'+chart+'" class="nav-link nav-link-footer text-center">'+charts[i]+'</a>';
+      $("#chart_images").append('<img id="chart_'+chart+'" class="mt-2 d-none" width="100%" src="img/application/charts/'+chart+'/'+chart_path+'.jpg" />');
+    }
+    footer_str += '</li>';
+    $("#chart_footer").append(footer_str);
+
+    $('#show_chart_'+chart).click(function(){
+      var this_chart = this.id.replace("show_chart_","");
+      for (var j in charts){
+        var _chart = charts[j].toLowerCase();
+        $('#chart_'+_chart).addClass('d-none');
+        $('#show_chart_'+_chart).removeClass('active');
+      }
+      $('#chart_ratio').addClass('d-none');
+      $('#show_chart_ratio').removeClass('active');
+      $('#chart_ev').addClass('d-none');
+      $('#show_chart_ev').removeClass('active');
+      $('#chart_'+this_chart).removeClass('d-none');
+      $('#show_chart_'+this_chart).addClass('active');
+    });
+  }
+
+  var ratio_path = 'img/application/charts/ratio/' + data.facility.replace(" ","_").toLowerCase() + '/' + data.room.replace(" ","_").toLowerCase() + '.jpg';
+  $("#chart_images").append('<img id="chart_ratio" class="mt-2 d-none" width="100%" src="'+ratio_path+'" />');
+  var ratio_footer_str = '<li class="nav-item nav-item-footer nav-item-footer-charts">';
+  ratio_footer_str += '<a id="show_chart_ratio" class="nav-link nav-link-footer text-center">Ratio</a>';
+  ratio_footer_str += '</li>';
+  $("#chart_footer").append(ratio_footer_str);
+  $('#show_chart_ratio').click(function(){
+    var this_chart = "ratio";
+    for (var j in charts){
+      var _chart = charts[j].toLowerCase();
+      $('#chart_'+_chart).addClass('d-none');
+      $('#show_chart_'+_chart).removeClass('active');
+    }
+    $('#chart_ev').addClass('d-none');
+    $('#show_chart_ev').removeClass('active');
+    $('#chart_'+this_chart).removeClass('d-none');
+    $('#show_chart_'+this_chart).addClass('active');
+  });
+
+  var ev_path = 'img/application/charts/ev/' + data.facility.replace(" ", "_").toLowerCase() + '/' + data.target + '.jpg';
+  $("#chart_images").append('<img id="chart_ev" class="mt-2 d-none" width="100%" src="'+ev_path+'" />');
+  var ev_footer_str = '<li class="nav-item nav-item-footer nav-item-footer-charts">';
+  ev_footer_str += '<a id="show_chart_ev" class="nav-link nav-link-footer text-center">Ev</a>';
+  ev_footer_str += '</li>';
+  $("#chart_footer").append(ev_footer_str);
+  $('#show_chart_ev').click(function(){
+    var this_chart = "ev";
+    for (var j in charts){
+      var _chart = charts[j].toLowerCase();
+      $('#chart_'+_chart).addClass('d-none');
+      $('#show_chart_'+_chart).removeClass('active');
+    }
+    $('#chart_ratio').addClass('d-none');
+    $('#show_chart_ratio').removeClass('active');
+    $('#chart_'+this_chart).removeClass('d-none');
+    $('#show_chart_'+this_chart).addClass('active');
+  });
+
 }
 
 function generateCSContent(){
-  var chart_path = hb[data.facility][data.room][data.fixture]["cs chart path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'');
+  var chart_path = hb[data.facility][data.room][data.fixture]["chart path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'');
   var graph_path = hb[data.facility][data.room]["cs graph path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'');
 
   if (data.infants == 1){
-    chart_path = hb[data.facility][data.room][data.fixture]["cs chart path"]+'/'+'infants_'+data.cct.replace(/ /g,'');
+    chart_path = hb[data.facility][data.room][data.fixture]["chart path"]+'/'+'infants_'+data.cct.replace(/ /g,'');
   }
 
   $('#final_cs_graph_img').attr('src','img/application/cs_graphs/' + graph_path + '.jpg');
