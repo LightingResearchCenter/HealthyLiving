@@ -839,17 +839,17 @@ function handleRightPanelAccordion(){
 }
 
 function generateCharts(){
-  var charts = ["Energy","Lpd","Lumen","Ratio"];
+  var charts = ["Energy","Lpd"];
 
-  var chart_path = hb[data.facility][data.room][data.fixture]["chart path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'');
+  var chart_path = hb[data.facility][data.room][data.fixture]["chart path"]+'/'+data.target;
   for (var i in charts){
     var chart = charts[i].toLowerCase();
     var footer_str = '<li class="nav-item nav-item-footer nav-item-footer-charts">';
     if (i == 0){
-      footer_str += '<a id="show_chart_'+chart+'" class="nav-link nav-link-footer text-center active">'+chart+'</a>';
+      footer_str += '<a id="show_chart_'+chart+'" class="nav-link nav-link-footer text-center active">'+charts[i]+'</a>';
       $("#chart_images").append('<img id="chart_'+chart+'" class="mt-2" width="100%" src="img/application/charts/'+chart+'/'+chart_path+'.jpg" />');
     }else{
-      footer_str += '<a id="show_chart_'+chart+'" class="nav-link nav-link-footer text-center">'+chart+'</a>';
+      footer_str += '<a id="show_chart_'+chart+'" class="nav-link nav-link-footer text-center">'+charts[i]+'</a>';
       $("#chart_images").append('<img id="chart_'+chart+'" class="mt-2 d-none" width="100%" src="img/application/charts/'+chart+'/'+chart_path+'.jpg" />');
     }
     footer_str += '</li>';
@@ -861,16 +861,37 @@ function generateCharts(){
         var _chart = charts[j].toLowerCase();
         $('#chart_'+_chart).addClass('d-none');
         $('#show_chart_'+_chart).removeClass('active');
-        $('#chart_ev').addClass('d-none');
-        $('#show_chart_ev').removeClass('active');
       }
+      $('#chart_ratio').addClass('d-none');
+      $('#show_chart_ratio').removeClass('active');
+      $('#chart_ev').addClass('d-none');
+      $('#show_chart_ev').removeClass('active');
       $('#chart_'+this_chart).removeClass('d-none');
       $('#show_chart_'+this_chart).addClass('active');
     });
   }
 
-  var ev_path = "img/application/charts/ev/" + data.facility;
-  $("#chart_images").append('<img id="chart_ev" class="mt-2 d-none" width="100%" src="img/application/charts/ev/'+data.facility.replace(" ", "_").toLowerCase()+'.jpg" />');
+  var ratio_path = 'img/application/charts/ratio/' + data.facility.replace(" ","_").toLowerCase() + '/' + data.room.replace(" ","_").toLowerCase() + '.jpg';
+  $("#chart_images").append('<img id="chart_ratio" class="mt-2 d-none" width="100%" src="'+ratio_path+'" />');
+  var ratio_footer_str = '<li class="nav-item nav-item-footer nav-item-footer-charts">';
+  ratio_footer_str += '<a id="show_chart_ratio" class="nav-link nav-link-footer text-center">Ratio</a>';
+  ratio_footer_str += '</li>';
+  $("#chart_footer").append(ratio_footer_str);
+  $('#show_chart_ratio').click(function(){
+    var this_chart = "ratio";
+    for (var j in charts){
+      var _chart = charts[j].toLowerCase();
+      $('#chart_'+_chart).addClass('d-none');
+      $('#show_chart_'+_chart).removeClass('active');
+    }
+    $('#chart_ev').addClass('d-none');
+    $('#show_chart_ev').removeClass('active');
+    $('#chart_'+this_chart).removeClass('d-none');
+    $('#show_chart_'+this_chart).addClass('active');
+  });
+
+  var ev_path = 'img/application/charts/ev/' + data.facility.replace(" ", "_").toLowerCase() + '/' + data.target + '.jpg';
+  $("#chart_images").append('<img id="chart_ev" class="mt-2 d-none" width="100%" src="'+ev_path+'" />');
   var ev_footer_str = '<li class="nav-item nav-item-footer nav-item-footer-charts">';
   ev_footer_str += '<a id="show_chart_ev" class="nav-link nav-link-footer text-center">Ev</a>';
   ev_footer_str += '</li>';
@@ -882,9 +903,12 @@ function generateCharts(){
       $('#chart_'+_chart).addClass('d-none');
       $('#show_chart_'+_chart).removeClass('active');
     }
+    $('#chart_ratio').addClass('d-none');
+    $('#show_chart_ratio').removeClass('active');
     $('#chart_'+this_chart).removeClass('d-none');
     $('#show_chart_'+this_chart).addClass('active');
   });
+
 }
 
 function generateCSContent(){
