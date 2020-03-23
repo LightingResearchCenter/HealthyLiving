@@ -839,6 +839,8 @@ function handleRightPanelAccordion(){
 }
 
 function generateCharts(){
+  $('#chart_images').html("");
+  $('#chart_footer').html("");
   var charts = ["Energy","Lpd"];
 
   var chart_path = hb[data.facility][data.room][data.fixture]["chart path"]+'/'+data.target;
