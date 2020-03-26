@@ -873,7 +873,7 @@ function generateCharts(){
     });
   }
 
-  var ratio_path = 'img/application/charts/ratio/' + data.facility.replace(" ","_").toLowerCase() + '/' + data.room.replace(" ","_").toLowerCase() + '.jpg';
+  var ratio_path = 'img/application/charts/ratio/' + data.facility.replace("\ \g","_").toLowerCase() + '/' + data.room.replace(" ","_").toLowerCase() + '.jpg';
   $("#chart_images").append('<img id="chart_ratio" class="mt-2 d-none chart_img"  src="'+ratio_path+'" />');
   var ratio_footer_str = '<li class="nav-item nav-item-footer nav-item-footer-charts">';
   ratio_footer_str += '<a id="show_chart_ratio" class="nav-link nav-link-footer text-center">Ratio</a>';
