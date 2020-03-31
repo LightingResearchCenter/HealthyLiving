@@ -4144,7 +4144,7 @@
     {
       "Single Patient Room" :
       {
-        "cs graph path" : "office",
+        "cs graph path" : "healthcare",
         "desc" : "A single occupancy room in a hospital is where a patient can spend anywhere from one day to several months. This 290 sf room with a 9-foot ceiling includes a personal bathroom, hospital bed, television, and visitor chair. Since sleep and mood play a large role in recovery, it is advantageous to have proper lighting to encourage circadian entrainment, as well as create a welcoming atmosphere.",
         "2x4 Troffer + Wall Sconce" :
         {
@@ -4321,7 +4321,7 @@
       },
       "Double Patient Room" :
       {
-        "cs graph path" : "office",
+        "cs graph path" : "healtchare",
         "desc" : "A double occupancy room in a hospital is where one or two patients can spend anywhere from one day to several months. This 430 sf room with a 9-foot ceiling includes a personal bathroom, two hospital beds, two televisions, and visitor chairs. Since sleep and mood play a large role in recovery, it is advantageous to have proper lighting to encourage circadian entrainment, as well as create a welcoming atmosphere.",
         "2x4 Troffer + Wall Sconce" :
         {
@@ -4498,11 +4498,11 @@
       },
       "Neonatal Intensive Care Unit" :
       {
-        "cs graph path" : "office",
+        "cs graph path" : "healthcare",
         "desc" : "A NICU (newborn intensive care unit) in a  hospital is where nurses watch over infants born prematurely. This 1975 sf room with a 10-foot ceiling includes a main desk with incubators around the perimeter of the room. Since nurses and infants have different circadian needs, zones of light should be created to achieve desired CS levels for both user types.",
         "2x4 Troffer + Blue/Red Desk Luminaire + Perimeter Valance" :
         {
-          "chart path" : "healthcare/dobule/valence",
+          "chart path" : "healthcare/nicu/valance",
           "0.4 8-hour" :
           {
             "plan" : ["img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Troff_Z1.jpg","img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Troff_Z1_View2.jpg"],
@@ -4704,7 +4704,7 @@
         },
         "Recessed Linear + Blue/Red Downlight + Blue Wall Wash + Cove" :
         {
-          "chart path" : "healthcare/dobule/cove",
+          "chart path" : "healthcare/nicu/cove",
           "desc" : "A NICU (newborn intensive care unit) in a  hospital is where nurses watch over infants born prematurely. This 1975 sf room with a 12-foot ceiling includes a main desk with incubators around the perimeter of the room. Since nurses and infants have different circadian needs, zones of light should be created to achieve desired CS levels for both user types.",
           "0.4 8-hour" :
           {
@@ -4908,11 +4908,11 @@
       },
       "Nurses Station" :
       {
-        "cs graph path" : "office",
+        "cs graph path" : "healthcare",
         "desc" : "A Nurse’s station in a hospital is where nurses spend their time when they’re not in patient rooms. This 1190 sf room with a 10-foot ceiling includes a main desk and workstations located off a hallway. Since nurse’s shifts go around the clock, lighting should accommodate for varying schedules.",
         "Recessed Linear + Blue/Red Desk Luminaire + Under Cabinet" :
         {
-          "chart path" : "healthcare/dobule/under_cabinet",
+          "chart path" : "healthcare/nurses_station/under_cabinet",
           "0.4 8-hour" :
           {
             "plan" : ["img/application/facilities/healthcare/floor_plans/Healthcare_Nurses_DeskLuminaire.jpg","img/application/facilities/healthcare/floor_plans/Healthcare_Nurses_DeskLuminaire_View2.jpg"],
@@ -5096,7 +5096,7 @@
         },
         "Recessed Linear + Blue/Red Wall Wash" :
         {
-          "chart path" : "healthcare/dobule/ww",
+          "chart path" : "healthcare/nurses_station/ww",
           "0.4 8-hour" :
           {
             "plan" : ["img/application/facilities/healthcare/floor_plans/Healthcare_Nurses_WW.jpg","img/application/facilities/healthcare/floor_plans/Healthcare_Nurses_WW_View2.jpg"],
@@ -5792,7 +5792,7 @@
         },
         "2x2 Troffer + Linear Strip + Wall Wash" :
         {
-          "chart path" : "school/standard/pendant",
+          "chart path" : "school/standard/combo",
           "0.4 Teen Pre-teen" :
           {
             "plan" : ["img/application/facilities/school/floor_plans/School_Classroom_Combo.jpg"],
