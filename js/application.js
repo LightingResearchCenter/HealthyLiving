@@ -812,7 +812,7 @@ function generateFixtures(){
         $('#fixture_dimensions').html(path.dimensions[index]);
         $('#fixture_description').html(path.description[index]);
         $('#fixture_eveh').html("<b>(" + path[data.target].eveh_desc + "):</b> " + path[data.target].eveh[index]);
-        $('#fixture_lumens').attr("src",path[data.target].lumen);
+        $('#fixture_lumens').attr("src",path[data.target].lumen[index]);
       });
       $('#fixture_change_first').trigger('click');
     });
@@ -842,7 +842,7 @@ function generateCharts(){
   $('#chart_images').html("");
   $('#chart_footer').html("");
 
-  var chart_path = hb[data.facility][data.room][data.fixture]["chart path"]+'/'+data.target;
+  var chart_path = hb[data.facility][data.room][data.fixture]["chart path"]+'/'+data.target.replace(/ /g,"_");
 
   // Ev
   var ev_path = 'img/application/charts/ev/' + data.facility.replace(" ", "_").toLowerCase() + '/' + data.target + '.jpg';

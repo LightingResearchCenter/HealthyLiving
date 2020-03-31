@@ -50,7 +50,7 @@
         },
         "Flush Mount + Hanging Pendant" :
         {
-          "name" : ["Flush Mount","Hnaging Pendant"],
+          "name" : ["Flush Mount","Hanging Pendant"],
           "fixture" : ["Flush Mount","Hanging Pendant"],
           "candela" : ["Flush Mount","Hanging Pendant"],
           "amount" : ["5","1"],
