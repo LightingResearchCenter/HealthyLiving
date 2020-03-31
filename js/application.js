@@ -841,9 +841,51 @@ function handleRightPanelAccordion(){
 function generateCharts(){
   $('#chart_images').html("");
   $('#chart_footer').html("");
-  var charts = ["Energy","Lpd"];
 
   var chart_path = hb[data.facility][data.room][data.fixture]["chart path"]+'/'+data.target;
+
+  // Ev
+  var ev_path = 'img/application/charts/ev/' + data.facility.replace(" ", "_").toLowerCase() + '/' + data.target + '.jpg';
+  $("#chart_images").append('<img id="chart_ev" class="mt-2 d-none chart_img"  src="'+ev_path+'" />');
+  var ev_footer_str = '<li class="nav-item nav-item-footer nav-item-footer-charts">';
+  ev_footer_str += '<a id="show_chart_ev" class="nav-link nav-link-footer text-center">Ev</a>';
+  ev_footer_str += '</li>';
+  $("#chart_footer").append(ev_footer_str);
+  $('#show_chart_ev').click(function(){
+    var this_chart = "ev";
+    for (var j in charts){
+      var _chart = charts[j].toLowerCase();
+      $('#chart_'+_chart).addClass('d-none');
+      $('#show_chart_'+_chart).removeClass('active');
+    }
+    $('#chart_ratio').addClass('d-none');
+    $('#show_chart_ratio').removeClass('active');
+    $('#chart_'+this_chart).removeClass('d-none');
+    $('#show_chart_'+this_chart).addClass('active');
+  });
+
+  // Ratio
+  var ratio_path = 'img/application/charts/ratio/' + data.facility.replace(/ /g,"_").toLowerCase() + '/' + data.room.replace(/ /g,"_").toLowerCase() + '.jpg';
+  $("#chart_images").append('<img id="chart_ratio" class="mt-2 d-none chart_img"  src="'+ratio_path+'" />');
+  var ratio_footer_str = '<li class="nav-item nav-item-footer nav-item-footer-charts">';
+  ratio_footer_str += '<a id="show_chart_ratio" class="nav-link nav-link-footer text-center">Ratio</a>';
+  ratio_footer_str += '</li>';
+  $("#chart_footer").append(ratio_footer_str);
+  $('#show_chart_ratio').click(function(){
+    var this_chart = "ratio";
+    for (var j in charts){
+      var _chart = charts[j].toLowerCase();
+      $('#chart_'+_chart).addClass('d-none');
+      $('#show_chart_'+_chart).removeClass('active');
+    }
+    $('#chart_ev').addClass('d-none');
+    $('#show_chart_ev').removeClass('active');
+    $('#chart_'+this_chart).removeClass('d-none');
+    $('#show_chart_'+this_chart).addClass('active');
+  });
+
+  // LPD and Energy
+  var charts = ["LPD","Energy"];
   for (var i in charts){
     var chart = charts[i].toLowerCase();
     var footer_str = '<li class="nav-item nav-item-footer nav-item-footer-charts">';
@@ -872,45 +914,6 @@ function generateCharts(){
       $('#show_chart_'+this_chart).addClass('active');
     });
   }
-
-  var ratio_path = 'img/application/charts/ratio/' + data.facility.replace(/ /g,"_").toLowerCase() + '/' + data.room.replace(/ /g,"_").toLowerCase() + '.jpg';
-  $("#chart_images").append('<img id="chart_ratio" class="mt-2 d-none chart_img"  src="'+ratio_path+'" />');
-  var ratio_footer_str = '<li class="nav-item nav-item-footer nav-item-footer-charts">';
-  ratio_footer_str += '<a id="show_chart_ratio" class="nav-link nav-link-footer text-center">Ratio</a>';
-  ratio_footer_str += '</li>';
-  $("#chart_footer").append(ratio_footer_str);
-  $('#show_chart_ratio').click(function(){
-    var this_chart = "ratio";
-    for (var j in charts){
-      var _chart = charts[j].toLowerCase();
-      $('#chart_'+_chart).addClass('d-none');
-      $('#show_chart_'+_chart).removeClass('active');
-    }
-    $('#chart_ev').addClass('d-none');
-    $('#show_chart_ev').removeClass('active');
-    $('#chart_'+this_chart).removeClass('d-none');
-    $('#show_chart_'+this_chart).addClass('active');
-  });
-
-  var ev_path = 'img/application/charts/ev/' + data.facility.replace(" ", "_").toLowerCase() + '/' + data.target + '.jpg';
-  $("#chart_images").append('<img id="chart_ev" class="mt-2 d-none chart_img"  src="'+ev_path+'" />');
-  var ev_footer_str = '<li class="nav-item nav-item-footer nav-item-footer-charts">';
-  ev_footer_str += '<a id="show_chart_ev" class="nav-link nav-link-footer text-center">Ev</a>';
-  ev_footer_str += '</li>';
-  $("#chart_footer").append(ev_footer_str);
-  $('#show_chart_ev').click(function(){
-    var this_chart = "ev";
-    for (var j in charts){
-      var _chart = charts[j].toLowerCase();
-      $('#chart_'+_chart).addClass('d-none');
-      $('#show_chart_'+_chart).removeClass('active');
-    }
-    $('#chart_ratio').addClass('d-none');
-    $('#show_chart_ratio').removeClass('active');
-    $('#chart_'+this_chart).removeClass('d-none');
-    $('#show_chart_'+this_chart).addClass('active');
-  });
-
 }
 
 function generateCSContent(){
