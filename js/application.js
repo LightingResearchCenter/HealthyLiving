@@ -584,9 +584,9 @@ function buildHTML(){
   str += '                            <li class="card-text right-panel-p"><b>Mounting height: </b><span id="fixture_height"></span></li>';
   str += '                            <li class="card-text right-panel-p"><b>Orientation: </b><span id="fixture_orientation"></span></li>';
   str += '                            <li class="card-text right-panel-p"><b>Dimensions: </b><span id="fixture_dimensions"></span></li>';
-  str += '                            <li class="card-text right-panel-p"><b>Initial lumens per source: </b><span id="fixture_lumens"></span> lumens</li>';
-  str += '                            <li class="card-text right-panel-p"><b>Initial wattage per source: </b><span id="fixture_wattage"></span> W</li>';
+  str += '                            <li class="card-text right-panel-p"><b>E<sub>V</sub>:E<sub>H</sub></b> <span id="fixture_eveh"></span></li>';
   str += '                          </ul>';
+  str += '                        <img id="fixture_lumens" class="w-100 mb-3" src="" />';
   str += '                        <p class="pl-3 card-text right-panel-p"><b>Description: </b><span id="fixture_description"></span></p>';
   str += '                        </div>';
   str += '                      </div>';
@@ -810,9 +810,9 @@ function generateFixtures(){
         $('#fixture_height').html(path.height[index]);
         $('#fixture_orientation').html(path.orientation[index]);
         $('#fixture_dimensions').html(path.dimensions[index]);
-        $('#fixture_lumens').html(path.lumens[index]);
-        $('#fixture_wattage').html(path.wattage[index]);
         $('#fixture_description').html(path.description[index]);
+        $('#fixture_eveh').html("<b>(" + path[data.target].eveh_desc + "):</b> " + path[data.target].eveh[index]);
+        $('#fixture_lumens').attr("src",path[data.target].lumen);
       });
       $('#fixture_change_first').trigger('click');
     });

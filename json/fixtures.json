@@ -9,13 +9,21 @@
           "name" : ["2x4 Center Basket Troffer"],
           "fixture" : ["2x4 Center Basket Troffer"],
           "candela" : ["2x4 Center Basket Troffer"],
-          "amount" : ["24"],
-          "type" : ["Ceiling Recessed"],
-          "height" : ["9'-0\" AFF"],
+          "amount" : ["6"],
+          "type" : ["Ceiling recessed"],
+          "height" : ["8'-0\" AFF"],
           "orientation" : ["Direct"],
           "dimensions" : ["2'x4'"],
-          "lumens" : ["5886"],
-          "wattage" : ["43"],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/single_w_kitchen/troff/0.4_Troff.jpg"],
+            "eveh" : ["0.69"],
+            "eveh_desc" : ["at seats"]
+          },
+          "0.3" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/single_w_kitchen/troff/0.3_Troff.jpg"],
+            "eveh" : ["0.69"],
+            "eveh_desc" : ["at seats"]
+          },
           "description" : ["A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications. They are relatively inexpensive and can provide high, uniform illuminance levels throughout a room. Troffers usually house Linear fluorescent lamps, but more recently LED troffers are available for replacement of fluorescent troffers. The modified troffer shape distributes light more evenly throughout a space, making the horizontal to vertical illuminance ratio closer to 1."]
         },
         "Downlight" :
@@ -23,13 +31,21 @@
           "name" : ["Downlight"],
           "fixture" : ["Downlight"],
           "candela" : ["Downlight- Senior Care"],
-          "amount" : ["35"],
-          "type" : ["Ceiling Recessed"],
-          "height" : ["9'-0\" AFF"],
+          "amount" : ["8"],
+          "type" : ["Ceiling recessed"],
+          "height" : ["8'-0\" AFF"],
           "orientation" : ["Direct"],
-          "dimensions" : ["4.5\" Diameter"],
-          "lumens" : ["4070"],
-          "wattage" : ["62"],
+          "dimensions" : ["4.5\" diameter"],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/single_w_kitchen/dn/0.4_Downlight.jpg"],
+            "eveh" : ["0.69"],
+            "eveh_desc" : ["at seats"]
+          },
+          "0.3" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/single_w_kitchen/dn/0.3_Downlight.jpg"],
+            "eveh" : ["0.69"],
+            "eveh_desc" : ["at seats"]
+          },
           "description" : ["Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing. Downlights may have integrated LED sources or contain CFLs or LED replacement lamps."]
         },
         "Flush Mount + Hanging Pendant" :
@@ -37,13 +53,21 @@
           "name" : ["Flush Mount","Hnaging Pendant"],
           "fixture" : ["Flush Mount","Hanging Pendant"],
           "candela" : ["Flush Mount","Hanging Pendant"],
-          "amount" : ["5","A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications. They are relatively inexpensive and can provide high, uniform illuminance levels throughout a room. Troffers usually house linear fluorescent lamps, but more recently LED troffers are available for replacement of fluorescent troffers. The modified troffer shape distributes light more evenly throughout a space, making the horizontal to vertical illuminance ratio closer to 1."],
-          "type" : ["Ceiling Mounted","Pendant"],
-          "height" : ["7'-6\" AFF","5'-0\" AFF"],
+          "amount" : ["5","1"],
+          "type" : ["Ceiling mounted","Pendant"],
+          "height" : ["7'-6\" AFF","5'-6\" AFF"],
           "orientation" : ["Direct/Indirect","Direct/Indirect"],
-          "dimensions" : ["2' Diameter","1' Diameter"],
-          "lumens" : ["4800","1568"],
-          "wattage" : ["37","58"],
+          "dimensions" : ["2' diameter","1' diameter"],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/single_w_kitchen/hanging_pendant/0.4_Flushmount.jpg","img/application/charts/lumen/senior_care/single_w_kitchen/hanging_pendant/0.4_HangingPendant.jpg"],
+            "eveh" : ["0.65","1.38"],
+            "eveh_desc" : ["at seats"]
+          },
+          "0.3" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/single_w_kitchen/hanging_pendant/0.3_Flusmount.jpg","img/application/charts/lumen/senior_care/single_w_kitchen/hanging_pendant/0.3_HangingPendant.jpg"],
+            "eveh" : ["0.69","1.38"],
+            "eveh_desc" : ["at seats"]
+          },
           "description" : ["Ceiling-mounted diffusers provide ambient light, and distribute light throughout the room. Diffusers are made of clear or translucent glass, plastic, or cloth and are available in many sizes and shapes. They can use a variety of diffuse, non-directional light sources including CFLs, LEDs, and linear or circline fluorescent lamps.","Suspended downlights, also called pendants, direct most of the light downward. They hang from the ceiling by a rod, cord, or chain and can have dedicated LEDs, LED replacement lamps, CFLs, or linear fluorescent lamps.  The lighting distribution patterns vary with the size and shape of the fixture. Opaque or translucent shades usually shield the light source from view. Pendants used for ambient lighting typically have a translucent shade or diffuser. Pendants used for task lighting, such as one over a table, are usually deployed with other fixtures that provide the ambient lighting."]
         },
         "Downlight + Flush Mount + Hanging Pendant + Wall Valance + Under Cabinet + TV Valance" :
@@ -51,13 +75,21 @@
           "name" : ["Downlight","Flush Mount","Hanging Pendant","Wall Valance","Under Cabinet","TV Valance"],
           "fixture" : ["Downlight","Flush Mount","Hanging Pendant","Wall Valance","Under Cabinet","TV Valance"],
           "candela" : ["Downlight- Senior Care","Flush Mount","Hanging Pendant","Wall Valance Linear- Senior Care","Under Cabinet- Senior Care","TV Valance"],
-          "amount" : ["6","1","1","Feature has 6 sources","Feature has 3 sources","Feature has 3 sources"],
-          "type" : ["Ceiling Recessed","Ceiling Mounted","Pendant","Wall Mounted","Furniture Mounted","Furniture Mounted"],
-          "height" : ["8'-0\" AFF","7'-6\" AFF","5'-0\" AFF","3'-8\" AFF","1'-4\" above counter","2'-9\" AFF"],
+          "amount" : ["6","1","1","Two features have 6 sources each","3","Feature has 3 sources"],
+          "type" : ["Ceiling recessed","Ceiling mounted","Pendant","Furniture mounted","Furniture mounted","Wall mounted"],
+          "height" : ["8'-0\" AFF","7'-6\" AFF","5'-6\" AFF","3'-8\" AFF","1'-4\" above counter","2'-9\" AFF"],
           "orientation" : ["Direct","Direct/Indirect","Direct/Indirect","3 Direct Sources & 3 Indirect Sources","Direct","Indirect, aimed 15&#176; toward wall"],
-          "dimensions" : ["4.5\" Diameter","2' Diameter","1' Diameter","Source = 1' length","Source = 3' length","Source = 1' length"],
-          "lumens" : ["2678","4800","1568","1000","1314","1000"],
-          "wattage" : ["35","58","19","19","19","19"],
+          "dimensions" : ["4.5\" diameter","2' diameter","1' diameter","1' linear","4' strip","1' linear"],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/single_w_kitchen/combo/0.4_Downlight.jpg","img/application/charts/lumen/senior_care/single_w_kitchen/combo/0.4_Flushmount.jpg","img/application/charts/lumen/senior_care/single_w_kitchen/combo/0.4_HangingPendant.jpg","img/application/charts/lumen/senior_care/single_w_kitchen/combo/0.4_WallValence.jpg","img/application/charts/lumen/senior_care/single_w_kitchen/combo/0.4_UnderCabinet.jpg","img/application/charts/lumen/senior_care/single_w_kitchen/combo/0.4_TVValence.jpg"],
+            "eveh" : ["0.54","0.76","1.26","1.28","0.14"],
+            "eveh_desc" : ["at seats"]
+          },
+          "0.3" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/single_w_kitchen/combo/0.3_Downlight.jpg","img/application/charts/lumen/senior_care/single_w_kitchen/combo/0.3_Flushmount.jpg","img/application/charts/lumen/senior_care/single_w_kitchen/combo/0.3_HangingPendant.jpg","img/application/charts/lumen/senior_care/single_w_kitchen/combo/0.3_WallValence.jpg","img/application/charts/lumen/senior_care/single_w_kitchen/combo/0.3_UnderCabinet.jpg","img/application/charts/lumen/senior_care/single_w_kitchen/combo/0.3_TVValence.jpg"],
+            "eveh" : ["0.54","0.76","1.26","1.28","0.14"],
+            "eveh_desc" : ["at seats"]
+          },
           "description" : ["Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing. Downlights may have integrated LED sources or contain CFLs or LED replacement lamps.","Ceiling-mounted diffusers provide ambient light, and distribute light throughout the room. Diffusers are made of clear or translucent glass, plastic, or cloth and are available in many sizes and shapes. They can use a variety of diffuse, non-directional light sources including CFLs, LEDs, and linear or circline fluorescent lamps.","Suspended downlights, also called pendants, direct most of the light downward. They hang from the ceiling by a rod, cord, or chain and can have dedicated LEDs, LED replacement lamps, CFLs, or linear fluorescent lamps.  The lighting distribution patterns vary with the size and shape of the fixture. Opaque or translucent shades usually shield the light source from view. Pendants used for ambient lighting typically have a translucent shade or diffuser. Pendants used for task lighting, such as one over a table, are usually deployed with other fixtures that provide the ambient lighting.","Wall mounted luminaire lighting is mounted on a wall in front of occupant seating areas to provide additional circadian stimulus. This lighting feature is made up of multiple sources hidden from direct view, however their location in front of the occupant allows for more light to reach the eye. They have integrated LED sources or contain linear fluorescents.","Undercabinet fixtures are mounted under wall cabinets and provide task lighting to the counters below. These fixtures should be installed close to the front of the cabinet and hidden from direct view by cabinetry moulding. Undercabinet fixtures use linear fluorescent (often T5) lamps, linear LED lamps, or have a dedicated LED source.","Furniture mounted luminaire lighting is mounted behind the television to provide additional circadian stimulus. This lighting feature is made up of multiple sources hidden from direct view, however their location in front of the occupant allows for more light to reach the eye. They have integrated LED sources or contain linear fluorescents. "]
         }
       },
@@ -68,13 +100,21 @@
           "name" : ["2x4 Center Basket Troffer"],
           "fixture" : ["2x4 Center Basket Troffer"],
           "candela" : ["2x4 Center Basket Troffer"],
-          "amount" : ["6"],
-          "type" : ["Ceiling Recessed"],
+          "amount" : ["4"],
+          "type" : ["Ceiling recessed"],
           "height" : ["8'-0\" AFF"],
           "orientation" : ["Direct"],
           "dimensions" : ["2'x4'"],
-          "lumens" : ["5886"],
-          "wattage" : ["43"],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/single/troff/0.4_Troffer.jpg"],
+            "eveh" : ["0.58"],
+            "eveh_desc" : ["at seats"]
+          },
+          "0.3" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/single/troff/0.3_Troffer.jpg"],
+            "eveh" : ["0.58"],
+            "eveh_desc" : ["at seats"]
+          },
           "description" : ["A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications. They are relatively inexpensive and can provide high, uniform illuminance levels throughout a room. Troffers usually house linear fluorescent lamps, but more recently LED troffers are available for replacement of fluorescent troffers. The modified troffer shape distributes light more evenly throughout a space, making the horizontal to vertical illuminance ratio closer to 1."]
         },
         "Downlight" :
@@ -83,12 +123,20 @@
           "fixture" : ["Downlight"],
           "candela" : ["Downlight- Senior Care"],
           "amount" : ["6"],
-          "type" : ["Ceiling Recessed"],
+          "type" : ["Ceiling recessed"],
           "height" : ["8'-0\" AFF"],
           "orientation" : ["Direct"],
-          "dimensions" : ["4.5\" Diameter"],
-          "lumens" : ["2678"],
-          "wattage" : ["35"],
+          "dimensions" : ["4.5\" diameter"],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/single/dn/0.4_Downlight.jpg"],
+            "eveh" : ["0.53"],
+            "eveh_desc" : ["at seats"]
+          },
+          "0.3" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/single/dn/0.3_Downlight.jpg"],
+            "eveh" : ["0.53"],
+            "eveh_desc" : ["at seats"]
+          },
           "description" : ["Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing. Downlights may have integrated LED sources or contain CFLs or LED replacement lamps."]
         },
         "Flush Mount + Hanging Pendant" :
@@ -97,12 +145,20 @@
           "fixture" : ["Flush Mount","Hanging Pendant"],
           "candela" : ["Flush Mount","Hanging Pendant"],
           "amount" : ["4","1"],
-          "type" : ["Ceiling Mounted","Pendant"],
-          "height" : ["7'-6\" AFF","5'-0\" AFF"],
+          "type" : ["Ceiling mounted","Pendant"],
+          "height" : ["7'-6\" AFF","5'-6\" AFF"],
           "orientation" : ["Direct/Indirect","Direct/Indirect"],
-          "dimensions" : ["2' Diameter", "1' Diameter"],
-          "lumens" : ["4800","1568"],
-          "wattage" : ["58","19"],
+          "dimensions" : ["2' diameter", "1' diameter"],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/single/hanging_pendant/0.4_Flushmount.jpg","img/application/charts/lumen/senior_care/single/hanging_pendant/0.4_HangingPendant.jpg"],
+            "eveh" : ["0.53","1.21"],
+            "eveh_desc" : ["at seats"]
+          },
+          "0.3" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/single/hanging_pendant/0.3_Flushmount.jpg","img/application/charts/lumen/senior_care/single/hanging_pendant/0.3_HangingPendant.jpg"],
+            "eveh" : ["0.53","1.21"],
+            "eveh_desc" : ["at seats"]
+          },
           "description" : ["Ceiling-mounted diffusers provide ambient light, and distribute light throughout the room. Diffusers are made of clear or translucent glass, plastic, or cloth and are available in many sizes and shapes. They can use a variety of diffuse, non-directional light sources including CFLs, LEDs, and linear or circline fluorescent lamps.","Suspended downlights, also called pendants, direct most of the light downward. They hang from the ceiling by a rod, cord, or chain and can have dedicated LEDs, LED replacement lamps, CFLs, or linear fluorescent lamps.  The lighting distribution patterns vary with the size and shape of the fixture. Opaque or translucent shades usually shield the light source from view. Pendants used for ambient lighting typically have a translucent shade or diffuser. Pendants used for task lighting, such as one over a table, are usually deployed with other fixtures that provide the ambient lighting."]
         },
         "Flush Mount + Hanging Pendant + Perimeter Valance" :
@@ -110,13 +166,21 @@
           "name" : ["Flush Mount","Hanging Pendant","Perimeter Valance"],
           "fixture" : ["Flush Mount","Hanging Pendant","Perimeter Valance"],
           "candela" : ["Flush Mount","Hanging Pendant","Perimeter Valance- Healthcare- Senior Care"],
-          "amount" : ["4","1","Feature has 14 sources"],
-          "type" : ["Ceiling Mounted","Pendant","Wall Mounted"],
-          "height" : ["7'-6\" AFF","5'-0\" AFF","8'-0\" AFF"],
+          "amount" : ["4","1","14"],
+          "type" : ["Ceiling mounted","Pendant","Wall mounted"],
+          "height" : ["7'-6\" AFF","5'-6\" AFF","6'-0\" AFF"],
           "orientation" : ["Direct/Indirect","Direct/Indirect","Indirect"],
-          "dimensions" : ["2' Diameter","1' Diameter","Source = 4' length"],
-          "lumens" : ["4800","1568","1391"],
-          "wattage" : ["58","19","48"],
+          "dimensions" : ["2' diameter","1' diameter","4' linear"],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/single/combo/0.4_Flushmount.jpg","img/application/charts/lumen/senior_care/single/combo/0.4_HangingPendant.jpg","img/application/charts/lumen/senior_care/single/combo/0.4_PerimeterValence.jpg"],
+            "eveh" : ["0.53","1.21","0.55"],
+            "eveh_desc" : ["at seats"]
+          },
+          "0.3" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/single/combo/0.3_Flushmount.jpg","img/application/charts/lumen/senior_care/single/combo/0.3_HangingPendant.jpg","img/application/charts/lumen/senior_care/single/combo/0.3_PerimeterValence.jpg"],
+            "eveh" : ["0.53","1.21","0.55"],
+            "eveh_desc" : ["at seats"]
+          },
           "description" : ["Ceiling-mounted diffusers provide ambient light, and distribute light throughout the room. Diffusers are made of clear or translucent glass, plastic, or cloth and are available in many sizes and shapes. They can use a variety of diffuse, non-directional light sources including CFLs, LEDs, and linear or circline fluorescent lamps.","Suspended downlights, also called pendants, direct most of the light downward. They hang from the ceiling by a rod, cord, or chain and can have dedicated LEDs, LED replacement lamps, CFLs, or linear fluorescent lamps.  The lighting distribution patterns vary with the size and shape of the fixture. Opaque or translucent shades usually shield the light source from view. Pendants used for ambient lighting typically have a translucent shade or diffuser. Pendants used for task lighting, such as one over a table, are usually deployed with other fixtures that provide the ambient lighting.","Wall mounted luminaire lighting is mounted on a wall in front of occupant seating areas to provide additional circadian stimulus. This lighting feature is made up of multiple sources hidden from direct view, however their location in front of the occupant allows for more light to reach the eye. They have integrated LED sources or contain linear fluorescents."]
         }
       },
@@ -128,12 +192,20 @@
           "fixture" : ["2x4 Center Basket Troffer"],
           "candela" : ["2x4 Center Basket Troffer"],
           "amount" : ["24"],
-          "type" : ["Ceiling Recessed"],
+          "type" : ["Ceiling recessed"],
           "height" : ["9'-0\" AFF"],
           "orientation" : ["Direct"],
           "dimensions" : ["2'x4'"],
-          "lumens" : ["5886"],
-          "wattage" : ["43"],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/common/troff/0.4_Troff.jpg"],
+            "eveh" : ["0.66"],
+            "eveh_desc" : ["at seats"]
+          },
+          "0.3" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/common/troff/0.3_Troff.jpg"],
+            "eveh" : ["0.66"],
+            "eveh_desc" : ["at seats"]
+          },
           "description" : ["A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications. They are relatively inexpensive and can provide high, uniform illuminance levels throughout a room. Troffers usually house linear fluorescent lamps, but more recently LED troffers are available for replacement of fluorescent troffers. The modified troffer shape distributes light more evenly throughout a space, making the horizontal to vertical illuminance ratio closer to 1."]
         },
         "Downlight" :
@@ -142,12 +214,20 @@
           "fixture" : ["Downlight"],
           "candela" : ["Downlight- Senior Care"],
           "amount" : ["35"],
-          "type" : ["Ceiling Recessed"],
+          "type" : ["Ceiling recessed"],
           "height" : ["9'-0\" AFF"],
           "orientation" : ["Direct"],
-          "dimensions" : ["6\" Diameter"],
-          "lumens" : ["4070"],
-          "wattage" : ["62"],
+          "dimensions" : ["6\" diameter"],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/common/dn/0.4_Downlight.jpg"],
+            "eveh" : ["0.53"],
+            "eveh_desc" : ["at seats"]
+          },
+          "0.3" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/common/dn/0.3_Downlight.jpg"],
+            "eveh" : ["0.53"],
+            "eveh_desc" : ["at seats"]
+          },
           "description" : ["Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing. Downlights may have integrated LED sources or contain CFLs or LED replacement lamps."]
         },
         "Cove + Floor Lamp + Table Lamp" :
@@ -155,13 +235,21 @@
           "name" : ["Cove","Floor Lamp","Table Lamp"],
           "fixture" : ["Cove","Floor Lamp","Table Lamp"],
           "candela" : ["Cove- Senior Care","A19 Lamp- Floor and Table Lamp","A19 Lamp- Floor and Table Lamp"],
-          "amount" : ["Feature has 200 sources","14 lamps with 2 bulbs each","2 lamps with 2 bulbs each"],
-          "type" : ["Cove Mounted","Floor Lamp","Table Lamp"],
+          "amount" : ["200","28","4"],
+          "type" : ["Cove mounted","Fixture mount","Fixture mount"],
           "height" : ["9'-2\" AFF","5'-3\" AFF","3'-10\" AFF"],
           "orientation" : ["Indirect","Horizontal","Horizontal"],
-          "dimensions" : ["Source = 1' length","A19","A19"],
-          "lumens" : ["1000","1179","1179"],
-          "wattage" : ["19","12","12"],
+          "dimensions" : ["1' linear","A lamp","A lamp"],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/common/cove/0.4_Cove.jpg","img/application/charts/lumen/senior_care/common/cove/0.4_FloorLamp.jpg","img/application/charts/lumen/senior_care/common/cove/0.4_TableLamp.jpg"],
+            "eveh" : ["0.70","0.96","0.96"],
+            "eveh_desc" : ["at seats"]
+          },
+          "0.3" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/common/cove/0.3_Cove.jpg","img/application/charts/lumen/senior_care/common/cove/0.3_FloorLamp.jpg","img/application/charts/lumen/senior_care/common/cove/0.3_TableLamp.jpg"],
+            "eveh" : ["0.70","0.96","0.96"],
+            "eveh_desc" : ["at seats"]
+          },
           "description" : ["Linear light sources are recessed or mounted horizontally in a cove and consist of a shield that hides linear fluorescent or LED light sources from view. Coves direct light upwards to the upper wall and ceiling to provide indirect, ambient light for a space. Angling the source or using one with an assymetric  beam distribution can help throw the light onto more of the ceiling.","Plug-in fixtures like table and floor lamps are easily connected to power through a standard wall outlet. Without the need for hardwiring, they offer the advantage of being easy to install and move as lighting needs change. Plug-in fixtures come in many sizes and shapes and can be used to provide ambient or task lighting. They can accommodate a wide variety of light sources including CFL, LED, and LED retrofit lamps.","Plug-in fixtures like table and floor lamps are easily connected to power through a standard wall outlet. Without the need for hardwiring, they offer the advantage of being easy to install and move as lighting needs change. Plug-in fixtures come in many sizes and shapes and can be used to provide ambient or task lighting. They can accommodate a wide variety of light sources including CFL, LED, and LED retrofit lamps."]
         },
         "Downlight + Hanging Pendant + Floor Lamp + Table Lamp" :
@@ -169,13 +257,21 @@
           "name" : ["Downlight","Hanging Pendant","Floor Lamp","Table Lamp"],
           "fixture" : ["Downlight","Hanging Pendant","Floor Lamp","Table Lamp"],
           "candela" : ["Downlight- Senior Care","Hanging Pendant","A19 Lamp- Floor and Table Lamp","A19 Lamp- Floor and Table Lamp"],
-          "amount" : ["15","10","2 lamps with 2 bulbs each","2 lamps with 2 bulbs each"],
-          "type" : ["Ceiling Recessed","Pendant","Floor Lamp","Table Lamp"],
-          "height" : ["9'-0\" AFF","5'-0\" AFF","5'-3\" AFF","3'-10\" AFF"],
+          "amount" : ["15","10","4","4"],
+          "type" : ["Ceiling recessed","Pendant","Fixture mount","Fixture mount"],
+          "height" : ["9'-0\" AFF","5'-6\" AFF","5'-3\" AFF","3'-10\" AFF"],
           "orientation" : ["Direct","Direct/Indirect","Horizontal","Horizontal"],
-          "dimensions" : ["4.5\" Diameter","1' Diameter","A19","A19"],
-          "lumens" : ["4070","1568","1179","1179"],
-          "wattage" : ["62","19","12","12"],
+          "dimensions" : ["6\" diameter","1' drum","A lamp","A lamp"],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/common/combo/0.4_Downlight.jpg","img/application/charts/lumen/senior_care/common/combo/0.4_HangingPendant.jpg","img/application/charts/lumen/senior_care/common/combo/0.4_FloorLamp.jpg","img/application/charts/lumen/senior_care/common/combo/0.4_TableLamp.jpg"],
+            "eveh" : ["0.47","1.15","0.64","0.64"],
+            "eveh_desc" : ["at seats"]
+          },
+          "0.3" : {
+            "lumen" : ["img/application/charts/lumen/senior_care/common/combo/0.3_Downlight.jpg","img/application/charts/lumen/senior_care/common/combo/0.3_HangingPendant.jpg","img/application/charts/lumen/senior_care/common/combo/0.3_FloorLamp.jpg","img/application/charts/lumen/senior_care/common/combo/0.3_TableLamp.jpg"],
+            "eveh" : ["0.47","1.15","0.64","0.64"],
+            "eveh_desc" : ["at seats"]
+          },
           "description" : ["Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing. Downlights may have integrated LED sources or contain CFLs or LED replacement lamps.","Suspended downlights, also called pendants, direct most of the light downward. They hang from the ceiling by a rod, cord, or chain and can have dedicated LEDs, LED replacement lamps, CFLs, or linear fluorescent lamps.  The lighting distribution patterns vary with the size and shape of the fixture. Opaque or translucent shades usually shield the light source from view. Pendants used for ambient lighting typically have a translucent shade or diffuser. Pendants used for task lighting, such as one over a table, are usually deployed with other fixtures that provide the ambient lighting.","Plug-in fixtures like table and floor lamps are easily connected to power through a standard wall outlet. Without the need for hardwiring, they offer the advantage of being easy to install and move as lighting needs change. Plug-in fixtures come in many sizes and shapes and can be used to provide ambient or task lighting. They can accommodate a wide variety of light sources including CFL, LED, and LED retrofit lamps.","Plug-in fixtures like table and floor lamps are easily connected to power through a standard wall outlet. Without the need for hardwiring, they offer the advantage of being easy to install and move as lighting needs change. Plug-in fixtures come in many sizes and shapes and can be used to provide ambient or task lighting. They can accommodate a wide variety of light sources including CFL, LED, and LED retrofit lamps."]
         }
       }
@@ -189,13 +285,21 @@
           "name" : ["2x4 Troffer"],
           "fixture" : ["2x4 Troffer"],
           "candela" : ["2x4 Troffer- Office"],
-          "amount" : ["28"],
-          "type" : ["Ceiling Recessed"],
-          "height" : ["10'-0\" AFF"],
+          "amount" : ["35"],
+          "type" : ["Ceiling recessed"],
+          "height" : ["9'-0\" AFF"],
           "orientation" : ["Direct"],
           "dimensions" : ["2'x4'"],
-          "lumens" : ["4493"],
-          "wattage" : ["41"],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/office/traditional/troff/0.4_Troffer.jpg"],
+            "eveh" : ["0.46"],
+            "eveh_desc" : ["average"]
+          },
+          "0.3" : {
+            "lumen" : ["img/application/charts/lumen/office/traditional/troff/0.3_Troffer.jpg"],
+            "eveh" : ["0.59"],
+            "eveh_desc" : ["at seats"]
+          },
           "description" : ["A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications. They are relatively inexpensive and can provide high, uniform illuminance levels throughout a room. Troffers usually house linear fluorescent lamps, but more recently LED troffers are available for replacement of fluorescent troffers. The modified troffer shape distributes light more evenly throughout a space, making the horizontal to vertical illuminance ratio closer to 1."]
         },
         "Downlight" :
@@ -204,12 +308,20 @@
           "fixture" : ["Downlight"],
           "candela" : ["Downlight- Office- Traditional"],
           "amount" : ["42"],
-          "type" : ["Ceiling Recessed"],
-          "height" : ["10'-0\" AFF"],
+          "type" : ["Ceiling recessed"],
+          "height" : ["9'-0\" AFF"],
           "orientation" : ["Direct"],
-          "dimensions" : ["4\" Diameter"],
-          "lumens" : ["1487"],
-          "wattage" : ["24"],
+          "dimensions" : ["6\" Diameter"],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/office/traditional/dn/0.4_Downlight.jpg"],
+            "eveh" : ["0.33"],
+            "eveh_desc" : ["average"]
+          },
+          "0.3" : {
+            "lumen" : ["img/application/charts/lumen/office/traditional/dn/0.3_Downlight.jpg"],
+            "eveh" : ["0.58"],
+            "eveh_desc" : ["at seats"]
+          },
           "description" : ["Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing. Downlights may have integrated LED sources or contain CFLs or LED replacement lamps."]
         },
         "Direct/Indirect Linear Pendant" :
@@ -217,13 +329,21 @@
           "name" : ["Direct/Indirect Linear Pendant"],
           "fixture" : ["Direct Indirect Linear Pendant"],
           "candela" : ["DirectIndirect Pendant- Office"],
-          "amount" : ["44"],
+          "amount" : ["55"],
           "type" : ["Pendant"],
           "height" : ["7'-0\" AFF"],
           "orientation" : ["Direct/Indirect"],
-          "dimensions" : ["4' Linear"],
-          "lumens" : ["4797"],
-          "wattage" : ["53"],
+          "dimensions" : ["4' linear"],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/office/traditional/pendant/0.4_LinearPendant.jpg"],
+            "eveh" : ["0.44"],
+            "eveh_desc" : ["average"]
+          },
+          "0.3" : {
+            "lumen" : ["img/application/charts/lumen/office/traditional/pendant/0.3_LinearPendant.jpg"],
+            "eveh" : ["0.60"],
+            "eveh_desc" : ["at seats"]
+          },
           "description" : ["A linear pendant is a fixture typically used in commercial applications to provide uniform ambient light. They come in 3 types of light distributions: direct, indirect, or direct/indirect. Linear pendants with an indirect component should be suspended at least 18” below the ceiling to allow the indirect light to bounce off of the ceiling. Linear pendants traditionally house fluorescent lamps, but more recently linear pendants with dedicated LED sources have become available."]
         }
       },
@@ -234,13 +354,21 @@
           "name" : ["2x4 Troffer"],
           "fixture" : ["2x4 Troffer"],
           "candela" : ["2x4 Troffer- Office"],
-          "amount" : ["24"],
-          "type" : ["Ceiling Recessed"],
-          "height" : ["9'-0\" AFF"],
+          "amount" : ["36"],
+          "type" : ["Ceiling recessed"],
+          "height" : ["10'-0\" AFF"],
           "orientation" : ["Direct"],
           "dimensions" : ["2'x4'"],
-          "lumens" : ["4493"],
-          "wattage" : ["41"],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/office/new/troff/0.4_Troffer.jpg"],
+            "eveh" : ["0.50"],
+            "eveh_desc" : ["average"]
+          },
+          "0.3" : {
+            "lumen" : ["img/application/charts/lumen/office/new/troff/0.3_Troffer.jpg"],
+            "eveh" : ["0.60"],
+            "eveh_desc" : ["at seats"]
+          },
           "description" : ["A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications. They are relatively inexpensive and can provide high, uniform illuminance levels throughout a room. Troffers usually house linear fluorescent lamps, but more recently LED troffers are available for replacement of fluorescent troffers. The modified troffer shape distributes light more evenly throughout a space, making the horizontal to vertical illuminance ratio closer to 1."]
         },
         "Downlight" :
@@ -249,12 +377,20 @@
           "fixture" : ["Downlight"],
           "candela" : ["Downlight- Office- New- Private"],
           "amount" : ["42"],
-          "type" : ["Ceiling Recessed"],
-          "height" : ["9'-0\" AFF"],
+          "type" : ["Ceiling recessed"],
+          "height" : ["10'-0\" AFF"],
           "orientation" : ["Direct"],
-          "dimensions" : ["4\"x4\""],
-          "lumens" : ["1669"],
-          "wattage" : ["30"],
+          "dimensions" : ["6\" diameter"],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/office/new/dn/0.4_Downlight.jpg"],
+            "eveh" : ["0.40"],
+            "eveh_desc" : ["average"]
+          },
+          "0.3" : {
+            "lumen" : ["img/application/charts/lumen/office/new/dn/0.3_Downlight.jpg"],
+            "eveh" : ["0.53"],
+            "eveh_desc" : ["at seats"]
+          },
           "description" : ["Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing. Downlights may have integrated LED sources or contain CFLs or LED replacement lamps."]
         },
         "Direct/Indirect Linear Pendant" :
@@ -262,13 +398,21 @@
           "name" : ["Direct/Indirect Linear Pendant"],
           "fixture" : ["Direct Indirect Linear Pendant"],
           "candela" : ["DirectIndirect Pendant- Office"],
-          "amount" : ["24"],
+          "amount" : ["40"],
           "type" : ["Pendant"],
-          "height" : ["7'-0\" AFF"],
+          "height" : ["8'-0\" AFF"],
           "orientation" : ["Direct/Indirect"],
-          "dimensions" : ["4' Linear"],
-          "lumens" : ["4743"],
-          "wattage" : ["28"],
+          "dimensions" : ["4' linear"],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/office/new/pendant/0.4_LinearPendant.jpg"],
+            "eveh" : ["0.49"],
+            "eveh_desc" : ["average"]
+          },
+          "0.3" : {
+            "lumen" : ["img/application/charts/lumen/office/new/pendant/0.3_LinearPendant.jpg"],
+            "eveh" : ["0.63"],
+            "eveh_desc" : ["at seats"]
+          },
           "description" : ["A linear pendant is a fixture typically used in commercial applications to provide uniform ambient light. They come in 3 types of light distributions: direct, indirect, or direct/indirect. Linear pendants with an indirect component should be suspended at least 18” below the ceiling to allow the indirect light to bounce off of the ceiling. Linear pendants traditionally house fluorescent lamps, but more recently linear pendants with dedicated LED sources have become available."]
         }
       },
@@ -284,8 +428,7 @@
           "height" : ["9'-0\" AFF"],
           "orientation" : ["Direct"],
           "dimensions" : ["2'x4'"],
-          "lumens" : ["4493"],
-          "wattage" : ["41"],
+          "eveh" : [""],
           "description" : ["A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications. They are relatively inexpensive and can provide high, uniform illuminance levels throughout a room. Troffers usually house linear fluorescent lamps, but more recently LED troffers are available for replacement of fluorescent troffers. The modified troffer shape distributes light more evenly throughout a space, making the horizontal to vertical illuminance ratio closer to 1."]
         },
         "Direct/Indirect Linear Pendant" :
@@ -298,8 +441,7 @@
           "height" : ["7'-0\" AFF"],
           "orientation" : ["Direct/Indirect"],
           "dimensions" : ["4' Linear"],
-          "lumens" : ["6751"],
-          "wattage" : ["80"],
+          "eveh" : [""],
           "description" : ["A linear pendant is a fixture typically used in commercial applications to provide uniform ambient light. They come in 3 types of light distributions: direct, indirect, or direct/indirect. Linear pendants with an indirect component should be suspended at least 18” below the ceiling to allow the indirect light to bounce off of the ceiling. Linear pendants traditionally house fluorescent lamps, but more recently linear pendants with dedicated LED sources have become available."]
         },
         "Downlight + Blue/Red Wall Wash" :
@@ -312,8 +454,7 @@
           "height" : ["9'-0\" AFF","9'-0\" AFF"],
           "orientation" : ["Direct","Direct"],
           "dimensions" : ["4\"x4\"","4' Linear"],
-          "lumens" : ["1669","2581"],
-          "wattage" : ["30","15"],
+          "eveh" : ["",""],
           "description" : ["Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing. Downlights may have integrated LED sources or contain CFLs or LED replacement lamps.","Linear wall washers are mounted along the perimeter of the room. They provide ambient illumination. They may have integrated LED sources or contain linear fluorescents."]
         }
       }
@@ -332,8 +473,7 @@
           "height" : ["9'-0\" AFF","5'-0\" AFF"],
           "orientation" : ["Direct","Direct/Indirect"],
           "dimensions" : ["2'x4'","4' Linear"],
-          "lumens" : ["4700","1432"],
-          "wattage" : ["72","58"],
+          "eveh" : ["",""],
           "description" : ["A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications. They are relatively inexpensive and can provide high, uniform illuminance levels throughout a room. Troffers usually house linear fluorescent lamps, but more recently LED troffers are available for replacement of fluorescent troffers. The modified troffer shape distributes light more evenly throughout a space, making the horizontal to vertical illuminance ratio closer to 1.","Wall mounted luminaire lighting is mounted above patient beds and provide both task and ambient illumination. They may have integrated LED sources or contain linear fluorescents."]
         },
         "Recessed Linear + Downlight + Wall Wash + Wall Sconce" :
@@ -346,8 +486,7 @@
           "height" : ["9'-0\" AFF","9'-0\" AFF","9'-0\" AFF","5'-0\" AFF"],
           "orientation" : ["Direct","Direct","Direc","Direct/Indirect"],
           "dimensions" : ["4' Linear","4\" Diameter","4' Linear","4' Linear"],
-          "lumens" : ["2372","977","1187","1432"],
-          "wattage" : ["26","23","23","58"],
+          "eveh" : ["","","",""],
           "description" : ["A recessed linear fixture houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid or another hard surface material. Designed to provide uniform illuminance levels throughout a room, they are often specified when a clean, continuous look is preferred. Recessed linear fixtures can house either linear fluorescent lamps or have a dedicated LED source.","Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing. Downlights may have integrated LED sources or contain CFLs or LED replacement lamps.","Linear wall washers are mounted along the perimeter of the room. They provide ambient illumination. They may have integrated LED sources or contain linear fluorescents.","Wall mounted luminaire lighting is mounted above patient beds and provide both task and ambient illumination. They may have integrated LED sources or contain linear fluorescents."]
         }
       },
@@ -363,8 +502,7 @@
           "height" : ["9'-0\" AFF","5'-0\" AFF"],
           "orientation" : ["Direct","Direct/Indirect"],
           "dimensions" : ["2'x4'","4' Linear"],
-          "lumens" : ["4700","1432"],
-          "wattage" : ["72","58"],
+          "eveh" : ["",""],
           "description" : ["A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications. They are relatively inexpensive and can provide high, uniform illuminance levels throughout a room. Troffers usually house linear fluorescent lamps, but more recently LED troffers are available for replacement of fluorescent troffers. The modified troffer shape distributes light more evenly throughout a space, making the horizontal to vertical illuminance ratio closer to 1.","Wall mounted luminaire lighting is mounted above patient beds and provide both task and ambient illumination. They may have integrated LED sources or contain linear fluorescents."]
         },
         "Recessed Linear + Downlight + Wall Wash + Wall Sconce" :
@@ -377,8 +515,7 @@
           "height" : ["9'-0\" AFF","9'-0\" AFF","9'-0\" AFF","5'-0\" AFF"],
           "orientation" : ["Direct","Direct","Direct","Direct/Indirect"],
           "dimensions" : ["4' Linear","4\" Diameter","4' Linear","4' Linear"],
-          "lumens" : ["2372","977","1187","1432"],
-          "wattage" : ["26","23","23","58"],
+          "eveh" : ["","","",""],
           "description" : ["A recessed linear fixture houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid or another hard surface material. Designed to provide uniform illuminance levels throughout a room, they are often specified when a clean, continuous look is preferred. Recessed linear fixtures can house either linear fluorescent lamps or have a dedicated LED source.","Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing. Downlights may have integrated LED sources or contain CFLs or LED replacement lamps.","Linear wall washers are mounted along the perimeter of the room. They provide ambient illumination. They may have integrated LED sources or contain linear fluorescents.","Wall mounted luminaire lighting is mounted above patient beds and provide both task and ambient illumination. They may have integrated LED sources or contain linear fluorescents."]
         }
       },
@@ -394,8 +531,7 @@
           "height" : ["10'-0\" AFF","1'-9\" AFF","7'-5\" AFF"],
           "orientation" : ["Direct","Horizontal","33 Direct Sources & 33 Indirect Sources"],
           "dimensions" : ["2'x4'","1' Linear","Source = 4' Length"],
-          "lumens" : ["6022","402","1391"],
-          "wattage" : ["54","7","48"],
+          "eveh" : ["","",""],
           "description" : ["A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications. They are relatively inexpensive and can provide high, uniform illuminance levels throughout a room. Troffers usually house linear fluorescent lamps, but more recently LED troffers are available for replacement of fluorescent troffers. The modified troffer shape distributes light more evenly throughout a space, making the horizontal to vertical illuminance ratio closer to 1.","Desk luminaires are placed at eye level where occupants will spend most of their day. They provide task illumination as well as additonal circadian stimulus. They have integrated LED sources.","Wall mounted luminaire lighting is mounted on a wall in front of occupant seating areas to provide additional circadian stimulus. This lighting feature is made up of multiple sources hidden from direct view, however their location in front of the occupant allows for more light to reach the eye. They have integrated LED sources or contain linear fluorescents."]
         },
         "Recessed Linear + Blue/Red Downlight + Blue Wall Wash + Cove" :
@@ -408,8 +544,7 @@
           "height" : ["12'-0\" AFF","10'-0\" AFF and 12'-0\" AFF","10'-0\" AFF","10'-0\" AFF"],
           "orientation" : ["Direct","Direct","Direct","Indirect"],
           "dimensions" : ["4' Linear","4\" Diameter","4' Linear","4' Linear"],
-          "lumens" : ["2372","977","1187","1566"],
-          "wattage" : ["27","23","23","25"],
+          "eveh" : ["","","",""],
           "description" : ["A recessed linear fixture houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid or another hard surface material. Designed to provide uniform illuminance levels throughout a room, they are often specified when a clean, continuous look is preferred. Recessed linear fixtures can house either linear fluorescent lamps or have a dedicated LED source.","Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing. Downlights may have integrated LED sources or contain CFLs or LED replacement lamps.","Linear wall washers are mounted along the perimeter of the room. They provide ambient illumination. They may have integrated LED sources or contain linear fluorescents.","Linear light sources are recessed or mounted horizontally in a cove and consist of a shield that hides linear fluorescent or LED light sources from view. Coves direct light upwards to the upper wall and ceiling to provide indirect, ambient light for a space. Angling the source or using one with an assymetric  beam distribution can help throw the light onto more of the ceiling."]
         }
       },
@@ -425,8 +560,7 @@
           "height" : ["10'-0\" AFF","1'-9\" above desk","4'-6\" AFF"],
           "orientation" : ["Direct","Horizontal","Direct"],
           "dimensions" : ["4' Linear","1' Linear","1.5' Linear"],
-          "lumens" : ["3320","402","291"],
-          "wattage" : ["39","7","7"],
+          "eveh" : ["","",""],
           "description" : ["A recessed linear fixture houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid or another hard surface material. Designed to provide uniform illuminance levels throughout a room, they are often specified when a clean, continuous look is preferred. Recessed linear fixtures can house either linear fluorescent lamps or have a dedicated LED source.","Desk luminaires are placed at eye level where occupants will spend most of their day. They provide task illumination as well as additonal circadian stimulus. They have integrated LED sources.","Undercabinet fixtures are mounted under wall cabinets and provide task lighting to the counters below. These fixtures should be installed close to the front of the cabinet and hidden from direct view by cabinetry moulding. Undercabinet fixtures use linear fluorescent (often T5) lamps, linear LED lamps, or have a dedicated LED source."]
         },
         "Recessed Linear + Blue/Red Wall Wash" :
@@ -439,8 +573,7 @@
           "height" : ["10'-0\" AFF","10'-0\" AFF"],
           "orientation" : ["Direct","Direct"],
           "dimensions" : ["4' Linear","6' Linear"],
-          "lumens" : ["3320","2669"],
-          "wattage" : ["39","27"],
+          "eveh" : ["",""],
           "description" : ["Suspended downlights, also called pendants, direct most of the light downward. They hang from the ceiling by a rod, cord, or chain and can have dedicated LEDs, LED replacement lamps, CFLs, or linear fluorescent lamps.  The lighting distribution patterns vary with the size and shape of the fixture. Opaque or translucent shades usually shield the light source from view. Pendants used for ambient lighting typically have a translucent shade or diffuser. Pendants used for task lighting, such as one over a table, are usually deployed with other fixtures that provide the ambient lighting.","Linear wall washers are mounted along the perimeter of the room. They provide ambient illumination. They may have integrated LED sources or contain linear fluorescents."]
         }
       }
@@ -459,8 +592,7 @@
           "height" : [],
           "orientation" : [],
           "dimensions" : [],
-          "lumens" : [],
-          "wattage" : [],
+          "eveh" : [""],
           "description" : []
         },
         "Downlight" :
@@ -473,8 +605,7 @@
           "height" : [],
           "orientation" : [],
           "dimensions" : [],
-          "lumens" : [],
-          "wattage" : [],
+          "eveh" : [""],
           "description" : []
         },
         "Dirct/Indirect Linear Pendant" :
@@ -487,8 +618,7 @@
           "height" : [],
           "orientation" : [],
           "dimensions" : [],
-          "lumens" : [],
-          "wattage" : [],
+          "eveh" : [""],
           "description" : []
         },
         "2x2 Troffer + Linear Strip + Wall Wash" :
@@ -501,8 +631,7 @@
           "height" : [],
           "orientation" : [],
           "dimensions" : [],
-          "lumens" : [],
-          "wattage" : [],
+          "eveh" : [""],
           "description" : []
         }
       },
@@ -518,8 +647,7 @@
           "height" : [],
           "orientation" : [],
           "dimensions" : [],
-          "lumens" : [],
-          "wattage" : [],
+          "eveh" : [""],
           "description" : []
         },
         "2x2 Troffer + Linear Strip" :
@@ -532,8 +660,7 @@
           "height" : [],
           "orientation" : [],
           "dimensions" : [],
-          "lumens" : [],
-          "wattage" : [],
+          "eveh" : [""],
           "description" : []
         },
         "Skylight Panel + 2x2 Troffer" :
@@ -546,8 +673,7 @@
           "height" : [],
           "orientation" : [],
           "dimensions" : [],
-          "lumens" : [],
-          "wattage" : [],
+          "eveh" : [""],
           "description" : []
         },
         "Cove + Downlight + Wall Wash" :
@@ -560,8 +686,7 @@
           "height" : [],
           "orientation" : [],
           "dimensions" : [],
-          "lumens" : [],
-          "wattage" : [],
+          "eveh" : [""],
           "description" : []
         }
       },
@@ -577,8 +702,7 @@
           "height" : [],
           "orientation" : [],
           "dimensions" : [],
-          "lumens" : [],
-          "wattage" : [],
+          "eveh" : [""],
           "description" : []
         },
         "Downlight" :
@@ -591,8 +715,7 @@
           "height" : [],
           "orientation" : [],
           "dimensions" : [],
-          "lumens" : [],
-          "wattage" : [],
+          "eveh" : [""],
           "description" : []
         },
         "Direct/Indirect Linear Pendant" :
@@ -605,8 +728,7 @@
           "height" : [],
           "orientation" : [],
           "dimensions" : [],
-          "lumens" : [],
-          "wattage" : [],
+          "eveh" : [""],
           "description" : []
         },
         "Cove + Downlight + Wall Wash" :
@@ -619,8 +741,7 @@
           "height" : [],
           "orientation" : [],
           "dimensions" : [],
-          "lumens" : [],
-          "wattage" : [],
+          "eveh" : [""],
           "description" : []
         }
       },
@@ -636,8 +757,7 @@
           "height" : [],
           "orientation" : [],
           "dimensions" : [],
-          "lumens" : [],
-          "wattage" : [],
+          "eveh" : [""],
           "description" : []
         },
         "Flush Mount + Desk Luminaire" :
@@ -650,8 +770,7 @@
           "height" : [],
           "orientation" : [],
           "dimensions" : [],
-          "lumens" : [],
-          "wattage" : [],
+          "eveh" : [""],
           "description" : []
         },
         "Downlight + Wall Wash" :
@@ -664,8 +783,7 @@
           "height" : [],
           "orientation" : [],
           "dimensions" : [],
-          "lumens" : [],
-          "wattage" : [],
+          "eveh" : [""],
           "description" : []
         }
       }
