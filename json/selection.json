@@ -292,7 +292,7 @@
       },
       "0.4 Teen Pre-teen" :
       {
-        "img" : "img/application/selection/4_Target_CS/0.4_Teen-Preteen.jpg",
+        "img" : "img/application/selection/4_Target_CS/0.4_Teen_Pre-teen.jpg",
         "desc" : "Combining typical white light with a saturated blue light whose layer provides only 30 lux of light to the eye is a more effective way to increase CS while minimizing energy use or reducing the overall light levels."
       },
       "0.4 Teen" :
@@ -378,10 +378,20 @@
         "img" : "img/application/selection/6_CCT/0.3_5000K-4000K-3500K.jpg",
         "desc" : "Transition from a cool white light in the early hours of the day to a warm white light at night."
       },
+      "6500 K -> 4000 K":
+      {
+        "img" : "img/application/selection/6_CCT/0.3_6500K-4000K.jpg",
+        "desc" : "Transition from a cooler white light in the early hours of the day to a neutral white light at night."
+      },
       "5000 K -> 4000 K":
       {
         "img" : "img/application/selection/6_CCT/0.3_5000K-4000K.jpg",
         "desc" : "Transition from a neutral white light in the early hours of the day to a neutral white light at night."
+      },
+      "4000 K -> 3000 K":
+      {
+        "img" : "img/application/selection/6_CCT/0.3_4000K-3000K.jpg",
+        "desc" : "Transition from a neutral white light in the early hours of the day to a warm white light at night."
       },
       "4000 K -> 3000 K -> 2700 K":
       {
