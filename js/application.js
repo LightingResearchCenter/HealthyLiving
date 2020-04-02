@@ -860,8 +860,10 @@ function generateCharts(){
       $('#chart_'+_chart).addClass('d-none');
       $('#show_chart_'+_chart).removeClass('active');
     }
+    $('#chart_spd').addClass('d-none');
     $('#chart_ratio').addClass('d-none');
     $('#show_chart_ratio').removeClass('active');
+    $('#show_chart_spd').removeClass('active');
     $('#chart_'+this_chart).removeClass('d-none');
     $('#show_chart_'+this_chart).addClass('active');
   });
@@ -880,8 +882,10 @@ function generateCharts(){
       $('#chart_'+_chart).addClass('d-none');
       $('#show_chart_'+_chart).removeClass('active');
     }
+    $('#chart_spd').addClass('d-none');
     $('#chart_ev').addClass('d-none');
     $('#show_chart_ev').removeClass('active');
+    $('#show_chart_spd').removeClass('active');
     $('#chart_'+this_chart).removeClass('d-none');
     $('#show_chart_'+this_chart).addClass('active');
   });
@@ -908,14 +912,38 @@ function generateCharts(){
         $('#chart_'+_chart).addClass('d-none');
         $('#show_chart_'+_chart).removeClass('active');
       }
+      $('#chart_spd').addClass('d-none');
       $('#chart_ratio').addClass('d-none');
       $('#show_chart_ratio').removeClass('active');
       $('#chart_ev').addClass('d-none');
       $('#show_chart_ev').removeClass('active');
+      $('#show_chart_spd').removeClass('active');
       $('#chart_'+this_chart).removeClass('d-none');
       $('#show_chart_'+this_chart).addClass('active');
     });
   }
+
+  // SPD
+  $('#chart_images').append('<img id="chart_spd" class="mt-2 d-none chart_img" src="img/application/spd/' + data.cct.replace(/ /g, "") + '_med.jpg" />');
+  var spd_footer_str = '<li class="nav-item nav-item-footer nav-item-footer-charts">';
+  spd_footer_str += '<a id="show_chart_spd" class="nav-link nav-link-footer text-center">SPD</a>';
+  spd_footer_str += '</li>';
+  $("#chart_footer").append(spd_footer_str);
+  $("#show_chart_spd").click(function(){
+    console.log('here');
+    var this_chart = "spd";
+    for (var j in charts){
+      var _chart = charts[j].toLowerCase();
+      $('#chart_'+_chart).addClass('d-none');
+      $('#show_chart_'+_chart).removeClass('active');
+    }
+    $('#chart_ev').addClass('d-none');
+    $('#chart_ratio').addClass('d-none');
+    $('#show_chart_ratio').removeClass('active');
+    $('#show_chart_ev').removeClass('active');
+    $('#chart_'+this_chart).removeClass('d-none');
+    $('#show_chart_'+this_chart).addClass('active');
+  });
 }
 
 function generateCSContent(){
@@ -1062,6 +1090,7 @@ function generateAdjustments(){
     generateRender(path);
     generateFinalBreadcrumb();
     generateCSContent();
+    generateCharts();
   });
   $('.adjustment-container-tod').click(function(){
     $('#final_adjustments .tod-border').removeClass('tod-selected');
