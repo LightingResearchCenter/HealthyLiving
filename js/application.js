@@ -567,18 +567,18 @@ function buildHTML(){
   str += '                       <h5 id="fixture_name" class="text-center mb-0 fixture-title"></h5>';
   str += '                     </div>';
   str += '                   </div>';
-  str += '                   <div class="fixture-scroll">';
-  str += '                     <div class="row mb-2">';
-  str += '                       <div class="col-md-6 pr-1">';
+  str += '                   <div class="container-fluid fixture-scroll">';
+  str += '                     <div class="row mb-2 pr-2">';
+  str += '                       <div class="col-md-6 pr-1 pl-0">';
   str += '                         <img id="fixture_fixture" class="w-100" src=""/>';
   str += '                       </div>';
-  str += '                       <div class="col-md-6 pl-1">';
+  str += '                       <div class="col-md-6 pl-1 pr-0">';
   str += '                         <img id="fixture_candela" class="w-100" src=""/>';
   str += '                       </div>';
   str += '                     </div>';
   str += '                    <div class="row mb-2">';
   str += '                       <div class="col px-0">';
-  str += '                         <ul class="pl-3 my-4 no-bullets">';
+  str += '                         <ul class="pl-0 my-4 no-bullets">';
   str += '                            <li class="card-text right-panel-p"><b>Amount: </b><span id="fixture_amount"></span></li>';
   str += '                            <li class="card-text right-panel-p"><b>Mounting type: </b><span id="fixture_type"></span></li>';
   str += '                            <li class="card-text right-panel-p"><b>Mounting height: </b><span id="fixture_height"></span></li>';
@@ -586,8 +586,10 @@ function buildHTML(){
   str += '                            <li class="card-text right-panel-p"><b>Dimensions: </b><span id="fixture_dimensions"></span></li>';
   str += '                            <li class="card-text right-panel-p"><b>E<sub>V</sub>:E<sub>H</sub></b> <span id="fixture_eveh"></span></li>';
   str += '                          </ul>';
-  str += '                        <img id="fixture_lumens" class="w-100 mb-3" src="" />';
-  str += '                        <p class="pl-3 card-text right-panel-p"><b>Description: </b><span id="fixture_description"></span></p>';
+  str += '                          <div>';
+  str += '                            <img id="fixture_lumens" class="w-100 mb-3" src="" />';
+  str += '                          </div>';
+  str += '                        <p class="card-text right-panel-p"><b>Description: </b><span id="fixture_description"></span></p>';
   str += '                        </div>';
   str += '                      </div>';
   str += '                    </div>';
@@ -842,7 +844,7 @@ function generateCharts(){
   $('#chart_images').html("");
   $('#chart_footer').html("");
 
-  var chart_path = hb[data.facility][data.room][data.fixture]["chart path"]+'/'+data.target.replace(/ /g,"_");
+  var chart_path = hb[data.facility][data.room][data.fixture]["chart path"]+'/'+data.target.toString().replace(/ /g,"_");
 
   // Ev
   var ev_path = 'img/application/charts/ev/' + data.facility.replace(" ", "_").toLowerCase() + '/' + data.target + '.jpg';
