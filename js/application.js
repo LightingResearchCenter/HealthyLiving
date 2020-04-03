@@ -641,7 +641,7 @@ function buildHTML(){
   str += '  </div>';
   str += '</div>';
   str += '<footer class="flex-footer">';
-  str += '<p class="footer-p">© 2019 Lighting Research Center All Right Reserved</p>';
+  str += '<p class="footer-p">© '+new Date().getFullYear()+' Lighting Research Center All Right Reserved</p>';
   str += '</footer>';
 
   $('body').append(str);
@@ -1114,7 +1114,7 @@ function generateContent(){
   $('body').removeAttr('data-vide-bg');
   $('body').removeAttr('data-vide-options');
   $('#navbar').removeClass('position-fixed');
-  if ($('body').find('div').first().attr('id') != 'navbar' && $('body').find('div').first().attr('id') != 'application-modal'){
+  if ($('body').find('div').first().attr('id') != 'navbar' && $('body').find('div').first().attr('id') != 'application-modal' && $('body').find('div').first().attr('id') != 'helpModal'){
     $('body').find('div').first().remove();
   }
   //Hide the modal and remove necessary landing page content
