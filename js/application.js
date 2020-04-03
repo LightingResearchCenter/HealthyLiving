@@ -641,7 +641,7 @@ function buildHTML(){
   str += '  </div>';
   str += '</div>';
   str += '<footer class="flex-footer">';
-  str += '<p class="footer-p">© 2019 Lighting Research Center All Right Reserved</p>';
+  str += '<p class="footer-p">© '+new Date().getFullYear()+' Lighting Research Center All Right Reserved</p>';
   str += '</footer>';
 
   $('body').append(str);
