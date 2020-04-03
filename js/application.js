@@ -1114,7 +1114,7 @@ function generateContent(){
   $('body').removeAttr('data-vide-bg');
   $('body').removeAttr('data-vide-options');
   $('#navbar').removeClass('position-fixed');
-  if ($('body').find('div').first().attr('id') != 'navbar' && $('body').find('div').first().attr('id') != 'application-modal'){
+  if ($('body').find('div').first().attr('id') != 'navbar' && $('body').find('div').first().attr('id') != 'application-modal' && $('body').find('div').first().attr('id') != 'helpModal'){
     $('body').find('div').first().remove();
   }
   //Hide the modal and remove necessary landing page content
