@@ -613,7 +613,7 @@ function buildHTML(){
   str += '                      <img id="chart_ratio" class="mt-2 d-none chart_img"  src="" />';
   str += '                      <img id="chart_lpd" class="mt-2 d-none chart_img"  src="" />';
   str += '                      <img id="chart_energy" class="mt-2 d-none chart_img"  src="" />';
-    str += '                    <img id="chart_spd" class="mt-2 d-none chart_img"  src="" />';
+  str += '                      <img id="chart_spd" class="mt-2 d-none chart_img"  src="" />';
   str += '                    </div>';
   str += '                </div>';
   str += '              </div>';
