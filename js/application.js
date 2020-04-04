@@ -609,12 +609,22 @@ function buildHTML(){
   str += '                <div class="chartsContent right-panel-content right-panel-content-container collapse">';
   str += '                  <hr class="right-panel-hr" />';
   str += '                    <div id="chart_images" class="right-panel-padding">';
+  str += '                      <img id="chart_ev" class="mt-2 chart_img active"  src="" />';
+  str += '                      <img id="chart_ratio" class="mt-2 d-none chart_img"  src="" />';
+  str += '                      <img id="chart_lpd" class="mt-2 d-none chart_img"  src="" />';
+  str += '                      <img id="chart_energy" class="mt-2 d-none chart_img"  src="" />';
+    str += '                    <img id="chart_spd" class="mt-2 d-none chart_img"  src="" />';
   str += '                    </div>';
   str += '                </div>';
   str += '              </div>';
   str += '            </a>';
   str += '            <div class="card-footer chart-cart-footer chartsContent right-panel-content-container collapse">';
   str += '              <ul id="chart_footer" class="nav nav-tabs nav-tabs-footer card-footer-tabs">';
+  str += '                <li class="nav-item nav-item-footer nav-item-footer-charts"><a id="show_chart_ev" class="nav-link nav-link-footer text-center active">ev</a></li>';
+  str += '                <li class="nav-item nav-item-footer nav-item-footer-charts"><a id="show_chart_ratio" class="nav-link nav-link-footer text-center">ratio</a></li>';
+  str += '                <li class="nav-item nav-item-footer nav-item-footer-charts"><a id="show_chart_lpd" class="nav-link nav-link-footer text-center">lpd</a></li>';
+  str += '                <li class="nav-item nav-item-footer nav-item-footer-charts"><a id="show_chart_energy" class="nav-link nav-link-footer text-center">energy</a></li>';
+  str += '                <li class="nav-item nav-item-footer nav-item-footer-charts"><a id="show_chart_spd" class="nav-link nav-link-footer text-center">SPD</a></li>';
   str += '              </ul>';
   str += '            </div>';
   str += '          </div>';
@@ -841,18 +851,9 @@ function handleRightPanelAccordion(){
 }
 
 function generateCharts(){
-  $('#chart_images').html("");
-  $('#chart_footer').html("");
-
-  var chart_path = hb[data.facility][data.room][data.fixture]["chart path"]+'/'+data.target.toString().replace(/ /g,"_");
-
   // Ev
   var ev_path = 'img/application/charts/ev/' + data.facility.replace(" ", "_").toLowerCase() + '/' + data.target + '.jpg';
-  $("#chart_images").append('<img id="chart_ev" class="mt-2 d-none chart_img"  src="'+ev_path+'" />');
-  var ev_footer_str = '<li class="nav-item nav-item-footer nav-item-footer-charts">';
-  ev_footer_str += '<a id="show_chart_ev" class="nav-link nav-link-footer text-center">Ev</a>';
-  ev_footer_str += '</li>';
-  $("#chart_footer").append(ev_footer_str);
+  $("#chart_ev").attr("src",ev_path);
   $('#show_chart_ev').click(function(){
     var this_chart = "ev";
     for (var j in charts){
@@ -870,11 +871,7 @@ function generateCharts(){
 
   // Ratio
   var ratio_path = 'img/application/charts/ratio/' + data.facility.replace(/ /g,"_").toLowerCase() + '/' + data.room.replace(/ /g,"_").toLowerCase() + '.jpg';
-  $("#chart_images").append('<img id="chart_ratio" class="mt-2 d-none chart_img"  src="'+ratio_path+'" />');
-  var ratio_footer_str = '<li class="nav-item nav-item-footer nav-item-footer-charts">';
-  ratio_footer_str += '<a id="show_chart_ratio" class="nav-link nav-link-footer text-center">Ratio</a>';
-  ratio_footer_str += '</li>';
-  $("#chart_footer").append(ratio_footer_str);
+  $("#chart_ratio").attr("src",ratio_path);
   $('#show_chart_ratio').click(function(){
     var this_chart = "ratio";
     for (var j in charts){
@@ -892,19 +889,10 @@ function generateCharts(){
 
   // LPD and Energy
   var charts = ["LPD","Energy"];
+  var chart_path = hb[data.facility][data.room][data.fixture]["chart path"]+'/'+data.target.toString().replace(/ /g,"_");
   for (var i in charts){
     var chart = charts[i].toLowerCase();
-    var footer_str = '<li class="nav-item nav-item-footer nav-item-footer-charts">';
-    if (i == 0){
-      footer_str += '<a id="show_chart_'+chart+'" class="nav-link nav-link-footer text-center active">'+charts[i]+'</a>';
-      $("#chart_images").append('<img id="chart_'+chart+'" class="mt-2 chart_img"  src="img/application/charts/'+chart+'/'+chart_path+'.jpg" />');
-    }else{
-      footer_str += '<a id="show_chart_'+chart+'" class="nav-link nav-link-footer text-center">'+charts[i]+'</a>';
-      $("#chart_images").append('<img id="chart_'+chart+'" class="mt-2 d-none chart_img"  src="img/application/charts/'+chart+'/'+chart_path+'.jpg" />');
-    }
-    footer_str += '</li>';
-    $("#chart_footer").append(footer_str);
-
+    $("#chart_" + chart).attr("src",'img/application/charts/'+chart+'/'+chart_path+'.jpg');
     $('#show_chart_'+chart).click(function(){
       var this_chart = this.id.replace("show_chart_","");
       for (var j in charts){
@@ -924,11 +912,7 @@ function generateCharts(){
   }
 
   // SPD
-  $('#chart_images').append('<img id="chart_spd" class="mt-2 d-none chart_img" src="img/application/spd/' + data.cct.replace(/ /g, "") + '_med.jpg" />');
-  var spd_footer_str = '<li class="nav-item nav-item-footer nav-item-footer-charts">';
-  spd_footer_str += '<a id="show_chart_spd" class="nav-link nav-link-footer text-center">SPD</a>';
-  spd_footer_str += '</li>';
-  $("#chart_footer").append(spd_footer_str);
+  $('#chart_spd').attr("src",'img/application/spd/' + data.cct.replace(/ /g, "") + '_med.jpg');
   $("#show_chart_spd").click(function(){
     console.log('here');
     var this_chart = "spd";
