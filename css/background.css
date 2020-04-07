@@ -25,6 +25,9 @@ html {
 
 html, body {
   height: 100%;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
 }
 
 article {
@@ -44,6 +47,16 @@ a.ref{
 a.ref:hover{
   color: #0056b3 !important;
   cursor: pointer;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  width: 0 !important
+}
+
+html::-webkit-scrollbar {
+  display: none;
+  width: 0 !important
 }
 
 .glossaryTitle{
@@ -81,7 +94,7 @@ a.ref:hover{
 }
 
 .h-200-offset {
-  height: calc(200% - 67px);
+  height: calc(200% - 61px);
 }
 
 .overflow-scroll {
@@ -89,19 +102,19 @@ a.ref:hover{
 }
 
 .mh-200-offset {
-  max-height: calc(200% - 67px);
+  max-height: calc(200% - 61px);
 }
 
 .h-100-offset {
-  height: calc(100% - 67px);
+  height: calc(100% - 61px);
 }
 
 .mh-100-offset {
-  max-height: calc(100% - 67px);
+  max-height: calc(100% - 61px);
 }
 
 .h-100-plus-offset {
-  max-height: calc(100% + 67px);
+  max-height: calc(100% + 61px);
 }
 
 .ul2col {
