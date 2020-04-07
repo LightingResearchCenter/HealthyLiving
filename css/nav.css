@@ -93,7 +93,7 @@
     transition: all 0.3s;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    padding: 1.1em 1em !important;
+    padding: 1rem 1rem !important;
   }
   #mainNav.navbar-shrink {
     padding-top: 0;
@@ -102,6 +102,6 @@
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.45em;
-    padding: 12px 0;
+    padding: 0;
   }
 }
