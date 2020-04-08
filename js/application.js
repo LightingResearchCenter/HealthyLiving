@@ -558,7 +558,7 @@ function buildHTML(){
   str += '          <div class="card right-panel-card">';
   str += '            <a class="right-panel-expandable collapsed" data-toggle="collapse" data-target=".fixturesContentContainer" aria-expanded="false" aria-controls="fixtureContentContainer">';
   str += '              <div id="fixture_card" class="card-body pb-0">';
-  str += '                <h5 class="card-title right-panel-h5 mb-0">Fixtures</h5>';
+  str += '                <h5 class="card-title right-panel-h5 mb-0">Luminaires</h5>';
   str += '                <div class="fixturesContentContainer right-panel-content-container right-panel-content collapse">';
   str += '                 <hr class="right-panel-hr"/>';
   str += '                 <div class="container-fluid px-0 right-panel-padding">';
