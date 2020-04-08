@@ -558,7 +558,7 @@ function buildHTML(){
   str += '          <div class="card right-panel-card">';
   str += '            <a class="right-panel-expandable collapsed" data-toggle="collapse" data-target=".fixturesContentContainer" aria-expanded="false" aria-controls="fixtureContentContainer">';
   str += '              <div id="fixture_card" class="card-body pb-0">';
-  str += '                <h5 class="card-title right-panel-h5 mb-0">Fixtures</h5>';
+  str += '                <h5 class="card-title right-panel-h5 mb-0">Luminaires</h5>';
   str += '                <div class="fixturesContentContainer right-panel-content-container right-panel-content collapse">';
   str += '                 <hr class="right-panel-hr"/>';
   str += '                 <div class="container-fluid px-0 right-panel-padding">';
@@ -620,8 +620,8 @@ function buildHTML(){
   str += '            </a>';
   str += '            <div class="card-footer chart-cart-footer chartsContent right-panel-content-container collapse">';
   str += '              <ul id="chart_footer" class="nav nav-tabs nav-tabs-footer card-footer-tabs">';
-  str += '                <li class="nav-item nav-item-footer nav-item-footer-charts"><a id="show_chart_ev" class="nav-link nav-link-footer text-center active">Ev</a></li>';
-  str += '                <li class="nav-item nav-item-footer nav-item-footer-charts"><a id="show_chart_ratio" class="nav-link nav-link-footer text-center">EV:EH Ratio</a></li>';
+  str += '                <li class="nav-item nav-item-footer nav-item-footer-charts"><a id="show_chart_ev" class="nav-link nav-link-footer text-center active">E<sub>V</sub></a></li>';
+  str += '                <li class="nav-item nav-item-footer nav-item-footer-charts"><a id="show_chart_ratio" class="nav-link nav-link-footer text-center">E<sub>V</sub>:E<sub>H</sub></a></li>';
   str += '                <li class="nav-item nav-item-footer nav-item-footer-charts"><a id="show_chart_lpd" class="nav-link nav-link-footer text-center">LPD</a></li>';
   str += '                <li class="nav-item nav-item-footer nav-item-footer-charts"><a id="show_chart_energy" class="nav-link nav-link-footer text-center">Energy</a></li>';
   str += '                <li class="nav-item nav-item-footer nav-item-footer-charts"><a id="show_chart_spd" class="nav-link nav-link-footer text-center">SPD</a></li>';

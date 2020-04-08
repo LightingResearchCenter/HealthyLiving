@@ -205,19 +205,6 @@ a p.bc-option{
   border-left: 1px solid #dbdbdb;
 }
 
-.dropdown-item{
-  color: #ddd !important;
-  font-family: "Oswald", sans-serif;
-  font-size: 90%;
-  font-weight: 400;
-  letter-spacing: 1px;
-}
-
-.dropdown-item:hover{
-  color: #fff !important;
-  background-color: #00205b;
-}
-
 .bc-title{
   font-weight: 600;
   height: 35%;
