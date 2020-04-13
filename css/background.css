@@ -406,6 +406,12 @@ hr {
   transform: translate(-50%, -50%);
 }
 
+.center-y{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .our-role-card {
   border-radius: 0.25rem;
 }
