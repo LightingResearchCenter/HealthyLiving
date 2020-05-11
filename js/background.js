@@ -53,21 +53,24 @@ function getRefJSON(){
 }
 
 function assignReferences(){
-  var id, count = 1;
+  var id, str = "", count = 1;
   $('a.ref').each(function(ref){
     var currCount = count;
     id = $(this).attr("data-refID");
+    $(this).attr('href', '#reference-' + id);
     $(this).attr('data-toggle', 'tooltip');
     $(this).attr('data-html', 'true');
     $(this).attr('title', refJSON[id]);
     if (id in references){
       $(this).html('[' +references[id]+']');
     }else{
+      str += "<p id='reference-"+id+"' class='reference'>[" + count + "]" + " " + refJSON[id] + "</p>";
       $(this).html('[' +count+']');
       references[id] = count;
       count++;
     }
   });
+  $("#references").html(str);
 }
 
 async function handleReferences(){

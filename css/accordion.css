@@ -86,10 +86,31 @@ body {
   margin-right: 1rem;
 }
 
+.schoolIcon::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f19d";
+  margin-right: 1rem;
+}
+
+.schoolInnerIcon::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f549";
+  margin-right: 1rem;
+}
+
 .occupantsInnerIcon::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "";
+  margin-right: 1rem;
+}
+
+.officeInnerIcon::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0b1";
   margin-right: 1rem;
 }
 

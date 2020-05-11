@@ -510,6 +510,8 @@ hr {
 }
 
 .suggestion-form{
+  border: 0px;
+  margin: 0;
   height: 1220px;
   width: 100%;
 }
