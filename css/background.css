@@ -36,6 +36,23 @@ article {
   padding-right: 2.5rem;
 }
 
+thead.thead-dark tr th{
+  background-color: #00205b !important;
+  border-color: #212529 !important;
+}
+
+.table th{
+  border-top: none;
+}
+
+.table th:first-child{
+  border-top-left-radius: 0.25rem;
+}
+
+.table th:last-child{
+  border-top-right-radius: 0.25rem;
+}
+
 a.section-link{
   text-decoration: none;
 }
@@ -227,6 +244,14 @@ html::-webkit-scrollbar {
 .cornell-border h6 {
   color: black;
   font-weight: 600;
+}
+
+.w-85{
+  width: 85%;
+}
+
+.w-80{
+  width: 80%;
 }
 
 .w-65 {
