@@ -100,6 +100,12 @@ function accordion(){
         $('#accordionCollapse').collapse("show");
       }
     });
+
+    $(".acnav__link").on("click",function(){
+        if(window.innerWidth < 768){
+          $('#accordionCollapse').collapse("hide");
+        }
+    })
 }
 
 function backToTop(){

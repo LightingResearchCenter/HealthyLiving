@@ -36,6 +36,23 @@ article {
   padding-right: 2.5rem;
 }
 
+thead.thead-dark tr th{
+  background-color: #00205b !important;
+  border-color: #212529 !important;
+}
+
+.table th{
+  border-top: none;
+}
+
+.table th:first-child{
+  border-top-left-radius: 0.25rem;
+}
+
+.table th:last-child{
+  border-top-right-radius: 0.25rem;
+}
+
 a.section-link{
   text-decoration: none;
 }
@@ -229,6 +246,14 @@ html::-webkit-scrollbar {
   font-weight: 600;
 }
 
+.w-85{
+  width: 85%;
+}
+
+.w-80{
+  width: 80%;
+}
+
 .w-65 {
   width: 65%;
 }
@@ -406,7 +431,7 @@ hr {
   transform: translate(-50%, -50%);
 }
 
-.center-y{
+.resource{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -610,12 +635,24 @@ hr {
     margin: auto;
     width: 100%;
   }
+  .resource{
+    position: relative;
+    margin: .5rem 0;
+  }
   #backToTop.show {
     opacity: 0;
     visibility: hidden;
   }
 }
 @media only screen and (max-width: 768px) {
+  .accordion{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+
   .banner-title{
     font-size:4em;
     line-height: 4rem;
