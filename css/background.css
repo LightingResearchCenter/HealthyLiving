@@ -431,7 +431,7 @@ hr {
   transform: translate(-50%, -50%);
 }
 
-.center-y{
+.resource{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -635,12 +635,24 @@ hr {
     margin: auto;
     width: 100%;
   }
+  .resource{
+    position: relative;
+    margin: .5rem 0;
+  }
   #backToTop.show {
     opacity: 0;
     visibility: hidden;
   }
 }
 @media only screen and (max-width: 768px) {
+  .accordion{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+
   .banner-title{
     font-size:4em;
     line-height: 4rem;
