@@ -123,15 +123,15 @@ html::-webkit-scrollbar {
 }
 
 .h-100-offset {
-  height: calc(100% - 61px);
+  height: calc(100% - 60px);
 }
 
 .mh-100-offset {
-  max-height: calc(100% - 61px);
+  max-height: calc(100% - 60px);
 }
 
 .h-100-plus-offset {
-  max-height: calc(100% + 61px);
+  max-height: calc(100% + 60px);
 }
 
 .ul2col {
@@ -288,6 +288,10 @@ html::-webkit-scrollbar {
 
 .w-15 {
   width: 15%;
+}
+
+.w-10{
+  width: 10%;
 }
 
 .line-height-1 {
@@ -524,6 +528,12 @@ hr {
   height: calc(90vh - 80px);
   max-height: calc(90vh - 80px);
   overflow-y: auto;
+}
+
+.help-menu-header{
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 
 .modal-xl{
