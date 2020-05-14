@@ -2,109 +2,109 @@
   {
     "Facility":
     {
-      "desc": "Facilities are comprised of varying occupant types, which affect circadian design solutions. Choose a facility below that you are interested in learning more about.",
+      "desc": "Facilities house varying types of occupants, each with unique needs that influence circadian-effective design solutions. To learn more, choose a facility that interests you from the list below.",
       "Senior Care" :
       {
         "img" : "img/application/selection/1_Facility/Senior_Care.jpg",
-        "desc" : "Older adults are susceptible to circadian disruption that can affect their sleep quality, alertness, and mood. To help improve their quality of life, it is recommended that seniors in eldercare environments receive defined amounts of light at the correct spectrum to better entrain their circadian systems. The lighting patterns were designed to provide these seniors with appropriate amounts of circadian stimulus at the right time of day, and thereby improve their circadian entrainment and quality of life."
+        "desc" : "Older adults are susceptible to circadian disruption that can affect their sleep quality, alertness, and mood. To alleviate these problems and thereby improve their quality of life, seniors in eldercare environments should be exposed robust circadian-effective lighting patterns to better entrain their circadian systems."
       },
       "Office":
       {
         "img" : "img/application/selection/1_Facility/Office.jpg",
-        "desc" : "Office lighting has traditionally been designed for visual performance, with relatively little regard to its effects on health and well-being, mood, and alertness. Typically, office workers have limited access to daylight that can lead to problems with sleep and mood and more serious behavioral and health problems over the long term. Lighting design can be used to improve these outcomes by providing office workers with the right amount of circadian stimulus (CS) at the right time."
+        "desc" : "Office lighting has traditionally been designed for visibility, with relatively little regard to its effects on health and well-being, mood, and alertness. Typically, office workers have limited access to daylight that can lead to problems with sleep and mood and more serious behavioral and health problems over the long term. Lighting design can be used to improve these outcomes by providing office workers with the right amount of CS at the right time."
       },
       "School":
       {
         "img" : "img/application/selection/1_Facility/School.jpg",
-        "desc" : "Adolescents’ tendency to be “late to bed and late to rise” puts them at odds with structured school schedules. As they approach college age they experience progressively later sleeponset and reduced sleep times. The resulting sleep disorders can lead to poor scholastic performance and behavioral problems. Improved classroom lighting design can foster betterscholastic and health outcomes by helping to shift the timing of sleep and promote entrainment to the 24-hour solar day."
+        "desc" : "Adolescents’ tendency to be “late to bed and late to rise” puts them at odds with structured school schedules. As they approach college age, they experience progressively later sleep onset and reduced durations, which can lead to poor scholastic performance and behavioral problems. Improved classroom lighting design can foster better scholastic and health outcomes by helping to shift the timing of sleep and promote entrainment to the 24-hour solar day."
       },
       "Healthcare":
       {
         "img" : "img/application/selection/1_Facility/Healthcare.jpg",
-        "desc" : "The hospital functions around the clock and year-round, its patients can range from premature infants to the elderly, and its occupants can include very ill patients or workers and visitors who are in good health. Many healthcare personnel work long hours that can include night shifts and rotating shifts, exposing them to lighting characteristics that are at odds with the timing circadian system. Circadian-effective lighting can improve the health and well-being of patients, visitors, and staff alike."
+        "desc" : "The hospital functions around the clock and year-round, its patients can range from premature infants to the elderly, and its occupants can include very ill patients and workers and visitors who are in good health. Many healthcare personnel work long hours that can include night shifts and rotating shifts, exposing them to lighting characteristics that are at odds with the timing of the circadian system. Circadian-effective lighting can improve the health and well-being of patients, visitors, and staff alike."
       }
     },
     "Room":
     {
-      "desc" : "Rooms within a facility can present different uses for occupants. With varying dimensions, furniture layouts, and time occupied, rooms can be diverse in scheduling. Choose a room to discover more about how you can learn about circadian design.",
+      "desc" : "Rooms within a given facility can be used by occupants in many ways. The varying dimensions, furniture layouts, and time of use for the rooms within a given facility directly influence circadian-effective design approaches. Choose a room to discover more about how you can learn about circadian-effective lighting design.",
       "Assisted Living Single with Kitchen" :
       {
         "img" : "img/application/selection/2_Room/SeniorCare_AssistedLivingWithKitchen.jpg",
-        "desc" : "A design for a medium sized single bedroom in an assisted living facility includes a twin bed, living room area with couch and television, dining area, and kitchen area. A French door off the dining area leads to an exterior patio."
+        "desc" : "<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Medium-sized single bedroom with twin bed</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Living room area with couch and television</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Dining and kitchen areas</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>French door off dining area leads to exterior patio</li></ul>"
       },
       "Nursing Home Single":
       {
         "img" : "img/application/selection/2_Room/SeniorCare_NursingHomeSingle.jpg",
-        "desc" : "A design for a small sized single bedroom in a nursing home facility includes a twin bed, living room area with couch and television, dining area. A French door off the dining area leads to an exterior patio."
+        "desc" : "<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Small single room with twin bed</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Living room area with couch and television</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Dining area</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>French door off the dining area leads to an exterior patio</li></ul>"
       },
       "Common Area":
       {
         "img" : "img/application/selection/2_Room/SeniorCare_Common.jpg",
-        "desc" : "A design for a recreational area in a senior living facility is one large room divided into two areas for dining and activity. The dining area includes round tables with chairs and the activity area consists of sofas, side tables, and rectangular tables with chairs for recreational use."
+        "desc" : "<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>One large room divided into two areas</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Dining area with rectangular tables and two chairs</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Activity/recreation area with sofas, side tables, and round coffee tables</li></ul>"
       },
       "Single Patient Room":
       {
         "img": "img/application/selection/2_Room/Healthcare_SinglePatientRoom.jpg",
-        "desc" : "A design for a single patient room has room for one patient and one guest. It includes an adjustable bed, a cabinet, and a chair."
+        "desc" : "<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Accommodates one patient and one guest</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Adjustable bed, a cabinet, and a chair</li></ul>"
       },
       "Double Patient Room":
       {
         "img": "img/application/selection/2_Room/Healthcare_DoublePatientRoom.jpg",
-        "desc" : "A design for a double patient room has room for 2 patients and 2 guests. It includes 2 adjustable beds, 2 cabinets, and 2 chairs."
+        "desc" : "<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Accommodates 2 patients and 2 guests</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Two adjustable beds, 2 cabinets, and 2 chairs</li></ul>"
       },
       "Nurses Station":
       {
         "img": "img/application/selection/2_Room/Healthcare_NursesStation.jpg",
-        "desc" : "A design for a nurse's station in an open hospital hallway seats 11 nurses and contains built in desks and office chairs."
+        "desc" : "<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Positioned in open hospital hallway</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Accommodates 11 nurses</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Built-in desk and office chairs</li></ul>"
       },
       "Neonatal Intensive Care Unit":
       {
         "img": "img/application/selection/2_Room/Healthcare_NICU.jpg",
-        "desc" : "A design for a NICU (newborn intensive care unit) is divided into two zones: nurse's station, and the infants in their incubators.The NICU contains incubators and a built in desk for nurses."
+        "desc" : "<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Divided into two zones</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Infant patient area with incubators</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Nurse's station with built-in desk</li></ul>"
       },
       "New Open Office":
       {
         "img": "img/application/selection/2_Room/Office_NewOpenOffice.jpg",
-        "desc" : "A design for a new open office layout seats up to 36 people. The open office has new work stations with 1’-6” partitions."
+        "desc" : "<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Accommodates up to 36 workers</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Work stations with 1’-6” desk-mounted partitions between work stations</li></ul>"
       },
       "Traditional Open Office":
       {
         "img": "img/application/selection/2_Room/Office_TraditionalOpenOffice.jpg",
-        "desc" : "A design for a traditional open office seats up to 16 people. The open office has traditional office cubicles with 4’ partition walls."
+        "desc" : "<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Accommodates up to 16 workers</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Traditional office cubicles separated by 4’ partitions between work stations</li></ul>"
       },
       "Private Office":
       {
         "img": "img/application/selection/2_Room/Office_Private.jpg",
-        "desc" : "A design for a private office includes an office desk and two guest seats. Lighting designs can be individualized since one user typically occupies the space."
+        "desc" : "<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Accommodates one worker and up to 2 guests</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Desk, one office chair, and 2 guest seats</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Lighting designs can be individualized for the one user who typically occupies the space</li></ul>"
       },
       "Standard Classroom" :
       {
         "img": "img/application/selection/2_Room/School_Classroom.jpg",
-        "desc" : "A design for a medium sized school classroom seats 23 students and 1 teacher."
+        "desc" : "<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Medium sized school classroom accommodates 23 students and one teacher</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Standard desks</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>White board</li></ul>"
       },
       "Special Education Classroom" :
       {
         "img": "img/application/selection/2_Room/School_SpecialEducation.jpg",
-        "desc" : "A design for a special needs classroom seats 12 students and 3 teachers."
+        "desc" : "<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Larger room accommodates 12 students and 3 teachers</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Standard desks</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>White board</li></ul>"
       },
       "Lecture Hall" :
       {
         "img": "img/application/selection/2_Room/School_LectureHall.jpg",
-        "desc" : "A design for a lecture hall for college students can seat up to 264 students. Seats are stepped up each row and have built in desks."
+        "desc" : "<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Accommodates up to 264 students</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Tiered rows with built-in desks</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Podium for lecture</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Projection screen behind podium</li></ul>"
       },
       "Dorm" :
       {
         "img" : "",
-        "desc" : "A design for a college dormitory houses 2 students. The mirrored room contains 2 desks under a bunked bed."
+        "desc" : "<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Accommodates 2 students</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Mirrored layout</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Desk/bunk bed combination, one per student</li></ul>"
       }
     },
     "Fixture":
     {
-      "desc": "Choose a fixture below to see how it is used in a circadian design. All fixtures have specific qualities that affect how light is distributed into a space. Even if a similar fixture type to the options below is used, characteristics may be different, resulting in varying performance. Calculations must always be done to assure fixture type, beam distribution, and SPD combine to achieve the desired CS effect.",
+      "desc": "All luminaires have unique characteristics that affect how they distribute light into a space. These characteristics can be quite variable, even between luminaires of the same type, which can result in variable performance. Precise photometric calculations will ensure that any luminaire type will achieve the targeted CS.",
       "2x2 Troffer + Linear Strip" :
       {
         "img" : "img/application/selection/3_Fixture/2x2_Troffer-Linear_Strip.jpg",
-        "desc" : "2x2 Troffers provide general ambient and task illumination. The linear strips parallel to the row of desks provides saturated blue light for circadian entrainment when the occupant receives desired amount at the eye, as well as promote a calm environment."
+        "desc" : "2×2 Troffers provide both ambient and task illumination. The saturated blue light linear strips parallel to the row of desks provide high CS at the occupants’ eyes and promote a calm environment."
       },
       "2x2 Troffer + Linear Strip + Wall Wash" :
       {
@@ -114,17 +114,17 @@
       "2x4 Center Basket Troffer":
       {
         "img" : "img/application/selection/3_Fixture/2x4_Center_Basket_Troffer.jpg",
-        "desc" : "Center basket troffers are a newer troffer design that can retrofit into existing 2x4 ceiling grids. The fixture design provides a different beam distribution, and can direct light more evenly into the space, compared to typical 2x4 troffers."
+        "desc" : "“Center basket” troffers are a newer troffer design that can retrofit into existing 2×4 ceiling grids. This luminaire design provides a different beam distribution, and can direct light more evenly into the space, compared to typical 2×4 troffers."
       },
       "2x4 Troffer + Blue/Red Desk Luminaire + Perimeter Valance" :
       {
         "img" : "img/application/selection/3_Fixture/2x4_Troffer-Desk_Luminaire-Perimeter_Valance.jpg",
-        "desc" : "Traditional 2x4 troffers with retrofit LED bulbs provide ambient light for the space, being an easy solution for a new lighting design. A perimeter wall valance adds a layer of indirect lighting, and an option of turning on a gentle wall wash when nurses are checking on the infants. Desk luminaires provide a solution for circadian entrainment and alertness effects for the nurses while being non-invasive for the infants."
+        "desc" : "Combination designs create layers of light that comprehensively achieve the aims of circadian-effective lighting design. Traditional 2×4 troffers with retrofitted LED bulbs deliver ambient light to the space, providing an easy solution for a new lighting design. A perimeter wall valance adds a layer of indirect lighting, and an option of turning on a gentle wall wash when nurses are checking on the infants. Desk luminaires provide a solution for circadian entrainment and alertness effects for the nurses while being non-invasive for the infants."
       },
       "2x4 Troffer + Wall Sconce":
       {
         "img" : "img/application/selection/3_Fixture/2x4_Troffer-Wall_Sconce.jpg",
-        "desc" : "Traditional 2x4 troffers with retrofit LED bulbs provide ambient light for the space, being an easy solution for a new lighting design. A wall sconce mounted above a patient’s bed provides additional task and ambient illumination."
+        "desc" : "Traditional 2×4 troffers with retrofitted LED bulbs deliver ambient light for the space, providing an easy solution for a new lighting design. In healthcare spaces, a wall sconce mounted above a patient’s bed provides additional task and ambient illumination."
       },
       "2x4 Troffer":
       {
@@ -134,17 +134,17 @@
       "Cove + Downlight + Wall Wash" :
       {
         "img" : "img/application/selection/3_Fixture/Cove-Downlight-Wall_Wash.jpg",
-        "desc" : "Downlights provide general ambient and task illumination. A cove allows for hidden linear fixtures to be tucked into a lip. Light is distributed more evenly across the space since fixtures are arrayed beside one another along the cove border. Integrating a cove requires new construction of a space with the addition of higher ceilings. A wall wash provides an additional layer to light up the walls and make a space feel even brighter. "
+        "desc" : "Downlights provide both ambient and task illumination. A cove allows hidden linear luminaires to be tucked into a lip. Light is more evenly distributed across the space, as the luminaires are arrayed end-to-end along the cove border. Integrating a cove requires new construction and the addition of higher ceilings. A wall wash provides an additional layer to illuminate the walls and make a space appear brighter."
       },
       "Cove + Floor Lamp + Table Lamp":
       {
         "img" : "img/application/selection/3_Fixture/Cove-Floor_Lamp-Table_Lamp.jpg",
-        "desc" : "Cove design allows for hidden linear fixtures to be tucked into a lip that extends around the perimeter of a room. Light is distributed more evenly across the space since fixtures are arrayed beside one another along the cove border. Integrating a cove requires new construction of a space with the addition of higher ceilings. Floor and table lamps add an additional layer of task lighting."
+        "desc" : "A cove design allows for hidden linear luminaires to be tucked into a lip that extends around the perimeter of a room. Light is distributed more evenly across the space since luminaires are arrayed end-to-end along the cove border. Integrating a cove requires new construction and the addition of higher ceilings. Floor and table lamps add an additional layer of task lighting."
       },
       "Direct/Indirect Linear Pendant":
       {
         "img" : "img/application/selection/3_Fixture/Direct_Indirect_Linear_Pendant.jpg",
-        "desc" : "Linear pendants hang from the ceiling and can provide light directly (downward) and/or indirectly (upward). This duels as a means to provide more ambient illumination throughout the space using indirect light, as well as task illumination using direct light."
+        "desc" : "Linear pendants hang from the ceiling and deliver light directly (downward) and/or indirectly (upward), providing more ambient illumination throughout the space using indirect light and task illumination using direct light."
       },
       "Downlight + Blue/Red Wall Wash" :
       {
@@ -154,47 +154,47 @@
       "Downlight + Flush Mount + Hanging Pendant + Wall Valance + Under Cabinet + TV Valance":
       {
         "img" : "img/application/selection/3_Fixture/Downlight-Flush_Mount-Hanging_Pendant-Wall_Valance-Under_Cabinet-TV_Valance.jpg",
-        "desc" : "Using a combination design allows for layers of light that play different roles. Downlights create general ambience, flush mounts provide a more home-like feel, wall valances provide more light to the eye to increase CS levels, and undercabinet contributes to task lighting for visual purpose."
+        "desc" : "Combination designs create layers of light that comprehensively achieve the aims of circadian-effective lighting design without compromising visibility. Downlights create general ambience, flush mounts provide a more home-like feel, wall valances provide more light at the eye to increase CS levels, and under-cabinet luminaires contribute to task lighting."
       },
       "Downlight + Hanging Pendant + Floor Lamp + Table Lamp":
       {
         "img" : "img/application/selection/3_Fixture/Downlight-Hanging_Pendant-Floor_Lamp-Table_Lamp.jpg",
-        "desc" : "Using a combination design allows for layers of light that play different roles. Downlights create general ambience, while pendants, floor lamps, and table lamps provide an additional layer of task lighting and create a home-like feel to the space."
+        "desc" : "Combination designs create layers of light that comprehensively achieve the aims of circadian-effective lighting design. Downlights create general ambience, while pendants, floor lamps, and table lamps provide additional layers of task lighting and create a home-like feel to the space."
       },
       "Downlight + Wall Wash" :
       {
         "img" : "img/application/selection/3_Fixture/Downlight-Wall_Wash.jpg",
-        "desc" : "Recessed downlights are mounted above the ceiling surface and provide ambient and task illumination. The linear wall washers wash the wall with a saturated blue or red color that can provide circadian entrainment as well as alertness when an occupant receives a desired amount at the eye."
+        "desc" : "Recessed downlights are mounted above the ceiling surface and deliver both ambient and task illumination. A wall wash provides an additional layer to illuminate the walls and make a space appear brighter while delivering greater CS."
       },
       "Downlight" :
       {
         "img" : "img/application/selection/3_Fixture/Downlight.jpg",
-        "desc" : "Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing."
+        "desc" : "Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or ambient illumination when installed at regular spacing. Downlights may have integrated LED sources or contain CFLs or LED replacement lamps."
       },
       "Floor Lamp + Task Lamp" :
       {
         "img" : "img/application/selection/3_Fixture/Floor_Lamp-Task_Lamp.jpg",
-        "desc" : "Some spaces have limited ceiling lighting, which requires the use of plug-in fixtures. Floor lamps and task lamps are among the most common to provide ambient and task illumination."
+        "desc" : "Some spaces have limited ceiling lighting, necessitating the use of plug-in luminaires. Floor lamps and task lamps are among the most common luminaire types for providing both ambient and task illumination."
       },
       "Flush Mount + Desk Luminaire" :
       {
         "img" : "img/application/selection/3_Fixture/Flush_Mount-Desk_Luminaire.jpg",
-        "desc" : "A modern twist to a classic flush mount fixtures adds a more home-like feel to a space while providing more light into the space than original styles. A desk luminaire will provide more light at the eye for circadian entrainment and alertness. Desk luminaires can be personalized with white light or blue and red at desired times of the day. "
+        "desc" : "A modern twist on a classic design, flush mount luminaires add a more home-like feel to a space while providing more light into the space than traditional styles, such as ones with a glass shade. A desk luminaire can provide greater CS and extra light for promoting alertness. Desk luminaires can be personalized with white light or blue and red at the appropriate times of the day."
       },
       "Flush Mount + Hanging Pendant + Perimeter Valance":
       {
         "img" : "img/application/selection/3_Fixture/Flush_Mount-Hanging_Pendant-Perimeter_Valance.jpg",
-        "desc" : "Using a combination design allows for layers of light that play different roles. Flush mount and pendant fixtures create general ambience and a more home-like feel. The addition of a wall valance integrated into a cornice extending around the room provides more light to the eye to increase CS levels."
+        "desc" : "Combination designs create layers of light that comprehensively achieve the aims of circadian-effective lighting design. Flush mount and pendant luminaires create general ambience and a more home-like feel. The addition of a wall valance integrated into a cornice extending around the room provides more light at the eye to increase CS levels."
       },
       "Flush Mount + Hanging Pendant":
       {
         "img" : "img/application/selection/3_Fixture/Flush_Mount-Hanging_Pendant.jpg",
-        "desc" : "A modern twist to a classic flush mount fixtures adds a more home-like feel to a space while providing more light into the space than original styles."
+        "desc" : "A modern twist on a classic design, flush-mount luminaires add a more home-like feel to a space while providing more light into the space than traditional styles, such as ones with a glass shade. A hanging pendant can be strategically placed over working areas to provide increased task illumination.  "
       },
       "Recessed Linear + Desk Luminaire + Under Cabinet" :
       {
         "img" : "img/application/selection/3_Fixture/Recessed_Linear-Desk_Luminaire-Under_Cabinet.jpg",
-        "desc" : "Using a combination design allows for layers of light that play different roles.Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. Desk luminaires personalized for each occupant as well as under cabinet lighting provide additional task and ambient illumination."
+        "desc" : "Combination designs create layers of light that comprehensively achieve the aims of circadian-effective lighting design. Recessed linear luminaires provide ambient light for the space in a more modern style than typical troffers. Desk luminaires can be personalized for each occupant, and under-cabinet lighting provides additional task and ambient illumination."
       },
       "Recessed Linear + Blue/Red Desk Luminaire + Under Cabinet" :
       {
@@ -204,12 +204,12 @@
       "Recessed Linear + Downlight + Wall Wash + Wall Sconce" :
       {
         "img" : "img/application/selection/3_Fixture/Recessed_Linear-Downlight-Wall_Wash-Wall_Sconce.jpg",
-        "desc" : "Using a combination design allows for layers of light that play different roles. Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. Downlights add more ambient light, as well as provide an option for task light beside the patient bed to be turned on during exams.  A wall wash grazing the wall in front of patients provides more light to the eye."
+        "desc" : "Combination luminaire designs create layers of light that comprehensively achieve the aims of circadian-effective lighting design. Recessed linear luminaires provide ambient light for the space in a more modern style than typical troffers. Downlights add greater amounts of ambient light while allowing the option of providing task lighting beside the patient bed that can be turned on during exams. A wash that illuminates walls faced by occupants will provide more light at the eye."
       },
       "Recessed Linear + Downlight + Wall Wash + Cove" :
       {
         "img" : "img/application/selection/3_Fixture/Recessed_Linear-Downlight-Wall_Wash-Cove.jpg",
-        "desc" : "Using a combination design allows for layers of light that play different roles.Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. The cove lighting above the nurse’s desk provides ambient lighting concentrated in that zone to allow for non-invasive light levels for the infants."
+        "desc" : "Combination designs create layers of light that comprehensively achieve the aims of circadian-effective lighting design. Recessed linear luminaires deliver ambient light for the space in a more modern style than typical troffers. Cove lighting above the nurse’s desk provides ambient lighting concentrated in that zone to prevent invasive light levels for the infants."
       },
       "Recessed Linear + Blue/Red Downlight + Blue Wall Wash + Cove" :
       {
@@ -219,12 +219,12 @@
       "Recessed Linear + Wall Sconce" :
       {
         "img" : "img/application/selection/3_Fixture/Recessed_Linear-Wall_Sconce.jpg",
-        "desc" : "Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. A wall sconce mounted above a patient’s bed provides additional task and ambient illumination."
+        "desc" : "Recessed linear luminaires provide ambient light for the space in a more modern style than typical troffers. In healthcare spaces, a wall sconce mounted above a patient’s bed provides additional task and ambient illumination."
       },
       "Recessed Linear + Wall Wash" :
       {
         "img" : "img/application/selection/3_Fixture/Recessed_Linear-Wall_Wash.jpg",
-        "desc" : "Using a combination design allows for layers of light that play different roles.Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. A wall wash grazing the back wall provides more light to the eye for the occupants facing that direction."
+        "desc" : "Combination designs create layers of light that comprehensively achieve the aims of circadian-effective lighting design. Recessed linear luminaires provide ambient light for the space in a more modern style than typical troffers. A wall wash grazing the back wall provides more light at the eye for occupants facing that direction."
       },
       "Recessed Linear + Blue/Red Wall Wash" :
       {
@@ -234,7 +234,7 @@
       "2x2 Troffer + Skylight Panel" :
       {
         "img" : "img/application/selection/3_Fixture/2x2_Troffer-Skylight_Panel.jpg",
-        "desc" : "2x2 Troffers provide general ambient and task illumination. Skylight panels recessed in the ceiling provide a sense of outdoors within a space. Paneled walls provide general CCTs with a blue sky, giving the ability to mimic sunlight."
+        "desc" : "2×2 Troffers provide both ambient and task illumination. Skylight panels recessed in the ceiling provide a sense of outdoors within a space. Paneled walls provide a broad range of CCTs with the appearance of a blue sky, mimicking daylight."
       }
     },
     "Target":
@@ -243,42 +243,42 @@
       "0.3":
       {
         "img" : "img/application/selection/4_Target_CS/0.3.jpg",
-        "desc" : "Targeting a CS of 0.3 is the absolute minimum to have an effect on the circadian system. Target a CS of 0.3 if:<ul><li>Furniture layout: Defined / Static</li><li>CCT preference: Warm white (2700 K-3000 K)</li><li>Horizontal illuminance: <500 lux on the workplane</li><li>Energy consumption is a major concern</li></ul>"
+        "desc" : "Targeting a CS of 0.3 is the minimum level for stimulating the circadian system. Target a CS of 0.3 for the following conditions:<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Furniture layout: Either defined or static</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>CCT preference: Warm white (2700–3000 K)</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>E<sub>H</sub>: &lt;500 lux on the work plane </li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Excessive energy usage is a major concern</li></ul>"
       },
       "0.3 Early Riser" :
       {
         "img" : "img/application/selection/4_Target_CS/0.3_Early-Riser.jpg",
-        "desc" : "Some students prefer to get up early to get work done, or early morning classes force some students to get going earlier than desired. Either way, lighting should promote morning alertness and provide circadian entrainment to allow for sleepiness at desired bedtimes. "
+        "desc" : "Some students rise early in the morning, either because they prefer working at that time or they have early class schedules. Either way, lighting should promote morning alertness and circadian entrainment to allow for sleepiness at desired bedtimes."
       },
       "0.3 Night Owl" :
       {
         "img" : "img/application/selection/4_Target_CS/0.3_Night-Owl.jpg",
-        "desc" : "College students are notorious for having late nights and even pulling all-nighters. This causes sleep schedules to shift from typical schedules. Lighting should be used strategically to delay the circadian clock by delaying melatonin release to extend alertness. During the nighttime hours, it is imperative to not disturb the circadian system, with CS levels not exceeding 0.1. Red light could be used to promote late night alerting without disruption of the circadian system."
+        "desc" : "College students are known for staying up late and/or working through the night. Lighting should delay night owls’ circadian clocks by delaying melatonin release to extend alertness. Nighttime disruption of the circadian system should be carefully avoided, with CS levels not exceeding 0.1. Red light could be used to at this time for an alerting without affecting the circadian system."
       },
       "0.3 SD" :
       {
         "img" : "img/application/selection/4_Target_CS/0.3.jpg",
-        "desc": "With a patient’s bed location being static, lighting can be placed and strategically to reach a CS of 0.3 at the eye. Considerations when designing:<ul><li>Patient orientation: Laying horizontal vs 45 degree tilt<ul><li>Light levels should be achieved with patient oriented in either position.</li></ul></li></ul>"
+        "desc": "Patients’ static bed locations require that lighting be strategically placed to reach a CS of 0.3 at the eye. Considerations when designing:<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Patient orientation: Laying horizontal vs 45° tilt</li><li><ul class='fa-ul'><li><span class='fa-li'><i class='far fa-lightbulb'></i></span>Light levels should be achieved with patient oriented in either position</li></ul></li></ul>"
       },
       "0.3 SN" :
       {
         "img" : "",
-        "desc" : "Students with special needs can be more susceptible to sleep disturbances and can also be more sensitive to bright light levels. Lighting schedules should promote circadian entrainment, and systems should provide controllable light levels for teachers to adjust as needed. "
+        "desc" : "Compared to their peers, students with special needs can be more susceptible to sleep disturbances and more sensitive to high light levels. Lighting schedules should promote circadian entrainment, and systems should provide controllable light levels for teachers to adjust as needed."
       },
       "0.4":
       {
         "img" : "img/application/selection/4_Target_CS/0.4.jpg",
-        "desc" : "Targeting a higher CS of 0.4 will better assure that the minimum of 0.3 CS is achieved where it is needed (e.g. where people are sitting). Target a CS of 0.4 if:<ul><li>Furniture layout: Undefined / dynamic</li><li>CCT preference: Cool white (5000 K-6500 K)</li><li>Population: Occupants that have the tendency to not respond to light (e.g. the aging population due to the aging eye), or are more out of sync, or more susceptible to being out of sync (e.g. social jetlag)</li></ul>"
+        "desc" : "Targeting a higher CS of 0.4 will better ensure that the minimum CS of 0.3 is achieved where it is needed (e.g., where people are sitting). Target a CS of 0.4 for the following conditions:<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Furniture layout: Either undefined or dynamic</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>CCT preference: Cool white (5000–6500 K)</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Population: Older adults who require a robust pattern of light and dark for circadian entrainment with sufficient CS levels to compensate for age-related changes to the eye</li></ul>"
       },
       "0.4 8-hour" :
       {
         "img" : "img/application/selection/4_Target_CS/0.4_8-hour.jpg",
-        "desc" : "With multiple user types with differing circadian needs, zones must be created to achieve target CS levels. Duration of circadian stimulus may vary based on:<ul><li>Nurse’s schedule: 8-hour shifts<br/>Typically: 7 AM - 3 PM, 3 PM - 11 PM, 11 PM - 7 AM</li><li>Infants 32 weeks and older: Robust light/dark entrainment</li></ul>"
+        "desc" : "Multiple user types with differing circadian needs, requiring that lighting zones be created to achieve target CS levels. Duration of CS may vary based on:<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Nurses’ schedule: 8-hour shifts, typically: 7 AM - 3 PM, 3 PM - 11 PM, 11 PM - 7 AM</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Population: Nurses of varying age; Infants 28 weeks and older, who require a robust pattern of light and dark for circadian entrainment</li></ul>"
       },
       "0.4 12-hour" :
       {
         "img" : "img/application/selection/4_Target_CS/0.4_12-hour.jpg",
-        "desc" : "With multiple user types with differing circadian needs, zones must be created to achieve target CS levels. Duration of circadian stimulus may vary based on:<ul><li>Nurse’s schedule: 12-hour shifts<br/>Typically: 7 AM - 7 PM, 7 PM - 7 AM</li><li>Infants 32 weeks and older: Robust light/dark entrainment</li></ul>"
+        "desc" : "Multiple user types with differing circadian needs, requiring that lighting zones be created to achieve target CS levels. Duration of CS may vary based on:<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Nurse’s schedule: 12-hour shifts, typically: 7 AM - 7 PM, 7 PM - 7 AM</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Population: Nurses of varying age; Infants 28 weeks and older, who require a robust pattern of light and dark for circadian entrainment</li></ul>"
       },
       "0.4 short" :
       {
@@ -292,13 +292,13 @@
       },
       "0.4 Teen Pre-teen" :
       {
-        "img" : "img/application/selection/4_Target_CS/0.4_Teen_Pre-teen.jpg",
-        "desc" : "Combining typical white light with a saturated blue light whose layer provides only 30 lux of light to the eye is a more effective way to increase CS while minimizing energy use or reducing the overall light levels."
+        "img" : "img/application/selection/4_Target_CS/0.4_Teen-Preteen.jpg",
+        "desc" : "Combining a typical white light source with a saturated blue luminaire delivering as little as 30 lux of light at the eye is an effective way to increase CS while minimizing energy usage or reducing the ambient light levels. "
       },
       "0.4 Teen" :
       {
         "img" : "img/application/selection/4_Target_CS/0.4_teen.jpg",
-        "desc" : "Becoming a teenager means a lot of changes occur, including a high chance of having delayed sleep phase disorder. This complication means that teenagers have a tendency to stay up later, shifting their sleep schedule to not synchronize with school hours. Lighting should provide stimulus to better synchronize the circadian system, while limiting light exposure in the evening and nighttime hours."
+        "desc" : "Teenager often experience delayed sleep phase disorder, which leads to them staying up later in the evening and have difficulty waking up for school. Lighting should provide stimulus to better synchronize the circadian system, while limiting light exposure in the evening and night."
       },
       "0.4 Pre-teen" :
       {
@@ -308,26 +308,26 @@
       "0.3 Pre-teen" :
       {
         "img" : "img/application/selection/4_Target_CS/0.3_preteen.jpg",
-        "desc" : "Children of a younger age have pretty regulated sleep schedules, and can have a lot of energy during the day. Lighting should provide a space with a concentrated environment while learning as well as circadian entrainment."
+        "desc" : "Younger children have well-regulated sleep schedules. Suggested circadian-effective lighting schedules should maintain their circadian entrainment."
       }
     },
     "System":
     {
-      "desc": "A dynamic lighting system involves the dimming of a lighting system throughout the day to achieve target CS values. Another component of dynamic lighting is the CCT (correlated color temperature), using a range of white light from cooler white to warmer white. Color changing by using multiple CCTs throughout the day is characterized as a tunable CCT system, while using a single CCT that dims throughout the day is a static CCT system. Using RGB LED light sources allows for the opportunity to create any CCT, but be sure to use the CS calculator to determine your CCT’s contribution to CS.",
+      "desc": "A dynamic system involves dimming the lighting throughout the day to achieve target CS values, using either a single, static CCT or a program of several tunable CCTs that can vary throughout the day. If you are using an RGB LED lighting system that is capable of delivering virtually any SPD, be sure to check the resulting CS values with the CS calculator.",
       "Static":
       {
         "img" : "img/application/selection/5_CCT_System/Static.jpg",
-        "desc" : "A static CCT system uses a singular CCT in the design that dims throughout the day to achieve a robust light/dark schedule."
+        "desc" : "A static CCT system uses a single CCT and dims throughout the day to achieve a robust light/dark and CS schedule."
       },
       "Tunable":
       {
         "img" : "img/application/selection/5_CCT_System/Tunable.jpg",
-        "desc" : "A tunable CCT system uses multiple CCTs throughout the day to achieve a robust schedule. Schedules start with brighter, cooler CCTs in the morning hours and change CCT while dimming throughout the day, and eventually turning off during sleeping hours. This better simulates sunlight throughout the day."
+        "desc" : "A tunable CCT system uses multiple CCTs throughout the day to achieve a robust light/dark and CS schedule. Schedules start with brighter, cooler CCTs in the morning, changing CCT and dimming throughout the day, eventually turning off at bedtime."
       }
     },
     "CCT":
     {
-      "desc" : "CCT (Correlated Color Temperature) refers to the tint of white light. A white light source can seem cooler (blue tint) or warmer (yellow tint), which is affiliated with its CCT. Along with varying impact on the circadian system, the CCT can have a large impact on how the overall atmosphere of a space feels to an occupant.<br/><br/>See ‘White light & CCT’’ on the background page for more information.",
+      "desc" : "The tint or appearance of white light is commonly expressed in terms of its measured CCT, which ranges from higher CCT values (cool or bluish; e.g., 6500 K) to lower CCT values (warm or yellowish; e.g., 2700 K), expressed in the unit Kelvin (K). Along with varying impacts on the circadian system, CCT also influences the overall atmosphere of a space.",
       "6500 K":
       {
         "img" : "img/application/selection/6_CCT/6500K.jpg",

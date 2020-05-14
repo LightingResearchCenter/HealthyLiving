@@ -41,6 +41,11 @@ p, ol, ul, li{
   margin-left: -0.5rem;
 }
 
+.selection-ul{
+  font-weight: 300;
+  margin-left: 2rem;
+}
+
 .icon-plan-man{
   padding-bottom: .5rem;
   float: left;

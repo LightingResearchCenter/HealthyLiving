@@ -8,96 +8,100 @@
         {
           "0.4":
           {
-            "intro" : "Circadian designs for occupant rooms can encompass an individualized circadian schedule. In this design, general fixture spacing can be used to achieve CS targets throughout the day.",
-            "outer1" : ["Target CS","If occupant location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. It is suggested to target an average of 0.4 so that it is more likely that a minimum of a 0.3 CS is reached in most locations."],
-            "outer2" : ["Aging eye","The aging eye also has a tendency to not respond to light as well as a younger eye, so increased light levels may increase the responsiveness of the occupant. If occupant location is known, you can still target 0.4 to increase the likelihood of responsiveness."],
-            "outer3" : ["Illuminance point locations","Both vertical and horizontal calculations points were taken as an average across the room, with vertical points facing in four directions. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer4" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant."],
-            "outer5" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer7" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "intro" : "Circadian-effective designs for single-occupant rooms can be tailored to the individual. In this design, general luminaire spacing can be used to achieve CS targets throughout the day.",
+            "outer1" : ["Target CS","If the occupant’s location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. Targeting an average CS of 0.4 will better ensure that a minimum CS of 0.3 is reached in most locations."],
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If the occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","Both E<sub>V</sub> and E<sub>H</sub> calculations were averaged across the room, with the E<sub>V</sub> points facing four directions."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as uplights and undercabinet lighting, can provide more light on the vertical plane (i.e., at the eye) at occupant locations while still providing light on task."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           },
           "0.3":
           {
-            "intro" : "Circadian designs for occupant rooms can encompass an individualized circadian schedule. In this design, general fixture spacing can be used to achieve CS targets throughout the day.",
-            "outer1" : ["Target CS","If occupant location is defined and unchanging, and/or warmer CCTs are preferred, designing a CS schedule with a maximum target CS of 0.3 is recommended."],
-            "outer2" : ["Illuminance point locations","Both vertical and horizontal calculations points are taken at known seating areas. Lighting designs can get specific, placing lighting fixtures in optimal locations for getting desired CS levels at distinct occupant seating locations. Using the same calculation method, targeting vertical illuminance levels to reach 0.4 instead of 0.3 can increase the likelihood of responsiveness of the eyes of the occupants. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer3" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant."],
-            "outer4" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer5" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer6" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "intro" : "Circadian-effective designs for occupant rooms be tailored to the individual. In this design, general luminaire spacing can be used to achieve CS targets throughout the day.",
+            "outer1" : ["Target CS","If the occupant’s location is defined and unchanging, and/or warmer CCTs are preferred, designing a CS schedule with a maximum target CS of 0.3 is recommended."],
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If the occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","E<sub>V</sub> and E<sub>H</sub> are calculated at known seating areas. CS targets of 0.4 rather than 0.3 will be more likely to promote stimulation of the circadian system."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as uplights and undercabinet lighting, can provide more light on the vertical plane (i.e., at the eye) at occupant locations while still providing light on task."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           }
         },
         "Downlight":
         {
           "0.4":
           {
-            "intro" : "Circadian designs for occupant rooms can encompass an individualized circadian schedule. In this design, general fixture spacing can be used to achieve CS targets throughout the day.",
-            "outer1" : ["Target CS","If occupant location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. It is suggested to target an average of 0.4 so that it is more likely that a minimum of a 0.3 CS is reached in most locations."],
-            "outer2" : ["Aging eye","The aging eye also has a tendency to not respond to light as well as a younger eye, so increased light levels may increase the responsiveness of the occupant. If occupant location is known, you can still target 0.4 to increase the likelihood of responsiveness."],
-            "outer3" : ["Illuminance point locations","Both vertical and horizontal calculations points were taken as an average across the room, with vertical points facing in four directions. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer4" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant."],
-            "outer5" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer7" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "intro" : "Circadian-effective designs for single-occupant rooms can be tailored to the individual. In this design, general luminaire spacing can be used to achieve CS targets throughout the day.",
+            "outer1" : ["Target CS","If the occupant’s location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. Targeting an average CS of 0.4 will better ensure that a minimum CS of 0.3 is reached in most locations."],
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If the occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","Both E<sub>V</sub> and E<sub>H</sub> calculations were averaged across the room, with the E<sub>V</sub> points facing four directions."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as uplights and undercabinet lighting, can provide more light on the vertical plane (i.e., at the eye) at occupant locations while still providing light on task."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           },
           "0.3":
           {
-            "intro" : "Circadian designs for occupant rooms can encompass an individualized circadian schedule. In this design, general fixture spacing can be used to achieve CS targets throughout the day.",
-            "outer1" : ["Target CS","If occupant location is defined and unchanging, and/or warmer CCTs are preferred, designing a CS schedule with a maximum target CS of 0.3 is recommended."],
-            "outer2" : ["Illuminance point locations","Both vertical and horizontal calculations points are taken at known seating areas. Lighting designs can get specific, placing lighting fixtures in optimal locations for getting desired CS levels at distinct occupant seating locations. Using the same calculation method, targeting vertical illuminance levels to reach 0.4 instead of 0.3 can increase the likelihood of responsiveness of the eyes of the occupants. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer3" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant."],
-            "outer4" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer5" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer6" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "intro" : "Circadian-effective designs for occupant rooms be tailored to the individual. In this design, general luminaire spacing can be used to achieve CS targets throughout the day.",
+            "outer1" : ["Target CS","If the occupant’s location is defined and unchanging, and/or warmer CCTs are preferred, designing a CS schedule with a maximum target CS of 0.3 is recommended."],
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If the occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","E<sub>V</sub> and E<sub>H</sub> are calculated at known seating areas. CS targets of 0.4 rather than 0.3 will be more likely to promote stimulation of the circadian system."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as uplights and undercabinet lighting, can provide more light on the vertical plane (i.e., at the eye) at occupant locations while still providing light on task."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           }
         },
         "Flush Mount + Hanging Pendant":
         {
           "0.4":
           {
-            "intro" : "Circadian designs for occupant rooms can encompass an individualized circadian schedule. In this design, general fixture spacing can be used to achieve CS targets throughout the day.",
-            "outer1" : ["Target CS","If occupant location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. It is suggested to target an average of 0.4 so that it is more likely that a minimum of a 0.3 CS is reached in most locations."],
-            "outer2" : ["Aging eye","The aging eye also has a tendency to not respond to light as well as a younger eye, so increased light levels may increase the responsiveness of the occupant. If occupant location is known, you can still target 0.4 to increase the likelihood of responsiveness."],
-            "outer3" : ["Illuminance point locations","Both vertical and horizontal calculations points were taken as an average across the room, with vertical points facing in four directions. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer4" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant."],
-            "outer5" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer7" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "intro" : "Circadian-effective designs for single-occupant rooms can be tailored to the individual. In this design, general luminaire spacing can be used to achieve CS targets throughout the day.",
+            "outer1" : ["Target CS","If the occupant’s location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. Targeting an average CS of 0.4 will better ensure that a minimum CS of 0.3 is reached in most locations."],
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If the occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","Both E<sub>V</sub> and E<sub>H</sub> calculations were averaged across the room, with the E<sub>V</sub> points facing four directions."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as uplights and undercabinet lighting, can provide more light on the vertical plane (i.e., at the eye) at occupant locations while still providing light on task."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           },
           "0.3":
           {
-            "intro" : "Circadian designs for occupant rooms can encompass an individualized circadian schedule. In this design, general fixture spacing can be used to achieve CS targets throughout the day.",
-            "outer1" : ["Target CS","If occupant location is defined and unchanging, and/or warmer CCTs are preferred, designing a CS schedule with a maximum target CS of 0.3 is recommended."],
-            "outer2" : ["Illuminance point locations","Both vertical and horizontal calculations points are taken at known seating areas. Lighting designs can get specific, placing lighting fixtures in optimal locations for getting desired CS levels at distinct occupant seating locations. Using the same calculation method, targeting vertical illuminance levels to reach 0.4 instead of 0.3 can increase the likelihood of responsiveness of the eyes of the occupants. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer3" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant."],
-            "outer4" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer5" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer6" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "intro" : "Circadian-effective designs for occupant rooms be tailored to the individual. In this design, general luminaire spacing can be used to achieve CS targets throughout the day.",
+            "outer1" : ["Target CS","If the occupant’s location is defined and unchanging, and/or warmer CCTs are preferred, designing a CS schedule with a maximum target CS of 0.3 is recommended."],
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If the occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","E<sub>V</sub> and E<sub>H</sub> are calculated at known seating areas. CS targets of 0.4 rather than 0.3 will be more likely to promote stimulation of the circadian system."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as uplights and undercabinet lighting, can provide more light on the vertical plane (i.e., at the eye) at occupant locations while still providing light on task."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           }
         },
         "Downlight + Flush Mount + Hanging Pendant + Wall Valance + Under Cabinet + TV Valance":
         {
           "0.4":
           {
-            "intro" : "Circadian designs for occupant rooms can encompass an individualized circadian schedule. In this design, specific fixture placement can be used to optimally achieve CS targets throughout the day.",
-            "outer1" : ["Target CS","If occupant location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. It is suggested to target an average of 0.4 so that it is more likely that a minimum of a 0.3 CS is reached in most locations."],
-            "outer2" : ["Aging eye","The aging eye also has a tendency to not respond to light as well as a younger eye, so increased light levels may increase the responsiveness of the occupant. If occupant location is known, you can still target 0.4 to increase the likelihood of responsiveness."],
-            "outer3" : ["Illuminance point locations","Both vertical and horizontal calculations points were taken as an average across the room, with vertical points facing in four directions. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer4" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant. Creating a lighting design with multiple fixture types, such as wall valances, can assist with providing more light on the vertical plane (at the eye) in locations where an occupant is seated."],
-            "outer5" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer7" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "intro" : "Circadian-effective lighting designs for occupant rooms can be tailored to the individual. In this design, specific luminaire placement can be used to optimally achieve CS targets throughout the day.",
+            "outer1" : ["Target CS","If the occupant’s location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. Targeting an average CS of 0.4 will better ensure that a minimum CS of 0.3 is reached in most locations."],
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If the occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","Both E<sub>V</sub> and E<sub>H</sub> calculations points were averaged across the room, with the EV points facing four directions."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as wall valances, can provide more light on the vertical plane (i.e., at the eye) at occupant locations."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           },
           "0.3":
           {
-            "intro" : "Circadian designs for occupant rooms can encompass an individualized circadian schedule. In this design, specific fixture placement can be used to optimally achieve CS targets throughout the day.",
-            "outer1" : ["Target CS","If occupant location is defined and unchanging, and/or warmer CCTs are preferred, designing a CS schedule with a maximum target CS of 0.3 is recommended."],
-            "outer2" : ["Illuminance point locations","Both vertical and horizontal calculations points are taken at known seating areas. Lighting designs can get specific, placing lighting fixtures in optimal locations for getting desired CS levels at distinct occupant seating locations. Using the same calculation method, targeting 0.4 instead of 0.3 can increase the likelihood of responsiveness of the eyes of the occupants. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer3" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant. Creating a lighting design with multiple fixture types, such as wall valances, can assist with providing more light on the vertical plane (at the eye) in locations where an occupant is seated."],
-            "outer4" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD. "],
-            "outer5" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer6" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "intro" : "Circadian-effective designs for occupant rooms can be tailored to the  individual. In this design, specific luminaire placement can be used to optimally achieve CS targets throughout the day.",
+            "outer1" : ["Target CS","If the occupant’s location is defined and unchanging, and/or warmer CCTs are preferred, designing a CS schedule with a maximum target CS of 0.3 is recommended."],
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If the occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","E<sub>V</sub> and E<sub>H</sub> are calculated at known seating areas. CS targets of 0.4 rather than 0.3 will be more likely to promote stimulation of the circadian system."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as wall valances, can provide more light on the vertical plane (at the eye) in locations where an occupant is seated."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           }
         }
       },
@@ -107,96 +111,100 @@
         {
           "0.4":
           {
-            "intro" : "Circadian designs for occupant rooms can encompass an individualized circadian schedule. In this design, general fixture spacing can be used to achieve CS targets throughout the day.",
-            "outer1" : ["Target CS","If occupant location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. It is suggested to target an average of 0.4 so that it is more likely that a minimum of a 0.3 CS is reached in most locations."],
-            "outer2" : ["Aging eye","The aging eye also has a tendency to not respond to light as well as a younger eye, so increased light levels may increase the responsiveness of the occupant. If occupant location is known, you can still target 0.4 to increase the likelihood of responsiveness."],
-            "outer3" : ["Illuminance point locations","Both vertical and horizontal calculations points were taken as an average across the room, with vertical points facing in four directions. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer4" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant."],
-            "outer5" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer7" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "intro" : "Circadian-effective designs for single-occupant rooms can be tailored to the individual. In this design, general luminaire spacing can be used to achieve CS targets throughout the day.",
+            "outer1" : ["Target CS","If the occupant’s location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. Targeting an average CS of 0.4 will better ensure that a minimum CS of 0.3 is reached in most locations."],
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If the occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","Both E<sub>V</sub> and E<sub>H</sub> calculations were averaged across the room, with the E<sub>V</sub> points facing four directions."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as uplights and undercabinet lighting, can provide more light on the vertical plane (i.e., at the eye) at occupant locations while still providing light on task."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           },
           "0.3":
           {
-            "intro" : "Circadian designs for occupant rooms can encompass an individualized circadian schedule. In this design, general fixture spacing can be used to achieve CS targets throughout the day.",
-            "outer1" : ["Target CS","If occupant location is defined and unchanging, and/or warmer CCTs are preferred, designing a CS schedule with a maximum target CS of 0.3 is recommended."],
-            "outer2" : ["Illuminance point locations","Both vertical and horizontal calculations points are taken at known seating areas. Lighting designs can get specific, placing lighting fixtures in optimal locations for getting desired CS levels at distinct occupant seating locations. Using the same calculation method, targeting vertical illuminance levels to reach 0.4 instead of 0.3 can increase the likelihood of responsiveness of the eyes of the occupants. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer3" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant."],
-            "outer4" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer5" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer6" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "intro" : "Circadian-effective designs for occupant rooms be tailored to the individual. In this design, general luminaire spacing can be used to achieve CS targets throughout the day.",
+            "outer1" : ["Target CS","If the occupant’s location is defined and unchanging, and/or warmer CCTs are preferred, designing a CS schedule with a maximum target CS of 0.3 is recommended."],
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If the occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","E<sub>V</sub> and E<sub>H</sub> are calculated at known seating areas. CS targets of 0.4 rather than 0.3 will be more likely to promote stimulation of the circadian system."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as uplights and undercabinet lighting, can provide more light on the vertical plane (i.e., at the eye) at occupant locations while still providing light on task."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           }
         },
         "Downlight":
         {
           "0.4":
           {
-            "intro" : "Circadian designs for occupant rooms can encompass an individualized circadian schedule. In this design, general fixture spacing can be used to achieve CS targets throughout the day.",
-            "outer1" : ["Target CS","If occupant location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. It is suggested to target an average of 0.4 so that it is more likely that a minimum of a 0.3 CS is reached in most locations."],
-            "outer2" : ["Aging eye","The aging eye also has a tendency to not respond to light as well as a younger eye, so increased light levels may increase the responsiveness of the occupant. If occupant location is known, you can still target 0.4 to increase the likelihood of responsiveness."],
-            "outer3" : ["Illuminance point locations","Both vertical and horizontal calculations points were taken as an average across the room, with vertical points facing in four directions. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer4" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant."],
-            "outer5" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer7" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "intro" : "Circadian-effective designs for single-occupant rooms can be tailored to the individual. In this design, general luminaire spacing can be used to achieve CS targets throughout the day.",
+            "outer1" : ["Target CS","If the occupant’s location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. Targeting an average CS of 0.4 will better ensure that a minimum CS of 0.3 is reached in most locations."],
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If the occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","Both E<sub>V</sub> and E<sub>H</sub> calculations were averaged across the room, with the E<sub>V</sub> points facing four directions."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as uplights and undercabinet lighting, can provide more light on the vertical plane (i.e., at the eye) at occupant locations while still providing light on task."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           },
           "0.3":
           {
-            "intro" : "Circadian designs for occupant rooms can encompass an individualized circadian schedule. In this design, general fixture spacing can be used to achieve CS targets throughout the day.",
-            "outer1" : ["Target CS","If occupant location is defined and unchanging, and/or warmer CCTs are preferred, designing a CS schedule with a maximum target CS of 0.3 is recommended."],
-            "outer2" : ["Illuminance point locations","Both vertical and horizontal calculations points are taken at known seating areas. Lighting designs can get specific, placing lighting fixtures in optimal locations for getting desired CS levels at distinct occupant seating locations. Using the same calculation method, targeting vertical illuminance levels to reach 0.4 instead of 0.3 can increase the likelihood of responsiveness of the eyes of the occupants. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer3" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant."],
-            "outer4" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer5" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer6" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "intro" : "Circadian-effective designs for occupant rooms be tailored to the individual. In this design, general luminaire spacing can be used to achieve CS targets throughout the day.",
+            "outer1" : ["Target CS","If the occupant’s location is defined and unchanging, and/or warmer CCTs are preferred, designing a CS schedule with a maximum target CS of 0.3 is recommended."],
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If the occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","E<sub>V</sub> and E<sub>H</sub> are calculated at known seating areas. CS targets of 0.4 rather than 0.3 will be more likely to promote stimulation of the circadian system."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as uplights and undercabinet lighting, can provide more light on the vertical plane (i.e., at the eye) at occupant locations while still providing light on task."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           }
         },
         "Flush Mount + Hanging Pendant":
         {
           "0.4":
           {
-            "intro" : "Circadian designs for occupant rooms can encompass an individualized circadian schedule. In this design, general fixture spacing can be used to achieve CS targets throughout the day.",
-            "outer1" : ["Target CS","If occupant location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. It is suggested to target an average of 0.4 so that it is more likely that a minimum of a 0.3 CS is reached in most locations."],
-            "outer2" : ["Aging eye","The aging eye also has a tendency to not respond to light as well as a younger eye, so increased light levels may increase the responsiveness of the occupant. If occupant location is known, you can still target 0.4 to increase the likelihood of responsiveness."],
-            "outer3" : ["Illuminance point locations","Both vertical and horizontal calculations points were taken as an average across the room, with vertical points facing in four directions. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer4" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant."],
-            "outer5" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer7" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "intro" : "Circadian-effective designs for single-occupant rooms can be tailored to the individual. In this design, general luminaire spacing can be used to achieve CS targets throughout the day.",
+            "outer1" : ["Target CS","If the occupant’s location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. Targeting an average CS of 0.4 will better ensure that a minimum CS of 0.3 is reached in most locations."],
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If the occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","Both E<sub>V</sub> and E<sub>H</sub> calculations were averaged across the room, with the E<sub>V</sub> points facing four directions."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as uplights and undercabinet lighting, can provide more light on the vertical plane (i.e., at the eye) at occupant locations while still providing light on task."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           },
           "0.3":
           {
-            "intro" : "Circadian designs for occupant rooms can encompass an individualized circadian schedule. In this design, general fixture spacing can be used to achieve CS targets throughout the day.",
-            "outer1" : ["Target CS","If occupant location is defined and unchanging, and/or warmer CCTs are preferred, designing a CS schedule with a maximum target CS of 0.3 is recommended."],
-            "outer2" : ["Illuminance point locations","Both vertical and horizontal calculations points are taken at known seating areas. Lighting designs can get specific, placing lighting fixtures in optimal locations for getting desired CS levels at distinct occupant seating locations. Using the same calculation method, targeting vertical illuminance levels to reach 0.4 instead of 0.3 can increase the likelihood of responsiveness of the eyes of the occupants. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer3" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant."],
-            "outer4" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer5" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer6" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "intro" : "Circadian-effective designs for occupant rooms be tailored to the individual. In this design, general luminaire spacing can be used to achieve CS targets throughout the day.",
+            "outer1" : ["Target CS","If the occupant’s location is defined and unchanging, and/or warmer CCTs are preferred, designing a CS schedule with a maximum target CS of 0.3 is recommended."],
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If the occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","E<sub>V</sub> and E<sub>H</sub> are calculated at known seating areas. CS targets of 0.4 rather than 0.3 will be more likely to promote stimulation of the circadian system."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as uplights and undercabinet lighting, can provide more light on the vertical plane (i.e., at the eye) at occupant locations while still providing light on task."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           }
         },
         "Flush Mount + Hanging Pendant + Perimeter Valance":
         {
           "0.4":
           {
-            "intro" : "Circadian designs for occupant rooms can encompass an individualized circadian schedule. In this design, specific fixture placement can be used to optimally achieve CS targets throughout the day.",
-            "outer1" : ["Target CS","If occupant location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. It is suggested to target an average of 0.4 so that it is more likely that a minimum of a 0.3 CS is reached in most locations."],
-            "outer2" : ["Aging eye","The aging eye also has a tendency to not respond to light as well as a younger eye, so increased light levels may increase the responsiveness of the occupant. If occupant location is known, you can still target 0.4 to increase the likelihood of responsiveness."],
-            "outer3" : ["Illuminance point locations","Both vertical and horizontal calculations points were taken as an average across the room, with vertical points facing in four directions. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer4" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant. Creating a lighting design with multiple fixture types, such as wall valances, can assist with providing more light on the vertical plane (at the eye) in locations where an occupant is seated."],
-            "outer5" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer7" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "intro" : "Circadian-effective lighting designs for occupant rooms can be tailored to the individual. In this design, specific luminaire placement can be used to optimally achieve CS targets throughout the day.",
+            "outer1" : ["Target CS","If the occupant’s location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. Targeting an average CS of 0.4 will better ensure that a minimum CS of 0.3 is reached in most locations."],
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If the occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","Both E<sub>V</sub> and E<sub>H</sub> calculations points were averaged across the room, with the EV points facing four directions."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as wall valances, can provide more light on the vertical plane (i.e., at the eye) at occupant locations."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           },
           "0.3":
           {
-            "intro" : "Circadian designs for occupant rooms can encompass an individualized circadian schedule. In this design, specific fixture placement can be used to optimally achieve CS targets throughout the day.",
-            "outer1" : ["Target CS","If occupant location is defined and unchanging, and/or warmer CCTs are preferred, designing a CS schedule with a maximum target CS of 0.3 is recommended."],
-            "outer2" : ["Illuminance point locations","Both vertical and horizontal calculations points are taken at known seating areas. Lighting designs can get specific, placing lighting fixtures in optimal locations for getting desired CS levels at distinct occupant seating locations. Using the same calculation method, targeting 0.4 instead of 0.3 can increase the likelihood of responsiveness of the eyes of the occupants. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer3" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant. Creating a lighting design with multiple fixture types, such as wall valances, can assist with providing more light on the vertical plane (at the eye) in locations where an occupant is seated."],
-            "outer4" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD. "],
-            "outer5" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer6" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "intro" : "Circadian-effective designs for occupant rooms can be tailored to the  individual. In this design, specific luminaire placement can be used to optimally achieve CS targets throughout the day.",
+            "outer1" : ["Target CS","If the occupant’s location is defined and unchanging, and/or warmer CCTs are preferred, designing a CS schedule with a maximum target CS of 0.3 is recommended."],
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If the occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","E<sub>V</sub> and E<sub>H</sub> are calculated at known seating areas. CS targets of 0.4 rather than 0.3 will be more likely to promote stimulation of the circadian system."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as wall valances, can provide more light on the vertical plane (at the eye) in locations where an occupant is seated."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           }
         }
       },
@@ -206,96 +214,100 @@
         {
           "0.4":
           {
-            "intro" : "Some senior care facilities encourage occupants to get out of their room during the day, so circadian designs for common areas during the daytime hours are necessary. In this design, general fixture spacing can be used to achieve CS targets throughout the day.",
-            "outer1" : ["Target CS","If occupant location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. Especially if occupants will be moving about the space, aiming for an average of 0.4 throughout the space will better ensure most locations will reach a minimum of 0.3 during the desired hours."],
-            "outer2" : ["Aging eye","The aging eye also has a tendency to not respond to light as well as a younger eye, so increased light levels may increase the responsiveness of the occupant. If occupant location is known, you can still target 0.4 to increase the likelihood of responsiveness."],
-            "outer3" : ["Illuminance point locations","Both vertical and horizontal calculations points were taken as an average across the room, with vertical points facing in four directions. It is suggested to target an average of 0.4 so that it is more likely that a minimum of a 0.3 CS is reached in most locations. If occupant location is known, you can still target 0.4 to increase the likelihood of responsiveness. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer4" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant."],
-            "outer5" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer7" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "intro" : "Some senior care facilities encourage occupants to get out of their room during the day, so circadian-effective designs for common areas during the daytime hours are necessary. In this design, general luminaire spacing can be used to achieve CS targets throughout the day.",
+            "outer1" : ["Target CS","If the occupant’s location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. Targeting an average CS of 0.4 will better ensure that a minimum CS of 0.3 is reached in most locations."],
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If the occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","E<sub>V</sub> and E<sub>H</sub> are calculated at known seating areas. CS targets of 0.4 rather than 0.3 will be more likely to promote stimulation of the circadian system."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as uplights and undercabinet lighting, can provide more light on the vertical plane (i.e., at the eye) at occupant locations while still providing light on task."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           },
           "0.3":
           {
-            "intro" : "Some senior care facilities encourage occupants to get out of their room during the day, so circadian designs for common areas during the daytime hours are necessary. In this design, general fixture spacing can be used to achieve CS targets throughout the day.",
+            "intro" : "Some senior care facilities encourage occupants to get out of their room during the day, so circadian-effective designs for common areas during the daytime hours are necessary. In this design, general luminaire spacing can be used to achieve CS targets throughout the day.",
             "outer1" : ["Target CS","If occupant location is defined and unchanging, and/or warmer CCTs are preferred, designing a CS schedule with a maximum target CS of 0.3 is recommended."],
-            "outer2" : ["Illuminance point locations","Both vertical and horizontal calculations points are taken at known seating areas. Lighting designs can get specific, placing lighting fixtures in optimal locations for getting desired CS levels at distinct occupant seating locations. Using the same calculation method, targeting 0.4 instead of 0.3 can increase the likelihood of responsiveness of the eyes of the occupants. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer3" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant."],
-            "outer4" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer5" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer6" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","E<sub>V</sub> and E<sub>H</sub> are calculated at known seating areas. CS targets of 0.4 rather than 0.3 will be more likely to promote stimulation of the circadian system."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as uplights and undercabinet lighting, can provide more light on the vertical plane (i.e., at the eye) at occupant locations while still providing light on task."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           }
         },
         "Downlight":
         {
           "0.4":
           {
-            "intro" : "Some senior care facilities encourage occupants to get out of their room during the day, so circadian designs for common areas during the daytime hours are necessary. In this design, general fixture spacing can be used to achieve CS targets throughout the day.",
-            "outer1" : ["Target CS","If occupant location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. Especially if occupants will be moving about the space, aiming for an average of 0.4 throughout the space will better ensure most locations will reach a minimum of 0.3 during the desired hours."],
-            "outer2" : ["Aging eye","The aging eye also has a tendency to not respond to light as well as a younger eye, so increased light levels may increase the responsiveness of the occupant. If occupant location is known, you can still target 0.4 to increase the likelihood of responsiveness."],
-            "outer3" : ["Illuminance point locations","Both vertical and horizontal calculations points were taken as an average across the room, with vertical points facing in four directions. It is suggested to target an average of 0.4 so that it is more likely that a minimum of a 0.3 CS is reached in most locations. If occupant location is known, you can still target 0.4 to increase the likelihood of responsiveness. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer4" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant."],
-            "outer5" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer7" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "intro" : "Some senior care facilities encourage occupants to get out of their room during the day, so circadian-effective designs for common areas during the daytime hours are necessary. In this design, general luminaire spacing can be used to achieve CS targets throughout the day.",
+            "outer1" : ["Target CS","If the occupant’s location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. Targeting an average CS of 0.4 will better ensure that a minimum CS of 0.3 is reached in most locations."],
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If the occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","E<sub>V</sub> and E<sub>H</sub> are calculated at known seating areas. CS targets of 0.4 rather than 0.3 will be more likely to promote stimulation of the circadian system."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as uplights and undercabinet lighting, can provide more light on the vertical plane (i.e., at the eye) at occupant locations while still providing light on task."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           },
           "0.3":
           {
-            "intro" : "Some senior care facilities encourage occupants to get out of their room during the day, so circadian designs for common areas during the daytime hours are necessary. In this design, general fixture spacing can be used to achieve CS targets throughout the day.",
+            "intro" : "Some senior care facilities encourage occupants to get out of their room during the day, so circadian-effective designs for common areas during the daytime hours are necessary. In this design, general luminaire spacing can be used to achieve CS targets throughout the day.",
             "outer1" : ["Target CS","If occupant location is defined and unchanging, and/or warmer CCTs are preferred, designing a CS schedule with a maximum target CS of 0.3 is recommended."],
-            "outer2" : ["Illuminance point locations","Both vertical and horizontal calculations points are taken at known seating areas. Lighting designs can get specific, placing lighting fixtures in optimal locations for getting desired CS levels at distinct occupant seating locations. Using the same calculation method, targeting 0.4 instead of 0.3 can increase the likelihood of responsiveness of the eyes of the occupants. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer3" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant."],
-            "outer4" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer5" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer6" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","E<sub>V</sub> and E<sub>H</sub> are calculated at known seating areas. CS targets of 0.4 rather than 0.3 will be more likely to promote stimulation of the circadian system."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as uplights and undercabinet lighting, can provide more light on the vertical plane (i.e., at the eye) at occupant locations while still providing light on task."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           }
         },
         "Cove + Floor Lamp + Table Lamp":
         {
           "0.4":
           {
-            "intro" : "Some senior care facilities encourage occupants to get out of their room during the day, so circadian designs for common areas during the daytime hours are necessary. In this design, general fixture spacing can be used to achieve CS targets throughout the day.",
-            "outer1" : ["Target CS","If occupant location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. Especially if occupants will be moving about the space, aiming for an average of 0.4 throughout the space will better ensure most locations will reach a minimum of 0.3 during the desired hours."],
-            "outer2" : ["Aging eye","The aging eye also has a tendency to not respond to light as well as a younger eye, so increased light levels may increase the responsiveness of the occupant. If occupant location is known, you can still target 0.4 to increase the likelihood of responsiveness."],
-            "outer3" : ["Illuminance point locations","Both vertical and horizontal calculations points were taken as an average across the room, with vertical points facing in four directions. It is suggested to target an average of 0.4 so that it is more likely that a minimum of a 0.3 CS is reached in most locations. Creating a lighting design with multiple fixture types, such as floor and table lamps, can assist with providing more light on the vertical plane (at the eye) in locations where an occupant is seated. If occupant location is known, you can still target 0.4 to increase the likelihood of responsiveness. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer4" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant. Creating a lighting design with multiple fixture types, such as wall valances, can assist with providing more light on the vertical plane (at the eye) in locations where an occupant is seated."],
-            "outer5" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer7" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "intro" : "Some senior care facilities encourage occupants to get out of their room during the day, so circadian-effective designs for common areas during the daytime hours are necessary. In this design, general luminaire spacing can be used to achieve CS targets throughout the day.",
+            "outer1" : ["Target CS","If the occupant’s location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. Targeting an average CS of 0.4 will better ensure that a minimum CS of 0.3 is reached in most locations."],
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If the occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","E<sub>V</sub> and E<sub>H</sub> are calculated at known seating areas. CS targets of 0.4 rather than 0.3 will be more likely to promote stimulation of the circadian system."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as uplights and undercabinet lighting, can provide more light on the vertical plane (i.e., at the eye) at occupant locations while still providing light on task."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           },
           "0.3":
           {
-            "intro" : "Some senior care facilities encourage occupants to get out of their room during the day, so circadian designs for common areas during the daytime hours are necessary. In this design, general fixture spacing can be used to achieve CS targets throughout the day.",
+            "intro" : "Some senior care facilities encourage occupants to get out of their room during the day, so circadian-effective designs for common areas during the daytime hours are necessary. In this design, specific luminaire placement can be used to optimally achieve CS targets throughout the day.",
             "outer1" : ["Target CS","If occupant location is defined and unchanging, and/or warmer CCTs are preferred, designing a CS schedule with a maximum target CS of 0.3 is recommended."],
-            "outer2" : ["Illuminance point locations","Both vertical and horizontal calculations points are taken at known seating areas. Lighting designs can get specific, placing lighting fixtures in optimal locations for getting desired CS levels at distinct occupant seating locations. Using the same calculation method, targeting 0.4 instead of 0.3 can increase the likelihood of responsiveness of the eyes of the occupants. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer3" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant."],
-            "outer4" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer5" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer6" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","E<sub>V</sub> and E<sub>H</sub> are calculated at known seating areas. CS targets of 0.4 rather than 0.3 will be more likely to promote stimulation of the circadian system."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as wall valances, can provide more light on the vertical plane (at the eye) at occupant locations."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           }
         },
         "Downlight + Hanging Pendant + Floor Lamp + Table Lamp":
         {
           "0.4":
           {
-            "intro" : "Some senior care facilities encourage occupants to get out of their room during the day, so circadian designs for common areas during the daytime hours are necessary. In this design, specific fixture placement can be used to optimally achieve CS targets throughout the day.",
-            "outer1" : ["Target CS","If occupant location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. Especially if occupants will be moving about the space, aiming for an average of 0.4 throughout the space will better ensure most locations will reach a minimum of 0.3 during the desired hours."],
-            "outer2" : ["Aging eye","The aging eye also has a tendency to not respond to light as well as a younger eye, so increased light levels may increase the responsiveness of the occupant. If occupant location is known, you can still target 0.4 to increase the likelihood of responsiveness."],
-            "outer3" : ["Illuminance point locations","Both vertical and horizontal calculations points were taken as an average across the room, with vertical points facing in four directions. It is suggested to target an average of 0.4 so that it is more likely that a minimum of a 0.3 CS is reached in most locations. If occupant location is known, you can still target 0.4 to increase the likelihood of responsiveness. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer4" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant."],
-            "outer5" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer7" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "intro" : "Some senior care facilities encourage occupants to get out of their room during the day, so circadian-effective designs for common areas during the daytime hours are necessary. In this design, specific luminaire placement can be used to optimally achieve CS targets throughout the day.",
+            "outer1" : ["Target CS","If the occupant’s location is undefined or dynamic, and/or cooler CCTs are preferred, designing a CS schedule with a maximum target CS of 0.4 is recommended. Targeting an average CS of 0.4 will better ensure that a minimum CS of 0.3 CS is reached in most locations."],
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","E<sub>V</sub> and E<sub>H</sub> are calculated at known seating areas. CS targets of 0.4 rather than 0.3 will be more likely to promote stimulation of the circadian system."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as wall valances, can provide more light on the vertical plane (at the eye) at occupant locations."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           },
           "0.3":
           {
-            "intro" : "Some senior care facilities encourage occupants to get out of their room during the day, so circadian designs for common areas during the daytime hours are necessary. In this design, specific fixture placement can be used to optimally achieve CS targets throughout the day.",
+            "intro" : "Some senior care facilities encourage occupants to get out of their room during the day, so circadian-effective designs for common areas during the daytime hours are necessary. In this design, general luminaire spacing can be used to achieve CS targets throughout the day.",
             "outer1" : ["Target CS","If occupant location is defined and unchanging, and/or warmer CCTs are preferred, designing a CS schedule with a maximum target CS of 0.3 is recommended."],
-            "outer2" : ["Illuminance point locations","Both vertical and horizontal calculations points are taken at known seating areas. Lighting designs can get specific, placing lighting fixtures in optimal locations for getting desired CS levels at distinct occupant seating locations. Creating a lighting design with multiple fixture types, such as wall valances, can assist with providing more light on the vertical plane (at the eye) in locations where an occupant is seated. Using the same calculation method, targeting 0.4 instead of 0.3 can increase the likelihood of responsiveness of the eyes of the occupants. Note that you should not average CS values together, but rather average vertical illuminance levels to be at the light level needed to reach a CS of 0.4."],
-            "outer3" : ["Glare consideration","Being cognizant to avoid glare must be considered to assure a space is still comfortable for an occupant. Creating a lighting design with multiple fixture types, such as wall valances, can assist with providing more light on the vertical plane (at the eye) in locations where an occupant is seated."],
-            "outer4" : ["Dimming","Both static and tunable CCT systems should dim throughout the day, however changing CCT with a tunable system would provide an even more robust scheme as well as being able to optimize CS requirements with horizontal illuminance and LPD."],
-            "outer5" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant room and common areas."],
-            "outer6" : ["Design challenges","Eye diseases create their own design challenges, and more design strategies can be found in the background pages."]
+            "outer2" : ["Aging eye","The aging eye does not respond to light as well as the younger eye, so higher light levels may increase the likelihood of occupants’ circadian response. If occupant location is known, targeting a CS of 0.4 will increase the likelihood of circadian response."],
+            "outer3" : ["Illuminance point locations","E<sub>V</sub> and E<sub>H</sub> are calculated at known seating areas. CS targets of 0.4 rather than 0.3 will be more likely to promote stimulation of the circadian system."],
+            "outer4" : ["Glare consideration","Avoiding glare will ensure occupants’ comfort in a space. A lighting design using multiple luminaire types, such as uplights and undercabinet lighting, can provide more light on the vertical plane (i.e., at the eye) at occupant locations while still providing light on task."],
+            "outer5" : ["Dimming","Both static and tunable CCT systems should be dimmed as the day progresses. However, changing CCT with a tunable system can provide a more robust scheme and better optimize target CS with E<sub>H</sub> and LPD."],
+            "outer6" : ["CS schedule","CS schedules should be consistent or relatively similar between occupant rooms and common areas."],
+            "outer7" : ["Design challenges","Geriatric eye diseases create their own occupant-specific design challenges."]
           }
         }
       }
