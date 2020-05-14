@@ -165,7 +165,7 @@ function generateModalBreadcrumb(current){
     $('#application-modal-breadcrumb').html('<li class="breadcrumb-item"><a href="#" id="repick-facility">'+data.facility+'</a></li><li class="breadcrumb-item">Room</li>');
   }
   if (current == "fixture"){
-    $('#application-modal-breadcrumb').html('<li class="breadcrumb-item"><a href="#" id="repick-facility">'+data.facility+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-room">'+data.room+'</a></li><li class="breadcrumb-item">Fixture</li>');
+    $('#application-modal-breadcrumb').html('<li class="breadcrumb-item"><a href="#" id="repick-facility">'+data.facility+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-room">'+data.room+'</a></li><li class="breadcrumb-item">Luminaire</li>');
   }
   if (current == "target"){
     $('#application-modal-breadcrumb').html('<li class="breadcrumb-item"><a href="#" id="repick-facility">'+data.facility+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-room">'+data.room+'</a></li><li class="breadcrumb-item"><a href="#" id="repick-fixture">'+data.fixture+'</a></li><li class="breadcrumb-item">Target CS</li>');
@@ -244,7 +244,7 @@ function getFixture(){
   checkModalSize(Object.keys(hb[data.facility][data.room]));
   generateModalBreadcrumb("fixture");
   $('#application-modal-deck').html('');
-  $('#application-modal-label').html('Choose Fixture(s) <i class="modal-label-caret fas fa-caret-down"></i> <p class="collapse" id="application-modal-desc">'+selection.Fixture.desc+'</p>');
+  $('#application-modal-label').html('Choose Luminaire(s) <i class="modal-label-caret fas fa-caret-down"></i> <p class="collapse" id="application-modal-desc">'+selection.Fixture.desc+'</p>');
   cacheSelectionImages("Target");
   for (var i = 0; i < fixtures.length; i++){
     var _fixture = Object.keys(hb[data.facility][data.room])[i];
@@ -355,7 +355,7 @@ function buildHTML(){
   str += '                    <div class="bc-room bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
   str += '                  </div>';
   str += '                  <div class="col bc-item px-0">';
-  str += '                    <div class="bc-title">Fixtures</div>';
+  str += '                    <div class="bc-title">Luminaire(s)</div>';
   str += '                    <div class="bc-fixture bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
   str += '                  </div>';
   str += '                  <div class="col bc-item px-0">';
@@ -391,7 +391,7 @@ function buildHTML(){
   str += '                    <div class="bc-room bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
   str += '                  </div>';
   str += '                  <div class="bc-item col px-0">';
-  str += '                    <div class="bc-title">Fixture</div>';
+  str += '                    <div class="bc-title">Luminaire(s)</div>';
   str += '                    <div class="bc-fixture bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
   str += '                  </div>';
   str += '                </div>';
@@ -431,7 +431,7 @@ function buildHTML(){
   str += '                </div>';
   str += '                <div class="row bc-row">';
   str += '                  <div class="bc-item col px-0">';
-  str += '                    <div class="bc-title">Fixture</div>';
+  str += '                    <div class="bc-title">Luminaire(s)</div>';
   str += '                    <div class="bc-fixture bc-selection" data-toggle="modal" data-target="#application-modal"></div>';
   str += '                  </div>';
   str += '                  <div class="bc-item col px-0">';
@@ -526,20 +526,22 @@ function buildHTML(){
   str += '                <div id="assumptionsContentContainer" class="right-panel-content-container right-panel-content collapse"><hr class="right-panel-hr"/>';
   str += '                  <div id="assumptionsContent" class="right-panel-padding">';
   str += '                    <h6 class="right-panel-outer-title">Room reflectances:</h6>';
-  str += '                    <p class="right-panel-p mb-2 ml-3">A room’s finishing material and color can change perception of space as well as reflect or absorb light to affect how much gets to the eye. Reflectances are based on a percentage of how much light is reflected off a surface.</p>';
+  str += '                    <p class="right-panel-p mb-2 ml-3">A room’s finishing material and color can change perception of space as well as reflect or absorb light to affect how much reaches the eye. Reflectances are based on the percentage of light that is reflected off a surface.</p>';
   str += '                    <p class="right-panel-grey-box">Ceiling: 80% (0.8) <br /> Walls: 50% (0.5) <br /> Floor: 20% (0.2)</p><hr/>';
-  str += '                    <h6 class="right-panel-outer-title">Height of illuminance calculation points:</h6>';
-  str += '                    <p class="right-panel-p mb-2 ml-3">When determining how light performs in a space, it is important to know the height at which people’s eyes will receive light (E<sub>V</sub>) and the height at which tasks are being done (E<sub>H</sub>).</p>';
-  str += '                    <p id="illuminance-info" class="right-panel-grey-box">Horizontal illuminance (E<sub>H</sub>): 2’-6” AFF <br /> Vertical illuminance (E<sub>V</sub>): 4’-0” AFF</p><hr/>';
+  str += '                    <h6 class="right-panel-outer-title">Illuminance calculation points:</h6>';
+  str += '                    <p class="right-panel-p mb-2 ml-3">When determining how lighting performs in a space, it is important to determine the height and locations at which people’s eyes will receive light (E<sub>V</sub>) and the height at which tasks are performed (E<sub>H</sub>).</p>';
+  str += '                    <p id="illuminance-info" class="right-panel-grey-box">E<sub>H</sub>: 2’-6” AFF <br />E<sub>V</sub>: 4’-0” AFF</p><hr/>';
   str += '                    <h6 class="right-panel-outer-title">Dimming system:</h6>';
-  str += '                    <p class="right-panel-p mb-2 ml-3">Knowing how your dimming system operates is important to determine what percent output your lights should be as brightness levels vary throughout the day.</p>';
+  str += '                    <p class="right-panel-p mb-2 ml-3">Knowing how your dimming system operates helps to determine the lighting’s percentage output throughout the day.</p>';
   str += '                    <p class="right-panel-grey-box">Linear dimming system</p><hr/>';
-  str += '                    <h6 class="right-panel-outer-title">Light Loss Factors:</h6>';
-  str += '                    <p class="right-panel-p mb-2 ml-3">When determining how light fixtures perform over time, it is important to know the depreciation over time. With light loss factors accounted for, light received from a fixture will decrease over time.</p>';
+  str += '                    <h6 class="right-panel-outer-title">Light loss factors:</h6>';
+  str += '                    <p class="right-panel-p mb-2 ml-3">When determining how light luminaires perform over time, it is important to know the luminaires’ depreciation rate might account for light loss factors over time.</p>';
   str += '                    <p class="right-panel-grey-box">No light loss factors accounted for</p><hr/>';
   str += '                    <h6 class="right-panel-outer-title">Relationship between lumen output and wattage:</h6>';
-  str += '                    <p class="right-panel-p mb-2 ml-3">Changing the lumen output of a fixture will change how much light is in a space. Lumen output from a fixture is important to know achieve light levels to determine energy usage, wattage must also be known.</p>';
+  str += '                    <p class="right-panel-p mb-2 ml-3">Knowing the luminaires’ lumen output will help to determine the amount of light that is delivered to a space. Knowing the luminaires wattage will also help to determine energy usage.</p>';
   str += '                    <p class="right-panel-grey-box">Linear relationship between fixture lumen output and wattage</p>';
+  str += '                    <h6 class="right-panel-outer-title">SPD:</h6>';
+  str += '                    <p class="right-panel-p mb-2 ml-3">A light source SPD plays a key role in how the circadian system will respond at varying light levels. It is crucial to check the SPD used in a design to determine target E<sub>V</sub> values for each project.</p>';
   str += '                  </div>';
   str += '                </div>';
   str += '              </div>';
@@ -558,7 +560,7 @@ function buildHTML(){
   str += '          <div class="card right-panel-card">';
   str += '            <a class="right-panel-expandable collapsed" data-toggle="collapse" data-target=".fixturesContentContainer" aria-expanded="false" aria-controls="fixtureContentContainer">';
   str += '              <div id="fixture_card" class="card-body pb-0">';
-  str += '                <h5 class="card-title right-panel-h5 mb-0">Luminaires</h5>';
+  str += '                <h5 class="card-title right-panel-h5 mb-0">Luminaire(s)</h5>';
   str += '                <div class="fixturesContentContainer right-panel-content-container right-panel-content collapse">';
   str += '                 <hr class="right-panel-hr"/>';
   str += '                 <div class="container-fluid px-0 right-panel-padding">';
@@ -755,13 +757,13 @@ function generateDescription(){
 
 function checkAssumptions(){
   if(data.room == 'Single Patient Room' || data.room == 'Double Patient Room'){
-    $('#illuminance-info').html('Horizontal illuminance (E<sub>H</sub>): 2’-6” AFF <br /> Vertical illuminance (E<sub>V</sub>) laying facing ceiling: 2’-6” AFF <br/> Vertical illuminance (E<sub>V</sub>) bed angled 45° from vertical: 4’-0” AFF');
+    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” AFF <br />E<sub>V</sub> laying facing ceiling: 2’-6” AFF <br/>E<sub>V</sub> bed angled 45° from vertical: 4’-0” AFF');
   }
   else if(data.room == 'Neonatal Intensive Care Unit'){
-    $('#illuminance-info').html('Horizontal illuminance (E<sub>H</sub>): 2’-6” AFF <br /> Vertical illuminance (E<sub>V</sub>) infant laying facing ceiling: 2’-6” AFF <br/> Vertical illuminance (E<sub>V</sub>) nurse sitting: 4’-0” AFF');
+    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” AFF <br />E<sub>V</sub> infant laying facing ceiling: 2’-6” AFF <br/>E<sub>V</sub> nurse sitting: 4’-0” AFF');
   }
   else{
-    $('#illuminance-info').html('Horizontal illuminance (E<sub>H</sub>): 2’-6” AFF <br /> Vertical illuminance (E<sub>V</sub>): 4’-0” AFF');
+    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” AFF <br />E<sub>V</sub>: 4’-0” AFF');
   }
 }
 
