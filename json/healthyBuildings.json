@@ -4705,7 +4705,6 @@
         "Recessed Linear + Blue/Red Downlight + Blue Wall Wash + Cove" :
         {
           "chart path" : "healthcare/nicu/cove",
-          "desc" : "A NICU (newborn intensive care unit) in a  hospital is where nurses watch over infants born prematurely. This 1975 sf room with a 12-foot ceiling includes a main desk with incubators around the perimeter of the room. Since nurses and infants have different circadian needs, zones of light should be created to achieve desired CS levels for both user types.",
           "0.4 8-hour" :
           {
             "plan" : ["img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Cove_Z1.jpg","img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Cove_Z1_View2.jpg"],

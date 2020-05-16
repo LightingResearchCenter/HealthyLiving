@@ -535,7 +535,7 @@ function buildHTML(){
   str += '                    <p class="right-panel-p mb-2 ml-3">Knowing how your dimming system operates helps to determine the lighting’s percentage output throughout the day.</p>';
   str += '                    <p class="right-panel-grey-box">Linear dimming system</p><hr/>';
   str += '                    <h6 class="right-panel-outer-title">Light loss factors:</h6>';
-  str += '                    <p class="right-panel-p mb-2 ml-3">When determining how light luminaires perform over time, it is important to know the luminaires’ depreciation rate might account for light loss factors over time.</p>';
+  str += '                    <p class="right-panel-p mb-2 ml-3">When determining how light luminaires perform over time, it is important to know how the luminaires’ depreciation rate might account for light loss factors over time.</p>';
   str += '                    <p class="right-panel-grey-box">No light loss factors accounted for</p><hr/>';
   str += '                    <h6 class="right-panel-outer-title">Relationship between lumen output and wattage:</h6>';
   str += '                    <p class="right-panel-p mb-2 ml-3">Knowing the luminaires’ lumen output will help to determine the amount of light that is delivered to a space. Knowing the luminaires wattage will also help to determine energy usage.</p>';
@@ -749,7 +749,15 @@ function generateFinalBreadcrumb(){
 
 function generateDescription(){
   if (data.fixture.includes('Cove') || data.fixture.includes('cove')){
-    $('#roomDescriptionContent').html(hb[data.facility][data.room][data.fixture].desc);
+    if(data.room == "Neonatal Intensive Care Unit"){
+      $('#roomDescriptionContent').html("A NICU (newborn intensive care unit) in a hospital is where nurses watch over premature infants. This 1,975 SF room with a 12-foot ceiling includes a main desk with incubators around the perimeter of the room. Since nurses and infants have different circadian needs, zones of light should be created to achieve desired CS levels for both user types.");
+    }
+    else if(data.room == "Common Area"){
+      $("#roomDescriptionContent").html("A common area in a senior care facility is where residents can choose to spend most of the day. This 1550 SF common area with a 12-foot ceiling is divided into two areas for dining and activities. The dining area has round tables with chairs and the activity area has sofas, side tables, and rectangular tables with chairs. Designs should deliver target CS levels to residents who are eating meals in the dining area, relaxing on the couch, or sitting at the activity area tables. Lighting schedules should be similar to those employed in individuals’ rooms.");
+    }
+    else if(data.room == "Special Education Classroom"){
+      $("#roomDescriptionContent").html("A special education classroom provides a learning environment for students with developmental disabilities. This 980 SF classroom with an 10-foot ceiling includes 12 desks facing a board, along with 12 desks in sets of clusters for group work.");
+    }
   }else{
     $('#roomDescriptionContent').html(hb[data.facility][data.room].desc);
   }
@@ -914,7 +922,7 @@ function generateCharts(){
   }
 
   // SPD
-  $('#chart_spd').attr("src",'img/application/spd/' + data.cct.replace(/ /g, "") + '_med.jpg');
+  $('#chart_spd').attr("src",'img/application/spd/' + data.cct.replace(/ /g, "").replace(/->/g,"_") + '_med.jpg');
   $("#show_chart_spd").click(function(){
     console.log('here');
     var this_chart = "spd";
