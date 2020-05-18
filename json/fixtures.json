@@ -428,7 +428,16 @@
           "height" : ["9'-0\" AFF"],
           "orientation" : ["Direct"],
           "dimensions" : ["2'x4'"],
-          "eveh" : [""],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/office/private/troff/0.4_Troffer.jpg"],
+            "eveh" : ["0.51"],
+            "eveh_desc" : ["average"]
+          },
+          "0.3" : {
+            "lumen" : ["img/application/charts/lumen/office/private/troff/0.3_Troffer.jpg"],
+            "eveh" : ["0.50"],
+            "eveh_desc" : ["at seats"]
+          },
           "description" : ["A recessed troffer houses light sources above the ceiling line, typically fitting into a modular dropped ceiling grid. Troffers are the most common source of illumination in commercial applications. They are relatively inexpensive and can provide high, uniform illuminance levels throughout a room. Troffers usually house linear fluorescent lamps, but more recently LED troffers are available for replacement of fluorescent troffers."]
         },
         "Direct/Indirect Linear Pendant" :
@@ -441,7 +450,16 @@
           "height" : ["7'-0\" AFF"],
           "orientation" : ["Direct/Indirect"],
           "dimensions" : ["4' Linear"],
-          "eveh" : [""],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/office/private/pendant/0.4_Pendant.jpg"],
+            "eveh" : ["0.52"],
+            "eveh_desc" : ["average"]
+          },
+          "0.3" : {
+            "lumen" : ["img/application/charts/lumen/office/private/pendant/0.3_Pendant.jpg"],
+            "eveh" : ["0.57"],
+            "eveh_desc" : ["at seats"]
+          },
           "description" : ["A linear pendant is a luminaire typically used in commercial applications to provide uniform ambient light. They come in 3 types of light distributions: direct, indirect, or direct/indirect. Linear pendants with an indirect component should be suspended at least 18” below the ceiling to allow the indirect light to bounce off of the ceiling. Linear pendants traditionally house fluorescent lamps, but more recently linear pendants with dedicated LED sources have become available."]
         },
         "Downlight + Blue/Red Wall Wash" :
@@ -454,7 +472,11 @@
           "height" : ["9'-0\" AFF","9'-0\" AFF"],
           "orientation" : ["Direct","Direct"],
           "dimensions" : ["4\"x4\"","4' Linear"],
-          "eveh" : ["",""],
+          "0.4" : {
+            "lumen" : ["img/application/charts/lumen/office/private/ww/0.4_Downlight.jpg","img/application/charts/lumen/office/private/ww/0.4_Wallwash.jpg"],
+            "eveh" : ["0.52","0.57"],
+            "eveh_desc" : ["at seats","at seats"]
+          },
           "description" : ["Recessed downlights, sometimes called “cans,” are mounted above the ceiling surface and provide task lighting for the area directly below or provide ambient illumination when installed at regular spacing. Downlights may have integrated LED sources or contain CFLs or LED replacement lamps.","Linear wall washers are mounted along the perimeter of the room. They provide ambient illumination. They may have integrated LED sources or contain linear fluorescents."]
         }
       }
