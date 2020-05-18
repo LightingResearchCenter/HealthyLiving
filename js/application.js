@@ -936,7 +936,13 @@ function generateCharts(){
 
 function generateCSContent(){
   var chart_path = hb[data.facility][data.room][data.fixture]["chart path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'');
-  var graph_path = hb[data.facility][data.room]["cs graph path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'');
+  var graph_path;
+  console.log(data.fixture);
+  if (data.fixture.includes("Blue") || data.fixture.includes("Red")){
+    graph_path = hb[data.facility][data.room]["cs graph path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'')+"-color";
+  }else{
+    graph_path = hb[data.facility][data.room]["cs graph path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'');
+  }
 
   if (data.infants == 1){
     chart_path = hb[data.facility][data.room][data.fixture]["chart path"]+'/'+'infants_'+data.cct.replace(/ /g,'');
