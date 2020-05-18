@@ -530,7 +530,7 @@ function buildHTML(){
   str += '                    <p class="right-panel-grey-box">Ceiling: 80% (0.8) <br /> Walls: 50% (0.5) <br /> Floor: 20% (0.2)</p><hr/>';
   str += '                    <h6 class="right-panel-outer-title">Illuminance calculation points:</h6>';
   str += '                    <p class="right-panel-p mb-2 ml-3">When determining how lighting performs in a space, it is important to determine the height and locations at which people’s eyes will receive light (E<sub>V</sub>) and the height at which tasks are performed (E<sub>H</sub>).</p>';
-  str += '                    <p id="illuminance-info" class="right-panel-grey-box">E<sub>H</sub>: 2’-6” AFF <br />E<sub>V</sub>: 4’-0” AFF</p><hr/>';
+  str += '                    <p id="illuminance-info" class="right-panel-grey-box">E<sub>H</sub>: 2’-6” (0.76 m) above finished floor <br />E<sub>V</sub>: 4’-0” (1.22 m) above finished floor </p><hr/>';
   str += '                    <h6 class="right-panel-outer-title">Dimming system:</h6>';
   str += '                    <p class="right-panel-p mb-2 ml-3">Knowing how your dimming system operates helps to determine the lighting’s percentage output throughout the day.</p>';
   str += '                    <p class="right-panel-grey-box">Linear dimming system</p><hr/>';
@@ -759,13 +759,13 @@ function generateDescription(){
 
 function checkAssumptions(){
   if(data.room == 'Single Patient Room' || data.room == 'Double Patient Room'){
-    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” AFF <br />E<sub>V</sub> laying facing ceiling: 2’-6” AFF <br/>E<sub>V</sub> bed angled 45° from vertical: 4’-0” AFF');
+    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” (0.76 m) above finished floor <br />E<sub>V</sub> laying facing ceiling: 2’-6” (0.76 m) above finished floor <br/>E<sub>V</sub> bed angled 45° from vertical: 4’-0” (1.22 m) above finished floor');
   }
   else if(data.room == 'Neonatal Intensive Care Unit'){
-    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” AFF <br />E<sub>V</sub> infant laying facing ceiling: 2’-6” AFF <br/>E<sub>V</sub> nurse sitting: 4’-0” AFF');
+    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” (0.76 m) above finished floor <br />E<sub>V</sub> infant laying facing ceiling: 2’-6” (0.76 m) above finished floor<br/>E<sub>V</sub> nurse sitting: 4’-0” (1.22 m) above finished floor');
   }
   else{
-    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” AFF <br />E<sub>V</sub>: 4’-0” AFF');
+    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” (0.76 m) above finished floor <br />E<sub>V</sub>: 4’-0” (1.22 m) above finished floor');
   }
 }
 
