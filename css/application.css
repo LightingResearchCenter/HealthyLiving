@@ -31,6 +31,12 @@ p, ol, ul, li{
   -moz-osx-font-smoothing: grayscale;
 }
 
+#disclaimerContent{
+  max-height: 450px;
+  overflow: auto;
+  padding-right: 1rem;
+}
+
 .icon-plan-man:before {
   font-size: 1.75rem;
   content: "\e900";

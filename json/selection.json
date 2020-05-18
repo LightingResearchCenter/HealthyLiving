@@ -100,7 +100,7 @@
     },
     "Fixture":
     {
-      "desc": "All luminaires have unique characteristics that affect how they distribute light into a space. These characteristics can be quite variable, even between luminaires of the same type, which can result in variable performance. Precise photometric calculations will ensure that any luminaire type will achieve the targeted CS.",
+      "desc": "Select a luminaire to see how it can be used in the circadian-effective design. All luminaires have unique characteristics that affect how they distribute light into a space. These characteristics can be quite variable, even between luminaires of the same type, which can result in variable performance. Precise photometric calculations will ensure that any luminaire type will achieve the targeted CS.",
       "2x2 Troffer + Linear Strip" :
       {
         "img" : "img/application/selection/3_Fixture/2x2_Troffer-Linear_Strip.jpg",
@@ -109,7 +109,7 @@
       "2x2 Troffer + Linear Strip + Wall Wash" :
       {
         "img" : "img/application/selection/3_Fixture/2x2_Troffer-Linear_Strip-Wall_Wash.jpg",
-        "desc" : "2x2 Troffers provide general ambient and task illumination. The linear strips parallel to the row of desks provides saturated blue light for circadian entrainment when the occupant receives desired amount at the eye, as well as promote a calm environment. A wall wash provides an additional layer to light up the walls and make a space feel even brighter."
+        "desc" : "2×2 Troffers provide both ambient and task illumination. The saturated blue light linear strips parallel to the row of desks provide high CS at the occupants’ eyes and promote a calm environment. A wall wash delivers an additional layer to illuminate the walls and make the space appear brighter."
       },
       "2x4 Center Basket Troffer":
       {
@@ -149,7 +149,7 @@
       "Downlight + Blue/Red Wall Wash" :
       {
         "img" : "img/application/selection/3_Fixture/Downlight-Wall_Wash.jpg",
-        "desc" : "Recessed downlights are mounted above the ceiling surface and provide ambient and task illumination. The linear wall washers wash the wall with a saturated blue or red color that can provide circadian entrainment as well as alertness when an occupant receives a desired amount at the eye."
+        "desc" : "Recessed downlights are mounted above the ceiling surface and deliver both ambient and task illumination. The linear wall washes illuminate the wall with a saturated blue or red light that can promote circadian entrainment and alertness when an occupant receives target CS levels at the eye."
       },
       "Downlight + Flush Mount + Hanging Pendant + Wall Valance + Under Cabinet + TV Valance":
       {
@@ -214,7 +214,7 @@
       "Recessed Linear + Blue/Red Downlight + Blue Wall Wash + Cove" :
       {
         "img" : "img/application/selection/3_Fixture/Recessed_Linear-Downlight-Wall_Wash-Cove.jpg",
-        "desc" : "Using a combination design allows for layers of light that play different roles.Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. The cove lighting above the nurse’s desk provides ambient lighting concentrated in that zone to allow for non-invasive light levels for the infants."
+        "desc" : "Combination designs create layers of light that comprehensively achieve the aims of circadian-effective lighting design. Recessed linear luminaires deliver ambient light for the space in a more modern style than typical troffers. Cove lighting above the nurse’s desk provides ambient lighting concentrated in that zone to prevent invasive light levels for the infants."
       },
       "Recessed Linear + Wall Sconce" :
       {
@@ -229,7 +229,7 @@
       "Recessed Linear + Blue/Red Wall Wash" :
       {
         "img" : "img/application/selection/3_Fixture/Recessed_Linear-Wall_Wash.jpg",
-        "desc" : "Using a combination design allows for layers of light that play different roles.Recessed linear fixtures provide ambient light for the space in a more modern style than typical troffers. A wall wash grazing the back wall provides more light to the eye for the occupants facing that direction."
+        "desc" : "Combination designs create layers of light that comprehensively achieve the aims of circadian-effective lighting design. Recessed linear luminaires provide ambient light for the space in a more modern style than typical troffers. A wall wash grazing the back wall provides more light at the eye for occupants facing that direction."
       },
       "2x2 Troffer + Skylight Panel" :
       {
@@ -239,7 +239,7 @@
     },
     "Target":
     {
-      "desc" : "A CS above 0.3 is shown to have an effect on the circadian system which is desired in the morning and early afternoon hours to synchronize the body with the 24-hour solar day. For a robust light/dark schedule, CS must be lowered throughout the day. This means a CS schedule will either start at the target 0.4 or 0.3, and always end in < 0.1. CS values are achieved based on the SPD of a light source, and the illuminance at the eye. Read below for tips of which initial target CS value is best for your design. See ‘CS’ on the background page for more information.",
+      "desc" : "Researchers at the LRC have proposed a robust, 24-hour lighting scheme for promoting circadian entrainment that maximizes CS during the day, minimizes CS at night, and maintains appropriate levels of light for visibility at all times. Given the wide variations in how the circadian system responds to different wavelengths and the unique properties of individual SPDs, LRC research shows that a broad range of light levels (165-620 lux at the eye) can be required to reach a target CS of 0.3, depending on the SPD of the source. Relatively dim (< 30 lux at the eye) ambient lighting providing low CS (< 0.1) during the evening can be achieved using any white light source. Lighting calculated in typical base case designs barely reach a CS of 0.1, which is not likely to be sufficient for circadian entrainment. The proposed designs provide examples of how CS targets can be achieved in varying applications. See ‘CS’ on the background page for more information.",
       "0.3":
       {
         "img" : "img/application/selection/4_Target_CS/0.3.jpg",
