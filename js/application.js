@@ -538,7 +538,7 @@ function buildHTML(){
   str += '                    <p class="right-panel-p mb-2 ml-3">When determining how light luminaires perform over time, it is important to know the luminaires’ depreciation rate might account for light loss factors over time.</p>';
   str += '                    <p class="right-panel-grey-box">No light loss factors accounted for</p><hr/>';
   str += '                    <h6 class="right-panel-outer-title">Relationship between lumen output and wattage:</h6>';
-  str += '                    <p class="right-panel-p mb-2 ml-3">Knowing the luminaires’ lumen output will help to determine the amount of light that is delivered to a space. Knowing the luminaires wattage will also help to determine energy usage.</p>';
+  str += '                    <p class="right-panel-p mb-2 ml-3">Knowing the luminaires’ lumen output will help to determine the amount of light that is delivered to a space. Knowing the luminaires’ wattage will also help to determine energy usage.</p>';
   str += '                    <p class="right-panel-grey-box">Linear relationship between fixture lumen output and wattage</p>';
   str += '                    <h6 class="right-panel-outer-title">SPD:</h6>';
   str += '                    <p class="right-panel-p mb-2 ml-3">A light source SPD plays a key role in how the circadian system will respond at varying light levels. It is crucial to check the SPD used in a design to determine target E<sub>V</sub> values for each project.</p>';
