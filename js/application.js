@@ -581,7 +581,7 @@ function buildHTML(){
   str += '                    <div class="row mb-2">';
   str += '                       <div class="col px-0">';
   str += '                         <ul class="pl-0 my-4 no-bullets">';
-  str += '                            <li class="card-text right-panel-p"><b>Amount: </b><span id="fixture_amount"></span></li>';
+  str += '                            <li class="card-text right-panel-p"><b>Quantity: </b><span id="fixture_amount"></span></li>';
   str += '                            <li class="card-text right-panel-p"><b>Mounting type: </b><span id="fixture_type"></span></li>';
   str += '                            <li class="card-text right-panel-p"><b>Mounting height: </b><span id="fixture_height"></span></li>';
   str += '                            <li class="card-text right-panel-p"><b>Orientation: </b><span id="fixture_orientation"></span></li>';
@@ -821,7 +821,7 @@ function generateFixtures(){
         $('#fixture_name').html(path.name[index]);
         $('#fixture_fixture').attr('src','img/application/selection/3_Fixture/'+path.fixture[index].replace(/ /g,'_')+'.jpg');
         $('#fixture_candela').attr('src','img/application/selection/3_Fixture/candela/'+path.candela[index]+'.jpg');
-        $('#fixture_amount').html(path.amount[index]);
+        $('#fixture_amount').html(path.quantity[index]);
         $('#fixture_type').html(path.type[index]);
         $('#fixture_height').html(path.height[index]);
         $('#fixture_orientation').html(path.orientation[index]);
@@ -916,7 +916,7 @@ function generateCharts(){
   }
 
   // SPD
-  $('#chart_spd').attr("src",'img/application/spd/' + data.cct.replace(/ /g, "") + '_med.jpg');
+  $('#chart_spd').attr("src",'img/application/spd/' + data.cct.replace(/ /g, "").replace(/->/g,"_") + '_med.jpg');
   $("#show_chart_spd").click(function(){
     console.log('here');
     var this_chart = "spd";
@@ -937,8 +937,8 @@ function generateCharts(){
 function generateCSContent(){
   var chart_path = hb[data.facility][data.room][data.fixture]["chart path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'');
   var graph_path;
-  console.log(data.fixture);
-  if (data.fixture.includes("Blue") || data.fixture.includes("Red")){
+  console.log(data.system);
+  if ((data.fixture.includes("Blue") || data.fixture.includes("Red")) && data.system != "Tunable"){
     graph_path = hb[data.facility][data.room]["cs graph path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'')+"-color";
   }else{
     graph_path = hb[data.facility][data.room]["cs graph path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'');
