@@ -530,7 +530,7 @@ function buildHTML(){
   str += '                    <p class="right-panel-grey-box">Ceiling: 80% (0.8) <br /> Walls: 50% (0.5) <br /> Floor: 20% (0.2)</p><hr/>';
   str += '                    <h6 class="right-panel-outer-title">Illuminance calculation points:</h6>';
   str += '                    <p class="right-panel-p mb-2 ml-3">When determining how lighting performs in a space, it is important to determine the height and locations at which people’s eyes will receive light (E<sub>V</sub>) and the height at which tasks are performed (E<sub>H</sub>).</p>';
-  str += '                    <p id="illuminance-info" class="right-panel-grey-box">E<sub>H</sub>: 2’-6” AFF <br />E<sub>V</sub>: 4’-0” AFF</p><hr/>';
+  str += '                    <p id="illuminance-info" class="right-panel-grey-box">E<sub>H</sub>: 2’-6” (0.76 m) above finished floor <br />E<sub>V</sub>: 4’-0” (1.22 m) above finished floor </p><hr/>';
   str += '                    <h6 class="right-panel-outer-title">Dimming system:</h6>';
   str += '                    <p class="right-panel-p mb-2 ml-3">Knowing how your dimming system operates helps to determine the lighting’s percentage output throughout the day.</p>';
   str += '                    <p class="right-panel-grey-box">Linear dimming system</p><hr/>';
@@ -538,7 +538,7 @@ function buildHTML(){
   str += '                    <p class="right-panel-p mb-2 ml-3">When determining how light luminaires perform over time, it is important to know the luminaires’ depreciation rate might account for light loss factors over time.</p>';
   str += '                    <p class="right-panel-grey-box">No light loss factors accounted for</p><hr/>';
   str += '                    <h6 class="right-panel-outer-title">Relationship between lumen output and wattage:</h6>';
-  str += '                    <p class="right-panel-p mb-2 ml-3">Knowing the luminaires’ lumen output will help to determine the amount of light that is delivered to a space. Knowing the luminaires wattage will also help to determine energy usage.</p>';
+  str += '                    <p class="right-panel-p mb-2 ml-3">Knowing the luminaires’ lumen output will help to determine the amount of light that is delivered to a space. Knowing the luminaires’ wattage will also help to determine energy usage.</p>';
   str += '                    <p class="right-panel-grey-box">Linear relationship between fixture lumen output and wattage</p>';
   str += '                    <h6 class="right-panel-outer-title">SPD:</h6>';
   str += '                    <p class="right-panel-p mb-2 ml-3">A light source SPD plays a key role in how the circadian system will respond at varying light levels. It is crucial to check the SPD used in a design to determine target E<sub>V</sub> values for each project.</p>';
@@ -759,13 +759,13 @@ function generateDescription(){
 
 function checkAssumptions(){
   if(data.room == 'Single Patient Room' || data.room == 'Double Patient Room'){
-    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” AFF <br />E<sub>V</sub> laying facing ceiling: 2’-6” AFF <br/>E<sub>V</sub> bed angled 45° from vertical: 4’-0” AFF');
+    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” (0.76 m) above finished floor <br />E<sub>V</sub> laying facing ceiling: 2’-6” (0.76 m) above finished floor <br/>E<sub>V</sub> bed angled 45° from vertical: 4’-0” (1.22 m) above finished floor');
   }
   else if(data.room == 'Neonatal Intensive Care Unit'){
-    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” AFF <br />E<sub>V</sub> infant laying facing ceiling: 2’-6” AFF <br/>E<sub>V</sub> nurse sitting: 4’-0” AFF');
+    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” (0.76 m) above finished floor <br />E<sub>V</sub> infant laying facing ceiling: 2’-6” (0.76 m) above finished floor<br/>E<sub>V</sub> nurse sitting: 4’-0” (1.22 m) above finished floor');
   }
   else{
-    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” AFF <br />E<sub>V</sub>: 4’-0” AFF');
+    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” (0.76 m) above finished floor <br />E<sub>V</sub>: 4’-0” (1.22 m) above finished floor');
   }
 }
 

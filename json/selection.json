@@ -6,7 +6,7 @@
       "Senior Care" :
       {
         "img" : "img/application/selection/1_Facility/Senior_Care.jpg",
-        "desc" : "Older adults are susceptible to circadian disruption that can affect their sleep quality, alertness, and mood. To alleviate these problems and thereby improve their quality of life, seniors in eldercare environments should be exposed robust circadian-effective lighting patterns to better entrain their circadian systems."
+        "desc" : "Older adults are susceptible to circadian disruption that can affect their sleep quality, alertness, and mood. To alleviate these problems and thereby improve their quality of life, seniors in eldercare environments should be exposed to robust circadian-effective lighting patterns to better entrain their circadian systems."
       },
       "Office":
       {
@@ -298,7 +298,7 @@
       "0.4 Teen" :
       {
         "img" : "img/application/selection/4_Target_CS/0.4_teen.jpg",
-        "desc" : "Teenager often experience delayed sleep phase disorder, which leads to them staying up later in the evening and have difficulty waking up for school. Lighting should provide stimulus to better synchronize the circadian system, while limiting light exposure in the evening and night."
+        "desc" : "Teenagers often experience delayed sleep phase disorder, which leads to them staying up later in the evening and have difficulty waking up for school. Lighting should provide stimulus to better synchronize the circadian system, while limiting light exposure in the evening and night."
       },
       "0.4 Pre-teen" :
       {
