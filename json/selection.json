@@ -273,12 +273,12 @@
       "0.4 8-hour" :
       {
         "img" : "img/application/selection/4_Target_CS/0.4_8-hour.jpg",
-        "desc" : "Multiple user types with differing circadian needs, requiring that lighting zones be created to achieve target CS levels. Duration of CS may vary based on:<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Nurses’ schedule: 8-hour shifts, typically: 7 AM - 3 PM, 3 PM - 11 PM, 11 PM - 7 AM</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Population: Nurses of varying age; Infants 28 weeks and older, who require a robust pattern of light and dark for circadian entrainment</li></ul>"
+        "desc" : "Multiple user types with differing circadian needs require that lighting zones be created to achieve target CS levels. Duration of CS may vary based on:<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Nurses’ schedule: 8-hour shifts, typically: 7 AM - 3 PM, 3 PM - 11 PM, 11 PM - 7 AM</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Population: Nurses of varying age; Infants 28 weeks and older, who require a robust pattern of light and dark for circadian entrainment</li></ul>"
       },
       "0.4 12-hour" :
       {
         "img" : "img/application/selection/4_Target_CS/0.4_12-hour.jpg",
-        "desc" : "Multiple user types with differing circadian needs, requiring that lighting zones be created to achieve target CS levels. Duration of CS may vary based on:<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Nurse’s schedule: 12-hour shifts, typically: 7 AM - 7 PM, 7 PM - 7 AM</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Population: Nurses of varying age; Infants 28 weeks and older, who require a robust pattern of light and dark for circadian entrainment</li></ul>"
+        "desc" : "Multiple user types with differing circadian needs require that lighting zones be created to achieve target CS levels. Duration of CS may vary based on:<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Nurse’s schedule: 12-hour shifts, typically: 7 AM - 7 PM, 7 PM - 7 AM</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Population: Nurses of varying age; Infants 28 weeks and older, who require a robust pattern of light and dark for circadian entrainment</li></ul>"
       },
       "0.4 short" :
       {
