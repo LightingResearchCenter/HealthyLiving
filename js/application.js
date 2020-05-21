@@ -530,7 +530,7 @@ function buildHTML(){
   str += '                    <p class="right-panel-grey-box">Ceiling: 80% (0.8) <br /> Walls: 50% (0.5) <br /> Floor: 20% (0.2)</p><hr/>';
   str += '                    <h6 class="right-panel-outer-title">Illuminance calculation points:</h6>';
   str += '                    <p class="right-panel-p mb-2 ml-3">When determining how lighting performs in a space, it is important to determine the height and locations at which people’s eyes will receive light (E<sub>V</sub>) and the height at which tasks are performed (E<sub>H</sub>).</p>';
-  str += '                    <p id="illuminance-info" class="right-panel-grey-box">E<sub>H</sub>: 2’-6” AFF <br />E<sub>V</sub>: 4’-0” AFF</p><hr/>';
+  str += '                    <p id="illuminance-info" class="right-panel-grey-box">E<sub>H</sub>: 2’-6” (0.76 m) above finished floor <br />E<sub>V</sub>: 4’-0” (1.22 m) above finished floor </p><hr/>';
   str += '                    <h6 class="right-panel-outer-title">Dimming system:</h6>';
   str += '                    <p class="right-panel-p mb-2 ml-3">Knowing how your dimming system operates helps to determine the lighting’s percentage output throughout the day.</p>';
   str += '                    <p class="right-panel-grey-box">Linear dimming system</p><hr/>';
@@ -538,7 +538,7 @@ function buildHTML(){
   str += '                    <p class="right-panel-p mb-2 ml-3">When determining how light luminaires perform over time, it is important to know how the luminaires’ depreciation rate might account for light loss factors over time.</p>';
   str += '                    <p class="right-panel-grey-box">No light loss factors accounted for</p><hr/>';
   str += '                    <h6 class="right-panel-outer-title">Relationship between lumen output and wattage:</h6>';
-  str += '                    <p class="right-panel-p mb-2 ml-3">Knowing the luminaires’ lumen output will help to determine the amount of light that is delivered to a space. Knowing the luminaires wattage will also help to determine energy usage.</p>';
+  str += '                    <p class="right-panel-p mb-2 ml-3">Knowing the luminaires’ lumen output will help to determine the amount of light that is delivered to a space. Knowing the luminaires’ wattage will also help to determine energy usage.</p>';
   str += '                    <p class="right-panel-grey-box">Linear relationship between fixture lumen output and wattage</p>';
   str += '                    <h6 class="right-panel-outer-title">SPD:</h6>';
   str += '                    <p class="right-panel-p mb-2 ml-3">A light source SPD plays a key role in how the circadian system will respond at varying light levels. It is crucial to check the SPD used in a design to determine target E<sub>V</sub> values for each project.</p>';
@@ -581,7 +581,7 @@ function buildHTML(){
   str += '                    <div class="row mb-2">';
   str += '                       <div class="col px-0">';
   str += '                         <ul class="pl-0 my-4 no-bullets">';
-  str += '                            <li class="card-text right-panel-p"><b>Amount: </b><span id="fixture_amount"></span></li>';
+  str += '                            <li class="card-text right-panel-p"><b>Quantity: </b><span id="fixture_amount"></span></li>';
   str += '                            <li class="card-text right-panel-p"><b>Mounting type: </b><span id="fixture_type"></span></li>';
   str += '                            <li class="card-text right-panel-p"><b>Mounting height: </b><span id="fixture_height"></span></li>';
   str += '                            <li class="card-text right-panel-p"><b>Orientation: </b><span id="fixture_orientation"></span></li>';
@@ -638,9 +638,11 @@ function buildHTML(){
   str += '                  <div class="right-panel-padding">';
   str += '                   <hr class="right-panel-hr"/>';
   str += '                   <div id="disclaimerContent">';
-  str += '                     <p class="card-text right-panel-p">The application page is for demonstration purposes only. Results will vary based on varying parameters of different projects and products; the application page is meant to provide an understanding of what is needed to reach CS levels in a design and how different fixture types can perform.</p>';
-  str += '                     <p class="card-text right-panel-p">SPDs used in these designs are chosen as "middle range" to reach CS.</p>';
-  str += '                     <p class="card-text right-panel-p">Lumen output and wattage values vary from design and CCT which is estimated based on the specific needs for each design to reach the target CS.</p>';
+  str += '                     <p class="card-text right-panel-p">There is no guarantee that these design patterns will cure diseases. These are based on existing literature suggesting that exposure to more circadian-effective light during the day leads to better sleep at night, reduced depression and improved behavior in certain populations. Regardless, these patterns are trying to emulate a more natural environment, or, in other words what one would be exposed to outside the built environment. Emulating the exact amount and spectrum of daylight using electric lighting only is likely not feasible to be done in the built environment, but the design patterns proposed here are an attempt to improve what is currently existent in the built environment.</p>';
+  str += '                     <p class="card-text right-panel-p">The application page is for demonstration purposes only. Results will vary based on changing parameters such as project and products. These examples are meant to provide an understanding of what is needed to reach CS levels in a design and how different luminaire types or combination of luminaire types can perform. </p>';
+  str += '                     <p class="card-text right-panel-p">All examples are designed to reach target CS values based on how much light is needed at the eye for specific SPDs. SPDs used in these designs are chosen from a collection of publicly available LED SPDs. Since spectrum impacts the circadian system, SPDs classified under the same CCT can vary greatly in the amount of illuminance needed at the eye to hit CS targets. The SPDs in these designs were chosen as the median in the collection of SPDs. Necessary lumen and wattage was scaled based on standard luminaires to reach the maximum CS targets in the suggested CS charts. For this reason, values may not be entirely realistic to achieve, however the site aims to show how varying luminaire types perform in terms of CS.</p>';
+  str += '                     <p class="card-text right-panel-p">It is up to designers and manufacturers to follow these guidelines for determining CS, and collaborate to create products and designs that achieve these goals.</p>';
+  str += '                     <p class="card-text right-panel-p">New additions to the CS model are being developed based on recent research discoveries. Vertical illuminance targets may vary slightly with this update, but not significantly. Application examples will be updated once changes to the model are complete. </p>';
   str += '                   </div>';
   str += '                  </div>';
   str += '                </div>';
@@ -765,13 +767,13 @@ function generateDescription(){
 
 function checkAssumptions(){
   if(data.room == 'Single Patient Room' || data.room == 'Double Patient Room'){
-    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” AFF <br />E<sub>V</sub> laying facing ceiling: 2’-6” AFF <br/>E<sub>V</sub> bed angled 45° from vertical: 4’-0” AFF');
+    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” (0.76 m) above finished floor <br />E<sub>V</sub> laying facing ceiling: 2’-6” (0.76 m) above finished floor <br/>E<sub>V</sub> bed angled 45° from vertical: 4’-0” (1.22 m) above finished floor');
   }
   else if(data.room == 'Neonatal Intensive Care Unit'){
-    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” AFF <br />E<sub>V</sub> infant laying facing ceiling: 2’-6” AFF <br/>E<sub>V</sub> nurse sitting: 4’-0” AFF');
+    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” (0.76 m) above finished floor <br />E<sub>V</sub> infant laying facing ceiling: 2’-6” (0.76 m) above finished floor<br/>E<sub>V</sub> nurse sitting: 4’-0” (1.22 m) above finished floor');
   }
   else{
-    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” AFF <br />E<sub>V</sub>: 4’-0” AFF');
+    $('#illuminance-info').html('E<sub>H</sub>: 2’-6” (0.76 m) above finished floor <br />E<sub>V</sub>: 4’-0” (1.22 m) above finished floor');
   }
 }
 
@@ -827,7 +829,7 @@ function generateFixtures(){
         $('#fixture_name').html(path.name[index]);
         $('#fixture_fixture').attr('src','img/application/selection/3_Fixture/'+path.fixture[index].replace(/ /g,'_')+'.jpg');
         $('#fixture_candela').attr('src','img/application/selection/3_Fixture/candela/'+path.candela[index]+'.jpg');
-        $('#fixture_amount').html(path.amount[index]);
+        $('#fixture_amount').html(path.quantity[index]);
         $('#fixture_type').html(path.type[index]);
         $('#fixture_height').html(path.height[index]);
         $('#fixture_orientation').html(path.orientation[index]);
@@ -942,7 +944,13 @@ function generateCharts(){
 
 function generateCSContent(){
   var chart_path = hb[data.facility][data.room][data.fixture]["chart path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'');
-  var graph_path = hb[data.facility][data.room]["cs graph path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'');
+  var graph_path;
+  console.log(data.system);
+  if ((data.fixture.includes("Blue") || data.fixture.includes("Red")) && data.system != "Tunable"){
+    graph_path = hb[data.facility][data.room]["cs graph path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'')+"-color";
+  }else{
+    graph_path = hb[data.facility][data.room]["cs graph path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'');
+  }
 
   if (data.infants == 1){
     chart_path = hb[data.facility][data.room][data.fixture]["chart path"]+'/'+'infants_'+data.cct.replace(/ /g,'');

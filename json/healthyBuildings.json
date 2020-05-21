@@ -5,7 +5,7 @@
       "Assisted Living Single with Kitchen" :
       {
         "cs graph path" : "senior_care",
-        "desc" : "A single-occupancy assisted living room allows residents to have personalized lighting designs. This 390 SF living area with an 8-foot ceiling includes a kitchen area for personal use. The room also contains a twin bed, living room area with couch and television, and dining area. A French door off the dining area leads to an exterior patio. Designs should deliver target CS levels to residents who are eating meals at the table or relaxing on the couch or bed.",
+        "desc" : "A single-occupancy assisted living room allows residents to have personalized lighting designs. This 390 square foot (36.23 m<sup>2</sup>) living area with an 8-foot (2.44 m) ceiling includes a kitchen area for personal use. The room also contains a twin bed, living room area with couch and television, and dining area. A French door off the dining area leads to an exterior patio. Designs should deliver target CS levels to residents who are eating meals at the table or relaxing on the couch or bed.",
         "2x4 Center Basket Troffer" :
         {
           "chart path" : "senior_care/single_w_kitchen/troff",
@@ -872,7 +872,7 @@
       "Nursing Home Single" :
       {
         "cs graph path" : "senior_care",
-        "desc" : "A single-occupancy nursing home room allows residents to have personalized lighting designs . This 280 SF living area with an 8-foot ceiling includes a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. For eating meals at the table, or relaxing on the couch or bed, designs should aim to reach target CS levels in these locations.",
+        "desc" : "A single-occupancy nursing home room allows residents to have personalized lighting designs . This 280 square foot (26 m<sup>2</sup>) living area with an 8-foot (2.44 m) ceiling includes a twin bed, living room area with couch and television, and a dining area. A French door off the dining area leads to an exterior patio. For eating meals at the table, or relaxing on the couch or bed, designs should aim to reach target CS levels in these locations.",
         "2x4 Center Basket Troffer" :
         {
           "chart path" : "senior_care/single/troff",
@@ -1733,7 +1733,7 @@
       "Common Area" :
       {
         "cs graph path" : "senior_care",
-        "desc" : "A common area in a senior care facility is where residents can choose to spend most of the day. This 1550 SF common area with a 9-foot ceiling is divided into two areas for dining and activities. The dining area has round tables with chairs and the activity area has sofas, side tables, and rectangular tables with chairs. Designs should deliver target CS levels to residents who are eating meals in the dining area, relaxing on the couch, or sitting at the activity area tables. Lighting schedules should be similar to those employed in individuals’ rooms.",
+        "desc" : "A common area in a senior care facility is where residents can choose to spend most of the day. This 1550 square foot (144 m<sup>2</sup>) common area with a 9-foot (2.74 m) ceiling is divided into two areas for dining and activities. The dining area has round tables with chairs and the activity area has sofas, side tables, and rectangular tables with chairs. Designs should deliver target CS levels to residents who are eating meals in the dining area, relaxing on the couch, or sitting at the activity area tables. Lighting schedules should be similar to those employed in individuals’ rooms.",
         "2x4 Center Basket Troffer" :
         {
           "chart path" : "senior_care/common/troff",
@@ -2597,7 +2597,7 @@
       "Traditional Open Office" :
       {
         "cs graph path" : "office",
-        "desc" : "A traditional open office layout consists of 4-foot tall cubicle dividers that limit views of other work spaces. This 2,640 SF office area with a 9-foot ceiling includes four clusters of four cubicles. Since a typical worker spends 8+ hours at their desk each day, it is essential to provide sufficient lighting for circadian entrainment and alertness.",
+        "desc" : "A traditional open office layout consists of 4-foot (1.22 m) tall cubicle dividers that limit views of other work spaces. This 2,640 square foot (245 m<sup>2</sup>) office area with a 9-foot (2.74 m) ceiling includes four clusters of four cubicles. Since a typical worker spends 8+ hours at their desk each day, it is essential to provide sufficient lighting for circadian entrainment and alertness.",
         "2x4 Troffer" :
         {
           "chart path" : "office/traditional/troff",
@@ -3142,7 +3142,7 @@
       "New Open Office" :
       {
         "cs graph path" : "office",
-        "desc" : "A new open-concept office layout provides a modern design for a more collaborative workplace. This 2,640 SF office area with a 10-foot ceiling includes six clusters of six desks with short dividers in between the center row of the desks. Since a typical worker spends 8+ hours at their desk each day, it is essential to provide sufficient lighting for circadian entrainment and alertness.",
+        "desc" : "A new open-concept office layout provides a modern design for a more collaborative workplace. This 2,640 square foot (245 m<sup>2</sup>) office area with a 10-foot (3.05 m) ceiling includes six clusters of six desks with short dividers in between the center row of the desks. Since a typical worker spends 8+ hours at their desk each day, it is essential to provide sufficient lighting for circadian entrainment and alertness.",
         "2x4 Troffer" :
         {
           "chart path" : "office/new/troff",
@@ -3687,7 +3687,7 @@
       "Private Office" :
       {
         "cs graph path" : "office",
-        "desc" : "A private office for a single individual allows occupants to have personalized lighting designs. This 270 SF office area with a 9-foot ceiling includes a personal desk with two seats for visitors. Since a typical worker spends 8+ hours at their desk each day, it is essential to provide sufficient lighting for circadian entrainment and alertness.",
+        "desc" : "A private office for a single individual allows occupants to have personalized lighting designs. This 270 square foot (25 m<sup>2</sup>) office area with a 9-foot (2.74 m) ceiling includes a personal desk with two seats for visitors. Since a typical worker spends 8+ hours at their desk each day, it is essential to provide sufficient lighting for circadian entrainment and alertness.",
         "2x4 Troffer" :
         {
           "chart path" : "office/private/troff",
@@ -4145,7 +4145,7 @@
       "Single Patient Room" :
       {
         "cs graph path" : "healthcare",
-        "desc" : "A single-occupancy room in a hospital is where a patient can spend anywhere from one day to several months. This 290 SF room with a 9-foot ceiling includes a personal bathroom, hospital bed, television, and visitor chair. Since sleep and mood play a large role in recovery, it is advantageous to have lighting that promotes circadian entrainment and creates a welcoming atmosphere.",
+        "desc" : "A single-occupancy room in a hospital is where a patient can spend anywhere from one day to several months. This 290 square foot (27 m<sup>2</sup>) room with a 9-foot (2.74 m) ceiling includes a personal bathroom, hospital bed, television, and visitor chair. Since sleep and mood play a large role in recovery, it is advantageous to have lighting that promotes circadian entrainment and creates a welcoming atmosphere.",
         "2x4 Troffer + Wall Sconce" :
         {
           "chart path" : "healthcare/single/troff",
@@ -4322,7 +4322,7 @@
       "Double Patient Room" :
       {
         "cs graph path" : "healtchare",
-        "desc" : "A double occupancy room in a hospital is where one or two patients can spend anywhere from one day to several months. This 430 SF room with a 9-foot ceiling includes a personal bathroom, two hospital beds, two televisions, and visitor chairs. Since sleep and mood play a large role in recovery, it is advantageous to have lighting that promotes circadian entrainment and creates a welcoming atmosphere.",
+        "desc" : "A double occupancy room in a hospital is where one or two patients can spend anywhere from one day to several months. This 430 square foot (240 m<sup>2</sup>) room with a 9-foot (2.74 m) ceiling includes a personal bathroom, two hospital beds, two televisions, and visitor chairs. Since sleep and mood play a large role in recovery, it is advantageous to have lighting that promotes circadian entrainment and creates a welcoming atmosphere.",
         "2x4 Troffer + Wall Sconce" :
         {
           "chart path" : "healthcare/dobule/troff",
@@ -4499,7 +4499,7 @@
       "Neonatal Intensive Care Unit" :
       {
         "cs graph path" : "healthcare",
-        "desc" : "A NICU (newborn intensive care unit) in a hospital is where nurses watch over premature infants. This 1,975 SF room with a 10-foot ceiling includes a main desk with incubators around the perimeter of the room. Since nurses and infants have different circadian needs, zones of light should be created to achieve desired CS levels for both user types.",
+        "desc" : "A NICU (newborn intensive care unit) in a hospital is where nurses watch over premature infants. This 1,975 square foot (183 m<sup>2</sup>) room with a 10-foot (3.05 m) ceiling includes a main desk with incubators around the perimeter of the room. Since nurses and infants have different circadian needs, zones of light should be created to achieve desired CS levels for both user types.",
         "2x4 Troffer + Blue/Red Desk Luminaire + Perimeter Valance" :
         {
           "chart path" : "healthcare/nicu/valance",
@@ -4705,6 +4705,7 @@
         "Recessed Linear + Blue/Red Downlight + Blue Wall Wash + Cove" :
         {
           "chart path" : "healthcare/nicu/cove",
+          "desc" : "A NICU (newborn intensive care unit) in a  hospital is where nurses watch over infants born prematurely. This 1975 square foot (183 m<sup>2</sup>) room with a 12-foot (3.66 m) ceiling includes a main desk with incubators around the perimeter of the room. Since nurses and infants have different circadian needs, zones of light should be created to achieve desired CS levels for both user types.",
           "0.4 8-hour" :
           {
             "plan" : ["img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Cove_Z1.jpg","img/application/facilities/healthcare/floor_plans/Healthcare_NICU_Cove_Z1_View2.jpg"],
@@ -4908,7 +4909,7 @@
       "Nurses Station" :
       {
         "cs graph path" : "healthcare",
-        "desc" : "A Nurse’s station in a hospital is where nurses spend their time when they’re not attending to patients. This 1,190 SF room with a 10-foot ceiling includes a main desk and workstations located off a hallway. Since nurses work around the clock, lighting should accommodate varying schedules.",
+        "desc" : "A Nurse’s station in a hospital is where nurses spend their time when they’re not attending to patients. This 1,190 square foot (111 m<sup>2</sup>) room with a 10-foot (3.05 m) ceiling includes a main desk and workstations located off a hallway. Since nurses work around the clock, lighting should accommodate varying schedules.",
         "Recessed Linear + Blue/Red Desk Luminaire + Under Cabinet" :
         {
           "chart path" : "healthcare/nurses_station/under_cabinet",
@@ -5284,7 +5285,7 @@
       "Standard Classroom" :
       {
         "cs graph path" : "school/standard",
-        "desc": "",
+        "desc": "A typical school classroom layout can be applied to grades K-12. This 780 square foot (72 m<sup>2</sup>) classroom with a 9-foot (2.74 m0) ceiling includes 23 desks facing a white board. Although students will be facing the board most of the time, the possibility that desks can be rearranged for group work should be accounted for when ensuring CS targets are met. Lighting designs can be similar throughout grade school classrooms, however it is recommended that CS schedules be altered based on age.",
         "2x4 Troffer" :
         {
           "chart path" : "school/standard/troff",
@@ -5831,7 +5832,7 @@
       "Special Education Classroom" :
       {
         "cs graph path" : "school/spec_ed",
-        "desc": "A special education classroom provides a learning environment for students with developmental disabilities. This 980 SF classroom with an 8-foot ceiling includes 12 desks facing a board, along with 12 desks in sets of clusters for group work.",
+        "desc": "A special education classroom provides a learning environment for students with developmental disabilities. This 980 square foot (91 m<sup>2</sup>) classroom with an 8-foot (2.44 m) ceiling includes 12 desks facing a board, along with 12 desks in sets of clusters for group work.",
         "2x4 Troffer" :
         {
           "chart path" : "school/spec_ed/troff",
@@ -6180,7 +6181,7 @@
       "Lecture Hall" :
       {
         "cs graph path" : "school/lecture",
-        "desc": "A typical college lecture hall holds around 250 students for a lectures lasting about 2 hours. This 3,600 SF room with a 20-foot ceiling includes 11 tiered rows of chairs with foldable desks. At the lowest level, a podium and projector screen constitute the focal point of the room. Since students may only be in these lecture halls for a few hours of the day through mid-evening, it is important to ensure CS targets are met throughout the day.",
+        "desc": "A typical college lecture hall holds around 250 students for a lectures lasting about 2 hours. This 3,600 square foot (334 m<sup>2</sup>) room with a 20-foot (6.1 m) ceiling includes 11 tiered rows of chairs with foldable desks. At the lowest level, a podium and projector screen constitute the focal point of the room. Since students may only be in these lecture halls for a few hours of the day through mid-evening, it is important to ensure CS targets are met throughout the day.",
         "2x4 Troffer" :
         {
           "chart path" : "school/lecture/troff",
