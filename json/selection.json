@@ -268,7 +268,7 @@
       "0.4":
       {
         "img" : "img/application/selection/4_Target_CS/0.4.jpg",
-        "desc" : "Targeting a higher CS of 0.4 will better ensure that the minimum CS of 0.3 is achieved where it is needed (e.g., where people are sitting). Target a CS of 0.4 for the following conditions:<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Furniture layout: Either undefined or dynamic</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>CCT preference: Cool white (5000–6500 K)</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Population: Older adults who require a robust pattern of light and dark for circadian entrainment with sufficient CS levels to compensate for age-related changes to the eye</li></ul>"
+        "desc" : "Targeting a higher CS of 0.4 will better ensure that the minimum CS of 0.3 is achieved where it is needed (e.g., where people are sitting). Target a CS of 0.4 for the following conditions:<ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Furniture layout: Either undefined or dynamic</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>CCT preference: Cool white (5000–6500 K)</li><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Population: Older adults who require a robust pattern of light and dark for circadian entrainment with sufficient CS levels to compensate for age-related changes to the eye</li></ul><ul class='fa-ul selection-ul'><li><span class='fa-li'><i class='fas fa-lightbulb'></i></span>Additional layer of light: Saturated blue light</li>"
       },
       "0.4 8-hour" :
       {
