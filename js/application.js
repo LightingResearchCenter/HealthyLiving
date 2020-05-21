@@ -926,7 +926,6 @@ function generateCharts(){
   // SPD
   $('#chart_spd').attr("src",'img/application/spd/' + data.cct.replace(/ /g, "").replace(/->/g,"_") + '_med.jpg');
   $("#show_chart_spd").click(function(){
-    console.log('here');
     var this_chart = "spd";
     for (var j in charts){
       var _chart = charts[j].toLowerCase();
@@ -945,7 +944,6 @@ function generateCharts(){
 function generateCSContent(){
   var chart_path = hb[data.facility][data.room][data.fixture]["chart path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'');
   var graph_path;
-  console.log(data.system);
   if ((data.fixture.includes("Blue") || data.fixture.includes("Red")) && data.system != "Tunable"){
     graph_path = hb[data.facility][data.room]["cs graph path"]+'/'+data.target+'_'+data.cct.replace(/ |\>/g,'')+"-color";
   }else{
