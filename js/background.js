@@ -1,7 +1,7 @@
 /*jshint esversion: 8 */
 /*jshint -W030 */
 /*jshint -W083 */
-var refJSON, glossaryJSON, references = {};
+var refJSON, glossaryJSON, releaseJSON, references = {};
 
 function ajaxWarning(){
   $.ajaxSetup({beforeSend: function(xhr){
@@ -24,6 +24,19 @@ function getGlossaryJSON(){
   });
 }
 
+function getReleaseNotesJSON(){
+  $.ajax({
+    url: "json/release.json",
+    async: false,
+    dataType: 'json',
+    success: function(result) {
+      $.each(result,function(){
+        releaseJSON = this;
+      });
+    }
+  });
+}
+
 function handleGlossary(){
   for (var id in glossaryJSON){
     var str = '';
@@ -37,6 +50,27 @@ function handleGlossary(){
     str += '</div>';
     $('#glossaryContent').append(str);
   }
+}
+
+function handleReleaseNotes(){
+  var str = '';
+  console.log(releaseJSON);
+  for (var i =  Object.keys(releaseJSON).length; i > 0; i--){
+    var note = releaseJSON[i];
+    str += '<div class="row mb-4">';
+    str += '  <div class="col release-note">';
+    str += '    <h3 class="release-note-title">'+note.version+'</h3>';
+    str += '    <h5 class="release-note-date">'+note.type+ ' on ' +note.date+ '</h5>';
+    str += '    <ul class="fa-ul">';
+    for (var j = 0; j < Object.keys(note.notes).length; j++){
+      var num = j + 1;
+      str += '    <li><span class="fa-li"><i class="fas fa-lightbulb"></i></span>' +note.notes[num]+ '</li>';
+    }
+    str += '    </ul>';
+    str += '  </div>';
+    str += '</div>';
+  }
+  $("#releaseNotesContainer").html(str);
 }
 
 function getRefJSON(){
@@ -149,6 +183,10 @@ $(document).ready(async function(){
   await getGlossaryJSON();
 
   handleGlossary();
+
+  await getReleaseNotesJSON();
+
+  handleReleaseNotes();
 
   backgroundButton();
 

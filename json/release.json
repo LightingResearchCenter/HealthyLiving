@@ -1,0 +1,13 @@
+{
+  "Release Notes" :
+  {
+    "1" : {
+      "version" : "v0.1.0 beta",
+      "type" : "Initial release",
+      "date" : "05/27/20",
+      "notes" : {
+          "1" : "Initial Release"
+      }
+    }
+  }
+}
