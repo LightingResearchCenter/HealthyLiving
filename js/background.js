@@ -63,8 +63,13 @@ function handleReleaseNotes(){
     str += '    <h5 class="release-note-date">'+note.type+ ' on ' +note.date+ '</h5>';
     str += '    <ul class="fa-ul">';
     for (var j = 0; j < Object.keys(note.notes).length; j++){
-      var num = j + 1;
-      str += '    <li><span class="fa-li"><i class="fas fa-lightbulb"></i></span>' +note.notes[num]+ '</li>';
+      var num = j + 1, _class = "";
+      if (note.notes[num].startsWith("B:")){
+        _class='class="blue-text"';
+      }else if(note.notes[num].startsWith("A:")){
+        _class='class="red-text"';
+      }
+      str += '    <li><span class="fa-li"><i class="fas fa-lightbulb"></i></span>' + '<span ' + _class + '>' + note.notes[num].replace(/->/g, "&#8594;").replace(/Ev/g,"E<sub>V</sub>").replace(/Eh/g,"E<sub>H</sub>") + '</span></li>';
     }
     str += '    </ul>';
     str += '  </div>';

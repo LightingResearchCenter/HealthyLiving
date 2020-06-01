@@ -103,6 +103,14 @@ html::-webkit-scrollbar {
   z-index: 1;
 }
 
+.blue-text{
+  color: #0a0096;
+}
+
+.red-text{
+  color: #5c0000;
+}
+
 .footer-p {
   color: white;
   font-size: 1rem;
