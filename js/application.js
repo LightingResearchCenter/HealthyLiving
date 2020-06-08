@@ -269,7 +269,7 @@ function getTarget(){
   cacheSelectionImages("System");
   for (var i = 0; i < targets.length; i++){
     var _target = Object.keys(hb[data.facility][data.room][data.fixture])[i];
-    if (_target == "chart path"){
+    if (_target == "chart path" || _target == "desc"){
       continue;
     }
     var __target = _target.split(".").pop().replace("[^a-zA-Z]", "").replace(/\s/g, '');
