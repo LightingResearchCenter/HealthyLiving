@@ -25,7 +25,7 @@ Below is a list of the specific topics we cover on the background page. These co
 #### <a href="https://www.lrc.rpi.edu/healthyliving/#section-ourRole">Fundamentals<a/>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-ourRole">Our Role</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-whatIsLight">What is Light?</a>
-* <a href="https://www.lrc.rpi.edu/healthyliving/#section-lightingAndTheCircadianSystem">Light and the Circadian System</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/#section-lightingAndtheCircadianSystem">Light and the Circadian System</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/index.html#section-theSleepWakeCycle">The Sleep/Wake Cycle</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/index.html#section-theEye">The Eye</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/index.html#section-theRetina">The Retina</a>
@@ -47,7 +47,6 @@ Below is a list of the specific topics we cover on the background page. These co
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-verticalIlluminance">Vertical Illuminance</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/index.html#subsection-evehratio">E<sub>V</sub>/E<sub>H</sub> Ratio</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-lightingSolution">Circadian Lighting Solution</a>
-  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-csMetric">CS Metric</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-csSchedule">CS Schedule</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-cctSystem">CCT System</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-desiredCCT">Desired CCT</a>
@@ -57,7 +56,7 @@ Below is a list of the specific topics we cover on the background page. These co
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-fixtureTypes">Luminaire Type(s)</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-personalLightDevices">Personal Light Devices</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-beamDistribution">Intensity Distribution</a>
-  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-orientationOfFixtures">Orientation of Luminaire</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/index.html#subsection-orientationOffixtures">Orientation of Luminaire</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-mountingHeight">Mounting Height</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-maximumLumenOutput">Maximum Lumen Output</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-initialWattage">Initial Wattage</a>
@@ -113,8 +112,8 @@ Below is a list of the specific topics we cover on the background page. These co
 
 #### <a href="https://www.lrc.rpi.edu/healthyliving/#section-healthcareGeneralInformation">Healthcare</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-healthcareGeneralInformation">General Information</a>
-* <a href="https://www.lrc.rpi.edu/healthyliving/#section-healthcareGeneralInformation">Occupants</a>
-  * <a href="https://www.lrc.rpi.edu/healthyliving/#section-healthcareGeneralInformation">Shift Workers</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/#section-healthcareOccupants">Occupants</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-healthcareShiftWorkers">Shift Workers</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-healthcarePatients">Patients</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-healthcareInfants">Infants</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-healthcareSpecialtyInformation">Specialty Information</a>
