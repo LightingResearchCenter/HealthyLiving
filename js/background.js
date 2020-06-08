@@ -54,7 +54,6 @@ function handleGlossary(){
 
 function handleReleaseNotes(){
   var str = '';
-  console.log(releaseJSON);
   for (var i =  Object.keys(releaseJSON).length; i > 0; i--){
     var note = releaseJSON[i];
     str += '<div class="row mb-4">';

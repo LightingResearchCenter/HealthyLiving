@@ -345,10 +345,21 @@ html::-webkit-scrollbar {
   margin-bottom: 0.35rem;
 }
 
+.figtable{
+  display: table;
+}
+
 .figcaption {
   font-size: 0.85rem;
   font-style: italic;
   font-weight: 400;
+}
+
+.figcaption-top{
+  margin-top: -3rem;
+  margin-bottom: 0.5rem;
+  display: table-caption;
+  caption-side: top;
 }
 
 .dropdown-item:hover {
@@ -539,6 +550,7 @@ hr {
 .help-menu-p{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.3rem;
+  font-weight: 300;
 }
 
 .help-menu-content{
