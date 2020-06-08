@@ -25,21 +25,18 @@ Below is a list of the specific topics we cover on the background page. These co
 #### <a href="https://www.lrc.rpi.edu/healthyliving/#section-ourRole">Fundamentals<a/>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-ourRole">Our Role</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-whatIsLight">What is Light?</a>
-* <a href="https://www.lrc.rpi.edu/healthyliving/#section-lightingAndTheCircadianSystem">Lighting and the Circadian System</a>
-* <a href="https://www.lrc.rpi.edu/healthyliving/#section-sleepPressureAndDailyAlertness">Sleep Pressure / Daily Alertness</a>
-* <a href="https://www.lrc.rpi.edu/healthyliving/#section-structureOfTheEye">Structure of the Eye</a>
-* <a href="https://www.lrc.rpi.edu/healthyliving/#section-structureOfTheRetina">Structure of the Retina</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/#section-lightingAndTheCircadianSystem">Light and the Circadian System</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/index.html#section-theSleepWakeCycle">The Sleep/Wake Cycle</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/index.html#section-theEye">The Eye</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/index.html#section-theRetina">The Retina</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-rodsAndCones">Rods and Cones</a>
-* <a href="https://www.lrc.rpi.edu/healthyliving/#section-ipGRC">ipRGC Photoreceptors</a>
-* <a href="https://www.lrc.rpi.edu/healthyliving/#section-visualVsNonVisualSystems">Visual vs. Non-visual Systems</a>
-* <a href="https://www.lrc.rpi.edu/healthyliving/#section-whatIsCircadianLighting">Circadian Light</a>
-* <a href="https://www.lrc.rpi.edu/healthyliving/#section-summary">Summary</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/index.html#section-nonVisualSystems">Non-visual Systems</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/index.html#section-whatIsCircadianLighting">What is Circadian Lighting?</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/index.html#section-fundamentalsSummary">Summary</a>
 
 #### <a href="https://www.lrc.rpi.edu/healthyliving/#section-componentsOfCircadianDesign">Manufacturer's / Designer's Steps</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-componentsOfCircadianDesign">Components of Circadian Design</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-informationAboutRoom">Information about Room</a>
-  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-geographicLocation">Geographic Location</a>
-  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-buildingOrientation">Building Orientation</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-facilityAndRoomType">Facility and Room Type</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-occupantType">Occupant Type</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-areaOfRoom">Area of Room</a>
@@ -48,24 +45,26 @@ Below is a list of the specific topics we cover on the background page. These co
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-furnitureLayout">Furniture Layout</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-horizontalIlluminance">Horizontal Illuminance</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-verticalIlluminance">Vertical Illuminance</a>
-* <a href="https://www.lrc.rpi.edu/healthyliving/#section-lightingSolution">Lighting Solution</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/index.html#subsection-evehratio">E<sub>V</sub>/E<sub>H</sub> Ratio</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/#section-lightingSolution">Circadian Lighting Solution</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-csMetric">CS Metric</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-csSchedule">CS Schedule</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-cctSystem">CCT System</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-desiredCCT">Desired CCT</a>
-* <a href="https://www.lrc.rpi.edu/healthyliving/#section-fixtures">Fixtures</a>
-  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-retrofitOrNewDesign">Retrofit or New Design</a>
-  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-fixtureTypes">Fixture Types</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/#section-fixtures">Luminaires</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/index.html#subsection-retrofit">Retrofit</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/index.html#subsection-newDesign">New Design</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-fixtureTypes">Luminaire Type(s)</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-personalLightDevices">Personal Light Devices</a>
-  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-beamDistribution">Beam Distribution</a>
-  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-orientationOfFixtures">Orientation of Fixtures</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-beamDistribution">Intensity Distribution</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-orientationOfFixtures">Orientation of Luminaire</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-mountingHeight">Mounting Height</a>
-  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-initialLumenOutput">Initial Lumen Output</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-maximumLumenOutput">Maximum Lumen Output</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-initialWattage">Initial Wattage</a>
-  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-fixtureSpacing">Fixture Spacing</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-fixtureSpacing">Luminaire Spacing</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-spd">SPD</a>
-  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-fixtureQuantity">Fixture Quantity</a>
-  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-lightLossFactors">Light Loss Factor</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-fixtureQuantity">Luminaire Quantity</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-lightLossFactors">Light Loss Factors</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-computerDesign">Computer Design</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-lightingDesignSoftware">Lighting Design Software</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-iesFiles">.ies Files</a>
@@ -74,7 +73,7 @@ Below is a list of the specific topics we cover on the background page. These co
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-illuminanceMeter">Illuminance Meter</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-spectroradiometer">Spectroradiometer</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-tapeMeasure">Tape Measure</a>
-  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-installedFixtures">Installed Fixtures</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-installedFixtures">Installing Test Luminaires</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-controlSystem">Control System</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-daysimeter">Daysimeter</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-csCalculator2">CS Calculator</a>
@@ -86,26 +85,29 @@ Below is a list of the specific topics we cover on the background page. These co
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-energyUsage">Energy Usage</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-manufacturersSummary">Summary</a>
 
-#### <a href="https://www.lrc.rpi.edu/healthyliving/#section-personalLightingTechniques">Occupant's steps</a>
-* <a href="https://www.lrc.rpi.edu/healthyliving/#section-personalLightingTechniques">Personal Light Techniques</a>
+#### <a href="https://www.lrc.rpi.edu/healthyliving/index.html#section-occupantsGeneralInformation">Individuals</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/index.html#section-occupantsGeneralInformation">General Information</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-learnMore">Learn More</a>
-  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-occupantsCSMetric">CS Metric</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/index.html#subsection-occupantsLightingSystems">Lighting Systems</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-occupantsHorizontalIlluminance">Horizontal Illuminance</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-occupantsVerticalIlluminance">Vertical Illuminance</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-occupantsCCTSystem">CCT System</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/index.html#subsection-occupantsDesiredCCT">Desired CCT</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-csCalculator3">CS Calculator</a>
-* <a href="https://www.lrc.rpi.edu/healthyliving/#section-personalLightDevices">Personal Light Devices</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/#section-personalLightDevices">Personal Lighting Devices</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-generalInformation">General Information</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-deskLuminaire">Desk Luminaire</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-lightGoggles">Light Goggles</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-lightTray">Light Tray</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-lightTable">Light Table</a>
-  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-orangeFilterGoggles">Orange Filter Goggles</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-orangeFilterGoggles">Orange-tinted Glasses</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-occupantsSummary">Summary</a>
 
-#### <a href="https://www.lrc.rpi.edu/healthyliving/#section-officeGeneralInformation">Office</a>
+#### <a href="https://www.lrc.rpi.edu/healthyliving/#section-officeGeneralInformation">Offices</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-officeGeneralInformation">General Information</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-officeOccupants">Occupants</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/index.html#subsection-officeDaytimeWork">Daytime Work</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/index.html#subsection-officeEveningWork">Evening Work</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-officeSpecialtyInformation">Specialty Information</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-officeSummary">Summary</a>
 
@@ -125,22 +127,30 @@ Below is a list of the specific topics we cover on the background page. These co
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-seniorcareGeneralInformation">General Information</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-seniorcareOccupants">Occupants</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-seniorcareSpecialtyInformation">Specialty Information</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/index.html#subsection-seniorcareReduceFalls">Lighting for Stability</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-seniorcareAlzheimersDisease">Alzheimer's Disease</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-seniorcareEyeDiseases">Eye Diseases</a>
-  * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-seniorcareReduceFalls">Reduce Falls</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-seniorcareSummary">Summary</a>
+
+#### <a href="https://www.lrc.rpi.edu/healthyliving/#section-seniorcareGeneralInformation">Schools</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/index.html#section-schoolGeneralInformation">General Information</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/index.html#section-schoolOccupants">Occupants</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/index.html#subsection-schoolPreteens">Pre-teens/Adolescents</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/index.html#subsection-schoolCollege">College</a>
+  * <a href="https://www.lrc.rpi.edu/healthyliving/index.html#subsection-schoolSpecEd">Special Needs</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/index.html#section-schoolSummary">Summary</a>
 
 #### <a href="https://www.lrc.rpi.edu/healthyliving/#section-about">Additional Information</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-about">About Us</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-ourMission">Our Mission, Role, and Values</a>
-* <a href="https://www.lrc.rpi.edu/healthyliving/#section-faq">FAQ</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/#section-acknowledgements">Acknowledgements</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-downloads">Downloads</a>
-* <a href="https://www.lrc.rpi.edu/healthyliving/#section-resources">Resources</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-glossary">Glossary</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-references">References</a>
-* <a href="https://www.lrc.rpi.edu/healthyliving/#section-studies">In-field Studies</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/index.html#section-additionalResources">Additional Resources</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-sponsors">Sponsors</a>
-* <a href="https://www.lrc.rpi.edu/healthyliving/#section-acknowledgements">Acknowledgements</a>
+* <a href="https://www.lrc.rpi.edu/healthyliving/index.html#section-suggestions">Suggestions/Report a Bug</a>
+
 
 
 
