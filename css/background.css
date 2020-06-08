@@ -550,6 +550,7 @@ hr {
 .help-menu-p{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.3rem;
+  font-weight: 300;
 }
 
 .help-menu-content{
