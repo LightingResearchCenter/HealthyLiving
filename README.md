@@ -113,11 +113,7 @@ Below is a list of the specific topics we cover on the background page. These co
 #### <a href="https://www.lrc.rpi.edu/healthyliving/#section-healthcareGeneralInformation">Healthcare</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-healthcareGeneralInformation">General Information</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-healthcareOccupants">Occupants</a>
-<<<<<<< HEAD
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-healthcareShiftWorkers">Shift Workers</a>
-=======
-  * <a href="https://www.lrc.rpi.edu/healthyliving/#section-healthcareGeneralInformation">Shift Workers</a>
->>>>>>> b01e4d26fc93340e21a27f692f984c5a73ef6d4f
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-healthcarePatients">Patients</a>
   * <a href="https://www.lrc.rpi.edu/healthyliving/#subsection-healthcareInfants">Infants</a>
 * <a href="https://www.lrc.rpi.edu/healthyliving/#section-healthcareSpecialtyInformation">Specialty Information</a>
