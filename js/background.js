@@ -37,7 +37,7 @@ function getReleaseNotesJSON(){
   });
 }
 
-function handleGlossary(){
+function printGlossary(){
   for (var id in glossaryJSON){
     var str = '';
     str += '<div class="row mb-4">';
@@ -50,6 +50,22 @@ function handleGlossary(){
     str += '</div>';
     $('#glossaryContent').append(str);
   }
+}
+
+function assignGlossaryTerms(){
+  $('a.term').each(function(term){
+    id = $(this).attr("data-termID");
+    $(this).attr('href', '#reference-' + id);
+    $(this).attr('data-toggle', 'tooltip');
+    $(this).attr('data-html', 'true');
+    $(this).attr('title', glossaryJSON[id].definition);
+  });
+}
+
+async function handleGlossary(){
+  await printGlossary();
+  await assignGlossaryTerms();
+  await $('[data-toggle="tooltip"]').tooltip();
 }
 
 function handleReleaseNotes(){

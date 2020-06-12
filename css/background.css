@@ -66,6 +66,11 @@ a.ref:hover{
   cursor: pointer;
 }
 
+a.term{
+  color: black !important;
+  font-weight: 700;
+}
+
 body::-webkit-scrollbar {
   display: none;
   width: 0 !important
