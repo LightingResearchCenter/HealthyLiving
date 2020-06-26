@@ -71,6 +71,10 @@ a.term{
   font-weight: 700;
 }
 
+a.term:hover{
+  cursor: pointer;
+}
+
 body::-webkit-scrollbar {
   display: none;
   width: 0 !important

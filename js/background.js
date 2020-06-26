@@ -55,7 +55,6 @@ function printGlossary(){
 function assignGlossaryTerms(){
   $('a.term').each(function(term){
     id = $(this).attr("data-termID");
-    $(this).attr('href', '#reference-' + id);
     $(this).attr('data-toggle', 'tooltip');
     $(this).attr('data-html', 'true');
     $(this).attr('title', glossaryJSON[id].definition);
