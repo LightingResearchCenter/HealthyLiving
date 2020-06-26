@@ -38,14 +38,21 @@ function getReleaseNotesJSON(){
 }
 
 function printGlossary(){
+  var terms = [];
   for (var id in glossaryJSON){
+    str = glossaryJSON[id].title + "$%$" + glossaryJSON[id].definition;
+    terms.push(str);
+  }
+  terms.sort();
+  for (var id in terms){
+    var term = terms[id];
     var str = '';
     str += '<div class="row mb-4">';
     str += '  <div class="col-md-3">';
-    str += '    <p class="glossaryTitle ">' +glossaryJSON[id].title+ '</p>';
+    str += '    <p class="glossaryTitle ">' +term.split("$%$")[0]+ '</p>';
     str += '  </div>';
     str += '  <div class="col-md-9">';
-    str += '    <p class="">'+glossaryJSON[id].definition+'</p>';
+    str += '    <p class="">'+term.split("$%$")[1]+'</p>';
     str += '  </div>';
     str += '</div>';
     $('#glossaryContent').append(str);
@@ -55,7 +62,6 @@ function printGlossary(){
 function assignGlossaryTerms(){
   $('a.term').each(function(term){
     id = $(this).attr("data-termID");
-    $(this).attr('href', '#reference-' + id);
     $(this).attr('data-toggle', 'tooltip');
     $(this).attr('data-html', 'true');
     $(this).attr('title', glossaryJSON[id].definition);
