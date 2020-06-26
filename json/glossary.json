@@ -68,7 +68,7 @@
     "14" :
     {
       "title" : "Circadian stimulus (CS)",
-      "definition" : "A transformation of circadian light (CLA) into a relative scale from approximately 0.1 (≈ 10%), the threshold for circadian system activation, to approximately 0.7 (≈ 70%), response saturation, and is equivalent to nocturnal melatonin suppression in percent after a 1-h exposure to light."
+      "definition" : "A transformation of circadian light (CL<sub>A</sub>) into a relative scale from approximately 0.1 (≈ 10%), the threshold for circadian system activation, to approximately 0.7 (≈ 70%), response saturation, and is equivalent to nocturnal melatonin suppression in percent after a 1-h exposure to light."
     },
     "15" :
     {
@@ -107,7 +107,7 @@
     },
     "22" :
     {
-      "title" : "Fixture housing",
+      "title" : "Luminaire housing",
       "definition" : "The material around a lamp’s light source that permits its placement in a space. The fixture housing can provide optics that direct light in a specific direction."
     },
     "23" :
@@ -255,6 +255,26 @@
     {
       "title" : "Zeitgeber",
       "definition" : "From German, meaning “time-giver.” Zeitgebers are environmental or behavioral cues that synchronize or entrain circadian systems to the solar day. Light is the most effective zeitgeber for the human circadian system."
+    },
+    "52" :
+    {
+      "title" : "Central vision",
+      "definition" : "Vision resulting from stimuli in the center of the field of vision (i.e., on the maculalutea and fovea of the retina), permitting sharp vision and the discrimination of fine detail. Compare with peripheral vision."
+    },
+    "53" :
+    {
+      "title" : "Delayed sleep phase disorder (DSPD)",
+      "definition" : "The delay of normal sleep onset by at least 2 hours past conventional bedtime, sometimes due to hormonal changes in teenagers."
+    },
+    "54" :
+    {
+      "title" : "Free running",
+      "definition" : "An endogenous circadian rhythm or behavior that continues to operate in the absence of any external information about the time of day, remaining unsynchronized to any external cues (see zeitgeber)."
+    },
+    "55" :
+    {
+      "title" : "Senile miosis",
+      "definition" : "An age-related reduction in pupil size that results in the retina receiving less light. Due to this condition, combined with a thickening and more increasingly absorptive crystalline lens, a typical 60-year-old receives about one-third the retinal illuminance of a 20-year-old."
     }
   }
 }
