@@ -924,7 +924,11 @@ function generateCharts(){
   }
 
   // SPD
-  $('#chart_spd').attr("src",'img/application/spd/' + data.cct.replace(/ /g, "").replace(/->/g,"_") + '_med.jpg');
+  if (data.fixture.includes("Blue") || data.fixture.includes("Red")){
+    $('#chart_spd').attr("src",'img/application/spd/' + data.cct.replace(/ /g, "").replace(/->/g,"_")+"BR" + '_med.jpg');
+  }else{
+    $('#chart_spd').attr("src",'img/application/spd/' + data.cct.replace(/ /g, "").replace(/->/g,"_") + '_med.jpg');
+  }
   $("#show_chart_spd").click(function(){
     var this_chart = "spd";
     for (var j in charts){
