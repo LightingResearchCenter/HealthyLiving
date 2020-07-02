@@ -15,14 +15,17 @@
       "date" : "07/02/20",
       "notes" : {
         "1" : "B: Content updates in sections: Fundamentals -> Light and the Circadian System, Fundamentals -> Non-visual Systems, Manufacturers / Designers -> Components of Circadian Design, Individuals -> General Information, Offices -> Occupants, Healthcare -> Occupants, Schools -> Occupants -> Special Needs, Additional Information -> Acknowledgements",
-        "2" : "B: Compressed images",
-        "3" : "B: Fixed miscellaneous typos in images",
-        "4" : "B: Fixed certain hyperlinks to correctly open in a new browser tab",
-        "5" : "A: Updated welcome text",
-        "6" : "A: Updated Senior Care & Office 'Ev' and 'Ev:E<sub>H</sub> ratio' charts",
-        "7" : "A: Updated '0.4' selection text",
-        "8" : "A: Added metric units to room descriptions",
-        "9" : "A: Added metric units to Senior Care & Office floor plans"
+        "2" : "B: Added glossary pop-ups to text",
+        "3" : "B: Compressed images",
+        "4" : "B: Fixed miscellaneous typos in images",
+        "5" : "B: Fixed certain hyperlinks to correctly open in a new browser tab",
+        "6" : "A: Updated welcome text",
+        "7" : "A: Updated Senior Care & Office 'Ev' and 'Ev:E<sub>H</sub> ratio' charts",
+        "8" : "A: Updated '0.4' selection text",
+        "9" : "A: Added metric units to room descriptions",
+        "10" : "A: Updated office blue/red add-on SPDs",
+        "11" : "A: Added metric units to Senior Care & Office floor plans"
+
       }
     }
   }
