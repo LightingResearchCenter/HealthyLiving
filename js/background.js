@@ -64,7 +64,7 @@ function assignGlossaryTerms(){
     id = $(this).attr("data-termID");
     $(this).attr('data-toggle', 'tooltip');
     $(this).attr('data-html', 'true');
-    $(this).attr('title', glossaryJSON[id].definition);
+    $(this).attr('title', "<span class='term-text'>Definition: </span>" + glossaryJSON[id].definition);
   });
 }
 
@@ -120,7 +120,7 @@ function assignReferences(){
     $(this).attr('href', '#reference-' + id);
     $(this).attr('data-toggle', 'tooltip');
     $(this).attr('data-html', 'true');
-    $(this).attr('title', refJSON[id]);
+    $(this).attr('title', "<span class='ref-text'>Reference: </span>" + refJSON[id]);
     if (id in references){
       $(this).html('[' +references[id]+']');
     }else{
