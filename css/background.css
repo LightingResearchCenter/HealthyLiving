@@ -58,20 +58,20 @@ a.section-link{
 }
 
 a.ref{
-  color: #007bff !important;
+  color: violet !important;
 }
 
 a.ref:hover{
-  color: #0056b3 !important;
+  color: violet !important;
   cursor: pointer;
 }
 
 a.term{
-  color: black !important;
-  font-weight: 700;
+  color: red !important;
 }
 
 a.term:hover{
+  color: red !important;
   cursor: pointer;
 }
 
@@ -101,6 +101,22 @@ html::-webkit-scrollbar {
 .accordion-title-a:hover{
   text-decoration: none;
   background-color: #0047cc;
+}
+
+.ref-text{
+  color: violet;
+}
+
+.term-text{
+  color: red;
+}
+
+.tooltip.fade{
+  opacity: 1;
+}
+
+div.tooltip-inner{
+  opacity: 1;
 }
 
 .footer {
