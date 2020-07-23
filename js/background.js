@@ -199,6 +199,22 @@ function helpMenuItems(){
   });
 }
 
+function enlargeModalExit(){
+  $("#enlarge_modal").on("click",function(){
+    console.log('here');
+    $('#enlarge_modal').modal('hide');
+  })
+}
+
+function handleImageEnlarge(){
+  $("img.enlarge").on("click",function(){
+    var src = $(this).attr('src')
+    $("#img_enlarge").html('<figure class="w-auto"><img src="'+src+'" class="text-center enlarged"/></figure>');
+    $('#enlarge_modal').modal('show');
+  });
+  enlargeModalExit();
+}
+
 $(document).ready(async function(){
   ajaxWarning();
 
@@ -221,4 +237,6 @@ $(document).ready(async function(){
   backToTop();
 
   helpMenuItems();
+
+  handleImageEnlarge();
 });
