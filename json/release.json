@@ -25,6 +25,15 @@
         "9" : "A: Added metric units to room descriptions and Senior Care/Office floor plans",
         "10" : "A: Updated office blue/red add-on SPDs"
       }
+    },
+    "3" : {
+      "version" : "v0.3.0 beta",
+      "type" : "Scheduled Update",
+      "date" : "",
+      "notes" : {
+          "1" : "B: Gave references and glossary terms unique colors",
+          "2" : "B: Added Functionality to fullscreen images on click"
+      }
     }
   }
 }

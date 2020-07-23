@@ -73,6 +73,7 @@ a.term{
 a.term:hover{
   color: red !important;
   cursor: pointer;
+  text-decoration: underline !important;
 }
 
 body::-webkit-scrollbar {
@@ -85,10 +86,38 @@ html::-webkit-scrollbar {
   width: 0 !important
 }
 
+img.enlarged{
+  border-radius: .25rem;
+  padding: 1.25rem;
+  background-color: #F0F0F0;
+}
+
+img.enlarge:hover{
+  cursor: pointer;
+}
+
+#enlarge_modal:hover{
+  cursor:pointer;
+}
+
+.no-border{
+  border: none;
+}
+
+.bg-transparent{
+  background-color: transparent;
+}
+
+.enlarged{
+  max-width: 100%;
+  max-height: 80vh;
+}
+
 .glossaryTitle{
   font-size: 1.2rem;
   font-weight: 600;
 }
+
 
 .accordion-title{
   color: #fff;
@@ -597,6 +626,10 @@ hr {
 
 .modal-xl{
   max-width: 85%;
+}
+
+.modal-xxl{
+  max-width: 95%;
 }
 
 .w-85{
