@@ -201,7 +201,6 @@ function helpMenuItems(){
 
 function enlargeModalExit(){
   $("#enlarge_modal").on("click",function(){
-    console.log('here');
     $('#enlarge_modal').modal('hide');
   })
 }
@@ -217,6 +216,9 @@ function handleImageEnlarge(){
 
 $(document).ready(async function(){
   ajaxWarning();
+
+  let images = document.querySelectorAll(".lazy-load");
+  lazyload(images);
 
   await getRefJSON();
 
