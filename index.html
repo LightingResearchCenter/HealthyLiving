@@ -17,6 +17,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
     <script src="js/background.js"></script>
     <link rel="stylesheet" href="css/accordion.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
@@ -55,7 +56,7 @@
                     <p class="help-menu-p">
                       To begin your research via the Healthy Patterns website, simply click the "Background" button, or scroll down past the landing section.
                     </p>
-                    <figure class="w-95 text-center mobile-figure"><img src="img/help/background/intro/1.png" class="w-85 my-4 rounded drop-shadow" ></figure>
+                    <figure class="w-95 text-center mobile-figure"><img data-src="img/help/background/intro/1.png" class="lazy-load enlarge w-85 my-4 rounded drop-shadow" ></figure>
                   </div>
                 </div>
                 <div class="help-section d-none" id="help-accordion">
@@ -67,11 +68,11 @@
                     <p class="help-menu-p">
                       Upon clicking the "Background" button on the Healthy Living landing page, your browser will be <b>automatically scrolled</b> down to a page that looks like this, with the <b>left most section</b> being the <b>accordion menu.</b>
                     </p>
-                    <figure class="w-95 text-center mobile-figure"><img src="img/help/background/accordion/1.png" class="w-85 my-4 rounded drop-shadow" ></figure>
+                    <figure class="w-95 text-center mobile-figure"><img data-src="img/help/background/accordion/1.png" class="lazy-load enlarge w-85 my-4 rounded drop-shadow" ></figure>
                     <p>
                       The <b>accordion menu</b> is a type of <b>navigation menu</b> that allows you to find the information you are looking for very quickly. The accordion menu has a maximum of <b>three levels</b>, which can be seen in the figure below.
                     </p>
-                    <figure class="w-95 text-center mobile-figure"><img src="img/help/background/accordion/2.png" class="w-50 my-4 rounded drop-shadow" ></figure>
+                    <figure class="w-95 text-center mobile-figure"><img data-src="img/help/background/accordion/2.png" class="lazy-load enlarge w-50 my-4 rounded drop-shadow" ></figure>
                     <p>
                       The First level category, <i>Healthcare</i>, has the second level categories: <i>General Information</i>, <i>Occupants</i>, <i>Specialty Information</i>, and <i>Summary</i> beneath it. It is clear which of these second level categories have third level categories underneath them due to the icons next to them. Second level accordion menu categories <b>with</b> icons next to them <b>have</b> third level categories below them. Second level accordion menu categories <b>without</b> icons next to them <b>do not have</b> third level categories below them. In the figure above we have <i>Healthcare > Speicalty Information > Lighting in the NICU</i> selected.
                     </p>
@@ -89,35 +90,46 @@
                     <p>
                       The <b>content</b> portion of the background page is where the user can gather the information necessary to understand the work the LRC, and the <b>Light and Health Institute</b> in particular, is working on. The content can be navigated via the accordion menu on the left side. To learn more about how to use the accordion menu, click the "Accordion Menu" tab to the left of the help menu.
                     </p>
-                    <figure class="w-95 text-center mobile-figure"><img src="img/help/background/content/3.png" class="w-85 my-4 rounded drop-shadow" ></figure>
+                    <figure class="w-95 text-center mobile-figure"><img data-src="img/help/background/content/3.png" class="lazy-load enlarge w-85 my-4 rounded drop-shadow" ></figure>
                     <h3 class="help-menu-header">Downloads</h3>
                     <p>
                       There exists a <b>Downloads</b> section under <b>Additional Information</b> in the accordion menu where you can find all the downloads mentioned throughout the background text. These downloadable PDF's provide a <b>summary</b> of their respective content.
                     </p>
-                    <figure class="w-95 text-center mobile-figure"><img src="img/help/background/content/4.png" class="w-85 my-4 rounded drop-shadow" ></figure>
+                    <figure class="w-95 text-center mobile-figure"><img data-src="img/help/background/content/4.png" class="lazy-load enlarge w-85 my-4 rounded drop-shadow" ></figure>
                     <h3 class="help-menu-header">Glossary</h3>
                     <p>
                       There exists a <b>Glossary</b> section under <b>Additional Information</b> in the accordion menu where you can find vocabulary words used throughout the background text and their <b>definitions</b>.
                     </p>
-                    <figure class="w-95 text-center mobile-figure"><img src="img/help/background/content/5.png" class="w-85 my-4 rounded drop-shadow" ></figure>
+                    <figure class="w-95 text-center mobile-figure"><img data-src="img/help/background/content/5.png" class="lazy-load w-85 my-4 rounded drop-shadow" ></figure>
                     <h3 class="help-menu-header">References</h3>
                     <p>
                       There exists a <b>References</b> section under <b>Additional Information</b> in the accordion menu where you can find all of the <b>cited sources</b> the background text references. These sources are also cited in-line in the background text.
                     </p>
-                    <figure class="w-95 text-center mobile-figure m-0"><img src="img/help/background/content/6.png" class="w-25 my-4 rounded drop-shadow" ></figure>
+                    <figure class="w-95 text-center mobile-figure m-0"><img data-src="img/help/background/content/6.png" class="lazy-load enlarge w-25 my-4 rounded drop-shadow" ></figure>
                     <p>
                       If you <b>hover</b> over one of these citations, its reference will pop up in a bubble above the citation. If you <b>click</b> on the reference, you will be brought to that reference in the <b>References</b> section.
                     </p>
-                    <figure class="w-95 text-center mobile-figure"><img src="img/help/background/content/7.png" class="w-85 my-4 rounded drop-shadow" ></figure>
+                    <figure class="w-95 text-center mobile-figure"><img data-src="img/help/background/content/7.png" class="lazy-load w-85 my-4 rounded drop-shadow" ></figure>
                     <h3 class="help-menu-header">Suggestions/Report a Bug</h3>
                     <p>
                       If at any point when using the <b>Healthy Living</b> website you come across something that doesn't seem to be functioning as intended, we would greatly appreciate if you submit report it to us via the <b>Suggestions/Report a Bug</b> section under <b>Additional Information</b>. There you can fill out a <b>google form</b> and describe what went wrong.
                     </p>
-                    <figure class="w-95 text-center mobile-figure"><img src="img/help/background/content/8.png" class="w-85 my-4 rounded drop-shadow" ></figure>
+                    <figure class="w-95 text-center mobile-figure"><img data-src="img/help/background/content/8.png" class="lazy-load enlarge w-85 my-4 rounded drop-shadow" ></figure>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image Enlarge Modal -->
+    <div class="modal fade" id="enlarge_modal">
+      <div class="modal-dialog modal-xxl bg-transparent no-border">
+        <div class="modal-content bg-transparent no-border">
+          <div class="modal-bodyw-100 text-center" id="img_enlarge">
+
           </div>
         </div>
       </div>
@@ -607,13 +619,13 @@
             <div class="container-fluid mt-4 pr-4 article-content">
               <div class="row">
                 <div class="col-lg-6 col-md-12 text-center">
-                  <figure><img src="img/background/fundamentals/our_role/1.png" class="p-4 rounded w-100" alt="Research - Education - Application Diagram" /></figure>
+                  <figure><img data-src="img/background/fundamentals/our_role/1.png" class="lazy-load enlarge p-4 rounded w-100" alt="Research - Education - Application Diagram" /></figure>
                 </div>
                 <div class="col-lg-6 col-md-12 pr-0">
-                  <figure><img src="img/background/fundamentals/our_role/2.png" class="rounded w-100 mb-1 color-why"  /></figure>
-                  <figure><img src="img/background/fundamentals/our_role/3.png" class="rounded w-100 mb-1 color-what"  /></figure>
-                  <figure><img src="img/background/fundamentals/our_role/4.png" class="rounded w-100 mb-1 color-who"  /></figure>
-                  <figure><img src="img/background/fundamentals/our_role/5.png" class="rounded w-100 mb-1 color-how"  /></figure>
+                  <figure><img data-src="img/background/fundamentals/our_role/2.png" class="lazy-load enlarge rounded w-100 mb-1 color-why"  /></figure>
+                  <figure><img data-src="img/background/fundamentals/our_role/3.png" class="lazy-load enlarge rounded w-100 mb-1 color-what"  /></figure>
+                  <figure><img data-src="img/background/fundamentals/our_role/4.png" class="lazy-load enlarge rounded w-100 mb-1 color-who"  /></figure>
+                  <figure><img data-src="img/background/fundamentals/our_role/5.png" class="lazy-load enlarge rounded w-100 mb-1 color-how"  /></figure>
                 </div>
               </div>
             </div>
@@ -627,7 +639,7 @@
               <div class="row">
                 <div class="col">
                   <figure class="float-right w-50 m-4 mobile-figure">
-                    <img src="img/background/fundamentals/what_is_light/1.png" class="w-100 drop-shadow rounded p-4 pl-0"  />
+                    <img data-src="img/background/fundamentals/what_is_light/1.png" class="lazy-load enlarge w-100 drop-shadow rounded p-4 pl-0"  />
                     <figcaption class="figcaption text-center mt-3">Adapted from Human Factors in Lighting (Second Edition, p.4), by Peter R. Boyce, 2003, London: Taylor & Francis. Copyright 2003 by Peter R. Boyce.</figcaption>
                   </figure>
                   <p>
@@ -646,13 +658,13 @@
               <div class="row">
                 <div class="col">
                   <figure class="float-right w-50 mobile-figure">
-                    <img src="img/background/fundamentals/lighting_and_the_circadian_system/1.png" class="drop-shadow p-4 m-4 pl-0 rounded w-100"  />
+                    <img data-src="img/background/fundamentals/lighting_and_the_circadian_system/1.png" class="lazy-load enlarge drop-shadow p-4 m-4 pl-0 rounded w-100"  />
                     <figcaption class="figcaption text-center">Watch this video to learn more about <a target="_blank" href="https://www.youtube.com/watch?v=noJnpGmWEPk&list=PL_X9RKGy9RIZmgzoJwHZsQmpPW6O1fLu3&index=1">circadian rhythms</a></figcaption>
                   </figure>
                   <p>
                     The 24-hour pattern of light and dark that accompanies Earth’s axial rotation regulates the physiology and behavior of almost every living thing on the planet. For humans, light reaching the back of our eyes is the primary exogenous (external) cue that synchronizes or entrains the body’s endogenous (internal) <a data-termID="32" class="term">master biological clock</a> and thus our <a data-termID="7" class="term">circadian rhythms</a> to the solar day, essentially telling our bodies to do the right thing at the right time. Other secondary exogenous cues include social activity <a data-refID="2" class="ref"></a>, meal times <a data-refID="3" class="ref"></a>, and physical activity <a data-refID="4" class="ref"></a>, among others. Sleeping and waking, feeding and fasting, the regulation of core body temperature, blood pressure, and the secretion of hormones are just a few examples of circadian rhythms. The term “circadian,” coined by biologist Franz Halberg in 1959, is a blended word derived from the Latin circa (“about”) and dies (“day”).
                   </p>
-                  <figure class="mobile-figure"><img src="img/background/fundamentals/lighting_and_the_circadian_system/2.png" class="float-left w-45 drop-shadow rounded p-4 mr-4 mt-4 mb-4 ml-0"  /></figure>
+                  <figure class="mobile-figure"><img data-src="img/background/fundamentals/lighting_and_the_circadian_system/2.png" class="lazy-load enlarge float-left w-45 drop-shadow rounded p-4 mr-4 mt-4 mb-4 ml-0"  /></figure>
                   <p>
                     Because the human <a data-termID="8" class="term">circadian system</a> <a data-termID="54" class="term">free-runs</a> at an average period of about 24.2 hours—slightly longer than the solar day—a daily cue of light and dark is required to advance the circadian system by about 10–15 minutes, thereby continually resetting the biological clock to maintain <a data-termID="5" class="term">circadian entrainment</a> <a data-refID="5" class="ref"></a>. But what light gives, light can also take away.
                   </p>
@@ -669,7 +681,7 @@
               <div class="row">
                 <div class="col-md-6">
                   <b>1.&nbsp; The amount or level of light received at the eyes.</b>
-                  <figure class="float-left w-100 mobile-figure"><img class="w-100 rounded p-4" alt="Lighting and The Circadian System 3" src="img/background/fundamentals/lighting_and_the_circadian_system/3.png"/></figure>
+                  <figure class="float-left w-100 mobile-figure"><img data-src="img/background/fundamentals/lighting_and_the_circadian_system/3.png" class="lazy-load enlarge w-100 rounded p-4" alt="Lighting and The Circadian System 3" /></figure>
                 </div>
                 <div class="col-md-6">
                   <p>
@@ -680,7 +692,7 @@
               <div class="row">
                 <div class="col-md-6">
                   <b>2.&nbsp; The spectral properties of the light experienced.</b>
-                  <figure class="float-left w-100 mobile-figure"><img class="w-100 rounded p-4" alt="Lighting and The Circadian System 4" src="img/background/fundamentals/lighting_and_the_circadian_system/4.png"/></figure>
+                  <figure class="float-left w-100 mobile-figure"><img data-src="img/background/fundamentals/lighting_and_the_circadian_system/4.png" class="lazy-load enlarge w-100 rounded p-4" alt="Lighting and The Circadian System 4" /></figure>
                 </div>
                 <div class="col-md-6">
                   <p>
@@ -691,7 +703,7 @@
               <div class="row">
                 <div class="col-md-6">
                   <b>3.&nbsp; The timing and duration of light exposures.</b>
-                  <figure class="float-left w-100 mobile-figure"><img class="w-100 rounded p-4" alt="Lighting and The Circadian System 5" src="img/background/fundamentals/lighting_and_the_circadian_system/5.png"/></figure>
+                  <figure class="float-left w-100 mobile-figure"><img data-src="img/background/fundamentals/lighting_and_the_circadian_system/5.png" class="lazy-load enlarge w-100 rounded p-4" alt="Lighting and The Circadian System 5" /></figure>
                 </div>
                 <div class="col-md-6">
                   <p>
@@ -702,7 +714,7 @@
               <div class="row">
                 <div class="col-md-6">
                   <b>4.&nbsp;</b> <b>A person’s history of light exposures.</b>
-                  <figure class="w-100 text-center mobile-figure"><img class="text-center w-85 rounded p-4" alt="Lighting and The Circadian System 6" src="img/background/fundamentals/lighting_and_the_circadian_system/6.png"/></figure>
+                  <figure class="w-100 text-center mobile-figure"><img data-src="img/background/fundamentals/lighting_and_the_circadian_system/6.png" class="lazy-load enlarge text-center w-85 rounded p-4" alt="Lighting and The Circadian System 6" /></figure>
                 </div>
                 <div class="col-md-6">
                   <p>
@@ -780,13 +792,13 @@
               <div class="row">
                 <div class="col-md-12">
                   <figure class="m-4 float-left w-50 mobile-figure">
-                    <img alt="Sleep Pressure and Daily Alertness 1" src="img/background/fundamentals/sleep_pressure_and_daily_alertness/1.png" class="w-100 drop-shadow p-4 rounded"  />
+                    <img data-src="img/background/fundamentals/sleep_pressure_and_daily_alertness/1.png" alt="Sleep Pressure and Daily Alertness 1"  class="lazy-load enlarge w-100 drop-shadow p-4 rounded"  />
                     <figcaption class="figcaption text-center mt-3">Adapted from “Circadian and Sleep-Wake Dependent Impact on Neurobehavioral Function,” by C. Cajochen and K. Blatter, 2004, Psychologica Belgica, 44-1/2, p. 59-80, Figure 3.</figcaption>
                   </figure>
                   <p>
                     The regulation of sleep and waking has been broadly conceptualized as a two-process model involving interaction between a <a data-termID="23" class="term">homeostatic</a> process, which maintains stability by counteracting opposing forces or influences, and a process driven by the circadian pacemaker <a data-refID="47" class="ref"></a><a data-refID="48" class="ref"></a><a data-refID="49" class="ref"></a>. The homeostatic process, known variously as Process S, or simply “sleep debt,” is a natural tendency toward sleep that accumulates during our waking hours and declines while we sleep. This tendency is counteracted to maintain daytime wakefulness by an alerting signal that is regulated by the <a data-termID="8" class="term">circadian system</a>, called Process C. Experiments using animals whose circadian rhythms have been disrupted by surgical lesions on the SCN have shown that Process S is not affected, suggesting that the two processes are independently regulated despite whatever “crosstalk” might occur between them <a data-refID="49" class="ref"></a>.
                   </p>
-                  <figure class="text-center mobile-figure"><img alt="Sleep Pressure and Daily Alertness 2" src="img/background/fundamentals/sleep_pressure_and_daily_alertness/2.png" class="float-right w-25 rounded p-0 m-3"  /></figure>
+                  <figure class="text-center mobile-figure"><img data-src="img/background/fundamentals/sleep_pressure_and_daily_alertness/2.png" alt="Sleep Pressure and Daily Alertness 2"  class="lazy-load enlarge float-right w-25 rounded p-0 m-3"  /></figure>
                   <p>
                     The functioning of the two-process sleep model should be familiar to anyone who has experienced fatigue during the workday. Around 2–4 PM, or 16–18 hours after the previous night’s bedtime, many people experience a decline in alertness and performance known as the <a data-termID="41" class="term">post-lunch dip</a>. At this time of day, Process C cannot completely counteract Process S, which is gathering momentum prior to its abrupt peak and decline about 8 hours later, triggering sleep. The LRC has innovated a unique application for getting us through the post-lunch dip by using light to promote acute alertness, providing an effect that is similar to a cup of coffee. Process C reaches its peak early evening (also known as wake maintenance zone), when falling asleep is very difficult (some refer this time as their “second wave”). After reaching its peak, Process C switches to sending the body a sleeping signal; together with the high sleep debt, sleep is triggered.
                   </p>
@@ -803,7 +815,7 @@
               <div class="row">
                 <div class="col-md-12">
                   <figure class="m-4 float-right w-65 mobile-figure">
-                    <img alt="Structure of the Eye 1" src="img/background/fundamentals/structure_of_the_eye/1.png" class="w-100 rounded p-4 drop-shadow"  />
+                    <img data-src="img/background/fundamentals/structure_of_the_eye/1.png" alt="Structure of the Eye 1"  class="lazy-load enlarge w-100 rounded p-4 drop-shadow"  />
                     <figcaption class="figcaption text-center mt-3">Adapted from Human Factors in Lighting (Second Edition, p.48), by Peter R. Boyce, 2003, London: Taylor & Francis. Copyright 2003 by Peter R. Boyce.</figcaption>
                   </figure>
                   <p>
@@ -832,7 +844,7 @@
               <div class="row">
                 <div class="col">
                   <figure class="mx-auto w-65 m-4 mobile-figure">
-                    <img alt="Structure of the Retina 1" src="img/background/fundamentals/structure_of_the_retina/1.png" class="w-100 p-4 drop-shadow rounded"  />
+                    <img data-src="img/background/fundamentals/structure_of_the_retina/1.png" alt="Structure of the Retina 1" class="lazy-load enlarge w-100 p-4 drop-shadow rounded"  />
                     <figcaption class="figcaption text-center mt-3">Adapted from Human Factors in Lighting (Second Edition, p.49), by Peter R. Boyce, 2003, London: Taylor & Francis. Copyright 2003 by Peter R. Boyce.</figcaption>
                   </figure>
                 </div>
@@ -858,7 +870,7 @@
                     The two “classical” types of <a data-termID="40" class="term">photoreceptor</a>, <a data-termID="42" class="term">rods</a> and <a data-termID="9" class="term">cones</a>, have different sensitivities, connections to other retinal cells, and distributions across the retina. Rods have very low spatial resolution but are very sensitive to light, especially at low levels. Cones, on the other hand, are very effective at discriminating details but are much less sensitive to light. The rod-mediated perception of light is called scotopic vision, which has an upper activation threshold in dim light levels that are roughly equivalent to the luminance of a white piece of paper in starlight <a data-refID="50" class="ref"></a>. Cone-mediated perception of light is known as photopic vision, which is activated at high light levels <a data-refID="50" class="ref"></a>. Mesopic vision lies in a middle range between the two in which both rods and cones are active, in conditions such as starlight and moonlight.
                   </p>
                   <figure class="float-right w-35 mb-4 mx-4 mt-0 mobile-figure">
-                    <img alt="Structure of the Retina 2" src="img/background/fundamentals/structure_of_the_retina/2.png" class="w-100 p-4 drop-shadow rounded"  />
+                    <img data-src="img/background/fundamentals/structure_of_the_retina/2.png" alt="Structure of the Retina 2" class="lazy-load enlarge w-100 p-4 drop-shadow rounded"  />
                     <figcaption class="figcaption text-center mt-3"> Adapted from Circadian Physiology (Second Edition, p.453), by Roberto Refinetti, 2006, Florida: CRC Press and Taylor & Francis Group. Copyright 2006 by Taylor & Francis Group, LLC.</figcaption>
                   </figure>
                   <p>
@@ -869,7 +881,7 @@
               <div class="row mb-4">
                 <div class="col-md-6">
                   <figure class="text-center w-90 m-4 mobile-figure">
-                    <img alt="Rods and Cones 1" src="img/background/fundamentals/rods_and_cones/1.png" class="w-100 p-4 drop-shadow rounded"  />
+                    <img data-src="img/background/fundamentals/rods_and_cones/1.png" alt="Rods and Cones 1"  class="lazy-load enlarge w-100 p-4 drop-shadow rounded"  />
                     <figcaption class="figcaption text-center mt-3">Adapted from “How is Color Blindness diagnosed?” by Daniel Georgiev.</figcaption>
                   </figure>
                   <p>
@@ -878,7 +890,7 @@
                 </div>
                 <div class="col-md-6 col-lg-6">
                   <figure class="text-center w-90 m-4 mobile-figure">
-                    <img alt="Rods and Cones 2" src="img/background/fundamentals/rods_and_cones/2.png" class="w-100 p-4 drop-shadow rounded"  />
+                    <img data-src="img/background/fundamentals/rods_and_cones/2.png" alt="Rods and Cones 2"  class="lazy-load enlarge w-100 p-4 drop-shadow rounded"  />
                     <figcaption class="figcaption text-center mt-3">Adapted from Illuminating Engineering Society, The Lighting Handbook (Tenth Edition, p.2.6), by David L. DiLaura, Kevin W. Houser, Richard G. Mistrick, and Gary R. Steffy, 2011, New York: Illuminating Engineering Society. Copyright 2011 by the Illuminating Engineering Society of North America.</figcaption>
                   </figure>
                   <p>
@@ -903,10 +915,10 @@
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <figure class="text-center mobile-figure"><img alt="ipRGC 1" src="img/background/fundamentals/iprgc_photoreceptors/1.png" class="float-right w-90 m-4 p-2 drop-shadow rounded"  /></figure>
+                  <figure class="text-center mobile-figure"><img data-src="img/background/fundamentals/iprgc_photoreceptors/1.png" alt="ipRGC 1"  class="lazy-load enlarge float-right w-90 m-4 p-2 drop-shadow rounded"  /></figure>
                 </div>
                 <div class="col-md-6">
-                  <figure class="text-center mobile-figure"><img alt="Visual vs. Non-visual System 1" src="img/background/fundamentals/visual_vs_non-visual_system/1.png" class="float-right w-90 m-4 drop-shadow rounded"  /></figure>
+                  <figure class="text-center mobile-figure"><img data-src="img/background/fundamentals/visual_vs_non-visual_system/1.png" alt="Visual vs. Non-visual System 1"  class="lazy-load enlarge float-right w-90 m-4 drop-shadow rounded"  /></figure>
                 </div>
               </div>
             </div>
@@ -929,13 +941,13 @@
                     Researchers at the LRC have proposed a 24-hour lighting scheme for promoting <a data-termID="5" class="term">circadian entrainment</a> that maximizes <a data-termID="14" class="term">circadian stimulus (CS)</a> during the day, minimizes CS at night, and maintains appropriate levels of light for visual performance at all times <a data-refID="22" class="ref"></a><a data-refID="54" class="ref"></a><a data-refID="55" class="ref"></a>. Field and laboratory research <a data-refID="56" class="ref"></a><a data-refID="57" class="ref"></a><a data-refID="58" class="ref"></a><a data-refID="59" class="ref"></a> suggests that delivering high CS (at least 0.3, and preferably ≥ 0.4) during the day can be achieved by providing about 500 lux (at the eye) of a <a data-termID="50" class="term">white light</a> source (ranging from 2700-5000 K). Relatively dim (&lt; 30 lux at the eye) <a data-termID="1" class="term">ambient lighting</a> providing low CS (&lt; 0.1) during the evening can be achieved using any white light source.
                   </p>
                   <figure class="text-center mobile-figure">
-                    <img alt="What is Circadian Lighting 2" src="img/background/fundamentals/what_is_circadian_lighting/4.png" class="w-40 p-4 m-4 drop-shadow rounded float-left"  />
+                    <img data-src="img/background/fundamentals/what_is_circadian_lighting/4.png" alt="What is Circadian Lighting 2" class="lazy-load enlarge w-40 p-4 m-4 drop-shadow rounded float-left"  />
                   </figure>
                   <p>
                     The lighting conditions described on this website are specified in terms of <a data-termID="12" class="term">correlated color temperature (CCT)</a> and light level (i.e., photopic illuminance) to provide targeted amounts of <a data-termID="6" class="term">circadian light (CL<sub>A</sub>)</a> <a data-refID="60" class="ref"></a> and CS at participants’ eyes <a data-refID="61" class="ref"></a><a data-refID="62" class="ref"></a><a data-refID="63" class="ref"></a>. Lighting designs universally require illuminance measurements on the horizontal and vertical planes. Briefly, Illuminance (E) is the amount of luminous flux incident on a surface <a data-refID="64" class="ref"></a>, and is measured in lumens per square meter (lux) or lumens per square foot (footcandle). One footcandle is equal to approximately 11 lux. The CL<sub>A</sub> metric is irradiance weighted by the spectral sensitivity of the retinal phototransduction mechanisms stimulating the response of the <a data-termID="2" class="term"> biological clock</a>, based on nocturnal <a data-termID="33" class="term">melatonin</a> suppression. The CS metric is a transformation of CL<sub>A</sub> into a relative scale from approximately 0.1 (≈ 10%), the threshold for <a data-termID="8" class="term">circadian system</a> activation, to approximately 0.7 (≈ 70%), response saturation, and is equivalent to nocturnal melatonin suppression in percent after a 1-h exposure to light. Although the photopic luminous efficiency function (V(λ)) used to convert radiant power (Watts) into photopic lux is not the correct efficiency function for the circadian system response, it will be used throughout this website because of its widespread use by the lighting community.
                   </p>
                   <figure class="text-center mobile-figure">
-                    <img alt="What is Circadian Lighting 2" src="img/background/fundamentals/what_is_circadian_lighting/3.png" class="w-40 p-4 m-4 drop-shadow rounded float-right"  />
+                    <img data-src="img/background/fundamentals/what_is_circadian_lighting/3.png" alt="What is Circadian Lighting 2" class="lazy-load enlarge w-40 p-4 m-4 drop-shadow rounded float-right"  />
                   </figure>
                   <p>
                     The accompanying graph shows the absolute sensitivity of the human circadian system to light measured in units of CS, as a function of circadian light, measured in terms of CL<sub>A</sub>. The shaded portions of the graph illustrate typical levels of illumination found outdoors at night, indoors in homes at night, indoors in offices, and outdoors during the daytime. Also shown is the relationship between photopic illuminance for daylight and incandescent spectra at different levels of CL<sub>A</sub> and thus CS.
@@ -951,7 +963,7 @@
               <div class="row">
                 <div class="col text-center">
                   <figure class="text-center mobile-figure">
-                    <img alt="What is Circadian Lighting 1" src="img/background/fundamentals/what_is_circadian_lighting/1.png" class="w-65 p-2 rounded text-center"  />
+                    <img data-src="img/background/fundamentals/what_is_circadian_lighting/1.png" alt="What is Circadian Lighting 1"  class="lazy-load enlarge w-65 p-2 rounded text-center"  />
                     <figcaption class="figcaption text-center mt-3">Adapted from Illuminating Engineering Society, The Lighting Handbook (Tenth Edition, p.7.5), by David L. DiLaura, Kevin W. Houser, Richard G. Mistrick, and Gary R. Steffy, 2011, New York: Illuminating Engineering Society. Copyright 2011 by the Illuminating Engineering Society of North America.</figcaption>
                   </figure>
                 </div>
@@ -965,7 +977,7 @@
                     If a <a data-termID="20" class="term">dynamic CCT</a> system is unavailable or impractical, a <a data-termID="16" class="term">CS schedule</a> can nonetheless be achieved using a fixed CCT and variable light levels to provide a robust light/dark schedule. Since cool-CCT light sources (6500 K or 5000 K) have higher spectral power in the short-wavelengths (‘blue’ light) (450-485 nm), they deliver about twice the amount of CS than low-CCT sources (e.g., 2700 K or 3000 K) for the same photopic light levels at the eye. This means that cool sources require lower output to meet desirable CS targets for circadian lighting, and warmer sources require greater output. But when properly specified, virtually any lighting system—either warm or cool—can deliver appropriate levels of CS to synchronize our biological clocks with the solar day.
                   </p>
                   <figure class="text-center mobile-figure">
-                    <img alt="What is Circadian Lighting 2" src="img/background/fundamentals/what_is_circadian_lighting/2.png" class="w-75 p-4 m-4 drop-shadow rounded"  />
+                    <img data-src="img/background/fundamentals/what_is_circadian_lighting/2.png" alt="What is Circadian Lighting 2"  class="lazy-load enlarge w-75 p-4 m-4 drop-shadow rounded"  />
                   </figure>
                   <p>
                     If overhead lighting cannot provide enough light to the eye to deliver the appropriate CS levels, several other strategies are at your disposal. Personal desk lamps or other luminous devices are a good alternative for delivering extra light, especially in the morning. It is most important to provide a minimum CS level of 0.3 at this time of day to promote circadian entrainment. If available, daylight through a window can also supplement overhead electric lighting to provide effective levels of CS, with some qualifications. But by nature, daylight is a variable source of illuminance and CS, especially in the built environment. Seasonal changes, for example, strongly influence daylight availability. What may be perfect in early May could be unbearable in July—causing occupants to close their window shades to eliminate discomfort glare and thus eliminate any daylight benefit—and woefully inadequate by mid-December. The distance between a window and the occupants’ eyes is also a crucial concern, since daylight levels drop as the distance increases. In fact, light levels can be very low at modest distances of as little as 10–12 feet (3-3.66 m), even on a sunny day. In any case, the bottom line is that a quantitative analysis must be made that accounts for all light in the space, whether from overhead luminaires, desktop devices, or windows.
@@ -1021,9 +1033,9 @@
             <div class="container-fluid mt-4 pr-4">
               <div class="row">
                 <div class="col-md-6">
-                  <figure class="text-center mobile-figure"><img alt="Components of Circadian Design 1" src="img/background/manufacturers_steps/components_of_circadian_design/1.png" class="p-3 w-80 m-4 drop-shadow rounded"  /></figure>
-                  <figure class="text-center mobile-figure"><img alt="Components of Circadian Design 2" src="img/background/manufacturers_steps/components_of_circadian_design/2.png" class="p-3 w-80 m-4 drop-shadow rounded"  /></figure>
-                  <figure class="text-center mobile-figure"><img alt="Components of Circadian Design 3" src="img/background/manufacturers_steps/components_of_circadian_design/3.png" class="p-3 w-80 m-4 drop-shadow rounded"  /></figure>
+                  <figure class="text-center mobile-figure"><img data-src="img/background/manufacturers_steps/components_of_circadian_design/1.png" alt="Components of Circadian Design 1" class="lazy-load enlarge p-3 w-80 m-4 drop-shadow rounded"  /></figure>
+                  <figure class="text-center mobile-figure"><img data-src="img/background/manufacturers_steps/components_of_circadian_design/2.png" alt="Components of Circadian Design 2" class="lazy-load enlarge p-3 w-80 m-4 drop-shadow rounded"  /></figure>
+                  <figure class="text-center mobile-figure"><img data-src="img/background/manufacturers_steps/components_of_circadian_design/3.png" alt="Components of Circadian Design 3" class="lazy-load enlarge p-3 w-80 m-4 drop-shadow rounded"  /></figure>
                 </div>
                 <div class="col-md-6">
                   <p>
@@ -1059,7 +1071,7 @@
               </div>
               <div class="row">
                 <div class="col">
-                  <figure class="text-center mobile-figure"><img alt="Components of Circadian Design 4" src="img/background/manufacturers_steps/components_of_circadian_design/4.png" class="p-0 w-100 m-4 drop-shadow rounded"  /></figure>
+                  <figure class="text-center mobile-figure"><img data-src="img/background/manufacturers_steps/components_of_circadian_design/4.png" alt="Components of Circadian Design 4" class="lazy-load enlarge p-0 w-100 m-4 drop-shadow rounded"  /></figure>
                 </div>
               </div>
             </div>
@@ -1119,13 +1131,13 @@
                   <div class="row">
                     <div class="col-md-6">
                       <figure class="mobile-figure">
-                        <img alt="Information About Room 2" src="img/background/manufacturers_steps/information_about_room/2.jpg" class="w-100 drop-shadow rounded"  />
+                        <img data-src="img/background/manufacturers_steps/information_about_room/2.jpg" alt="Information About Room 2" class="lazy-load enlarge w-100 drop-shadow rounded"  />
                         <figcaption class="figcaption text-center mb-4 mt-2">Illuminance calculation points for known seating positions</figcaption>
                       </figure>
                     </div>
                     <div class="col-md-6">
                       <figure class="mobile-figure">
-                        <img alt="Information About Room 3" src="img/background/manufacturers_steps/information_about_room/3.jpg" class="w-100 drop-shadow rounded"  />
+                        <img data-src="img/background/manufacturers_steps/information_about_room/3.jpg" alt="Information About Room 3" class="lazy-load enlarge w-100 drop-shadow rounded"  />
                         <figcaption class="figcaption text-center mb-4 mt-2"><b></b>Illuminance calculation points for unknown/dynamic seating positions</figcaption>
                       </figure>
                     </div>
@@ -1137,7 +1149,7 @@
                   <h6>Horizontal illuminance (work plane height)</h6>
                 </div>
                 <div class="col-md-9">
-                  <figure class="mobile-figure m-0"><img alt="Information About Room 4" src="img/background/manufacturers_steps/information_about_room/4.png" class="float-right w-35 p-4 m-4 drop-shadow rounded"  /></figure>
+                  <figure class="mobile-figure m-0"><img data-src="img/background/manufacturers_steps/information_about_room/4.png" alt="Information About Room 4" class="lazy-load enlarge float-right w-35 p-4 m-4 drop-shadow rounded"  /></figure>
                   <p>
                     Work plane height is the distance between the floor and the horizontal plane upon which an occupant performs tasks, such as a table, desk, or countertop, typically measured in inches. Since task visibility is a key component in lighting design, it is important to know how much light will be delivered to these surfaces. This design variable is called horizontal illuminance (E<sub>H</sub>).
                   </p>
@@ -1178,11 +1190,11 @@
                   <small>Watch this video to learn more about <a href="https://www.youtube.com/watch?v=Eje6SRx289o&list=PL_X9RKGy9RIZmgzoJwHZsQmpPW6O1fLu3&index=5&t=0s" target="_blank">delivery and control of circadian stimulus</a></small>
                 </div>
                 <div class="col-md-9">
-                  <figure class="mobile-figure"><img alt="Lighting Solution 1" src="img/background/manufacturers_steps/lighting_solution/1.png" class="float-right w-50 p-4 m-4 drop-shadow rounded"  /></figure>
+                  <figure class="mobile-figure"><img data-src="img/background/manufacturers_steps/lighting_solution/1.png" alt="Lighting Solution 1" class="lazy-load enlarge float-right w-50 p-4 m-4 drop-shadow rounded"  /></figure>
                   <p>
                     First, a brief recap. The CS metric developed by researchers at the LRC <a data-refID="61" class="ref"></a><a data-refID="62" class="ref"></a> characterizes a light source’s effectiveness for stimulating the <a data-termID="8" class="term">circadian system</a> as measured by <a data-termID="33" class="term">melatonin</a> suppression resulting from a 1-hour exposure to that source during the early part of the night. A circadian-effective lighting solution is used to promote <a data-termID="5" class="term">circadian entrainment</a> by delivering appropriate levels of CS during the day and in the evening or a <a data-termID="16" class="term">CS schedule</a> that mimics the 24-hour cycle of the solar day in architectural spaces and lighted environments that might be disrupting our <a data-termID="7" class="term">circadian rhythms</a> (see <a class="segue" href="#section-lightingAndtheCircadianSystem">Light and the Circadian System</a> and <a class="segue" href="#section-whatIsCircadianLighting">What is Circadian Lighting?</a>).
                   </p>
-                  <figure class="mobile-figure"><img alt="Lighting Solution 2" src="img/background/manufacturers_steps/lighting_solution/2.png" class="float-left w-50 p-4 m-4 drop-shadow rounded"  /></figure>
+                  <figure class="mobile-figure"><img data-src="img/background/manufacturers_steps/lighting_solution/2.png" alt="Lighting Solution 2" class="lazy-load enlarge float-left w-50 p-4 m-4 drop-shadow rounded"  /></figure>
                   <p>
                     The practical range of design target CS levels for daytime workers lies between a low of &lt; 0.1 in the evenings and highs of about 0.3 or 0.4 during daytime hours, depending on factors that are unique to the space. As a rule of thumb for an effective, energy-efficient design, targeting the highest CS levels (0.3 or 0.4) is desirable for the early part of the day, preferably soon after waking and extending to the middle of the day. As the day progresses, CS values should gradually drop to about 0.2 by late afternoon through very early evening, then taper off to &lt; 0.1 with the onset of darkness and the body’s preparation for sleep. Just as high CS levels are crucial for promoting entrainment and alertness early in the day, low CS levels in the evening and at night are crucial for promoting sleep and restoration of the mind and body for the coming day. Exposure to light at night (LAN) at CS levels 	&gt; 0.1 is widely recognized as a disruptor of sleep and circadian rhythms <a data-refID="67" class="ref"></a>.
                   </p>
@@ -1209,7 +1221,7 @@
                   <p>
                     The lighting schemes and accompanying graphs shown here visualize the appearance of rooms illuminated by a typical range of static-system light sources.
                   </p>
-                  <figure class="mobile-figure"><img src="img/background/manufacturers_steps/lighting_solution/4.png" class="w-100 m-4 rounded"  /></figure>
+                  <figure class="mobile-figure"><img data-src="img/background/manufacturers_steps/lighting_solution/4.png" class="lazy-load enlarge w-100 m-4 rounded"  /></figure>
                   <p>
                     The <a data-termID="44" class="term">SPD</a> graph for the warmer white 2700 K scene on the far left shows a greater contribution from long wavelengths with relatively little short-wavelength content. Conversely, the SPD graph for the cooler white 6500 K scene on the far right shows its greatest contribution from short wavelengths, especially including the peak around 455 nm, with declining content of wavelengths greater than 650 nm. It should be emphasized, however, that one cannot determine the appearance or the circadian-effectiveness of a light source on the basis of its SPD alone.
                   </p>
@@ -1385,20 +1397,20 @@
                   <div class="row text-centered">
                     <div class="col w-20 px-1">
                       <figure>
-                        <img src="img/background/manufacturers_steps/fixtures/1.png" class="w-100"  />
+                        <img data-src="img/background/manufacturers_steps/fixtures/1.png" class="lazy-load enlarge w-100"  />
                       </figure>
                     </div>
                     <div class="col w-20 px-1">
-                      <figure><img src="img/background/manufacturers_steps/fixtures/2.png" class="w-100"  /></figure>
+                      <figure><img data-src="img/background/manufacturers_steps/fixtures/2.png" class="lazy-load enlarge w-100"  /></figure>
                     </div>
                     <div class="col w-20 px-1">
-                      <figure><img src="img/background/manufacturers_steps/fixtures/3.png" class="w-100"  /></figure>
+                      <figure><img data-src="img/background/manufacturers_steps/fixtures/3.png" class="lazy-load enlarge w-100"  /></figure>
                     </div>
                     <div class="col w-20 px-1">
-                      <figure><img src="img/background/manufacturers_steps/fixtures/4.png" class="w-100"  /></figure>
+                      <figure><img data-src="img/background/manufacturers_steps/fixtures/4.png" class="lazy-load enlarge w-100"  /></figure>
                     </div>
                     <div class="col w-20 px-1">
-                      <figure><img src="img/background/manufacturers_steps/fixtures/5.png" class="w-100"  /></figure>
+                      <figure><img data-src="img/background/manufacturers_steps/fixtures/5.png" class="lazy-load enlarge w-100"  /></figure>
                     </div>
                   </div>
                 </div>
@@ -1408,7 +1420,7 @@
                   <h6>Intensity Distribution</h6>
                 </div>
                 <div class="col-md-9">
-                  <figure class="mobile-figure m-0"><img src="img/background/manufacturers_steps/fixtures/6.png" class="float-right w-25 m-4 rounded"  /></figure>
+                  <figure class="mobile-figure m-0"><img data-src="img/background/manufacturers_steps/fixtures/6.png" class="lazy-load enlarge float-right w-25 m-4 rounded"  /></figure>
                   <p>
                     A <a data-termID="31" class="term">luminaire's</a> <a data-termID="28" class="term">intensity distribution</a> plays a significant role in the amount of light that reaches the eye, as illustrated by the “cuts” in the accompanying candela plot. The horizontal cut (shown in red) indicates the shape and intensity of light when viewing the luminaire from above. Typically, the vertical cut (shown in blue) indicates the shape and intensity of light that is distributed into the space. A thinner distribution will direct light to a smaller area, that is suitable for accenting artwork for example. Wider distributions direct light to a wider area.
                   </p>
@@ -1422,7 +1434,7 @@
                   <p>
                     The terms ’direct’ and ‘indirect’ refer to the manner in which light falls on the work plane. Typical <a data-termID="31" class="term">luminaires</a> (i.e., troffer, downlight, recessed linear) are placed in the ceiling and send light downward into the space providing ‘direct’ light. To reduce glare from a direct view of the source, luminaires can be hidden in the architecture or a <a data-termID="22" class="term">luminaire housing</a>. A luminaire that directs light upwards is considered ‘indirect’ lighting. Coves and wall valances can hide upward-facing luminaires and light will bounce off the ceiling or walls to more gently fill the space with light. Some luminaires, such as a direct/indirect linear pendant or wall-mounted valance, can provide both direct (<a data-termID="46" class="term">task</a>) illumination and indirect (<a data-termID="1" class="term">ambient</a>) lighting.
                   </p>
-                  <figure class="mobile-figure"><img src="img/background/manufacturers_steps/fixtures/7.png" class="w-100 p-1 m-4 rounded"  /></figure>
+                  <figure class="mobile-figure"><img data-src="img/background/manufacturers_steps/fixtures/7.png" class="lazy-load enlarge w-100 p-1 m-4 rounded"  /></figure>
                 </div>
               </div>
               <div id="subsection-mountingHeight" class="row subsection-row">
@@ -1714,10 +1726,10 @@
             <div class="container-fluid mt-4 pr-4">
               <div class="row">
                 <div class="col-md-4 text-center">
-                  <figure class="mobile-figure"><img src="img/background/occupants_steps/personal_lighting_techniques/1.png" class="w-100 p-3 mx-4 my-2 drop-shadow rounded"  /></figure>
+                  <figure class="mobile-figure"><img data-src="img/background/occupants_steps/personal_lighting_techniques/1.png" class="lazy-load enlarge w-100 p-3 mx-4 my-2 drop-shadow rounded"  /></figure>
                 </div>
                 <div class="col-md-8 text-center">
-                  <figure class="mobile-figure"><img src="img/background/occupants_steps/personal_lighting_techniques/2.png" class="w-100 p-0 mx-4 my-2 drop-shadow rounded"  /></figure>
+                  <figure class="mobile-figure"><img data-src="img/background/occupants_steps/personal_lighting_techniques/2.png" class="lazy-load enlarge w-100 p-0 mx-4 my-2 drop-shadow rounded"  /></figure>
                 </div>
               </div>
               <div class="row">
@@ -1748,11 +1760,11 @@
                   <small>Watch this video to learn more about <a href="https://www.youtube.com/watch?v=Eje6SRx289o&list=PL_X9RKGy9RIZmgzoJwHZsQmpPW6O1fLu3&index=5&t=0s" target="_blank">delivery and control of circadian stimulus</a></small>
                 </div>
                 <div class="col-md-9">
-                  <figure class="mobile-figure"><img alt="Lighting Solution 1" src="img/background/manufacturers_steps/lighting_solution/1.png" class="float-right w-50 p-4 m-4 drop-shadow rounded"  /></figure>
+                  <figure class="mobile-figure"><img data-src="img/background/manufacturers_steps/lighting_solution/1.png" alt="Lighting Solution 1" class="lazy-load enlarge float-right w-50 p-4 m-4 drop-shadow rounded"  /></figure>
                   <p>
                     First, a brief recap. The CS metric developed by researchers at the LRC <a data-refID="61" class="ref"></a><a data-refID="62" class="ref"></a> characterizes a light source’s effectiveness for stimulating the <a data-termID="8" class="term">circadian system</a> as measured by <a data-termID="33" class="term">melatonin</a> suppression resulting from a 1-hour exposure to that source during the early part of the night. A circadian-effective lighting solution is used to promote <a data-termID="5" class="term">circadian entrainment</a> by delivering appropriate levels of CS during the day and in the evening or a <a data-termID="16" class="term">CS schedule</a> that mimics the 24-hour cycle of the solar day in architectural spaces and lighted environments that might be disrupting our <a data-termID="7" class="term">circadian rhythms</a> (see <a class="segue" href="#section-lightingAndtheCircadianSystem">Light and the Circadian System</a> and <a class="segue" href="#section-whatIsCircadianLighting">What is Circadian Lighting?</a>).
                   </p>
-                  <figure class="mobile-figure"><img alt="Lighting Solution 2" src="img/background/manufacturers_steps/lighting_solution/2.png" class="float-left w-50 p-4 m-4 drop-shadow rounded"  /></figure>
+                  <figure class="mobile-figure"><img data-src="enlarge img/background/manufacturers_steps/lighting_solution/2.png" alt="Lighting Solution 2"  class="lazy-load float-left w-50 p-4 m-4 drop-shadow rounded"  /></figure>
                   <p>
                     The practical range of design target CS levels for daytime workers lies between a low of &lt; 0.1 in the evenings and highs of about 0.3 or 0.4 during daytime hours, depending on factors that are unique to the space. As a rule of thumb for an effective, energy-efficient design, targeting the highest CS levels (0.3 or 0.4) is desirable for the early part of the day, preferably soon after waking and extending to the middle of the day. As the day progresses, CS values should gradually drop to about 0.2 by late afternoon through very early evening, then taper off to &lt; 0.1 with the onset of darkness and the body’s preparation for sleep. Just as high CS levels are crucial for promoting entrainment and alertness early in the day, low CS levels in the evening and at night are crucial for promoting sleep and restoration of the mind and body for the coming day. Exposure to light at night (LAN) at CS levels 	&gt; 0.1 is widely recognized as a disruptor of sleep and circadian rhythms <a data-refID="67" class="ref"></a>.
                   </p>
@@ -1772,7 +1784,7 @@
                   <h6>Horizontal illuminance (work plane height)</h6>
                 </div>
                 <div class="col-md-9">
-                  <figure class="mobile-figure m-0"><img alt="Information About Room 4" src="img/background/manufacturers_steps/information_about_room/4.png" class="float-right w-35 p-4 m-4 drop-shadow rounded"  /></figure>
+                  <figure class="mobile-figure m-0"><img data-src="img/background/manufacturers_steps/information_about_room/4.png" alt="Information About Room 4" class="lazy-load enlarge float-right w-35 p-4 m-4 drop-shadow rounded"  /></figure>
                   <p>
                     Work plane height is the distance between the floor and the horizontal plane upon which an occupant performs tasks, such as a table, desk, or countertop, typically measured in inches. Since task visibility is a key component in lighting design, it is important to know how much light will be delivered to these surfaces. This design variable is called horizontal illuminance (E<sub>H</sub>).
                   </p>
@@ -1800,7 +1812,7 @@
                   <p>
                     The lighting schemes and accompanying graphs shown here visualize the appearance of rooms illuminated by a typical range of static-system light sources.
                   </p>
-                  <figure class="mobile-figure"><img src="img/background/manufacturers_steps/lighting_solution/4.png" class="w-100 m-4 rounded"  /></figure>
+                  <figure class="mobile-figure"><img data-src="img/background/manufacturers_steps/lighting_solution/4.png" class="lazy-load enlarge w-100 m-4 rounded"  /></figure>
                   <p>
                     The <a data-termID="44" class="term">SPD</a> graph for the warmer white 2700 K scene on the far left shows a greater contribution from long wavelengths with relatively little short-wavelength content. Conversely, the SPD graph for the cooler white 6500 K scene on the far right shows its greatest contribution from short wavelengths, especially including the peak around 455 nm, with declining content of wavelengths greater than 650 nm. It should be emphasized, however, that one cannot determine the appearance or the circadian-effectiveness of a light source on the basis of its SPD alone.
                   </p>
@@ -1911,7 +1923,7 @@
                 <div class="col-md-9">
                   <div class="row mb-4">
                     <div class="col-md-6">
-                      <figure class="mobile-figure"><img src="img/background/occupants_steps/personal_light_devices/2.png" class="w-100 mr-2 rounded drop-shadow"  /></figure>
+                      <figure class="mobile-figure"><img data-src="img/background/occupants_steps/personal_light_devices/2.png" class="lazy-load enlarge w-100 mr-2 rounded drop-shadow"  /></figure>
                       <ul class="fa-ul">
                         <li><span class="fa-li"><i class="fas fa-lightbulb"></i></span>Application</li>
                         <li><ul class="fa-ul">
@@ -1933,7 +1945,7 @@
                   </div>
                   <div class="row mb-4">
                     <div class="col-md-6">
-                      <figure class="mobile-figure"><img src="img/background/occupants_steps/personal_light_devices/3.png" class="w-100 mr-2 rounded drop-shadow"  /></figure>
+                      <figure class="mobile-figure"><img data-src="img/background/occupants_steps/personal_light_devices/3.png" class="lazy-load enlarge w-100 mr-2 rounded drop-shadow"  /></figure>
                       <ul class="fa-ul">
                         <li><span class="fa-li"><i class="fas fa-lightbulb"></i></span>Main Materials:</li>
                         <li><ul class="fa-ul">
@@ -1970,7 +1982,7 @@
                   </div>
                   <div class="row mb-4">
                     <div class="col-md-6">
-                      <figure class="mobile-figure"><img src="img/background/occupants_steps/personal_light_devices/4.png" class="w-100 mr-2 rounded drop-shadow"  /></figure>
+                      <figure class="mobile-figure"><img data-src="img/background/occupants_steps/personal_light_devices/4.png" class="lazy-load enlarge w-100 mr-2 rounded drop-shadow"  /></figure>
                       <ul class="fa-ul">
                         <li><span class="fa-li"><i class="fas fa-lightbulb"></i></span>Measuring components</li>
                         <li><ul class="fa-ul">
@@ -1996,7 +2008,7 @@
                 <div class="col-md-9">
                   <div class="row mb-4">
                     <div class="col-md-6">
-                      <figure class="mobile-figure"><img src="img/background/occupants_steps/personal_light_devices/5.png" class="w-100 mr-2 rounded drop-shadow"  /></figure>
+                      <figure class="mobile-figure"><img data-src="img/background/occupants_steps/personal_light_devices/5.png" class="lazy-load enlarge w-100 mr-2 rounded drop-shadow"  /></figure>
                       <ul class="fa-ul">
                         <li><span class="fa-li"><i class="fas fa-lightbulb"></i></span>Application</li>
                         <li><ul class="fa-ul">
@@ -2014,7 +2026,7 @@
                   </div>
                   <div class="row mb-4">
                     <div class="col-md-6">
-                      <figure class="mobile-figure"><img src="img/background/occupants_steps/personal_light_devices/6.png" class="w-100 mr-2 p-4 rounded drop-shadow"  /></figure>
+                      <figure class="mobile-figure"><img data-src="img/background/occupants_steps/personal_light_devices/6.png" class="lazy-load enlarge w-100 mr-2 p-4 rounded drop-shadow"  /></figure>
                       <ul class="fa-ul">
                         <li><span class="fa-li"><i class="fas fa-lightbulb"></i></span>Measuring components</li>
                         <li><ul class="fa-ul">
@@ -2038,7 +2050,7 @@
                 <div class="col-md-9">
                   <div class="row mb-4">
                     <div class="col-md-6">
-                      <figure class="mobile-figure"><img src="img/background/occupants_steps/personal_light_devices/7.png" class="w-100 mr-2 rounded drop-shadow"  /></figure>
+                      <figure class="mobile-figure"><img data-src="img/background/occupants_steps/personal_light_devices/7.png" class="lazy-load enlarge w-100 mr-2 rounded drop-shadow"  /></figure>
                       <ul class="fa-ul">
                         <li><span class="fa-li"><i class="fas fa-lightbulb"></i></span>Application</li>
                         <li><ul class="fa-ul">
@@ -2054,7 +2066,7 @@
                   </div>
                   <div class="row mb-4">
                     <div class="col-md-6">
-                      <figure class="mobile-figure"><img src="img/background/occupants_steps/personal_light_devices/8.png" class="w-100 mr-2 p-4 rounded drop-shadow"  /></figure>
+                      <figure class="mobile-figure"><img data-src="img/background/occupants_steps/personal_light_devices/8.png" class="lazy-load enlarge w-100 mr-2 p-4 rounded drop-shadow"  /></figure>
                       <ul class="fa-ul">
                         <li><span class="fa-li"><i class="fas fa-lightbulb"></i></span>Measuring components</li>
                         <li><ul class="fa-ul">
@@ -2080,7 +2092,7 @@
                 <div class="col-md-9">
                   <div class="row mb-4">
                     <div class="col-md-6">
-                      <figure class="mobile-figure"><img src="img/background/occupants_steps/personal_light_devices/9.png" class="w-100 mr-2 rounded drop-shadow"  /></figure>
+                      <figure class="mobile-figure"><img data-src="img/background/occupants_steps/personal_light_devices/9.png" class="lazy-load enlarge w-100 mr-2 rounded drop-shadow"  /></figure>
                       <ul class="fa-ul">
                         <li><span class="fa-li"><i class="fas fa-lightbulb"></i></span>Application</li>
                         <li><ul class="fa-ul">
@@ -2096,7 +2108,7 @@
                   </div>
                   <div class="row mb-4">
                     <div class="col-md-6">
-                      <figure class="mobile-figure"><img src="img/background/occupants_steps/personal_light_devices/10.png" class="w-100 mr-2 p-4 rounded drop-shadow"  /></figure>
+                      <figure class="mobile-figure"><img data-src="img/background/occupants_steps/personal_light_devices/10.png" class="lazy-load enlarge w-100 mr-2 p-4 rounded drop-shadow"  /></figure>
                       <ul class="fa-ul">
                         <li><span class="fa-li"><i class="fas fa-lightbulb"></i></span>Measuring components</li>
                         <li><ul class="fa-ul">
@@ -2121,7 +2133,7 @@
                 <div class="col-md-9">
                   <div class="row mb-4">
                     <div class="col-md-6">
-                      <figure class="mobile-figure"><img src="img/background/occupants_steps/personal_light_devices/11.png" class="w-100 mr-2 rounded drop-shadow"  /></figure>
+                      <figure class="mobile-figure"><img data-src="img/background/occupants_steps/personal_light_devices/11.png" class="lazy-load enlarge w-100 mr-2 rounded drop-shadow"  /></figure>
                       <ul class="fa-ul">
                         <li><span class="fa-li"><i class="fas fa-lightbulb"></i></span>Nighttime application</li>
                         <li><ul class="fa-ul">
@@ -2199,12 +2211,12 @@
             <div class="container-fluid mt-4 pr-4">
               <div class="row">
                 <div class="col-md-6">
-                  <figure class="mobile-figure w-75 m-auto"><img src="img/background/occupant_needs/offices/1.jpg" class="w-100 p-1 mr-2 rounded drop-shadow"  />
+                  <figure class="mobile-figure w-75 m-auto"><img data-src="img/background/occupant_needs/offices/1.jpg" class="lazy-load enlarge w-100 p-1 mr-2 rounded drop-shadow"  />
                   <figcaption class="figcaption ml-3 mt-3 mb-4">Choose to target 0.4 CS if:<br />- Furniture layout is undefined or dynamic<br />- CCT preference is cooler white light (5000 K - 6500 K)</figcaption>
                   </figure>
                 </div>
                 <div class="col-md-6">
-                  <figure class="mobile-figure w-75 m-auto"><img src="img/background/occupant_needs/offices/2.jpg" class="w-100 p-1 mr-2 rounded drop-shadow"  />
+                  <figure class="mobile-figure w-75 m-auto"><img data-src="img/background/occupant_needs/offices/2.jpg" class="lazy-load enlarge w-100 p-1 mr-2 rounded drop-shadow"  />
                     <figcaption class="figcaption ml-3 mt-3 mb-4">Choose to target 0.3 CS if:<br />- Furniture layout is defined and static<br />- Energy usage is a major concern<br />- There are horizontal illuminance limits</figcaption>
                     </figure>
                 </div>
@@ -2257,18 +2269,18 @@
               <div class="row">
                 <div class="col">
                   <figure class="mobile-figure w-38 m-auto">
-                    <img src="img/background/occupant_needs/offices/5.jpg" class="w-100 p-1 m-2 drop-shadow rounded"  />
+                    <img data-src="img/background/occupant_needs/offices/5.jpg" class="lazy-load enlarge w-100 p-1 m-2 drop-shadow rounded"  />
                     <figcaption class="figcaption ml-3 mt-3 mb-4">Choose to add color if:<br /> - The addition of blue light contributing 30 lux at the eye to reach 0.4 CS is a simple solution if overall light levels don’t want to be too high<br />- The addition of red light has shown to improve alertness and can help overcome pos-lunch dip</figcaption>
                   </figure>
                   <div class="row">
                     <div class="text-center col-md-6 cornell-border">
-                      <figure class="mobile-figure"><img src="img/background/occupant_needs/offices/3.jpg" class="w-75 p-1 m-2 drop-shadow rounded"  /></figure>
+                      <figure class="mobile-figure"><img data-src="img/background/occupant_needs/offices/3.jpg" class="lazy-load enlarge w-75 p-1 m-2 drop-shadow rounded"  /></figure>
                       <p>
                         Circadian entrainment: Blue light add-on.
                       </p>
                     </div>
                     <div class="text-center col-md-6">
-                      <figure class="mobile-figure"><img src="img/background/occupant_needs/offices/4.jpg" class="w-75 p-1 m-2 drop-shadow rounded"  /></figure>
+                      <figure class="mobile-figure"><img data-src="img/background/occupant_needs/offices/4.jpg" class="lazy-load enlarge w-75 p-1 m-2 drop-shadow rounded"  /></figure>
                       <p>
                         <a data-termID="41" class="term">Post-lunch dip</a>: Red light for alertness.
                       </p>
@@ -2336,10 +2348,10 @@
                 <div class="col-md-9">
                   <div class="row">
                     <div class="col text-center">
-                      <img src="img/background/occupant_needs/healthcare/1.jpg" class="d-inline-block w-22 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
-                      <img src="img/background/occupant_needs/healthcare/2.jpg" class="d-inline-block w-22 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
-                      <img src="img/background/occupant_needs/healthcare/3.jpg" class="d-inline-block w-22 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
-                      <img src="img/background/occupant_needs/healthcare/4.jpg" class="d-inline-block w-22 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                      <img data-src="img/background/occupant_needs/healthcare/1.jpg" class="lazy-load enlarge d-inline-block w-22 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                      <img data-src="img/background/occupant_needs/healthcare/2.jpg" class="lazy-load enlarge d-inline-block w-22 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                      <img data-src="img/background/occupant_needs/healthcare/3.jpg" class="lazy-load enlarge d-inline-block w-22 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                      <img data-src="img/background/occupant_needs/healthcare/4.jpg" class="lazy-load enlarge d-inline-block w-22 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
                     </div>
                   </div>
                   <div class="row">
@@ -2370,7 +2382,7 @@
                   <div class="row">
                     <div class="col">
                       <figure class="float-right w-65 px-3 mobile-figure">
-                        <img src="img/background/occupant_needs/healthcare/5.jpg" class="w-100 p-1 drop-shadow rounded"  />
+                        <img data-src="img/background/occupant_needs/healthcare/5.jpg" class="lazy-load enlarge w-100 p-1 drop-shadow rounded"  />
                         <figcaption class="figcaption text-center mt-3">*It is not recommended to wear orange glasses while driving</figcaption>
                       </figure>
                       <h6 class="article-inner-inner-title">CS schedule for hospital lighting</h6>
@@ -2386,9 +2398,9 @@
                         If the existing overhead lighting cannot meet CS targets, nurses can use personal desktop luminaires. The shaded gray rows in the following schedules indicate the recommended target CS levels while not on the job.
                       </p>
                       <div class="text-center">
-                        <img src="img/background/occupant_needs/healthcare/6.jpg" class="d-inline-block w-45 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
-                        <img src="img/background/occupant_needs/healthcare/7.jpg" class="d-inline-block w-45 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
-                        <img src="img/background/occupant_needs/healthcare/8.jpg" class="d-inline-block w-45 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                        <img data-src="img/background/occupant_needs/healthcare/6.jpg" class="lazy-load enlarge d-inline-block w-45 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                        <img data-src="img/background/occupant_needs/healthcare/7.jpg" class="lazy-load enlarge d-inline-block w-45 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                        <img data-src="img/background/occupant_needs/healthcare/8.jpg" class="lazy-load enlarge d-inline-block w-45 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
                         <p  class="figcaption">*EOD = End of day</p>
                       </div>
                     </div>
@@ -2403,9 +2415,9 @@
                         Light goggles are portable, so they can be worn throughout the day.
                       </p>
                       <div class="text-center">
-                        <img src="img/background/occupant_needs/healthcare/9.jpg" class="d-inline-block w-45 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
-                        <img src="img/background/occupant_needs/healthcare/10.jpg" class="d-inline-block w-45 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
-                        <img src="img/background/occupant_needs/healthcare/11.jpg" class="d-inline-block w-45 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                        <img data-src="img/background/occupant_needs/healthcare/9.jpg" class="lazy-load enlarge d-inline-block w-45 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                        <img data-src="img/background/occupant_needs/healthcare/10.jpg" class="lazy-load enlarge d-inline-block w-45 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                        <img data-src="img/background/occupant_needs/healthcare/11.jpg" class="lazy-load enlarge d-inline-block w-45 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
                         <p  class="figcaption">*EOD = End of day</p>
                       </div>
                     </div>
@@ -2414,7 +2426,7 @@
                   <div class="row">
                     <div class="col">
                       <figure class="float-right w-65 px-3 mobile-figure">
-                        <img src="img/background/occupant_needs/healthcare/12.jpg" class="w-100 p-1 drop-shadow rounded"  />
+                        <img data-src="img/background/occupant_needs/healthcare/12.jpg" class="lazy-load enlarge w-100 p-1 drop-shadow rounded"  />
                         <figcaption class="figcaption text-center mt-3">*It is not recommended to wear orange glasses while driving</figcaption>
                       </figure>
                       <h6 class="article-inner-inner-title">CS schedule for hospital lighting</h6>
@@ -2430,8 +2442,8 @@
                         If the existing overhead lighting cannot meet CS targets, nurses can use desktop luminaires and follow the provided daily schedule associated with their shift. The shaded gray rows in the schedule indicate the recommended CS levels when not working. Note that it is not recommended to wear orange tinted-glasses while driving.
                       </p>
                       <div class="text-center">
-                        <img src="img/background/occupant_needs/healthcare/13.jpg" class="d-inline-block w-45 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
-                        <img src="img/background/occupant_needs/healthcare/14.jpg" class="d-inline-block w-45 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                        <img data-src="img/background/occupant_needs/healthcare/13.jpg" class="lazy-load enlarge d-inline-block w-45 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                        <img data-src="img/background/occupant_needs/healthcare/14.jpg" class="lazy-load enlarge d-inline-block w-45 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
                         <p  class="figcaption">*EOD = End of day</p>
                       </div>
                     </div>
@@ -2443,8 +2455,8 @@
                         If the existing overhead lighting cannot meet CS targets, nurses can use light goggles. The shaded gray rows in the following schedules indicate the recommended target CS levels while not on the job. Light goggles are portable, so they can be worn throughout the day.
                       </p>
                       <div class="text-center">
-                        <img src="img/background/occupant_needs/healthcare/15.jpg" class="d-inline-block w-45 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
-                        <img src="img/background/occupant_needs/healthcare/16.jpg" class="d-inline-block w-45 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                        <img data-src="img/background/occupant_needs/healthcare/15.jpg" class="lazy-load enlarge d-inline-block w-45 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                        <img data-src="img/background/occupant_needs/healthcare/16.jpg" class="lazy-load enlarge d-inline-block w-45 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
                         <p  class="figcaption">*EOD = End of day</p>
                       </div>
                     </div>
@@ -2457,9 +2469,9 @@
                 </div>
                 <div class="col-md-9">
                   <div class="text-center">
-                    <img src="img/background/occupant_needs/healthcare/17.jpg" class="d-inline-block w-30 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
-                    <img src="img/background/occupant_needs/healthcare/18.jpg" class="d-inline-block w-30 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
-                    <img src="img/background/occupant_needs/healthcare/19.jpg" class="d-inline-block w-30 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                    <img data-src="img/background/occupant_needs/healthcare/17.jpg" class="lazy-load lazy-load lazy-load enlarge d-inline-block w-30 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                    <img data-src="img/background/occupant_needs/healthcare/18.jpg" class="lazy-load lazy-load enlarge d-inline-block w-30 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                    <img data-src="img/background/occupant_needs/healthcare/19.jpg" class="lazy-load enlarge d-inline-block w-30 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
                   </div>
                   <p>
                     Patient room lighting that provides a robust 24-hour light–dark pattern can have profound positive effects on patient recovery. Lighting for patient rooms should be designed to promote <a data-termID="5" class="term">circadian entrainment</a>, providing high CS during the day and low CS in the evening, in order to increase patients’ sleep times and improve their sleep quality. Nighttime lighting should be conducive to patient sleep, while also accommodating visiting families and permitting caregivers to perform their tasks. Circadian lighting schemes have been shown to be effective for improving sleep in hospital ICU patients <a data-refID="84" class="ref"></a>.
@@ -2467,7 +2479,7 @@
                   <p>
                     Due to the nature of the population, their temporary removal from the familiar surroundings of home, and the dynamic nature of the hospital environment, circadian disruption is not uncommon among hospital patients. The patient’s health conditions, such as psychiatric and neurodegenerative diseases, can also lead to circadian disruption, as can critical illness generally <a data-refID="85" class="ref"></a>. Environmental influences such as <a data-termID="1" class="term">ambient lighting</a> in patient rooms can also disrupt the <a data-termID="8" class="term">circadian system</a>. A study conducted in three intensive care units found that patients typically sleep for only about 6 hours over a given 24-hour period, with only half of that sleep time occurring at night <a data-refID="86" class="ref"></a>. Improving and increasing sleep during the night by promoting entrainment of a patient’s <a data-termID="7" class="term">circadian rhythm</a> to a regular light–dark cycle can lead to improved health outcomes <a data-refID="84" class="ref"></a>.
                   </p>
-                  <figure class="mobile-figure"><img src="img/background/occupant_needs/healthcare/20.jpg" class="float-right w-35 p-1 m-2 drop-shadow rounded"  /></figure>
+                  <figure class="mobile-figure"><img data-src="img/background/occupant_needs/healthcare/20.jpg" class="lazy-load enlarge float-right w-35 p-1 m-2 drop-shadow rounded"  /></figure>
                   <p>
                     The recommended lighting pattern for patients over the course of a 12-hour day begins with a CS of 0.3 in the morning for at least 3 hours, drops to a CS of 0.2 for the mid-afternoon, and then drops once again to a CS of 0.1 in the late afternoon through the evening until bedtime. After bedtime, room lighting should be turned off and nightlights should be added to permit safe navigation. This schedule can be accomplished using lighting designs that employ either static or tunable CCT systems. (For an important note on CCT, go to <a class="segue" href="#subsection-desiredCCT">Circadian Lighting Solutions, Desired CCT</a>.)
                   </p>
@@ -2482,10 +2494,10 @@
                 </div>
                 <div class="col-md-9">
                   <div class="text-center">
-                    <img src="img/background/occupant_needs/healthcare/21.jpg" class="d-inline-block w-22 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
-                    <img src="img/background/occupant_needs/healthcare/22.jpg" class="d-inline-block w-22 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
-                    <img src="img/background/occupant_needs/healthcare/23.jpg" class="d-inline-block w-22 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
-                    <img src="img/background/occupant_needs/healthcare/24.jpg" class="d-inline-block w-22 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                    <img data-src="img/background/occupant_needs/healthcare/21.jpg" class="lazy-load enlarge d-inline-block w-22 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                    <img data-src="img/background/occupant_needs/healthcare/22.jpg" class="lazy-load enlarge d-inline-block w-22 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                    <img data-src="img/background/occupant_needs/healthcare/23.jpg" class="lazy-load enlarge d-inline-block w-22 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
+                    <img data-src="img/background/occupant_needs/healthcare/24.jpg" class="lazy-load enlarge d-inline-block w-22 p-1 m-2 mb-4 drop-shadow rounded mobile-img"  />
                   </div>
                   <p>
                     Research has shown that implementing a cyclical, 24-hour cycled lighting schedule results in positive outcomes for infants of 32 weeks postmenstrual age (PMA) and older. These schedules have been associated with improved sleep after discharge, advanced oral feeding readiness, faster weight gain, reduced time using a ventilator, and enhanced motor coordination compared to infants who have been exposed to continuously lit, bright, or dim environments <a data-refID="71" class="ref"></a><a data-refID="87" class="ref"></a><a data-refID="88" class="ref"></a><a data-refID="89" class="ref"></a><a data-refID="90" class="ref"></a><a data-refID="91" class="ref"></a>.
@@ -2499,7 +2511,7 @@
                   <p>
                     The recommended lighting pattern for infants (no younger than 32 weeks PMA) over the course of a 24-hour day begins with a CS of 0.3 in the morning for at least 2 hours, 0.2 until 5:00 PM, and then drops to a CS of 0.1 for the rest of the day. Darkness is recommended at night. This schedule can be accomplished using different lighting designs employing either static or tunable CCT systems. (For an important note on CCT, go to <a class="segue" href="#subsection-desiredCCT">Circadian Lighting Solutions, Desired CCT.</a>)
                   </p>
-                  <figure class="mobile-figure"><img src="img/background/occupant_needs/healthcare/25.jpg" class="float-right w-35 p-1 m-2 drop-shadow rounded"  /></figure>
+                  <figure class="mobile-figure"><img data-src="img/background/occupant_needs/healthcare/25.jpg" class="lazy-load enlarge float-right w-35 p-1 m-2 drop-shadow rounded"  /></figure>
                   <p>
                     A static lighting system with a single CCT of 4000 K, for example, would require an average <a data-termID="26" class="term">illuminance</a> of 400 lux on the incubator to achieve the targeted CS of 0.3. Employing a <a data-termID="11" class="term">color tunable system</a>, on the other hand, affords specifiers and designers with far more flexibility. A 5000 K light source providing an E<sub>V</sub> of 300 lux will deliver a CS of 0.3, whereas a shorter wavelength (e.g., 460 nm) light source would require an average E<sub>V</sub> of only 50 lux to achieve a CS of 0.4 and thereby prevent potentially harmful retinal exposures
                   </p>
@@ -2519,7 +2531,7 @@
                 </div>
                 <div class="col-md-9">
                   <h6 class="article-inner-inner-title">Circadian entrainment:</h6>
-                  <figure class="mobile-figure"><img src="img/background/occupant_needs/healthcare/26.png" class="float-right w-65 p-4 m-4 drop-shadow rounded"  /></figure>
+                  <figure class="mobile-figure"><img data-src="img/background/occupant_needs/healthcare/26.png" class="lazy-load enlarge float-right w-65 p-4 m-4 drop-shadow rounded"  /></figure>
                   <p>
                     Lighting for the neonatal intensive care unit (NICU) must address three distinct populations: newborns, healthcare staff, and the newborns’ visiting families. The needs of the infant patients, of course, are the highest priority. Since a typical NICU operates 24 hours per day, seven days per week, its lighting design needs to address the visual performance requirements of health care workers at all times of day and night while also attending to the health and well-being of all individuals. Once infants reach 32 weeks postmenstrual age (PMA), they can benefit from receiving at least 2 hours of high <a data-termID="14" class="term">circadian stimulus (CS)</a> in the morning to promote <a data-termID="5" class="term">circadian entrainment</a> to the solar day. Balancing these different needs require zones of light for each population to provide the proper amount, spectra, and duration of light exposure at the appropriate time of day or night. For the NICU, it is recommended that illuminance be measured both for the infants in incubators and the caregivers in their workspaces (see diagrams).
                   </p>
@@ -2533,7 +2545,7 @@
                   <p>
                     The IES recommends the following average E<sub>H</sub> levels for the task plane (i.e., 2’-6” (0.76 m) above finished floor [AFF]) in the NICU <a data-refID="94" class="ref"></a><a data-refID="95" class="ref"></a>.
                   </p>
-                  <figure class="mobile-figure"><img src="img/background/occupant_needs/healthcare/27.png" class="float-right w-40 m-4 rounded"  /></figure>
+                  <figure class="mobile-figure"><img data-src="img/background/occupant_needs/healthcare/27.png" class="lazy-load enlarge float-right w-40 m-4 rounded"  /></figure>
                   <p>
                     <b>Infant areas (Zone 1):</b> Two E<sub>H</sub> levels are recommended, depending on caregiver activity. A light level of 300 lux is recommended during normal observation, and 500 lux is recommended during examination periods.
                   </p>
@@ -2562,7 +2574,7 @@
                   <h6>Patient orientation in bed</h6>
                 </div>
                 <div class="col-md-9">
-                  <figure class="mobile-figure"><img src="img/background/occupant_needs/healthcare/28.png" class="float-right w-40 m-4 rounded"  /></figure>
+                  <figure class="mobile-figure"><img data-src="img/background/occupant_needs/healthcare/28.png" class="lazy-load enlarge float-right w-40 m-4 rounded"  /></figure>
                   <p>
                     Because hospital beds can be angled to position patients upright (viewing the wall and windows) or fully reclined (viewing the ceiling), room lighting should accommodate both patient orientations. It is thus very important that lighting systems can provide appropriate CS levels without glare of direct views of luminaires in both positions. When specifying CS for patient rooms, it is recommended that <a data-termID="26" class="term">illuminance</a> be measured at the patients’ eyes while sitting up at a 45° tilt and while laying down looking straight up at the ceiling (see diagrams at right).
                   </p>
@@ -2588,7 +2600,7 @@
                   <p>
                     Nighttime lighting is also an important design consideration. Being in an unfamiliar place can be disorienting, even for healthy people, especially at night. Incorporating dim night lighting that is triggered when the patient gets up to use the bathroom, for example, can reduce the risk of falls in patient rooms. Studies have shown that providing enhanced horizontal and vertical lighting, compared to conventional wall plug night lights, improves balance in older adults when transitioning from a sitting to a standing position <a data-refID="98" class="ref"></a>. For patient rooms, such directional lighting could be installed under beds to provide horizontal lighting cues to assist patients with nighttime navigation. The IES recommends E<sub>H</sub> levels on the floor of 2 lux for night lights. This lighting system can be controlled by a photosensor so that dim light is available throughout the night <a data-refID="94" class="ref"></a><a data-refID="95" class="ref"></a>.
                   </p>
-                  <figure class="mobile-figure"><img src="img/background/occupant_needs/healthcare/29.png" class="float-right w-40 m-4 rounded"  /></figure>
+                  <figure class="mobile-figure"><img data-src="img/background/occupant_needs/healthcare/29.png" class="lazy-load enlarge float-right w-40 m-4 rounded"  /></figure>
                   <p>
                     The IES recommends the following average E<sub>H</sub> levels for patient rooms <a data-refID="94" class="ref"></a><a data-refID="95" class="ref"></a>.
                   </p>
@@ -2683,13 +2695,13 @@
                   <div class="row">
                     <div class="col-md-6">
                         <figure class="mobile-figure w-75 m-auto">
-                          <img src="img/background/occupant_needs/senior_care/1.jpg" class="w-100 p-1 m-2 drop-shadow rounded"  />
+                          <img data-src="img/background/occupant_needs/senior_care/1.jpg" class="lazy-load enlarge w-100 p-1 m-2 drop-shadow rounded"  />
                           <figcaption class="figcaption ml-3 mt-3 mb-4">Choose to target 0.3 CS:<br />- Furniture layout is defined and unchanging<br />- Energy usage is a major concern</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-6">
                         <figure class="mobile-figure w-75 m-auto">
-                          <img src="img/background/occupant_needs/senior_care/2.jpg" class="w-100 p-1 m-2 drop-shadow rounded"  />
+                          <img data-src="img/background/occupant_needs/senior_care/2.jpg" class="lazy-load enlarge w-100 p-1 m-2 drop-shadow rounded"  />
                           <figcaption class="figcaption ml-3 mt-3 mb-4">Choose to target 0.4 CS:<br />- With changes to the aging eye causing a reduction of retinal illumination by up to two-thirds, targeting a higher CS will better assure that an occupant receives at least 0.3 CS</figcaption>
                         </figure>
                     </div>
@@ -2707,7 +2719,7 @@
                     Some other lighting principles for the aging visual system that can help architects, specifiers, builders, facility managers, and homeowners light interior spaces include:
                   </p>
                   <h4 class="text-center">Increase Illuminance on Task Areas</h4>
-                  <figure class="mobile-figure"><img src="img/background/occupant_needs/senior_care/3.jpg" class="float-right w-40 m-4 rounded"  /></figure>
+                  <figure class="mobile-figure"><img data-src="img/background/occupant_needs/senior_care/3.jpg" class="lazy-load enlarge float-right w-40 m-4 rounded"  /></figure>
                   <p>
                     Use concentrated light to increase <a data-termID="26" class="term">illuminance</a> levels on the task or work plane. The amount of light required to discern fine details (e.g., reading text with a small font size) or low-contrast objects (e.g., black thread on blue cloth) is as much as 10 times greater than that required to see most architectural features (e.g., doors, cabinets, furniture). Light levels in visual task areas can be increased by placing adjustable <a data-termID="31" class="term">luminaires</a> close to the task or by selecting lamps with greater lumen outputs. (Look for the lumen rating on the lamp’s package, not its wattage, and be careful not to exceed the luminaire’s wattage rating). <a data-termID="1" class="term">Ambient light</a> levels can be increased by designing the space’s surface finishes to be light in color. Lighter colored walls, floors, and ceilings help to minimize shadows and increase overall light levels in the living environment. Generally, luminaires should be positioned or installed wherever visibility is important (e.g., on the bottom of kitchen cabinets, above the countertop, above bathroom and kitchen sinks, shower ceilings, closets, laundry spaces; etc.).
                   </p>
@@ -2754,7 +2766,7 @@
                   <h6>Lighting for Stability</h6>
                 </div>
                 <div class="col-md-9">
-                  <figure class="mobile-figure"><img src="img/background/occupant_needs/senior_care/8.png" class="float-right w-30 mx-4 rounded"  /></figure>
+                  <figure class="mobile-figure"><img data-src="img/background/occupant_needs/senior_care/8.png" class="lazy-load enlarge float-right w-30 mx-4 rounded"  /></figure>
                   <p>
                     In addition to its impacts on our <a data-termID="8" class="term">circadian system</a>, light also reveals the numerous intersecting spatial planes that make up the visual environment <a data-refID="108" class="ref"></a>. Architectural features can be used to enhance and/or accentuate information about the environment and improve navigation through the space <a data-refID="109" class="ref"></a>. Light reveals visual information by providing a spatial reference for self-positioning and the location of obstacles within a person’s surroundings. The simple removal of visual cues by closing the eyes, for example, has been shown to result in increased body sway <a data-refID="108" class="ref"></a><a data-refID="110" class="ref"></a>.
                   </p>
@@ -2786,7 +2798,7 @@
                   </div>
                   <div class="row">
                     <div class="col">
-                      <figure class="mobile-figure text-center"><img src="img/background/occupant_needs/senior_care/9.png" class="w-40 rounded"  /></figure>
+                      <figure class="mobile-figure text-center"><img data-src="img/background/occupant_needs/senior_care/9.png" class="lazy-load enlarge w-40 rounded"  /></figure>
                     </div>
                   </div>
                 </div>
@@ -2804,7 +2816,7 @@
                       <div>
                         <h6 class="article-inner-title-not-centered mt-5 mb-3">Cataracts</h6>
                         <figure class="mobile-figure float-right w-50 mx-4 figtable">
-                          <img src="img/background/occupant_needs/senior_care/4.png" class="w-100 rounded"  />
+                          <img data-src="img/background/occupant_needs/senior_care/4.png" class="lazy-load enlarge w-100 rounded"  />
                         </figure>
                         <p>
                           The development of opacities in the crystalline lens. The loss of transparency and yellowing of the lens diminishes <a data-termID="49" class="term">visual acuity</a> and the capacity to discriminate colors. This also increases light scattering, and as a result, sensitivity to glare.
@@ -2812,14 +2824,14 @@
                       </div>
                       <div>
                         <h6 class="article-inner-title-not-centered mt-5 mb-3">Glaucoma</h6>
-                        <figure class="mobile-figure"><img src="img/background/occupant_needs/senior_care/5.png" class="float-right w-50 mx-4 rounded"  /></figure>
+                        <figure class="mobile-figure"><img data-src="img/background/occupant_needs/senior_care/5.png" class="lazy-load enlarge float-right w-50 mx-4 rounded"  /></figure>
                         <p>
                           High levels of intraocular pressure that reduce blood flow to the eye and eventually damage the retinal neurons. This disease causes vision loss, especially <a data-termID="37" class="term">peripheral vision</a>, and compromises night vision, contrast sensitivity, and color vision.
                         </p>
                       </div>
                       <div>
                         <h6 class="article-inner-title-not-centered mt-5 mb-3">Diabetic Retinopathy</h6>
-                        <figure class="mobile-figure"><img src="img/background/occupant_needs/senior_care/7.png" class="float-right w-50 mx-4 rounded"  /></figure>
+                        <figure class="mobile-figure"><img data-src="img/background/occupant_needs/senior_care/7.png" class="lazy-load enlarge float-right w-50 mx-4 rounded"  /></figure>
                         <p>
                           Diabetes-related damage to the retinal blood vessels, which can lead to floaters, blurred or fluctuating vision, impaired color vision, dark or empty areas in the visual field, and vision loss. This disease causes blurred vision, fluctuating vision (periodic visual irregularities), impaired color vision, dark or empty areas in vision, and total vision loss.
                         </p>
@@ -2827,7 +2839,7 @@
                       <div class="d-inline-block">
                         <h6 class="article-inner-title-not-centered mt-5 mb-3">Macular Degeneration - Loss in central vision</h6>
                         <figure class="mobile-figure">
-                          <img src="img/background/occupant_needs/senior_care/6.png" class="float-right w-50 mx-4 rounded"  />
+                          <img data-src="img/background/occupant_needs/senior_care/6.png" class="lazy-load enlarge float-right w-50 mx-4 rounded"  />
                         </figure>
                         <p>
                           Loss in <a data-termID="52" class="term">central vision</a> that affects sharp central vision, diminishing the ability to distinguish fine detail.
@@ -2931,7 +2943,7 @@
                 <div class="col-md-9">
                   <div class="row">
                     <div class="col">
-                      <figure class="mobile-figure"><img src="img/background/occupant_needs/school/1.jpg" class="float-left w-50 mx-4 rounded"  /></figure>
+                      <figure class="mobile-figure"><img data-src="img/background/occupant_needs/school/1.jpg" class="lazy-load enlarge float-left w-50 mx-4 rounded"  /></figure>
                       <p>
                         Pubertal development is associated with accumulating delay in the preferred timing of sleep and waking that contributes to significant reductions in total sleep time during adolescence <a data-refID="129" class="ref"></a><a data-refID="135" class="ref"></a><a data-refID="136" class="ref"></a><a data-refID="137" class="ref"></a><a data-refID="138" class="ref"></a><a data-refID="139" class="ref"></a><a data-refID="140" class="ref"></a><a data-refID="141" class="ref"></a><a data-refID="142" class="ref"></a><a data-refID="143" class="ref"></a>. A report by the National Sleep Foundation states that, even though adolescents require as much sleep as they did as pre-adolescents (about 8.5 to 9.25 hours per night), they tend to fall asleep later (about 11:00 PM), averaging only 7 hours, 42 minutes of sleep per night at age 13. Total sleep time decreases even further to around 7 hours per night by the time this population reaches the age of 19 <a data-refID="144" class="ref"></a>.
                       </p>
@@ -2958,10 +2970,10 @@
                       </p>
                       <div class="row">
                         <div class="col-md-6">
-                          <figure class="mobile-figure"><img src="img/background/occupant_needs/school/3.jpg" class="w-90 mx-4 rounded"  /></figure>
+                          <figure class="mobile-figure"><img data-src="img/background/occupant_needs/school/3.jpg" class="lazy-load enlarge w-90 mx-4 rounded"  /></figure>
                         </div>
                         <div class="col-md-6">
-                          <figure class="mobile-figure"><img src="img/background/occupant_needs/school/2.jpg" class="w-90 mx-4 rounded"  /></figure>
+                          <figure class="mobile-figure"><img data-src="img/background/occupant_needs/school/2.jpg" class="lazy-load enlarge w-90 mx-4 rounded"  /></figure>
                         </div>
                       </div>
                       <div class="row">
@@ -2982,7 +2994,7 @@
                 <div class="col-md-9">
                   <div class="row">
                     <div class="col">
-                      <figure class="mobile-figure"><img src="img/background/occupant_needs/school/4.jpg" class="float-left w-50 mx-4 rounded"  /></figure>
+                      <figure class="mobile-figure"><img data-src="img/background/occupant_needs/school/4.jpg" class="lazy-load enlarge float-left w-50 mx-4 rounded"  /></figure>
                       <p>
                         The adolescent pattern of late sleep onset and late waking continues through students’ college years <a data-refID="165" class="ref"></a><a data-refID="166" class="ref"></a><a data-refID="167" class="ref"></a><a data-refID="168" class="ref"></a><a data-refID="169" class="ref"></a>. One study indicated that 73% of college students reported at least occasional sleep problems <a data-refID="166" class="ref"></a>, while another showed that more than 48% of students live with sleep debt. Academic-related stress, social habits, and educational demands contribute to these problems. One large-scale study of college students found that about 60% report poor sleep quality <a data-refID="170" class="ref"></a>, and another study reported college students’ difficulty falling asleep (15%), frequent nighttime waking (26%), and meeting the diagnostic criteria for insomnia (8%) <a data-refID="171" class="ref"></a>.
                       </p>
@@ -3002,10 +3014,10 @@
                   </div>
                   <div class="row">
                     <div class="col-md-6">
-                      <figure class="mobile-figure"><img src="img/background/occupant_needs/school/5.jpg" class="w-90 mx-4 rounded"  /></figure>
+                      <figure class="mobile-figure"><img data-src="img/background/occupant_needs/school/5.jpg" class="lazy-load enlarge w-90 mx-4 rounded"  /></figure>
                     </div>
                     <div class="col-md-6">
-                      <figure class="mobile-figure"><img src="img/background/occupant_needs/school/6.jpg" class="w-90 mx-4 rounded"  /></figure>
+                      <figure class="mobile-figure"><img data-src="img/background/occupant_needs/school/6.jpg" class="lazy-load enlarge w-90 mx-4 rounded"  /></figure>
                     </div>
                   </div>
                   <div class="row">
@@ -3024,7 +3036,7 @@
                 <div class="col-md-9">
                   <div class="row">
                     <div class="col">
-                      <figure class="mobile-figure"><img src="img/background/occupant_needs/school/7.jpg" class="float-left w-50 mx-4 rounded"  /></figure>
+                      <figure class="mobile-figure"><img data-src="img/background/occupant_needs/school/7.jpg" class="lazy-load enlarge float-left w-50 mx-4 rounded"  /></figure>
                       <p>
                         Special education classrooms provide specialized learning environments for students with learning difficulties or physical disabilities. The most common diagnoses among students served under the Individuals with Disabilities Education Act (IDEA) include (in order of prevalence): specific learning disabilities; speech/language impairments; health impairments (e.g., heart condition, asthma, epilepsy, leukemia, diabetes); autism; developmental delay; intellectual disability; emotional disturbance; multiple disabilities; hearing impairment; and orthopedic impairment <a data-refID="176" class="ref"></a>. Students diagnosed with these conditions tend to be more sensitive to stimulus in the lighted environment and are susceptible to overstimulation from bright and/or flickering light <a data-refID="177" class="ref"></a>, which can lead to repetitive behavior and agitation, tics, and epileptic episodes <a data-refID="178" class="ref"></a>.
                       </p>
@@ -3061,7 +3073,7 @@
                   </div>
                   <div class="row">
                     <div class="col">
-                      <figure class="mobile-figure text-center"><img src="img/background/occupant_needs/school/8.jpg" class="w-40 mx-4 rounded"  /></figure>
+                      <figure class="mobile-figure text-center"><img data-src="img/background/occupant_needs/school/8.jpg" class="lazy-load enlarge w-40 mx-4 rounded"  /></figure>
                     </div>
                   </div>
                   <div class="row">
@@ -3114,7 +3126,7 @@
               <div class="row">
                 <div class="col">
                   <figure class="text-center w-100 mobile-figure">
-                    <img class="w-65 m-4" src="lrc_rpi.png" />
+                    <img data-src="lrc_rpi.png" class="lazy-load w-65 m-4"  />
                   </figure>
                 </div>
               </div>
@@ -3183,7 +3195,7 @@
             <div class="container-fluid mt-4 pr-4">
               <div class="row mb-4">
                 <div class="col-md-3">
-                  <img class="w-100 drop-shadow" src="img/background/additional_information/downloads/Light and the Circadian System.jpg" />
+                  <img data-src="img/background/additional_information/downloads/Light and the Circadian System.jpg" class="lazy-load enlarge w-100 drop-shadow"  />
                 </div>
                 <div class="col-md-6">
                   <h5 class="my-3">Light and the Circadian System</h5>
@@ -3197,7 +3209,7 @@
               </div>
               <div class="row mb-4">
                 <div class="col-md-3">
-                  <img class="w-100 drop-shadow" src="img/background/additional_information/downloads/More About Lighting.jpg" />
+                  <img data-src="img/background/additional_information/downloads/More About Lighting.jpg" class="lazy-load enlarge w-100 drop-shadow"  />
                 </div>
                 <div class="col-md-6">
                   <h5 class="my-3">More about Lighting</h5>
@@ -3211,7 +3223,7 @@
               </div>
               <div class="row mb-4">
                 <div class="col-md-3">
-                  <img class="w-100 drop-shadow" src="img/background/additional_information/downloads/Circadian-Effective Lighting Steps for Manufacturers and Designers.jpg" />
+                  <img data-src="img/background/additional_information/downloads/Circadian-Effective Lighting Steps for Manufacturers and Designers.jpg" class="lazy-load enlarge w-100 drop-shadow"  />
                 </div>
                 <div class="col-md-6">
                   <h5 class="my-3">Circadian Lighting for Designers and Manufacturers</h5>
@@ -3225,7 +3237,7 @@
               </div>
               <div class="row mb-4">
                 <div class="col-md-3">
-                  <img class="w-100 drop-shadow" src="img/background/additional_information/downloads/Lighting for Offices.jpg" />
+                  <img data-src="img/background/additional_information/downloads/Lighting for Offices.jpg" class="lazy-load enlarge w-100 drop-shadow"  />
                 </div>
                 <div class="col-md-6">
                   <h5 class="my-3">Lighting for Offices</h5>
@@ -3239,7 +3251,7 @@
               </div>
               <div class="row mb-4">
                 <div class="col-md-3">
-                  <img class="w-100 drop-shadow" src="img/background/additional_information/downloads/Lighting for Healthcare.jpg" />
+                  <img data-src="img/background/additional_information/downloads/Lighting for Healthcare.jpg" class="lazy-load enlarge w-100 drop-shadow"  />
                 </div>
                 <div class="col-md-6">
                   <h5 class="my-3">Lighting for Healthcare</h5>
@@ -3253,7 +3265,7 @@
               </div>
               <div class="row mb-4">
                 <div class="col-md-3">
-                  <img class="w-100 drop-shadow" src="img/background/additional_information/downloads/Lighting for Senior Care.jpg" />
+                  <img data-src="img/background/additional_information/downloads/Lighting for Senior Care.jpg" class="lazy-load enlarge w-100 drop-shadow"  />
                 </div>
                 <div class="col-md-6">
                   <h5 class="my-3">Lighting for Senior Care</h5>
@@ -3267,7 +3279,7 @@
               </div>
               <div class="row mb-4">
                 <div class="col-md-3">
-                  <img class="w-100 drop-shadow" src="img/background/additional_information/downloads/Lighting for Schools.jpg" />
+                  <img data-src="img/background/additional_information/downloads/Lighting for Schools.jpg" class="lazy-load enlarge w-100 drop-shadow"  />
                 </div>
                 <div class="col-md-6">
                   <h5 class="my-3">Lighting for Schools</h5>
@@ -3317,7 +3329,7 @@
 
               <div class="row mb-5">
                 <div class="col-md-3">
-                  <img class="w-100" src="img/background/additional_information/resources/lrc.png" />
+                  <img data-src="img/background/additional_information/resources/lrc.png" class="lazy-load enlarge w-100"  />
                 </div>
                 <div class="col-md-9">
                   <p class="resource">
@@ -3328,7 +3340,7 @@
 
               <div class="row mb-5">
                 <div class="col-md-3">
-                  <img class="w-100" src="img/background/additional_information/resources/ul.png" />
+                  <img data-src="img/background/additional_information/resources/ul.png" class="lazy-load enlarge w-100"  />
                 </div>
                 <div class="col-md-9">
                   <p class="resource">
@@ -3339,7 +3351,7 @@
 
               <div class="row mb-5">
                 <div class="col-md-3">
-                  <img class="w-100" src="img/background/additional_information/resources/lrc.png" />
+                  <img data-src="img/background/additional_information/resources/lrc.png" class="lazy-load enlarge w-100"  />
                 </div>
                 <div class="col-md-9">
                   <p class="resource">
@@ -3350,7 +3362,7 @@
 
               <div class="row mb-5">
                 <div class="col-md-3">
-                  <img class="w-100" src="img/background/additional_information/resources/lrt.jpg" />
+                  <img data-src="img/background/additional_information/resources/lrt.jpg" class="lazy-load enlarge w-100"  />
                 </div>
                 <div class="col-md-9">
                   <p class="resource">
@@ -3361,7 +3373,7 @@
 
               <div class="row mb-5">
                 <div class="col-md-3">
-                  <img class="w-100" src="img/background/additional_information/resources/lda.png" />
+                  <img data-src="img/background/additional_information/resources/lda.png" class="lazy-load enlarge w-100"  />
                 </div>
                 <div class="col-md-9">
                   <p class="resource">
@@ -3372,7 +3384,7 @@
 
               <div class="row mb-5">
                 <div class="col-md-3">
-                  <img class="w-100" src="img/background/additional_information/resources/al.png" />
+                  <img data-src="img/background/additional_information/resources/al.png" class="lazy-load enlarge w-100"  />
                 </div>
                 <div class="col-md-9">
                   <p class="resource">
@@ -3383,7 +3395,7 @@
 
               <div class="row mb-5">
                 <div class="col-md-3">
-                  <img class="w-100" src="img/background/additional_information/resources/tedmed.png" />
+                  <img data-src="img/background/additional_information/resources/tedmed.png" class="lazy-load enlarge w-100"  />
                 </div>
                 <div class="col-md-9">
                   <p class="resource">
@@ -3394,7 +3406,7 @@
 
               <div class="row mb-5">
                 <div class="col-md-3">
-                  <img class="w-100" src="img/background/additional_information/resources/nih.png" />
+                  <img data-src="img/background/additional_information/resources/nih.png" class="lazy-load enlarge w-100"  />
                 </div>
                 <div class="col-md-9">
                   <p class="resource">
@@ -3413,23 +3425,23 @@
             <div class="container-fluid mt-4 pr-4">
               <div class="row">
                 <div class="col text-center">
-                  <img class="w-25 m-4 mobile-img" src="img/background/additional_information/sponsors/armstrong.png "/>
-                  <img class="w-25 m-4 mobile-img" src="img/background/additional_information/sponsors/axis.png"/>
-                      <img class="w-25 m-4 mobile-img" src="img/background/additional_information/sponsors/cree.png"/>
+                  <img data-src="img/background/additional_information/sponsors/armstrong.png" class="lazy-load enlarge w-25 m-4 mobile-img" />
+                  <img data-src="img/background/additional_information/sponsors/axis.png" class="lazy-load enlarge w-25 m-4 mobile-img" />
+                  <img data-src="img/background/additional_information/sponsors/cree.png" class="lazy-load enlarge w-25 m-4 mobile-img" />
                 </div>
               </div>
               <div class="row">
                 <div class="col text-center">
-                  <img class="w-25 m-4 mobile-img" src="img/background/additional_information/sponsors/current.png"/>
-                  <img class="w-25 m-4 mobile-img" src="img/background/additional_information/sponsors/ketra.png"/>
-                                    <img class="w-25 m-4 mobile-img" src="img/background/additional_information/sponsors/ledvance.png"/>
+                  <img data-src="img/background/additional_information/sponsors/current.png" class="lazy-load enlarge w-25 m-4 mobile-img" />
+                  <img data-src="img/background/additional_information/sponsors/ketra.png" class="lazy-load enlarge w-25 m-4 mobile-img" />
+                  <img data-src="img/background/additional_information/sponsors/ledvance.png" class="lazy-load enlarge w-25 m-4 mobile-img" />
                 </div>
               </div>
               <div class="row">
                 <div class="col text-center">
-                  <img class="w-25 m-4 mobile-img" src="img/background/additional_information/sponsors/niosh.png"/>
-                  <img class="w-25 m-4 mobile-img" src="img/background/additional_information/sponsors/osram.png"/>
-                  <img class="w-25 m-4 mobile-img" src="img/background/additional_information/sponsors/usai.png"/>
+                  <img data-src="img/background/additional_information/sponsors/niosh.png" class="lazy-load lazy-load lazy-load enlarge w-25 m-4 mobile-img" />
+                  <img data-src="img/background/additional_information/sponsors/osram.png" class="lazy-load lazy-load enlarge w-25 m-4 mobile-img" />
+                  <img data-src="img/background/additional_information/sponsors/usai.png" class="lazy-load enlarge w-25 m-4 mobile-img" />
                 </div>
               </div>
             </div>
@@ -3460,8 +3472,8 @@
         </div>
       </div>
     </div>
-
     <script src="js/accordion.js"></script>
+
 
   </body>
 </html>

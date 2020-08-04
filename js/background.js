@@ -64,7 +64,7 @@ function assignGlossaryTerms(){
     id = $(this).attr("data-termID");
     $(this).attr('data-toggle', 'tooltip');
     $(this).attr('data-html', 'true');
-    $(this).attr('title', glossaryJSON[id].definition);
+    $(this).attr('title', "<span class='term-text'>Definition: </span>" + glossaryJSON[id].definition);
   });
 }
 
@@ -120,7 +120,7 @@ function assignReferences(){
     $(this).attr('href', '#reference-' + id);
     $(this).attr('data-toggle', 'tooltip');
     $(this).attr('data-html', 'true');
-    $(this).attr('title', refJSON[id]);
+    $(this).attr('title', "<span class='ref-text'>Reference: </span>" + refJSON[id]);
     if (id in references){
       $(this).html('[' +references[id]+']');
     }else{
@@ -199,12 +199,30 @@ function helpMenuItems(){
   });
 }
 
+function enlargeModalExit(){
+  $("#enlarge_modal").on("click",function(){
+    $('#enlarge_modal').modal('hide');
+  })
+}
+
+function handleImageEnlarge(){
+  $("img.enlarge").on("click",function(){
+    var src = $(this).attr('src')
+    $("#img_enlarge").html('<figure class="w-auto"><img src="'+src+'" class="text-center enlarged"/></figure>');
+    $('#enlarge_modal').modal('show');
+  });
+  enlargeModalExit();
+}
+
 $(document).ready(async function(){
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
    mobile = true;
   }
 
   ajaxWarning();
+
+  let images = document.querySelectorAll(".lazy-load");
+  lazyload(images);
 
   await getRefJSON();
 
@@ -225,4 +243,6 @@ $(document).ready(async function(){
   backToTop();
 
   helpMenuItems();
+
+  handleImageEnlarge();
 });
