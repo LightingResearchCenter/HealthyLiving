@@ -33,7 +33,8 @@
       "notes" : {
           "1" : "B: Gave references and glossary terms unique colors",
           "2" : "B: Added Functionality to fullscreen images on click",
-          "3" : "B: Lazy loaded images in order to improve load times"
+          "3" : "B: Lazy loaded images in order to improve load times",
+          "4" : "B: Content updates in sections: Fundamentals -> Light and the Circadian System"
       }
     }
   }
