@@ -1,7 +1,7 @@
 /*jshint esversion: 8 */
 /*jshint -W030 */
 /*jshint -W083 */
-var refJSON, glossaryJSON, releaseJSON, references = {};
+var refJSON, glossaryJSON, releaseJSON, references = {}, mobile = false;
 
 function ajaxWarning(){
   $.ajaxSetup({beforeSend: function(xhr){
@@ -215,6 +215,10 @@ function handleImageEnlarge(){
 }
 
 $(document).ready(async function(){
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+   mobile = true;
+  }
+
   ajaxWarning();
 
   let images = document.querySelectorAll(".lazy-load");
