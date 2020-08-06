@@ -214,6 +214,16 @@ function handleImageEnlarge(){
   enlargeModalExit();
 }
 
+function handleWindowResize(){
+  window.onresize = function(){
+    var scrolled = $("html").scrollTop();
+    var bannerHeight = $(".banner").innerHeight()
+    if (scrolled >= bannerHeight - 100){
+      $("html").scrollTop(bannerHeight);
+    }
+  }
+}
+
 $(document).ready(async function(){
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
    mobile = true;
@@ -245,4 +255,6 @@ $(document).ready(async function(){
   helpMenuItems();
 
   handleImageEnlarge();
+
+  handleWindowResize();
 });

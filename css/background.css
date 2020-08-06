@@ -28,7 +28,6 @@ html {
 }
 
 html, body {
-  min-height: 100%;
   scrollbar-width: none;
   -ms-overflow-style: none;
   overflow: -moz-scrollbars-none;
