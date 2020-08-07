@@ -121,44 +121,42 @@ $('.acnav__link').on('click',function(){
 });
 
 $(document).ready(function(){
-	  $('#content').scroll(function(event){
-	    var scrollPos = $('#content').scrollTop();
-	    var sections = [];
-	    var current, currentID, currentClass, accordionEl, level1Label, level1ID;
-	    $('[id^=section],[id^=subsection]').each(function(_, section) {
-	      if ($(section).position().top < 2 && $(section).position().top > (0 - $(section).outerHeight(true))){
-	        sections.push(section);
-	      }
-	    });
-	    current = $(sections[sections.length-1]);
-	    currentID = current.attr('id');
-      if (currentID == 'section-lightingAndtheCircadianSystem'){
-        $('#goodAnimation')[0].play();
-        $('#badAnimation')[0].play();
-      }else {
-        $('#goodAnimation')[0].currentTime = 0;
-        $('#goodAnimation')[0].pause();
-        $('#badAnimation')[0].currentTime = 0;
-        $('#badAnimation')[0].pause();
+  $(window).scroll(function(event){
+    var scrollPos = $('.content').scrollTop();
+    var currentSection, currentID, currentClass, accordionEl, level1Label, level1ID;
+    $('[id^=section],[id^=subsection]').each(function(_, section) {
+      if ($(section)[0].getBoundingClientRect().top < navOffset && $(section)[0].getBoundingClientRect().top > (0 - $(section).outerHeight(true))){
+        currentSection = $(section);
       }
-			currentClass = current.attr('class');
-			if (currentClass == 'row'){
-				level1ID = current.parent().parent().attr('class').replace('article-', '');
-			}else{
-				level1ID = currentClass.replace('article-', '');
-			}
-			level1Label = $('#' + level1ID).children('.acnav__label');
-			level1Label.trigger('click');
+    });
+    currentID = $(currentSection).attr('id');
+    if (currentID == 'section-lightingAndtheCircadianSystem'){
+      $('#goodAnimation')[0].play();
+      $('#badAnimation')[0].play();
+    }else {
+      $('#goodAnimation')[0].currentTime = 0;
+      $('#goodAnimation')[0].pause();
+      $('#badAnimation')[0].currentTime = 0;
+      $('#badAnimation')[0].pause();
+    }
+		currentClass = currentSection.attr('class');
+		if (currentClass == 'row'){
+			level1ID = currentSection.parent().parent().attr('class').replace('article-', '');
+		}else{
+			level1ID = currentClass.replace('article-', '');
+		}
+		level1Label = $('#' + level1ID).children('.acnav__label');
+		level1Label.trigger('click');
 
-	    accordionEl = $('a[href="#'+currentID+'"]');
-			if (accordionEl.hasClass('acnav__link--level2')){
-				closeAllLevel2();
-			}else if(accordionEl.hasClass('drop')){
-				var label = accordionEl.children('.acnav__label');
-				closeOthersLevel2(label);
-				openLevel2(label);
-			}
-	    removeAccordionActive();
-	    accordionEl.addClass('active');
-	  });
+    accordionEl = $('a[href="#'+currentID+'"]');
+		if (accordionEl.hasClass('acnav__link--level2')){
+			closeAllLevel2();
+		}else if(accordionEl.hasClass('drop')){
+			var label = accordionEl.children('.acnav__label');
+			closeOthersLevel2(label);
+			openLevel2(label);
+		}
+    removeAccordionActive();
+    accordionEl.addClass('active');
+  });
 });

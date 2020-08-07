@@ -3,6 +3,8 @@
 /*jshint -W083 */
 var refJSON, glossaryJSON, releaseJSON, references = {}, mobile = false;
 
+var navOffset;
+
 function ajaxWarning(){
   $.ajaxSetup({beforeSend: function(xhr){
     if (xhr.overrideMimeType){
@@ -214,6 +216,15 @@ function handleImageEnlarge(){
   enlargeModalExit();
 }
 
+function setNavOffset(){
+  navOffset = $("#navbar").innerHeight();
+  if($(window).width() <= 768){
+    $(".accordion").css('top','');
+  }else{
+    $(".accordion").css('top', navOffset + "px");
+  }
+}
+
 function handleWindowResize(){
   window.onresize = function(){
     var scrolled = $("html").scrollTop();
@@ -221,6 +232,7 @@ function handleWindowResize(){
     if (scrolled >= bannerHeight - 100){
       $("html").scrollTop(bannerHeight);
     }
+    setNavOffset();
   }
 }
 
@@ -228,6 +240,8 @@ $(document).ready(async function(){
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
    mobile = true;
   }
+
+  setNavOffset();
 
   ajaxWarning();
 

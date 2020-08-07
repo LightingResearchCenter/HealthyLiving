@@ -137,13 +137,37 @@
 
     <!-- Navbar -->
     <div id="navbar" class="position-fixed bb">
-        <script>
-          $('#navbar').load('navbar.html',function(){
-            $('#background-tab').addClass('active');
-            $('#application-tab').attr("href", "application.html");
-          });
-        </script>
-      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-shrink" id="mainNav">
+        <div class="container-fluid">
+          <a class="navbar-brand js-scroll-trigger d-none d-sm-block" href="https://www.lrc.rpi.edu/">Lighting Research Center</a>
+          <a class="navbar-brand js-scroll-trigger d-block d-sm-none" href="https://www.lrc.rpi.edu/">Lighting Research Center</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars fa-2x"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+              <li class="nav-item">
+                <a id="background-tab" class="nav-link js-scroll-trigger" href="#">Background</a>
+              </li>
+              <li class="nav-item">
+                <a id="application-tab" class="nav-link js-scroll-trigger" href="#">Application</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Resources
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://www.lrc.rpi.edu/cscalculator/" target="_blank">CS Calculataor</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a id="help-tab" class="nav-link js-scroll-trigger" href="#" data-toggle="modal" data-target="#helpModal">Help</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
 
     <!-- Banner -->
     <div id="banner" class="container-fluid h-100vh overflow-hidden">
@@ -175,11 +199,11 @@
     <a id="backToTop"><i class="fas fa-angle-up fa-3x"></i></a>
 
     <!-- Everything Below Banner -->
-    <div id="contentRow-container" class="container-fluid h-100-offset mh-100-offset overflow-hidden">
-      <div id="contentRow" class="row h-100-offset mh-100-offset">
+    <div id="contentRow-container" class="container-fluid">
+      <div id="contentRow" class="row">
 
         <!-- Accordion -->
-        <div class="col-xl-3 col-lg-4 col-md-5 col-sm-12 p-0 accordion h-100-offset">
+        <div class="col-xl-3 col-lg-4 col-md-5 col-sm-12 p-0 accordion h-100-offset sticky sticky-offset">
           <div class="jquery-accordion-menu">
             <nav class="acnav">
               <a class="d-block d-md-none accordion-title-a" data-toggle="collapse" href="#accordionCollapse" role="button" aria-expanded="true" aria-controls="accordionCollapse">
@@ -608,12 +632,12 @@
         </div>
 
         <!-- Main Content -->
-        <div id="content" class="col-xl-9 col-lg-8 col-md-7 col-sm-12 p-0 mb-2 h-100-plus-offset overflow-auto">
+        <div id="content" class="col-xl-9 col-lg-8 col-md-7 col-sm-12 p-0">
 
 
           <!-- Fundamentals -->
           <article id="section-ourRole" class="article-fundamentals">
-            <div class="section-title text-center">
+            <div class="section-title first-section-title text-center">
               <h2>Our Role</h2>
             </div>
             <div class="container-fluid mt-4 pr-4 article-content">

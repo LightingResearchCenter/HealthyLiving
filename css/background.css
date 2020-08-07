@@ -229,7 +229,10 @@ div.tooltip-inner{
   position: -ms-sticky;
   position: -o-sticky;
   position: sticky;
-  top: 0;
+}
+
+.sticky-offset {
+  top: 61px;
 }
 
 .middle {
@@ -507,6 +510,10 @@ hr {
 .section-title {
   background-color: #fff;
   border-bottom: 2px solid #383838;
+  padding-top: 62px;
+}
+
+.first-section-title{
   padding-top: 0.25rem;
 }
 
@@ -763,5 +770,12 @@ hr {
     line-height: 4rem;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .sticky{
+    position: fixed;
+  }
+  .sticky-offset{
+    top: auto;
   }
 }
