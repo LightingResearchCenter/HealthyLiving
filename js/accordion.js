@@ -129,34 +129,36 @@ $(document).ready(function(){
         currentSection = $(section);
       }
     });
-    currentID = $(currentSection).attr('id');
-    if (currentID == 'section-lightingAndtheCircadianSystem'){
-      $('#goodAnimation')[0].play();
-      $('#badAnimation')[0].play();
-    }else {
-      $('#goodAnimation')[0].currentTime = 0;
-      $('#goodAnimation')[0].pause();
-      $('#badAnimation')[0].currentTime = 0;
-      $('#badAnimation')[0].pause();
-    }
-		currentClass = currentSection.attr('class');
-		if (currentClass == 'row'){
-			level1ID = currentSection.parent().parent().attr('class').replace('article-', '');
-		}else{
-			level1ID = currentClass.replace('article-', '');
-		}
-		level1Label = $('#' + level1ID).children('.acnav__label');
-		level1Label.trigger('click');
+		if (currentSection){
+			currentID = $(currentSection).attr('id');
+			if (currentID == 'section-lightingAndtheCircadianSystem'){
+				$('#goodAnimation')[0].play();
+				$('#badAnimation')[0].play();
+			}else {
+				$('#goodAnimation')[0].currentTime = 0;
+				$('#goodAnimation')[0].pause();
+				$('#badAnimation')[0].currentTime = 0;
+				$('#badAnimation')[0].pause();
+			}
+			currentClass = currentSection.attr('class');
+			if (currentClass == 'row'){
+				level1ID = currentSection.parent().parent().attr('class').replace('article-', '');
+			}else{
+				level1ID = currentClass.replace('article-', '');
+			}
+			level1Label = $('#' + level1ID).children('.acnav__label');
+			level1Label.trigger('click');
 
-    accordionEl = $('a[href="#'+currentID+'"]');
-		if (accordionEl.hasClass('acnav__link--level2')){
-			closeAllLevel2();
-		}else if(accordionEl.hasClass('drop')){
-			var label = accordionEl.children('.acnav__label');
-			closeOthersLevel2(label);
-			openLevel2(label);
+			accordionEl = $('a[href="#'+currentID+'"]');
+			if (accordionEl.hasClass('acnav__link--level2')){
+				closeAllLevel2();
+			}else if(accordionEl.hasClass('drop')){
+				var label = accordionEl.children('.acnav__label');
+				closeOthersLevel2(label);
+				openLevel2(label);
+			}
+			removeAccordionActive();
+			accordionEl.addClass('active');
 		}
-    removeAccordionActive();
-    accordionEl.addClass('active');
   });
 });

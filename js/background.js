@@ -217,7 +217,7 @@ function handleImageEnlarge(){
 }
 
 function setNavOffset(){
-  navOffset = $("#navbar").innerHeight();
+  navOffset = $("#navbar").innerHeight() + 3;
   if($(window).width() <= 768){
     $(".accordion").css('top','');
   }else{
@@ -227,11 +227,6 @@ function setNavOffset(){
 
 function handleWindowResize(){
   window.onresize = function(){
-    var scrolled = $("html").scrollTop();
-    var bannerHeight = $(".banner").innerHeight()
-    if (scrolled >= bannerHeight - 100){
-      $("html").scrollTop(bannerHeight);
-    }
     setNavOffset();
   }
 }

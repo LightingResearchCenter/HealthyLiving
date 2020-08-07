@@ -8,6 +8,10 @@ h1 {
   height: 100vh;
 }
 
+.h-150vh{
+  height: 150vh;
+}
+
 ul {
   list-style-type: none;
 }
@@ -511,6 +515,7 @@ hr {
   background-color: #fff;
   border-bottom: 2px solid #383838;
   padding-top: 62px;
+  margin-top: -62px;
 }
 
 .first-section-title{
@@ -654,7 +659,8 @@ hr {
 }
 
 .subsection-row{
-  padding-top: 1rem;
+  padding-top: 75px;
+  margin-top: -65px;
 }
 
 #backToTop {
