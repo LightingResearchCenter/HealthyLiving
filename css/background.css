@@ -520,6 +520,7 @@ hr {
 
 .first-section-title{
   padding-top: 0.25rem;
+  margin-top: 0;
 }
 
 .right-border-large {
@@ -763,6 +764,10 @@ hr {
   }
 }
 @media only screen and (max-width: 768px) {
+  article{
+    padding-top: 69px;
+    margin-top: -69px;
+  }
   .accordion{
     position: fixed;
     bottom: 0;
