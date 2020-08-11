@@ -195,6 +195,10 @@ div.tooltip-inner{
   max-height: calc(100vh - 60px);
 }
 
+.h-100p-offset{
+  max-height: calc(100% - 60px);
+}
+
 .mh-100-offset {
   max-height: calc(100vh - 60px);
 }

@@ -143,7 +143,7 @@ async function handleReferences(){
 function backgroundButton(){
   $("#backgroundButton").on('click', function(){
     $('html,body').animate({
-      scrollTop: $('#content').offset().top - 61
+      scrollTop: $('#content').offset().top - navOffset
     }, 1200);
   });
 }
