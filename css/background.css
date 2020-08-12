@@ -199,11 +199,15 @@ div.tooltip-inner{
 }
 
 .h-100-offset {
-  max-height: calc(100vh - 60px);
+  max-height: calc(100vh - 61px);
+}
+
+.accordion-height{
+  max-height: calc(100vh - 61px);
 }
 
 .mh-100-offset {
-  max-height: calc(100vh - 60px);
+  max-height: calc(100vh - 61px);
 }
 
 .h-100-plus-offset {
@@ -787,6 +791,10 @@ hr {
     right: 0;
     left: 0;
     z-index: 1030;
+  }
+
+  .accordion-height{
+    max-height: calc(100vh - 150px);
   }
 
   .banner-title{
