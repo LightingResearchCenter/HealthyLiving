@@ -794,7 +794,7 @@ hr {
   }
 
   .accordion-height{
-    max-height: calc(100vh - 150px);
+    max-height: calc(100vh - 200px);
   }
 
   .banner-title{
@@ -807,6 +807,7 @@ hr {
   .sticky{
     position: fixed;
   }
+
   .sticky-offset{
     top: auto;
   }
