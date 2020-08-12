@@ -126,7 +126,7 @@ function assignReferences(){
     if (id in references){
       $(this).html('[' +references[id]+']');
     }else{
-      str += "<p id='reference-"+id+"' class='reference'>[" + count + "]" + " " + refJSON[id] + "</p>";
+      str += "<p id='reference-"+id+"' class='anchored reference'>[" + count + "]" + " " + refJSON[id] + "</p>";
       $(this).html('[' +count+']');
       references[id] = count;
       count++;

@@ -179,6 +179,13 @@ div.tooltip-inner{
   margin: 0;
 }
 
+.anchored::before{
+  content: "";
+  display: block;
+  height: 61px;
+  margin: -61px 0 0;
+}
+
 .h-200-offset {
   height: calc(200% - 61px);
 }
@@ -193,10 +200,6 @@ div.tooltip-inner{
 
 .h-100-offset {
   max-height: calc(100vh - 60px);
-}
-
-.h-100p-offset{
-  max-height: calc(100% - 60px);
 }
 
 .mh-100-offset {
@@ -772,6 +775,12 @@ hr {
     padding-top: 69px;
     margin-top: -69px;
   }
+
+  .anchored{
+    margin-top: -69px;
+    padding-top: 69px;
+  }
+
   .accordion{
     position: fixed;
     bottom: 0;
