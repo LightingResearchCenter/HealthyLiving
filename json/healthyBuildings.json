@@ -5285,7 +5285,7 @@
       "Standard Classroom" :
       {
         "cs graph path" : "school/standard",
-        "desc": "A typical school classroom layout can be applied to grades K-12. This 780 square foot (72 m<sup>2</sup>) classroom with a 9-foot (2.74 m0) ceiling includes 23 desks facing a white board. Although students will be facing the board most of the time, the possibility that desks can be rearranged for group work should be accounted for when ensuring CS targets are met. Lighting designs can be similar throughout grade school classrooms, however it is recommended that CS schedules be altered based on age.",
+        "desc": "A typical school classroom layout can be applied to grades K-12. This 780 square foot (72 m<sup>2</sup>) classroom with a 9-foot (2.74 m) ceiling includes 23 desks facing a white board. Although students will be facing the board most of the time, the possibility that desks can be rearranged for group work should be accounted for when ensuring CS targets are met. Lighting designs can be similar throughout grade school classrooms, however it is recommended that CS schedules be altered based on age.",
         "2x4 Troffer" :
         {
           "chart path" : "school/standard/troff",
